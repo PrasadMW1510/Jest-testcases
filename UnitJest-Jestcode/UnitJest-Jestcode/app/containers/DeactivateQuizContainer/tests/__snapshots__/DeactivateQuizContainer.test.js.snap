@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeactivateQuizContainer /> should call deactivateQuiz    1`] = `undefined`;
+
+exports[`<DeactivateQuizContainer /> should call deactivateQuiz else  1`] = `
+<div>
+  <DeactivateQuiz
+    deactivateQuiz={[Function]}
+    deactivateQuizRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [
+          "iii",
+        ],
+      }
+    }
+    showMessageLogModal={[Function]}
+  />
+</div>
+`;
+
+exports[`<DeactivateQuizContainer /> should render correctly 1`] = `
+<div>
+  <DeactivateQuiz
+    deactivateQuiz={[Function]}
+    deactivateQuizRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [],
+      }
+    }
+    showMessageLogModal={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoItemsSelectedModalContainer /> Expect to render correctly 1`] = `
+<NoItemsSelectedModal
+  data={
+    Object {
+      "data": "mockData",
+    }
+  }
+  isOpen={true}
+  onOK={[Function]}
+/>
+`;

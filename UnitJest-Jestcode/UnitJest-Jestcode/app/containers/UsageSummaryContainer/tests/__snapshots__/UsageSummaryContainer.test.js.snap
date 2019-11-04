@@ -1,0 +1,1186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsageSummaryContainer /> Component functions createColumnData 1`] = `
+Array [
+  Object {
+    "Class": Array [
+      "TestSchool1",
+    ],
+    "Common Core Code X Course I": "0",
+    "Common Core Code X Course II": "0",
+    "Common Core Code X Course III": "0",
+    "_id": Array [
+      "TestSchool1",
+    ],
+    "key": Array [
+      "TestSchool1",
+    ],
+  },
+  Object {
+    "Class": Array [
+      "TestSchool2",
+    ],
+    "Common Core Code X Course I": "0",
+    "Common Core Code X Course II": "0",
+    "Common Core Code X Course III": "0",
+    "_id": Array [
+      "TestSchool2",
+    ],
+    "key": Array [
+      "TestSchool2",
+    ],
+  },
+  Object {
+    "Class": Array [
+      "TestSchool3",
+    ],
+    "Common Core Code X Course I": "0",
+    "Common Core Code X Course II": "0",
+    "Common Core Code X Course III": "0",
+    "_id": Array [
+      "TestSchool3",
+    ],
+    "key": Array [
+      "TestSchool3",
+    ],
+  },
+]
+`;
+
+exports[`<UsageSummaryContainer /> Component functions should handle onGridHeaderClick 1`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> Component functions should handle onGridHeaderClick 2`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> Component functions should handle onGridHeaderClick 3`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> Component functions should set state to default when cohort type changes 1`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> props.usageSummary is an empty array [ Administrator ] Expect to render correctly 1`] = `
+<UsageSummary
+  data={Object {}}
+  dataKeys={Array []}
+  headers={Array []}
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Teacher",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      groupId: "1",
+    }
+  }
+  studentItems={Array []}
+  tableData={Array []}
+  title="Usage Summary"
+  totals={Array []}
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is Administrator Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "School 1": Array [
+        "0",
+        "0",
+      ],
+      "School 2": Array [
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "School 1",
+      "School 2",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "District",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Common Core Code X Course I": 0,
+        "Common Core Code X Course II": 0,
+        "Common Core Code X Course III": NaN,
+        "School": "School 1",
+        "_id": "School 1",
+        "key": "School 1",
+      },
+      Object {
+        "Common Core Code X Course I": 0,
+        "Common Core Code X Course II": 0,
+        "Common Core Code X Course III": NaN,
+        "School": "School 2",
+        "_id": "School 2",
+        "key": "School 2",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, gradeOd selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;": Array [
+        "",
+        "0",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Teacher",
+      ],
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "District",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Grade",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;",
+        "Common Core Code X Course I": "0",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": "0",
+        "Teacher": "",
+        "_id": "undefined;",
+        "key": "undefined;",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "",
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;": Array [
+        "",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Teacher",
+      ],
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "District",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "School",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;",
+        "Common Core Code X Course I": "0",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": undefined,
+        "Teacher": "",
+        "_id": "undefined;",
+        "key": "undefined;",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "",
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar should handle onGridHeaderClick 1`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar should handle onGridHeaderClick 2`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar should handle onGridHeaderClick 3`] = `[Function]`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar teacher name passed Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;jobs, steve": Array [
+        "jobs, steve",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;jobs, steve",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Teacher",
+      ],
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "District",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "School",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;jobs, steve",
+        "Common Core Code X Course I": "0",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": undefined,
+        "Teacher": "jobs, steve",
+        "_id": "undefined;jobs, steve",
+        "key": "undefined;jobs, steve",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "",
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is administrator, schoolId selected from smartbar, no classes Expect to render correctly 1`] = `
+<UsageSummary
+  data={Object {}}
+  dataKeys={Array []}
+  headers={
+    Array [
+      Array [
+        "Teacher",
+      ],
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "District",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "School",
+    }
+  }
+  studentItems={Array []}
+  tableData={Array []}
+  title="Usage Summary"
+  totals={
+    Array [
+      "",
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is empty, classId selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined, undefined": Array [
+        Array [
+          "✓",
+        ],
+        Array [
+          "",
+        ],
+        Array [
+          "",
+        ],
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined, undefined",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Class",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Common Core Code X Course I": Array [
+          "✓",
+        ],
+        "Common Core Code X Course II": Array [
+          "",
+        ],
+        "Common Core Code X Course III": Array [
+          "",
+        ],
+        "Student": "undefined, undefined",
+        "_id": "undefined, undefined",
+        "key": "undefined, undefined",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is empty, classId selected from smartbar and no students Expect to render correctly 1`] = `
+<UsageSummary
+  data={Object {}}
+  dataKeys={Array []}
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Class",
+    }
+  }
+  studentItems={Array []}
+  tableData={Array []}
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is empty, groupId selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined, undefined": Array [
+        Array [
+          "✓",
+        ],
+        Array [
+          "",
+        ],
+        Array [
+          "",
+        ],
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined, undefined",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Group",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Common Core Code X Course I": Array [
+          "✓",
+        ],
+        "Common Core Code X Course II": Array [
+          "",
+        ],
+        "Common Core Code X Course III": Array [
+          "",
+        ],
+        "Student": "undefined, undefined",
+        "_id": "undefined, undefined",
+        "key": "undefined, undefined",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is empty, studentId selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={Object {}}
+  dataKeys={Array []}
+  headers={Array []}
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Student",
+      selectedStudentId: "student01",
+    }
+  }
+  studentItems={
+    Array [
+      Object {
+        "datapoint": Immutable.List [
+          Immutable.Map {
+                label: Immutable.List [
+                      "Date Started Math180",
+                ],
+                value: Immutable.List [
+                      "7/20/2017",
+                ],
+          },
+    ],
+        "enrolled": "true",
+        "name": Immutable.List [
+          "MATH 180 Course I",
+    ],
+      },
+    ]
+  }
+  studentView="student01"
+  tableData={Array []}
+  title="Usage Summary"
+  totals={Array []}
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is school admin, no selection from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;": Array [
+        "",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "School",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;",
+        "Common Core Code X Course I": "",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": "0",
+        "_id": "undefined;",
+        "key": "undefined;",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is school admin, no selection from smartbar empty teachers Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;": Array [
+        "",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "School",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;",
+        "Common Core Code X Course I": "",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": "0",
+        "_id": "undefined;",
+        "key": "undefined;",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is school admin, no selection from smartbar with teacher name Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined;jobs, steve": Array [
+        "jobs, steve",
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined;jobs, steve",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Administrator",
+      ],
+      user_org: Immutable.List [
+        "School",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined;jobs, steve",
+        "Common Core Code X Course I": "jobs, steve",
+        "Common Core Code X Course II": "0",
+        "Common Core Code X Course III": "0",
+        "_id": "undefined;jobs, steve",
+        "key": "undefined;jobs, steve",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is teacher Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined": Array [
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Teacher",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Common Core Code X Course I": 0,
+        "Common Core Code X Course II": 0,
+        "Common Core Code X Course III": NaN,
+        "School": "undefined",
+        "_id": "undefined",
+        "key": "undefined",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> props.user_type is teacher, teacherId selected from smartbar Expect to render correctly 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined": Array [
+        Array [
+          "0",
+        ],
+        Array [
+          "0",
+        ],
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Teacher",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+      selectedCohType: "Teacher",
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Class": "undefined",
+        "Common Core Code X Course I": Array [
+          "0",
+        ],
+        "Common Core Code X Course II": Array [
+          "0",
+        ],
+        "Common Core Code X Course III": undefined,
+        "_id": "undefined",
+        "key": "undefined",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;
+
+exports[`<UsageSummaryContainer /> shouldComponentUpdate to verify the component will receive props 1`] = `
+<UsageSummary
+  data={
+    Object {
+      "undefined": Array [
+        "0",
+        "0",
+      ],
+    }
+  }
+  dataKeys={
+    Array [
+      "undefined",
+    ]
+  }
+  headers={
+    Array [
+      Array [
+        "Common Core Code X Course I",
+      ],
+      Array [
+        "Common Core Code X Course II",
+      ],
+      Array [
+        "Common Core Code X Course III",
+      ],
+    ]
+  }
+  loginData={
+    Immutable.Map {
+      user_type: Immutable.List [
+        "Teacher",
+      ],
+    }
+  }
+  onGridHeaderClick={[Function]}
+  selectedCell={
+    Object {
+      "columnIndex": 0,
+      "rowIndex": 0,
+    }
+  }
+  smartBarSelections={
+    Immutable.Map {
+    }
+  }
+  studentItems={Array []}
+  tableData={
+    Array [
+      Object {
+        "Common Core Code X Course I": 0,
+        "Common Core Code X Course II": 0,
+        "Common Core Code X Course III": NaN,
+        "School": "undefined",
+        "_id": "undefined",
+        "key": "undefined",
+      },
+    ]
+  }
+  title="Usage Summary"
+  totals={
+    Array [
+      "0",
+      "0",
+      "0",
+    ]
+  }
+/>
+`;

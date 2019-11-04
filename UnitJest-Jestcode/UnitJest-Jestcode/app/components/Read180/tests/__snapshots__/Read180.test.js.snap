@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180 /> Expect to render component 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180"
+    isOpen={true}
+    modalClassModifier="modal-modal--read180ng-modal"
+  >
+    <center>
+      <div
+        className="iread-modal-buttons-firstset"
+      >
+        <div
+          className="pager"
+        >
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+               
+              &lt;
+               
+            </a>
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            NaN
+             
+          </div>
+          <div
+            className="pager-nor"
+          >
+             of 
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            3
+             
+          </div>
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+               
+              &gt;
+               
+            </a>
+          </div>
+        </div>
+      </div>
+    </center>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Read180 /> Expect to render component 2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180"
+    isOpen={true}
+    modalClassModifier="modal-modal--read180ng-modal"
+  >
+    <center>
+      <div
+        className="iread-modal-buttons-firstset"
+      >
+        <div
+          className="pager"
+        >
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+               
+              &lt;
+               
+            </a>
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            NaN
+             
+          </div>
+          <div
+            className="pager-nor"
+          >
+             of 
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            3
+             
+          </div>
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+               
+              &gt;
+               
+            </a>
+          </div>
+        </div>
+      </div>
+    </center>
+  </SAMModal>
+</div>
+`;

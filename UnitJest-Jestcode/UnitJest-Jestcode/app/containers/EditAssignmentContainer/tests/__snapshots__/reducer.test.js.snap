@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search Result Details Container Reducer should handle CLEAR_RESPONSE_STATUS 1`] = `
+Immutable.Map {
+  respAssignmentData: null,
+  studentDetails: Immutable.List [
+  ],
+  saveAssignmentSuccess: null,
+  deleteAssignmentSucess: null,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle CLEAR_STATE 1`] = `
+Immutable.Map {
+  respAssignmentData: null,
+  studentDetails: Array [],
+  saveAssignmentSuccess: null,
+  deleteAssignmentSucess: null,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle DELETE_ASSIGNMENT_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  respAssignmentData: null,
+  studentDetails: Immutable.List [
+  ],
+  saveAssignmentSuccess: null,
+  deleteAssignmentSucess: Object {},
+}
+`;
+
+exports[`search Result Details Container Reducer should handle GET_ASSIGNMENT_SUCCESS 1`] = `
+Immutable.Map {
+  respAssignmentData: Immutable.Map {
+  },
+  studentDetails: Immutable.List [
+  ],
+  saveAssignmentSuccess: null,
+  deleteAssignmentSucess: null,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle GET_STUDENTDETAIL_SUCCESS 1`] = `
+Immutable.Map {
+  respAssignmentData: null,
+  studentDetails: Object {},
+  saveAssignmentSuccess: null,
+  deleteAssignmentSucess: null,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle SAVE_ASSGINMENT_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  respAssignmentData: null,
+  studentDetails: Immutable.List [
+  ],
+  saveAssignmentSuccess: Object {},
+  deleteAssignmentSucess: null,
+}
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClearRosterModal actions should deactivateAllClassesRequest 1`] = `
+Object {
+  "type": "app/ClearRosterModalContainer/DEACTIVATE_ALL_CLASSES_REQUEST",
+}
+`;
+
+exports[`ClearRosterModal actions should deactivateAllClassesRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/ClearRosterModalContainer/DEACTIVATE_ALL_CLASSES_REQUEST_FAILURE",
+}
+`;
+
+exports[`ClearRosterModal actions should deactivateAllClassesRequestSuccess 1`] = `
+Object {
+  "type": "app/ClearRosterModalContainer/DEACTIVATE_ALL_CLASSES_REQUEST_SUCCESS",
+}
+`;

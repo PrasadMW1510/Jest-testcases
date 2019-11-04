@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/ActivateQuizContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getPreviewDataFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "app/PrintBookLabelContainer/fetching_preview_data_failure",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for printBookLabelRequest 1`] = `
+Object {
+  "bookId": Array [
+    Object {
+      "name": "bookId   1",
+    },
+  ],
+  "bookLabelPreviewData": Array [
+    Object {
+      "name": "bookLabelPreviewData   1",
+    },
+  ],
+  "type": "app/PrintBookLabelContainer/print_book_label",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for printBookLabelRequest 2`] = `
+Object {
+  "bookId": undefined,
+  "bookLabelPreviewData": undefined,
+  "type": "app/PrintBookLabelContainer/print_book_label",
+}
+`;

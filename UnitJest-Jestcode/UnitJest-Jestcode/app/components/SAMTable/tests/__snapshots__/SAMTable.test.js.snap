@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMTable /> Should render correctly 1`] = `
+<div
+  className="msg-log-table"
+>
+  <RTSelectTable
+    SelectAllInputComponent={[Function]}
+    SelectInputComponent={[Function]}
+    TbodyComponent={[Function]}
+    checkedIds={
+      Array [
+        "aaa",
+        "bbb",
+      ]
+    }
+    className="msg-log-table"
+    columns={Array []}
+    data={Array []}
+    defaultSortMethod={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    hasCheckboxes={true}
+    isSelected={[Function]}
+    keyField="_id"
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    resizable={false}
+    selectAll={false}
+    selectType="checkbox"
+    showPagination={false}
+    sortable={true}
+    toggleAll={[Function]}
+    toggleAllCheckboxes={[Function]}
+    toggleSelection={[Function]}
+  />
+</div>
+`;
+
+exports[`<SAMTable /> should return a normal body when data has length 1`] = `null`;
+
+exports[`<SAMTable /> should return a react table without checkboxes correctly 1`] = `
+<div
+  className="msg-log-table"
+>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    checkedIds={
+      Array [
+        "aaa",
+        "bbb",
+      ]
+    }
+    className="msg-log-table"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={Array []}
+    data={
+      Array [
+        Object {
+          "_id": "aaa",
+          "title": "ttt",
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPageSize={20}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    handleRowCheckboxOnChange={[Function]}
+    hasCheckboxes={false}
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageSize={0}
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    renderEmptyTable={[Function]}
+    resizable={false}
+    rowsText="rows"
+    selectAll={false}
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={false}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;

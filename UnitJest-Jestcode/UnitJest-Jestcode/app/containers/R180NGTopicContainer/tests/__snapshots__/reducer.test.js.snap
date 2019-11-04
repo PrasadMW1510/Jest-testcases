@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r180NGTopicContainerReducer should handle R180NGProgramSettings request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  loading: false,
+  r180ngTopics: Immutable.List [
+  ],
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle R180NGTopic installed stage update  Info request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  r180ngTopics: Immutable.List [
+  ],
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "stage",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle R180NGTopic request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  r180ngTopics: Immutable.Map {
+    topic_cd: Immutable.List [
+      Immutable.Map {
+      },
+    ],
+  },
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle R180NGTopicsInstalledStagesRequest Info request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  r180ngTopics: Immutable.List [
+  ],
+  r180ngTopicsInstalledStages: Immutable.Map {
+  },
+  r180ngActiveSelectedStage: "",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle R180NGTopicsSettings request failure actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  r180ngTopics: Immutable.List [
+  ],
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle R180NGTopicsSettings request failure actions 2`] = `
+Immutable.Map {
+  error: "err",
+  loading: false,
+  r180ngTopics: Immutable.List [
+  ],
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "",
+}
+`;
+
+exports[`r180NGTopicContainerReducer should handle update R180NGTopic request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  r180ngTopics: Immutable.Map {
+    topic_cd: Immutable.List [
+      Immutable.Map {
+      },
+    ],
+  },
+  r180ngTopicsInstalledStages: Immutable.List [
+  ],
+  r180ngActiveSelectedStage: "",
+}
+`;

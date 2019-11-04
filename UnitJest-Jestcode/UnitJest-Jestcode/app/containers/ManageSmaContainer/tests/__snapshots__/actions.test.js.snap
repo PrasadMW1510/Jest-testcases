@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageSmaContainer Actions Getting media server request Should return the correct constant for getMediaServersRequest 1`] = `
+Object {
+  "type": "ManageSmaContainer/GET_MEDIA_SERVERS_REQUEST",
+}
+`;
+
+exports[`ManageSmaContainer Actions Getting media server request Should return the correct constant for handleMediaServersRequestFailure 1`] = `
+Object {
+  "error": Object {},
+  "subType": "ManageSmaContainer/GET_MEDIA_SERVERS_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`ManageSmaContainer Actions Getting media server request Should return the correct constant for handleMediaServersRequestSuccess 1`] = `
+Object {
+  "mediaServers": Object {},
+  "type": "ManageSmaContainer/GET_MEDIA_SERVERS_REQUEST_SUCCESS",
+}
+`;

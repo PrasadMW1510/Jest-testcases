@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Class 1`] = `
+Object {
+  "params": Object {
+    "class_id": "mockClassId",
+    "command": "get_enrollment_count",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsClass",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is District 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "district_id": "mockDistrictId",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsDistrict",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Grade userOrgType is District 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "grade": "mockGradeId",
+    "school_id": "mockSchoolId",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsGrade",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Grade userOrgType is School 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "grade": "mockGradeId",
+    "school_id": "mockUserOrgId",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsGrade",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Group 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "group_id": "mockGroupId",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsGroup",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is School 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "school_id": "mockSchoolId",
+    "sid": "mockSessionId",
+  },
+  "url": "/SlmsSchool",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Student 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "sid": "mockSessionId",
+    "user_id": "mockStudentId",
+  },
+  "url": "/SlmsStudent",
+}
+`;
+
+exports[`programSettingsUtils createEnrollmentURLObj cohortType is Teacher 1`] = `
+Object {
+  "params": Object {
+    "command": "get_enrollment_count",
+    "sid": "mockSessionId",
+    "user_id": "mockTeacherId",
+  },
+  "url": "/SlmsTeacher",
+}
+`;

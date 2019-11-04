@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RSkillsSettingContainer actions should return the correct constant for RSkillsCCTestAssignmentSaveRequestFailure 1`] = `
+Object {
+  "error": "mock Error",
+  "subType": "RSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for RSkillsCCTestAssignmentSaveRequestSuccess 1`] = `
+Object {
+  "results": Object {
+    "results": "mockResults",
+  },
+  "type": "RSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for RSkillsCCTestAssignmentSaveRequestSuccess with no params 1`] = `
+Object {
+  "results": Object {},
+  "type": "RSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsSaveRequest 1`] = `
+Object {
+  "data": Object {
+    "test": 1,
+  },
+  "type": "RSKILLSCC_SETTINGS_SAVE_REQUEST",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsSaveRequestFailure 1`] = `
+Object {
+  "error": "mock Error",
+  "subType": "RSKILLSCC_SETTINGS_SAVE_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsSaveRequestSuccess 1`] = `
+Object {
+  "type": "RSKILLSCC_SETTINGS_SAVE_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsTestAssignmentRequest 1`] = `
+Object {
+  "type": "RSKILLSCC_SETTINGS_TEST_ASSIGNMENT_REQUEST",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsTestAssignmentRequestFailure 1`] = `
+Object {
+  "error": "mock Error",
+  "subType": "RSKILLSCC_SETTINGS_TEST_ASSIGNMENT_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsTestAssignmentRequestSuccess 1`] = `
+Object {
+  "programSettings": "mockProgramSettings",
+  "testAssignmentMeta": "mockTestAssignmentMeta",
+  "type": "RSKILLSCC_SETTINGS_TEST_ASSIGNMENT_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCSettingsTestAssignmentRequestSuccess with no params 1`] = `
+Object {
+  "programSettings": Object {},
+  "testAssignmentMeta": Object {},
+  "type": "RSKILLSCC_SETTINGS_TEST_ASSIGNMENT_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant for rSkillsCCTestAssignmentSaveRequest 1`] = `
+Object {
+  "data": Object {
+    "test": 1,
+  },
+  "type": "RSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant got rSkillsCCDefaultSettingsRequest 1`] = `
+Object {
+  "type": "RSKILLSCC_DEFAULT_SETTINGS_REQUEST",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant got rSkillsCCDefaultSettingsRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "subType": "RSKILLSCC_DEFAULT_SETTINGS_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant got rSkillsCCDefaultSettingsRequestSuccess 1`] = `
+Object {
+  "defaultProgramSettings": Object {
+    "settings": "mockSettings",
+  },
+  "type": "RSKILLSCC_DEFAULT_SETTINGS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`RSkillsSettingContainer actions should return the correct constant got rSkillsCCDefaultSettingsRequestSuccess with no params 1`] = `
+Object {
+  "defaultProgramSettings": Object {},
+  "type": "RSKILLSCC_DEFAULT_SETTINGS_REQUEST_SUCCESS",
+}
+`;

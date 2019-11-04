@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormErrors /> default props are set expect to match snapshot 1`] = `
+<div
+  className="form-errors"
+/>
+`;
+
+exports[`<FormErrors /> shouldShowErrors behaves correctly prop provided as false matches snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+/>
+`;
+
+exports[`<FormErrors /> shouldShowErrors behaves correctly prop provided as true matches snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+>
+  <div
+    className="form-errors-item"
+    key="email"
+  >
+    email mock submit error
+  </div>
+</div>
+`;
+
+exports[`<FormErrors /> shouldShowErrors behaves correctly prop provided as undefined matches snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+/>
+`;
+
+exports[`<FormErrors /> submitErrors and validationErrors are set expect to match snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+>
+  <div
+    className="form-errors-item"
+    key="email"
+  >
+    email mock submit error
+  </div>
+  <div
+    className="form-errors-item"
+    key="user_name"
+  >
+    username mock validation error
+  </div>
+</div>
+`;
+
+exports[`<FormErrors /> submitErrors are set expect to match snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+>
+  <div
+    className="form-errors-item"
+    key="email"
+  >
+    email mock submit error
+  </div>
+</div>
+`;
+
+exports[`<FormErrors /> validationErrors are set expect to match snapshot 1`] = `
+<div
+  className="form-errors mockClassModifier"
+>
+  <div
+    className="form-errors-item"
+    key="user_name"
+  >
+    username mock validation error
+  </div>
+</div>
+`;

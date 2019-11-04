@@ -1,0 +1,72 @@
+.tab-bar__tab {
+  align-items: center;
+  border: 0;
+  display: inline-flex;
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  width: 170px;
+
+  // Active and last item are always in full view
+  &.tab-bar__tab--active,
+  &:last-child {
+    width: 180px;
+  }
+
+  // Create Borders
+  &::after {
+    content: '';
+    position: absolute;
+    background: #000;
+    height: 32px;
+    left: 0;
+    top: 0;
+    width: 2px;
+    z-index: 9;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    border: 2px #000 solid;
+    box-sizing: border-box;
+    height: 32px;
+    left: -16px;
+    top: 0;
+    transform: skew(32deg);
+    width: 186px;
+    z-index: 0; // So text is above bg color
+  }
+
+  .tab-bar__text {
+    color: #000;
+    font-weight: 700;
+    line-height: 26px; // Matches icon image height
+    padding: 0 16px;
+    position: relative;
+  }
+}
+
+.tab-bar__tab--active {
+  &::before {
+    border-bottom: 0;
+  }
+}
+
+.tab-bar__tab--active ~ .tab-bar__tab {
+  left: -10px;
+}
+
+.tab-bar__tab--active + .tab-bar__tab {
+  &::after {
+    height: 19px;
+  }
+
+  &::before {
+    border-left: 0;
+    left: 0;
+    width: 170px;
+  }
+}

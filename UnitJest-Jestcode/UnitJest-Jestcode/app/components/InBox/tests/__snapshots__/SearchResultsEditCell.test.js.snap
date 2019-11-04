@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultsEditCell /> Should render as expected 1`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="M180"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 2`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="M180Y2"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 3`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="mSkills Assessment"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 4`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="mSkills Assessment"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 5`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="S44JR"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 6`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="R180NG"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 7`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="S44NG"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchResultsEditCell /> Should render as expected 8`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="RTNG"
+      className="inboxprogram-coursebutton"
+      src="IMAGE_MOCK"
+    />
+  </button>
+</div>
+`;

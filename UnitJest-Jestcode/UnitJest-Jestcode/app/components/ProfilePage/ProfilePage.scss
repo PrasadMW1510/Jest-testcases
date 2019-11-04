@@ -1,0 +1,53 @@
+.profile-details__heading {
+  color: #ffb200;
+  font-size: 12px;
+}
+
+.profile-details__heading--text {
+  white-space: nowrap;
+  width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile-details {
+  padding-left: 10px;
+  white-space: pre-wrap;
+  float: left;
+  font-size: 11px;
+  width: 400px;
+}
+
+.profile-details__info {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.profile-details__item {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.clickable-button__item {
+  color: #00f;
+  cursor: pointer;
+  font-size: 8pt;
+  font-weight: normal;
+  text-decoration: underline;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.profile-page__content {
+  margin-top: 10px;
+  height: 150px;
+}
+
+.teacher-overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 3em;
+}

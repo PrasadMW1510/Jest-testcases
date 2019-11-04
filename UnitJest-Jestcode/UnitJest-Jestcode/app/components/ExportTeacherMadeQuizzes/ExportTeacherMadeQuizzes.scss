@@ -1,0 +1,161 @@
+.modal--export-teacher-made-quizzes {
+  height: 137px;
+  width: 253px;
+  margin: 27px 0;
+  padding: 0;
+}
+
+.modal--export-teacher-made-quizzes-no-select {
+  height: 151px;
+  width: 252px;
+  margin: 27px 0;
+  padding: 0;
+}
+
+.modal--export-teacher-made-quizzes-no-select {
+  height: 151px;
+  width: 252px;
+  margin: 27px 0;
+  padding: 0;
+}
+
+.print-export-teacher-made-quizzes__confirmtext {
+  width: 87%;
+  margin: 17px 29px;
+  font-size: 11px;
+  line-height: 1;
+  padding: 6px;
+}
+
+.print-export-teacher-made-quizzes-no-select__confirmtext {
+  width: 88%;
+  margin: 27px 14px;
+  font-size: 11px;
+  line-height: 1;
+  padding: 3px;
+  text-align: center;
+}
+
+.print-export-teacher-made-quizzes-last__confirmtext {
+  width: 88%;
+  margin: 27px 14px;
+  font-size: 11px;
+  line-height: 1;
+  padding: 3px;
+  text-align: center;
+}
+
+.print-export-teacher-made-quizzes__buttons {
+  margin: 1px 3px 1px 25px;
+}
+
+.print-export-teacher-made-quizzes__primary-button {
+  float: left;
+  margin: -5px 1px 0 47px;
+}
+
+.print-export-teacher-made-quizzes__layout {
+  background-color: #f99a59;
+  font-size: 11px;
+}
+
+.print-export-teacher-made-quizzes__layouttext {
+  margin: 5px;
+  font-size: 11px;
+}
+
+.print-custom-quiz__layout-content {
+  margin: 5px;
+  font-size: 11px;
+}
+
+.print-export-teacher-made-quizzes__boder {
+  border-top: 1px solid #f99a59;
+  width: 100%;
+}
+
+.print-export-teacher-made-quizzes__secondary-button {
+  margin: 40px;
+}
+
+.print-export-teacher-made-quizzes__primary-button-yes {
+  float: left;
+  margin: -5px 17px 0 1px;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-no {
+  float: left;
+  margin: -5px 17px 0 1px;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-ok {
+  margin: 40px;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-okay {
+  margin: 0 15px 1px 1px;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.print-export-teacher-made-quizzes__primary-button-yes .btn,
+.print-export-teacher-made-quizzes__primary-button-yes .btn--primary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.print-export-teacher-made-quizzes__primary-button-yes .btn--primary:hover {
+  border: 1px solid #000;
+
+}
+
+.print-export-teacher-made-quizzes__primary-button-yes .btn:focus,
+.print-export-teacher-made-quizzes__primary-button-yes .btn--primary:focus {
+  outline: none;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-no .btn,
+.print-export-teacher-made-quizzes__secondary-button-no .btn--secondary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-no .btn--secondary:hover {
+  border: 1px solid #000;
+
+}
+
+.print-export-teacher-made-quizzes__secondary-button-okay .btn,
+.print-export-teacher-made-quizzes__secondary-button-okay .btn--primary {
+  height: 25px;
+  min-width: 50px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #fb6042;
+  cursor: pointer;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-okay .btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.print-export-teacher-made-quizzes__secondary-button-okay .btn--primary:focus {
+  outline: none;
+}
+
+.print-export-teacher-made-quizzes-no-select__secondary-button-ok .btn,
+.print-export-teacher-made-quizzes-no-select__secondary-button-ok .btn--secondary {
+  height: 26px;
+  min-width: 55px;
+  width: auto;
+  margin: 1px 70px;
+  background-color: #fb6042;
+  cursor: pointer;
+}

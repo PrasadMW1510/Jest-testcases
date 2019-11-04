@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillsCCSettingsTab /> should render as expected 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="rskillscc-settings-tab"
+    >
+      <div
+        className="rskillscc-program-settings__section--full-width rskillscc-program-settings__section--top"
+      >
+        <div
+          className="rskillscc-program-settings__section--top-inputs"
+        >
+          <div
+            className="rskillscc-program-settings__test-experience-settings"
+          >
+            <span
+              className="rskillscc-program-settings__caption"
+            >
+              Test Experience
+            </span>
+            <div
+              className="rskillscc-program-settings__setting"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="audio_instructions"
+                checkboxText="Include audio directions"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-2",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rskillscc-program-settings__setting"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="show_correct_incorrect"
+                checkboxText="Show correct and incorrect answers"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-2",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rskillscc-program-settings__setting"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="include_open_response"
+                checkboxText="Include constructed response"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-2",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rskillscc-program-settings__setting"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="include_writing_prompts"
+                checkboxText="Include extended constructed response"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-2",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+          <div
+            className="rskillscc-program-settings__ell-settings"
+          >
+            <span
+              className="rskillscc-program-settings__caption"
+            >
+              English-Lanaguage Learner Audio Directions
+            </span>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="None"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="None"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio"
+                  id="None"
+                  key="None"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={0}
+                />
+                None
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="Haitian Creole"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="Haitian Creole"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio"
+                  id="Haitian Creole"
+                  key="Haitian Creole"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={2}
+                />
+                Haitian Creole
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="Spanish"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="Spanish"
+              >
+                <input
+                  checked={true}
+                  className="rskillscc-program-settings__radio"
+                  id="Spanish"
+                  key="Spanish"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={1}
+                />
+                Spanish
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="Hmong"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="Hmong"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio"
+                  id="Hmong"
+                  key="Hmong"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={5}
+                />
+                Hmong
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="Cantonese"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="Cantonese"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio"
+                  id="Cantonese"
+                  key="Cantonese"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={3}
+                />
+                Cantonese
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__ell-audio-instructions"
+              key="Vietnamese"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label"
+                htmlFor="Vietnamese"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio"
+                  id="Vietnamese"
+                  key="Vietnamese"
+                  name="ell_audio_instructions"
+                  onChange={[Function]}
+                  type="radio"
+                  value={4}
+                />
+                Vietnamese
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rskillscc-program-settings__section--full-width"
+      >
+        <div
+          className="rskillscc-program-settings__writing-prompt-settings"
+        >
+          <span
+            className="rskillscc-program-settings__caption"
+          >
+            Writing Prompt Settings
+          </span>
+          <div
+            className="rskillscc-program-settings__writing-prompt-settings-instructions"
+          >
+            Choose either a 4-point or 6-point rubric to grade rSkills Tests: College & Career Writing Prompts. To preview the rubrics for Open Response questions or Writing Prompts, see the SAM Resources.
+          </div>
+          <div
+            className="rskillscc-program-settings__writing-prompt-settings-rubric-container"
+          >
+            <div
+              className="rskillscc-program-settings__rubric-options"
+              key="rubric_four_id"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label rskillscc-program-settings__cursor--default"
+                htmlFor="rubric_four_id"
+              >
+                <input
+                  checked={false}
+                  className="rskillscc-program-settings__radio  rskillscc-program-settings__cursor--default"
+                  disabled={true}
+                  id="rubric_four_id"
+                  key="rubric_four_name"
+                  name="writing_rubric"
+                  onChange={[Function]}
+                  type="radio"
+                  value={1}
+                />
+                4 point rubric
+              </label>
+            </div>
+            <div
+              className="rskillscc-program-settings__rubric-options"
+              key="rubric_six_id"
+            >
+              <label
+                className="rskillscc-program-settings__radio-label rskillscc-program-settings__cursor--default"
+                htmlFor="rubric_six_id"
+              >
+                <input
+                  checked={true}
+                  className="rskillscc-program-settings__radio  rskillscc-program-settings__cursor--default"
+                  disabled={true}
+                  id="rubric_six_id"
+                  key="rubric_six_name"
+                  name="writing_rubric"
+                  onChange={[Function]}
+                  type="radio"
+                  value={0}
+                />
+                6 point rubric
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="rskillscc-program-settings__program-setting-buttons-container"
+    >
+      <ProgramSettingsButtons
+        restoreDefaultHandler={[Function]}
+        saveAndReturnHandler={[Function]}
+        setInitialValuesHandler={[Function]}
+        showRestoreDefaults={true}
+        stateResult={true}
+        suppressSaveAndReturnRedirect={true}
+      />
+    </div>
+  </React.Fragment>
+</form>
+`;
+
+exports[`<RSkillsCCSettingsTab /> when isLoading is true should render a LoadingBar 1`] = `
+<div
+  className="rskillscc-settings-tab"
+>
+  <LoadingBar />
+</div>
+`;

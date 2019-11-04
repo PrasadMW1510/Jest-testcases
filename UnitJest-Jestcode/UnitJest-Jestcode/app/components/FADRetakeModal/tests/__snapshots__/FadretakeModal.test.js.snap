@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FADRetakeModal /> Expect to render as expected 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="fad-retake-modal"
+>
+  <div
+    className="fad-retake-modal__title"
+  >
+    Reset Student
+  </div>
+  <p>
+    Retaking the Final Assessment will require the selected student(s) who have already taken the Final Assessment to retake it the next time the program is used. Any prior final assessment results wil be overwritten.
+  </p>
+  <p>
+    Are you sure you want the selected student(s) to retake the Final Assessment?
+  </p>
+  <input
+    className="fad-retake-modal__orange-button"
+    onClick={[Function]}
+    type="button"
+    value="Yes"
+  />
+  <input
+    className="fad-retake-modal__grey-button"
+    onClick={[Function]}
+    type="button"
+    value="No"
+  />
+</SAMModal>
+`;

@@ -1,0 +1,134 @@
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-background-color: #fed330;
+$thead-clicked-color: #404000;
+$odd-table-row-background-color: #feeea3;
+$even-table-row-background-color: #feeea3;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.permissions-granted-table__allow > .ReactTable {
+  line-height: 1px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.permissions-granted-table__view > .ReactTable {
+  line-height: 1px;
+  overflow: hidden;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.permissions-granted-table > .ReactTable {
+  font-size: 12px;
+  border: initial;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    height: 24px;
+    font-weight: bold;
+  }
+
+  .rt-th {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: initial;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+    border-left: inherit;
+    overflow: hidden;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+
+  .rt-tr-group {
+    flex: initial;
+    height: 24px;
+  }
+
+  .rt-table {
+    height: initial;
+  }
+
+  // styles for custom elements within SAMTable
+  .permissions-granted-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+
+  .permissions-granted-table__top-check {
+    // Check Icon
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyODU0NTk0N0ZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyODU0NTk0OEZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4NTQ1OTQ1RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI4NTQ1OTQ2RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eRcH0gAAASxJREFUeNpi/P//PwMtARMDrQGVfaAJxAuBeDkQW4PNpqIFAUD8DuRmIC4DhQ41LeiCGgzCCSihQ6EFHNDg+I/kcgZqWcAHxAeQDJ+GNX7JtIAfiE8gGb4DW4ok1wJeID6KZPhjIBbHmUJJtAAU5oeQDP8HxE54swCSBcpA7E3AgmVIhoNwDcE8BrXACohvQzX1QF2KDvrQDN9JVCaGWgDy5mskzZeBWBdJbTaa4R+BWIUUC0DAA82Qr0CcAsRmQPwDTS6V6GIILZJb0Az6A8Sf0cQ2kVTOoVnAjJa+0TGorJGjxAIQ0AHiLzgsKCa5pMaRD9KxGH4ciBmpZQEIbEAy/C8Qm5NV1+CxAJQMP0EtmEh2ZUagqMiBpiIxWlkAKthcKamOGYd8qwIgwABICdj/4N1ZdQAAAABJRU5ErkJggg==');
+    z-index: 9;
+    height: 24px;
+    width: 24px;
+    bottom: 9.5px;
+    position: relative;
+    transform: scale(0.7) translate(0%, -25%);
+    display: inline-block;
+  }
+
+  .permissions-granted-table__bottom-check {
+    // Check Icon
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyODU0NTk0N0ZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyODU0NTk0OEZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4NTQ1OTQ1RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI4NTQ1OTQ2RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eRcH0gAAASxJREFUeNpi/P//PwMtARMDrQGVfaAJxAuBeDkQW4PNpqIFAUD8DuRmIC4DhQ41LeiCGgzCCSihQ6EFHNDg+I/kcgZqWcAHxAeQDJ+GNX7JtIAfiE8gGb4DW4ok1wJeID6KZPhjIBbHmUJJtAAU5oeQDP8HxE54swCSBcpA7E3AgmVIhoNwDcE8BrXACohvQzX1QF2KDvrQDN9JVCaGWgDy5mskzZeBWBdJbTaa4R+BWIUUC0DAA82Qr0CcAsRmQPwDTS6V6GIILZJb0Az6A8Sf0cQ2kVTOoVnAjJa+0TGorJGjxAIQ0AHiLzgsKCa5pMaRD9KxGH4ciBmpZQEIbEAy/C8Qm5NV1+CxAJQMP0EtmEh2ZUagqMiBpiIxWlkAKthcKamOGYd8qwIgwABICdj/4N1ZdQAAAABJRU5ErkJggg==');
+    z-index: 9;
+    height: 24px;
+    width: 24px;
+    bottom: 9px;
+    position: relative;
+    transform: scale(0.7) translate(0%, -25%);
+    display: inline-block;
+  }
+
+  .permissions-granted-table__permission-cell {
+    position: relative;
+  }
+
+  .permissions-granted-table__permission-text {
+    position: absolute;
+    right: 0;
+  }
+
+  .permissions-granted-table__check-mark {
+    bottom: 5.1px;
+    position: relative;
+    display: inline-block;
+  }
+}

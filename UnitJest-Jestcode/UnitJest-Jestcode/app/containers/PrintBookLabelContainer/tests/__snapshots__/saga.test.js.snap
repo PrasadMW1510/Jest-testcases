@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintBookLabel Saga exportCustomQuizRequest getPreviewDataFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga exportCustomQuizRequest getPreviewDataSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga exportCustomQuizRequest getPreviewDataSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "Session123",
+      Object {
+        "GetBookLabelsPdfReq": Object {
+          "Books": Object {
+            "AllInstalledQuizzes": false,
+            "BookList": Object {
+              "BookID": Array [
+                "ggg",
+              ],
+            },
+          },
+          "DisplayOptions": Object {
+            "ShowGRL": "2",
+            "ShowLexile": "3",
+            "ShowPoints": "1",
+            "ShowReadingLevel": "showReadingLevel",
+            "SkipLabels": "Label Value",
+            "WideLabels": 0,
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga exportCustomQuizRequest getPreviewDataSuccesselse 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga exportCustomQuizRequest getPreviewDataSuccesselse 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "Session123",
+      Object {
+        "GetBookLabelsPdfReq": Object {
+          "Books": Object {
+            "AllInstalledQuizzes": false,
+            "BookList": Object {
+              "BookID": Array [
+                "ggg",
+              ],
+            },
+          },
+          "DisplayOptions": Object {
+            "ShowGRL": "2",
+            "ShowLexile": "3",
+            "ShowPoints": "1",
+            "ShowReadingLevel": "showReadingLevel",
+            "SkipLabels": "Label Value",
+            "WideLabels": 1,
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

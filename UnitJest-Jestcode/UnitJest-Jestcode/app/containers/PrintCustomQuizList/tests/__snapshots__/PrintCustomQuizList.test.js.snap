@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintCustomQuizList /> should call handleTitleClick  1`] = `
+<PrintCustomQuiz
+  data={Array []}
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  printCustomQuizRequest={[Function]}
+/>
+`;
+
+exports[`<PrintCustomQuizList /> should render correctly 1`] = `
+<PrintCustomQuiz
+  data={Array []}
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  printCustomQuizRequest={[Function]}
+/>
+`;

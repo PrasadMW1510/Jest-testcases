@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginBox /> Expect to render correctly 1`] = `
+<LoginBox
+  onPasswordHint={[Function]}
+  onSubmit={[Function]}
+>
+  <form
+    className="login"
+    onSubmit={[Function]}
+  >
+    <span
+      className="login__username"
+    >
+      <label
+        className="login__username-label"
+        htmlFor="login__username-input"
+      >
+        Username
+      </label>
+      <input
+        autoComplete="off"
+        id="login__username-input"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </span>
+    <span
+      className="login__password"
+    >
+      <label
+        className="login__password-label"
+        htmlFor="login__password-input"
+      >
+        Password
+      </label>
+      <input
+        autoComplete="off"
+        id="login__password-input"
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </span>
+    <span
+      className="login__hint"
+    >
+      <button
+        className="login__hint-text"
+        onClick={[Function]}
+        type="button"
+      >
+        Password Hint
+      </button>
+    </span>
+    <span
+      className="login__submit"
+    >
+      <input
+        className="login__button"
+        type="submit"
+        value="Sign In"
+      />
+    </span>
+  </form>
+</LoginBox>
+`;

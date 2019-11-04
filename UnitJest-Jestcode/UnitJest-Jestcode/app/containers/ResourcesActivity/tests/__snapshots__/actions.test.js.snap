@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initializeResources should return the correct constant for get Its 1`] = `
+Object {
+  "type": "get_ITS_apps",
+}
+`;
+
+exports[`initializeResources should return the correct constant for get Its failure 1`] = `
+Object {
+  "err": "invalid user",
+  "type": "get_ITS_apps_failure",
+}
+`;
+
+exports[`initializeResources should return the correct constant for get Its request 1`] = `
+Object {
+  "its": undefined,
+  "type": "get_ITS_apps_success",
+}
+`;
+
+exports[`initializeResources should return the correct constant for get Its request 2`] = `
+Object {
+  "activity": undefined,
+  "resource": Object {
+    "appId": "",
+  },
+  "type": "post_resource_type",
+}
+`;
+
+exports[`initializeResources should return the correct constant for get Its request 3`] = `
+Object {
+  "resource": Object {
+    "appId": "",
+  },
+  "type": "post_resource_type_success",
+}
+`;
+
+exports[`initializeResources should return the correct constant for get Its request 4`] = `
+Object {
+  "errResourcesBased": "error",
+  "type": "post_resource_type_failure",
+}
+`;
+
+exports[`initializeResources should return the correct constant for initializing the resources 1`] = `
+Object {
+  "app": undefined,
+  "type": "get_app_based_resource",
+}
+`;
+
+exports[`initializeResources should return the correct constant for initializing the resources failure 1`] = `
+Object {
+  "errResources": "invalid user",
+  "type": "get_app_based_resource_failure",
+}
+`;
+
+exports[`initializeResources should return the correct constant for initializing the resources request 1`] = `
+Object {
+  "resource": undefined,
+  "type": "get_app_based_resource_success",
+}
+`;
+
+exports[`initializeResources should return the updateAppSelected to redux 1`] = `
+Object {
+  "app": "DTM",
+  "type": "update_resources_app_id_selected",
+}
+`;
+
+exports[`initializeResources should return update resources search modal status  1`] = `
+Object {
+  "status": true,
+  "type": "update_resources_search_modal_status",
+}
+`;

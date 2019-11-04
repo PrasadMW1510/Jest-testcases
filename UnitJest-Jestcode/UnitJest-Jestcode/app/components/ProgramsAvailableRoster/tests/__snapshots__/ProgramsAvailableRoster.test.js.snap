@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramsAvailableRoster /> props.messages is empty array Should render correctly 1`] = `
+<div
+  className="program-available"
+>
+  <table
+    className="program-available__table"
+  >
+    <thead />
+    <tbody
+      className="program-available-table__body"
+    >
+      <tr>
+        <td>
+          No Data
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ProgramsAvailableRoster /> props.messages is not an empty array Should render correctly 1`] = `
+<div
+  className="program-available"
+>
+  <table
+    className="program-available__table"
+  >
+    <thead />
+    <tbody
+      className="program-available-table__body"
+    >
+      <ProgramAvailableRosterRow
+        key="1"
+      />
+    </tbody>
+  </table>
+</div>
+`;

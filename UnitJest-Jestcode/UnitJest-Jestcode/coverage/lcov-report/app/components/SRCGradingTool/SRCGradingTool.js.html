@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/SRCGradingTool/SRCGradingTool.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/SRCGradingTool</a> SRCGradingTool.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/109</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/51</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/21</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/43</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React,<span class="cstat-no" title="statement not covered" > { Component } from 'react';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProgramSettingsNavBar <span class="cstat-no" title="statement not covered" >from 'components/ProgramSettingsNavBar';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Const<span class="cstat-no" title="statement not covered" >ants from './constants'</span>;<span class="cstat-no" title="statement not covered" ></span>
+import TabQuizScoreRecordingTool <span class="cstat-no" title="statement not covered" >from './TabQuizScoreRecordingTool';<span class="cstat-no" title="statement not covered" ></span></span>
+import TabPointsRecordingTool <span class="cstat-no" title="statement not covered" >from './TabPointsRecordingTool';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import './SRCGradingTool.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class SRCGradingT<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >oo</span>l extends Component {<span class="cstat-no" title="statement not covered" ></span></span>
+  construct<span class="fstat-no" title="function not covered" >or(props) {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+    super(pr<span class="cstat-no" title="statement not covered" >ops);</span>
+    this.state = {
+      activeTab: Constants.TAB_QUIZ_SCORE_RECORDING_TOOL,
+      quizScoreData: [],
+      isolateTab: false,
+      quizzesToRemove: [],
+    };
+  }
+&nbsp;
+  componentDidUpdate = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const { scoreD<span class="cstat-no" title="statement not covered" >ata } = this.props;</span>
+    co<span class="cstat-no" title="statement not covered" >nst { quizSc</span>oreData, isolate<span class="cstat-no" title="statement not covered" >Tab } = this.state;<span class="cstat-no" title="statement not covered" ></span></span>
+    const updatedScoreData = <span class="cstat-no" title="statement not covered" >[];</span>
+    if<span class="cstat-no" title="statement not covered" > (scoreData.length !== quizScoreData.length &amp;&amp; !isolateTab) {</span>
+      sc<span class="cstat-no" title="statement not covered" >oreData.forEach(sc<span class="fstat-no" title="function not covered" >or</span>eObj =&gt; {</span>
+        const newObject = <span class="cstat-no" title="statement not covered" >{</span>
+          date: scoreObj.date,
+          title: scoreObj.title,
+          lexile: scoreObj.lexile,
+          rl: scoreObj.rl,
+          '# Correct': scoreObj['# Correct'],
+          '# Questions': scoreObj['# Questions'],
+          points: scoreObj.points,
+          remove: this.renderRemoveQuizScore(scoreObj.remove, scoreObj.quizSequence),
+          id: scoreObj.id,
+        };
+        up<span class="cstat-no" title="statement not covered" >datedScoreData.push(newObject);</span>
+      });
+      th<span class="cstat-no" title="statement not covered" >is.setState({ quizScoreData: updatedScoreData });</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  unIsolateTab = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ isolateTab: false });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  removeQuizScore = (i<span class="fstat-no" title="function not covered" >d,</span> seq) =&gt; {
+    const newRemovalArray = <span class="cstat-no" title="statement not covered" >this.state.quizzesToRemove;</span>
+    const newQuizScoreData = <span class="cstat-no" title="statement not covered" >[];</span>
+    th<span class="cstat-no" title="statement not covered" >is.state.quizScoreData.forEach(sco<span class="fstat-no" title="function not covered" >re</span>Data =&gt; {</span>
+      if<span class="cstat-no" title="statement not covered" > (scoreData.id !== id) {</span>
+        ne<span class="cstat-no" title="statement not covered" >wQuizScoreData.push(scoreData);</span>
+      }
+    });
+    ne<span class="cstat-no" title="statement not covered" >wRemovalArray.push({ ID: id, sequence: seq });</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      isolateTab: true,
+      quizzesToRemove: newRemovalArray,
+      quizScoreData: newQuizScoreData,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  renderRemoveQuizScore = (i<span class="fstat-no" title="function not covered" >d,</span> seq) =&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;button
+      className="src-quiz-remove__button"
+      onClick={() =&gt; {<span class="fstat-no" title="function not covered" ></span>
+        this.r<span class="cstat-no" title="statement not covered" >emoveQuizScore(id, seq);</span>
+      }}<span class="cstat-no" title="statement not covered" ></span>
+    &gt;
+      Remove
+    &lt;/button&gt;
+  );
+&nbsp;
+  renderQuizScoreRecordingToolTab = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const {
+      enrollmentCount,
+      profileInfo,
+      quizSearchData,
+      searchForQuizzesToAdd,
+      clearSearchedQuizzes,
+      paginationData,
+      itemCount,
+      saveRemovedQuizzesRequest,
+      isLoading,
+    } <span class="cstat-no" title="statement not covered" >= this.props</span>;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span></span></span></span></span></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;TabQuizScoreRecordingTool
+        profileInfo={profileInfo}
+        enrollmentCount={enrollmentCount}
+        scoreData={this.state.quizScoreData}
+        quizSearchData={quizSearchData}
+        searchForQuizzesToAdd={searchForQuizzesToAdd}
+        clearSearchedQuizzes={clearSearchedQuizzes}
+        isolateTab={this.state.isolateTab}
+        paginationData={paginationData}
+        itemCount={itemCount}
+        saveRemovedQuizzesRequest={saveRemovedQuizzesRequest}
+        quizzesToRemove={this.state.quizzesToRemove}
+        unIsolateTab={this.unIsolateTab}
+        isLoading={isLoading}
+      /&gt;
+    );
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  renderPointsRecordingToolTab = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { enroll</span>mentCount, profile<span class="cstat-no" title="statement not covered" >Info, pointsData } = this.pro</span>ps;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;TabPointsRecordingTool
+        profileInfo={profileInfo}
+        enrollmentCount={enrollmentCount}
+        pointsData={pointsData}
+      /&gt;
+    );
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+&nbsp;
+  render() {
+    const tabs = <span class="cstat-no" title="statement not covered" >[</span>
+      {
+        renderFunction: this.renderQuizScoreRecordingToolTab,
+        ...Constants.TAB_QUIZ_SCORE_RECORDING_TOOL,
+      },
+      {
+        renderFunction: this.renderPointsRecordingToolTab,
+        ...Constants.TAB_POINTS_RECORDING_TOOL,
+      },
+    ];
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div&gt;
+        &lt;div className="src-grading-tools-description"&gt;
+          &lt;span&gt;Use the options below to enter offline quiz results and to redeem points.&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;ProgramSettingsNavBar tabs={tabs} isolateTab={this.state.isolateTab} /&gt;;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >SRCGradingTool.propTypes = {</span>
+  enrollmentCount: PropTypes.number.isRequired,
+  profileInfo: PropTypes.object.isRequired,
+  scoreData: PropTypes.array.isRequired,
+  pointsData: PropTypes.object.isRequired,
+  quizSearchData: PropTypes.array,
+  searchForQuizzesToAdd: PropTypes.func.isRequired,
+  clearSearchedQuizzes: PropTypes.func.isRequired,
+  paginationData: PropTypes.object,
+  itemCount: PropTypes.string,
+  saveRemovedQuizzesRequest: PropTypes.func.isRequired,
+  isLoading: PropTypes.bool.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default SRCGradingTool;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

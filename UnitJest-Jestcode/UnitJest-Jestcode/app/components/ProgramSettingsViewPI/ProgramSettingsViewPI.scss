@@ -1,0 +1,42 @@
+.pi-settings__heading {
+  font-size: 8pt;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.pi-settings__content {
+  background-color: #ffe279;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.pi-settings__quadrants1 {
+  height: 30%;
+  border: 1px solid #000;
+}
+
+.pi-settings__quadrants2 {
+  height: 70%;
+  border: 1px solid #000;
+}
+
+.pi-settings__quadrants-heading {
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 0%;
+  padding-top: 0.5%;
+  z-index: +1;
+}
+
+.pi-setting__checkbox {
+  padding-left: 10px;
+  padding-top: 0.5%;
+}

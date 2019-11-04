@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180Swcr1 /> Expect to render component 1`] = `
+<div>
+   
+  <div>
+    <div
+      className="block"
+    >
+      <div
+        className="block-one"
+      >
+        <div
+          className="block-titl"
+        >
+          Question :
+        </div>
+        <div
+          className="block-scrl-one"
+        >
+           
+          [object Object]
+           
+        </div>
+      </div>
+      <div
+        className="block-two"
+      >
+        <div
+          className="block-titl"
+        >
+          2-Points Rubric :
+        </div>
+        <div
+          className="block-scrl-two"
+        >
+          <a
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Overall score
+          </a>
+          <div
+            className="pull-right"
+          >
+            <span
+              className="valu1 active"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              0
+            </span>
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              1
+            </span>
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="block-three"
+      >
+        <div
+          className="block-titl"
+        >
+          Student Response :
+        </div>
+        <div
+          className="block-scrl-three"
+        >
+          <div
+            className="print-read180-studentwork-modal-description-textarea"
+          />
+        </div>
+        <div
+          className="block-scrl-three"
+        />
+      </div>
+      <div
+        className="block-four"
+      >
+        <div
+          className="block-titl"
+        >
+          Comments :
+        </div>
+        <textarea
+          cols={200}
+          name="comment"
+          onChange={[Function]}
+          rows={4}
+          value={Object {}}
+        />
+        <div
+          className="block-scrl-four"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Read180Swcr1 /> Expect to render component 2`] = `
+<div>
+   
+  <div>
+    <div
+      className="block"
+    >
+      <div
+        className="block-one"
+      >
+        <div
+          className="block-titl"
+        >
+          Question :
+        </div>
+        <div
+          className="block-scrl-one"
+        >
+           
+          [object Object]
+           
+        </div>
+      </div>
+      <div
+        className="block-two"
+      >
+        <div
+          className="block-titl"
+        >
+          2-Points Rubric :
+        </div>
+        <div
+          className="block-scrl-two"
+        >
+          <a
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Overall score
+          </a>
+          <div
+            className="pull-right"
+          >
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              0
+            </span>
+            <span
+              className="valu1 active"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              1
+            </span>
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="block-three"
+      >
+        <div
+          className="block-titl"
+        >
+          Student Response :
+        </div>
+        <div
+          className="block-scrl-three"
+        >
+          <div
+            className="print-read180-studentwork-modal-description-textarea"
+          />
+        </div>
+        <div
+          className="block-scrl-three"
+        />
+      </div>
+      <div
+        className="block-four"
+      >
+        <div
+          className="block-titl"
+        >
+          Comments :
+        </div>
+        <textarea
+          cols={200}
+          name="comment"
+          onChange={[Function]}
+          rows={4}
+          value={Object {}}
+        />
+        <div
+          className="block-scrl-four"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Read180Swcr1 /> Expect to render component 3`] = `
+<div>
+   
+  <div>
+    <div
+      className="block"
+    >
+      <div
+        className="block-one"
+      >
+        <div
+          className="block-titl"
+        >
+          Question :
+        </div>
+        <div
+          className="block-scrl-one"
+        >
+           
+          [object Object]
+           
+        </div>
+      </div>
+      <div
+        className="block-two"
+      >
+        <div
+          className="block-titl"
+        >
+          2-Points Rubric :
+        </div>
+        <div
+          className="block-scrl-two"
+        >
+          <a
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Overall score
+          </a>
+          <div
+            className="pull-right"
+          >
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              0
+            </span>
+            <span
+              className="valu1 false"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              1
+            </span>
+            <span
+              className="valu1 active"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="block-three"
+      >
+        <div
+          className="block-titl"
+        >
+          Student Response :
+        </div>
+        <div
+          className="block-scrl-three"
+        >
+          <div
+            className="print-read180-studentwork-modal-description-textarea"
+          />
+        </div>
+        <div
+          className="block-scrl-three"
+        />
+      </div>
+      <div
+        className="block-four"
+      >
+        <div
+          className="block-titl"
+        >
+          Comments :
+        </div>
+        <textarea
+          cols={200}
+          name="comment"
+          onChange={[Function]}
+          rows={4}
+          value={Object {}}
+        />
+        <div
+          className="block-scrl-four"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

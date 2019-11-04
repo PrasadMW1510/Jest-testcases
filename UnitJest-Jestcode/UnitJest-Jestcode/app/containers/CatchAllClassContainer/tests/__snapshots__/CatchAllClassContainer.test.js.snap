@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatchAllClassContainer Should render CatchAllClassContainer 1`] = `
+<div>
+  <CatchAllClass
+    addNewAssignment={[Function]}
+    data={Object {}}
+    getStudentDetails={[Function]}
+    getStudentsSubmissionMetadata={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    postSaveNewAssignment={[Function]}
+    postSavedData={[Function]}
+    setRead180ngAssignmentRequest={[Function]}
+  />
+</div>
+`;

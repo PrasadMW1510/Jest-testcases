@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditQuizCollectionNamesContainer to render 1`] = `
+<div>
+  <EditQuizCollectionNames
+    dropDowndata={Array []}
+    editQuizCollectionNamesContainer={
+      Object {
+        "editQuizCollectionNamesData": Array [],
+        "saveSuccess": true,
+      }
+    }
+    getEditQuizCollectionNamesDataRequest={[Function]}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    initializeQuizNameRequest={[Function]}
+    isOpen={true}
+    mockDispatch={[Function]}
+    saveStatus={true}
+  />
+</div>
+`;
+
+exports[`EditQuizCollectionNamesContainer to render 2`] = `
+<div>
+  <EditQuizCollectionNames
+    dropDowndata={Array []}
+    editQuizCollectionNamesContainer={
+      Object {
+        "editQuizCollectionNamesData": Array [],
+        "saveSuccess": true,
+      }
+    }
+    getEditQuizCollectionNamesDataRequest={[Function]}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    initializeQuizNameRequest={[Function]}
+    isOpen={true}
+    mockDispatch={[Function]}
+    saveStatus={true}
+  />
+</div>
+`;
+
+exports[`EditQuizCollectionNamesContainer to render 3`] = `null`;

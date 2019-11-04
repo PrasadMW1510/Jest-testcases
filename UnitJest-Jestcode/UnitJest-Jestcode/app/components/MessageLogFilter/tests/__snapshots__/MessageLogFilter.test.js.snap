@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageLogFilter /> Should render correctly 1`] = `
+<div
+  className="msg-log-filter"
+>
+  <span>
+    Filter by: 
+  </span>
+  <select
+    className="msg-log-filter__select"
+    onChange={[Function]}
+  >
+    <option
+      key="defaultValue"
+      value="all_prods"
+    >
+      All Products
+    </option>
+    <option
+      key="mockId1"
+      value="mockId1"
+    >
+      mockName1
+    </option>
+    <option
+      key="mockId2"
+      value="mockId2"
+    >
+      mockName2
+    </option>
+  </select>
+</div>
+`;

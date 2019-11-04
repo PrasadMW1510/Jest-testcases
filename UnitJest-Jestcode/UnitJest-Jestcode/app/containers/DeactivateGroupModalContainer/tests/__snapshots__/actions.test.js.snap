@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct Certificate Info 1`] = `
+Object {
+  "type": "deactivate_group_request",
+}
+`;
+
+exports[`should return the failure for Certificate Info 1`] = `
+Object {
+  "error": "error",
+  "type": "deactivate_group_request_failure",
+}
+`;
+
+exports[`should return the success for  Certificate Info 1`] = `
+Object {
+  "deactivateUser": Object {},
+  "type": "deactivate_group_request_success",
+}
+`;

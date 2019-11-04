@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`System 44 Student Goal Container Should call handleCloseModal 1`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should call handlePagination else 1`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should call handlePagination elseif 1`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should call handlePagination if 1`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should call handlePreview 1`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should render System44StudentGoalContainer 1`] = `
+<System44StudentGoal
+  System44StudentGoalContainer={
+    Immutable.Map {
+    }
+  }
+  clearResponseStatus={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "location": Object {
+        "pathname": "/portfolio/studentWorks",
+      },
+      "studentId": "",
+    }
+  }
+  getAllStudentGoalsRequest={[Function]}
+  getCombinedStudentGoalsData="asd"
+  getCombinedStudentGoalsRequest={[Function]}
+  getStudentSubmissionsRequest={[Function]}
+  handleCancel={[Function]}
+  handlePagination={[Function]}
+  handleSaveBehaviourGoals={[Function]}
+  handleSaveGoals={[Function]}
+  handleUpdateStudentBehaviourGoals={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  setStudentAcademicGoals={[Function]}
+  setStudentBehaviourGoals={[Function]}
+  system44StudentGoalRequest={[Function]}
+  system44studentgoalcontainer={
+    Object {
+      "getCombinedStudentGoalsData": "asd",
+    }
+  }
+  updateStudentBehaviourGoals={[Function]}
+/>
+`;
+
+exports[`System 44 Student Goal Container Should render System44StudentGoalContainer 2`] = `
+<System44StudentGoal
+  System44StudentGoalContainer={
+    Immutable.Map {
+    }
+  }
+  clearResponseStatus={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  combinedGoalsData="asd"
+  data={
+    Object {
+      "location": Object {
+        "pathname": "/portfolio/studentWork",
+      },
+      "studentId": "",
+    }
+  }
+  getAllStudentGoalsRequest={[Function]}
+  getCombinedStudentGoalsData="asd"
+  getCombinedStudentGoalsRequest={[Function]}
+  getStudentSubmissionsRequest={[Function]}
+  handleCancel={[Function]}
+  handlePagination={[Function]}
+  handleSaveBehaviourGoals={[Function]}
+  handleSaveGoals={[Function]}
+  handleUpdateStudentBehaviourGoals={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  setStudentAcademicGoals={[Function]}
+  setStudentBehaviourGoals={[Function]}
+  system44StudentGoalRequest={[Function]}
+  system44studentgoalcontainer={
+    Object {
+      "getCombinedStudentGoalsData": "asd",
+    }
+  }
+  updateStudentBehaviourGoals={[Function]}
+/>
+`;
+
+exports[`System 44 Student Goal Container Should render System44StudentGoalContainer 3`] = `
+<System44StudentGoal
+  System44StudentGoalContainer={
+    Immutable.Map {
+    }
+  }
+  clearResponseStatus={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  combinedGoalsData="asd"
+  data={
+    Object {
+      "location": Object {
+        "pathname": "/portfolio/studentGoals",
+      },
+      "studentId": "",
+    }
+  }
+  getAllStudentGoalsRequest={[Function]}
+  getCombinedStudentGoalsData="asd"
+  getCombinedStudentGoalsRequest={[Function]}
+  getStudentSubmissionsRequest={[Function]}
+  handleCancel={[Function]}
+  handlePagination={[Function]}
+  handleSaveBehaviourGoals={[Function]}
+  handleSaveGoals={[Function]}
+  handleUpdateStudentBehaviourGoals={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  setStudentAcademicGoals={[Function]}
+  setStudentBehaviourGoals={[Function]}
+  system44StudentGoalRequest={[Function]}
+  system44studentgoalcontainer={
+    Object {
+      "getCombinedStudentGoalsData": "asd",
+    }
+  }
+  updateStudentBehaviourGoals={[Function]}
+/>
+`;
+
+exports[`System 44 Student Goal Container Should render closeStudentGoalModal 1`] = `undefined`;
+
+exports[`System 44 Student Goal Container Should render closeStudentGoalModal 2`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should render handlePagination 1`] = `undefined`;
+
+exports[`System 44 Student Goal Container Should render handlePagination 2`] = `[Function]`;
+
+exports[`System 44 Student Goal Container Should render onPreview 1`] = `undefined`;
+
+exports[`System 44 Student Goal Container Should render onPreview 2`] = `[Function]`;

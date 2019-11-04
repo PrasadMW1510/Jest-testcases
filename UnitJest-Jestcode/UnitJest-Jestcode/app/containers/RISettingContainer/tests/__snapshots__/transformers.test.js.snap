@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RISettingContainer transformers proficiencyBandsToApiRepresentation should transform Form => API representation correctly 1`] = `
+Object {
+  "output": Object {
+    "output_data": Object {
+      "sri_proficiency_bands": Object {
+        "band": Array [
+          Object {
+            "enabled": Array [
+              false,
+            ],
+            "is_proficient_band": Array [
+              false,
+            ],
+            "name": Array [
+              "(no name)",
+            ],
+            "num": Array [
+              "5",
+            ],
+          },
+          Object {
+            "enabled": Array [
+              true,
+            ],
+            "grade": Array [
+              Object {
+                "high": Array [
+                  -999998,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "1",
+                ],
+              },
+              Object {
+                "high": Array [
+                  219,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "2",
+                ],
+              },
+              Object {
+                "high": Array [
+                  329,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "3",
+                ],
+              },
+              Object {
+                "high": Array [
+                  539,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "4",
+                ],
+              },
+              Object {
+                "high": Array [
+                  619,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "5",
+                ],
+              },
+              Object {
+                "high": Array [
+                  729,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "6",
+                ],
+              },
+              Object {
+                "high": Array [
+                  769,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "7",
+                ],
+              },
+              Object {
+                "high": Array [
+                  789,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "8",
+                ],
+              },
+              Object {
+                "high": Array [
+                  849,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "9",
+                ],
+              },
+              Object {
+                "high": Array [
+                  889,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "10",
+                ],
+              },
+              Object {
+                "high": Array [
+                  984,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "11",
+                ],
+              },
+              Object {
+                "high": Array [
+                  984,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "12",
+                ],
+              },
+            ],
+            "is_proficient_band": Array [
+              false,
+            ],
+            "name": Array [
+              "Below Basic",
+            ],
+            "num": Array [
+              "4",
+            ],
+          },
+          Object {
+            "enabled": Array [
+              true,
+            ],
+            "grade": Array [
+              Object {
+                "high": Array [
+                  189,
+                ],
+                "low": Array [
+                  -999998,
+                ],
+                "num": Array [
+                  "1",
+                ],
+              },
+              Object {
+                "high": Array [
+                  419,
+                ],
+                "low": Array [
+                  220,
+                ],
+                "num": Array [
+                  "2",
+                ],
+              },
+              Object {
+                "high": Array [
+                  519,
+                ],
+                "low": Array [
+                  330,
+                ],
+                "num": Array [
+                  "3",
+                ],
+              },
+              Object {
+                "high": Array [
+                  739,
+                ],
+                "low": Array [
+                  540,
+                ],
+                "num": Array [
+                  "4",
+                ],
+              },
+              Object {
+                "high": Array [
+                  829,
+                ],
+                "low": Array [
+                  620,
+                ],
+                "num": Array [
+                  "5",
+                ],
+              },
+              Object {
+                "high": Array [
+                  924,
+                ],
+                "low": Array [
+                  730,
+                ],
+                "num": Array [
+                  "6",
+                ],
+              },
+              Object {
+                "high": Array [
+                  969,
+                ],
+                "low": Array [
+                  770,
+                ],
+                "num": Array [
+                  "7",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1009,
+                ],
+                "low": Array [
+                  790,
+                ],
+                "num": Array [
+                  "8",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1049,
+                ],
+                "low": Array [
+                  850,
+                ],
+                "num": Array [
+                  "9",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1079,
+                ],
+                "low": Array [
+                  890,
+                ],
+                "num": Array [
+                  "10",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1184,
+                ],
+                "low": Array [
+                  985,
+                ],
+                "num": Array [
+                  "11",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1184,
+                ],
+                "low": Array [
+                  985,
+                ],
+                "num": Array [
+                  "12",
+                ],
+              },
+            ],
+            "is_proficient_band": Array [
+              false,
+            ],
+            "name": Array [
+              "Basic",
+            ],
+            "num": Array [
+              "3",
+            ],
+          },
+          Object {
+            "enabled": Array [
+              true,
+            ],
+            "grade": Array [
+              Object {
+                "high": Array [
+                  530,
+                ],
+                "low": Array [
+                  190,
+                ],
+                "num": Array [
+                  "1",
+                ],
+              },
+              Object {
+                "high": Array [
+                  650,
+                ],
+                "low": Array [
+                  420,
+                ],
+                "num": Array [
+                  "2",
+                ],
+              },
+              Object {
+                "high": Array [
+                  820,
+                ],
+                "low": Array [
+                  520,
+                ],
+                "num": Array [
+                  "3",
+                ],
+              },
+              Object {
+                "high": Array [
+                  940,
+                ],
+                "low": Array [
+                  740,
+                ],
+                "num": Array [
+                  "4",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1010,
+                ],
+                "low": Array [
+                  830,
+                ],
+                "num": Array [
+                  "5",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1070,
+                ],
+                "low": Array [
+                  925,
+                ],
+                "num": Array [
+                  "6",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1120,
+                ],
+                "low": Array [
+                  970,
+                ],
+                "num": Array [
+                  "7",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1185,
+                ],
+                "low": Array [
+                  1010,
+                ],
+                "num": Array [
+                  "8",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1260,
+                ],
+                "low": Array [
+                  1050,
+                ],
+                "num": Array [
+                  "9",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1335,
+                ],
+                "low": Array [
+                  1080,
+                ],
+                "num": Array [
+                  "10",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1385,
+                ],
+                "low": Array [
+                  1185,
+                ],
+                "num": Array [
+                  "11",
+                ],
+              },
+              Object {
+                "high": Array [
+                  1385,
+                ],
+                "low": Array [
+                  1185,
+                ],
+                "num": Array [
+                  "12",
+                ],
+              },
+            ],
+            "is_proficient_band": Array [
+              true,
+            ],
+            "name": Array [
+              "Proficient",
+            ],
+            "num": Array [
+              "2",
+            ],
+          },
+          Object {
+            "enabled": Array [
+              true,
+            ],
+            "grade": Array [
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  531,
+                ],
+                "num": Array [
+                  "1",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  651,
+                ],
+                "num": Array [
+                  "2",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  821,
+                ],
+                "num": Array [
+                  "3",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  941,
+                ],
+                "num": Array [
+                  "4",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1011,
+                ],
+                "num": Array [
+                  "5",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1071,
+                ],
+                "num": Array [
+                  "6",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1121,
+                ],
+                "num": Array [
+                  "7",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1186,
+                ],
+                "num": Array [
+                  "8",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1261,
+                ],
+                "num": Array [
+                  "9",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1336,
+                ],
+                "num": Array [
+                  "10",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1386,
+                ],
+                "num": Array [
+                  "11",
+                ],
+              },
+              Object {
+                "high": Array [
+                  999998,
+                ],
+                "low": Array [
+                  1386,
+                ],
+                "num": Array [
+                  "12",
+                ],
+              },
+            ],
+            "is_proficient_band": Array [
+              false,
+            ],
+            "num": Array [
+              "1",
+            ],
+          },
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`RISettingContainer transformers proficiencyBandsToFormRepresentation should transform API => Form representation correctly 1`] = `
+Object {
+  "bandNames": Array [
+    "name2",
+    "name1",
+  ],
+  "bandReferenceData": Array [
+    Object {
+      "defaultName": "defaultName2",
+      "number": 1,
+    },
+    Object {
+      "defaultName": "defaultName1",
+      "number": 2,
+    },
+  ],
+  "bandsEnabled": Array [
+    false,
+    true,
+  ],
+  "grades": Array [
+    Object {
+      "bandRanges": Array [
+        Object {
+          "defaultInfo": null,
+          "high": 100,
+          "low": 3,
+        },
+        Object {
+          "defaultInfo": Object {
+            "high": 100,
+            "low": 5,
+          },
+          "high": 1,
+          "low": -999998,
+        },
+      ],
+      "number": "0",
+    },
+    Object {
+      "bandRanges": Array [
+        Object {
+          "defaultInfo": null,
+          "high": 999998,
+          "low": 101,
+        },
+        Object {
+          "defaultInfo": null,
+          "high": 999998,
+          "low": 2,
+        },
+      ],
+      "number": "1",
+    },
+  ],
+  "proficientBandIndex": 0,
+  "shouldShowAsterisks": true,
+}
+`;
+
+exports[`RISettingContainer transformers programSettingsToApiRepresentation should transform settings correctly for API post 1`] = `
+Object {
+  "output": Object {
+    "output_data": Object {
+      "sri_settings": Object {
+        "allow_min_days_between_tests": "1",
+        "choose_reading_interests": "1",
+        "est_reading_level": "1",
+        "limit_reading_to_installed_quizzes": "0",
+        "max_books_in_reading_list": "30",
+        "min_days_between_tests": "30",
+        "require_practice_test": "1",
+        "see_reading_list": "1",
+        "show_lexile_after_test": "1",
+      },
+    },
+  },
+}
+`;

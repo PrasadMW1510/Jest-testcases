@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resourcesSelectorReducer returns the initial state 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle ITS list failure 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: undefined,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle Resources Program list request failure actions 1`] = `
+Immutable.Map {
+  SamResourcesError: undefined,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle Resources Program list request success actions 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.List [
+    Immutable.Map {
+      $: Immutable.Map {
+        community_id: "DTM2",
+        description: "Do The Math",
+      },
+    },
+    Immutable.Map {
+      $: Immutable.Map {
+        community_id: "FM",
+        description: "Fastt Math",
+      },
+    },
+  ],
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle list of ITS app 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+    appID: Immutable.List [
+      "R180_A",
+      "R180_B",
+    ],
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle post resources type failure 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: "err",
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle post resources type success 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+    resource_type: "GEN100",
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should handle update resources app id selected 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: Object {
+    "appId": "DTM",
+  },
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: false,
+}
+`;
+
+exports[`resourcesSelectorReducer should update the resources search modal status 1`] = `
+Immutable.Map {
+  SamResourcesError: false,
+  SamResources: Immutable.Map {
+  },
+  ITSAppsError: false,
+  ITSApps: Immutable.Map {
+  },
+  AppId: "",
+  resourcesObject: Immutable.Map {
+  },
+  resourcesObjectFalse: false,
+  modalSearchStatus: true,
+}
+`;

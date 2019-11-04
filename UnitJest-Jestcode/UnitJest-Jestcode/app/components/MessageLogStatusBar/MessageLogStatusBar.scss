@@ -1,0 +1,48 @@
+.msg-log__statusbar {
+  font-size: 12px;
+  display: flex;
+}
+
+.msg-icon,
+%msg-icon {
+  content: '';
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.ack-span {
+  margin-right: 5px;
+
+  &::before {
+    @extend %msg-icon;
+    background: url('../../images/acknowledgment-icon.png') no-repeat;
+  }
+}
+
+.reminders-span {
+  &::before {
+    @extend %msg-icon;
+    background: url('../../images/reminders-icon.png') no-repeat;
+  }
+}
+
+.alerts-span {
+  margin-right: 5px;
+
+  &::before {
+    @extend %msg-icon;
+    background: url('../../images/alerts-icon.png') no-repeat;
+  }
+}
+
+.notify-span {
+  margin-right: 5px;
+
+  &::before {
+    @extend %msg-icon;
+    background: url('../../images/notifications-icon.png') no-repeat;
+  }
+}

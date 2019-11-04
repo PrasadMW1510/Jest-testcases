@@ -1,0 +1,23 @@
+.book-expert-page {
+  width: 98%;
+  height: 552px;
+  background-color: #fee1b4;
+  border: 2px solid #000;
+  text-align: center;
+  margin: -2px 0 6px 10px;
+  display: flex;
+  align-items: center;
+
+  .book-expert-button {
+    text-decoration: none;
+    background: url('../../images/bookexport.png') no-repeat center;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 3px;
+    font-size: 0;
+    width: 220px;
+    margin: auto;
+    height: 66px;
+    outline: none;
+  }
+}

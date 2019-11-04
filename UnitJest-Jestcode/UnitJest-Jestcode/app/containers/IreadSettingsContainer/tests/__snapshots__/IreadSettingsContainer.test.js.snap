@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IreadSettingsContainer /> expect to render correctly 1`] = `
+<IReadSettings
+  cohortObj={
+    Immutable.Map {
+      cohortType: "mockCohType",
+    }
+  }
+  enrollmentCount={10}
+  handleSave={[Function]}
+  isLoading={false}
+  programSettingData={
+    Immutable.Map {
+      data: "mockSettingsData",
+    }
+  }
+  showModal={[Function]}
+/>
+`;

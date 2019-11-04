@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserTitleText /> No selections Expect to render user title for district admins 1`] = `"My District"`;
+
+exports[`<UserTitleText /> No selections Expect to render user title for school admins 1`] = `"My School"`;
+
+exports[`<UserTitleText /> No selections Expect to render user title for teachers 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected class 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected grade 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected group 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected school 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected student 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render selected teacher 1`] = `"My Classes"`;
+
+exports[`<UserTitleText /> Selections Expect to render when selectedCohortName 1`] = `"123School"`;

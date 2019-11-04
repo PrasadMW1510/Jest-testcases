@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TestAssignmentViewPS /> expect to render ProgramSettingsViewPS Expect to render correctly 1`] = `
+<form>
+  <div>
+    <span
+      className="test-assignment-ps__heading"
+    />
+    <div
+      className="test-assignment-ps__content"
+    >
+      <div
+        className="test-assignment-ps__quadrants"
+      >
+        <span
+          className="test-assignment-ps__quadrants-heading"
+        >
+          Test Assignment
+        </span>
+        <div
+          className="test-assignment-ps__block-spacing"
+        >
+          <span
+            className="test-assignment-ps-program-text"
+          >
+             1. Select a Program 
+          </span>
+          <span
+            className="test-assignment-ps__radio-none"
+            key="DTM_MODULE"
+          >
+            <input
+              disabled={true}
+              id="DTM_MODULE"
+              key="DTM_MODULE"
+              name="application_id"
+              onChange={[Function]}
+              readOnly={true}
+              type="radio"
+            />
+            <span
+              className="test-assignment-ps__options"
+            >
+              Do the Math Modules
+            </span>
+          </span>
+          <span
+            className="test-assignment-ps__radio-none"
+            key="DTM_NOW"
+          >
+            <input
+              disabled={true}
+              id="DTM_NOW"
+              key="DTM_NOW"
+              name="application_id"
+              onChange={[Function]}
+              readOnly={true}
+              type="radio"
+              value="DTM_NOW"
+            />
+            <span
+              className="test-assignment-ps__options"
+            >
+              Do the Math Now
+            </span>
+          </span>
+        </div>
+        <div
+          className="test-assignment-ps__block-spacing"
+        >
+          <span>
+             
+            <SettingsSelectBox
+              disabled={false}
+              fieldClass="test-assignment-ps__select-field-disabled"
+              fieldName="settingsSelectBox"
+              fieldValue=""
+              id=""
+              label="2. Select a Module or Unit"
+              labelClass="test-assignment-ps__select-label"
+              labelPosition="left"
+              mixedValue="2"
+              onChange={[Function]}
+            >
+              <option
+                disabled={true}
+                hidden={false}
+                value=""
+              >
+                 
+              </option>
+            </SettingsSelectBox>
+          </span>
+        </div>
+        <div
+          className="test-assignment-ps__select-test"
+        >
+          <span>
+            <SettingsSelectBox
+              disabled={false}
+              fieldClass="test-assignment-ps__select-field-disabled"
+              fieldName="settingsSelectBox"
+              fieldValue=""
+              id=""
+              label="3. Select a Test:"
+              labelClass="test-assignment-ps__select-label-test"
+              labelPosition="left"
+              mixedValue="2"
+              onChange={[Function]}
+            >
+              <option
+                disabled={true}
+                hidden={false}
+                value=""
+              />
+            </SettingsSelectBox>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="test-assignment-ps__footer"
+    >
+      <ProgramSettingsButtons
+        saveAndReturnHandler={[Function]}
+        setInitialValuesHandler={[Function]}
+        showRestoreDefaults={false}
+        stateResult={true}
+        suppressSaveAndReturnRedirect={false}
+      />
+    </div>
+  </div>
+</form>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reportsPageReducer should handle default case 1`] = `
+Immutable.Map {
+  reports: Immutable.List [
+  ],
+  loading: true,
+  error: null,
+}
+`;
+
+exports[`reportsPageReducer should handle report list request failure actions 1`] = `
+Immutable.Map {
+  reports: Immutable.List [
+  ],
+  loading: false,
+  error: "err",
+}
+`;
+
+exports[`reportsPageReducer should handle report list request success actions 1`] = `
+Immutable.Map {
+  reports: undefined,
+  loading: false,
+  error: null,
+}
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignmentContainer actions All actions should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/Read180NgContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for deleteAssignmentData 1`] = `
+Object {
+  "Data": Array [],
+  "type": "container/Read180NgContainer/delete_assignment_data",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getRead180DataRequest 1`] = `
+Object {
+  "read180nData": Array [],
+  "type": "containers/Read180NgContainer/Read180NG_detail_request",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getRead180DataRequestSuccess 1`] = `
+Object {
+  "resultsData": Array [],
+  "type": "containers/Read180NgContainer/Read180NG_detail_request_success",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for read180ngRequest 1`] = `
+Object {
+  "read180ngPreviewData": undefined,
+  "type": "app/Read180ngContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for setRead180DataRequestSuccess 1`] = `
+Object {
+  "resultsData": Array [],
+  "type": "container/Read180NgContainer/set_read180NG_data_success",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for setRead180NgData 1`] = `
+Object {
+  "read180ngData": Array [],
+  "type": "containers/Read180NgContainer/set_read180NG_data",
+  "workItemId": undefined,
+}
+`;

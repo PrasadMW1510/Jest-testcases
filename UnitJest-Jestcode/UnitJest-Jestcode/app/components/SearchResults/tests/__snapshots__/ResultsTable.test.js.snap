@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsTable /> Expect to render correctly 1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "id": "Title",
+          "width": 230,
+        },
+        Object {
+          "Header": "Author",
+          "accessor": [Function],
+          "id": "Author",
+          "width": 230,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "Lexile",
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "ReadingLevel",
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "GuidedReadingLevel",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "Points",
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "Words",
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "Type",
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "Copies",
+          "width": 60,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "ID": 1,
+          "Title": Array [
+            "title",
+          ],
+          "_id": 1,
+        },
+      ]
+    }
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    onSortedChange={[Function]}
+    pageSize={-25}
+    renderEmptyTable={[Function]}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect to render empty table 1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "id": "Title",
+          "width": 230,
+        },
+        Object {
+          "Header": "Author",
+          "accessor": [Function],
+          "id": "Author",
+          "width": 230,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "Lexile",
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "ReadingLevel",
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "GuidedReadingLevel",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "Points",
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "Words",
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "Type",
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "Copies",
+          "width": 60,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "ID": 1,
+          "Title": Array [
+            "title",
+          ],
+          "_id": 1,
+        },
+      ]
+    }
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    onSortedChange={[Function]}
+    pageSize={-25}
+    renderEmptyTable={[Function]}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns 1`] = `
+<div
+  className="search-result-table__group"
+>
+  <SearchResultsEditCell
+    clickHandler={[Function]}
+    rowData={
+      Object {
+        "cd_name": "item-0001",
+        "enabled": 1,
+        "supplimental": 0,
+        "topic_name": "Item 1",
+      }
+    }
+  />
+</div>
+`;

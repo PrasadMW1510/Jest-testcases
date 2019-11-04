@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassAssignModalContainer /> Expect to render correctly 1`] = `
+<withReducer(withSaga(Connect(ClassAssignModal)))
+  isOpen={true}
+  onClose={[Function]}
+  showGroups={false}
+/>
+`;

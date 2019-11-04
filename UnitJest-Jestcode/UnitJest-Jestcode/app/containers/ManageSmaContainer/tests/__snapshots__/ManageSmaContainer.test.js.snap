@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageSmaContainer /> should render correctly 1`] = `
+<ManageSma
+  mediaServers={
+    Array [
+      Object {
+        "capabilities": Array [
+          Object {
+            "capability": Array [
+              Object {
+                "url": Array [
+                  "S3CDN-B8AEED7F1944-107-DaytonStDCNJ.media.education.scholastic.com",
+                ],
+              },
+            ],
+          },
+        ],
+        "name": Array [
+          "MMA tests",
+        ],
+      },
+    ]
+  }
+/>
+`;

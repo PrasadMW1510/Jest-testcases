@@ -1,0 +1,2283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabSettings /> Expect estimated reading level to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <div
+      className="ri-settings__test-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="allow_min_days_between_tests"
+          checkboxText="Minimum time between completed tests:"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+        <SettingsTextField
+          disabled={true}
+          fieldClass=""
+          fieldName="min_days_between_tests"
+          fieldValue="-1"
+          key=""
+          label="days"
+          labelClass=""
+          labelPosition="right"
+          mixedValue="-1"
+          onChange={[Function]}
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="est_reading_level"
+          fieldValue="-1"
+          id=""
+          label="Estimated Reading Level (initial placement only):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <React.Fragment>
+            <option
+              value="1"
+            >
+              Undetermined
+            </option>
+            <option
+              value="2"
+            >
+              Far below grade level
+            </option>
+            <option
+              value="3"
+            >
+              Below grade level
+            </option>
+            <option
+              value="4"
+            >
+              On grade level
+            </option>
+            <option
+              value="5"
+            >
+              Above grade level
+            </option>
+            <option
+              value="6"
+            >
+              Far above grade level
+            </option>
+          </React.Fragment>
+        </SettingsSelectBox>
+      </div>
+    </div>
+    <div
+      className="ri-settings__test-experience-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="require_practice_test"
+          checkboxText="Require students to take practice test"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="choose_reading_interests"
+          checkboxText="Allow student to choose reading interests"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="see_reading_list"
+          checkboxText="Allow student to see reading list"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="limit_reading_to_installed_quizzes"
+          checkboxText="Limit reading list to Reading Counts! installed quizzes"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <span
+          className="ri-settings__setting--varying"
+        >
+          Limit number of books in reading list to
+        </span>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="max_books_in_reading_list"
+          fieldValue="-1"
+          id=""
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="11"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="12"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="13"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="14"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="15"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="16"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="17"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="18"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="19"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="20"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="21"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="22"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="23"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="24"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="25"
+            value={25}
+          >
+            25
+          </option>
+          <option
+            key="26"
+            value={26}
+          >
+            26
+          </option>
+          <option
+            key="27"
+            value={27}
+          >
+            27
+          </option>
+          <option
+            key="28"
+            value={28}
+          >
+            28
+          </option>
+          <option
+            key="29"
+            value={29}
+          >
+            29
+          </option>
+          <option
+            key="30"
+            value={30}
+          >
+            30
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_lexile_after_test"
+          checkboxText="Show student Lexile® score after test completion"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect renderNoSettingsAvailableContent to work correctly 1`] = `
+<SettingsMessage
+  message1="There are no The Reading Inventory settings available for this student"
+/>
+`;
+
+exports[`<TabSettings /> Expect to render mixed values correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <div
+      className="ri-settings__test-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="allow_min_days_between_tests"
+          checkboxText="Minimum time between completed tests:"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+        <SettingsTextField
+          disabled={true}
+          fieldClass=""
+          fieldName="min_days_between_tests"
+          fieldValue="-1"
+          key=""
+          label="days"
+          labelClass=""
+          labelPosition="right"
+          mixedValue="-1"
+          onChange={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="ri-settings__test-experience-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="require_practice_test"
+          checkboxText="Require students to take practice test"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="choose_reading_interests"
+          checkboxText="Allow student to choose reading interests"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="see_reading_list"
+          checkboxText="Allow student to see reading list"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="limit_reading_to_installed_quizzes"
+          checkboxText="Limit reading list to Reading Counts! installed quizzes"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <span
+          className="ri-settings__setting--varying"
+        >
+          Limit number of books in reading list to
+        </span>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="max_books_in_reading_list"
+          fieldValue="-1"
+          id=""
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="11"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="12"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="13"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="14"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="15"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="16"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="17"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="18"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="19"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="20"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="21"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="22"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="23"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="24"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="25"
+            value={25}
+          >
+            25
+          </option>
+          <option
+            key="26"
+            value={26}
+          >
+            26
+          </option>
+          <option
+            key="27"
+            value={27}
+          >
+            27
+          </option>
+          <option
+            key="28"
+            value={28}
+          >
+            28
+          </option>
+          <option
+            key="29"
+            value={29}
+          >
+            29
+          </option>
+          <option
+            key="30"
+            value={30}
+          >
+            30
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_lexile_after_test"
+          checkboxText="Show student Lexile® score after test completion"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render mixed/disabled minDaysBetweenTests correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <div
+      className="ri-settings__test-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="allow_min_days_between_tests"
+          checkboxText="Minimum time between completed tests:"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+        <SettingsTextField
+          disabled={true}
+          fieldClass=""
+          fieldName="min_days_between_tests"
+          fieldValue="-1"
+          key=""
+          label="days"
+          labelClass=""
+          labelPosition="right"
+          mixedValue="-1"
+          onChange={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="ri-settings__test-experience-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="require_practice_test"
+          checkboxText="Require students to take practice test"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="choose_reading_interests"
+          checkboxText="Allow student to choose reading interests"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="see_reading_list"
+          checkboxText="Allow student to see reading list"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="limit_reading_to_installed_quizzes"
+          checkboxText="Limit reading list to Reading Counts! installed quizzes"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <span
+          className="ri-settings__setting--varying"
+        >
+          Limit number of books in reading list to
+        </span>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="max_books_in_reading_list"
+          fieldValue="-1"
+          id=""
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="11"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="12"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="13"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="14"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="15"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="16"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="17"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="18"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="19"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="20"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="21"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="22"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="23"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="24"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="25"
+            value={25}
+          >
+            25
+          </option>
+          <option
+            key="26"
+            value={26}
+          >
+            26
+          </option>
+          <option
+            key="27"
+            value={27}
+          >
+            27
+          </option>
+          <option
+            key="28"
+            value={28}
+          >
+            28
+          </option>
+          <option
+            key="29"
+            value={29}
+          >
+            29
+          </option>
+          <option
+            key="30"
+            value={30}
+          >
+            30
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_lexile_after_test"
+          checkboxText="Show student Lexile® score after test completion"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render mixed/enabled minDaysBetweenTests correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <div
+      className="ri-settings__test-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="allow_min_days_between_tests"
+          checkboxText="Minimum time between completed tests:"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+        <SettingsTextField
+          disabled={false}
+          fieldClass=""
+          fieldName="min_days_between_tests"
+          fieldValue=""
+          key=""
+          label="days"
+          labelClass=""
+          labelPosition="right"
+          mixedValue="-1"
+          onChange={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="ri-settings__test-experience-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="require_practice_test"
+          checkboxText="Require students to take practice test"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="choose_reading_interests"
+          checkboxText="Allow student to choose reading interests"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="see_reading_list"
+          checkboxText="Allow student to see reading list"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="limit_reading_to_installed_quizzes"
+          checkboxText="Limit reading list to Reading Counts! installed quizzes"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <span
+          className="ri-settings__setting--varying"
+        >
+          Limit number of books in reading list to
+        </span>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="max_books_in_reading_list"
+          fieldValue="-1"
+          id=""
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="11"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="12"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="13"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="14"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="15"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="16"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="17"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="18"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="19"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="20"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="21"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="22"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="23"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="24"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="25"
+            value={25}
+          >
+            25
+          </option>
+          <option
+            key="26"
+            value={26}
+          >
+            26
+          </option>
+          <option
+            key="27"
+            value={27}
+          >
+            27
+          </option>
+          <option
+            key="28"
+            value={28}
+          >
+            28
+          </option>
+          <option
+            key="29"
+            value={29}
+          >
+            29
+          </option>
+          <option
+            key="30"
+            value={30}
+          >
+            30
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_lexile_after_test"
+          checkboxText="Show student Lexile® score after test completion"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render no-enrollments correctly for Non-Student 1`] = `
+<SettingsMessage
+  message1="This class does not have any students enrolled in The Reading Inventory"
+/>
+`;
+
+exports[`<TabSettings /> Expect to render no-enrollments correctly for Student 1`] = `
+<SettingsMessage
+  message1="This student is not enrolled in The Reading Inventory"
+/>
+`;
+
+exports[`<TabSettings /> Expect to render non-existent cohort correctly 1`] = `
+<SettingsMessage
+  message1="To change The Reading Inventory settings, please select a school, grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<TabSettings /> Expect to render positive enrollments correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <div
+      className="ri-settings__test-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="allow_min_days_between_tests"
+          checkboxText="Minimum time between completed tests:"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+        <SettingsTextField
+          disabled={false}
+          fieldClass=""
+          fieldName="min_days_between_tests"
+          fieldValue="0"
+          key=""
+          label="days"
+          labelClass=""
+          labelPosition="right"
+          mixedValue="-1"
+          onChange={[Function]}
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="est_reading_level"
+          fieldValue="1"
+          id=""
+          label="Estimated Reading Level (initial placement only):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <React.Fragment>
+            <option
+              value="1"
+            >
+              Undetermined
+            </option>
+            <option
+              value="2"
+            >
+              Far below grade level
+            </option>
+            <option
+              value="3"
+            >
+              Below grade level
+            </option>
+            <option
+              value="4"
+            >
+              On grade level
+            </option>
+            <option
+              value="5"
+            >
+              Above grade level
+            </option>
+            <option
+              value="6"
+            >
+              Far above grade level
+            </option>
+          </React.Fragment>
+        </SettingsSelectBox>
+      </div>
+    </div>
+    <div
+      className="ri-settings__test-experience-settings"
+    >
+      <span
+        className="ri-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="require_practice_test"
+          checkboxText="Require students to take practice test"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="choose_reading_interests"
+          checkboxText="Allow student to choose reading interests"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="see_reading_list"
+          checkboxText="Allow student to see reading list"
+          currentCheckboxValue="-1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="limit_reading_to_installed_quizzes"
+          checkboxText="Limit reading list to Reading Counts! installed quizzes"
+          currentCheckboxValue="0"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <span
+          className=""
+        >
+          Limit number of books in reading list to
+        </span>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="max_books_in_reading_list"
+          fieldValue="30"
+          id=""
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-1"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="2"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="3"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="4"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="5"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="6"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="7"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="8"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="9"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="10"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="11"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="12"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="13"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="14"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="15"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="16"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="17"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="18"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="19"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="20"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="21"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="22"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="23"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="24"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="25"
+            value={25}
+          >
+            25
+          </option>
+          <option
+            key="26"
+            value={26}
+          >
+            26
+          </option>
+          <option
+            key="27"
+            value={27}
+          >
+            27
+          </option>
+          <option
+            key="28"
+            value={28}
+          >
+            28
+          </option>
+          <option
+            key="29"
+            value={29}
+          >
+            29
+          </option>
+          <option
+            key="30"
+            value={30}
+          >
+            30
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="ri-settings__setting"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_lexile_after_test"
+          checkboxText="Show student Lexile® score after test completion"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-1",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;

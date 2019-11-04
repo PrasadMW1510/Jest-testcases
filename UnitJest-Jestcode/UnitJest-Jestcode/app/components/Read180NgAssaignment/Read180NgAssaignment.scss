@@ -1,0 +1,360 @@
+.modal-read180ngassaignment-modal {
+  width: 76%;
+  height: 92%;
+  padding: 0;
+  margin-top: 1.5%;
+  border: 0;
+  border-radius: 15px;
+}
+
+.print-read180ngassaignment-modal-list--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 96%;
+}
+
+.print-read180ngassaignment-modal-list--purple {
+  background-color: #9a6fb6;
+  margin-top: 2%;
+  height: 38px;
+  line-height: 37px;
+  padding-left: 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.print-read180ngassaignment-modal__heading {
+  float: left;
+}
+
+.print-read180ngassaignment-modal__button-close {
+  position: absolute;
+  right: 25px;
+  background: #c895e8;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 3px 7px 0 0;
+}
+
+.print-read180ngassaignment-modal-title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  height: 50px;
+}
+
+.print-read180ngassaignment-modal-title-span {
+  font-style: normal;
+  margin-left: 1%;
+}
+
+.print-read180ngassaignment-modal-description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 110px;
+  float: left;
+  margin-right: 0.5%;
+}
+
+.print-read180ngassaignment-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2%;
+}
+
+.print-read180ngassaignment-modal-description-textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.print-read180ngassaignment-modal-assignment-roster-textarea1 {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.print-read180ngassaignment-modal-due-date {
+  width: 43%;
+  float: left;
+  margin-left: 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 110px;
+}
+
+.print-read180ngassaignment-modal-due-date-content1 {
+  margin-left: 3%;
+  font-size: 14px;
+  font-family: initial;
+  width: 55%;
+  float: left;
+}
+
+.print-read180ngassaignment-modal-assignment-roster-box {
+  width: 100%;
+  margin-top: 1%;
+  border: 1px solid #e7e8e7;
+  border-radius: 16px;
+  height: 16%;
+  float: left;
+  margin-right: 0.5%;
+  height: 315px;
+}
+
+.print-activatequiz__confirmtext2 {
+  padding: 0;
+  width: 60%;
+  height: 18%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.print-read180ngassaignment-modal-assignment-roster-div-headers11 {
+  font-weight: bold;
+  margin-left: 2%;
+  font-size: 15px;
+}
+
+.print-read180ngassaignment-modal__buttons-firstset {
+  margin-top: 10px;
+  margin-left: -9px;
+  float: left;
+}
+
+.print-read180ngassaignment-modal__buttons-secondset {
+  padding-top: 1%;
+  padding-left: 83%;
+}
+
+.print-read180ngassaignment-modal-button-first-set {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 12px;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.print-read180ngassaignment-modal-button-second-set {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 12px;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.show-read180ngassaignment-modal-line {
+  height: 466px;
+  border-bottom: 1px solid #e7e8e7;
+}
+
+.print-read180ngassaignment-modal-button-save {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+}
+
+.print-read180ngassaignment-modal-assignment-span {
+  margin-left: 123px;
+}
+
+.print-read180ngassaignment-modal-assignment-textbox1 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 1%;
+}
+
+.print-read180ngassaignment-modal-assignment-textbox2 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.print-read180ngassaignment-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.print-read180ngassaignment-modal-button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 13px;
+  width: 33px;
+  margin-top: 3px;
+}
+
+.print-read180ngassaignment-modal-assignment-span {
+  margin-left: 140px;
+}
+
+.print-read180ngassaignment-modal-assignment-textbox-comment {
+  border: 1px solid;
+  margin-left: 30px;
+  width: 400px;
+}
+
+.print-read180ngassaignment-modal-assignment-wrapper1 {
+  font-size: 12px;
+  margin-left: 2%;
+}
+
+.print-read180ngassaignment-modal-due-date-input {
+  margin-top: 6%;
+  border: 1px solid;
+}
+
+.print-read180ngassaignment-modal-select {
+  border: 1px solid;
+  margin: 0 1%;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.print-read180ngassaignment-modal-input-textbox {
+  border: 1px solid;
+  margin: 0 1%;
+  background: #fff;
+}
+
+.print-read180ngassaignment-modal-assignment-roster-div-details {
+  width: 58%;
+  margin-bottom: 2%;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 2%;
+}
+
+.print-read180ngass-modal-button-equals-gray {
+  color: #fff;
+  background: linear-gradient(#dee2e6, #9ca8b5);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 13px;
+  width: 33px;
+  margin-top: 3px;
+}
+
+.print-read180ngass-modal-button-second-set {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 12px;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.print-read180ngass-modal-button-save {
+  color: #fff;
+  background: linear-gradient(#dee2e6, #9ca8b5);
+}
+
+.print-read180ngass-modal-button-save-blue {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+}
+
+.print-read180ngass-modal-button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7) !important;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 13px;
+  width: 33px;
+  margin-top: 3px;
+}
+
+.ngassignment-name-passage-text-error {
+  display: inline-block;
+  clear: both;
+  color: #f00;
+}
+
+.ngassignment-date-passage-text-error {
+  clear: both;
+  color: #f00;
+}
+
+.ngassignment-asstype-passage-text-error {
+  display: inline-block;
+  clear: both;
+  color: #f00;
+}
+
+.portfolio-conf-warning {
+  width: 310px;
+  height: 110px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-warning-heading {
+  background: #9ca8b5;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-warning-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-warning-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-warning .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}

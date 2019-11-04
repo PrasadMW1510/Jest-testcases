@@ -1,0 +1,2265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabAdvancedSettings /> Expect to render district correctly with asterisk 1`] = `
+<React.Fragment>
+  <div
+    className="ri-settings__instruction-text"
+  >
+    Use these options to customize proficiency band names and ranges. You may change the number     of bands and select a band as the target proficiency range using the pull-down menus below     the chart. The maximum Lexile setting is 1700. These settings may be adjusted at the     District level only.
+  </div>
+  <div
+    className="ri-settings__legend-text"
+  >
+    * Indicates College and Career readiness
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <ProficiencyBandPanel
+      bandValueTranslator={[Function]}
+      firstActiveCellIsEditable={false}
+      handleBlurBandHighValue={[Function]}
+      handleChangeBandHighValue={[Function]}
+      handleChangeBandName={[Function]}
+      handleChangeNumberOfBands={[Function]}
+      handleChangeProficientBand={[Function]}
+      handleClearAll={[Function]}
+      heading="Set Proficiency Band Names and Ranges"
+      immInvalidHighs={
+        Immutable.List [
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+        ]
+      }
+      immProficiencyBandData={
+        Immutable.Map {
+          bandNames: Immutable.List [
+            "(no name)",
+            "Below Basic",
+            "Basic",
+            "Proficient",
+            "Advanced",
+          ],
+          bandReferenceData: Immutable.List [
+            Immutable.Map {
+              defaultName: "no default",
+              number: "5",
+            },
+            Immutable.Map {
+              defaultName: "Below Basic",
+              number: "4",
+            },
+            Immutable.Map {
+              defaultName: "Basic",
+              number: "3",
+            },
+            Immutable.Map {
+              defaultName: "Proficient",
+              number: "2",
+            },
+            Immutable.Map {
+              defaultName: "Advanced",
+              number: "1",
+            },
+          ],
+          bandsEnabled: Immutable.List [
+            false,
+            true,
+            true,
+            true,
+            true,
+          ],
+          grades: Immutable.List [
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: -999998,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: -999998,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 189,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 189,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 530,
+                  low: 190,
+                  defaultInfo: Immutable.Map {
+                    high: 530,
+                    low: 190,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 531,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 531,
+                  },
+                },
+              ],
+              number: "0",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: -999998,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: -999998,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 189,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 189,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 530,
+                  low: 190,
+                  defaultInfo: Immutable.Map {
+                    high: 530,
+                    low: 190,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 531,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 531,
+                  },
+                },
+              ],
+              number: "1",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 219,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 219,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 419,
+                  low: 220,
+                  defaultInfo: Immutable.Map {
+                    high: 419,
+                    low: 220,
+                  },
+                },
+                Immutable.Map {
+                  high: 650,
+                  low: 420,
+                  defaultInfo: Immutable.Map {
+                    high: 650,
+                    low: 420,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 651,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 651,
+                  },
+                },
+              ],
+              number: "2",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 329,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 329,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 519,
+                  low: 330,
+                  defaultInfo: Immutable.Map {
+                    high: 519,
+                    low: 330,
+                  },
+                },
+                Immutable.Map {
+                  high: 820,
+                  low: 520,
+                  defaultInfo: Immutable.Map {
+                    high: 820,
+                    low: 520,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 821,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 821,
+                  },
+                },
+              ],
+              number: "3",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 539,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 539,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 739,
+                  low: 540,
+                  defaultInfo: Immutable.Map {
+                    high: 739,
+                    low: 540,
+                  },
+                },
+                Immutable.Map {
+                  high: 940,
+                  low: 740,
+                  defaultInfo: Immutable.Map {
+                    high: 940,
+                    low: 740,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 941,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 941,
+                  },
+                },
+              ],
+              number: "4",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 619,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 619,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 829,
+                  low: 620,
+                  defaultInfo: Immutable.Map {
+                    high: 829,
+                    low: 620,
+                  },
+                },
+                Immutable.Map {
+                  high: 1010,
+                  low: 830,
+                  defaultInfo: Immutable.Map {
+                    high: 1010,
+                    low: 830,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1011,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1011,
+                  },
+                },
+              ],
+              number: "5",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 729,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 729,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 924,
+                  low: 730,
+                  defaultInfo: Immutable.Map {
+                    high: 924,
+                    low: 730,
+                  },
+                },
+                Immutable.Map {
+                  high: 1070,
+                  low: 925,
+                  defaultInfo: Immutable.Map {
+                    high: 1070,
+                    low: 925,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1071,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1071,
+                  },
+                },
+              ],
+              number: "6",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 769,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 769,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 969,
+                  low: 770,
+                  defaultInfo: Immutable.Map {
+                    high: 969,
+                    low: 770,
+                  },
+                },
+                Immutable.Map {
+                  high: 1120,
+                  low: 970,
+                  defaultInfo: Immutable.Map {
+                    high: 1120,
+                    low: 970,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1121,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1121,
+                  },
+                },
+              ],
+              number: "7",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 789,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 789,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1009,
+                  low: 790,
+                  defaultInfo: Immutable.Map {
+                    high: 1009,
+                    low: 790,
+                  },
+                },
+                Immutable.Map {
+                  high: 1185,
+                  low: 1010,
+                  defaultInfo: Immutable.Map {
+                    high: 1185,
+                    low: 1010,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1186,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1186,
+                  },
+                },
+              ],
+              number: "8",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 849,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 849,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1049,
+                  low: 850,
+                  defaultInfo: Immutable.Map {
+                    high: 1049,
+                    low: 850,
+                  },
+                },
+                Immutable.Map {
+                  high: 1260,
+                  low: 1050,
+                  defaultInfo: Immutable.Map {
+                    high: 1260,
+                    low: 1050,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1261,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1261,
+                  },
+                },
+              ],
+              number: "9",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 889,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 889,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1079,
+                  low: 890,
+                  defaultInfo: Immutable.Map {
+                    high: 1079,
+                    low: 890,
+                  },
+                },
+                Immutable.Map {
+                  high: 1335,
+                  low: 1080,
+                  defaultInfo: Immutable.Map {
+                    high: 1335,
+                    low: 1080,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1336,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1336,
+                  },
+                },
+              ],
+              number: "10",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 984,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 984,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1184,
+                  low: 985,
+                  defaultInfo: Immutable.Map {
+                    high: 1184,
+                    low: 985,
+                  },
+                },
+                Immutable.Map {
+                  high: 1385,
+                  low: 1185,
+                  defaultInfo: Immutable.Map {
+                    high: 1385,
+                    low: 1185,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1386,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1386,
+                  },
+                },
+              ],
+              number: "11",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 984,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 984,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1184,
+                  low: 985,
+                  defaultInfo: Immutable.Map {
+                    high: 1184,
+                    low: 985,
+                  },
+                },
+                Immutable.Map {
+                  high: 1385,
+                  low: 1185,
+                  defaultInfo: Immutable.Map {
+                    high: 1385,
+                    low: 1185,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1386,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1386,
+                  },
+                },
+              ],
+              number: "12",
+            },
+          ],
+          proficientBandIndex: 3,
+          shouldShowAsterisks: true,
+        }
+      }
+      isEditable={true}
+      labelNumberOfBands="Number of performance level bands:"
+      labelSelectProficientBand="Select \\"proficient\\" band:"
+      numberOfEnabledBands={4}
+      shouldBandShowAsterisk={[Function]}
+      startingGradeIndex={1}
+    />
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TabAdvancedSettings /> Expect to render non-district correctly 1`] = `
+<React.Fragment>
+  <div
+    className="ri-settings__instruction-text"
+  >
+    These settings may be adjusted at the District level only.
+  </div>
+  <div
+    className="ri-settings__legend-text"
+  >
+     
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <ProficiencyBandPanel
+      bandValueTranslator={[Function]}
+      firstActiveCellIsEditable={false}
+      handleBlurBandHighValue={[Function]}
+      handleChangeBandHighValue={[Function]}
+      handleChangeBandName={[Function]}
+      handleChangeNumberOfBands={[Function]}
+      handleChangeProficientBand={[Function]}
+      handleClearAll={[Function]}
+      heading="Set Proficiency Band Names and Ranges"
+      immInvalidHighs={
+        Immutable.List [
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+          Immutable.List [
+            false,
+            false,
+            false,
+            false,
+            false,
+          ],
+        ]
+      }
+      immProficiencyBandData={
+        Immutable.Map {
+          bandNames: Immutable.List [
+            "(no name)",
+            "Below Basic",
+            "Basic",
+            "Proficient",
+            "Advanced",
+          ],
+          bandReferenceData: Immutable.List [
+            Immutable.Map {
+              defaultName: "no default",
+              number: "5",
+            },
+            Immutable.Map {
+              defaultName: "Below Basic",
+              number: "4",
+            },
+            Immutable.Map {
+              defaultName: "Basic",
+              number: "3",
+            },
+            Immutable.Map {
+              defaultName: "Proficient",
+              number: "2",
+            },
+            Immutable.Map {
+              defaultName: "Advanced",
+              number: "1",
+            },
+          ],
+          bandsEnabled: Immutable.List [
+            false,
+            true,
+            true,
+            true,
+            true,
+          ],
+          grades: Immutable.List [
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: -999998,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: -999998,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 189,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 189,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 530,
+                  low: 190,
+                  defaultInfo: Immutable.Map {
+                    high: 530,
+                    low: 190,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 531,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 531,
+                  },
+                },
+              ],
+              number: "0",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: -999998,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: -999998,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 189,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 189,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 530,
+                  low: 190,
+                  defaultInfo: Immutable.Map {
+                    high: 530,
+                    low: 190,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 531,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 531,
+                  },
+                },
+              ],
+              number: "1",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 219,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 219,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 419,
+                  low: 220,
+                  defaultInfo: Immutable.Map {
+                    high: 419,
+                    low: 220,
+                  },
+                },
+                Immutable.Map {
+                  high: 650,
+                  low: 420,
+                  defaultInfo: Immutable.Map {
+                    high: 650,
+                    low: 420,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 651,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 651,
+                  },
+                },
+              ],
+              number: "2",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 329,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 329,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 519,
+                  low: 330,
+                  defaultInfo: Immutable.Map {
+                    high: 519,
+                    low: 330,
+                  },
+                },
+                Immutable.Map {
+                  high: 820,
+                  low: 520,
+                  defaultInfo: Immutable.Map {
+                    high: 820,
+                    low: 520,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 821,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 821,
+                  },
+                },
+              ],
+              number: "3",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 539,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 539,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 739,
+                  low: 540,
+                  defaultInfo: Immutable.Map {
+                    high: 739,
+                    low: 540,
+                  },
+                },
+                Immutable.Map {
+                  high: 940,
+                  low: 740,
+                  defaultInfo: Immutable.Map {
+                    high: 940,
+                    low: 740,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 941,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 941,
+                  },
+                },
+              ],
+              number: "4",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 619,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 619,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 829,
+                  low: 620,
+                  defaultInfo: Immutable.Map {
+                    high: 829,
+                    low: 620,
+                  },
+                },
+                Immutable.Map {
+                  high: 1010,
+                  low: 830,
+                  defaultInfo: Immutable.Map {
+                    high: 1010,
+                    low: 830,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1011,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1011,
+                  },
+                },
+              ],
+              number: "5",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 729,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 729,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 924,
+                  low: 730,
+                  defaultInfo: Immutable.Map {
+                    high: 924,
+                    low: 730,
+                  },
+                },
+                Immutable.Map {
+                  high: 1070,
+                  low: 925,
+                  defaultInfo: Immutable.Map {
+                    high: 1070,
+                    low: 925,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1071,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1071,
+                  },
+                },
+              ],
+              number: "6",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 769,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 769,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 969,
+                  low: 770,
+                  defaultInfo: Immutable.Map {
+                    high: 969,
+                    low: 770,
+                  },
+                },
+                Immutable.Map {
+                  high: 1120,
+                  low: 970,
+                  defaultInfo: Immutable.Map {
+                    high: 1120,
+                    low: 970,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1121,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1121,
+                  },
+                },
+              ],
+              number: "7",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 789,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 789,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1009,
+                  low: 790,
+                  defaultInfo: Immutable.Map {
+                    high: 1009,
+                    low: 790,
+                  },
+                },
+                Immutable.Map {
+                  high: 1185,
+                  low: 1010,
+                  defaultInfo: Immutable.Map {
+                    high: 1185,
+                    low: 1010,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1186,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1186,
+                  },
+                },
+              ],
+              number: "8",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 849,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 849,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1049,
+                  low: 850,
+                  defaultInfo: Immutable.Map {
+                    high: 1049,
+                    low: 850,
+                  },
+                },
+                Immutable.Map {
+                  high: 1260,
+                  low: 1050,
+                  defaultInfo: Immutable.Map {
+                    high: 1260,
+                    low: 1050,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1261,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1261,
+                  },
+                },
+              ],
+              number: "9",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 889,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 889,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1079,
+                  low: 890,
+                  defaultInfo: Immutable.Map {
+                    high: 1079,
+                    low: 890,
+                  },
+                },
+                Immutable.Map {
+                  high: 1335,
+                  low: 1080,
+                  defaultInfo: Immutable.Map {
+                    high: 1335,
+                    low: 1080,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1336,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1336,
+                  },
+                },
+              ],
+              number: "10",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 984,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 984,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1184,
+                  low: 985,
+                  defaultInfo: Immutable.Map {
+                    high: 1184,
+                    low: 985,
+                  },
+                },
+                Immutable.Map {
+                  high: 1385,
+                  low: 1185,
+                  defaultInfo: Immutable.Map {
+                    high: 1385,
+                    low: 1185,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1386,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1386,
+                  },
+                },
+              ],
+              number: "11",
+            },
+            Immutable.Map {
+              bandRanges: Immutable.List [
+                Immutable.Map {
+                  high: 0,
+                  low: 0,
+                  defaultInfo: Immutable.Map {
+                    high: 999999,
+                    low: -999999,
+                  },
+                },
+                Immutable.Map {
+                  high: 984,
+                  low: -999998,
+                  defaultInfo: Immutable.Map {
+                    high: 984,
+                    low: -999998,
+                  },
+                },
+                Immutable.Map {
+                  high: 1184,
+                  low: 985,
+                  defaultInfo: Immutable.Map {
+                    high: 1184,
+                    low: 985,
+                  },
+                },
+                Immutable.Map {
+                  high: 1385,
+                  low: 1185,
+                  defaultInfo: Immutable.Map {
+                    high: 1385,
+                    low: 1185,
+                  },
+                },
+                Immutable.Map {
+                  high: 999998,
+                  low: 1386,
+                  defaultInfo: Immutable.Map {
+                    high: 999998,
+                    low: 1386,
+                  },
+                },
+              ],
+              number: "12",
+            },
+          ],
+          proficientBandIndex: 3,
+          shouldShowAsterisks: false,
+        }
+      }
+      isEditable={false}
+      labelNumberOfBands="Number of performance level bands:"
+      labelSelectProficientBand="Select \\"proficient\\" band:"
+      numberOfEnabledBands={4}
+      shouldBandShowAsterisk={[Function]}
+      startingGradeIndex={1}
+    />
+    <div
+      className="ri-settings__only-button-container"
+    >
+      <withRouter(SAMLinkButton)
+        buttonClassModifier="settings-message__btn"
+        to="/roster"
+      >
+        Return to Profile
+      </withRouter(SAMLinkButton)>
+    </div>
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TabAdvancedSettings /> handleRestoreDefault Expect to execute correctly 1`] = `
+Immutable.List [
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+  Immutable.List [
+    false,
+    false,
+    false,
+    false,
+    false,
+  ],
+]
+`;
+
+exports[`<TabAdvancedSettings /> handleRestoreDefault Expect to execute correctly 2`] = `
+Immutable.Map {
+  bandNames: Immutable.List [
+    "no default",
+    "Below Basic",
+    "Basic",
+    "Proficient",
+    "Advanced",
+  ],
+  bandReferenceData: Immutable.List [
+    Immutable.Map {
+      defaultName: "no default",
+      number: "5",
+    },
+    Immutable.Map {
+      defaultName: "Below Basic",
+      number: "4",
+    },
+    Immutable.Map {
+      defaultName: "Basic",
+      number: "3",
+    },
+    Immutable.Map {
+      defaultName: "Proficient",
+      number: "2",
+    },
+    Immutable.Map {
+      defaultName: "Advanced",
+      number: "1",
+    },
+  ],
+  bandsEnabled: Immutable.List [
+    false,
+    true,
+    true,
+    true,
+    true,
+  ],
+  grades: Immutable.List [
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: -999998,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: -999998,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 189,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 189,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 530,
+          low: 190,
+          defaultInfo: Immutable.Map {
+            high: 530,
+            low: 190,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 531,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 531,
+          },
+        },
+      ],
+      number: "0",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: -999998,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: -999998,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 189,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 189,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 530,
+          low: 190,
+          defaultInfo: Immutable.Map {
+            high: 530,
+            low: 190,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 531,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 531,
+          },
+        },
+      ],
+      number: "1",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 219,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 219,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 419,
+          low: 220,
+          defaultInfo: Immutable.Map {
+            high: 419,
+            low: 220,
+          },
+        },
+        Immutable.Map {
+          high: 650,
+          low: 420,
+          defaultInfo: Immutable.Map {
+            high: 650,
+            low: 420,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 651,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 651,
+          },
+        },
+      ],
+      number: "2",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 329,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 329,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 519,
+          low: 330,
+          defaultInfo: Immutable.Map {
+            high: 519,
+            low: 330,
+          },
+        },
+        Immutable.Map {
+          high: 820,
+          low: 520,
+          defaultInfo: Immutable.Map {
+            high: 820,
+            low: 520,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 821,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 821,
+          },
+        },
+      ],
+      number: "3",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 539,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 539,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 739,
+          low: 540,
+          defaultInfo: Immutable.Map {
+            high: 739,
+            low: 540,
+          },
+        },
+        Immutable.Map {
+          high: 940,
+          low: 740,
+          defaultInfo: Immutable.Map {
+            high: 940,
+            low: 740,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 941,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 941,
+          },
+        },
+      ],
+      number: "4",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 619,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 619,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 829,
+          low: 620,
+          defaultInfo: Immutable.Map {
+            high: 829,
+            low: 620,
+          },
+        },
+        Immutable.Map {
+          high: 1010,
+          low: 830,
+          defaultInfo: Immutable.Map {
+            high: 1010,
+            low: 830,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1011,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1011,
+          },
+        },
+      ],
+      number: "5",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 729,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 729,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 924,
+          low: 730,
+          defaultInfo: Immutable.Map {
+            high: 924,
+            low: 730,
+          },
+        },
+        Immutable.Map {
+          high: 1070,
+          low: 925,
+          defaultInfo: Immutable.Map {
+            high: 1070,
+            low: 925,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1071,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1071,
+          },
+        },
+      ],
+      number: "6",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 769,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 769,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 969,
+          low: 770,
+          defaultInfo: Immutable.Map {
+            high: 969,
+            low: 770,
+          },
+        },
+        Immutable.Map {
+          high: 1120,
+          low: 970,
+          defaultInfo: Immutable.Map {
+            high: 1120,
+            low: 970,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1121,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1121,
+          },
+        },
+      ],
+      number: "7",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 789,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 789,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 1009,
+          low: 790,
+          defaultInfo: Immutable.Map {
+            high: 1009,
+            low: 790,
+          },
+        },
+        Immutable.Map {
+          high: 1185,
+          low: 1010,
+          defaultInfo: Immutable.Map {
+            high: 1185,
+            low: 1010,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1186,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1186,
+          },
+        },
+      ],
+      number: "8",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 849,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 849,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 1049,
+          low: 850,
+          defaultInfo: Immutable.Map {
+            high: 1049,
+            low: 850,
+          },
+        },
+        Immutable.Map {
+          high: 1260,
+          low: 1050,
+          defaultInfo: Immutable.Map {
+            high: 1260,
+            low: 1050,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1261,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1261,
+          },
+        },
+      ],
+      number: "9",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 889,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 889,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 1079,
+          low: 890,
+          defaultInfo: Immutable.Map {
+            high: 1079,
+            low: 890,
+          },
+        },
+        Immutable.Map {
+          high: 1335,
+          low: 1080,
+          defaultInfo: Immutable.Map {
+            high: 1335,
+            low: 1080,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1336,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1336,
+          },
+        },
+      ],
+      number: "10",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 984,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 984,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 1184,
+          low: 985,
+          defaultInfo: Immutable.Map {
+            high: 1184,
+            low: 985,
+          },
+        },
+        Immutable.Map {
+          high: 1385,
+          low: 1185,
+          defaultInfo: Immutable.Map {
+            high: 1385,
+            low: 1185,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1386,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1386,
+          },
+        },
+      ],
+      number: "11",
+    },
+    Immutable.Map {
+      bandRanges: Immutable.List [
+        Immutable.Map {
+          high: 999999,
+          low: -999999,
+          defaultInfo: Immutable.Map {
+            high: 999999,
+            low: -999999,
+          },
+        },
+        Immutable.Map {
+          high: 984,
+          low: -999998,
+          defaultInfo: Immutable.Map {
+            high: 984,
+            low: -999998,
+          },
+        },
+        Immutable.Map {
+          high: 1184,
+          low: 985,
+          defaultInfo: Immutable.Map {
+            high: 1184,
+            low: 985,
+          },
+        },
+        Immutable.Map {
+          high: 1385,
+          low: 1185,
+          defaultInfo: Immutable.Map {
+            high: 1385,
+            low: 1185,
+          },
+        },
+        Immutable.Map {
+          high: 999998,
+          low: 1386,
+          defaultInfo: Immutable.Map {
+            high: 999998,
+            low: 1386,
+          },
+        },
+      ],
+      number: "12",
+    },
+  ],
+  proficientBandIndex: 3,
+  shouldShowAsterisks: true,
+}
+`;

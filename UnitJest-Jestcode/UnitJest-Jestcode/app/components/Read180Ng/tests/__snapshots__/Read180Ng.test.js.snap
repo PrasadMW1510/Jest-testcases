@@ -1,0 +1,735 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180Ng /> Expect to render component 1`] = `
+<div>
+  <div
+    className="print-read180ng-modal-list--wrapper"
+  >
+    <div
+      className="print-read180ng-modal-list--purple"
+    >
+      <div
+        className="print-read180ng-modal__heading"
+      />
+      <div>
+        <button
+          className="print-read180ng-modal__button-close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-title"
+    >
+      <div
+        className="print-read180ng-modal-wrapper-div"
+      >
+        <span
+          className="print-read180ng-modal-span"
+        >
+          Read 180
+        </span>
+         Next Generation
+         
+      </div>
+      <div
+        className="edit-assignment-component__div-circle--head"
+      >
+        <div
+          className="edit-assignment-component__div--circle edit-assignment-component__div--circle3"
+        />
+      </div>
+      <div>
+        <div
+          className="print-read180ng-modal-title-div1"
+        >
+          test
+        </div>
+        <div
+          className="edit-assignment-component__div-circle--head"
+        >
+          <div
+            className="edit-assignment-component__div--circle edit-assignment-component__div--circle4"
+          />
+        </div>
+        <div
+          className="print-read180ng-modal-title-div2"
+        >
+          test1
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-clear"
+    />
+    <div
+      className="print-read180ng-modal-description-box"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Description:
+      </div>
+      <div
+        className="print-read180ng-modal-description-textarea"
+      >
+        <textarea
+          cols="70"
+          name="description"
+          onChange={[Function]}
+          rows={3}
+          value=""
+        />
+        <div
+          className="print-read180ng-modal-description-inbox"
+        >
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-due-date"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Due Date:
+      </div>
+      <div
+        className="print-read180ng-modal-due-date-textarea"
+      >
+        <div
+          className="print-read180ng-modal-due-date-inbox"
+        >
+          <p
+            className="print-read180ng-modal-due-date-content"
+          >
+             
+            Select a due date:
+             
+            <span
+              className="print-read180ng-modal-due-date-span-content"
+            >
+              07/07/2018
+            </span>
+             
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-assignment-roster-box"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Student Grade:
+      </div>
+      <div
+        className="print-read180ng-modal__description-title--scroll"
+      >
+        <div
+          className="print-read180ng-modal-assignment-description"
+        >
+          To change students grade, enter a new grade below.
+        </div>
+        <div
+          className="print-read180ng-modal-assignment-roster-textarea"
+        >
+          <div
+            className="print-read180ng-modal-assignment-roster-div-headers"
+          >
+            <span
+              className="print-read180ng-modal-assignment-span-right print-system44-modal-assignment-roster-grades"
+            >
+              Grade
+            </span>
+             
+            <span
+              className="print-read180ng-modal-assignment-span-right print-system44-modal-assignment-roster-comments"
+            >
+              Comment
+              <span
+                className="print-read180ng-modal-assignment-span-right print-read180ng-modal-assignment-roster-comments-warning"
+              />
+            </span>
+          </div>
+          <div
+            className="print-read180ng-modal-assignment-wrapper"
+          >
+            <div
+              className="print-read180ng-modal-assignment-grades-ml"
+            >
+              <input
+                className="print-read180ng-modal-assignment-textbox1"
+                name="score"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+                
+              <span>
+                /
+              </span>
+              <input
+                className="print-read180ng-modal-assignment-textbox2"
+                name="total"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+              <button
+                className="print-read180ng-modal-button-equals-gray"
+                onClick={[Function]}
+              >
+                =
+              </button>
+              <input
+                className="print-read180ng-modal-assignment-textbox3"
+                name="average"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+              <span
+                className="print-read180ng-modal-assignment-percentage"
+              >
+                %
+              </span>
+            </div>
+            <div
+              className="print-read180ng-modal-assignment-comments"
+            >
+              <input
+                className="print-read180ng-modal-assignment-textbox-comment"
+                name="comment"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+            </div>
+            <div
+              className="print-read180ng-odal-assignment-roster-inbox"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="show-read180ng-modal-line"
+    >
+       
+    </div>
+    <div
+      className="print-activate-quiz__buttons"
+    >
+      <div
+        className="print-activate-quiz__primary-button"
+      >
+        <div
+          className="print-read180ng-modal__buttons-firstset"
+        >
+          <button
+            className="print-read180ng-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-read180ng-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-read180ng-modal__buttons-secondset"
+        >
+          <button
+            className="print-read180ng-modal-button-second-set print-read180ng-modal-button-delete"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+          <button
+            className="print-read180ng-modal-button-second-set print-read180ng-modal-button-save"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+         Are you sure You want to delete ?
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+           
+          Yes
+           
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal__savescreen--warning"
+  >
+    <div
+      className="modal--savewrapper-heading1"
+    >
+      Warning 
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      You have unsaved changes.Do you want to leave this screen without saving them?
+      <div
+        className="read180ngsave-innerpage-button1"
+      >
+        <button
+          className="read180ng__modal-button--firstset read180ngsave-innerpage-ok-button1"
+          onClick={[Function]}
+        >
+          OK
+        </button>
+        <button
+          className="read180ng__modal-button--firstset read180ngsave-innerpage-cancel-button1"
+          onClick={[Function]}
+        >
+           
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning"
+  >
+    <div
+      className="modal--savewrapper-heading1"
+    >
+       
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      Assignment Updated
+      <div
+        className="read180ngsave-innerpage-button1"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Read180Ng /> Expect to render component 2`] = `
+<div>
+  <div
+    className="print-read180ng-modal-list--wrapper"
+  >
+    <div
+      className="print-read180ng-modal-list--purple"
+    >
+      <div
+        className="print-read180ng-modal__heading"
+      />
+      <div>
+        <button
+          className="print-read180ng-modal__button-close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-title"
+    >
+      <div
+        className="print-read180ng-modal-wrapper-div"
+      >
+        <span
+          className="print-read180ng-modal-span"
+        >
+          Read 180
+        </span>
+         Next Generation
+         
+      </div>
+      <div
+        className="edit-assignment-component__div-circle--head"
+      >
+        <div
+          className="edit-assignment-component__div--circle edit-assignment-component__div--circle3"
+        />
+      </div>
+      <div>
+        <div
+          className="print-read180ng-modal-title-div1"
+        >
+          test
+        </div>
+        <div
+          className="edit-assignment-component__div-circle--head"
+        >
+          <div
+            className="edit-assignment-component__div--circle edit-assignment-component__div--circle4"
+          />
+        </div>
+        <div
+          className="print-read180ng-modal-title-div2"
+        >
+          test1
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-clear"
+    />
+    <div
+      className="print-read180ng-modal-description-box"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Description:
+      </div>
+      <div
+        className="print-read180ng-modal-description-textarea"
+      >
+        <textarea
+          cols="70"
+          name="description"
+          onChange={[Function]}
+          rows={3}
+          value=""
+        />
+        <div
+          className="print-read180ng-modal-description-inbox"
+        >
+           
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-due-date"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Due Date:
+      </div>
+      <div
+        className="print-read180ng-modal-due-date-textarea"
+      >
+        <div
+          className="print-read180ng-modal-due-date-inbox"
+        >
+          <p
+            className="print-read180ng-modal-due-date-content"
+          >
+             
+            Select a due date:
+             
+            <span
+              className="print-read180ng-modal-due-date-span-content"
+            >
+              07/07/2018
+            </span>
+             
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-read180ng-modal-assignment-roster-box"
+    >
+      <div
+        className="print-read180ng-modal-description-title"
+      >
+        Student Grade:
+      </div>
+      <div
+        className="print-read180ng-modal__description-title--scroll"
+      >
+        <div
+          className="print-read180ng-modal-assignment-description"
+        >
+          To change students grade, enter a new grade below.
+        </div>
+        <div
+          className="print-read180ng-modal-assignment-roster-textarea"
+        >
+          <div
+            className="print-read180ng-modal-assignment-roster-div-headers"
+          >
+            <span
+              className="print-read180ng-modal-assignment-span-right print-system44-modal-assignment-roster-grades"
+            >
+              Grade
+            </span>
+             
+            <span
+              className="print-read180ng-modal-assignment-span-right print-system44-modal-assignment-roster-comments"
+            >
+              Comment
+              <span
+                className="print-read180ng-modal-assignment-span-right print-read180ng-modal-assignment-roster-comments-warning"
+              />
+            </span>
+          </div>
+          <div
+            className="print-read180ng-modal-assignment-wrapper"
+          >
+            <div
+              className="print-read180ng-modal-assignment-grades-ml"
+            >
+              <input
+                className="print-read180ng-modal-assignment-textbox1"
+                name="score"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+                
+              <span>
+                /
+              </span>
+              <input
+                className="print-read180ng-modal-assignment-textbox2"
+                name="total"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+              <button
+                className="print-read180ng-modal-button-equals-gray"
+                onClick={[Function]}
+              >
+                =
+              </button>
+              <input
+                className="print-read180ng-modal-assignment-textbox3"
+                name="average"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+              <span
+                className="print-read180ng-modal-assignment-percentage"
+              >
+                %
+              </span>
+            </div>
+            <div
+              className="print-read180ng-modal-assignment-comments"
+            >
+              <input
+                className="print-read180ng-modal-assignment-textbox-comment"
+                name="comment"
+                onChange={[Function]}
+                type="textbox"
+                value=""
+              />
+            </div>
+            <div
+              className="print-read180ng-odal-assignment-roster-inbox"
+            >
+               
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="show-read180ng-modal-line"
+    >
+       
+    </div>
+    <div
+      className="print-activate-quiz__buttons"
+    >
+      <div
+        className="print-activate-quiz__primary-button"
+      >
+        <div
+          className="print-read180ng-modal__buttons-firstset"
+        >
+          <button
+            className="print-read180ng-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-read180ng-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-read180ng-modal__buttons-secondset"
+        >
+          <button
+            className="print-read180ng-modal-button-second-set print-read180ng-modal-button-delete"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+          <button
+            className="print-read180ng-modal-button-second-set print-read180ng-modal-button-save"
+            onClick={[Function]}
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+         Are you sure You want to delete ?
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+           
+          Yes
+           
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal__savescreen--warning"
+  >
+    <div
+      className="modal--savewrapper-heading1"
+    >
+      Warning 
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      You have unsaved changes.Do you want to leave this screen without saving them?
+      <div
+        className="read180ngsave-innerpage-button1"
+      >
+        <button
+          className="read180ng__modal-button--firstset read180ngsave-innerpage-ok-button1"
+          onClick={[Function]}
+        >
+          OK
+        </button>
+        <button
+          className="read180ng__modal-button--firstset read180ngsave-innerpage-cancel-button1"
+          onClick={[Function]}
+        >
+           
+          Cancel
+           
+        </button>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning"
+  >
+    <div
+      className="modal--savewrapper-heading1"
+    >
+       
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      Assignment Updated
+      <div
+        className="read180ngsave-innerpage-button1"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

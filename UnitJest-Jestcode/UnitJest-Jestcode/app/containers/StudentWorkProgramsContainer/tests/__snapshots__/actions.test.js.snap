@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalController actions should return the correct constant for hide modal 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/GET_IREAD_STUDENT_WORK_DATA",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 2`] = `
+Object {
+  "data": undefined,
+  "type": "app/GET_IREAD_STUDENT_WORK_DATA_SUCCESS",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 3`] = `
+Object {
+  "type": "app/GET_IREAD_STUDENT_WORK_DATA_FAILURE",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 4`] = `
+Object {
+  "data": undefined,
+  "formState": undefined,
+  "type": "app/POST_IREAD_STUDENT_WORK_DATA",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 5`] = `
+Object {
+  "data": undefined,
+  "type": "app/SAVE_IREAD_STUDENT_WORK_DATA_REQUEST_SUCCESS",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 6`] = `
+Object {
+  "data": undefined,
+  "type": "app/SAVE_IREAD_STUDENT_WORK_DATA_REQUEST_FAILURE",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 7`] = `
+Object {
+  "data": undefined,
+  "type": "app/DELETE_IREAD_STUDENT_WORK",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 8`] = `
+Object {
+  "data": undefined,
+  "type": "app/DELETE_IREAD_STUDENT_WORK_SUCCESS",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 9`] = `
+Object {
+  "data": undefined,
+  "type": "app/DELETE_IREAD_STUDENT_WORK_FAILURE",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 10`] = `
+Object {
+  "type": "app/SHOW_DELETE_MODAL",
+}
+`;

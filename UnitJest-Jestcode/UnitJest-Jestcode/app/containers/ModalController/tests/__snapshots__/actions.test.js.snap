@@ -1,0 +1,719 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalController actions passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "R180NG_TOPICS_SKIP_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 2`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 3`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "R180NG_SKIP_SEGMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 4`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "PRINT_CUSTOM_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 5`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 6`] = `
+Object {
+  "data": Object {
+    "checkedId": "",
+    "id": "ggg",
+    "page": Object {},
+    "teacherMadeQuiz": "",
+  },
+  "modalType": "SEARCH_RESULT_DETAILS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with data 7`] = `
+Object {
+  "data": Object {
+    "allData": "rrrr",
+    "currentIndex": "2",
+    "page": "roe",
+    "row": Object {
+      "ID": "ggg",
+      "QuizTeacherMade": "",
+    },
+  },
+  "modalType": "PRINT_INBOX_PROGRAM",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_TOPICS_SKIP_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with no data 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_SKIP_SEGMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions passed with no data 3`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return correct constant for the search delete account modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": Object {
+      "cohortsToDelete": Array [
+        "asdfghjkl",
+      ],
+      "searchRefreshOnSave": [Function],
+    },
+  },
+  "modalType": "ACCOUNT_DELETE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return correct constant for the search delete account modal passed without data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "ACCOUNT_DELETE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return correct constant for the searchClassAssignModal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": Object {
+      "cohortTypeLabel": "Teacher",
+      "cohortsToAssign": Array [],
+      "searchRefreshOnSave": [Function],
+    },
+  },
+  "modalType": "SEARCH_CLASS_ASSIGN_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return correct constant for the searchClassAssignModal passed without data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "SEARCH_CLASS_ASSIGN_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for "Add a School" form modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "SCHOOL_FORM_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for hide modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "",
+  "type": "app/ModalController/HIDE_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for show class form modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "CLASS_FORM_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for show logout modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "LOGOUT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for show modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "asdf",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for show modal but no type provided 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for show student form modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "STUDENT_FORM_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 2`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "ABOUT_LINK_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 3`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 4`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "R180NG_TOPICS_SKIP_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 5`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "R180NG_SKIP_SEGMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 6`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with data 7`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "ABOUT_LINK_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 3`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 4`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_TOPICS_SKIP_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 5`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_SKIP_SEGMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 6`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about link modal passed with no data 7`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show iread modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "IREAD_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show iread modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "IREAD_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show iread student work modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "IREAD_STUDENT_WORK_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show iread student work modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "IREAD_STUDENT_WORK_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show system 44 student goals modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "SYSTEM_44_STUDENT_GOALS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the about show system 44 student goals modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "SYSTEM_44_STUDENT_GOALS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the edit district admin modal warning passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "EDIT_ADMIN_MODAL_WARNING",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the edit district admin modal warning passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "EDIT_ADMIN_MODAL_WARNING",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the message modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "testData",
+  },
+  "modalType": "MESSAGE_LOG_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the message modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "MESSAGE_LOG_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the search modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "SEARCH_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the set Student Level Modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "PROGRAM_SETTING_SET_STUDENT_LEVEL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the set Student Level Modal passed with no data 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the set Student Level Modal should return the correct constant for the set Student Level Modal 1`] = `
+Object {
+  "data": Object {
+    "data": "testdata",
+  },
+  "modalType": "PROGRAM_SETTING_SET_STUDENT_LEVEL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the set Student Level Modal should return the correct constant for the set Student Level Modal 2`] = `
+Object {
+  "data": Object {
+    "data": "testdata",
+  },
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz CollectionNames 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "EDIT_QUIZ_COLLECTION_NAMES_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz CollectionNames 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "EDIT_QUIZ_COLLECTION_NAMES_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz activateQuizModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "ACTIVATE_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz deactivateQuizModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "DEACTIVATE_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz handleExportTeacherQuizModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "HANDLE_EXPORT_TEACHER_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz handleExportTeacherQuizModal 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "HANDLE_EXPORT_TEACHER_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showPrintBookLabelModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "PRINT_BOOK_LABEL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showPrintQuizAndAnswerKeyModal 1`] = `
+Object {
+  "data": Object {
+    "data": "hhh",
+  },
+  "modalType": "PRINT_QUIZ_AND_ANSWER_KEY_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showPrintQuizAndAnswerKeyModal 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "PRINT_QUIZ_AND_ANSWER_KEY_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showPrintQuizModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "PRINT_CUSTOM_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showR180NGTopicsStageModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showR180NGTopicsStageModal 2`] = `
+Object {
+  "data": Object {
+    "data": "hhh",
+  },
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showR180NGTopicsStageModal 3`] = `
+Object {
+  "data": Object {},
+  "modalType": "R180NG_TOPICS_STAGE_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showReactivateSchoolModal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showReactivateSchoolModal 2`] = `
+Object {
+  "data": Object {
+    "data": "hhh",
+  },
+  "modalType": "MIA_REACTIVATE_SCHOOL_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show EditQuiz showTeacherMadeQuiz 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "TEACHER_MADE_QUIZ_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with data 1`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with data 2`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "CATCH_ALL_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with data 3`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "IREAD_ADD_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with data 4`] = `
+Object {
+  "data": Object {
+    "data": "123",
+  },
+  "modalType": "READ_180_NG_ASSAIGNMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with no data 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "MIA_REACTIVATE_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with no data 2`] = `
+Object {
+  "data": Object {},
+  "modalType": "CATCH_ALL_CLASS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with no data 3`] = `
+Object {
+  "data": Object {},
+  "modalType": "IREAD_ADD_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show reactivate class modal passed with no data 4`] = `
+Object {
+  "data": Object {},
+  "modalType": "READ_180_NG_ASSAIGNMENT_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show teacher form modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "TEACHER_FORM_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the correct constant for the show warning to Modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "WARNING_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the deactivate group modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "DEACTIVATE_GROUP_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the deactivate group success message modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "DEACTIVATE_GROUP_SUCCESS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the deactivate user modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "DEACTIVATE_USER_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;
+
+exports[`ModalController actions should return the deactivate user success message modal 1`] = `
+Object {
+  "data": Object {},
+  "modalType": "DEACTIVATE_USER_SUCCESS_MODAL",
+  "type": "app/ModalController/SHOW_MODAL",
+}
+`;

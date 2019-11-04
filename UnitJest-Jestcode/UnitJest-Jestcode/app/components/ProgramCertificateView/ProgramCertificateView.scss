@@ -1,0 +1,61 @@
+.awardselect {
+  background-color: #fbe380;
+  height: 200px;
+  border: 1px solid #000;
+  font-size: 11px;
+  margin-top: 8px;
+}
+
+.awardselect__header {
+  background-color: #f4cc37;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+}
+
+.certinfo {
+  padding-top: 8px;
+}
+
+.certinfo__header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.awardselect__cont {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.awardselectbox {
+  margin-left: 50px;
+  background-color: #fff;
+  width: 200px;
+  border: 1px solid #000;
+  appearance: none;
+  border-radius: 0;
+  padding-left: 5px;
+}
+
+.messagecont {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.customlines {
+  margin-left: 65px;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+.customlines__input {
+  background-color: #fff;
+  margin-left: 40px;
+  width: 150px;
+  border: 1px solid #000;
+}
+
+.customlines__item {
+  padding-bottom: 10px;
+}

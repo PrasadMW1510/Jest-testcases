@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoutPage /> User is already logged in Should logout the user 1`] = `
+<LoginBody>
+  <LoginMainBody>
+    <LogoutBox />
+  </LoginMainBody>
+  <LoginCopyrightFooter />
+</LoginBody>
+`;
+
+exports[`<LogoutPage /> User is already logged out Should redirect the user to the login page 1`] = `
+<LoginBody>
+  <LoginMainBody>
+    <LogoutBox />
+  </LoginMainBody>
+  <LoginCopyrightFooter />
+</LoginBody>
+`;

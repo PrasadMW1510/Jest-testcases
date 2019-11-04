@@ -1,0 +1,32 @@
+.fad-reset-modal {
+  height: 290px;
+  font-size: 10pt;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.fad-reset-modal__title {
+  background: #ffa200;
+  color: #fff;
+  font-weight: bold;
+  font-size: 10pt;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 4px 4px 4px 20px;
+}
+
+.fad-reset-modal__orange-button {
+  color: #fff;
+  background: #d06020;
+  border: outset 2px #d06020;
+  cursor: pointer;
+}
+
+.fad-reset-modal__grey-button {
+  color: #fff;
+  background: #808080;
+  border: outset 2px #808080;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}

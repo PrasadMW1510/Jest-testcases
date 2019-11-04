@@ -1,0 +1,228 @@
+.modal__wrapper {
+  display: flex;
+}
+
+.modal--teachermade-form {
+  animation: fadein 0.4s;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  outline: none;
+  height: auto;
+  width: 610px;
+  padding: 0;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal__wrapper-sidebar {
+  background: #fff2d0;
+  width: 250px;
+  max-height: 462px;
+  overflow-y: scroll;
+}
+
+.tmq-quiz-list {
+  padding-left: 1rem;
+  list-style: none;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+
+.tmq-quiz-list .tmq-links {
+  margin: 5px 0;
+}
+
+.tmq-quiz-list .tmq-quiz-list2 {
+  padding: 0;
+}
+
+.modal__wrapper {
+  display: flex;
+}
+
+.modal__wrapper-content {
+  padding: 1rem;
+  width: 100%;
+}
+
+.modal__wrapper-action {
+  display: flex;
+  float: right;
+}
+
+.editxt {
+  margin: auto;
+}
+
+.modal__wrapper-content-main-form {
+  border: 1px solid #000;
+}
+
+.modal__wrapper-content-main {
+  overflow: hidden;
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: calc(100% - 52px);
+
+  .btn-gray {
+    margin: 0 3px;
+    font-size: 11px;
+    float: left;
+  }
+}
+
+.modal__wrapper-content-main .modal__wrapper-content-main-form {
+  background: #fff2d0;
+  margin: 0.5rem 0;
+  border: 1px solid #000;
+  padding: 0 0 1rem;
+}
+
+.modal__wrapper-content-main .modal__wrapper-content-main-form .form-control {
+  padding: 0 1.5rem;
+  display: flex;
+}
+
+.form-control {
+  margin-bottom: 0.3rem;
+
+  .form-control__label {
+    font-size: 13px;
+    width: 140px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 400;
+  }
+
+  .form-control-label-checkbox {
+    width: 130px !important;
+  }
+
+  .form-control__input {
+    background: #fff;
+    border: 1px solid #000;
+    font-size: 13px;
+    width: calc(100% - 150px);
+    resize: none;
+  }
+
+  .textarea {
+    background: #fff;
+    border: 1px solid #000;
+    font-size: 13px;
+    width: calc(100% - 150px);
+    resize: none;
+  }
+}
+
+.btn-gray {
+  background: #ccc;
+  border: 1px solid #000;
+  font-size: 13px;
+  float: right;
+  box-shadow: 0 1px 0 #fff inset;
+  padding: 2px 8px;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 1px #c3c3c3 solid;
+  color: #000;
+  text-decoration: none;
+}
+
+.padding-md {
+  padding: 1rem 0 2rem !important;
+}
+
+.sm-field {
+  .form-control__input {
+    width: 107px;
+    margin-right: 86px;
+  }
+}
+
+.points-field {
+  .form-control__input {
+    margin-right: 8px;
+    width: 105px;
+  }
+}
+
+.col-2 {
+  display: flex;
+
+  .btn-gray {
+    margin: 0 25px 4px -10px;
+  }
+}
+
+.label-error-trqz-qn {
+  color: #f00;
+}
+
+.teacher-made-quiz-choose {
+  margin: 36% auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.teacher-made-questions .form-control .textarea {
+  width: calc(100% - 114px);
+}
+
+.teacher-made-questions .btn-gray {
+  width: 118px;
+}
+
+.teacher-made-questions .btn-gray:focus {
+  outline: 0;
+}
+
+.teacher-made-questions .teacher-new-qs {
+  width: 135px;
+  margin: 0;
+}
+
+.modal__wrapper-content-main-form .form-control .textarea {
+  border-style: outset;
+}
+
+.teacher-made-title {
+  color: #ed5e1c;
+  font-size: 13px;
+}
+
+.teachermade-field-text {
+  font-size: 12px;
+}
+
+.th-made-qz-error-msg {
+  font-size: 12px;
+  color: #f00;
+}
+
+.tmq-btn {
+  margin-bottom: 40px;
+}
+
+.tmq-pad3 {
+  padding: 2px 0 !important;
+}
+
+.teacher-made-questions .tmq-width-edit { 
+  float: right;
+  margin: 0;
+}
+
+.label-error-trqz-qn {
+  color: #f00;
+}

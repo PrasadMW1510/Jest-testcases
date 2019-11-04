@@ -1,0 +1,121 @@
+.test-assignment-ps__heading {
+  font-size: 9pt;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.test-assignment-ps__content {
+  background-color: #fff;
+  display: inline-block;
+  height: 320px;
+  width: 97%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 8pt;
+  margin-top: 3%;
+}
+
+.test-assignment-ps__quadrants {
+  height: 90%;
+  border: 1px solid #000;
+}
+
+.test-assignment-ps__options {
+  padding-left: 5px;
+  font-size: 8pt;
+}
+
+.test-assignment-ps__block-spacing {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.test-assignment-ps-text {
+  font-weight: bold;
+  font-size: 8pt;
+  padding-right: 60px;
+}
+
+.test-assignment-ps-program-text {
+  font-weight: bold;
+  font-size: 8pt;
+  padding-right: 86px;
+}
+
+.test-assignment-ps-module-text {
+  font-weight: bold;
+  font-size: 8pt;
+  padding-right: 55px;
+}
+
+.test-assignment-ps-test-text {
+  font-weight: bold;
+  font-size: 8pt;
+  padding-right: 120px;
+}
+
+.test-assignment-ps__select-field {
+  width: 180pt;
+  border-style: outset ;
+}
+
+.test-assignment-ps__select-label {
+  font-weight: bold;
+  font-size: 8pt;
+  margin-right: 60px;
+}
+
+.test-assignment-ps__select-field-disabled {
+  width: 180pt;
+  border-style: outset ;
+  pointer-events: none;
+  cursor: not-allowed;
+  border-color: #7d8084;
+  border-style: inset;
+}
+
+.test-assignment-ps__radio-none {
+  display: none;
+}
+
+.test-assignment-ps__select-label-test {
+  font-weight: bold;
+  font-size: 8pt;
+  margin-right:110px;
+}
+
+.test-assignment-ps__select-test {
+  padding-top: 60px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.test-assignment-ps__quadrants-heading {
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 0%;
+  padding-top: 0.5%;
+  z-index: +1;
+}
+
+.test-assignment-ps__checkbox {
+  padding-left: 10px;
+  padding-top: 0.5%;
+}
+
+.test-assignment-ps__radio {
+  padding-left: 10px;
+  padding-top: 0.5%;
+  padding-right: 25px;
+}
+
+.test-assignment-ps__footer {
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 29px;
+}

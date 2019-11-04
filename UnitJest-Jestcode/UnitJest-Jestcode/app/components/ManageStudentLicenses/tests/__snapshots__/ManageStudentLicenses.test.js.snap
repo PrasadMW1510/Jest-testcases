@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageStudentLicenses /> should match snapshot 1`] = `
+<div>
+  <h3>
+    Student Licenses
+  </h3>
+  Under construction..
+</div>
+`;

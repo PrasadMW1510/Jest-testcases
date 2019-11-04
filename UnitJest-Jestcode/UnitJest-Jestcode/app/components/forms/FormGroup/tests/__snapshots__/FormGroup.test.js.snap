@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormGroup /> Should render correctly with a custom class 1`] = `
+<div
+  className="form-control__form-group  my-custom-class"
+>
+  form group content
+</div>
+`;
+
+exports[`<FormGroup /> Should render correctly with a custom props 1`] = `
+<div
+  className="form-control__form-group  "
+  style={
+    Object {
+      "foo": "test-if-custom-props-are-passed-on-to-dom-element",
+    }
+  }
+>
+  form group content
+</div>
+`;
+
+exports[`<FormGroup /> Should render correctly with row flag set 1`] = `
+<div
+  className="form-control__form-group form-control__form-group--row "
+>
+  form group content
+</div>
+`;

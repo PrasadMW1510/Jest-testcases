@@ -1,0 +1,16 @@
+{
+  "keywords": null,
+  "installed_apps": null,
+  "sortTerms": {
+    "sortTerm": {
+      "term": "resourceName",
+      "order": "asc"
+    }
+  },
+  "pagination": {
+    "cur_pg": 0,
+    "ipp": 100
+  },
+  "samversion": "",
+  "location": "Florida"
+}

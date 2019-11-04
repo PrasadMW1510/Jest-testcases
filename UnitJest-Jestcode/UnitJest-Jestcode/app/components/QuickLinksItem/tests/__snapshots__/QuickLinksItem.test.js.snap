@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickLinksItem /> Expect to render color correctly 1`] = `
+<a
+  className="quick-links-item quick-links-item--blue"
+/>
+`;
+
+exports[`<QuickLinksItem /> Expect to render correctly 1`] = `
+<a
+  className="quick-links-item"
+/>
+`;

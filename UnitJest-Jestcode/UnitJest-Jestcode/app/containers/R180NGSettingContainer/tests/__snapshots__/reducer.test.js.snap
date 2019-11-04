@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r180NgsettingContainerReducer should handle Program Settings Enrollment request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle Program Settings Enrollment request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle Program Settings update R180NG Setting RequestSuccess 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  programSetting: "settings",
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle R180NGProgramSettings request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle R180NGProgramSettingsRequestSuccess request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle post change  request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle transition to home tab 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;
+
+exports[`r180NgsettingContainerReducer should handle transition to none-home tab 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  programSetting: Immutable.Map {
+  },
+  programEnrollmentSetting: Immutable.List [
+  ],
+}
+`;

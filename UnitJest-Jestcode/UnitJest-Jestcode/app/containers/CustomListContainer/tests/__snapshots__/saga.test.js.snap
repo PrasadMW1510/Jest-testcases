@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomListContainer Saga exportCustomQuizRequest getExportCustomQuizListDatasuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`CustomListContainer Saga exportCustomQuizRequest getExportCustomQuizListDatasuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "newName": "",
+        "oldName": "",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`CustomListContainer Saga exportCustomQuizRequest getExportCustomQuizListDatasuccess 3`] = `undefined`;

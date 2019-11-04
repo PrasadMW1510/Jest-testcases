@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CatchiReadClass  /> should render  1`] = `
+<div
+  className="catchall-modal-title"
+>
+  <div
+    className="catchall-name"
+  >
+    <div>
+      <div
+        className="print-catchallclass-modal-title"
+      >
+        Students :
+        <span
+          className="print-catchallclass-modal-title-span"
+        >
+           
+        </span>
+         
+        <span
+          className="print-catchallclass-modal-title-span"
+        >
+           
+          <select
+            className="assignment-passage-select"
+            name="communityId"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              Select Program
+            </option>
+            <option
+              value="M180Y2"
+            >
+              Math 180 Year 2
+            </option>
+            <option
+              value="S44JR"
+            >
+              iRead
+            </option>
+            <option
+              value="S44NG,R180NG"
+            >
+              System 44 Next Generation
+            </option>
+          </select>
+        </span>
+         
+        Oral Fluency Assestment Fluency Passage:
+         
+        <select
+          className="assignment-passage-select"
+          name="assignmentName"
+          onChange={[Function]}
+        >
+          <option
+            value=""
+          >
+            Select a Fluency Passage
+          </option>
+          <option
+            value="Grade 1:Benchmark Passage1"
+          >
+            Grade 1:Benchmark Passage1
+          </option>
+          <option
+            value="Grade 1:Benchmark Passage2"
+          >
+            Grade 1:Benchmark Passage2
+          </option>
+          <option
+            value="Grade 2:Benchmark Passage1"
+          >
+            Grade 2:Benchmark Passage1
+          </option>
+          <option
+            value="Grade 2:Benchmark Passage2"
+          >
+            Grade 2:Benchmark Passage2
+          </option>
+          <option
+            value="Grade 2:Benchmark Passage3"
+          >
+            Grade 2:Benchmark Passage3
+          </option>
+        </select>
+        <span
+          className="assignment-passage-text-error"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="catch-ireadclass-s44"
+  >
+    <div
+      className="catchall-modal-student-box"
+    >
+      <div
+        className="catchall-modal-description-title"
+      >
+        Assignment Roster:
+      </div>
+    </div>
+  </div>
+  <div
+    className="catchall-modal-assignment-roster-textarea"
+  >
+    <div
+      className="catchall-modal-assignment-roster-div-headers"
+    >
+      <div
+        className="catchall-modal-assignment-mesg"
+      >
+        Select Students that will comeplete the Assignment. Enter Words Correct Per Minute (WCPM) in the field below.
+      </div>
+      <div
+        className="catchall-modal-assignment"
+      >
+        <div
+          className="catchall-modal-assignment-one"
+        >
+          Students
+        </div>
+        <div
+          className="catchall-modal-assignment-one"
+        >
+          WPCM
+        </div>
+        <div
+          className="catchall-modal-assignment-three"
+        >
+          Comments
+        </div>
+      </div>
+      <div
+        className="catchall-modal-assignment"
+      >
+        <div
+          className="catchall-modal-assignment-one font-wei-normal bord-bot"
+        >
+          <input
+            name="selected"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Select All
+        </div>
+        <div
+          className="catchall-modal-assignment-one font-wei-normal bord-bot"
+        />
+        <div
+          className="catchall-modal-assignment-three font-wei-normal bord-bot"
+        />
+      </div>
+      <div>
+        <div
+          className="catchall-modal-assignment"
+          key="0"
+        >
+          <div
+            className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig"
+          >
+            <input
+              onChange={[Function]}
+              type="checkbox"
+              value="Bl121155"
+            />
+            vangaveeti
+            priyanka
+          </div>
+          <div
+            className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig txt-center"
+          >
+            <input
+              className="catchall-modal-assignment-textbox1"
+              name="score"
+              onChange={[Function]}
+              type="text"
+            />
+          </div>
+          <div
+            className="catchall-modal-assignment-three font-wei-normal bord-top-bot-rig"
+          >
+            <input
+              className="catchall-modal-assignment-textbox-comment"
+              name="comment"
+              onChange={[Function]}
+              type="textbox"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+.account-delete-modal {
+  height: 115px;
+  padding: 0;
+  width: 250px;
+}
+
+.account-delete-modal--bold {
+  font-weight: bold;
+}
+
+.account-delete-modal__button-group {
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  left: auto;
+  margin: 0 auto;
+  right: auto;
+  width: 200px;
+}
+
+.account-delete-modal__button-group-container {
+  bottom: 13px;
+  position: absolute;
+  width: 100%;
+}
+
+.account-delete-modal__button {
+  float: left;
+  height: 23px;
+  margin-top: 0;
+  min-width: 90px;
+  padding: 1px 0 2px;
+  width: 90px;
+}
+
+.account-delete-modal__message {
+  font-size: 11px;
+  padding: 20px 10px 0 30px;
+}

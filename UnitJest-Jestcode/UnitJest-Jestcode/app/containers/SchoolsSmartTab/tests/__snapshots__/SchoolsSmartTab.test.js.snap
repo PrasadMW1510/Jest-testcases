@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SchoolsSmartTab /> verify with the value is not equal 1`] = `
+<SmartBarTab
+  defaultChecked={true}
+  forName="undefined undefined"
+  isTabActive={false}
+  items={
+    Array [
+      Object {
+        "id": "org1",
+        "text": "school1",
+      },
+      Object {
+        "id": "org2",
+        "text": "school2",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  selectedItemId="wqeqweqwe"
+  smartbarSelectedUpdateData={[Function]}
+  title="Schools"
+/>
+`;

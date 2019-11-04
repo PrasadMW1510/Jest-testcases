@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InBox /> Expect to render correctly 1`] = `
+<div
+  className="inbox-page"
+>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleDetailProgram={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    resultdata={Array []}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<InBox /> Expect to render handleDetailProgram  correctly 1`] = `
+<div
+  className="inbox-page"
+>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleDetailProgram={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    resultdata={Array []}
+    searchResultsIdsChecked={
+      Array [
+        Object {
+          "itemId": 1,
+        },
+      ]
+    }
+    selectAll={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<InBox /> Expect to render handleDetailProgram  correctly 2`] = `
+<div
+  className="inbox-page"
+>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleDetailProgram={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    resultdata={Array []}
+    searchResultsIdsChecked={
+      Array [
+        Object {
+          "itemId": 1,
+        },
+      ]
+    }
+    selectAll={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<InBox /> Expect to render handleDetailProgram  correctly 3`] = `
+<div
+  className="inbox-page"
+>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleDetailProgram={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    resultdata={Array []}
+    searchResultsIdsChecked={
+      Array [
+        Object {
+          "itemId": 1,
+        },
+      ]
+    }
+    selectAll={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<InBox /> Expect to render handleDetailProgram  correctly 4`] = `
+<div
+  className="inbox-page"
+>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleDetailProgram={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    resultdata={Array []}
+    searchResultsIdsChecked={
+      Array [
+        Object {
+          "itemId": 1,
+        },
+      ]
+    }
+    selectAll={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;

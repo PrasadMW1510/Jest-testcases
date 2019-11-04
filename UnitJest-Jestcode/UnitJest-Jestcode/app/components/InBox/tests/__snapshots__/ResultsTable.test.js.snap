@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsTable /> Expect calculateRowCount to render correctly 1`] = `
+<div
+  className="inbox-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Header": "Name",
+          "accessor": "student",
+          "id": "student",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Program",
+          "accessor": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+      ]
+    }
+    data={Array []}
+    getTrProps={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect to render correctly 1`] = `
+<div
+  className="inbox-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Header": "Name",
+          "accessor": "student",
+          "id": "student",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Program",
+          "accessor": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+      ]
+    }
+    data={Array []}
+    getTrProps={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> should populate the SAMTable with the right columns 1`] = `
+<div
+  className="search-result-table__group"
+>
+  <SearchResultsEditCell
+    rowData={Object {}}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> should populate the SAMTable with the right columns 2`] = `"06/06/2018"`;

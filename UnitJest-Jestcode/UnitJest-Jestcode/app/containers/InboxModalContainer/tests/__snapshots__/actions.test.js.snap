@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InboxModalContainer actions All actions should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/InboxModalContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getQuestion 1`] = `
+Object {
+  "path": Array [],
+  "type": "containers/InboxModalContainer/get_student_assestment_question",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getStudentProgramDetailsDataRequest 1`] = `
+Object {
+  "programdata": Array [],
+  "type": "containers/InboxModalContainer/get_student_program_detail_request",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getStudentProgramDetailsDataSuccess 1`] = `
+Object {
+  "resultsData": Array [],
+  "type": "containers/InboxModalContainer/get_student_program_detail_request_success",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getStudentQuestionDataFailure 1`] = `
+Object {
+  "data": Array [],
+  "type": "containers/InboxModalContainer/get_student_assestment_question_failure",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getStudentQuestionDataSuccess 1`] = `
+Object {
+  "data": Array [],
+  "type": "containers/InboxModalContainer/get_student_assestment_question_success",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for getStudentQuestionDataSuccess 2`] = `
+Object {
+  "data": Array [],
+  "type": "containers/InboxModalContainer/get_student_assestment_question_success",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for saveStudentEvalulationDataSuccess 1`] = `
+Object {
+  "responseData": Array [],
+  "type": "containers/InboxModalContainer/save_student_evaluation_data_success",
+}
+`;
+
+exports[`InboxModalContainer actions All actions should return the correct constant for storeEvaluationUpdate 1`] = `
+Object {
+  "evData": Array [],
+  "postdata": Array [],
+  "type": "containers/InboxModalContainer/save_student_evaluation_data",
+}
+`;

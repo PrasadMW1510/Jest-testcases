@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rcSettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  loading: false,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle gradeSelectionSuccess action 2`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle rcGetSettingsSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  immSettings: "mockSettings",
+}
+`;
+
+exports[`rcSettingContainerReducer should handle rcSettingsContainerRequest action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle rcSettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`rcSettingContainerReducer should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  immSettings: Immutable.Map {
+  },
+}
+`;

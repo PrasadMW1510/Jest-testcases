@@ -1,0 +1,73 @@
+// This file will be deleted once all navbars are updated to refactored version.
+.nav-bar__theme-tabs .nav-bar__nav-item {
+  align-items: center;
+  border-style: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 170px;
+
+  // Active and last item are always in full view
+  &.nav-bar__nav-item--active,
+  &:last-child {
+    width: 180px;
+  }
+
+  &.nav-bar__nav-item--active:last-child {
+    margin-right: 10px;
+  }
+
+  // Create Borders
+  &::after {
+    background: #000;
+    content: '';
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    z-index: 9;
+  }
+
+  &::before {
+    border: 2px #000 solid;
+    box-sizing: border-box;
+    content: '';
+    height: 32px;
+    left: -16px;
+    position: absolute;
+    top: 0;
+    transform: skew(32deg);
+    width: 186px;
+    z-index: 0; // So text is above bg color
+  }
+
+  &.nav-bar__nav-item--active::before {
+    border-bottom-style: none;
+  }
+
+  &.nav-bar__nav-item--active ~ .nav-bar__nav-item {
+    left: -10px;
+  }
+
+  &.nav-bar__nav-item--active + .nav-bar__nav-item::after {
+    height: 19px;
+  }
+
+  &.nav-bar__nav-item--active + .nav-bar__nav-item::before {
+    border-left-style: none;
+    left: 0;
+    width: 170px;
+  }
+
+  .nav-bar__text {
+    color: #000;
+    font-weight: 700;
+    line-height: 26px; // Matches icon image height
+    padding: 0 16px;
+    position: relative;
+  }
+}

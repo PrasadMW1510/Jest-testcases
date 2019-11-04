@@ -1,0 +1,1175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false Should render correctly 1`] = `
+<React.Fragment>
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__view"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "View",
+          "accessor": "view_access",
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Edit",
+          "accessor": "edit_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "edit_access": true,
+          "edit_id": 100,
+          "permission_type": "Student Edit Window",
+          "view_access": true,
+          "view_id": 110,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 200,
+          "permission_type": "Group Edit Window",
+          "view_access": true,
+          "view_id": 210,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 300,
+          "permission_type": "Class Edit Window",
+          "view_access": true,
+          "view_id": 310,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 600,
+          "permission_type": "Teacher Edit Window",
+          "view_access": true,
+          "view_id": 610,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 400,
+          "permission_type": "School Edit Window",
+          "view_access": true,
+          "view_id": 410,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 500,
+          "permission_type": "District Edit Window",
+          "view_access": true,
+          "view_id": 510,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 630,
+          "permission_type": "My Edit Window",
+          "view_access": true,
+          "view_id": 620,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 670,
+          "permission_type": "Other's Permissions",
+          "view_access": true,
+          "view_id": 660,
+        },
+      ]
+    }
+    pageSize={8}
+    selectAll={false}
+    sortable={false}
+  />
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__allow"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Allow",
+          "accessor": "allow_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "allow_access": true,
+          "allow_id": 640,
+          "permission_type": "View My Permissions",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 700,
+          "permission_type": "Manage All Accounts",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 820,
+          "permission_type": "Add Students",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 825,
+          "permission_type": "Add Groups",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 830,
+          "permission_type": "Add Classes",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 835,
+          "permission_type": "Add Teachers",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 840,
+          "permission_type": "Add Schools",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 845,
+          "permission_type": "Deactivate Student",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 850,
+          "permission_type": "Deactivate Group",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 855,
+          "permission_type": "Deactivate Class",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 860,
+          "permission_type": "Deactivate Teacher",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 865,
+          "permission_type": "Deactivate School",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 900,
+          "permission_type": "Import Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1000,
+          "permission_type": "View Students Demographics",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1100,
+          "permission_type": "Export Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1500,
+          "permission_type": "Manage Student Settings",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1550,
+          "permission_type": "Manage Student Enrollment",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1600,
+          "permission_type": "NCLB Filter",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1700,
+          "permission_type": "Subgroup Setup",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1800,
+          "permission_type": "License Key Input",
+        },
+      ]
+    }
+    pageSize={20}
+    selectAll={false}
+    sortable={false}
+  />
+</React.Fragment>
+`;
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false should render the right columns for bottom table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false should render the right columns for bottom table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false should render the right columns for top table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false should render the right columns for top table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component Permission Table when editmode is false should render the right columns for top table 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District Should render correctly 1`] = `
+<React.Fragment>
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__view"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "View",
+          "accessor": "view_access",
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Edit",
+          "accessor": "edit_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "edit_access": true,
+          "edit_id": 100,
+          "permission_type": "Student Edit Window",
+          "view_access": true,
+          "view_id": 110,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 200,
+          "permission_type": "Group Edit Window",
+          "view_access": true,
+          "view_id": 210,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 300,
+          "permission_type": "Class Edit Window",
+          "view_access": true,
+          "view_id": 310,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 600,
+          "permission_type": "Teacher Edit Window",
+          "view_access": true,
+          "view_id": 610,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 400,
+          "permission_type": "School Edit Window",
+          "view_access": true,
+          "view_id": 410,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 500,
+          "permission_type": "District Edit Window",
+          "view_access": true,
+          "view_id": 510,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 630,
+          "permission_type": "My Edit Window",
+          "view_access": true,
+          "view_id": 620,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 670,
+          "permission_type": "Other's Permissions",
+          "view_access": true,
+          "view_id": 660,
+        },
+      ]
+    }
+    pageSize={8}
+    selectAll={false}
+    sortable={false}
+  />
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__allow"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Allow",
+          "accessor": "allow_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "allow_access": true,
+          "allow_id": 640,
+          "permission_type": "View My Permissions",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 700,
+          "permission_type": "Manage All Accounts",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 820,
+          "permission_type": "Add Students",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 825,
+          "permission_type": "Add Groups",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 830,
+          "permission_type": "Add Classes",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 835,
+          "permission_type": "Add Teachers",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 840,
+          "permission_type": "Add Schools",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 845,
+          "permission_type": "Deactivate Student",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 850,
+          "permission_type": "Deactivate Group",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 855,
+          "permission_type": "Deactivate Class",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 860,
+          "permission_type": "Deactivate Teacher",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 865,
+          "permission_type": "Deactivate School",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 900,
+          "permission_type": "Import Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1000,
+          "permission_type": "View Students Demographics",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1100,
+          "permission_type": "Export Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1500,
+          "permission_type": "Manage Student Settings",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1550,
+          "permission_type": "Manage Student Enrollment",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1600,
+          "permission_type": "NCLB Filter",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1700,
+          "permission_type": "Subgroup Setup",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1800,
+          "permission_type": "License Key Input",
+        },
+      ]
+    }
+    pageSize={20}
+    selectAll={false}
+    sortable={false}
+  />
+</React.Fragment>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District should render the right columns for bottom table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District should render the right columns for bottom table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District should render the right columns for top table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District should render the right columns for top table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is District should render the right columns for top table 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School Should render correctly 1`] = `
+<React.Fragment>
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__view"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "View",
+          "accessor": "view_access",
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Edit",
+          "accessor": "edit_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "edit_access": true,
+          "edit_id": 100,
+          "permission_type": "Student Edit Window",
+          "view_access": true,
+          "view_id": 110,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 200,
+          "permission_type": "Group Edit Window",
+          "view_access": true,
+          "view_id": 210,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 300,
+          "permission_type": "Class Edit Window",
+          "view_access": true,
+          "view_id": 310,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 600,
+          "permission_type": "Teacher Edit Window",
+          "view_access": true,
+          "view_id": 610,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 400,
+          "permission_type": "School Edit Window",
+          "view_access": true,
+          "view_id": 410,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 630,
+          "permission_type": "My Edit Window",
+          "view_access": true,
+          "view_id": 620,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 670,
+          "permission_type": "Other's Permissions",
+          "view_access": true,
+          "view_id": 660,
+        },
+      ]
+    }
+    pageSize={7}
+    selectAll={false}
+    sortable={false}
+  />
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__allow"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Allow",
+          "accessor": "allow_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "allow_access": true,
+          "allow_id": 640,
+          "permission_type": "View My Permissions",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 700,
+          "permission_type": "Manage All Accounts",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 820,
+          "permission_type": "Add Students",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 825,
+          "permission_type": "Add Groups",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 830,
+          "permission_type": "Add Classes",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 835,
+          "permission_type": "Add Teachers",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 845,
+          "permission_type": "Deactivate Student",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 850,
+          "permission_type": "Deactivate Group",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 855,
+          "permission_type": "Deactivate Class",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 860,
+          "permission_type": "Deactivate Teacher",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 900,
+          "permission_type": "Import Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1000,
+          "permission_type": "View Students Demographics",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1100,
+          "permission_type": "Export Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1500,
+          "permission_type": "Manage Student Settings",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1550,
+          "permission_type": "Manage Student Enrollment",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1600,
+          "permission_type": "NCLB Filter",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1700,
+          "permission_type": "Subgroup Setup",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1800,
+          "permission_type": "License Key Input",
+        },
+      ]
+    }
+    pageSize={18}
+    selectAll={false}
+    sortable={false}
+  />
+</React.Fragment>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School should render the right columns for bottom table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School should render the right columns for bottom table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School should render the right columns for top table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School should render the right columns for top table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is School should render the right columns for top table 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher Should render correctly 1`] = `
+<React.Fragment>
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__view"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "View",
+          "accessor": "view_access",
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Edit",
+          "accessor": "edit_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "edit_access": true,
+          "edit_id": 100,
+          "permission_type": "Student Edit Window",
+          "view_access": true,
+          "view_id": 110,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 200,
+          "permission_type": "Group Edit Window",
+          "view_access": true,
+          "view_id": 210,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 300,
+          "permission_type": "Class Edit Window",
+          "view_access": true,
+          "view_id": 310,
+        },
+        Object {
+          "edit_access": true,
+          "edit_id": 630,
+          "permission_type": "My Edit Window",
+          "view_access": true,
+          "view_id": 620,
+        },
+      ]
+    }
+    pageSize={4}
+    selectAll={false}
+    sortable={false}
+  />
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__allow"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Allow",
+          "accessor": "allow_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "allow_access": true,
+          "allow_id": 640,
+          "permission_type": "View My Permissions",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 700,
+          "permission_type": "Manage All Accounts",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 820,
+          "permission_type": "Add Students",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 825,
+          "permission_type": "Add Groups",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 830,
+          "permission_type": "Add Classes",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 845,
+          "permission_type": "Deactivate Student",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 850,
+          "permission_type": "Deactivate Group",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 855,
+          "permission_type": "Deactivate Class",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 900,
+          "permission_type": "Import Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1000,
+          "permission_type": "View Students Demographics",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1100,
+          "permission_type": "Export Data",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1500,
+          "permission_type": "Manage Student Settings",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1550,
+          "permission_type": "Manage Student Enrollment",
+        },
+        Object {
+          "allow_access": true,
+          "allow_id": 1600,
+          "permission_type": "NCLB Filter",
+        },
+      ]
+    }
+    pageSize={14}
+    selectAll={false}
+    sortable={false}
+  />
+</React.Fragment>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher should render the right columns for bottom table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher should render the right columns for bottom table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher should render the right columns for top table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher should render the right columns for top table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is Teacher should render the right columns for top table 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default Should render correctly 1`] = `
+<React.Fragment>
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__view"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "View",
+          "accessor": "view_access",
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Edit",
+          "accessor": "edit_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={Array []}
+    pageSize={0}
+    selectAll={false}
+    sortable={false}
+  />
+  <SAMTable
+    checkedIds={Array []}
+    className="permissions-granted-table permissions-granted-table__allow"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "permission_type",
+          "width": 200,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Allow",
+          "accessor": "allow_access",
+          "width": 75,
+        },
+      ]
+    }
+    data={Array []}
+    pageSize={0}
+    selectAll={false}
+    sortable={false}
+  />
+</React.Fragment>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for bottom table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for bottom table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for bottom table with no access 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Add Students
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for bottom table with no access 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table with no access 1`] = `
+<div
+  className="permissions-granted-table__permission-cell"
+>
+  <span
+    className="permissions-granted-table__permission-text"
+  >
+    Student Edit Window
+  </span>
+</div>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table with no access 2`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;
+
+exports[`Permissions Granted Table Component userOrg is default should render the right columns for top table with no access 3`] = `
+<input
+  checked={false}
+  className="permissions-granted-table__check-mark"
+  onChange={[Function]}
+  type="checkbox"
+/>
+`;

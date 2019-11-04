@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FADSettingsContainerReducer should handle default action 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: true,
+  error: null,
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle get settings failure 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: false,
+  error: "err",
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle get settings request 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: true,
+  error: null,
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle get settings success 1`] = `
+Immutable.Map {
+  settings: "result",
+  loading: false,
+  error: null,
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle set settings failure 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: false,
+  error: "err",
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle set settings request 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: true,
+  error: null,
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle set settings success 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: false,
+  error: null,
+}
+`;
+
+exports[`FADSettingsContainerReducer should handle undefined action 1`] = `
+Immutable.Map {
+  settings: Immutable.List [
+  ],
+  loading: true,
+  error: null,
+}
+`;

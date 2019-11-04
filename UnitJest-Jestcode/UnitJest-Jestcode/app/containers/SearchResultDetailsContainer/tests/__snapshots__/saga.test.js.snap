@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      Object {
+        "data": Object {
+          "teacherMadeQuiz": Array [
+            "true",
+          ],
+        },
+      },
+      Object {
+        "GetQuizWithQuestionsReq": Object {
+          "QuizID": undefined,
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "detailsID": Object {
+        "teacherMadeQuiz": Array [
+          "true",
+        ],
+      },
+      "searchDetails": Array [],
+      "type": "SearchResultDetailsContainer/search-quiz-results-details-success",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess fails 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess fails 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      Object {
+        "data": Object {
+          "teacherMadeQuiz": Array [
+            "false",
+          ],
+        },
+      },
+      Object {
+        "GetBookInfoReq": Object {
+          "BookID": undefined,
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getSearchResultDetailsDataRequest getSearchResultDetailsSuccess fails 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "detailsID": Object {
+        "teacherMadeQuiz": Array [
+          "false",
+        ],
+      },
+      "searchDetails": Array [],
+      "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request_success",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      Object {
+        "data": Object {
+          "LibraryCopies": "",
+          "QuizPointValue": "",
+        },
+      },
+      Object {
+        "SetBookInfoReq": Object {
+          "BookID": undefined,
+          "LibraryCopies": "",
+          "QuizPointValue": 0,
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "searchDetails": Array [],
+      "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request_success",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "id": undefined,
+        "teacherMadeQuiz": undefined,
+      },
+      "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 6`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      Object {
+        "data": Object {
+          "LibraryCopies": "",
+          "QuizPointValue": "23",
+        },
+      },
+      Object {
+        "SetBookInfoReq": Object {
+          "BookID": undefined,
+          "LibraryCopies": "",
+          "QuizPointValue": "23",
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 7`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "searchDetails": Array [],
+      "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request_success",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveSearchResultDetailsDataRequest saveSearchResultDetailsSuccess 8`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "id": undefined,
+        "teacherMadeQuiz": undefined,
+      },
+      "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveSearchResultDetailsDataFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "app/LoadingController/SHOW_LOADING",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveSearchResultDetailsDataFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveSearchResultDetailsDataFailure 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionID",
+      Object {
+        "SrcQuizReq": Object {
+          "Book": Object {
+            "Author": Object {
+              "FirstName": "Tester",
+              "LastName": "Test",
+            },
+            "Copies": 10,
+            "GRL": "http://sampleURL",
+            "IsFiction": false,
+            "Lexile": 4,
+            "Points": 30,
+            "Quiz": Object {
+              "QuizID": "IDVal",
+            },
+            "ReadingLevel": 23,
+            "Title": "hfsjkd",
+            "WordCount": 10,
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveTeacherMadeQuizDataRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "app/LoadingController/SHOW_LOADING",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveTeacherMadeQuizDataRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveTeacherMadeQuizDataRequest 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionID",
+      Object {
+        "SrcQuizReq": Object {
+          "Book": Object {
+            "Author": Object {
+              "FirstName": "Tester",
+              "LastName": "Test",
+            },
+            "Copies": 10,
+            "GRL": "http://sampleURL",
+            "IsFiction": false,
+            "Lexile": 4,
+            "Points": 30,
+            "Quiz": Object {
+              "QuizID": "IDVal",
+            },
+            "ReadingLevel": 23,
+            "Title": "hfsjkd",
+            "WordCount": 10,
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga saveTeacherMadeQuizDataRequest saveTeacherMadeQuizDataRequest 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "id": "IDVal",
+        "teacherMadeQuiz": "",
+      },
+      "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request",
+    },
+    "channel": null,
+  },
+}
+`;

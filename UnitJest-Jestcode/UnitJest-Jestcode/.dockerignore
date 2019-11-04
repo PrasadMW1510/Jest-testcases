@@ -1,0 +1,12 @@
+coverage
+build
+node_modules
+stats.json
+node
+target/
+
+.DS_Store
+npm-debug.log
+.idea
+*~
+*.orig

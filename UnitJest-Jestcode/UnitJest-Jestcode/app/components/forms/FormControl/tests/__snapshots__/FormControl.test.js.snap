@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormControl /> Should render correctly when flagged as disabled 1`] = `
+<div
+  className="form-control form-control--disabled   "
+>
+  form control content
+</div>
+`;
+
+exports[`<FormControl /> Should render correctly when flagged as having errors 1`] = `
+<div
+  className="form-control  form-control--error  "
+>
+  form control content
+</div>
+`;
+
+exports[`<FormControl /> Should render correctly when flagged as required 1`] = `
+<div
+  className="form-control   form-control--required "
+>
+  form control content
+</div>
+`;
+
+exports[`<FormControl /> Should render correctly with a custom class 1`] = `
+<div
+  className="form-control    my-custom-class"
+>
+  form control content
+</div>
+`;
+
+exports[`<FormControl /> Should render correctly with mutiple flags set 1`] = `
+<div
+  className="form-control form-control--disabled form-control--error form-control--required "
+>
+  form control content
+</div>
+`;

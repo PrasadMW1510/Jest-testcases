@@ -1,0 +1,189 @@
+.teacher-enrollment {
+  height: 490px;
+  position: relative;
+}
+
+.teacher-enrollment.teacher-enrollment--loading {
+  .teacher-enrollment__grid {
+    opacity: 0.5;
+  }
+
+  .loading-bar {
+    opacity: 1;
+  }
+}
+
+.teacher-enrollment-header {
+  font-size: 10px;
+  padding: 25px 10px 0;
+}
+
+.teacher-enrollment__error {
+  color: #f00;
+  font-size: 10px;
+  left: 10px;
+  position: absolute;
+  top: 4px;
+}
+
+.teacher-enrollment-cancel__btn {
+  height: 25px;
+  margin-left: 10px;
+  min-width: 74px;
+  width: auto;
+  cursor: pointer;
+}
+
+.teacher-enrollment__grid {
+  display: block;
+  overflow-y: auto;
+  height: 350px;
+  border: 1px solid #000;
+  background-color: #fbe380;
+  margin-top: 10px;
+  margin-left: 10px;
+  opacity: 1;
+}
+
+.teacher-enrollment-cont {
+  margin-top: 10px;
+}
+
+.teacher-enrollment__body {
+  display: block;
+  overflow-y: auto;
+  width: 749px;
+  height: 189px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  background-color: #fbe380;
+}
+
+.teacher-enrollment-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.teacher-enrollment-footer__buttons {
+  margin-top: 26px;
+  display: flex;
+}
+
+.teacher-enrollment__grid {
+  font-size: 12px;
+  background-color: #feec9f;
+  border: 1px solid #000;
+  -ms-overflow-style: none;
+  overflow: hidden;
+  width: 740px;
+}
+
+.teacher-enrollment__grid-header {
+  background-color: #fea128;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  font-size: 11px;
+}
+
+.teacher-enrollment__grid-body {
+  /* stylelint-disable-next-line selector-class-pattern */
+  .ReactVirtualized__Grid {
+    overflow-x: hidden !important;
+    -ms-overflow-style: auto;
+  }
+}
+
+.teacher-enrollment__header-cell--error,
+
+.teacher-enrollment__cell--error {
+  color: #f00;
+}
+
+.teacher-enrollment__grid-header--selected {
+  font-weight: bold;
+  padding-top: 49px;
+}
+
+.teacher-enrollment__grid-cell {
+  padding: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: 1px solid #fea128;
+}
+
+.teacher-enrollment__grid-tally {
+  text-align: center;
+  border-bottom: 1px solid #fea128;
+  height: 20px !important;
+
+  input {
+    cursor: pointer;
+  }
+}
+
+.teacher-enrollment__grid-footer {
+  overflow-x: visible;
+  overflow-y: hidden;
+  margin-top: 10px;
+}
+
+.teacher-enrollment__grid-footer-cell {
+  background-color: #fea128;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.teacher-enrollment__grid-footer-tally {
+  background-color: #fea128;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.teacher-enrollment__grid-header-title {
+  word-wrap: break-word;
+  width: 90px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.teacher-enrollment__grid-input {
+  height: 20px;
+
+  input {
+    cursor: pointer;
+  }
+}
+
+.teacher-enrollment__loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+  .loading-bar {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+}
+
+.teacher-enrollment__pagination {
+  margin-top: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin-left: auto;
+  order: 2;
+}
+
+.teacher-enrollment__item-accumulator {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0 3px 5px 0;
+}
+

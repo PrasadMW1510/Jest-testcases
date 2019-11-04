@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct Student Apps Usage Request 1`] = `
+Object {
+  "type": "student_apps_usage_request",
+}
+`;
+
+exports[`should return the correct Student Apps Usage Request 2`] = `
+Object {
+  "currentPage": undefined,
+  "shouldReturn": undefined,
+  "studentEnroll": "1234567",
+  "type": "student_enroll_save_request",
+}
+`;
+
+exports[`should return the correct Student Enroll Request 1`] = `
+Object {
+  "payload": "1234567",
+  "type": "student_enroll_request",
+}
+`;
+
+exports[`should return the correct showStudentEnrollmentLoading 1`] = `
+Object {
+  "type": "student_enroll_loading",
+}
+`;
+
+exports[`should return the failure for Student Apps Usage Request 1`] = `
+Object {
+  "error": "error",
+  "type": "student_apps_usage_request_failure",
+}
+`;
+
+exports[`should return the failure for Student Apps Usage Request 2`] = `
+Object {
+  "error": "error",
+  "type": "student_enroll_save_request_failure",
+}
+`;
+
+exports[`should return the failure for Student Enroll Request 1`] = `
+Object {
+  "error": "error",
+  "type": "student_enroll_request_failure",
+}
+`;
+
+exports[`should return the failure for showStudentEnrollmentLoading 1`] = `
+Object {
+  "type": "student_enroll_loading_failure",
+}
+`;
+
+exports[`should return the success for Student Apps Usage Request 1`] = `
+Object {
+  "studentAppsUsage": Object {},
+  "type": "student_apps_usage_request_success",
+}
+`;
+
+exports[`should return the success for Student Apps Usage Request 2`] = `
+Object {
+  "studentEnroll": Object {},
+  "type": "student_enroll_save_request_success",
+}
+`;
+
+exports[`should return the success for Student Enroll Request 1`] = `
+Object {
+  "studentEnroll": Object {},
+  "type": "student_enroll_request_success",
+}
+`;
+
+exports[`should return the success for showStudentEnrollmentLoading 1`] = `
+Object {
+  "type": "student_enroll_loading_success",
+}
+`;

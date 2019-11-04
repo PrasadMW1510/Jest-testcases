@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<System44SuccessRecordContainer /> Expect to render correctly 1`] = `
+<System44SuccessRecord
+  assignmentSuccessRecordSaveRequest={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "rowData": Object {
+        "community_id": "S44JR",
+      },
+    }
+  }
+  dispatchAction={[Function]}
+  getAssignmentSuccessRecordRequest={[Function]}
+  handleCancel={[Function]}
+  isOpen={true}
+  modalTitle="iRead"
+  showInboxProgram={[Function]}
+  showRead180NgModal={[Function]}
+  showSystem44SuccessRecordModal={[Function]}
+  successPassageRecWorkItem="a"
+  system44successrecordcontainer={
+    Object {
+      "getAssignmentSuccessRecordData": Object {
+        "workItems": Array [
+          Object {
+            "iReadSuccessRecWorkItem": Array [
+              "a",
+            ],
+            "read180FluencyRecWorkItem": Array [
+              "c",
+            ],
+            "sys44SuccessPassageRecWorkItem": Array [
+              "b",
+            ],
+          },
+        ],
+      },
+    }
+  }
+  tempGridData={Array []}
+/>
+`;
+
+exports[`<System44SuccessRecordContainer /> Expect to render correctly 2`] = `
+<System44SuccessRecord
+  assignmentSuccessRecordSaveRequest={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "rowData": Object {
+        "community_id": "S44NG",
+      },
+    }
+  }
+  dispatchAction={[Function]}
+  getAssignmentSuccessRecordRequest={[Function]}
+  handleCancel={[Function]}
+  isOpen={true}
+  modalTitle="System 44 Next Generation"
+  showInboxProgram={[Function]}
+  showRead180NgModal={[Function]}
+  showSystem44SuccessRecordModal={[Function]}
+  successPassageRecWorkItem="b"
+  system44successrecordcontainer={
+    Object {
+      "getAssignmentSuccessRecordData": Object {
+        "workItems": Array [
+          Object {
+            "iReadSuccessRecWorkItem": Array [
+              "a",
+            ],
+            "read180FluencyRecWorkItem": Array [
+              "c",
+            ],
+            "sys44SuccessPassageRecWorkItem": Array [
+              "b",
+            ],
+          },
+        ],
+      },
+    }
+  }
+  tempGridData={Array []}
+/>
+`;
+
+exports[`<System44SuccessRecordContainer /> Expect to render correctly 3`] = `
+<System44SuccessRecord
+  assignmentSuccessRecordSaveRequest={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "rowData": Object {
+        "community_id": "R180NG",
+      },
+    }
+  }
+  dispatchAction={[Function]}
+  getAssignmentSuccessRecordRequest={[Function]}
+  handleCancel={[Function]}
+  isOpen={true}
+  modalTitle="Read 180 Next Generation"
+  showInboxProgram={[Function]}
+  showRead180NgModal={[Function]}
+  showSystem44SuccessRecordModal={[Function]}
+  successPassageRecWorkItem="c"
+  system44successrecordcontainer={
+    Object {
+      "getAssignmentSuccessRecordData": Object {
+        "workItems": Array [
+          Object {
+            "iReadSuccessRecWorkItem": Array [
+              "a",
+            ],
+            "read180FluencyRecWorkItem": Array [
+              "c",
+            ],
+            "sys44SuccessPassageRecWorkItem": Array [
+              "b",
+            ],
+          },
+        ],
+      },
+    }
+  }
+  tempGridData={Array []}
+/>
+`;
+
+exports[`<System44SuccessRecordContainer /> Expect to render correctly 4`] = `
+<System44SuccessRecord
+  assignmentSuccessRecordSaveRequest={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "rowData": Object {
+        "community_id": "R180NG111",
+      },
+    }
+  }
+  dispatchAction={[Function]}
+  getAssignmentSuccessRecordRequest={[Function]}
+  handleCancel={[Function]}
+  isOpen={true}
+  modalTitle=""
+  showInboxProgram={[Function]}
+  showRead180NgModal={[Function]}
+  showSystem44SuccessRecordModal={[Function]}
+  successPassageRecWorkItem={Object {}}
+  system44successrecordcontainer={
+    Object {
+      "getAssignmentSuccessRecordData": Object {
+        "workItems": Array [
+          Object {
+            "iReadSuccessRecWorkItem": Array [
+              "a",
+            ],
+            "read180FluencyRecWorkItem": Array [
+              "c",
+            ],
+            "sys44SuccessPassageRecWorkItem": Array [
+              "b",
+            ],
+          },
+        ],
+      },
+    }
+  }
+  tempGridData={Array []}
+/>
+`;

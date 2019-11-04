@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IdentifyThisForm /> Expect to render correctly 1`] = `
+<div
+  className="class-form__form-identity"
+>
+  <Field
+    component={[Function]}
+    label="Class Name"
+    maxLength={40}
+    name="name"
+    required={true}
+    type="text"
+  />
+  <Field
+    component="input"
+    name="serverErrors"
+    type="hidden"
+  />
+  <Field
+    component={[Function]}
+    formatLabel={[Function]}
+    items={
+      Array [
+        "(No Teacher)",
+        Object {
+          "first_name": "Bar",
+          "last_name": "Foo",
+        },
+      ]
+    }
+    label="Teacher 1"
+    name="teacher1"
+  />
+  <Field
+    component={[Function]}
+    formatLabel={[Function]}
+    items={
+      Array [
+        "(No Teacher)",
+        Object {
+          "first_name": "Bar",
+          "last_name": "Foo",
+        },
+      ]
+    }
+    label="Teacher 2"
+    name="teacher2"
+  />
+  <Field
+    component={[Function]}
+    formatLabel={[Function]}
+    getId={[Function]}
+    items={
+      Array [
+        Object {
+          "full_name": Array [
+            "my grade",
+          ],
+        },
+      ]
+    }
+    label="Grades"
+    name="grades"
+    required={true}
+    row={true}
+  />
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadProgramSettingsRequest 1`] = `
+Object {
+  "type": "IREAD_PROGRAM_SETTINGS_REQUEST",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadProgramSettingsRequestFailure 1`] = `
+Object {
+  "error": "mockError",
+  "type": "IREAD_PROGRAM_SETTINGS_REQUEST_FAILURE",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadProgramSettingsRequestSuccess with no params passed 1`] = `
+Object {
+  "programSetting": Object {},
+  "type": "IREAD_PROGRAM_SETTINGS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadProgramSettingsRequestSuccess with params passed 1`] = `
+Object {
+  "programSetting": "mockSettings",
+  "type": "IREAD_PROGRAM_SETTINGS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadSaveRequest with no params passed 1`] = `
+Object {
+  "settings": Object {},
+  "type": "IREAD_SAVE_REQUEST",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadSaveRequest with params passed 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "IREAD_SAVE_REQUEST",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadSaveRequestFailure 1`] = `
+Object {
+  "error": "mockError",
+  "type": "IREAD_SAVE_REQUEST_FAILURE",
+}
+`;
+
+exports[`IreadSettingsContainer actions should return the correct constant for IreadSaveRequestSuccess 1`] = `
+Object {
+  "type": "IREAD_SAVE_REQUEST_SUCCESS",
+}
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearRosterSuccessModalContainer /> Expect to match snapshot 1`] = `
+<ClearRosterSuccessModal
+  isOpen={true}
+  onYes={[Function]}
+/>
+`;

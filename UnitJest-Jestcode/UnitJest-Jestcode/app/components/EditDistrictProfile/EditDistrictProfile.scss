@@ -1,0 +1,420 @@
+.edit-district-profile__navbar-bg {
+  background-color: #fff7d7;
+  display: flex;
+}
+
+.edit-district-profile__navbar {
+  left: -2px;
+
+  .nav-bar__text {
+    font-size: 14px;
+  }
+}
+
+.edit-district-profile__heading {
+  font-size: 16px;
+  margin: 0;
+  padding: 3px 11px;
+}
+
+.edit-district-profile__intro {
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0;
+  padding: 7px 100px 16px 20px;
+}
+
+.edit-district-profile__body {
+  display: flex;
+  padding: 8px;
+
+  .edit-district-profile__body-main {
+    flex: 0 1 auto; // Only expand width of modal, even if it has overflow
+    width: 100%;
+  }
+
+  .edit-district-profile__body-aside {
+    display: flex;
+    flex: 0 1 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+}
+
+.edit-district-profile__form {
+  .form-section__callout {
+    border: 1px #000 solid;
+  }
+}
+
+.edit-district-profile__form .form-section__callout--orange {
+  background-color: #fff7d7;
+
+  .form-section__callout-heading {
+    background-color: #ffd400;
+    font-size: 11px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 12px;
+  }
+
+  .form-section__callout-body {
+    background-color: #ffef9e;
+    padding: 3px 30px 7px 0;
+    height: 420px;
+    overflow-y: hidden;
+  }
+}
+
+.edit-district-profile__error-message {
+  align-items: flex-end;
+  color: #f00;
+  display: flex;
+  font-size: 11px;
+  height: 30px;
+}
+
+.edit-district-profile__error-validation {
+  color: #f00;
+  font-size: 10px;
+  line-height: 11px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.edit-district-profile__error {
+  padding-top: 2px;
+}
+
+.edit-district-profile__btn {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 30px;
+  min-width: 102px;
+  width: 100%;
+
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.edit-district-profile__btn--default {
+  background-color: #808080;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 3px #a6a6a6 solid;
+}
+
+.edit-district-profile__btn--urgent {
+  background-color: #d06021;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px #000 solid;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+}
+
+.form-group {
+  margin-top: 3px;
+}
+
+.edit-district-profile .form-group {
+  margin-top: 3px;
+}
+
+.edit-district-profile--orange {
+  background-color: #fff;
+
+  .edit-district-profile__heading {
+    background-color: #ffd400;
+  }
+
+  .edit-district-profile__intro {
+    background-color: #fff7d7;
+  }
+
+  .edit-district-profile__body--tab-student-roster .edit-district-profile__intro {
+    background-color: #fff;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+}
+
+.edit-district-profile__form-identity .form-control__form-group--row {
+  .form-control__checkbox {
+    flex: 1 0 10%;
+  }
+}
+
+.edit-district-profile__form-identity .edit-district-profile__school-type {
+  .form-control__checkbox {
+    flex: 1 0 40%;
+  }
+}
+
+.edit-district-profile__required-label {
+  color: #f00;
+  display: inline-block;
+  font-size: 11px;
+  padding-right: 10px;
+  text-align: right;
+  width: 50%;
+}
+
+.district-form-input-control {
+  display: inline-flex;
+  width: 90%;
+
+  .form-control__label {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 1px;
+    font-weight: bold;
+  }
+
+  .form-control__input {
+    margin-left: 5px;
+  }
+
+  .form-control__dropdown {
+    margin-left: 5px;
+  }
+}
+
+.district-profile__district-input {
+  .form-control__input {
+    margin-left: 5px;
+    width: 230px;
+  }
+
+  .form-control__dropdown {
+    margin-left: 5px;
+    width: 230px;
+  }
+}
+
+.district-profile__restrict-text {
+  font-size: 11px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.district-profile__checkbox-group {
+  width: 100%;
+  padding: 20px;
+  height: 220px;
+  overflow-y: scroll;
+
+  .form-control__checkbox {
+    width: 225px;
+  }
+}
+
+.edit-district-profile__school-year-callout {
+  background-color: #ffd400;
+  border-top: 1px solid #000;
+  padding: 5px 30px 1px 0;
+}
+
+.edit-district-profile__grading-period-callout {
+  height: 140px;
+  overflow-y: scroll;
+  padding-right: 30px;
+}
+
+.edit-district-profile__form-identity {
+  padding-top: 3px;
+
+  .form-control__input {
+    width: 60%;
+  }
+
+  .form-control__label {
+    flex: 1 0 140px;
+  }
+
+  .edit-district-profile__identity-info {
+    width: 70%;
+  }
+
+  .edit-district-profile__title-1-status {
+    display: inline-flex;
+    padding-bottom: 2px;
+    width: 50%;
+  }
+
+  .edit-district-profile__school-year {
+    display: inline-flex;
+    padding-right: 45px;
+    width: 50%;
+  }
+
+  .edit-district-profile__num-grading-periods {
+    width: 50%;
+  }
+
+  .edit-district-profile__grading-period {
+    display: inline-flex;
+    padding-top: 7px;
+    padding-right: 45px;
+    width: 50%;
+  }
+}
+
+.edit-district-profile__form-contact-info {
+  .form-control {
+    display: inline-flex;
+    width: 90%;
+  }
+
+  .form-control__label {
+    flex: 1 0 200px;
+    margin-right: 5px;
+  }
+
+  .edit-district-profile__city {
+    padding-right: 14px;
+    width: 69%;
+  }
+
+  .edit-district-profile__state {
+    padding-right: 14px;
+    width: 8%;
+  }
+
+  .edit-district-profile__zip {
+    width: 10%;
+  }
+
+  .edit-district-profile__phone-area-code {
+    padding-right: 14px;
+    width: 49%;
+  }
+
+  .edit-district-profile__phone-first-digit-set {
+    padding-right: 14px;
+    width: 11%;
+  }
+
+  .edit-district-profile__phone-second-digit-set {
+    width: 10%;
+  }
+
+  .edit-district-profile__phone-second-digit-set .form-control__input {
+    margin-bottom: 1px;
+  }
+}
+
+.edit-district-profile__contact-required-label {
+  font-size: 11px;
+  color: #f00;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.nav-bar__theme-tabs .nav-bar__nav-item.edit-district-profile__nav-item--error {
+  .nav-bar__text {
+    color: #f00;
+  }
+}
+
+.form-control__label-required {
+  color: #000;
+}
+
+.modal--edit-district-profile {
+  height: 610px;
+  overflow: visible;
+  padding: 0;
+  width: 700px;
+}
+/*******************************
+ Demographics Tab
+*******************************/
+
+.edit-district-profile__form-section-group {
+  background-color: #fff7d7;
+  border: 1px solid #000;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.edit-district-profile__demographics-section .form-section__callout--orange {
+  background-color: #fff7d7;
+  width: 550px;
+  max-width: 550px;
+  border-style: none;
+
+  .form-section__callout-heading {
+    background-color: #ffb200;
+    font-size: 11px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 12px;
+  }
+
+  .form-section__callout-body {
+    background-color: #ffef9e;
+    padding: 3px 30px 7px 0;
+    overflow-y: hidden;
+    height: 100%;
+  }
+}
+
+.edit-district-profile__demographic-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.edit-district-profile__demographics-section--custom .form-section__callout--orange {
+  background-color: #fff7d7;
+  overflow-y: scroll;
+  height: 200px;
+
+  .form-section__callout-heading {
+    background-color: #ffd400;
+    font-size: 11px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 12px;
+  }
+
+  .form-section__callout-body {
+    background-color: #ffef9e;
+    padding: 3px 30px 7px 0;
+    height: 420px;
+    overflow-y: hidden;
+  }
+}
+
+.add-demographic {
+  width: 568px;
+  background-color: #ffe279;
+  height: 50px;
+  position: relative;
+  bottom: 30px;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: -29px;
+}
+
+.add-demographic__button {
+  height: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #ffb200;
+  border-left-color: #ffb200;
+  border-top-color: #ffb200;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+  top: 10px;
+  left: 5px;
+  position: relative;
+  width: 200px;
+}

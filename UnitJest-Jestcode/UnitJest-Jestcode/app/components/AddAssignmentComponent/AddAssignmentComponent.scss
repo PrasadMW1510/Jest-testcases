@@ -1,0 +1,619 @@
+.iread-modal-title-span {
+  font-style: normal;
+  padding: 0 5%;
+}
+
+.iread-modal-description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin-right: 0.5%;
+  line-height: 40px;
+  height: 40px;
+}
+
+.iread-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0 2%;
+  height: 40px;
+}
+
+.iread-modal-assignment-mesg {
+  font-size: 13px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.modal--iread-modal {
+  width: 980px;
+  height: 630px;
+  padding: 0;
+  margin-top: 1.5%;
+  border: 0;
+  border-radius: 15px;
+}
+
+.iread-modal-list--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 79vh;
+  position: relative;
+}
+
+.iread-modal-list--purple {
+  background-color: #9a6fb6;
+  margin-top: 2%;
+  height: 38px;
+  line-height: 37px;
+  padding-left: 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.iread-modal-heading {
+  float: left;
+}
+
+.iread-modal-button-close {
+  position: absolute;
+  right: 3px;
+  background: #c895e8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 9px;
+  cursor: pointer;
+  top: 1px;
+}
+
+.iread-modal-title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+}
+
+.iread-modal-title-span {
+  font-style: normal;
+}
+
+.iread-modal-assignment-textbox1 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-modal-assignment-textbox1 {
+  margin: 0;
+}
+
+.iread-modal-assignment-textbox2 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-modal-button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 13px;
+  width: 33px;
+  margin-top: 3px;
+}
+
+.iread-modal-description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin-right: 0.5%;
+}
+
+.iread-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  line-height: 40px;
+}
+
+.iread-modal-description-textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.iread-modal-assignment-roster-textarea {
+  height: 280px;
+  overflow-y: scroll;
+  border: 1px solid #f1ecec;
+  border-radius: 0 25px;
+  margin-bottom: 10px;
+}
+
+.iread-modal-due-date {
+  width: 43%;
+  float: left;
+  margin-left: 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+}
+
+.iread-modal-due-date-content {
+  padding: 2%;
+  color: #000;
+  margin-left: 2%;
+  font-size: 14px;
+  display: flex;
+  min-height: 62px;
+}
+
+.iread-modal-due-date-span-content {
+  color: #000;
+}
+
+.iread-modal-assignment-roster-box {
+  width: 100%;
+  margin-top: 1%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  float: left;
+  height: 70%;
+}
+
+.clear {
+  clear: both;
+}
+
+.iread-modal-assignment-roster-div-headers {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.iread-modal-buttons-firstset {
+  width: 30%;
+  float: left;
+}
+
+.iread-modal-buttons-firstset .btn,
+.iread-modal-buttons-secondset .btn,
+.iread-modal-buttons-secondset .btn {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  margin-right: 12px;
+  color: #000;
+  height: 30px;
+}
+
+.iread-modal-buttons-secondset .btn--secondary {
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  margin-top: 3px;
+  color: #ccc;
+}
+
+.iread-modal-buttons-secondset-btn {
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  height: 30px;
+  margin-top: 3px;
+}
+
+.iread-modal-buttons-secondset {
+  float: right;
+  display: flex;
+}
+
+.mr-r-12 {
+  margin-right: 12px;
+}
+
+.iread-modal-button {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  height: 30px;
+}
+
+.iread-modal-save-button {
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+}
+
+.iread-modal-assignment-textbox-comment {
+  border: 1px solid;
+  width: 400px;
+}
+
+.iread-modal-assignment-wrapper {
+  font-size: 12px;
+}
+
+.iread-modal-buttons {
+  bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #e7e8e7;
+  padding-top: 10px;
+}
+
+.iread-modal-assignment {
+  display: flex;
+}
+
+.iread-modal-assignment-one {
+  flex: 1;
+}
+
+.font-wei-normal {
+  font-weight: normal;
+}
+
+.iread-modal-assignment-two {
+  max-width: 80px;
+  text-align: center;
+}
+
+.iread-modal-assignment-one-input {
+  margin: 5px;
+}
+
+.iread-modal-assignment-three {
+  flex: 2;
+}
+
+.iread-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.pager {
+  display: inline-flex;
+  font-size: 11px;
+  margin: 0 25%;
+}
+
+.pager-prev {
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  margin-top: 5px;
+  line-height: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pager-nor {
+  padding: 3px;
+  background-color: #fff;
+  height: 21px;
+  width: 15px;
+  margin-top: 5px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.bord-bot {
+  border-bottom: 1px solid #efefe7;
+}
+
+.bord-top-bot-rig {
+  border-right: 1px solid #efefe7;
+  border-bottom: 1px solid #efefe7;
+}
+
+.iread-modal-assignment-three-input {
+  margin: 5px;
+}
+
+/* student css here */
+.iread-modal-student-box {
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  top: 80px;
+}
+
+.iread-modal-student-box-one {
+  width: 50%;
+  float: left;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.iread-modal-student-box-two {
+  width: 49%;
+  float: right;
+}
+
+.iread-modal-dec {
+  min-height: 207px;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+
+.iread-modal-dec-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2%;
+}
+
+.iread-modal-dec-txt {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.iread-modal-dec-txt-in-txt {
+  position: relative;
+  margin: 5px;
+}
+
+.iread-modal-dec-txt-round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #000;
+  border: 1px solid #e7e8e7;
+  position: absolute;
+  right: 100px;
+  top: 0;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px #1e1f29;
+}
+
+.pager-prev {
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio-conf-success {
+  width: 180px;
+  height: 100px;
+  padding: 0;
+}
+
+.portfolio-conf-success-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-success-heading {
+  background: #9ca8b5;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-success-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-success-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-success .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+.portfolio-conf-success .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}
+
+.portfolio-conf-warning {
+  width: 310px;
+  height: 110px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-warning-heading {
+  background: #9ca8b5;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-warning-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-warning-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-warning .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}
+
+.s44 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.print-system44-modal-due-date-input {
+  border: 1px solid #808080;
+  float: right;
+  width: 100px;
+  height: 30px;
+  margin-right: 5%;
+}
+
+.iread-modal-buttons-firstset .btn--primary {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  color: #000;
+}
+
+.iread-name {
+  width: 22%;
+  white-space: nowrap;
+}
+
+.react-date-picker__calendar {
+  left: -205px;
+}
+
+.iread-modal-buttons-secondset button:disabled {
+  opacity: 0.5;
+  background: #808080;
+  height: 30px;
+}
+
+.modal--savewrapper-heading {
+  background: #ddd;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.modal--savewrapper-warning {
+  text-align: center;
+}
+
+.read180ngsave-innerpage-button {
+  display: flex;
+}
+
+.modal-cancel-button {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.modal--savescreen-warning {
+  padding: 0;
+  margin: 0;
+}
+
+.assignment-classname-text {
+  /* display: inline-block; */
+  float: left;
+}
+
+.assignment-passage-text {
+  display: inline-block;
+  width: auto;
+  overflow: hidden;
+}
+
+.assignment-passage-select {
+  background: linear-gradient (
+    to top,
+    #ccc 12%,
+    #fff 87%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 3px 4px 7px;
+  border-radius: 4px;
+  border: #000 1px solid;
+}
+
+.assignment-passage-text-error {
+  display: block;
+  clear: both;
+  color: #f00;
+}

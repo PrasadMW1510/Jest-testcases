@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search Result Details Container Reducer should handle GET_SEARCH_RESULT_DETAILS_DATA_REQUEST 1`] = `
+Immutable.Map {
+  searchResultDetailsData: Immutable.List [
+  ],
+  detailsID: "",
+  data: Immutable.Map {
+  },
+  showTeacherMadeQuizError: false,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle GET_SEARCH_RESULT_DETAILS_DATA_REQUEST__FAILURE 1`] = `
+Immutable.Map {
+  searchResultDetailsData: Immutable.List [
+  ],
+  detailsID: "",
+  data: Immutable.Map {
+  },
+  showTeacherMadeQuizError: false,
+}
+`;
+
+exports[`search Result Details Container Reducer should handle SAVE_SEARCH_RESULT_DETAILS_DATA_REQUEST__FAILURE 1`] = `
+Immutable.Map {
+  searchResultDetailsData: Immutable.List [
+  ],
+  detailsID: "",
+  data: Immutable.Map {
+  },
+  showTeacherMadeQuizError: true,
+}
+`;

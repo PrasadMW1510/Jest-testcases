@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TeacherMadeQuizQuestions /> Expect to render TeacherMadeQuizQuestions else 1`] = `
+<div
+  className="modal__wrapper-question-form teacher-made-questions"
+>
+  <div
+    className="teacher-made-title"
+  >
+    New Quiz
+     Question # 
+    1
+     /
+     
+    1
+  </div>
+  <div
+    className="teachermade-field-text"
+  >
+    Enter the question and answers in the fields below.
+  </div>
+  <div
+    className="modal__wrapper-content-main-form padding-md "
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Question"
+      >
+        Question:
+      </label>
+      <textarea
+        className="textarea"
+        name="Question"
+        onChange={[Function]}
+        value="jfvj"
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Correct Answer"
+      >
+        Correct Answer:
+      </label>
+      <textarea
+        className="textarea"
+        name="CorrectAnswer"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer1"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer2"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer3"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="tmq-btn"
+  >
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      &lt;&lt; Edit Profile
+    </button>
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Delete Question
+    </button>
+    <button
+      className="btn-gray float-right teacher-new-qs"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Add New Question &gt;&gt;
+    </button>
+  </div>
+  <div
+    className="modal__wrapper-action modal__wrapper-action-quizform"
+  >
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-close"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-save"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</div>
+`;
+
+exports[`<TeacherMadeQuizQuestions /> Expect to render TeacherMadeQuizQuestions elseif 1`] = `
+<div
+  className="modal__wrapper-question-form teacher-made-questions"
+>
+  <div
+    className="teacher-made-title"
+  >
+    New Quiz
+     Question # 
+    1
+     /
+     
+    1
+  </div>
+  <div
+    className="teachermade-field-text"
+  >
+    Enter the question and answers in the fields below.
+  </div>
+  <div
+    className="modal__wrapper-content-main-form padding-md "
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Question"
+      >
+        Question:
+      </label>
+      <textarea
+        className="textarea"
+        name="Question"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Correct Answer"
+      >
+        Correct Answer:
+      </label>
+      <textarea
+        className="textarea"
+        name="CorrectAnswer"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer1"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer2"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer3"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="tmq-btn"
+  >
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      &lt;&lt; Edit Profile
+    </button>
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Delete Question
+    </button>
+    <button
+      className="btn-gray float-right teacher-new-qs"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Add New Question &gt;&gt;
+    </button>
+  </div>
+  <div
+    className="modal__wrapper-action modal__wrapper-action-quizform"
+  >
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-close"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-save"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</div>
+`;
+
+exports[`<TeacherMadeQuizQuestions /> Expect to render TeacherMadeQuizQuestions if 1`] = `
+<div
+  className="modal__wrapper-question-form teacher-made-questions"
+>
+  <div
+    className="teacher-made-title"
+  >
+    New Quiz
+     Question # 
+    1
+     /
+     
+    1
+  </div>
+  <div
+    className="teachermade-field-text"
+  >
+    Enter the question and answers in the fields below.
+  </div>
+  <div
+    className="modal__wrapper-content-main-form padding-md "
+  >
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Question"
+      >
+        Question:
+      </label>
+      <textarea
+        className="textarea"
+        name="Question"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Correct Answer"
+      >
+        Correct Answer:
+      </label>
+      <textarea
+        className="textarea"
+        name="CorrectAnswer"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer1"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer2"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div
+      className="form-control"
+    >
+      <label
+        className="form-control__label"
+        htmlFor="Incorrect"
+      >
+        Incorrect:
+      </label>
+      <textarea
+        className="textarea"
+        name="IncorrectAnswer3"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="tmq-btn"
+  >
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+      &lt;&lt; Edit Profile
+    </button>
+    <button
+      className="btn-gray"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Delete Question
+    </button>
+    <button
+      className="btn-gray float-right teacher-new-qs"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      Add New Question &gt;&gt;
+    </button>
+  </div>
+  <div
+    className="modal__wrapper-action modal__wrapper-action-quizform"
+  >
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-close"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="modal__wrapper-action-save"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</div>
+`;

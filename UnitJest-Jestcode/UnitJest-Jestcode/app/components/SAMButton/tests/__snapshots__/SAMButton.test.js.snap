@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMButton /> expect primary button to render 1`] = `
+<button
+  className="btn btn--primary"
+  onClick={[Function]}
+  type="submit"
+>
+  test button
+</button>
+`;
+
+exports[`<SAMButton /> expect style to include a class modifier 1`] = `
+<button
+  className="btn btn--secondary mockButtonClassModifier"
+  onClick={[Function]}
+  type="button"
+>
+  test button
+</button>
+`;
+
+exports[`<SAMButton /> expect the default to render 1`] = `
+<button
+  className="btn btn--secondary"
+  onClick={[Function]}
+  type="button"
+>
+  test button
+</button>
+`;

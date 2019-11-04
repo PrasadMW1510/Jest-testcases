@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`advancedSearchContainer reducer should handle BOOK_RESULT 1`] = `
+Immutable.Map {
+  installedQuizCount: Immutable.Map {
+  },
+  genre: Immutable.List [
+  ],
+  topics: Immutable.List [
+  ],
+  bookResult: "0",
+  error: false,
+  bookSearchFilters: Immutable.Map {
+    genrelist: Immutable.List [
+    ],
+    lexilemax: "",
+    comprehensionlist: Immutable.List [
+    ],
+    topicslist: Immutable.List [
+    ],
+    booktype: "",
+    awardsinfo: Immutable.List [
+    ],
+    pointsrangemax: "",
+    author: "",
+    readinglevelmax: "",
+    culturelist: Immutable.List [
+    ],
+    accessibility: "",
+    lang: "",
+    lexilemin: "",
+    guidereadinglevelmax: "",
+    themedatalist: Immutable.List [
+    ],
+    pointsrangemin: "",
+    interestlevellist: Immutable.List [
+    ],
+    title: "",
+    programserieslist: Immutable.List [
+    ],
+    readinglevelmin: "",
+    searchbtnvalue: "",
+    guidereadinglevelmin: "",
+  },
+  themes: Immutable.List [
+  ],
+  culture: Immutable.List [
+  ],
+  comskill: Immutable.List [
+  ],
+  bookSearch: false,
+  awards: Immutable.List [
+  ],
+  interestLevel: Immutable.List [
+  ],
+  programSeries: Immutable.List [
+  ],
+}
+`;
+
+exports[`advancedSearchContainer reducer should handle BOOK_SEARCH_FILTERS 1`] = `
+Immutable.Map {
+  installedQuizCount: Immutable.Map {
+  },
+  genre: Immutable.List [
+  ],
+  topics: Immutable.List [
+  ],
+  bookResult: "0",
+  error: false,
+  bookSearchFilters: Object {},
+  themes: Immutable.List [
+  ],
+  culture: Immutable.List [
+  ],
+  comskill: Immutable.List [
+  ],
+  bookSearch: true,
+  awards: Immutable.List [
+  ],
+  interestLevel: Immutable.List [
+  ],
+  programSeries: Immutable.List [
+  ],
+}
+`;

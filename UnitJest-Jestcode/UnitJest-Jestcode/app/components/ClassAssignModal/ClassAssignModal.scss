@@ -1,0 +1,115 @@
+.class-assign-modal {
+  width: 350px;
+  height: 500px;
+  padding: 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.class-assign-modal__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffd400;
+  width: 350px;
+  height: 25px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.class-assign-modal__header-title {
+  font-weight: bold;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.class-assign-modal__header-text {
+  font-size: 13px;
+}
+
+.class-assign-modal__button-group {
+  display: flex;
+  position: absolute;
+  bottom: 27px;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.class-assign-modal__chosen-text {
+  margin-bottom: 20px;
+}
+
+.class-assign-modal__cohort-info {
+  font-size: 0;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.class-assign-modal__item {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.class-assign-modal__item-value {
+  font-size: 11px;
+}
+
+
+.class-assign-modal__directions {
+  font-size: 11px;
+}
+
+.class-assign-modal__select-text {
+  margin-bottom: 6px;
+}
+
+.class-assign-modal__select {
+  border-style: solid;
+  width: 255px;
+  font-size: 12px;
+}
+
+.class-assign-modal__checkbox-list {
+  background-color: #ffef9f;
+  max-height: 270px;
+  margin: 10px;
+  overflow-y: scroll;
+  height: 270px;
+}
+
+.class-assign-modal__checkbox-row {
+  background-color: #ffd400;
+  min-height: 20px;
+}
+
+.class-assign-modal__checkbox-row-input {
+  margin-left: 10px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.class-assign-modal__checkbox-row-span {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.group-assign-modal__checkbox-row {
+  background-color: #ffef9f;
+  padding-left: 8px;
+  min-height: 20px;
+}
+
+.group-assign-modal__checkbox-row-input {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.group-assign-modal__checkbox-row-span {
+  font-weight: bold;
+  font-size: 10px;
+}

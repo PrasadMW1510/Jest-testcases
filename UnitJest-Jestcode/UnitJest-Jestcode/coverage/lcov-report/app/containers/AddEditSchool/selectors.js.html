@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/AddEditSchool/selectors.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/AddEditSchool</a> selectors.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/24</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { from<span class="cstat-no" title="statement not covered" >JS } from 'immutable';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+import { createS<span class="cstat-no" title="statement not covered" >elector } from 'rese</span>lect';
+import { formValue<span class="cstat-no" title="statement not covered" >Selector } from 'redux-form/immu</span>table';
+import { FORM_SCH<span class="cstat-no" title="statement not covered" >OOL_PROFILE, META_DATA_</span>GRADES } from './constants';
+&nbsp;
+const selectForm <span class="cstat-no" title="statement not covered" >= state =<span class="fstat-no" title="function not covered" >&gt; state.get</span>In(['for<span class="cstat-no" title="statement not covered" >m', FORM_SCHOOL_PROFILE]);</span></span>
+&nbsp;
+// TODO: See if the following definition can supplant the 'selectForms' definition above,
+// the following selectors adjusting accordingly.
+const selectSchoolForm <span class="cstat-no" title="statement not covered" >= formValueSelector(FORM_SCHOOL_PROFILE);</span>
+&nbsp;
+/**
+ * Direct selector to the addSchoolContainer state domain
+ */
+&nbsp;
+const makeSelectGradesForDistrict <span class="cstat-no" title="statement not covered" >= () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(
+    selectForm,
+<span class="fstat-no" title="function not covered" >    fo</span>rmState =&gt; formState<span class="cstat-no" title="statement not covered" > &amp;&amp; formState.getIn(['values', 'metaData', META_DATA_GRADES])</span>
+  );
+&nbsp;
+const makeSelectFormErrors <span class="cstat-no" title="statement not covered" >= () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(selectForm, formState =&gt; form<span class="fstat-no" title="function not covered" >St</span>ate &amp;&amp; formState.get<span class="cstat-no" title="statement not covered" >In(['syncErrors']));</span>
+&nbsp;
+const makeSelectFormServerErrors <span class="cstat-no" title="statement not covered" >= () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(selectForm, formState =&gt; form<span class="fstat-no" title="function not covered" >St</span>ate &amp;&amp; formState.get<span class="cstat-no" title="statement not covered" >In(['values', 'serverErrors']));</span>
+&nbsp;
+const makeSelectSubmitErrors <span class="cstat-no" title="statement not covered" >= () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(selectForm, formState =&gt; form<span class="fstat-no" title="function not covered" >St</span>ate &amp;&amp; formState.get<span class="cstat-no" title="statement not covered" >('submitErrors'));</span>
+&nbsp;
+const makeSelectAllFormMetaData <span class="cstat-no" title="statement not covered" >= () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(makeSelectGradesForDistrict(), grades =&gt; fromJS(<span class="fstat-no" title="function not covered" >{ </span>grades }));<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+const makeSelectSchoolYearDates <span class="cstat-no" title="statement not covered" >= () =&gt; s<span class="fstat-no" title="function not covered" >choolFormState =&gt;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span>
+  selectSchoolForm(schoolFormState, 'schoolYearStart', 'schoolYearEnd');<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+export {
+  selectForm,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectFormErrors,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectAllFormMetaData,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectFormServerErrors,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectGradesForDistrict,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectSchoolYearDates,<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectSubmitErrors,
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

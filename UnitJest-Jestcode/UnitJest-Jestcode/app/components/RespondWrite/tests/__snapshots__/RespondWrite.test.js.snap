@@ -1,0 +1,1560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RespondWrite /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="iread__modal--showmodal"
+  >
+    <div
+      className="iread-modal__list--wrapper"
+    >
+      <div
+        className="iread-modal__list--purple"
+      >
+        <div
+          className="iread-modal__show--heading"
+        />
+        <div>
+          <button
+            className="iread-modal__button-close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-modal__show--title"
+      >
+        <div
+          className="iread-modal__show--name"
+        >
+          System 44 Next Generation . 
+           .
+          0
+          .
+          .
+          1
+        </div>
+      </div>
+      <div
+        className="iread-modal__full--width"
+      >
+        <div
+          className="iread-modal__half--width"
+        >
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Prompt
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              />
+              <div />
+            </div>
+          </div>
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Response
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Draft: 
+                <br />
+                [Topic Sentence] 
+                 
+                <br />
+                [Supporting Detail 1]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [Supporting Detail 2]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [conclusion]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Published:
+                <span>
+                  <button
+                    className="print-system44__modal-button-second--pdf"
+                  >
+                    Print PDF
+                  </button>
+                </span>
+                <br />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Date of Submission:
+                Invalid date
+                Number of Sessions: 
+                1
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two1"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            4-Point Rubric :
+            <span
+              className="extended-writing__block-right--title"
+            >
+              Student Self check
+            </span>
+          </div>
+          <div
+            className="extended-writing__block-scrl--two"
+          >
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Text Evidence"
+              >
+                Text Evidence
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Punctuation"
+              >
+                Punctuation
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Spelling"
+              >
+                Spelling
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                tabIndex="-1"
+              >
+                overAll Score
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            className="vl"
+          >
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two2"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            Comments
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea1"
+          >
+            <textarea
+              cols="60"
+              onChange={[Function]}
+              rows="18"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="print-activate__quiz--buttons"
+        >
+          <div
+            className="print-activate-quiz__primary--button"
+          >
+            <div
+              className="print-system44-modal__buttons--firstset2"
+            >
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--print"
+                onClick={[Function]}
+              >
+                Print
+              </button>
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <button
+                className="print-system44__modal-button-second--set print-system44__modal-button--save"
+                onClick={[Function]}
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__buttons-firstset--pager"
+      >
+        <div
+          className="pager"
+        >
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &lt;
+            </a>
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            0
+             
+          </div>
+          <div
+            className="pager-nor"
+          >
+             of 
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            1
+             
+          </div>
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<RespondWrite /> Expect to render correctly 2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="iread__modal--showmodal"
+  >
+    <div
+      className="iread-modal__list--wrapper"
+    >
+      <div
+        className="iread-modal__list--purple"
+      >
+        <div
+          className="iread-modal__show--heading"
+        />
+        <div>
+          <button
+            className="iread-modal__button-close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-modal__show--title"
+      >
+        <div
+          className="iread-modal__show--name"
+        >
+          Read 180 Next Generation . 
+           .
+          .
+          .
+          .
+          Level 
+        </div>
+      </div>
+      <div
+        className="iread-modal__full--width"
+      >
+        <div
+          className="iread-modal__half--width"
+        >
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Prompt
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              />
+              <div />
+            </div>
+          </div>
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Response
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Draft: 
+                <br />
+                [Topic Sentence] 
+                0
+                 
+                <br />
+                [Supporting Detail 1]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [Supporting Detail 2]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [conclusion]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Published:
+                <span>
+                  <button
+                    className="print-system44__modal-button-second--pdf"
+                  >
+                    Print PDF
+                  </button>
+                </span>
+                <br />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Date of Submission:
+                Invalid date
+                Number of Sessions: 
+                1
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two1"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            4-Point Rubric :
+            <span
+              className="extended-writing__block-right--title"
+            >
+              Student Self check
+            </span>
+          </div>
+          <div
+            className="extended-writing__block-scrl--two"
+          >
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Strong Reasons"
+              >
+                Strong Reasons
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Precise Words"
+              >
+                Precise Words
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Complete Sentences"
+              >
+                Complete Sentences
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value="Correct Spelling"
+              >
+                Correct Spelling
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore4"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore4"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore4"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore4"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                tabIndex="-1"
+              >
+                overAll Score
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            className="vl"
+          >
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two2"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            Comments
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea1"
+          >
+            <textarea
+              cols="60"
+              onChange={[Function]}
+              rows="18"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="print-activate__quiz--buttons"
+        >
+          <div
+            className="print-activate-quiz__primary--button"
+          >
+            <div
+              className="print-system44-modal__buttons--firstset2"
+            >
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--print"
+                onClick={[Function]}
+              >
+                Print
+              </button>
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <button
+                className="print-system44__modal-button-second--set print-system44__modal-button--save"
+                onClick={[Function]}
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__buttons-firstset--pager"
+      >
+        <div
+          className="pager"
+        >
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &lt;
+            </a>
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            0
+             
+          </div>
+          <div
+            className="pager-nor"
+          >
+             of 
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            0
+             
+          </div>
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<RespondWrite /> Expect to render correctly 3`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="iread__modal--showmodal"
+  >
+    <div
+      className="iread-modal__list--wrapper"
+    >
+      <div
+        className="iread-modal__list--purple"
+      >
+        <div
+          className="iread-modal__show--heading"
+        />
+        <div>
+          <button
+            className="iread-modal__button-close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-modal__show--title"
+      >
+        <div
+          className="iread-modal__show--name"
+        >
+          Read 180 Next Generation . 
+           .
+          .
+          .
+          .
+          Level 
+        </div>
+      </div>
+      <div
+        className="iread-modal__full--width"
+      >
+        <div
+          className="iread-modal__half--width"
+        >
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Prompt
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              />
+              <div />
+            </div>
+          </div>
+          <div
+            className="s44"
+          >
+            <div
+              className="iread-modal__student--box"
+            >
+              <div
+                className="iread-modal__description--title"
+              >
+                Response
+              </div>
+            </div>
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea"
+          >
+            <div
+              className="iread-modal__assignment-roster-div--headers"
+            >
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Draft: 
+                <br />
+                [Topic Sentence] 
+                 
+                <br />
+                [Supporting Detail 1]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [Supporting Detail 2]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+                <br />
+                [conclusion]
+                <a
+                  className="iread-modal__assignment-mesg--a"
+                  disabled={true}
+                  tabIndex="-1"
+                />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Published:
+                <span>
+                  <button
+                    className="print-system44__modal-button-second--pdf"
+                  >
+                    Print PDF
+                  </button>
+                </span>
+                <br />
+              </div>
+              <div
+                className="iread-modal__assignment--mesg"
+              >
+                Date of Submission:
+                Invalid date
+                Number of Sessions: 
+              </div>
+              <div />
+            </div>
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two1"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            4-Point Rubric :
+            <span
+              className="extended-writing__block-right--title"
+            >
+              Student Self check
+            </span>
+          </div>
+          <div
+            className="extended-writing__block-scrl--two"
+          >
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value=""
+              />
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore1"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value=""
+              />
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore2"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                onClick={[Function]}
+                role="button"
+                tabIndex="-1"
+                value=""
+              />
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore3"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+            <div>
+              <a
+                className="extended-writing__block-scrl-two--a"
+                disabled={true}
+                tabIndex="-1"
+              >
+                overAll Score
+              </a>
+              <span
+                className="extended-writing__pull--right1"
+              >
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="1"
+                >
+                  1
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="2"
+                >
+                  2
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="3"
+                >
+                  3
+                </span>
+                <span
+                  className="valu1 "
+                  name="teacherScore5"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex="-1"
+                  value="4"
+                >
+                  4
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            className="vl"
+          >
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+            <div
+              className="align-center"
+            />
+          </div>
+        </div>
+        <div
+          className="extended-writing__block--two2"
+        >
+          <div
+            className="extended-writing__block--titl"
+          >
+            Comments
+          </div>
+          <div
+            className="iread-modal__assignment-roster--textarea1"
+          >
+            <textarea
+              cols="60"
+              onChange={[Function]}
+              rows="18"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="print-activate__quiz--buttons"
+        >
+          <div
+            className="print-activate-quiz__primary--button"
+          >
+            <div
+              className="print-system44-modal__buttons--firstset2"
+            >
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--print"
+                onClick={[Function]}
+              >
+                Print
+              </button>
+              <button
+                className="print-system44__modal-button-first--set print-system44__modal-button--cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <button
+                className="print-system44__modal-button-second--set print-system44__modal-button--save"
+                onClick={[Function]}
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__buttons-firstset--pager"
+      >
+        <div
+          className="pager"
+        >
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &lt;
+            </a>
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            0
+             
+          </div>
+          <div
+            className="pager-nor"
+          >
+             of 
+          </div>
+          <div
+            className="pager-nor"
+          >
+             
+            0
+             
+          </div>
+          <div
+            className="pager-prev"
+          >
+            <a
+              className="previous"
+              href=""
+              onClick={[Function]}
+            >
+              &gt;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

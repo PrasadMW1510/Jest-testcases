@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabStudentRoster /> Expect to handle student checkbox rendering - uncheck 1`] = `
+<section
+  className=""
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabStudentRoster /> Expect to handle student checkbox rendering 1`] = `
+<section
+  className=""
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabStudentRoster /> Expect to handle toggle all checkbox rendering - uncheck 1`] = `
+<section
+  className=""
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabStudentRoster /> Expect to handle toggle all checkbox rendering 1`] = `
+<section
+  className=""
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabStudentRoster /> Expect to render correctly when hidden 1`] = `
+<section
+  className="class-form__form--hide"
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabStudentRoster /> Expect to render correctly when visible 1`] = `
+<section
+  className=""
+>
+  <div
+    className="class-form__intro"
+  >
+    Use the check boxes to select students to include in this class. Attention: Removing a student from the class roster may deactivate him or her. Students must be included in at least one class or they will not appear in the SmartBar. See the student profile window for enrollment information.
+  </div>
+  <FormSection
+    headerText="Select Students"
+    sectionClassModifier="class-form__roster-students"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <Field
+      component={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      name="rosterStudents"
+      selectAll={false}
+      studentIdsChecked={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </FormSection>
+</section>
+`;

@@ -1,0 +1,1177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfilePage /> Component will Receive Props 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Group A
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          This group is part of: 
+        </span>
+        <button
+          className="profile-details__item clickable-button__item"
+          onClick={[Function]}
+        >
+          CA S44 Stage A Standalone
+        </button>
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        1
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> Component will Receive Props: else Condition 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for
+       
+      undefined, undefined
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Grade: 
+        </span>
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        undefined
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> onClassSelection 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> onClassSelection 2`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> onGradeSelection 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> onTeacherSelection 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Class grades 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Class teacher 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Profile Details 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Profile for District Admins 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      undefined
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Contact Name: 
+        </span>
+        StageACAS44, StageACAS44
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Title: 
+        </span>
+        Sr.Lead
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        abc@gmail.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Phone Number: 
+        </span>
+        123-456-7890
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Profile for District Admins 2`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      undefined
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Contact Name: 
+        </span>
+        StageACAS44, StageACAS44
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Title: 
+        </span>
+        Sr.Lead
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        abc@gmail.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Phone Number: 
+        </span>
+        123-456-7890
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render Profile for School Admins 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      undefined
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Contact Name: 
+        </span>
+        StageACAS44, StageACAS44
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Title: 
+        </span>
+        Sr.Lead
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        abc@gmail.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Phone Number: 
+        </span>
+        123-456-7890
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render grades 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render grades with no value 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render student details 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for
+       
+      StageACAS44, StageACAS44
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Grade: 
+        </span>
+        Eighth grade
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        StageACAS44
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render teacher 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> render teacher 2`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderClassDetails being called for Administrator 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Group A
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        undefined
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Grade(s): 
+        </span>
+      </li>
+      <div
+        className="teacher-overflow"
+      >
+        <span
+          className="profile-details__item"
+        >
+          Teacher(s): 
+        </span>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderClassDetails being called for Teacher 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Group A
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        undefined
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Grade(s): 
+        </span>
+      </li>
+      <div
+        className="teacher-overflow"
+      >
+        <span
+          className="profile-details__item"
+        >
+          Teacher(s): 
+        </span>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderGradeDetails being called 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for Grade 
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Teachers: 
+        </span>
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Classes: 
+        </span>
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderGroupDetails being called 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Group A
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          This group is part of: 
+        </span>
+        <button
+          className="profile-details__item clickable-button__item"
+          onClick={[Function]}
+        >
+          CA S44 Stage A Standalone
+        </button>
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        1
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderSchoolDetails being called 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Group A
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Contact Name: 
+        </span>
+        StageACAS44, StageACAS44
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Title: 
+        </span>
+        Sr.Lead
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        abc@gmail.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Phone Number: 
+        </span>
+        123-456-7890
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        undefined
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> renderTeacherDetails being called 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for
+       
+      undefined, undefined
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        undefined
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        undefined
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        undefined
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        undefined
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`<ProfilePage /> smartBarSelections no correct value 1`] = `
+<div>
+  <div
+    className="profile-details"
+  >
+    <div
+      className="profile-details__heading profile-details__heading--text"
+    >
+      Profile for 
+      Doepke, Audrey
+    </div>
+    <ul
+      className="profile-details__info"
+    >
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Email: 
+        </span>
+        me@me.com
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Type of Account: 
+        </span>
+        Administrator
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Username: 
+        </span>
+        audrey
+      </li>
+      <li>
+        <span
+          className="profile-details__item"
+        >
+          Number of Students: 
+        </span>
+        47
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,1319 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/SimulationProgram/SimulationProgram.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/SimulationProgram</a> SimulationProgram.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/128</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/102</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/30</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/57</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * SimulationProgram
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { Tab, Tab<span class="cstat-no" title="statement not covered" >s, TabList, TabPanel }</span> from 'react-tabs';
+&nbsp;
+import Math180Questions <span class="cstat-no" title="statement not covered" >from 'components/Math180Questions';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Const<span class="cstat-no" title="statement not covered" >ants from './constants'</span>;<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >import './SimulationProgram.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class SimulationProgram extends React.Component {
+  constructor(props) {
+    super(props);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+    this.state = {
+      shown: false,
+      comment: '',
+      score: '',
+      scoreShown: false,
+      updateStatus: false,
+    };
+  }
+&nbsp;
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClick, false);
+  }
+&nbsp;
+  handleClick = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    if<span class="cstat-no" title="statement not covered" > (this.node.contains(e.target)) {</span>
+      if<span class="cstat-no" title="statement not covered" > (this.state.shown === true &amp;&amp; !this.simnode.contains(e.target)) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState({ shown: false });</span>
+      }
+      if<span class="cstat-no" title="statement not covered" > (this.state.scoreShown === true &amp;&amp; !this.scorenode.contains(e.target)) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState({ scoreShown: false });</span>
+      }
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  toggle = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    e.<span class="cstat-no" title="statement not covered" >preventDefault();</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      shown: true,
+      scoreShown: false,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+  scoreToggle = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    e.<span class="cstat-no" title="statement not covered" >preventDefault();</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      scoreShown: true,
+      shown: false,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+  closeblock = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    e.<span class="cstat-no" title="statement not covered" >preventDefault();</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      shown: false,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+  scoreToggleClose = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    e.<span class="cstat-no" title="statement not covered" >preventDefault();</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({ scoreShown: false });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  buttonChange = (i<span class="fstat-no" title="function not covered" >te</span>m, qNumber, e) =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ score: e.target.value });</span>
+    th<span class="cstat-no" title="statement not covered" >is.handleEvaluationData(item, qNumber, e, Constants.SIMULATION_PROGRAM_SCORE);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChange = (i<span class="fstat-no" title="function not covered" >te</span>m, qNumber, e) =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ comment: e.target.value });</span>
+    th<span class="cstat-no" title="statement not covered" >is.handleEvaluationData(item, qNumber, e, Constants.SIMULATION_PROGRAM_COMMENT);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleEvaluationData(item, qNumber, e, datachange) {
+    const evaluationUpdate = {};
+    evaluationUpdate.communityID = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].$.communityId;
+    evaluationUpdate.studentID = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].$.studentId;
+    evaluationUpdate.workItemID = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+      item
+    ].number;
+    evaluationUpdate.teacherID = this.props.profileUserId;
+&nbsp;
+    switch (qNumber) {
+      case Constants.SIMULATION_PROGRAM_QUESTION_1:
+        evaluationUpdate.rubicType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question1[0].evaluation[0].$.rubricType;
+        evaluationUpdate.submissionType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question1[0].evaluation[0].$.submissionType;
+        break;
+      case Constants.SIMULATION_PROGRAM_QUESTION_2:
+        evaluationUpdate.rubicType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question2[0].evaluation[0].$.rubricType;
+        evaluationUpdate.submissionType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question2[0].evaluation[0].$.submissionType;
+        break;
+      case Constants.SIMULATION_PROGRAM_QUESTION_3:
+        evaluationUpdate.rubicType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question3[0].evaluation[0].$.rubricType;
+        evaluationUpdate.submissionType = this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt[
+          item
+        ].question3[0].evaluation[0].$.submissionType;
+        break;
+      default:
+        break;
+    }
+&nbsp;
+    switch (datachange) {
+      case Constants.SIMULATION_PROGRAM_SCORE:
+        evaluationUpdate.score = e.target.value;
+        evaluationUpdate.comment = this.state.comment;
+        break;
+      case Constants.SIMULATION_PROGRAM_COMMENT:
+        evaluationUpdate.comment = e.target.value;
+        evaluationUpdate.score = this.state.score;
+        break;
+      default:
+        break;
+    }
+&nbsp;
+    evaluationUpdate.questionNum = qNumber;
+    this.props.storeData(evaluationUpdate);
+  }
+&nbsp;
+  handleTab = ta<span class="fstat-no" title="function not covered" >bI</span>ndex =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.showWarning(tabIndex, 'Tabs');</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleQuestionTab = ta<span class="fstat-no" title="function not covered" >bI</span>ndex =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.showWarning(tabIndex, 'QuestionTabs');</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleScoreCommentUpdate = uS<span class="fstat-no" title="function not covered" >ta</span>tus =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ updateStatus: uStatus });</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+  capitalize(str) {
+    re<span class="cstat-no" title="statement not covered" >turn str.charAt(0).toUpperCase() + str.slice(1);</span>
+  }<span class="fstat-no" title="function not covered" ></span>
+&nbsp;
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    const shown = <span class="cstat-no" title="statement not covered" >{</span>
+      display: this.state.shown ? 'block' : 'none',
+    };
+    const scoreShow = <span class="cstat-no" title="statement not covered" >{ display: this.state.scoreShown ? 'block' : 'none' };</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div ref={node =&gt; (this.node = node)}&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+        &lt;div className="inbox-program-title"&gt;
+          {this.props.inboxmodalcontainer.studentProgram.results.workItems !== undefined &amp;&amp; (
+            &lt;span&gt;
+              {this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem !==
+                undefined &amp;&amp; (
+                &lt;ul className="inbox-program-title-list"&gt;
+                  {' '}
+                  &lt;li className="list-none"&gt;Math180&lt;/li&gt;
+                  &lt;li&gt;{Constants.SIMULATION_TITLE}&lt;/li&gt;
+                  &lt;li&gt;
+                    {
+                      this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                        .m180WorkItem[0].from
+                    }
+                  &lt;/li&gt;{' '}
+                  &lt;li&gt;
+                    {
+                      this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                        .m180WorkItem[0].attempt[0].simulationTitle
+                    }
+                  &lt;/li&gt;{' '}
+                  &lt;li&gt;
+                    &lt;button className="simulation-program-title-button" onClick={this.toggle}&gt;
+                      About this Simulation
+                    &lt;/button&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              )}
+            &lt;/span&gt;
+          )}
+        &lt;/div&gt;
+        &lt;div className="inbox-program-tabclss"&gt;
+          {this.props.inboxmodalcontainer.studentProgram.results.workItems !== undefined &amp;&amp;
+            this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem !==
+              undefined &amp;&amp; (
+              &lt;Tabs
+                forceRenderTabPanel
+                selectedIndex={this.props.tabIndex}
+                onSelect={this.handleTab}
+              &gt;
+                &lt;TabList&gt;
+                  {this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt.map(
+<span class="fstat-no" title="function not covered" ></span>                    (attemptItem, index) =&gt; &lt;Ta<span class="cstat-no" title="statement not covered" >b key={attemptItem.index}&gt;Attempt {index + 1}&lt;/Tab&gt;</span>
+                  )}
+                &lt;/TabList&gt;
+                {this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem[0].attempt.map(
+<span class="fstat-no" title="function not covered" ></span>                  (attemptItem, index) =&gt; (<span class="cstat-no" title="statement not covered" ></span>
+                    &lt;TabPanel key={attemptItem.index}&gt;
+                      &lt;div className="inbox-program-student-choices"&gt;
+                        &lt;div className="inbox-program-tabinr-titl"&gt;Student Choices :&lt;/div&gt;
+                        &lt;div className="inbox-program-tabinar-data"&gt;
+                          &lt;div className="inbox-program-tabinr-row"&gt;
+                            {attemptItem.studentChoices[0].studentChoice.m<span class="fstat-no" title="function not covered" >ap</span>((sChoice, scIndex) =&gt; {
+                              const schoic<span class="cstat-no" title="statement not covered" >e =</span> [];
+<span class="cstat-no" title="statement not covered" >                              if (scIndex === 0 || scIndex % 2 === 0)</span>
+<span class="cstat-no" title="statement not covered" >                                schoice.push(</span>
+                                  &lt;div className="inbox-program-tabinr-col" key={sChoice.$.key}&gt;
+                                    &lt;span className="col-sm-2"&gt;
+                                      &lt;b&gt;{sChoice.$.key}&lt;/b&gt;
+                                    &lt;/span&gt;
+                                    &lt;span className="col-sm-2"&gt; {sChoice.$.value}&lt;/span&gt;
+                                  &lt;/div&gt;
+                                );
+&nbsp;
+<span class="cstat-no" title="statement not covered" >                              if (scIndex % 2 !== 0)</span>
+<span class="cstat-no" title="statement not covered" >                                schoice.push(</span>
+                                  &lt;div
+                                    className="inbox-program-tabinr-col pull-right"
+                                    key={sChoice.$.key}
+                                  &gt;
+                                    &lt;span className="col-sm-2"&gt;
+                                      &lt;b&gt;{sChoice.$.key}&lt;/b&gt;
+                                    &lt;/span&gt;
+                                    &lt;span className="col-sm-2"&gt;{sChoice.$.value}&lt;/span&gt;
+                                  &lt;/div&gt;
+                                );
+<span class="cstat-no" title="statement not covered" >                              return schoice</span>;
+                            })}
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;Tabs
+                        forceRenderTabPanel
+                        className="inbox-program-tabinr"
+                        selectedIndex={this.props.questionTabIndex}
+                        onSelect={this.handleQuestionTab}
+                      &gt;
+                        &lt;TabList&gt;
+                          {attemptItem.question1[0] !== undefined &amp;&amp; &lt;Tab&gt;Question 1&lt;/Tab&gt;}
+                          {attemptItem.question2[0] !== undefined &amp;&amp; &lt;Tab&gt;Question 2&lt;/Tab&gt;}
+                          {attemptItem.question3[0] !== undefined &amp;&amp; &lt;Tab&gt;Question 3&lt;/Tab&gt;}
+                        &lt;/TabList&gt;
+                        {attemptItem.question1[0] !== undefined &amp;&amp; (
+                          &lt;TabPanel&gt;
+                            &lt;Math180Questions
+                              questionData={attemptItem.question1[0]}
+                              index={index}
+                              question={`1`}
+                              handleChange={this.handleChange}
+                              buttonChange={this.buttonChange}
+                              scoreToggle={this.scoreToggle}
+                              submitDate={
+                                this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                                  .m180WorkItem[0].$.dateSubmitted
+                              }
+                              rubicScore={
+                                attemptItem.question1[0].evaluation !== undefined &amp;&amp;
+                                attemptItem.question1[0].evaluation[0].rubricScores !== undefined
+                                  ? attemptItem.question1[0].evaluation[0].rubricScores[0].score[0]
+                                      .teacherScore
+                                  : null
+                              }
+                              handleScoreCommentUpdate={this.handleScoreCommentUpdate}
+                              resetStateData={this.props.resetStateData}
+                            /&gt;
+                          &lt;/TabPanel&gt;
+                        )}
+                        {attemptItem.question2[0] !== undefined &amp;&amp; (
+                          &lt;TabPanel&gt;
+                            &lt;Math180Questions
+                              questionData={attemptItem.question2[0]}
+                              index={index}
+                              question={`2`}
+                              handleChange={this.handleChange}
+                              buttonChange={this.buttonChange}
+                              scoreToggle={this.scoreToggle}
+                              submitDate={
+                                this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                                  .m180WorkItem[0].$.dateSubmitted
+                              }
+                              rubicScore={
+                                attemptItem.question2[0].evaluation !== undefined &amp;&amp;
+                                attemptItem.question2[0].evaluation[0].rubricScores !== undefined
+                                  ? attemptItem.question2[0].evaluation[0].rubricScores[0].score[0]
+                                      .teacherScore
+                                  : null
+                              }
+                              handleScoreCommentUpdate={this.handleScoreCommentUpdate}
+                              resetStateData={this.props.resetStateData}
+                            /&gt;
+                          &lt;/TabPanel&gt;
+                        )}
+                        {attemptItem.question3[0] !== undefined &amp;&amp; (
+                          &lt;TabPanel&gt;
+                            &lt;Math180Questions
+                              questionData={attemptItem.question3[0]}
+                              index={index}
+                              question={`3`}
+                              handleChange={this.handleChange}
+                              buttonChange={this.buttonChange}
+                              scoreToggle={this.scoreToggle}
+                              submitDate={`${
+                                this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                                  .m180WorkItem[0].$.dateSubmitted
+                              }`}
+                              rubicScore={
+                                attemptItem.question3[0].evaluation !== undefined &amp;&amp;
+                                attemptItem.question3[0].evaluation[0].rubricScores !== undefined
+                                  ? attemptItem.question3[0].evaluation[0].rubricScores[0].score[0]
+                                      .teacherScore
+                                  : null
+                              }
+                              handleScoreCommentUpdate={this.handleScoreCommentUpdate}
+                              resetStateData={this.props.resetStateData}
+                            /&gt;
+                          &lt;/TabPanel&gt;
+                        )}
+                      &lt;/Tabs&gt;
+                    &lt;/TabPanel&gt;
+                  )
+                )}
+              &lt;/Tabs&gt;
+            )}
+          {this.props.inboxmodalcontainer.studentProgram.results.workItems !== undefined &amp;&amp;
+            this.props.inboxmodalcontainer.studentProgram.results.workItems[0].m180WorkItem !==
+              undefined &amp;&amp; (
+              &lt;div
+                className="simulation-program-info simulation-program-modalmain"
+                style={shown}
+                ref={simnode =<span class="fstat-no" title="function not covered" >&gt; (t</span>his.simnod<span class="cstat-no" title="statement not covered" >e = simnode)}</span>
+              &gt;
+                &lt;h3 className="simulation-program-info-title"&gt;
+                  {
+                    this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                      .m180WorkItem[0].attempt[0].simulationTitle
+                  }{' '}
+                &lt;/h3&gt;
+                &lt;button className="inbox-program-close-pop" onClick={this.closeblock}&gt;
+                  x
+                &lt;/button&gt;
+&nbsp;
+                &lt;div className="simulation-program-smul-inr"&gt;
+                  &lt;div className="simulation-program-popmodal"&gt;
+                    &lt;h4 className="simulation-program-smul-header"&gt;Simulation Description&lt;/h4&gt;
+                    &lt;p className="simulation-program-smul-desc"&gt;
+                      {
+                        this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                          .m180WorkItem[0].simDescription
+                      }{' '}
+                    &lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div className="simulation-program-popmodal"&gt;
+                    &lt;h4 className="simulation-program-smul-header"&gt;Simulation Choices&lt;/h4&gt;
+                    &lt;p className="simulation-program-smul-desc"&gt;
+                      {
+                        this.props.inboxmodalcontainer.studentProgram.results.workItems[0]
+                          .m180WorkItem[0].simChoice
+                      }{' '}
+                    &lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            )}
+          &lt;div
+            className="simulation-program-overall-score"
+            style={scoreShow}
+            ref={scorenode =&gt; <span class="fstat-no" title="function not covered" >(thi</span>s.scorenode <span class="cstat-no" title="statement not covered" >= scorenode)}</span>
+          &gt;
+            &lt;h3 className="simulation-program-overall-score-head"&gt;Overall Score&lt;/h3&gt;
+            &lt;button className="inbox-program-close-pop" onClick={this.scoreToggleClose}&gt;
+              x
+            &lt;/button&gt;
+            &lt;div className="simulation-program-overall-score-info"&gt;
+              &lt;div className="simulation-program-col-sm-4"&gt;
+                &lt;h4 className="simulation-program-col-body"&gt;
+                  0&lt;br /&gt; Not Attempted
+                &lt;/h4&gt;
+                &lt;p className="simulation-program-col-p"&gt;The Student did not answer the question.&lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div className="simulation-program-col-sm-4"&gt;
+                &lt;h4 className="simulation-program-col-body"&gt;
+                  1&lt;br /&gt; Partially Attempted
+                &lt;/h4&gt;
+                &lt;p className="simulation-program-col-p"&gt;
+                  The Student states whether he or she met the goal, but does not explain why.
+                &lt;/p&gt;
+              &lt;/div&gt;
+              &lt;div className="simulation-program-col-sm-4"&gt;
+                &lt;h4 className="simulation-program-col-body"&gt;
+                  2&lt;br /&gt; Complete
+                &lt;/h4&gt;
+                &lt;p className="simulation-program-col-p"&gt;
+                  The Student explains why he or she met(or did not meet) the goal.
+                &lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >SimulationProgram.propTypes = {</span>
+  inboxmodalcontainer: PropTypes.object,
+  storeData: PropTypes.func.isRequired,
+  profileUserId: PropTypes.string,
+  showWarning: PropTypes.func.isRequired,
+  tabIndex: PropTypes.number.isRequired,
+  questionTabIndex: PropTypes.number.isRequired,
+  resetStateData: PropTypes.bool,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default SimulationProgram;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

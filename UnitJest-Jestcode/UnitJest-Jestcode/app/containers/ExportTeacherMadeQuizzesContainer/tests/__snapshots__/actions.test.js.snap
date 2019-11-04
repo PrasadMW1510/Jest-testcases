@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/ExportTeacherMadeQuizzesContainer/default-action",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for exportTeacherMadeQuizRequest 1`] = `
+Object {
+  "quizData": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/ExportTeacherMadeQuizzesContainer/export-teacher-made-quiz-list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for exportTeacherMadeQuizRequest 2`] = `
+Object {
+  "quizData": undefined,
+  "type": "app/ExportTeacherMadeQuizzesContainer/export-teacher-made-quiz-list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for postExportTeacherMadeQuizRequestFailure 1`] = `
+Object {
+  "type": "app/ExportTeacherMadeQuizzesContainer/export-teacher-made-quiz-failure",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for postExportTeacherMadeQuizRequestSuccess 1`] = `
+Object {
+  "type": "app/ExportTeacherMadeQuizzesContainer/export-teacher-made-quiz-success",
+}
+`;

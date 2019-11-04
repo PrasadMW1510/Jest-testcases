@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InactiveAccountsTable /> cohort-loading should match snapshot 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="mia-data-table"
+  columns={
+    Array [
+      Object {
+        "Cell": [Function],
+        "Header": "Name",
+        "accessor": "name",
+        "defaultSort": true,
+        "queryParam": "last_name",
+        "width": 200,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "studentId",
+        "queryParam": "sis_id",
+        "width": 180,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "userName",
+        "queryParam": "user_name",
+        "width": 180,
+      },
+      Object {
+        "Header": "Status",
+        "accessor": "status",
+        "queryParam": "is_attached",
+        "width": 65,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "className": "rt-td__enrollment",
+        "queryParam": "is_enrolled",
+      },
+    ]
+  }
+  data={Array []}
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  loading={true}
+  manual={true}
+  minRows={0}
+  onFetchData={[Function]}
+  pageSize={250}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<InactiveAccountsTable /> empty message table should render correctly 1`] = `
+<div
+  className="mia-data-table__no-data"
+>
+  <div
+    className="mia-data-table__no-data-text"
+  >
+    No results.
+  </div>
+</div>
+`;
+
+exports[`<InactiveAccountsTable /> non-cohort-loading should match snapshot 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="mia-data-table"
+  columns={
+    Array [
+      Object {
+        "Cell": [Function],
+        "Header": "Name",
+        "accessor": "name",
+        "defaultSort": true,
+        "queryParam": "last_name",
+        "width": 200,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "studentId",
+        "queryParam": "sis_id",
+        "width": 180,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "userName",
+        "queryParam": "user_name",
+        "width": 180,
+      },
+      Object {
+        "Header": "Status",
+        "accessor": "status",
+        "queryParam": "is_attached",
+        "width": 65,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "className": "rt-td__enrollment",
+        "queryParam": "is_enrolled",
+      },
+    ]
+  }
+  data={Array []}
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  loading={false}
+  manual={true}
+  minRows={0}
+  onFetchData={[Function]}
+  pageSize={250}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;

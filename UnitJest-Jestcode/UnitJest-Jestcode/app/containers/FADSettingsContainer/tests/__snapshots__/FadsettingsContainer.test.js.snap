@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FADSettingsContainer /> Expect to render correctly 1`] = `
+<div
+  className="fad-settings__container-main"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Settings",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+  <FADresetModal
+    doNo={[Function]}
+    doYes={[Function]}
+    isOpen={false}
+  />
+  <FADRetakeModal
+    doNo={[Function]}
+    doYes={[Function]}
+    isOpen={false}
+  />
+  <LoadingModal
+    isOpen={true}
+  />
+</div>
+`;
+
+exports[`<FADSettingsContainer /> Expect to render correctly at Student cohort level with enrollment and final taken and loading done 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="fad-settings__content"
+  >
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Initial Assessment And Placement
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-init-assmnt-place"
+        >
+          <input
+            checked={false}
+            disabled=""
+            id="fad-settings-init-assmnt-place"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Reset student(s) to initial assessment
+        </label>
+      </div>
+    </div>
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Final Assessment
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-final-assmnt"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="fad-settings-final-assmnt"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Require student(s) to retake final assessment
+        </label>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Class enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="fad-settings__content"
+  >
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Initial Assessment And Placement
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-init-assmnt-place"
+        >
+          <input
+            checked={false}
+            disabled="disabled"
+            id="fad-settings-init-assmnt-place"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Reset student(s) to initial assessment
+        </label>
+        <div
+          className="fad-settings__section-error"
+        >
+          This setting can be changed for individual students only.  If you wish to change this setting, please select a student from the SmartBar on the left.
+        </div>
+      </div>
+    </div>
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Final Assessment
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-final-assmnt"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="fad-settings-final-assmnt"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Require student(s) to retake final assessment
+        </label>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Class enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Class enrollmentCount is 0 renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is District enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is District enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is District enrollmentCount is 0 renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Grade enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Grade enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Grade enrollmentCount is 0 renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Group enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="fad-settings__content"
+  >
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Initial Assessment And Placement
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-init-assmnt-place"
+        >
+          <input
+            checked={false}
+            disabled="disabled"
+            id="fad-settings-init-assmnt-place"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Reset student(s) to initial assessment
+        </label>
+        <div
+          className="fad-settings__section-error"
+        >
+          This setting can be changed for individual students only.  If you wish to change this setting, please select a student from the SmartBar on the left.
+        </div>
+      </div>
+    </div>
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Final Assessment
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-final-assmnt"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="fad-settings-final-assmnt"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Require student(s) to retake final assessment
+        </label>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Group enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Group enrollmentCount is 0 renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is School enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is School enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is School enrollmentCount is 0 renderSettings 1`] = `
+<SettingsMessage
+  message1="To change Fraction Nation advanced settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Student enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="fad-settings__content"
+  >
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Initial Assessment And Placement
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-init-assmnt-place"
+        >
+          <input
+            checked={false}
+            disabled=""
+            id="fad-settings-init-assmnt-place"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Reset student(s) to initial assessment
+        </label>
+      </div>
+    </div>
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Final Assessment
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-final-assmnt"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="fad-settings-final-assmnt"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Require student(s) to retake final assessment
+        </label>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Student enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Student enrollmentCount is 0 renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Teacher enrollment count is 10 state.settings is not undefined renderSettings 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="fad-settings__content"
+  >
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Initial Assessment And Placement
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-init-assmnt-place"
+        >
+          <input
+            checked={false}
+            disabled="disabled"
+            id="fad-settings-init-assmnt-place"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Reset student(s) to initial assessment
+        </label>
+        <div
+          className="fad-settings__section-error"
+        >
+          This setting can be changed for individual students only.  If you wish to change this setting, please select a student from the SmartBar on the left.
+        </div>
+      </div>
+    </div>
+    <div
+      className="fad-settings__section"
+    >
+      <div
+        className="fad-settings__section-title"
+      >
+        Final Assessment
+      </div>
+      <div
+        className="fad-settings__section-content"
+      >
+        <label
+          className="fad-settings__section-label"
+          htmlFor="fad-settings-final-assmnt"
+        >
+          <input
+            checked={false}
+            disabled={true}
+            id="fad-settings-final-assmnt"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Require student(s) to retake final assessment
+        </label>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Teacher enrollment count is 10 state.settings is undefined renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> selectedCohType is Teacher enrollmentCount is 0 renderSettings 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Fraction Nation"
+/>
+`;
+
+exports[`<FADSettingsContainer /> show_retake_final_assessment_option is set to false 1`] = `
+<div
+  className="fad-settings__section"
+>
+  <div
+    className="fad-settings__section-title"
+  >
+    Final Assessment
+  </div>
+  <div
+    className="fad-settings__section-content"
+  >
+    <label
+      className="fad-settings__section-label"
+      htmlFor="fad-settings-final-assmnt"
+    >
+      <input
+        checked={false}
+        disabled={true}
+        id="fad-settings-final-assmnt"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Require student(s) to retake final assessment
+    </label>
+    <div
+      className="fad-settings__section-error"
+    >
+      This setting is unavailable because none of the students in the selected cohort have taken the final assessment
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,940 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditAssignmentComponent /> Should render as expected 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="edit-assignment-component__modal--edit-modal"
+  >
+    <div
+      className="edit-assignment-component__list--wrapper"
+    >
+      <div
+        className="edit-assignment-component__list--purple"
+      >
+        <div
+          className="edit-assignment-component__modal--heading"
+        >
+          <span />
+        </div>
+        <div>
+          <button
+            className="edit-assignment-component__button--close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal-title"
+      >
+        <div
+          className="edit-assignment-component__text--name"
+        >
+          <span>
+            <div
+              className="edit-assignment-component__div--style"
+            >
+              <span
+                className="edit-assignment-component__div--span1"
+              >
+                iRead 
+              </span>
+              <span
+                className="edit-assignment-component__div--span2"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle1"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            >
+               
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle2"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="edit-assignment-component__modal-student-box"
+        >
+          <div
+            className="edit-assignment-component__description--title edit-assignment-component__modal-duedate-title"
+          >
+            Student Grade:
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__assignment-roster--textarea"
+      >
+        <div
+          className="edit-read180ng-modal-assignment-description"
+        >
+          To change students grade, enter a new grade below.
+        </div>
+        <div
+          className="edit-assignment-component__roster-div--headers"
+        >
+          <div
+            className="edit-assignment-component__assignment--mesg"
+          >
+            Select Students that will comeplete the Assignment. Enter Words Correct Per Minute (WCPM) in the field below.
+          </div>
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one"
+            >
+              WPCM
+            </div>
+            <div
+              className="edit-assignment-component__modal-assignment--three"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one font-wei-normal bord-bot"
+            />
+            <div
+              className="edit-assignment-component__modal-assignment--three font-wei-normal bord-bot"
+            />
+          </div>
+          <div>
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal--buttons"
+      >
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <button
+            className="edit-assignment-component__modal--button mr-r-12"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="edit-assignment-component__modal--button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <div
+            className="pager"
+          >
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &lt;
+              </a>
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-nor"
+            >
+               of 
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &gt;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <UnsavedchangesComponent
+    cancelWarningModalconClose={[Function]}
+    closeStudentGoalModal={[Function]}
+  />
+  <UnsavedChangesNavigationModal
+    cancelWarningModalconClose={[Function]}
+  />
+  <DeleteModal
+    deleteWarningModal={false}
+    handleDeleteAssignment={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Error 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        Percentage must be between 0% and 100%. Please enter a valid grade.
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-warning-saving"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-save-txt"
+      >
+        Assessment Saved
+      </div>
+      <div
+        className="portfolio-conf-warning-save-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <CheckboxChangeModal
+    closeStudentGoalModal={[Function]}
+    handleShowSavedGradeModal={[Function]}
+    showSavedGradeModal={false}
+  />
+</div>
+`;
+
+exports[`<EditAssignmentComponent /> Should render as expected 2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="edit-assignment-component__modal--edit-modal"
+  >
+    <div
+      className="edit-assignment-component__list--wrapper"
+    >
+      <div
+        className="edit-assignment-component__list--purple"
+      >
+        <div
+          className="edit-assignment-component__modal--heading"
+        >
+          <span />
+        </div>
+        <div>
+          <button
+            className="edit-assignment-component__button--close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal-title"
+      >
+        <div
+          className="edit-assignment-component__text--name"
+        >
+          <span>
+            <div
+              className="edit-assignment-component__div--style"
+            >
+              <span
+                className="edit-assignment-component__div--span1"
+              />
+              <span
+                className="edit-assignment-component__div--span2"
+              >
+                Next Generation
+              </span>
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle1"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            >
+               
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle2"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="edit-assignment-component__description--box"
+        >
+          <div
+            className="edit-assignment-component__description--title"
+          >
+            Description:
+          </div>
+          <div
+            className="edit-assignment-component__description--textarea"
+          >
+            <textarea
+              className="edit-assignment-component__description-title--textarea"
+              name="description"
+              onChange={[Function]}
+              value={null}
+            />
+          </div>
+        </div>
+        <div
+          className="edit-assignment-component__modal--duedate"
+        >
+          <div
+            className="edit-assignment-component__description--title edit-assignment-component__modal-duedate-title"
+          >
+            Due Date:
+          </div>
+          <div
+            className="edit-assignment-component__modal-due-date--inbox"
+          >
+            <div
+              className="edit-assignment-component__modal-due-date--content"
+            >
+              <div
+                className="edit-assignment-component__date--descript"
+              >
+                Select due date:
+              </div>
+              <div
+                className="edit-assignment-component__date--display"
+              >
+                 
+                <span
+                  className="edit-assignment-component__date-display--slash"
+                >
+                  /
+                </span>
+                 
+                 
+                <span
+                  className="edit-assignment-component__date-display--slash"
+                >
+                  /
+                </span>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="edit-assignment-component__modal-student-box"
+        >
+          <div
+            className="edit-assignment-component__description--title edit-assignment-component__modal-duedate-title"
+          >
+            Student Grade:
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__assignment-roster--textarea"
+      >
+        <div
+          className="edit-read180ng-modal-assignment-description"
+        >
+          To change students grade, enter a new grade below.
+        </div>
+        <div
+          className="edit-assignment-component__roster-div--headers"
+        >
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one"
+            >
+              Grades
+            </div>
+            <div
+              className="edit-assignment-component__modal-assignment--three"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one font-wei-normal bord-bot"
+            />
+            <div
+              className="edit-assignment-component__modal-assignment--three font-wei-normal bord-bot"
+            />
+          </div>
+          <div>
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal-bottom-italic--text"
+      >
+        *Assignment was completed while student was enrolled in Read180 Next Generation
+      </div>
+      <div
+        className="edit-assignment-component__modal--buttons"
+      >
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <button
+            className="edit-assignment-component__modal--button mr-r-12"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="edit-assignment-component__modal--button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <div
+            className="pager"
+          >
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &lt;
+              </a>
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-nor"
+            >
+               of 
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &gt;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <UnsavedchangesComponent
+    cancelWarningModalconClose={[Function]}
+    closeStudentGoalModal={[Function]}
+  />
+  <UnsavedChangesNavigationModal
+    cancelWarningModalconClose={[Function]}
+  />
+  <DeleteModal
+    deleteWarningModal={false}
+    handleDeleteAssignment={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Error 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        Percentage must be between 0% and 100%. Please enter a valid grade.
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-warning-saving"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-save-txt"
+      >
+        Assessment Saved
+      </div>
+      <div
+        className="portfolio-conf-warning-save-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <CheckboxChangeModal
+    closeStudentGoalModal={[Function]}
+    handleShowSavedGradeModal={[Function]}
+    showSavedGradeModal={false}
+  />
+</div>
+`;
+
+exports[`mount EditAssignmentComponent and handle events should mount EditAssignmentComponent 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="edit-assignment-component__modal--edit-modal"
+  >
+    <div
+      className="edit-assignment-component__list--wrapper"
+    >
+      <div
+        className="edit-assignment-component__list--purple"
+      >
+        <div
+          className="edit-assignment-component__modal--heading"
+        >
+          <span />
+        </div>
+        <div>
+          <button
+            className="edit-assignment-component__button--close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal-title"
+      >
+        <div
+          className="edit-assignment-component__text--name"
+        >
+          <span>
+            <div
+              className="edit-assignment-component__div--style"
+            >
+              <span
+                className="edit-assignment-component__div--span1"
+              >
+                iRead 
+              </span>
+              <span
+                className="edit-assignment-component__div--span2"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle1"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            >
+               
+            </div>
+            <div
+              className="edit-assignment-component__div-circle--head"
+            >
+              <div
+                className="edit-assignment-component__div--circle edit-assignment-component__div--circle2"
+              />
+            </div>
+            <div
+              className="edit-assignment-component__div--style edit-assignment-component__div--style1"
+            />
+          </span>
+        </div>
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="edit-assignment-component__modal-student-box"
+        >
+          <div
+            className="edit-assignment-component__description--title edit-assignment-component__modal-duedate-title"
+          >
+            Student Grade:
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__assignment-roster--textarea"
+      >
+        <div
+          className="edit-read180ng-modal-assignment-description"
+        >
+          To change students grade, enter a new grade below.
+        </div>
+        <div
+          className="edit-assignment-component__roster-div--headers"
+        >
+          <div
+            className="edit-assignment-component__assignment--mesg"
+          >
+            Select Students that will comeplete the Assignment. Enter Words Correct Per Minute (WCPM) in the field below.
+          </div>
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one"
+            >
+              WPCM
+            </div>
+            <div
+              className="edit-assignment-component__modal-assignment--three"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="edit-assignment-component__modal--assignment"
+          >
+            <div
+              className="edit-assignment-component__modal-assignment--one font-wei-normal bord-bot"
+            />
+            <div
+              className="edit-assignment-component__modal-assignment--three font-wei-normal bord-bot"
+            />
+          </div>
+          <div>
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        className="edit-assignment-component__modal--buttons"
+      >
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <button
+            className="edit-assignment-component__modal--button mr-r-12"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="edit-assignment-component__modal--button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--firstset"
+        >
+          <div
+            className="pager"
+          >
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &lt;
+              </a>
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-nor"
+            >
+               of 
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+              1
+               
+            </div>
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &gt;
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="edit-assignment-component__modal-buttons--secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <UnsavedchangesComponent
+    cancelWarningModalconClose={[Function]}
+    closeStudentGoalModal={[Function]}
+  />
+  <UnsavedChangesNavigationModal
+    cancelWarningModalconClose={[Function]}
+  />
+  <DeleteModal
+    deleteWarningModal={false}
+    handleDeleteAssignment={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Error 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        Percentage must be between 0% and 100%. Please enter a valid grade.
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-warning-saving"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-save-txt"
+      >
+        Assessment Saved
+      </div>
+      <div
+        className="portfolio-conf-warning-save-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <CheckboxChangeModal
+    closeStudentGoalModal={[Function]}
+    handleShowSavedGradeModal={[Function]}
+    showSavedGradeModal={false}
+  />
+</div>
+`;

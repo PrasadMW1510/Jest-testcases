@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportAdditionalSettings /> Expect to render correctly 1`] = `
+<div
+  className="additional-settings-box report-right-box"
+  id="AdditionalSettingsBox"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Test Option
+  </div>
+  <div
+    className="report-settings-box report-additional-settings"
+  >
+    <select
+      className="additional-settings-select"
+      defaultValue="Value0"
+      onChange={[Function]}
+    >
+      <option
+        key="Value0"
+        value="Value0"
+      >
+        Label0
+      </option>
+      <option
+        key="Value1"
+        value="Value1"
+      >
+        Label1
+      </option>
+    </select>
+  </div>
+</div>
+`;
+
+exports[`<ReportAdditionalSettings /> Expect to render correctly with no options 1`] = `
+<div
+  className="additional-settings-box report-right-box"
+  id="AdditionalSettingsBox"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Additional Settings
+  </div>
+  <div
+    className="report-settings-box report-additional-settings"
+  >
+    None
+  </div>
+</div>
+`;

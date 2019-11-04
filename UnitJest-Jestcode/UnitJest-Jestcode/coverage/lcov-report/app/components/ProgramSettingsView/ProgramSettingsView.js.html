@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/ProgramSettingsView/ProgramSettingsView.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/ProgramSettingsView</a> ProgramSettingsView.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/135</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/69</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/67</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * ProgramSettingsView
+ *
+ */
+&nbsp;
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import React,<span class="cstat-no" title="statement not covered" > { Component } fr</span>om 'react';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import ProgramSettingsNavBar <span class="cstat-no" title="statement not covered" >from 'components/ProgramSettingsNavBar';<span class="cstat-no" title="statement not covered" ></span></span>
+import SettingsMessage <span class="cstat-no" title="statement not covered" >from 'components/SettingsMessage/SettingsMessage';<span class="cstat-no" title="statement not covered" ></span></span>
+import { PROGRAM_<span class="cstat-no" title="statement not covered" >LIST } from 'containers/App/constant</span>s';
+import PSSetting<span class="cstat-no" title="statement not covered" >Container from 'containers/PSSettingContainer/Load</span>able';<span class="cstat-no" title="statement not covered" ></span>
+import FADSetting<span class="cstat-no" title="statement not covered" >sContainer from 'containers/FADSettingsContainer/Loa</span>dable';<span class="cstat-no" title="statement not covered" ></span>
+import FMSettingC<span class="cstat-no" title="statement not covered" >ontainer from 'containers/FMSettingContainer/Loada</span>ble';<span class="cstat-no" title="statement not covered" ></span>
+import IreadSetti<span class="cstat-no" title="statement not covered" >ngsContainer from 'containers/IreadSettingsContainer/L</span>oadable';<span class="cstat-no" title="statement not covered" ></span>
+import MISettingC<span class="cstat-no" title="statement not covered" >ontainer from 'containers/MISettingContainer/Loada</span>ble';<span class="cstat-no" title="statement not covered" ></span>
+import PISettingCo<span class="cstat-no" title="statement not covered" >ntainer from 'containers/PISettingContainer/Loadab</span>le';<span class="cstat-no" title="statement not covered" ></span>
+import R180EESetti<span class="cstat-no" title="statement not covered" >ngContainer from 'containers/R180EESettingContainer/Lo</span>adable';<span class="cstat-no" title="statement not covered" ></span>
+import R180NGSetti<span class="cstat-no" title="statement not covered" >ngContainer from 'containers/R180NGSettingContainer/Lo</span>adable';<span class="cstat-no" title="statement not covered" ></span>
+import RCSettingCo<span class="cstat-no" title="statement not covered" >ntainer from 'containers/RCSettingContainer/Loadab</span>le';<span class="cstat-no" title="statement not covered" ></span>
+import RISettingCo<span class="cstat-no" title="statement not covered" >ntainer from 'containers/RISettingContainer/Loadab</span>le';<span class="cstat-no" title="statement not covered" ></span>
+import RSkillsCCSe<span class="cstat-no" title="statement not covered" >ttingContainer from 'containers/RSkillsCCSettingContainer</span>/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import S44NGSettin<span class="cstat-no" title="statement not covered" >gContainer from 'containers/S44NGSettingContainer/Loa</span>dable';<span class="cstat-no" title="statement not covered" ></span>
+import S44SettingC<span class="cstat-no" title="statement not covered" >ontainer from 'containers/S44SettingContainer/Loada</span>ble';<span class="cstat-no" title="statement not covered" ></span>
+import XSkillsSett<span class="cstat-no" title="statement not covered" >ingContainer from 'containers/XSkillsSettingContainer/L</span>oadable';<span class="cstat-no" title="statement not covered" ></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  getEnrollmentCount,
+  getEnrollmentCountDetails,
+  getMaxEnrolledProduct,
+} from 'utils/programSettingsUtils';
+&nbsp;
+import * as Consta<span class="cstat-no" title="statement not covered" >nts from './constants';<span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" >import './ProgramSettingsView.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class ProgramSettingsView extends Component {
+  renderProgramSettings = () =&gt; {
+    const { enrollmentList } = this.props;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span>
+    // Keep these cases in alphabetical order
+    sw<span class="cstat-no" title="statement not covered" >itch (this.props.selectedProgram.product_code) {</span>
+      case PROGRAM_LIST.DTM.code: {
+        const dtmEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.dtm,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;PSSettingContainer enrollmentCount={dtmEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.FAD.code: {
+        const fadEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.fad,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;FADSettingsContainer enrollmentCount={fadEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.FM.code: {
+        const fmEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(Constants.APPLICATIONS_IDS.fm, enrollmentList);</span>
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;FMSettingContainer enrollmentCount={fmEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.R180.code: {
+        const r180EEEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.r180ee,
+          enrollmentList
+        );
+&nbsp;
+        const r180EEEnrollmentDetails = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCountDetails(</span>
+          Constants.APPLICATIONS_IDS.r180ee,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn (</span>
+          &lt;R180EESettingContainer
+            enrollmentCount={r180EEEnrollmentCount}
+            enrollmentDetails={r180EEEnrollmentDetails}
+          /&gt;
+        );
+      }
+      case PROGRAM_LIST.R180NG.code: {
+        const r180NGEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.r180ng,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;R180NGSettingContainer enrollmentCount={r180NGEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.RTNG.code: {
+        const rSkillsCCEnrollmentList = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.rtng,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;RSkillsCCSettingContainer enrollmentCount={rSkillsCCEnrollmentList} /&gt;;</span>
+      }
+      case PROGRAM_LIST.S44.code: {
+        const s44EnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.s44,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;S44SettingContainer enrollmentCount={s44EnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.S44JR.code: {
+        const s44JREnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.s44jr,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;IreadSettingsContainer enrollmentCount={s44JREnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.S44NG.code: {
+        const s44NGEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.s44ng,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;S44NGSettingContainer enrollmentCount={s44NGEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.SMI.code: {
+        const smiEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.smi,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;MISettingContainer enrollmentCount={smiEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.SPI.code: {
+        const spiEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.spi,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;PISettingContainer enrollmentCount={spiEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.SRC.code: {
+        const srcEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.src,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;RCSettingContainer enrollmentCount={srcEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.SRI.code: {
+        const sriEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.sri,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;RISettingContainer enrollmentCount={sriEnrollmentCount} /&gt;;</span>
+      }
+      case PROGRAM_LIST.XT.code: {
+        const xSkillHighEnrollment = ge<span class="cstat-no" title="statement not covered" >tMaxEnrolledProduct(</span>
+          Constants.APPLICATIONS_IDS.xt,
+          enrollmentList
+        );
+        const xSkillsEnrollmentCount = ge<span class="cstat-no" title="statement not covered" >tEnrollmentCount(</span>
+          Constants.APPLICATIONS_IDS.xt,
+          enrollmentList
+        );
+        retu<span class="cstat-no" title="statement not covered" >rn (</span>
+          &lt;XSkillsSettingContainer
+            enrollmentCount={xSkillsEnrollmentCount}
+            highestEnrolledCourse={xSkillHighEnrollment.applicationId}
+          /&gt;
+        );
+      }
+      default: {
+        const tabs = [<span class="cstat-no" title="statement not covered" ></span>
+          {
+            renderFunction: () =&gt; &lt;Sett<span class="fstat-no" title="function not covered" >ingsMessage mes</span>sag<span class="cstat-no" title="statement not covered" >e1={Constants.UNDER_CONSTRUCTION} /&gt;,</span>
+            ...Constants.TAB_SETTINGS,
+          },
+        ];
+&nbsp;
+        retu<span class="cstat-no" title="statement not covered" >rn &lt;ProgramSettingsNavBar tabs={tabs} /&gt;;</span>
+      }
+    }
+  };<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+&nbsp;
+  render() {
+    co<span class="cstat-no" title="statement not covered" >nst { selec</span>tedProgram, select<span class="cstat-no" title="statement not covered" >edProgram: { product_co</span>de } } = this.p<span class="cstat-no" title="statement not covered" >rops;</span>
+    // TODO: relates to defect ISGTC-1115 selectedProgram is not always set,
+    // this is a bandaid for the blank page problem. we will need fix this
+    // eslint-disable-next-line camelcase
+    const productClassName = <span class="cstat-no" title="statement not covered" >product_code</span>
+      ? `${product_code.toLowerCase()}-settings-content-panel`
+      : 'no-product-code';
+    // eslint-disable-next-line camelcase
+    const missingProductCodeClass = <span class="cstat-no" title="statement not covered" >product_code</span>
+      ? 'program-settings__product-code--available'
+      : 'program-settings__product-code--missing';
+    // eslint-disable-next-line camelcase
+    const programSettingsClassName = <span class="cstat-no" title="statement not covered" >`program-settings-content-panel ${productClassName}`;</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div className={programSettingsClassName}&gt;
+        &lt;div className="program-settings-header"&gt;
+          &lt;span className="program-settings-header__name"&gt;
+            {selectedProgram &amp;&amp; selectedProgram.display_name} {'Program Settings'}
+          &lt;/span&gt;
+          &lt;span className={missingProductCodeClass}&gt;
+            {' '}
+            productCode missing. click ReturnToProfile, ISGTC-1115
+          &lt;/span&gt;
+          {selectedProgram &amp;&amp;
+            selectedProgram.display_image_large &amp;&amp; (
+              &lt;img
+                className="program-settings-header__image"
+                src={selectedProgram.display_image_large}
+                alt={selectedProgram.display_name}
+              /&gt;
+            )}
+          {this.renderProgramSettings()}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >ProgramSettingsView.propTypes = {</span>
+  enrollmentList: PropTypes.object.isRequired,
+  selectedProgram: PropTypes.object.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default ProgramSettingsView;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

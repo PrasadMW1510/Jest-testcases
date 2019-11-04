@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RISetting /> Expect AdvancedSettings tab to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-advanced-settings",
+        "label": "Advanced Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<RISetting /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-advanced-settings",
+        "label": "Advanced Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<RISetting /> renderAdvancedSettings Expect enrollmentCount=0 to render correctly 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Reading Inventory"
+/>
+`;
+
+exports[`<RISetting /> renderAdvancedSettings Expect isLoading=false to render correctly 1`] = `
+<TabAdvancedSettings
+  handleIsolateTab={[Function]}
+  handleSave={[Function]}
+  handleTabReset={[Function]}
+  immProficiencyBandData={
+    Immutable.Map {
+      bands: Immutable.List [
+        Immutable.Map {
+          defaultName: "no default",
+          isEnabled: false,
+          name: "(no name)",
+          rangesForGrades: Immutable.List [
+            Immutable.Map {
+              high: "0",
+              low: "0",
+            },
+            Immutable.Map {
+              high: "0",
+              low: "0",
+            },
+            Immutable.Map {
+              high: "0",
+              low: "0",
+            },
+            Immutable.Map {
+              high: "0",
+              low: "0",
+            },
+          ],
+        },
+        Immutable.Map {
+          defaultName: "Below Basic",
+          isEnabled: true,
+          name: "Level 1",
+          rangesForGrades: Immutable.List [
+            Immutable.Map {
+              high: "BR",
+              low: "BR",
+            },
+            Immutable.Map {
+              high: "BR",
+              low: "BR",
+            },
+            Immutable.Map {
+              high: "219",
+              low: "BR",
+            },
+            Immutable.Map {
+              high: "329",
+              low: "BR",
+            },
+          ],
+        },
+        Immutable.Map {
+          defaultName: "Basic",
+          isEnabled: true,
+          name: "Level 2",
+          rangesForGrades: Immutable.List [
+            Immutable.Map {
+              high: "189",
+              low: "BR",
+            },
+            Immutable.Map {
+              high: "189",
+              low: "BR",
+            },
+            Immutable.Map {
+              high: "419",
+              low: "220",
+            },
+            Immutable.Map {
+              high: "519",
+              low: "330",
+            },
+          ],
+        },
+        Immutable.Map {
+          defaultName: "Proficient",
+          isEnabled: true,
+          name: "Proficient",
+          rangesForGrades: Immutable.List [
+            Immutable.Map {
+              high: "530",
+              low: "190",
+            },
+            Immutable.Map {
+              high: "530",
+              low: "190",
+            },
+            Immutable.Map {
+              high: "650",
+              low: "420",
+            },
+            Immutable.Map {
+              high: "820",
+              low: "520",
+            },
+          ],
+        },
+        Immutable.Map {
+          defaultName: "Advanced",
+          isEnabled: true,
+          name: "Level 4",
+          rangesForGrades: Immutable.List [
+            Immutable.Map {
+              high: "1700+",
+              low: "531",
+            },
+            Immutable.Map {
+              high: "1700+",
+              low: "531",
+            },
+            Immutable.Map {
+              high: "1700+",
+              low: "651",
+            },
+            Immutable.Map {
+              high: "1700+",
+              low: "821",
+            },
+          ],
+        },
+      ],
+      numberOfGrades: 4,
+      proficientBandIndex: 3,
+      shouldShowAsterisks: false,
+    }
+  }
+  isolateTab={false}
+  selectedCohortType="Class"
+  showModal={[Function]}
+  transformLexile={[Function]}
+/>
+`;
+
+exports[`<RISetting /> renderAdvancedSettings Expect isLoading=true to render correctly 1`] = `
+<div
+  className="ri-settings__advanced-settings-loading-container"
+>
+  <div
+    className="ri-settings__instruction-text"
+  >
+    These settings may be adjusted at the District level only.
+  </div>
+  <LoadingBar />
+</div>
+`;
+
+exports[`<RISetting /> renderAdvancedSettings Expect isLoading=true to render district settings correctly 1`] = `
+<div
+  className="ri-settings__advanced-settings-loading-container"
+>
+  <div
+    className="ri-settings__instruction-text"
+  >
+    Use these options to customize proficiency band names and ranges. You may change the number     of bands and select a band as the target proficiency range using the pull-down menus below     the chart. The maximum Lexile setting is 1700. These settings may be adjusted at the     District level only.
+  </div>
+  <LoadingBar />
+</div>
+`;
+
+exports[`<RISetting /> renderSettingsTab Expect enrollmentCount=0 to render correctly 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Reading Inventory"
+/>
+`;
+
+exports[`<RISetting /> renderSettingsTab Expect isLoading=false to render correctly 1`] = `
+<TabSettings
+  enrollmentCount={3}
+  handleCancel={[Function]}
+  handleIsolateTab={[Function]}
+  handleSave={[Function]}
+  handleTabReset={[Function]}
+  immSettings={
+    Immutable.Map {
+      error: false,
+      proficiencyBandData: Immutable.Map {
+        bands: Immutable.List [
+          Immutable.Map {
+            defaultName: "no default",
+            isEnabled: false,
+            name: "(no name)",
+            rangesForGrades: Immutable.List [
+              Immutable.Map {
+                high: "0",
+                low: "0",
+              },
+              Immutable.Map {
+                high: "0",
+                low: "0",
+              },
+              Immutable.Map {
+                high: "0",
+                low: "0",
+              },
+              Immutable.Map {
+                high: "0",
+                low: "0",
+              },
+            ],
+          },
+          Immutable.Map {
+            defaultName: "Below Basic",
+            isEnabled: true,
+            name: "Level 1",
+            rangesForGrades: Immutable.List [
+              Immutable.Map {
+                high: "BR",
+                low: "BR",
+              },
+              Immutable.Map {
+                high: "BR",
+                low: "BR",
+              },
+              Immutable.Map {
+                high: "219",
+                low: "BR",
+              },
+              Immutable.Map {
+                high: "329",
+                low: "BR",
+              },
+            ],
+          },
+          Immutable.Map {
+            defaultName: "Basic",
+            isEnabled: true,
+            name: "Level 2",
+            rangesForGrades: Immutable.List [
+              Immutable.Map {
+                high: "189",
+                low: "BR",
+              },
+              Immutable.Map {
+                high: "189",
+                low: "BR",
+              },
+              Immutable.Map {
+                high: "419",
+                low: "220",
+              },
+              Immutable.Map {
+                high: "519",
+                low: "330",
+              },
+            ],
+          },
+          Immutable.Map {
+            defaultName: "Proficient",
+            isEnabled: true,
+            name: "Proficient",
+            rangesForGrades: Immutable.List [
+              Immutable.Map {
+                high: "530",
+                low: "190",
+              },
+              Immutable.Map {
+                high: "530",
+                low: "190",
+              },
+              Immutable.Map {
+                high: "650",
+                low: "420",
+              },
+              Immutable.Map {
+                high: "820",
+                low: "520",
+              },
+            ],
+          },
+          Immutable.Map {
+            defaultName: "Advanced",
+            isEnabled: true,
+            name: "Level 4",
+            rangesForGrades: Immutable.List [
+              Immutable.Map {
+                high: "1700+",
+                low: "531",
+              },
+              Immutable.Map {
+                high: "1700+",
+                low: "531",
+              },
+              Immutable.Map {
+                high: "1700+",
+                low: "651",
+              },
+              Immutable.Map {
+                high: "1700+",
+                low: "821",
+              },
+            ],
+          },
+        ],
+        numberOfGrades: 4,
+        proficientBandIndex: 3,
+        shouldShowAsterisks: false,
+      },
+      programSetting: Immutable.Map {
+        limit_reading_to_installed_quizzes: Immutable.List [
+          "0",
+        ],
+        allow_min_days_between_tests: Immutable.List [
+          "1",
+        ],
+        play_sound_effects: Immutable.List [
+          "0",
+        ],
+        choose_reading_interests: Immutable.List [
+          "1",
+        ],
+        min_days_between_tests: Immutable.List [
+          "0",
+        ],
+        show_lexile_after_test: Immutable.List [
+          "1",
+        ],
+        est_reading_level: Immutable.List [
+          "1",
+        ],
+        max_books_in_reading_list: Immutable.List [
+          "30",
+        ],
+        require_practice_test: Immutable.List [
+          "1",
+        ],
+        see_reading_list: Immutable.List [
+          "-1",
+        ],
+      },
+      programEnrollmentSetting: Immutable.List [
+      ],
+    }
+  }
+  loggedInUserType="Administrator"
+  programName="The Reading Inventory"
+  selectedCohortName=""
+  selectedCohortType="Class"
+  showModal={[Function]}
+/>
+`;
+
+exports[`<RISetting /> renderSettingsTab Expect isLoading=true to render correctly 1`] = `
+<div>
+  <span
+    className="ri-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="ri-settings__settings-tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;

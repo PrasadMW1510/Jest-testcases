@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopicManagerTab /> Expect to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> componentWillReceiveProps 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> handleCheckBoxChange when checked value is false 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={
+        Array [
+          Object {
+            "cd_name": Array [
+              "A01",
+            ],
+            "enable": Array [
+              "0",
+            ],
+            "globally_enabled": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Can You Believe It?",
+            ],
+          },
+        ]
+      }
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> handleCheckBoxChange when checked value is true 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={
+        Array [
+          Object {
+            "cd_name": Array [
+              "A01",
+            ],
+            "enable": Array [
+              "1",
+            ],
+            "globally_enabled": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Can You Believe It?",
+            ],
+          },
+        ]
+      }
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> verify handle handleSetInitialValues  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> verify handle hudeSaveOptions  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> verify handle showSaveOptions  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerTab /> verify handleSaveAndReturn  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="program-settings__intro-text"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="program-settings__intro-text"
+    >
+      Show Topic Software for:
+      <select
+        className="program-settings__select"
+        key="School"
+        name="topic_stage_selection"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="allStages"
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="r180ng_a"
+          value="r180ng_a"
+        >
+           
+          A01
+           
+        </option>
+      </select>
+    </div>
+    <ManageTopicTable
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      topics={Array []}
+    />
+    <div
+      className="program-settings__footnote"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;

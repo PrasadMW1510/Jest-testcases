@@ -1,0 +1,42 @@
+.clear-roster-success-modal__message {
+  font-size: 11px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.clear-roster-success-modal__button {
+  color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.clear-roster-success-modal {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.clear-roster-success-modal__heading {
+  font-size: 16px;
+  padding: 3px 11px;
+  background-color: #ffd400;
+  width: 350px;
+  margin-top: -19px;
+  margin-left: -50px;
+}
+
+.clear-roster-success-modal__profile-button {
+  margin-top: 100px;
+  background-color: #d06021;
+  border-left: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-top: 2px solid hsla(0, 0%, 100%, 0.5);
+  width: 145px;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+}

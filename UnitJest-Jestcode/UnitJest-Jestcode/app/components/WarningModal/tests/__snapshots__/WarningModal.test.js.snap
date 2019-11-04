@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WarningModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="warning-modal"
+>
+  <div
+    className="warning-modal--message"
+  />
+  <div
+    className="warning-modal__button-box"
+  >
+    <SAMButton
+      buttonClassModifier="warning-modal--ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student Work Programs Container Should render StudentWorkProgramsContainer 1`] = `
+<div>
+  <IReadStudentWork
+    data={
+      Array [
+        Object {},
+      ]
+    }
+    getIreadStudentWorkData={[Function]}
+    handleCancel={[Function]}
+    handleDelete={[Function]}
+    handleSave={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    showDeleteModal={[Function]}
+  />
+</div>
+`;

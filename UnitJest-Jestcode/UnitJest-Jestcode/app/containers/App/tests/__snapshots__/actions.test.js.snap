@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Global App actions Login schoolsAndClassesRequestSuccess should return the correct constant for schools and classes request success with no params 1`] = `
+Object {
+  "schoolsAndClasses": Object {},
+  "type": "schools_and_classes_request_success",
+}
+`;
+
+exports[`Global App actions Login schoolsAndClassesRequestSuccess should return the correct constant for schools and classes request success with params 1`] = `
+Object {
+  "schoolsAndClasses": Object {
+    "id": "mockSchoolsAndClasses",
+  },
+  "type": "schools_and_classes_request_success",
+}
+`;
+
+exports[`Global App actions Login should return class data when click on anything above class 1`] = `
+Object {
+  "profileClass": "123Class",
+  "type": "update_profile_class_data_success",
+}
+`;
+
+exports[`Global App actions Login should return failure when data is incorrect 1`] = `
+Object {
+  "err": "error",
+  "type": "update_profile_page_data_failure",
+}
+`;
+
+exports[`Global App actions Login should return grade data when click on anything above grade 1`] = `
+Object {
+  "profileGrade": "123Grade",
+  "type": "update_profile_grade_data_success",
+}
+`;
+
+exports[`Global App actions Login should return group data when click on anything above group 1`] = `
+Object {
+  "profileGroup": "123Group",
+  "type": "update_profile_group_data_success",
+}
+`;
+
+exports[`Global App actions Login should return school data when click on school data 1`] = `
+Object {
+  "profileSchool": "123School",
+  "type": "update_profile_school_data_success",
+}
+`;
+
+exports[`Global App actions Login should return student data when clicked on anything above student 1`] = `
+Object {
+  "profileStudent": "123Student",
+  "type": "update_profile_student_data_success",
+}
+`;
+
+exports[`Global App actions Login should return teacher data when click on anything above teacher 1`] = `
+Object {
+  "profileTeacher": "123Teacher",
+  "type": "update_profile_teacher_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for class list request 1`] = `
+Object {
+  "type": "class_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for class list request failure 1`] = `
+Object {
+  "error": "no classes found",
+  "subType": "class_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for class list request success 1`] = `
+Object {
+  "classes": Array [
+    "abcd",
+    "123",
+    "zzz",
+  ],
+  "type": "class_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for class list request success no data 1`] = `
+Object {
+  "classes": Array [],
+  "type": "class_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for grade list request 1`] = `
+Object {
+  "type": "grade_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for grade list request failure 1`] = `
+Object {
+  "error": "err",
+  "subType": "grade_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for grade list request success 1`] = `
+Object {
+  "grades": Array [
+    1,
+    2,
+    3,
+  ],
+  "type": "grade_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for grade list request success no data 1`] = `
+Object {
+  "grades": Array [],
+  "type": "grade_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for group list request 1`] = `
+Object {
+  "type": "group_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for login request 1`] = `
+Object {
+  "password": undefined,
+  "type": "login_request",
+  "username": undefined,
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for login request success 1`] = `
+Object {
+  "type": "login_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for login request success 2`] = `
+Object {
+  "error": "invalid user",
+  "type": "login_request_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for logout request 1`] = `
+Object {
+  "type": "logout_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for logout request failure 1`] = `
+Object {
+  "type": "logout_request_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for logout request success 1`] = `
+Object {
+  "type": "logout_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for password config request success with no params 1`] = `
+Object {
+  "passwordConfig": Object {},
+  "type": "password_config_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for password config request success with params 1`] = `
+Object {
+  "passwordConfig": Object {
+    "data": 456,
+    "id": 123,
+  },
+  "type": "password_config_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for password hint request 1`] = `
+Object {
+  "type": "password_hint_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for password hint request failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "password_hint_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for password hint request success 1`] = `
+Object {
+  "hint": "foobar",
+  "type": "password_hint_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for profile request 1`] = `
+Object {
+  "type": "profile_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for profile request failure 1`] = `
+Object {
+  "error": "no profile found",
+  "subType": "profile_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for profile request success 1`] = `
+Object {
+  "profile": Object {
+    "name": "Jack",
+  },
+  "type": "profile_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for program available  list request failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "program_available_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for program available  list request success 1`] = `
+Object {
+  "serverAssets": Array [],
+  "type": "program_available_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for programAvailableRequest list request  1`] = `
+Object {
+  "serverAssets": Array [],
+  "type": "program_available_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for school list request 1`] = `
+Object {
+  "type": "school_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for school list request success no data 1`] = `
+Object {
+  "schools": Array [],
+  "type": "school_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for school user flow login request 1`] = `
+Object {
+  "type": "school_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request 1`] = `
+Object {
+  "type": "student_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request failure 1`] = `
+Object {
+  "error": "error goes here",
+  "subType": "student_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request failure 2`] = `
+Object {
+  "error": "error goes here",
+  "subType": "group_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request failure 3`] = `
+Object {
+  "error": "error goes here",
+  "subType": "school_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request success 1`] = `
+Object {
+  "students": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "type": "student_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request success 2`] = `
+Object {
+  "groups": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "type": "group_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request success 3`] = `
+Object {
+  "schools": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "type": "school_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request success no data 1`] = `
+Object {
+  "students": Array [],
+  "type": "student_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for student list request success no data 2`] = `
+Object {
+  "groups": Array [],
+  "type": "group_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for teacher list request 1`] = `
+Object {
+  "type": "teacher_list_request",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for teacher list request failure 1`] = `
+Object {
+  "error": undefined,
+  "subType": "teacher_list_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for teacher list request success 1`] = `
+Object {
+  "teachers": Array [
+    1,
+    2,
+    3,
+  ],
+  "type": "teacher_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for teacher list request success no data 1`] = `
+Object {
+  "teachers": Array [],
+  "type": "teacher_list_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update class data request 1`] = `
+Object {
+  "classId": "zzzzz123",
+  "type": "update_class_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update class data request failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "update_class_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update class data request success 1`] = `
+Object {
+  "type": "update_class_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update grade data 1`] = `
+Object {
+  "gradeId": "dsaf",
+  "schoolId": "asdfasd",
+  "type": "update_grade_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update grade data failure 1`] = `
+Object {
+  "error": undefined,
+  "subType": "update_grade_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update grade data success 1`] = `
+Object {
+  "type": "update_grade_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update group data request 1`] = `
+Object {
+  "groupId": "zzzzz123",
+  "type": "update_group_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update group data request failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "update_group_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update group data request success 1`] = `
+Object {
+  "type": "update_group_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update profile request success with no params 1`] = `
+Object {
+  "profile": Object {},
+  "type": "update_profile_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update profile request success with params 1`] = `
+Object {
+  "profile": Object {
+    "data": 456,
+    "id": 123,
+  },
+  "type": "update_profile_request_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update school data request 1`] = `
+Object {
+  "schoolId": "zzzzz123",
+  "type": "update_school_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update school data request failure 1`] = `
+Object {
+  "error": undefined,
+  "subType": "update_school_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update school data request success 1`] = `
+Object {
+  "type": "update_school_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update school data request success teacher 1`] = `
+Object {
+  "type": "update_school_data_success_teacher",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update student data request 1`] = `
+Object {
+  "studentId": "zzzzz123",
+  "type": "update_student_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update student data request failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "update_student_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update student data request success 1`] = `
+Object {
+  "type": "update_student_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update teacher data 1`] = `
+Object {
+  "schoolId": "asdfas",
+  "teacherId": "asdfas",
+  "type": "update_teacher_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update teacher data failure 1`] = `
+Object {
+  "error": "err",
+  "subType": "update_teacher_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update teacher data success 1`] = `
+Object {
+  "type": "update_teacher_data_success",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update user data 1`] = `
+Object {
+  "type": "update_user_data",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update user data failure 1`] = `
+Object {
+  "error": "invalid user",
+  "subType": "update_user_data_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`Global App actions Login should return the correct constant for update user data success 1`] = `
+Object {
+  "type": "update_user_data_success",
+}
+`;

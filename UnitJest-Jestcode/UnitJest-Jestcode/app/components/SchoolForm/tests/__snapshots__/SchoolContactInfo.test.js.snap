@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SchoolContactInfo /> Expect to render correctly 1`] = `
+<div
+  className="school-form__form-contact-info"
+>
+  <Field
+    component={[Function]}
+    label="School Contact Last Name"
+    maxLength={40}
+    name="schoolContactLastName"
+    required={true}
+    type="text"
+    withRef={true}
+  />
+  <Field
+    component={[Function]}
+    label="School Contact First Name"
+    maxLength={40}
+    name="schoolContactFirstName"
+    required={true}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Contact Middle Name"
+    maxLength={40}
+    name="schoolContactMiddleName"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Contact Title"
+    maxLength={40}
+    name="schoolContactTitle"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Contact Email"
+    maxLength={40}
+    name="schoolContactEmail"
+    required={true}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Mailing Address Line 1"
+    maxLength={40}
+    name="schoolContactAddressLine1"
+    required={true}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Mailing Address Line 2"
+    maxLength={40}
+    name="schoolContactAddressLine2"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="School Mailing Address Line 3"
+    maxLength={40}
+    name="schoolContactAddressLine3"
+    type="text"
+  />
+  <Field
+    className="school-form__city"
+    component={[Function]}
+    hasSiblingInputErrors={false}
+    label="City, State, and Zip Code"
+    maxLength={30}
+    name="schoolContactCity"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="school-form__state"
+    component={[Function]}
+    maxLength={2}
+    name="schoolContactState"
+    type="text"
+  />
+  <Field
+    className="school-form__zip"
+    component={[Function]}
+    name="schoolContactZip"
+    normalize={[Function]}
+    type="text"
+  />
+  <InputPhoneNumber
+    className=""
+    label="School's Main Phone Number"
+    name="schoolContactPhoneNumber"
+    placeholder="xxx-xxx-xxxx"
+    required={true}
+  />
+  <div
+    className="school-form__contact-required-label"
+  >
+    * Required
+  </div>
+</div>
+`;

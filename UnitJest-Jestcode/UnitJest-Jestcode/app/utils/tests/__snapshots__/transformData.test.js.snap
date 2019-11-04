@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for DA 1`] = `
+Object {
+  "user": Object {
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": "mock_prefix",
+    "sps_id": "mock_sps_id",
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Tech",
+  },
+}
+`;
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for DA adding SA 1`] = `
+Object {
+  "user": Object {
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": "mock_prefix",
+    "schools": Object {
+      "school_id": "mockUserOrgId",
+    },
+    "sps_id": "mock_sps_id",
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Administrator",
+  },
+}
+`;
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for DTA 1`] = `
+Object {
+  "user": Object {
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": "mock_prefix",
+    "sps_id": "mock_sps_id",
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Tech",
+  },
+}
+`;
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for SA adding SA 1`] = `
+Object {
+  "user": Object {
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": "mock_prefix",
+    "schools": Object {
+      "school_id": "mockUserOrgId",
+    },
+    "sps_id": "mock_sps_id",
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Administrator",
+  },
+}
+`;
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for SA adding STA 1`] = `
+Object {
+  "user": Object {
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": "mock_prefix",
+    "schools": Object {
+      "school_id": "mockUserOrgId",
+    },
+    "sps_id": "mock_sps_id",
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Tech",
+  },
+}
+`;
+
+exports[`Transform Data Utils transformDataForProfileAdd adds correctly for Teacher 1`] = `
+Object {
+  "user": Object {
+    "classes": Object {
+      "class_id": Array [
+        "class_id",
+      ],
+    },
+    "district_user_id": "mock_district_user_id",
+    "email": "mock_email",
+    "first_name": "mock_first_name",
+    "last_name": "mock_last_name",
+    "organizations": Object {
+      "org_id": "mockUserOrgId",
+    },
+    "password": "mock_password",
+    "password_hint": "mock_password_hint",
+    "permissions": Object {
+      "permission": Array [
+        Object {
+          "permission_id": 100,
+        },
+        Object {
+          "permission_id": 500,
+        },
+        Object {
+          "permission_id": 1500,
+        },
+      ],
+    },
+    "prefix": undefined,
+    "schools": Object {
+      "school_id": "mockUserOrgId",
+    },
+    "sps_id": undefined,
+    "suffix": "mock_suffix",
+    "title": "mock_title",
+    "user_name": "mock_user_name",
+    "user_type": "Teacher",
+  },
+}
+`;

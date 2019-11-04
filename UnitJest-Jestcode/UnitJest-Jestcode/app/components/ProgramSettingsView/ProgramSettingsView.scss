@@ -1,0 +1,100 @@
+.program-settings-content-panel {
+  height: 100%;
+  background-color: #fff6d7;
+  border: 2px solid #000;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100%;
+  float: left;
+}
+
+.program-settings-header {
+  padding-top: 15px;
+}
+
+.program-settings-header__name {
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.program-settings-header__image {
+  float: right;
+}
+
+.program-settings__navbar {
+  margin-top: 61px;
+  // needed for settings tabs text to fit
+
+  .navbar__item-text {
+    font-size: 13px;
+  }
+}
+
+.program-settings__tab-content {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-top-style: none;
+  margin-bottom: 15px;
+  padding: 4px 1px 6px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  // Needed for isolate tab styling
+
+  .program-settings__select {
+    border: 1px #000 solid;
+    border-radius: 0;
+    line-height: 16px;
+    margin-left: 108px;
+    padding: 0 4px;
+  }
+}
+
+.program-settings__intro-text,
+.program-settings__footnote {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.program-settings__navbar--isolate-tab {
+  &::after {
+    background: rgba(0, 0, 0, 0.4);
+    content: '';
+    height: 145vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 11;
+  }
+}
+
+.program-settings__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.program-settings__btn.btn {
+  margin-left: 10px;
+  min-width: 74px;
+  width: auto;
+}
+
+.program-settings__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.program-settings__product-code--available {
+  display: none;
+}
+
+.program-settings__product-code--missing {
+  display: inline;
+  color: #f00;
+  font-size: 14px;
+}

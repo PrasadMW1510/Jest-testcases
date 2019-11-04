@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramAvailableBar /> Should render as expected 1`] = `
+<div
+  className="program-available-bar"
+>
+  <div
+    className="program-available-bar__message"
+  >
+    You have these programs available:
+    <img
+      alt="images/cdx.jpg"
+      className="program-available-bar__image"
+      height="20"
+      key="images/cdx.jpg"
+      width="20"
+    />
+    <img
+      alt="images/FM.jpg"
+      className="program-available-bar__image"
+      height="20"
+      key="images/FM.jpg"
+      width="20"
+    />
+  </div>
+</div>
+`;

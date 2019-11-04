@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DemographicList /> Expect to match snapshot 1`] = `
+<ul
+  className="edit-district-profile__demographic-list"
+>
+  <li
+    key="Test Demo"
+  >
+     
+    Test Demo
+     
+  </li>
+  <li
+    key="Test Demo 2"
+  >
+     
+    Test Demo 2
+     
+  </li>
+</ul>
+`;

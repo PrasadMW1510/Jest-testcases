@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditSchool actions All actions should return the correct constant for absent grade list in district 1`] = `
+Object {
+  "gradeList": Array [],
+  "type": "AddEditSchool/grade_list_for_district",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for adding a school request 1`] = `
+Object {
+  "isEdit": false,
+  "schoolObject": Object {
+    "name": "my school",
+  },
+  "type": "AddEditSchool/save_school_request",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for adding a school request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AddEditSchool/save_school_request_failure",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for adding a school request success 1`] = `
+Object {
+  "type": "AddEditSchool/save_school_request_success",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for getting meta data request 1`] = `
+Object {
+  "type": "AddEditSchool/get_meta_data_request",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for getting meta data request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AddEditSchool/get_meta_data_request_failure",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for getting meta data request success 1`] = `
+Object {
+  "type": "AddEditSchool/get_meta_data_request_success",
+}
+`;
+
+exports[`AddEditSchool actions All actions should return the correct constant for populated grade list in district 1`] = `
+Object {
+  "gradeList": Array [
+    Object {
+      "full_name": "Pre-K",
+      "name": "PK",
+    },
+  ],
+  "type": "AddEditSchool/grade_list_for_district",
+}
+`;

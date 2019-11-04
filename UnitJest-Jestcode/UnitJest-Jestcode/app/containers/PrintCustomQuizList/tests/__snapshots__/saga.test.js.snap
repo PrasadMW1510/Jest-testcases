@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintBookLabel Saga printCustomQuizRequest getPreviewDataFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga printCustomQuizRequest printCustomQuizRequestsuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga printCustomQuizRequest printCustomQuizRequestsuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "Session12",
+      Object {
+        "PrintQuizListReq": Object {
+          "DisplayColumnSwitches": Object {
+            "DisplayAuthor": true,
+            "DisplayGRL": undefined,
+            "DisplayLexile": undefined,
+            "DisplayPoints": undefined,
+            "DisplayReadingLevel": undefined,
+            "DisplayTitle": true,
+            "DisplayWordCount": undefined,
+          },
+        },
+        "Quizzes": Object {
+          "AllInstalledQuizzes": false,
+          "QuizList": Object {
+            "QuizId": Array [
+              "ggg",
+            ],
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

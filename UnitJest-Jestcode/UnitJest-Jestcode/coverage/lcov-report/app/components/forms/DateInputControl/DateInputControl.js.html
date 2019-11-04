@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/forms/DateInputControl/DateInputControl.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\..\index.html">All files</a> / <a href="index.html">app/components/forms/DateInputControl</a> DateInputControl.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/60</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/43</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/33</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ></span>
+ *
+ * DateInputControl
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import DatePicker from <span class="cstat-no" title="statement not covered" >'react-datepicker';<span class="cstat-no" title="statement not covered" ></span></span>
+import { SLMS_DAT<span class="cstat-no" title="statement not covered" >E_FORMAT } from 'containers/App/cons</span>tants';
+import moment <span class="cstat-no" title="statement not covered" >from 'moment';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import 'react-datepicker/dist/react-datepicker.css';</span>
+&nbsp;
+import FormControl <span class="cstat-no" title="statement not covered" >from '../FormControl';<span class="cstat-no" title="statement not covered" ></span></span>
+import FormLabel <span class="cstat-no" title="statement not covered" >from '../FormLabel';<span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" >import './DateInputControl.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+/**
+ * This is the react-datepicker widget customized to work with redux-form.
+ *
+ * ~~~ Event Handling ~~~
+ *
+ * onChange:  If the user is typing directly into the text field, this event will be triggered
+ * on the DatePicker AS SOON AS any valid calendar value is recognized (even before losing focus).
+ * If the user types in an invalid value and then navigates out of the text field, this event will also
+ * be triggered with a value of 'null' immediately FOLLOWING the onBlur event:  This is because
+ * we clear the input during the onBlur event if we detect an invalid value (see 'handleBlur').
+ * If the user selects a date from the DatePicker pop-up instead of typing directly in the
+ * text field, this event will be triggered, and then the text field will receive focus.
+ *
+ * Any triggered onChange event will also invoke the redux-form onChange action for the
+ * new value.  Any defined onChange handler on the redux-form &lt;Field&gt; will be passed a free-form
+ * object with 'moment' properties describing the current calendar value.
+ *
+ *
+ * onBlur:  This event will be triggered any time the user navigates out of the text field.  If
+ * an invalid value is in the text field at the time, an additional onChange event will occur
+ * thereafter, setting the value to 'null', as described above.
+ *
+ * No corresponding redux-form onBlur action will be invoked here:  This is deliberate, as
+ * redux-form's propagation of its onBlur event internally updates the form field value in
+ * the Redux store (to a string), which is undesirable in this case.  Instead, if users wish
+ * to act on the onBlur event of the DatePicker, they should define an onDateBlur prop on the
+ * redux-form &lt;Field&gt;, which takes a handler function; this function would be passed an event
+ * object for the DatePicker text field.
+ *
+ *
+ *
+ * ~~~ Ref Methods ~~~
+ *
+ * If a parent component defines a 'ref' for a &lt;Field component={DateInputControl}&gt; element
+ * ( see the 'withRef' description here: https://redux-form.com/7.3.0/docs/api/field.md/ ), then
+ * it can make use of the following methods on this component:
+ *
+ * focus():  programmatically focuses the DatePicker text field (and opens the calendar popup
+ * by default).
+ *
+ * clearInput():  triggers the onChange event on the DatePicker with a value of 'null' (and clears the
+ * text field in the process).  This will also propagate to the redux-form's onChange handler for this
+ * DatePicker field (i.e. simulates a user changing the value), which makes it a preferable choice to
+ * produce a change, as opposed to simply dispatching the redux-form change action.
+ *
+ */
+class DateInputControl extends React.Component {
+  // if datePickerClassModifier was passed in, then use it for styling the DatePicker<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span>
+  getDatePickerClassName = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.prop<span class="cstat-no" title="statement not covered" >s.datePickerClassModifier || '';</span>
+&nbsp;
+  toMomentDate = va<span class="fstat-no" title="function not covered" >l </span>=&gt; {
+    if<span class="cstat-no" title="statement not covered" > (val) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn moment(val, SLMS_DATE_FORMAT, true).isValid() ? val : null;</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn null;</span>
+  };
+  datePickerRef = null;
+&nbsp;
+  assignRef = re<span class="fstat-no" title="function not covered" >f </span>=&gt; (this.dateP<span class="cstat-no" title="statement not covered" >ickerRef = ref);</span>
+  focus = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.date<span class="cstat-no" title="statement not covered" >PickerRef.input.focus();</span>
+  clearInput = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.date<span class="cstat-no" title="statement not covered" >PickerRef.onClearClick();</span>
+&nbsp;
+  handleBlur = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // react-datepicker's onBlur handler doesn't receive a wrapped 'moment' object value as a param (as opposed
+    // to the onChange handler); therefore, we must initialize a 'moment' object ourselves from a string
+    if<span class="cstat-no" title="statement not covered" > (this.props.onDateBlur) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.onDateBlur(ev);</span>
+    }
+    const newValue = <span class="cstat-no" title="statement not covered" >ev.currentTarget.value;</span>
+    if<span class="cstat-no" title="statement not covered" > (newValue) {</span>
+      const newDate = <span class="cstat-no" title="statement not covered" >moment(newValue, SLMS_DATE_FORMAT, true);</span>
+      // if the date is invalid, clear the input field (which in turn, kicks off an onChange event)
+      if<span class="cstat-no" title="statement not covered" > (!newDate.isValid()) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.clearInput();</span>
+      }
+    }
+  };
+&nbsp;
+  handleChange = ne<span class="fstat-no" title="function not covered" >wV</span>alue =&gt; this.props.<span class="cstat-no" title="statement not covered" >input.onChange(moment(newValue));</span>
+&nbsp;
+  render = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { classN</span>ame, input, <span class="cstat-no" title="statement not covered" >label, meta: { submitF</span>ailed },<span class="cstat-no" title="statement not covered" > required } = this</span>.props;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+    const hasError = <span class="cstat-no" title="statement not covered" >!input.value &amp;&amp; submitFailed;</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;FormControl className={className}&gt;
+        {label &amp;&amp; (
+          &lt;FormLabel error={hasError}&gt;
+            {label}
+            {required &amp;&amp; &lt;span className="form-control__label-required"&gt;*&lt;/span&gt;}
+          &lt;/FormLabel&gt;
+        )}
+        {/* NOTE: DatePicker's 'selected' value always expects a 'moment' object, not a string.
+          redux-form can sometimes provide a string value (e.g. when resetting the form's values),
+          so we always ensure an object is initialized here when possible. */}
+        {/* We cherry-pick the props individually here to pass on to DatePicker, so there's
+            no accidental collision of DatePicker and redux-form props. */}
+        &lt;DatePicker
+          className={this.getDatePickerClassName()}
+          fixedHeight={this.props.fixedHeight}
+          onBlur={this.handleBlur}
+          onChange={this.handleChange}
+          readOnly={this.props.readOnly}
+          ref={this.assignRef}
+          selected={this.toMomentDate(input.value)}
+          showYearDropdown={this.props.showYearDropdown}
+        /&gt;
+      &lt;/FormControl&gt;
+    );
+  };
+}<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >DateInputControl.defaultProps = {</span>
+  className: '',
+  datePickerClassModifier: '',
+  fixedHeight: true,
+  label: '',
+  meta: {},
+  readOnly: false,
+  required: false,
+  showYearDropdown: true,
+};
+&nbsp;
+<span class="cstat-no" title="statement not covered" >DateInputControl.propTypes = {</span>
+  className: PropTypes.string.isRequired,
+  datePickerClassModifier: PropTypes.string.isRequired,
+  fixedHeight: PropTypes.bool.isRequired,
+  input: PropTypes.object.isRequired,
+  label: PropTypes.string.isRequired,
+  meta: PropTypes.object.isRequired,
+  onDateBlur: PropTypes.func,
+  readOnly: PropTypes.bool.isRequired,
+  required: PropTypes.bool.isRequired,
+  showYearDropdown: PropTypes.bool.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default DateInputControl;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\..\sorter.js"></script>
+</body>
+</html>

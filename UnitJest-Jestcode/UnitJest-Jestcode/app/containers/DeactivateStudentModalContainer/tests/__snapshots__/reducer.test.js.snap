@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deactivateStudentModalContainerReducer should handle deactivate student request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  deactivateStudent: Immutable.List [
+  ],
+}
+`;
+
+exports[`deactivateStudentModalContainerReducer should handle deactivate student request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  deactivateStudent: Immutable.Map {
+  },
+}
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchModalContainer actions should return the correct constant for getAppsForSearchRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/SearchModalContainer/GET_APPS_FOR_SEARCH_REQUEST_FAILURE",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getAppsForSearchRequestSuccess 1`] = `
+Object {
+  "appsForSearch": Array [],
+  "type": "app/SearchModalContainer/GET_APPS_FOR_SEARCH_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getClassesForSearchRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/SearchModalContainer/GET_CLASSES_FOR_SEARCH_REQUEST_FAILURE",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getClassesForSearchRequestSuccess 1`] = `
+Object {
+  "classesForSearch": Array [],
+  "type": "app/SearchModalContainer/GET_CLASSES_FOR_SEARCH_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getGradesForSearchRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/SearchModalContainer/GET_GRADES_FOR_SEARCH_REQUEST_FAILURE",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getGradesForSearchRequestSuccess 1`] = `
+Object {
+  "gradesForSearch": Array [],
+  "type": "app/SearchModalContainer/GET_GRADES_FOR_SEARCH_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getSearchMetaDataRequest 1`] = `
+Object {
+  "type": "app/SearchModalContainer/GET_SEARCH_META_DATA_REQUEST",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getSearchMetaDataRequestSuccess 1`] = `
+Object {
+  "type": "app/SearchModalContainer/GET_SEARCH_META_DATA_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getSearchMetatDataRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/SearchModalContainer/GET_SEARCH_META_DATA_REQUEST_FAILURE",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getSearchResultsRequest 1`] = `
+Object {
+  "payload": Object {},
+  "type": "app/SearchModalContainer/GET_SEARCH_RESULTS_REQUEST",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getSearchResultsRequestSuccess 1`] = `
+Object {
+  "searchResults": Array [],
+  "type": "app/SearchModalContainer/GET_SEARCH_RESULTS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getTeachersForSearchRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/SearchModalContainer/GET_TEACHERS_FOR_SEARCH_REQUEST_FAILURE",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for getTeachersForSearchRequestSuccess 1`] = `
+Object {
+  "teachersForSearch": Array [],
+  "type": "app/SearchModalContainer/GET_TEACHERS_FOR_SEARCH_REQUEST_SUCCESS",
+}
+`;
+
+exports[`SearchModalContainer actions should return the correct constant for resetSearchMetaData 1`] = `
+Object {
+  "type": "app/SearchModalContainer/RESET_SEARCH_META_DATA_REQUEST",
+}
+`;

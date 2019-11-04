@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NGTopicContainer/> Expect to render correctly 1`] = `
+<div>
+  <SettingsMessage
+    message1=" This student must have a level assigned to them before you can use the Topic Manager."
+  />
+</div>
+`;
+
+exports[`<R180NGTopicContainer/> getCohortId to have called effectCohortObject 1`] = `undefined`;
+
+exports[`<R180NGTopicContainer/> getEnrollmentCount to have called  1`] = `
+Array [
+  Object {
+    "name": Array [
+      "READ 180 NG Stage A",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+  Object {
+    "name": Array [
+      "READ 180 NG Stage B",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+  Object {
+    "name": Array [
+      "READ 180 NG Stage C",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+]
+`;
+
+exports[`<R180NGTopicContainer/> getStudentId to have called smartBarSelections 1`] = `undefined`;
+
+exports[`<R180NGTopicContainer/> getStudentLevel to have called r180ngSettings 1`] = `"mockprogramSetting"`;
+
+exports[`<R180NGTopicContainer/> to verify getSelectedTopicManager 1`] = `
+<SettingsMessage
+  message1=" This student must have a level assigned to them before you can use the Topic Manager."
+/>
+`;
+
+exports[`<R180NGTopicContainer/> to verify getTopicInstalledStages 1`] = `
+Array [
+  Object {
+    "name": Array [
+      "READ 180 NG Stage A",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+  Object {
+    "name": Array [
+      "READ 180 NG Stage B",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+  Object {
+    "name": Array [
+      "READ 180 NG Stage C",
+    ],
+    "stage_id": Array [
+      undefined,
+    ],
+  },
+]
+`;
+
+exports[`<R180NGTopicContainer/> to verify handleSaveClick for saving r180ng topics 1`] = `undefined`;

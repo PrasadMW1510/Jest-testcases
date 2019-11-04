@@ -1,0 +1,879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesModalView /> expect to render itself 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <p
+        className="resources-modal__display-no-response"
+      >
+        No resource match the search criteria. Click close and check your search criteria.
+      </p>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data click event for resourceName 1`] = `[Function]`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data click event for resourceProgram 1`] = `[Function]`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data click event for resourceType 1`] = `[Function]`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data verify handle close button 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <div
+        className="resources-modal__content"
+        key="16641"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=16641"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Conference Records
+            </div>
+            <div>
+              Use this resources
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Classroom Management/Teacher Resources
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            SMI
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+      <div
+        className="resources-modal__content"
+        key="12578"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=12578"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Do the Math
+            </div>
+            <div>
+              Use this passage
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Practice
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Read 180
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <span>
+      Results 1 through
+       
+       of
+       undefined
+    </span>
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data verify sort search updater 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <div
+        className="resources-modal__content"
+        key="16641"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=16641"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Conference Records
+            </div>
+            <div>
+              Use this resources
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Classroom Management/Teacher Resources
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            SMI
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+      <div
+        className="resources-modal__content"
+        key="12578"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=12578"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Do the Math
+            </div>
+            <div>
+              Use this passage
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Practice
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Read 180
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <span>
+      Results 1 through
+       
+       of
+       undefined
+    </span>
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data verify sort search updater different term 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <div
+        className="resources-modal__content"
+        key="16641"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=16641"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Conference Records
+            </div>
+            <div>
+              Use this resources
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Classroom Management/Teacher Resources
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            SMI
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+      <div
+        className="resources-modal__content"
+        key="12578"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=12578"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Do the Math
+            </div>
+            <div>
+              Use this passage
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Practice
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Read 180
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <span>
+      Results 1 through
+       
+       of
+       undefined
+    </span>
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalView /> verify <ResourcesModalView /> with data verify sort search updater when its desc 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <div
+        className="resources-modal__content"
+        key="16641"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=16641"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Conference Records
+            </div>
+            <div>
+              Use this resources
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Classroom Management/Teacher Resources
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            SMI
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+      <div
+        className="resources-modal__content"
+        key="12578"
+      >
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewresource.spr?_page=0&objectId=12578"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-modal--resource-name resources-modal__content--text"
+        >
+          <span>
+            <div
+              className="resources-modal__content-bold"
+            >
+              Do the Math
+            </div>
+            <div>
+              Use this passage
+            </div>
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Practice
+          </span>
+        </div>
+        <div
+          className="resources-modal--resource-type resources-modal__content--text"
+        >
+          <span>
+            Read 180
+          </span>
+        </div>
+        <div
+          className="resources-modal--download resources-modal__content--text"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <span>
+      Results 1 through
+       
+       of
+       undefined
+    </span>
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalView /> verify handle close button 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-modal"
+>
+  <div
+    className="resources-modal__header"
+  >
+    Resources Search Results
+  </div>
+  <div
+    className="resources-modal__title"
+  >
+    Click a link below to open a Resource. You can sort Resources by each of the column headings.
+  </div>
+  <div
+    className="resources-modal__display"
+  >
+    <div
+      className="resources-modal__display--header"
+    >
+      <button
+        className="resources-modal__button-non-click"
+      />
+      <button
+        className="resources-modal__button--active resources-modal--resource-name"
+        onClick={[Function]}
+      >
+        Resource Name
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Resource Type
+      </button>
+      <button
+        className="resources-modal__button"
+        onClick={[Function]}
+      >
+        Program
+      </button>
+      <button
+        className="resources-modal__button-non-click"
+      >
+        Grade/Level
+      </button>
+    </div>
+    <div
+      className="resources-modal__display-body"
+    >
+      <p
+        className="resources-modal__display-no-response"
+      >
+        No resource match the search criteria. Click close and check your search criteria.
+      </p>
+    </div>
+  </div>
+  <div
+    className="resources-modal__footer"
+  >
+    <SAMButton
+      buttonClassModifier="resources-modal__footer-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Close
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

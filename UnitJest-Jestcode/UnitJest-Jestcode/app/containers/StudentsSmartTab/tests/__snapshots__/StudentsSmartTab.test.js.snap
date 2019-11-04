@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentsSmartTab /> For name Should display the logged in user name if no other data is present 1`] = `"Teacher User"`;
+
+exports[`<StudentsSmartTab /> For name Should display the selected class name if present 1`] = `"my class"`;
+
+exports[`<StudentsSmartTab /> For name Should display the selected grade name if present 1`] = `"my grade"`;
+
+exports[`<StudentsSmartTab /> For name Should display the selected group name if present 1`] = `"my group"`;
+
+exports[`<StudentsSmartTab /> For name Should display the selected school name if present 1`] = `"School 1"`;
+
+exports[`<StudentsSmartTab /> For name Should display the selected teacher name if present 1`] = `"Mary Smith"`;
+
+exports[`<StudentsSmartTab /> verify when the selectedId is empty 1`] = `
+<SmartBarTab
+  defaultChecked={true}
+  forName="Teacher User"
+  isTabActive={false}
+  items={
+    Array [
+      Object {
+        "id": "user1",
+        "text": "undefined, first1",
+      },
+      Object {
+        "id": "user2",
+        "text": "undefined, first2",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  selectedItemId="adsfazasd"
+  smartbarSelectedUpdateData={[Function]}
+  title="Students"
+/>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingSetStudentLevelModalContainer /> Expect to match snapshot 1`] = `
+<ProgramSettingSetStudentLevelModal
+  displayLevel={
+    Object {
+      "Level": "topic",
+      "setLevel": [Function],
+    }
+  }
+  isOpen={true}
+  onNo={[Function]}
+  onYes={[Function]}
+/>
+`;

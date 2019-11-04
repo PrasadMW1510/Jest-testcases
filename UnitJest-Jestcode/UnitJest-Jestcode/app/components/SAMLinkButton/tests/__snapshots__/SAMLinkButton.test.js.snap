@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SamlinkButton /> expect primary button to render 1`] = `
+<SAMButton
+  buttonType="button"
+  disabled={false}
+  isPrimaryButton={true}
+  onClickHandler={[Function]}
+>
+  mockButton2
+</SAMButton>
+`;
+
+exports[`<SamlinkButton /> expect the default to render 1`] = `
+<SAMButton
+  buttonType="button"
+  disabled={false}
+  isPrimaryButton={false}
+  onClickHandler={[Function]}
+>
+  mockButton1
+</SAMButton>
+`;

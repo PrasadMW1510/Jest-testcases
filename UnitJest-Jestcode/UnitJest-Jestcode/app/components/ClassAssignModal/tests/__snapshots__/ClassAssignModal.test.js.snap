@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassAssignModal /> Should render as expected 1`] = `
+<SAMModal
+  contentLabel="Assign To Class"
+  isOpen={true}
+  modalClassModifier="class-assign-modal"
+>
+  <div
+    className="class-assign-modal__header"
+  >
+    <h5
+      className="class-assign-modal__header-title"
+    >
+      Assign to a class
+    </h5>
+  </div>
+  <div>
+    <div
+      className="class-assign-modal__chosen-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        You have chosen 
+        <strong>
+          0
+        </strong>
+         
+        student
+        s
+         for assignment.
+      </span>
+    </div>
+    <div
+      className="class-assign-modal__select-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        First select a school. Then assign 
+        student
+        s to classes
+      </span>
+    </div>
+  </div>
+  <select
+    className="class-assign-modal__select"
+    onChange={[Function]}
+  >
+    <option
+      value="- Please Select a School -"
+    >
+      - Please Select a School -
+    </option>
+    <option
+      key="testSchoolId"
+      value="testSchoolId"
+    >
+      testSchoolName
+    </option>
+  </select>
+  <div
+    className="class-assign-modal__button-group"
+  >
+    <SAMButton
+      buttonType="button"
+      id="class-assign-modal__cancel-btn"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonType="submit"
+      id="class-assign-modal__save-btn"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassAssignModal /> When class data passed that has no groups should renderClassCheckboxlist that does not have groups 1`] = `
+<SAMModal
+  contentLabel="Assign To Class"
+  isOpen={true}
+  modalClassModifier="class-assign-modal"
+>
+  <div
+    className="class-assign-modal__header"
+  >
+    <h5
+      className="class-assign-modal__header-title"
+    >
+      Assign to a class
+    </h5>
+  </div>
+  <div>
+    <div
+      className="class-assign-modal__chosen-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        You have chosen 
+        <strong>
+          0
+        </strong>
+         
+        student
+        s
+         for assignment.
+      </span>
+    </div>
+    <div
+      className="class-assign-modal__select-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        First select a school. Then assign 
+        student
+        s to classes
+      </span>
+    </div>
+  </div>
+  <select
+    className="class-assign-modal__select"
+    onChange={[Function]}
+  >
+    <option
+      value="- Please Select a School -"
+    >
+      - Please Select a School -
+    </option>
+    <option
+      key="testSchoolId"
+      value="testSchoolId"
+    >
+      testSchoolName
+    </option>
+  </select>
+  <ClassAssignCheckboxes
+    checkboxClassesAndGroups={Array []}
+    classes={
+      Immutable.Map {
+        class: Immutable.List [
+          Immutable.Map {
+            class_id: Immutable.List [
+              "testClassWithoutGroupsId",
+            ],
+            class_name: Immutable.List [
+              "testClassWithoutGroupsName",
+            ],
+            groups: Immutable.List [
+            ],
+          },
+        ],
+      }
+    }
+    toggleClassCheckbox={[Function]}
+    toggleGroupCheckbox={[Function]}
+  />
+  <div
+    className="class-assign-modal__button-group"
+  >
+    <SAMButton
+      buttonType="button"
+      id="class-assign-modal__cancel-btn"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonType="submit"
+      id="class-assign-modal__save-btn"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassAssignModal /> When no data is pass should render as expected 1`] = `
+<SAMModal
+  contentLabel="Assign To Class"
+  isOpen={true}
+  modalClassModifier="class-assign-modal"
+>
+  <div
+    className="class-assign-modal__header"
+  >
+    <h5
+      className="class-assign-modal__header-title"
+    >
+      Assign to a class
+    </h5>
+  </div>
+  <div>
+    <div
+      className="class-assign-modal__chosen-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        You have chosen 
+        <strong>
+          0
+        </strong>
+         
+        student
+        s
+         for assignment.
+      </span>
+    </div>
+    <div
+      className="class-assign-modal__select-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        First select a school. Then assign 
+        student
+        s to classes
+      </span>
+    </div>
+  </div>
+  <select
+    className="class-assign-modal__select"
+    onChange={[Function]}
+  >
+    <option
+      value="- Please Select a School -"
+    >
+      - Please Select a School -
+    </option>
+  </select>
+  <div
+    className="class-assign-modal__button-group"
+  >
+    <SAMButton
+      buttonType="button"
+      id="class-assign-modal__cancel-btn"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonType="submit"
+      id="class-assign-modal__save-btn"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassAssignModal /> When student(s) checked on SearchResults are passed to AssignToClass should have text 1 student when one checked student was passed 1`] = `
+<SAMModal
+  contentLabel="Assign To Class"
+  isOpen={true}
+  modalClassModifier="class-assign-modal"
+>
+  <div
+    className="class-assign-modal__header"
+  >
+    <h5
+      className="class-assign-modal__header-title"
+    >
+      Assign to a class
+    </h5>
+  </div>
+  <div>
+    <div
+      className="class-assign-modal__chosen-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        You have chosen 
+        <strong>
+          1
+        </strong>
+         
+        student
+         for assignment.
+      </span>
+    </div>
+    <div
+      className="class-assign-modal__select-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        First select a school. Then assign 
+        student
+        s to classes
+      </span>
+    </div>
+  </div>
+  <select
+    className="class-assign-modal__select"
+    onChange={[Function]}
+  >
+    <option
+      value="- Please Select a School -"
+    >
+      - Please Select a School -
+    </option>
+    <option
+      key="testSchoolId"
+      value="testSchoolId"
+    >
+      testSchoolName
+    </option>
+  </select>
+  <div
+    className="class-assign-modal__button-group"
+  >
+    <SAMButton
+      buttonType="button"
+      id="class-assign-modal__cancel-btn"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonType="submit"
+      id="class-assign-modal__save-btn"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassAssignModal /> When student(s) checked on SearchResults are passed to AssignToClass should have text 3 student when three checked students was passed 1`] = `
+<SAMModal
+  contentLabel="Assign To Class"
+  isOpen={true}
+  modalClassModifier="class-assign-modal"
+>
+  <div
+    className="class-assign-modal__header"
+  >
+    <h5
+      className="class-assign-modal__header-title"
+    >
+      Assign to a class
+    </h5>
+  </div>
+  <div>
+    <div
+      className="class-assign-modal__chosen-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        You have chosen 
+        <strong>
+          3
+        </strong>
+         
+        student
+        s
+         for assignment.
+      </span>
+    </div>
+    <div
+      className="class-assign-modal__select-text"
+    >
+      <span
+        className="class-assign-modal__directions"
+      >
+        First select a school. Then assign 
+        student
+        s to classes
+      </span>
+    </div>
+  </div>
+  <select
+    className="class-assign-modal__select"
+    onChange={[Function]}
+  >
+    <option
+      value="- Please Select a School -"
+    >
+      - Please Select a School -
+    </option>
+    <option
+      key="testSchoolId"
+      value="testSchoolId"
+    >
+      testSchoolName
+    </option>
+  </select>
+  <div
+    className="class-assign-modal__button-group"
+  >
+    <SAMButton
+      buttonType="button"
+      id="class-assign-modal__cancel-btn"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonType="submit"
+      id="class-assign-modal__save-btn"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassAssignModal /> should renderClassCheckboxlist 1`] = `
+<ClassAssignCheckboxes
+  checkboxClassesAndGroups={Array []}
+  classes={
+    Immutable.Map {
+      class: Immutable.List [
+        Immutable.Map {
+          class_id: Immutable.List [
+            "testClassA",
+          ],
+          class_name: Immutable.List [
+            "testClassNameA",
+          ],
+          groups: Immutable.List [
+            Immutable.Map {
+              group: Immutable.List [
+                Immutable.Map {
+                  group_id: Immutable.List [
+                    "testGroupAA",
+                  ],
+                  group_name: Immutable.List [
+                    "testGroupNameAA",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        Immutable.Map {
+          class_id: Immutable.List [
+            "testClass",
+          ],
+          class_name: Immutable.List [
+            "testClassName",
+          ],
+          groups: Immutable.List [
+            Immutable.Map {
+              group: Immutable.List [
+                Immutable.Map {
+                  group_id: Immutable.List [
+                    "testGroup",
+                  ],
+                  group_name: Immutable.List [
+                    "testGroupName",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    }
+  }
+  toggleClassCheckbox={[Function]}
+  toggleGroupCheckbox={[Function]}
+/>
+`;
+
+exports[`<ClassAssignModal /> should renderSchoolOptions 1`] = `
+Array [
+  <option
+    value="iii"
+>
+    nnn
+</option>,
+]
+`;

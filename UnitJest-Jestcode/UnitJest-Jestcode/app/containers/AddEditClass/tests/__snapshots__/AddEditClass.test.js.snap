@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEditClass /> render Expect to render correctly for "Add Class" 1`] = `
+<ReduxForm
+  data={Object {}}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeClassFormRequest={[Function]}
+  isOpen={true}
+  saveClassMIARequest={[Function]}
+  title="Add a Class"
+/>
+`;
+
+exports[`<AddEditClass /> render Expect to render correctly for "Edit Class" 1`] = `
+<ReduxForm
+  data={
+    Object {
+      "edit": true,
+    }
+  }
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeClassFormRequest={[Function]}
+  isOpen={true}
+  saveClassMIARequest={[Function]}
+  title="Edit Class Profile"
+/>
+`;

@@ -1,0 +1,888 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsViewR180EE /> expect to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="r180ee-settings__heading"
+  >
+    Use these options to select READ 180 Enterprise Edition Program Settings.
+  </span>
+  <div
+    className="r180ee-settings__content"
+  >
+    <div
+      className="r180ee-settings__section r180ee-settings__section--top"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        Leveling Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="computer_placement"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable automatic placement based on initial Reading Inventory Lexile®"
+            currentCheckboxValue="1"
+            disabled={true}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="auto_level"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Promote student to next level automatically"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="r180ee-settings__select-field"
+        fieldName="student_level"
+        fieldValue="4"
+        id=""
+        label="Set student's next level to: "
+        labelClass="r180ee-settings__student-level-label"
+        labelPosition="left"
+        mixedValue="100"
+        onChange={[Function]}
+      >
+        <option
+          key="0"
+          value={1}
+        >
+          1
+        </option>
+        <option
+          key="1"
+          value={2}
+        >
+          2
+        </option>
+        <option
+          key="2"
+          value={3}
+        >
+          3
+        </option>
+        <option
+          key="3"
+          value={4}
+        >
+          4
+        </option>
+      </SettingsSelectBox>
+    </div>
+    <div
+      className="r180ee-settings__section r180ee-settings__section--bottom"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        English Language Learner Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div
+          className="r180ee-settings__radio"
+          key="None"
+        >
+          <input
+            checked={false}
+            id="None"
+            key="None"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="0"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            None
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Spanish"
+        >
+          <input
+            checked={false}
+            id="Spanish"
+            key="Spanish"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="1"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Spanish
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Haitian Creole"
+        >
+          <input
+            checked={false}
+            id="Haitian Creole"
+            key="Haitian Creole"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="2"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Haitian Creole
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Cantonese"
+        >
+          <input
+            checked={true}
+            id="Cantonese"
+            key="Cantonese"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="3"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Cantonese
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Vietnamese"
+        >
+          <input
+            checked={false}
+            id="Vietnamese"
+            key="Vietnamese"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="4"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Vietnamese
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Hmong"
+        >
+          <input
+            checked={false}
+            id="Hmong"
+            key="Hmong"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="5"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Hmong
+          </span>
+        </div>
+      </div>
+      <div
+        className="r180ee-settings__section-footer"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxId="pronunciation_tip"
+          checkboxName="settingsFourStateCheckbox"
+          checkboxText="Pronunciation Tips (Spanish Only)"
+          currentCheckboxValue="0"
+          disabled={false}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [
+                "1",
+              ],
+              "checkedEnabled": Array [],
+              "mixedDisabled": Array [
+                "-2",
+              ],
+              "mixedEnabled": Array [],
+              "uncheckedDisabled": Array [
+                "0",
+              ],
+              "uncheckedEnabled": Array [],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+    <div
+      className="r180ee-settings__section r180ee-settings__section--bottom"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        Support Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="captioning"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable captioning"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="alt_color_scheme"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Display with alternate color scheme"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="button_rollover"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable button rollover"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass="r180ee-settings__select-field"
+          fieldName="reading_speed"
+          fieldValue="3"
+          id=""
+          label="Set reading speed to: "
+          labelClass="r180ee-settings__reading-speed-label"
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="0"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4"
+            value={5}
+          >
+            5
+          </option>
+        </SettingsSelectBox>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<ProgramSettingsViewR180EE /> student_level is -1, should render -- option in drop down 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="r180ee-settings__heading"
+  >
+    Use these options to select READ 180 Enterprise Edition Program Settings.
+  </span>
+  <div
+    className="r180ee-settings__content"
+  >
+    <div
+      className="r180ee-settings__section r180ee-settings__section--top"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        Leveling Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="computer_placement"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable automatic placement based on initial Reading Inventory Lexile®"
+            currentCheckboxValue="1"
+            disabled={true}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="auto_level"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Promote student to next level automatically"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="r180ee-settings__select-field"
+        fieldName="student_level"
+        fieldValue="4"
+        id=""
+        label="Set student's next level to: "
+        labelClass="r180ee-settings__student-level-label"
+        labelPosition="left"
+        mixedValue="100"
+        onChange={[Function]}
+      >
+        <option
+          value="-1"
+        >
+          --
+        </option>
+        <option
+          key="0"
+          value={1}
+        >
+          1
+        </option>
+        <option
+          key="1"
+          value={2}
+        >
+          2
+        </option>
+        <option
+          key="2"
+          value={3}
+        >
+          3
+        </option>
+        <option
+          key="3"
+          value={4}
+        >
+          4
+        </option>
+      </SettingsSelectBox>
+    </div>
+    <div
+      className="r180ee-settings__section r180ee-settings__section--bottom"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        English Language Learner Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div
+          className="r180ee-settings__radio"
+          key="None"
+        >
+          <input
+            checked={false}
+            id="None"
+            key="None"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="0"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            None
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Spanish"
+        >
+          <input
+            checked={false}
+            id="Spanish"
+            key="Spanish"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="1"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Spanish
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Haitian Creole"
+        >
+          <input
+            checked={false}
+            id="Haitian Creole"
+            key="Haitian Creole"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="2"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Haitian Creole
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Cantonese"
+        >
+          <input
+            checked={true}
+            id="Cantonese"
+            key="Cantonese"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="3"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Cantonese
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Vietnamese"
+        >
+          <input
+            checked={false}
+            id="Vietnamese"
+            key="Vietnamese"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="4"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Vietnamese
+          </span>
+        </div>
+        <div
+          className="r180ee-settings__radio"
+          key="Hmong"
+        >
+          <input
+            checked={false}
+            id="Hmong"
+            key="Hmong"
+            name="second_language_id"
+            onChange={[Function]}
+            type="radio"
+            value="5"
+          />
+          <span
+            className="r180ee-settings__radio-text"
+          >
+            Hmong
+          </span>
+        </div>
+      </div>
+      <div
+        className="r180ee-settings__section-footer"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxId="pronunciation_tip"
+          checkboxName="settingsFourStateCheckbox"
+          checkboxText="Pronunciation Tips (Spanish Only)"
+          currentCheckboxValue="0"
+          disabled={false}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [
+                "1",
+              ],
+              "checkedEnabled": Array [],
+              "mixedDisabled": Array [
+                "-2",
+              ],
+              "mixedEnabled": Array [],
+              "uncheckedDisabled": Array [
+                "0",
+              ],
+              "uncheckedEnabled": Array [],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+    <div
+      className="r180ee-settings__section r180ee-settings__section--bottom"
+    >
+      <div
+        className="r180ee-settings__section-title"
+      >
+        Support Options
+      </div>
+      <div
+        className="r180ee-settings__section-content"
+      >
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="captioning"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable captioning"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="alt_color_scheme"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Display with alternate color scheme"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <div>
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxId="button_rollover"
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable button rollover"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass="r180ee-settings__select-field"
+          fieldName="reading_speed"
+          fieldValue="3"
+          id=""
+          label="Set reading speed to: "
+          labelClass="r180ee-settings__reading-speed-label"
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="0"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4"
+            value={5}
+          >
+            5
+          </option>
+        </SettingsSelectBox>
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesBrowseTab /> verify function sorting post call 1`] = `
+<div
+  className="resources-browse"
+>
+  <div
+    className="resources-browse__header"
+  />
+  <span
+    key="math_skills_database"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <a
+        className="resources-browse__items resources-browse__items--const-item"
+        href="https://www.quantiles.com/tools/math-skills-database/keyword-search/"
+        target="_blank"
+      >
+        Math Skills Database
+      </a>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      The database is designed to support differentiated instruction. It provides help to link assessment data to classroom practices.
+    </li>
+  </span>
+  <span
+    key="8493"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type1
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <span
+    key="4739287"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type2
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <li
+    className="resources-browse__list"
+    key="8403930"
+  >
+    <button
+      className="resources-browse__items resources-browse__items--subtype"
+      onClick={[Function]}
+    >
+      subtype1
+    </button>
+  </li>
+</div>
+`;
+
+exports[`<ResourcesBrowseTab /> verify if it renders 1`] = `
+<div
+  className="resources-browse"
+>
+  <div
+    className="resources-browse__header"
+  />
+  <span
+    key="math_skills_database"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <a
+        className="resources-browse__items resources-browse__items--const-item"
+        href="https://www.quantiles.com/tools/math-skills-database/keyword-search/"
+        target="_blank"
+      >
+        Math Skills Database
+      </a>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      The database is designed to support differentiated instruction. It provides help to link assessment data to classroom practices.
+    </li>
+  </span>
+  <span
+    key="8493"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type1
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <span
+    key="4739287"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type2
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <li
+    className="resources-browse__list"
+    key="8403930"
+  >
+    <button
+      className="resources-browse__items resources-browse__items--subtype"
+      onClick={[Function]}
+    >
+      subtype1
+    </button>
+  </li>
+</div>
+`;
+
+exports[`<ResourcesBrowseTab /> verify the type_id click 1`] = `[Function]`;
+
+exports[`<ResourcesBrowseTab /> verify the type_id click 2`] = `[Function]`;
+
+exports[`<ResourcesBrowseTab /> verify with the modalSearchStatus has a true value 1`] = `
+<div
+  className="resources-browse"
+>
+  <div
+    className="resources-browse__header"
+  />
+  <span
+    key="math_skills_database"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <a
+        className="resources-browse__items resources-browse__items--const-item"
+        href="https://www.quantiles.com/tools/math-skills-database/keyword-search/"
+        target="_blank"
+      >
+        Math Skills Database
+      </a>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      The database is designed to support differentiated instruction. It provides help to link assessment data to classroom practices.
+    </li>
+  </span>
+  <span
+    key="8493"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type1
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <span
+    key="4739287"
+  >
+    <li
+      className="resources-browse__list"
+    >
+      <button
+        className="resources-browse__items"
+        onClick={[Function]}
+      >
+        type2
+      </button>
+    </li>
+    <li
+      className="resources-browse__description"
+    >
+      test name
+    </li>
+  </span>
+  <li
+    className="resources-browse__list"
+    key="8403930"
+  >
+    <button
+      className="resources-browse__items resources-browse__items--subtype"
+      onClick={[Function]}
+    >
+      subtype1
+    </button>
+  </li>
+  <ResourcesModalView
+    item={
+      Immutable.Map {
+      }
+    }
+    modalStatus={true}
+    sortUpdater={[Function]}
+    updateResourcesModalStatus={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for deleteAssignmentRequestError 1`] = `
+Object {
+  "error": Array [
+    Object {
+      "name": "error   1",
+    },
+  ],
+  "type": "app/AssignmentContainer/DELETE_ASSIGNMENT_REQUEST_ERROR",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for deleteAssignmentRequestSuccess 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/AssignmentContainer/DELETE_ASSIGNMENT_REQUEST_SUCCESS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getAssignmentData 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/EditAssignmentContainer/GET_ASSIGNMENT_REQUEST",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getAssignmentDataSuccess 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/EditAssignmentContainer/GET_ASSIGNMENT_SUCCESS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getStudentDetails 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/EditAssignmentContainer/GET_STUDENT_DETAILS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getStudentDetailsSuccess 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/EditAssignmentContainer/GET_STUDENTDETAIL_SUCCESS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for saveAssignmentRequest 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/AssignmentContainer/SAVE_ASSGINMENT_REQUEST",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for saveAssignmentRequestError 1`] = `
+Object {
+  "error": Array [
+    Object {
+      "name": "error   1",
+    },
+  ],
+  "type": "app/AssignmentContainer/SAVE_ASSGINMENT_REQUEST_ERROR",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for saveAssignmentRequestSuccess 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "quizData   1",
+    },
+  ],
+  "type": "app/AssignmentContainer/SAVE_ASSGINMENT_REQUEST_SUCCESS",
+}
+`;

@@ -1,0 +1,31 @@
+// override default navbar so that these tabs become wide enough.
+.xskills-settings-navbar .navbar__item {
+  width: 205px;
+
+  // Active and last item are always in full view
+  &.navbar__item--active,
+  &:last-child {
+    width: 215px;
+  }
+
+  // Create item's vertical border on left-side
+  &::after {
+    width: 221px;
+  }
+
+  &.navbar__item--active + .navbar__item::after {
+    width: 205px;
+  }
+}
+
+.xskills-loading {
+  background-color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 9pt;
+  height: 395px;
+  margin-left: 1%;
+  margin-top: 1%;
+  position: relative;
+  width: 98%;
+}

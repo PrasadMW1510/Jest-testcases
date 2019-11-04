@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContentPanel /> loading is false Expect to render correctly 1`] = `
+<div
+  className="content-panel"
+>
+  <div
+    className="content-panel__loading-bar"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <LoadingBar />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <span>
+      Hello World!
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<ContentPanel /> loading is true Expect to render correctly 1`] = `
+<div
+  className="content-panel"
+>
+  <div
+    className="content-panel__loading-bar"
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <LoadingBar />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <span>
+      Hello World!
+    </span>
+  </div>
+</div>
+`;

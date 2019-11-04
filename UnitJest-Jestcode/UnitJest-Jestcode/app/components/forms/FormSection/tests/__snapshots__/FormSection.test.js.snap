@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormSection /> renders with default sectionClassModifier and sectionStyle Expect to render correctly 1`] = `
+<section
+  className=""
+  style={
+    Object {
+      "display": "block",
+    }
+  }
+>
+  <div
+    className="form-section__callout form-section__callout--orange"
+  >
+    <h4
+      className="form-section__callout-heading"
+    >
+      Form section header
+    </h4>
+    <div
+      className="form-section__callout-body"
+    >
+      This is a form section
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<FormSection /> renders without default sectionClassModifier and sectionStyle Expect to render correctly 1`] = `
+<section
+  className="classModifier"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <div
+    className="form-section__callout form-section__callout--orange"
+  >
+    <h4
+      className="form-section__callout-heading"
+    >
+      Form section header
+    </h4>
+    <div
+      className="form-section__callout-body"
+    >
+      This is a form section
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactivateClassModalContainer actions should return the correct constant for postReactivateClassRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "subType": "app/ReactivateClassModalContainer/POST_REACTIVATE_CLASS_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`ReactivateClassModalContainer actions should return the correct constant for postReactivateClassRequestSuccess 1`] = `
+Object {
+  "type": "app/ReactivateClassModalContainer/POST_REACTIVATE_CLASS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`ReactivateClassModalContainer actions should return the correct constant for postReactivateSchoolRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "app/ReactivateClassModalContainer/POST_REACTIVATE_CLASS_REQUEST_REQUEST",
+}
+`;

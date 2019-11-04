@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesModalStateView /> close the tab with cancel button in clicked 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-state-modal"
+>
+  <div
+    className="resources-state-modal__header"
+  >
+    Standards Results
+  </div>
+  <div
+    className="resources-state-modal__title-text resources-state-modal__title-padding"
+  >
+    Program:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--program"
+    >
+      Do The Math!
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    State:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--state"
+    >
+      MA
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    Grade:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--grade"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-description resources-state-modal__title-padding"
+  >
+    Click on the link below to open a Correlations document.
+  </div>
+  <div
+    className="resources-state-modal__display"
+  >
+    <div
+      className="resources-state-modal__display-header"
+    >
+      <button
+        className="resources-state-modal__display-header-no-data"
+      />
+      <button
+        className="resources-state-modal__display-header-correlation"
+      >
+        Correlations Document
+      </button>
+      <button
+        className="resources-state-modal__display-header-no-data"
+      >
+        Grade
+      </button>
+    </div>
+    <p
+      className="resources-state-modal__display-no-response"
+    >
+      No standards match the search criteria. Click close and check your search criteria.
+    </p>
+  </div>
+  <SAMButton
+    buttonClassModifier="resources-state-modal__footer-button"
+    buttonType="button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Close
+  </SAMButton>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalStateView /> expect to render itself 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-state-modal"
+>
+  <div
+    className="resources-state-modal__header"
+  >
+    Standards Results
+  </div>
+  <div
+    className="resources-state-modal__title-text resources-state-modal__title-padding"
+  >
+    Program:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--program"
+    >
+      Do The Math!
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    State:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--state"
+    >
+      MA
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    Grade:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--grade"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-description resources-state-modal__title-padding"
+  >
+    Click on the link below to open a Correlations document.
+  </div>
+  <div
+    className="resources-state-modal__display"
+  >
+    <div
+      className="resources-state-modal__display-header"
+    >
+      <button
+        className="resources-state-modal__display-header-no-data"
+      />
+      <button
+        className="resources-state-modal__display-header-correlation"
+      >
+        Correlations Document
+      </button>
+      <button
+        className="resources-state-modal__display-header-no-data"
+      >
+        Grade
+      </button>
+    </div>
+    <p
+      className="resources-state-modal__display-no-response"
+    >
+      No standards match the search criteria. Click close and check your search criteria.
+    </p>
+  </div>
+  <SAMButton
+    buttonClassModifier="resources-state-modal__footer-button"
+    buttonType="button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Close
+  </SAMButton>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalStateView /> verify when the standards list is sending a data 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-state-modal"
+>
+  <div
+    className="resources-state-modal__header"
+  >
+    Standards Results
+  </div>
+  <div
+    className="resources-state-modal__title-text resources-state-modal__title-padding"
+  >
+    Program:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--program"
+    >
+      Do The Math!
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    State:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--state"
+    >
+      MA
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    Grade:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--grade"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-description resources-state-modal__title-padding"
+  >
+    Click on the link below to open a Correlations document.
+  </div>
+  <div
+    className="resources-state-modal__display"
+  >
+    <div
+      className="resources-state-modal__display-header"
+    >
+      <button
+        className="resources-state-modal__display-header-no-data"
+      />
+      <button
+        className="resources-state-modal__display-header-correlation"
+      >
+        Correlations Document
+      </button>
+      <button
+        className="resources-state-modal__display-header-no-data"
+      >
+        Grade
+      </button>
+    </div>
+    <div
+      key="9483903"
+    >
+      <div
+        className="resources-state-modal__display-bottom"
+      >
+        <div
+          className="resources-state-modal__display-header-no-data"
+        >
+          <a
+            href="https://samresources.education.scholastic.com/ResourceManager/previewstandard.spr?_page=0&objectId=9483903"
+            target="_blank"
+          >
+            Download
+          </a>
+        </div>
+        <div
+          className="resources-state-modal__display-correlation resources-state-modal__body-contant-padding"
+        >
+          standard name
+        </div>
+        <div
+          className="resources-state-modal__display-header-no-data resources-state-modal__body-contant-padding"
+        >
+          <span>
+            Grades
+             
+            1, 
+            2
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <SAMButton
+    buttonClassModifier="resources-state-modal__footer-button"
+    buttonType="button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Close
+  </SAMButton>
+</SAMModal>
+`;
+
+exports[`<ResourcesModalStateView /> verify with item has no value 1`] = `
+<SAMModal
+  contentLabel="Resources Results"
+  isOpen={true}
+  modalClassModifier="resources-state-modal"
+>
+  <div
+    className="resources-state-modal__header"
+  >
+    Standards Results
+  </div>
+  <div
+    className="resources-state-modal__title-text resources-state-modal__title-padding"
+  >
+    Program:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--program"
+    >
+      Do The Math!
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    State:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--state"
+    >
+      MA
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-text"
+  >
+    Grade:
+    <span
+      className="resources-state-modal__title-value resources-state-modal__title-value--grade"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="resources-state-modal__title-description resources-state-modal__title-padding"
+  >
+    Click on the link below to open a Correlations document.
+  </div>
+  <div
+    className="resources-state-modal__display"
+  >
+    <div
+      className="resources-state-modal__display-header"
+    >
+      <button
+        className="resources-state-modal__display-header-no-data"
+      />
+      <button
+        className="resources-state-modal__display-header-correlation"
+      >
+        Correlations Document
+      </button>
+      <button
+        className="resources-state-modal__display-header-no-data"
+      >
+        Grade
+      </button>
+    </div>
+    <p
+      className="resources-state-modal__display-no-response"
+    >
+      No standards match the search criteria. Click close and check your search criteria.
+    </p>
+  </div>
+  <SAMButton
+    buttonClassModifier="resources-state-modal__footer-button"
+    buttonType="button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Close
+  </SAMButton>
+</SAMModal>
+`;

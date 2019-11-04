@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountDeleteModal /> should render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="account-delete-modal"
+>
+  <div
+    className="account-delete-modal__message"
+  >
+    Are you sure you want to unenroll the
+     
+    <span
+      className="account-delete-modal--bold"
+    >
+       undefined 
+    </span>
+    selected accounts from all programs?
+  </div>
+  <div
+    className="account-delete-modal__button-group-container"
+  >
+    <div
+      className="account-delete-modal__button-group"
+    >
+      <SAMButton
+        buttonClassModifier="account-delete-modal__button"
+        buttonType="button"
+        id="account-delete-modal__yes-btn"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Yes
+      </SAMButton>
+      <SAMButton
+        buttonClassModifier="account-delete-modal__button"
+        buttonType="submit"
+        id="account-delete-modal__no-btn"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        No
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

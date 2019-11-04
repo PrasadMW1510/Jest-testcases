@@ -1,0 +1,1444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimulationProgram /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  >
+    <span>
+      <ul
+        className="inbox-program-title-list"
+      >
+         
+        <li
+          className="list-none"
+        >
+          Math180
+        </li>
+        <li>
+          Simulation
+        </li>
+        <li />
+         
+        <li>
+          abc
+        </li>
+         
+        <li>
+          <button
+            className="simulation-program-title-button"
+            onClick={[Function]}
+          >
+            About this Simulation
+          </button>
+        </li>
+      </ul>
+    </span>
+  </div>
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={true}
+      onSelect={[Function]}
+      selectedIndex={1}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      >
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          key="1"
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Attempt 
+          1
+        </Tab>
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          key="1"
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Attempt 
+          2
+        </Tab>
+      </TabList>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        key="1"
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <div
+          className="inbox-program-student-choices"
+        >
+          <div
+            className="inbox-program-tabinr-titl"
+          >
+            Student Choices :
+          </div>
+          <div
+            className="inbox-program-tabinar-data"
+          >
+            <div
+              className="inbox-program-tabinr-row"
+            >
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc2
+                </span>
+              </div>
+              <div
+                className="inbox-program-tabinr-col pull-right"
+                key="asdf1"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf1
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                  abc22
+                </span>
+              </div>
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf13"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf13
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc222
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Tabs
+          className="inbox-program-tabinr"
+          defaultFocus={false}
+          defaultIndex={null}
+          forceRenderTabPanel={true}
+          onSelect={[Function]}
+          selectedIndex={2}
+        >
+          <TabList
+            className="react-tabs__tab-list"
+          >
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 1
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 2
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 3
+            </Tab>
+          </TabList>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="1"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 2,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={2}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="2"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty1",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 1,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={1}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="3"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty2",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 0,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={0}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+        </Tabs>
+      </TabPanel>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        key="1"
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <div
+          className="inbox-program-student-choices"
+        >
+          <div
+            className="inbox-program-tabinr-titl"
+          >
+            Student Choices :
+          </div>
+          <div
+            className="inbox-program-tabinar-data"
+          >
+            <div
+              className="inbox-program-tabinr-row"
+            >
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc2
+                </span>
+              </div>
+              <div
+                className="inbox-program-tabinr-col pull-right"
+                key="asdf1"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf1
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                  abc22
+                </span>
+              </div>
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf13"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf13
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc222
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Tabs
+          className="inbox-program-tabinr"
+          defaultFocus={false}
+          defaultIndex={null}
+          forceRenderTabPanel={true}
+          onSelect={[Function]}
+          selectedIndex={2}
+        >
+          <TabList
+            className="react-tabs__tab-list"
+          >
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 1
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 2
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 3
+            </Tab>
+          </TabList>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={1}
+              question="1"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 2,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={2}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={1}
+              question="2"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty1",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 1,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={1}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={1}
+              question="3"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty2",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 0,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={0}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+        </Tabs>
+      </TabPanel>
+    </Tabs>
+    <div
+      className="simulation-program-info simulation-program-modalmain"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-info-title"
+      >
+        abc
+         
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-smul-inr"
+      >
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Description
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Choices
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="simulation-program-overall-score"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-overall-score-head"
+      >
+        Overall Score
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-overall-score-info"
+      >
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            0
+            <br />
+             Not Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student did not answer the question.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            1
+            <br />
+             Partially Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student states whether he or she met the goal, but does not explain why.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            2
+            <br />
+             Complete
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student explains why he or she met(or did not meet) the goal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimulationProgram /> Expect to render correctly 2`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  >
+    <span>
+      <ul
+        className="inbox-program-title-list"
+      >
+         
+        <li
+          className="list-none"
+        >
+          Math180
+        </li>
+        <li>
+          Simulation
+        </li>
+        <li />
+         
+        <li>
+          abc
+        </li>
+         
+        <li>
+          <button
+            className="simulation-program-title-button"
+            onClick={[Function]}
+          >
+            About this Simulation
+          </button>
+        </li>
+      </ul>
+    </span>
+  </div>
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={true}
+      onSelect={[Function]}
+      selectedIndex={1}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      >
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          key="1"
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Attempt 
+          1
+        </Tab>
+      </TabList>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        key="1"
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <div
+          className="inbox-program-student-choices"
+        >
+          <div
+            className="inbox-program-tabinr-titl"
+          >
+            Student Choices :
+          </div>
+          <div
+            className="inbox-program-tabinar-data"
+          >
+            <div
+              className="inbox-program-tabinr-row"
+            >
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc2
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Tabs
+          className="inbox-program-tabinr"
+          defaultFocus={false}
+          defaultIndex={null}
+          forceRenderTabPanel={true}
+          onSelect={[Function]}
+          selectedIndex={2}
+        >
+          <TabList
+            className="react-tabs__tab-list"
+          >
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 1
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 2
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 3
+            </Tab>
+          </TabList>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="1"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 2,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={2}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="2"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty1",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 1,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={1}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="3"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty2",
+                  ],
+                  "evaluation": Array [
+                    Object {
+                      "$": Object {
+                        "rubricType": "zx",
+                        "submissionType": "asd",
+                      },
+                      "rubricScores": Array [
+                        Object {
+                          "score": Array [
+                            Object {
+                              "teacherScore": 0,
+                            },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                }
+              }
+              rubicScore={0}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+        </Tabs>
+      </TabPanel>
+    </Tabs>
+    <div
+      className="simulation-program-info simulation-program-modalmain"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-info-title"
+      >
+        abc
+         
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-smul-inr"
+      >
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Description
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Choices
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="simulation-program-overall-score"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-overall-score-head"
+      >
+        Overall Score
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-overall-score-info"
+      >
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            0
+            <br />
+             Not Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student did not answer the question.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            1
+            <br />
+             Partially Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student states whether he or she met the goal, but does not explain why.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            2
+            <br />
+             Complete
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student explains why he or she met(or did not meet) the goal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimulationProgram /> Expect to render correctly with Question null 1`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  >
+    <span>
+      <ul
+        className="inbox-program-title-list"
+      >
+         
+        <li
+          className="list-none"
+        >
+          Math180
+        </li>
+        <li>
+          Simulation
+        </li>
+        <li />
+         
+        <li>
+          abc
+        </li>
+         
+        <li>
+          <button
+            className="simulation-program-title-button"
+            onClick={[Function]}
+          >
+            About this Simulation
+          </button>
+        </li>
+      </ul>
+    </span>
+  </div>
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={true}
+      onSelect={[Function]}
+      selectedIndex={1}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      >
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          key="1"
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Attempt 
+          1
+        </Tab>
+      </TabList>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        key="1"
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <div
+          className="inbox-program-student-choices"
+        >
+          <div
+            className="inbox-program-tabinr-titl"
+          >
+            Student Choices :
+          </div>
+          <div
+            className="inbox-program-tabinar-data"
+          >
+            <div
+              className="inbox-program-tabinr-row"
+            >
+              <div
+                className="inbox-program-tabinr-col"
+                key="asdf"
+              >
+                <span
+                  className="col-sm-2"
+                >
+                  <b>
+                    asdf
+                  </b>
+                </span>
+                <span
+                  className="col-sm-2"
+                >
+                   
+                  abc2
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Tabs
+          className="inbox-program-tabinr"
+          defaultFocus={false}
+          defaultIndex={null}
+          forceRenderTabPanel={true}
+          onSelect={[Function]}
+          selectedIndex={2}
+        >
+          <TabList
+            className="react-tabs__tab-list"
+          >
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 1
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 2
+            </Tab>
+            <Tab
+              className="react-tabs__tab"
+              disabledClassName="react-tabs__tab--disabled"
+              focus={false}
+              id={null}
+              panelId={null}
+              selected={false}
+              selectedClassName="react-tabs__tab--selected"
+            >
+              Question 3
+            </Tab>
+          </TabList>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="1"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty",
+                  ],
+                  "evaluation": undefined,
+                }
+              }
+              rubicScore={null}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="2"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty1",
+                  ],
+                  "evaluation": undefined,
+                }
+              }
+              rubicScore={null}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+          >
+            <Math180Questions
+              buttonChange={[Function]}
+              handleChange={[Function]}
+              handleScoreCommentUpdate={[Function]}
+              index={0}
+              question="3"
+              questionData={
+                Object {
+                  "answer": Array [
+                    "qwerty2",
+                  ],
+                  "evaluation": undefined,
+                }
+              }
+              rubicScore={null}
+              scoreToggle={[Function]}
+              submitDate="Invalid date"
+            />
+          </TabPanel>
+        </Tabs>
+      </TabPanel>
+    </Tabs>
+    <div
+      className="simulation-program-info simulation-program-modalmain"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-info-title"
+      >
+        abc
+         
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-smul-inr"
+      >
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Description
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+        <div
+          className="simulation-program-popmodal"
+        >
+          <h4
+            className="simulation-program-smul-header"
+          >
+            Simulation Choices
+          </h4>
+          <p
+            className="simulation-program-smul-desc"
+          >
+             
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="simulation-program-overall-score"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <h3
+        className="simulation-program-overall-score-head"
+      >
+        Overall Score
+      </h3>
+      <button
+        className="inbox-program-close-pop"
+        onClick={[Function]}
+      >
+        x
+      </button>
+      <div
+        className="simulation-program-overall-score-info"
+      >
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            0
+            <br />
+             Not Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student did not answer the question.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            1
+            <br />
+             Partially Attempted
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student states whether he or she met the goal, but does not explain why.
+          </p>
+        </div>
+        <div
+          className="simulation-program-col-sm-4"
+        >
+          <h4
+            className="simulation-program-col-body"
+          >
+            2
+            <br />
+             Complete
+          </h4>
+          <p
+            className="simulation-program-col-p"
+          >
+            The Student explains why he or she met(or did not meet) the goal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

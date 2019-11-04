@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultsTable should populate the BooksTable with the right columns cell method Date 1`] = `"Invalid date"`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns cell method Graded 1`] = `
+<img
+  alt=""
+  height="20px"
+  src="IMAGE_MOCK"
+  width="20px"
+/>
+`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns cell method Program 1`] = `
+<img
+  alt=""
+  height="20px"
+  src=""
+  width="50px"
+/>
+`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns cell method Program 2`] = `
+<a
+  onClick={[Function]}
+  role="link"
+  tabIndex="-1"
+  value=""
+>
+   
+  
+   
+</a>
+`;
+
+exports[`ResultsTable should render correctly  1`] = `
+<ResultsTable
+  handleClick={[Function]}
+  handleDetailProgram={[Function]}
+  searchResultsIdsChecked={Array []}
+>
+  <div
+    className="studentWorksTable"
+  >
+    <SAMTable
+      checkedIds={Array []}
+      columns={
+        Array [
+          Object {
+            "Header": "Date",
+            "accessor": [Function],
+            "id": "date",
+            "width": 100,
+          },
+          Object {
+            "Header": "Student",
+            "accessor": "student",
+            "id": "student",
+            "sortable": true,
+            "width": 120,
+          },
+          Object {
+            "Header": "Assignment",
+            "accessor": "assignment",
+            "id": "assignment",
+            "sortable": true,
+            "width": 120,
+          },
+          Object {
+            "Header": "From",
+            "accessor": "from",
+            "sortable": true,
+            "width": 100,
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "Program",
+            "accessor": [Function],
+            "id": "community_id",
+            "width": 120,
+          },
+          Object {
+            "Header": "Graded",
+            "accessor": [Function],
+            "id": "graded",
+            "sortable": true,
+            "width": 100,
+          },
+        ]
+      }
+      data={Array []}
+      getTrProps={[Function]}
+      handleClick={[Function]}
+      pageSize={0}
+      selectAll={false}
+      sortable={true}
+    >
+      <div>
+        <ReactTable
+          AggregatedComponent={[Function]}
+          ExpanderComponent={[Function]}
+          FilterComponent={[Function]}
+          LoadingComponent={[Function]}
+          NoDataComponent={[Function]}
+          PadRowComponent={[Function]}
+          PaginationComponent={[Function]}
+          PivotValueComponent={[Function]}
+          ResizerComponent={[Function]}
+          TableComponent={[Function]}
+          TbodyComponent={[Function]}
+          TdComponent={[Function]}
+          TfootComponent={[Function]}
+          ThComponent={[Function]}
+          TheadComponent={[Function]}
+          TrComponent={[Function]}
+          TrGroupComponent={[Function]}
+          aggregatedKey="_aggregated"
+          checkedIds={Array []}
+          className=""
+          collapseOnDataChange={true}
+          collapseOnPageChange={true}
+          collapseOnSortingChange={true}
+          column={
+            Object {
+              "Aggregated": undefined,
+              "Cell": undefined,
+              "Expander": undefined,
+              "Filter": undefined,
+              "Footer": undefined,
+              "Header": undefined,
+              "Pivot": undefined,
+              "PivotValue": undefined,
+              "aggregate": undefined,
+              "className": "",
+              "filterAll": false,
+              "filterMethod": undefined,
+              "filterable": undefined,
+              "footerClassName": "",
+              "footerStyle": Object {},
+              "getFooterProps": [Function],
+              "getHeaderProps": [Function],
+              "getProps": [Function],
+              "headerClassName": "",
+              "headerStyle": Object {},
+              "minWidth": 100,
+              "resizable": undefined,
+              "show": true,
+              "sortMethod": undefined,
+              "sortable": undefined,
+              "style": Object {},
+            }
+          }
+          columns={
+            Array [
+              Object {
+                "Header": "Date",
+                "accessor": [Function],
+                "id": "date",
+                "width": 100,
+              },
+              Object {
+                "Header": "Student",
+                "accessor": "student",
+                "id": "student",
+                "sortable": true,
+                "width": 120,
+              },
+              Object {
+                "Header": "Assignment",
+                "accessor": "assignment",
+                "id": "assignment",
+                "sortable": true,
+                "width": 120,
+              },
+              Object {
+                "Header": "From",
+                "accessor": "from",
+                "sortable": true,
+                "width": 100,
+              },
+              Object {
+                "Cell": [Function],
+                "Header": "Program",
+                "accessor": [Function],
+                "id": "community_id",
+                "width": 120,
+              },
+              Object {
+                "Header": "Graded",
+                "accessor": [Function],
+                "id": "graded",
+                "sortable": true,
+                "width": 100,
+              },
+            ]
+          }
+          data={Array []}
+          defaultExpanded={Object {}}
+          defaultFilterMethod={[Function]}
+          defaultFiltered={Array []}
+          defaultPageSize={20}
+          defaultResized={Array []}
+          defaultSortDesc={false}
+          defaultSortMethod={[Function]}
+          defaultSorted={Array []}
+          expanderDefaults={
+            Object {
+              "filterable": false,
+              "resizable": false,
+              "sortable": false,
+              "width": 35,
+            }
+          }
+          filterable={false}
+          freezeWhenExpanded={false}
+          getLoadingProps={[Function]}
+          getNoDataProps={[Function]}
+          getPaginationProps={[Function]}
+          getProps={[Function]}
+          getResizerProps={[Function]}
+          getTableProps={[Function]}
+          getTbodyProps={[Function]}
+          getTdProps={[Function]}
+          getTfootProps={[Function]}
+          getTfootTdProps={[Function]}
+          getTfootTrProps={[Function]}
+          getTheadFilterProps={[Function]}
+          getTheadFilterThProps={[Function]}
+          getTheadFilterTrProps={[Function]}
+          getTheadGroupProps={[Function]}
+          getTheadGroupThProps={[Function]}
+          getTheadGroupTrProps={[Function]}
+          getTheadProps={[Function]}
+          getTheadThProps={[Function]}
+          getTheadTrProps={[Function]}
+          getTrGroupProps={[Function]}
+          getTrProps={[Function]}
+          groupedByPivotKey="_groupedByPivot"
+          handleClick={[Function]}
+          indexKey="_index"
+          loading={false}
+          loadingText="Loading..."
+          multiSort={true}
+          nestingLevelKey="_nestingLevel"
+          nextText="Next"
+          noDataText="No rows found"
+          ofText="of"
+          onFetchData={[Function]}
+          originalKey="_original"
+          pageSize={0}
+          pageSizeOptions={
+            Array [
+              5,
+              10,
+              20,
+              25,
+              50,
+              100,
+            ]
+          }
+          pageText="Page"
+          pivotDefaults={Object {}}
+          pivotIDKey="_pivotID"
+          pivotValKey="_pivotVal"
+          previousText="Previous"
+          resizable={false}
+          rowsText="rows"
+          selectAll={false}
+          showPageJump={true}
+          showPageSizeOptions={true}
+          showPagination={false}
+          showPaginationBottom={true}
+          showPaginationTop={false}
+          sortable={true}
+          style={Object {}}
+          subRowsKey="_subRows"
+        >
+          <div
+            className="ReactTable"
+            style={Object {}}
+          >
+            <Table
+              className=""
+            >
+              <div
+                className="rt-table"
+              >
+                <Thead
+                  className="-header"
+                  style={
+                    Object {
+                      "minWidth": "660px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-thead -header"
+                    style={
+                      Object {
+                        "minWidth": "660px",
+                      }
+                    }
+                  >
+                    <Tr>
+                      <div
+                        className="rt-tr"
+                      >
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="0-date"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              Date
+                            </div>
+                          </div>
+                        </ThComponent>
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="1-student"
+                          style={
+                            Object {
+                              "flex": "120 0 auto",
+                              "maxWidth": "120px",
+                              "width": "120px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "120 0 auto",
+                                "maxWidth": "120px",
+                                "width": "120px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              Student
+                            </div>
+                          </div>
+                        </ThComponent>
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="2-assignment"
+                          style={
+                            Object {
+                              "flex": "120 0 auto",
+                              "maxWidth": "120px",
+                              "width": "120px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "120 0 auto",
+                                "maxWidth": "120px",
+                                "width": "120px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              Assignment
+                            </div>
+                          </div>
+                        </ThComponent>
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="3-from"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              From
+                            </div>
+                          </div>
+                        </ThComponent>
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="4-community_id"
+                          style={
+                            Object {
+                              "flex": "120 0 auto",
+                              "maxWidth": "120px",
+                              "width": "120px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "120 0 auto",
+                                "maxWidth": "120px",
+                                "width": "120px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              Program
+                            </div>
+                          </div>
+                        </ThComponent>
+                        <ThComponent
+                          className=" -cursor-pointer"
+                          key="5-graded"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                          toggleSort={[Function]}
+                        >
+                          <div
+                            className="rt-th  -cursor-pointer"
+                            onClick={[Function]}
+                            role="heading"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className=""
+                            >
+                              Graded
+                            </div>
+                          </div>
+                        </ThComponent>
+                      </div>
+                    </Tr>
+                  </div>
+                </Thead>
+                <Tbody
+                  className=""
+                  style={
+                    Object {
+                      "minWidth": "660px",
+                    }
+                  }
+                >
+                  <div
+                    className="rt-tbody"
+                    style={
+                      Object {
+                        "minWidth": "660px",
+                      }
+                    }
+                  />
+                </Tbody>
+              </div>
+            </Table>
+            <NoData>
+              <div
+                className="rt-noData"
+              >
+                No rows found
+              </div>
+            </NoData>
+            <LoadingComponent
+              loading={false}
+              loadingText="Loading..."
+            >
+              <div
+                className="-loading"
+              >
+                <div
+                  className="-loading-inner"
+                >
+                  Loading...
+                </div>
+              </div>
+            </LoadingComponent>
+          </div>
+        </ReactTable>
+      </div>
+    </SAMTable>
+  </div>
+</ResultsTable>
+`;

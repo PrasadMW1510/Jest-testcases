@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportEntry /> Expect to render the report as expected 1`] = `
+<div
+  className="report-list-product-entry"
+  key="TestID"
+>
+  <div
+    className="report-list-col1"
+  >
+    <input
+      className="report-list-product-entry-input"
+      id="ReportFAD_05_0"
+      name="type_id"
+      onClick={[Function]}
+      type="radio"
+      value="TestID"
+    />
+    Test Name
+  </div>
+  <div
+    className="report-list-col2"
+  />
+  <div
+    className="report-list-col3"
+  >
+    2018/02/05
+  </div>
+  <div
+    className="report-list-clear-float"
+  />
+</div>
+`;

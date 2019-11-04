@@ -1,0 +1,1244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddGroupView /> verify empty array is returned for listOfStudent 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+      >
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={
+        Array [
+          "323",
+        ]
+      }
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify if renders itself 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={false}
+      submitErrors={null}
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify the component will get edit data 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={
+        Array [
+          "323",
+        ]
+      }
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify the component will props with no data for users 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify update group on change 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+      >
+        <option
+          key="94849830"
+          value="94849830"
+        >
+          test1
+        </option>
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={
+        Array [
+          "8493839",
+          "9303030",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify update group on change when there is not owner id 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+      >
+        <option
+          key="94849830"
+          value="94849830"
+        >
+          test1
+        </option>
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={
+        Array [
+          "8493839",
+          "9303030",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify update group on change when user exist 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+      >
+        <option
+          key="94849830"
+          value="94849830"
+        >
+          test1
+        </option>
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={
+        Array [
+          "8493839",
+          "9303030",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify when no name 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+      >
+        <option
+          key="94849830"
+          value="94849830"
+        >
+          test1
+        </option>
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={
+        Array [
+          "8493839",
+          "9303030",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify when the info is from class data 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <span
+        className="select-student__for-class"
+      >
+        sam port
+      </span>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={
+        Array [
+          "323",
+        ]
+      }
+      students={
+        Array [
+          "8494",
+          "34343",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify when the info is from class data 2`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <span
+        className="select-student__for-class"
+      >
+        sam port
+      </span>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={
+        Array [
+          "323",
+        ]
+      }
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify with class with student size is empty 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="add-group__header--error"
+  >
+    Please correct your entries as indicated.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box select-student__input-box--error"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+      <select
+        className="select-student__input-box"
+        onChange={[Function]}
+        value="94849830"
+      >
+        <option
+          key="94849830"
+          value="94849830"
+        >
+          test1
+        </option>
+        <option
+          key="94849831"
+          value="94849831"
+        >
+          test2
+        </option>
+      </select>
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={Array []}
+      students={
+        Array [
+          "8493839",
+          "9303030",
+        ]
+      }
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={true}
+      submitErrors={
+        Object {
+          "name": "test",
+        }
+      }
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;
+
+exports[`<AddGroupView /> verify with no error message 1`] = `
+<SAMModal
+  contentLabel="Add Group"
+  isOpen={true}
+  modalClassModifier="add-group"
+>
+  <div
+    className="add-group__header"
+  >
+    Add a Group
+  </div>
+  <div
+    className="add-group__header--text"
+  >
+    Enter a new group name or use the check boxes to add or remove students from this group. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+  </div>
+  <div
+    className="select-student"
+  >
+    <div
+      className="select-student__header"
+    >
+      1. Name the Group
+    </div>
+    <div
+      className="select-student__text"
+    >
+      Group Name *
+      <input
+        className="select-student__input-box"
+        onChange={[Function]}
+        type="text"
+        value="name"
+      />
+    </div>
+    <div
+      className="select-student__text select-student__text--of-class"
+    >
+      Of Class
+    </div>
+    <div
+      className="select-student__header"
+    >
+      2. Select Students
+    </div>
+    <AddGroupTable
+      handleRowCheckboxOnChange={[Function]}
+      selectAll={false}
+      studentIdChecked={
+        Array [
+          "323",
+        ]
+      }
+      students={Array []}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <aside
+    className="add-group__buttons"
+  >
+    <FormErrors
+      shouldShowErrors={false}
+      submitErrors={null}
+      validationErrors={null}
+    />
+    <div
+      className="add-group__gap"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </aside>
+</SAMModal>
+`;

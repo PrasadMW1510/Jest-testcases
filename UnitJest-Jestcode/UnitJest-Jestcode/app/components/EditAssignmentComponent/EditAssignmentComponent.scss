@@ -1,0 +1,626 @@
+.edit-assignment-component__description--box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  float: left;
+  margin-right: 0.5%;
+  line-height: 40px;
+  height: 104px;
+}
+
+.edit-assignment-component__description--title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.edit-assignment-component__assignment--mesg {
+  font-size: 13px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.edit-assignment-component__modal--edit-modal {
+  width: 980px;
+  height: 630px;
+  padding: 0;
+  margin-top: 1.5%;
+  border: 0;
+  border-radius: 15px;
+}
+
+.edit-assignment-component__list--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 79vh;
+  position: relative;
+}
+
+.edit-assignment-component__list--purple {
+  background-color: #9a6fb6;
+  margin-top: 2%;
+  height: 38px;
+  line-height: 37px;
+  padding-left: 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.edit-assignment-component__modal--heading {
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.edit-assignment-component__button--close {
+  position: absolute;
+  right: 3px;
+  background: #c895e8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 9px;
+  cursor: pointer;
+  top: 1px;
+  outline: 0 !important;
+}
+
+.edit-assignment-component__modal-title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+}
+
+.edit-assignment-component__modal-title--span {
+  font-style: normal;
+}
+
+.edit-assignment-component__assignment--textbox1 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin: 3px;
+}
+
+.edit-assignment-component__modal-assignment--textbox2 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.edit-assignment-component__modal-assignment--textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.edit-assignment-component__modal-button--equals {
+  color: #fff;
+  background: linear-gradient(to bottom, #3fa8ee 40% , #0049a2 100%);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin: 3px 4px 0 5px;
+  font-size: 13px;
+  width: 33px;
+  outline: 0 !important;
+}
+
+.edit-assignment-component__modal-button--equals:disabled {
+  color: #fff;
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin: 3px 4px 0 5px;
+  font-size: 13px;
+  width: 33px;
+  outline: 0 !important;
+}
+
+.edit-assignment-component__modal-buttons--secondset .btn--primary:hover {
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+}
+
+.edit-assignment-component__modal-buttons--secondset .btn--secondary:disabled {
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+}
+
+.edit-assignment-component__modal--button:hover {
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+}
+
+.edit-assignment-component__description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  line-height: 40px;
+}
+
+.edit-assignment-component__description--textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.edit-assignment-component__assignment-roster--textarea {
+  height: 308px;
+  overflow-y: scroll;
+  border: 1px solid #f1ecec;
+  border-radius: 0 25px;
+  margin-bottom: 10px;
+}
+
+.edit-assignment-component__modal--duedate {
+  width: 43%;
+  float: left;
+  margin-left: 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+}
+
+.edit-assignment-component__modal-duedate-title {
+  padding-top: 10px;
+}
+
+.edit-assignment-component__modal-due-date--content {
+  padding: 2%;
+  color: #000;
+  margin-left: 2%;
+  font-size: 14px;
+  display: flex;
+  min-height: 62px;
+}
+
+.edit-assignment-component__modal-due-date-span--content {
+  color: #000;
+}
+
+.clear {
+  clear: both;
+}
+
+.edit-assignment-component__roster-div--headers {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.edit-assignment-component__modal-buttons--firstset {
+  width: 30%;
+  float: left;
+}
+
+.edit-assignment-component__modal-buttons--firstset .btn,
+.edit-assignment-component__modal-buttons--secondset .btn {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  font-size: 13px;
+  width: 70px;
+  margin: 3px 12px 0 0;
+  color: #000;
+  height: 25px;
+}
+
+.edit-assignment-component__modal-buttons--secondset .btn--secondary {
+  background: linear-gradient(to bottom, #3fa8ee 40% , #0049a2 100%);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #6f6f6f;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.edit-assignment-component__modal-buttons--secondset .btn--secondary:disabled {
+  background: #e7e8e7;
+}
+
+.edit-assignment-component__modal-buttons--secondset {
+  float: right;
+  display: flex;
+}
+
+.mr-r-12 {
+  margin-right: 12px;
+}
+
+.edit-assignment-component__modal--button {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.edit-assignment-component__modal-save--button {
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #6f6f6f;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  color: #fff;
+  background: linear-gradient(to bottom, #3fa8ee 40% , #0049a2 100%);
+}
+
+.edit-assignment-component__modal-assignment-textbox--comment {
+  border: 1px solid #6f6f6f;
+  width: 400px;
+  margin-top: 0.8%;
+}
+
+.edit-assignment-component__modal-assignment--wrapper {
+  font-size: 12px;
+}
+
+.edit-assignment-component__modal--buttons {
+  bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #e7e8e7;
+  padding-top: 10px;
+}
+
+.edit-assignment-component__modal--assignment {
+  display: flex;
+}
+
+.edit-assignment-component__modal-assignment--one {
+  flex: 1;
+}
+
+.font-wei-normal {
+  font-weight: normal;
+}
+
+.edit-assignment-component__modal-assignment--two {
+  max-width: 80px;
+  text-align: center;
+}
+
+.edit-assignment-component__modal-assignment--three {
+  flex: 2;
+}
+
+.edit-assignment-component__modal-assignment--textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.pager {
+  display: inline-flex;
+  font-size: 11px;
+  margin: 0 42%;
+}
+
+.pager-prev {
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  margin-top: 5px;
+  line-height: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.pager-nor {
+  padding: 3px;
+  background-color: #fff;
+  height: 21px;
+  width: 15px;
+  margin-top: 5px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.bord-bot {
+  border-bottom: 1px solid #efefe7;
+}
+
+.bord-top-bot-rig {
+  border-right: 1px solid #efefe7;
+  border-bottom: 1px solid #efefe7;
+  text-align: center;
+}
+
+.edit-assignment-component__modal-assignment-three--input {
+  margin: 5px;
+}
+
+/* student css here */
+.edit-assignment-component__modal-student-box {
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  top: 80px;
+}
+
+.edit-assignment-component__modal-student-box--one {
+  width: 50%;
+  float: left;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.edit-assignment-component__modal-student-box--two {
+  width: 49%;
+  float: right;
+}
+
+.edit-assignment-component__modal--dec {
+  min-height: 207px;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
+
+.edit-assignment-component__modal-dec--title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2%;
+}
+
+.edit-assignment-component__modal-dec--txt {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.edit-assignment-component__modal-dec-txt-in--txt {
+  position: relative;
+  margin: 5px;
+}
+
+.edit-assignment-component__modal-dec-txt--round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #000;
+  border: 1px solid #e7e8e7;
+  position: absolute;
+  right: 100px;
+  top: 0;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px #1e1f29;
+}
+
+.portfolio-conf-warning {
+  width: 310px;
+  height: 110px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-saved-grade {
+  width: 310px;
+  height: 130px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-saving {
+  width: 240px;
+  height: 100px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-warning-save-txt {
+  font-size: 13px;
+  padding: 14px;
+  text-align: center;
+}
+
+.portfolio-conf-warning-heading {
+  background: #dcdcdc;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-warning-saved-grade .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin: 0 10% 0 0;
+}
+
+.portfolio-conf-warning-saved-grade .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}
+
+.portfolio-conf-warning-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-warning-save-btn {
+  display: flex;
+  margin: auto;
+  width: 24%;
+}
+
+.portfolio-conf-warning-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-warning-save-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-warning .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin: 0 10% 0 0;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}
+
+.s44 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.edit-assignment-component__modal-buttons--firstset .btn--primary {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #6f6f6f;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  color: #000;
+  outline: 0 !important;
+}
+
+.edit-assignment-component__text--name {
+  width: 50%;
+  white-space: nowrap;
+}
+
+.react-date-picker__calendar {
+  left: -205px;
+}
+
+.edit-assignment-component__modal--buttons-secondset button:disabled {
+  opacity: 0.5;
+  background: #808080;
+}
+
+.edit-assignment-component__description-title--textarea {
+  height: 70px;
+  overflow: auto;
+  width: 100%;
+  outline: 0 !important;
+}
+
+.edit-assignment-component__modal-bottom-italic--text {
+  font-size: 11px;
+  font-style: italic;
+  margin: 0 0 2px 22px;
+}
+
+.edit-assignment-component__date--descript {
+  margin-right: 162px;
+  line-height: 42px;
+  color: #808080;
+}
+
+.edit-assignment-component__date--display {
+  line-height: 42px;
+}
+
+.edit-read180ng-modal-assignment-description {
+  font-size: 12px;
+  padding: 15px;
+}
+
+.edit-assignment-component__modal-assignment--span {
+  margin-left: 4px;
+}
+
+.previous {
+  color: #353535;
+  text-decoration: none;
+}
+
+.edit-assignment-component__date-display--slash {
+  margin: 0 -4px;
+}
+
+.edit-assignment-component__div--circle {
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background: #000;
+  position: absolute;
+  float: left;
+}
+
+.edit-assignment-component__div--circle1 {
+  top: 56px;
+}
+
+.edit-assignment-component__div--circle2 {
+  top: 56px;
+}
+
+.edit-assignment-component__div--style {
+  float: left;
+  margin-right: 3%;
+}
+
+.edit-assignment-component__div--style1 {
+  margin-left: 4%;
+  font-style: normal;
+}
+
+.txt__no--center {
+  text-align: unset;
+}
+
+.edit-assignment-component__div--span1 {
+  font-style: italic;
+}
+
+.edit-assignment-component__div--span2 {
+  font-style: normal;
+}
+
+.edit-assignment-component__div-circle--head {
+  float: left;
+}

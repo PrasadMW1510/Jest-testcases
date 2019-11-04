@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddGroupContainer /> verify to match snapshot 1`] = `
+<AddGroupView
+  classesWithStudents={
+    Immutable.Map {
+      test: "value",
+    }
+  }
+  groupInfo={
+    Immutable.Map {
+      name: "test",
+    }
+  }
+  groupPostFailure={
+    Object {
+      "name": "test",
+    }
+  }
+  hideModal={[Function]}
+  postGroup={[Function]}
+  resetGroupStatus={[Function]}
+  title="Edit Group Profile"
+/>
+`;
+
+exports[`<AddGroupContainer /> verify with data is false 1`] = `
+<AddGroupView
+  classesWithStudents={
+    Immutable.Map {
+      test: "value",
+    }
+  }
+  groupInfo={
+    Immutable.Map {
+      name: "test",
+    }
+  }
+  groupPostFailure={
+    Object {
+      "name": "test",
+    }
+  }
+  hideModal={[Function]}
+  postGroup={[Function]}
+  resetGroupStatus={[Function]}
+  title="Add a Group"
+/>
+`;

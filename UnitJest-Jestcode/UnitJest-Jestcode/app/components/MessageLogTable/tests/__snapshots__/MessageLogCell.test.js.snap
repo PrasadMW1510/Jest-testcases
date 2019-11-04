@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageLogTable /> Should render correctly 1`] = `
+<div
+  className="msg-log-table__message-td-cell"
+>
+  <span />
+</div>
+`;

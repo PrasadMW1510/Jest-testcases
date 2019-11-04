@@ -1,0 +1,974 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditAdminContainer /> EditAdminContainer defaultMode is true Expect to render correctly 1`] = `
+<ReduxForm
+  adminToEditData={
+    Immutable.Map {
+      permissions: Immutable.List [
+        Immutable.Map {
+          name: Immutable.List [
+            "View OwnProfile",
+          ],
+          id: Immutable.List [
+            "100",
+          ],
+        },
+      ],
+    }
+  }
+  adminToEditUserOrgId="test-admin-id"
+  data={
+    Object {
+      "defaultMode": true,
+      "editMode": true,
+      "editingSameAccount": true,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={true}
+  editingSameAccount={true}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      sps_id: "mock_sps_id",
+      password_hint: "mock_password_hint",
+      user_type: "mock_user_type",
+      suffix: "mock_suffix",
+      prefix: "mock_prefix",
+      last_name: "mock_last_name",
+      title: "mock_title",
+      first_name: "mock_first_name",
+      password: "mock_password",
+      password_confirm: "mock_password",
+      email: "mock_email",
+      district_user_id: "mock_district_user_id",
+      user_name: "mock_user_name",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "school1",
+        ],
+        org_id: Immutable.List [
+          "org1",
+        ],
+      },
+      Immutable.Map {
+        name: Immutable.List [
+          "school2",
+        ],
+        org_id: Immutable.List [
+          "org2",
+        ],
+      },
+    ]
+  }
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<EditAdminContainer /> EditAdminContainer edit mode is false Expect to render correctly 1`] = `
+<ReduxForm
+  adminToEditData={
+    Immutable.Map {
+      permissions: Immutable.List [
+        Immutable.Map {
+          name: Immutable.List [
+            "View OwnProfile",
+          ],
+          id: Immutable.List [
+            "100",
+          ],
+        },
+      ],
+    }
+  }
+  data={
+    Object {
+      "accountType": undefined,
+      "adminType": undefined,
+      "editMode": false,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={false}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      user_type: undefined,
+      school_name: "org1",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "school1",
+        ],
+        org_id: Immutable.List [
+          "org1",
+        ],
+      },
+      Immutable.Map {
+        name: Immutable.List [
+          "school2",
+        ],
+        org_id: Immutable.List [
+          "org2",
+        ],
+      },
+    ]
+  }
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<EditAdminContainer /> EditAdminContainer edit mode is false and School Type Expect to render correctly 1`] = `
+<ReduxForm
+  adminToEditData={
+    Immutable.Map {
+      permissions: Immutable.List [
+        Immutable.Map {
+          name: Immutable.List [
+            "View OwnProfile",
+          ],
+          id: Immutable.List [
+            "100",
+          ],
+        },
+      ],
+    }
+  }
+  data={
+    Object {
+      "accountType": undefined,
+      "adminType": undefined,
+      "editMode": false,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={false}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      user_type: undefined,
+      school_name: "org1",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "school1",
+        ],
+        org_id: Immutable.List [
+          "org1",
+        ],
+      },
+      Immutable.Map {
+        name: Immutable.List [
+          "school2",
+        ],
+        org_id: Immutable.List [
+          "org2",
+        ],
+      },
+    ]
+  }
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<EditAdminContainer /> EditAdminContainer edit mode is false and School Type Expect to render with no schools 1`] = `null`;
+
+exports[`<EditAdminContainer /> EditAdminContainer edit mode is true and editingSameAccount is false Expect to render correctly 1`] = `
+<ReduxForm
+  adminToEditData={
+    Immutable.Map {
+      permissions: Immutable.List [
+        Immutable.Map {
+          name: Immutable.List [
+            "View OwnProfile",
+          ],
+          id: Immutable.List [
+            "100",
+          ],
+        },
+      ],
+    }
+  }
+  adminToEditUserOrgId="test-admin-id"
+  data={
+    Object {
+      "accountType": undefined,
+      "adminType": undefined,
+      "editMode": true,
+      "editingSameAccount": false,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={true}
+  editingSameAccount={false}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      sps_id: undefined,
+      password_hint: undefined,
+      user_type: undefined,
+      suffix: undefined,
+      prefix: undefined,
+      last_name: undefined,
+      school_name: "test-admin-id",
+      title: undefined,
+      first_name: undefined,
+      password: undefined,
+      password_confirm: undefined,
+      email: undefined,
+      district_user_id: undefined,
+      user_name: undefined,
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "school1",
+        ],
+        org_id: Immutable.List [
+          "org1",
+        ],
+      },
+      Immutable.Map {
+        name: Immutable.List [
+          "school2",
+        ],
+        org_id: Immutable.List [
+          "org2",
+        ],
+      },
+    ]
+  }
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<EditAdminContainer /> userOrg is District Expect to render correctly 1`] = `
+<ReduxForm
+  data={
+    Object {
+      "editMode": true,
+      "editingSameAccount": true,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={true}
+  editingSameAccount={true}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      sps_id: "mock_sps_id",
+      password_hint: "mock_password_hint",
+      user_type: "mock_user_type",
+      suffix: "mock_suffix",
+      prefix: "mock_prefix",
+      last_name: "mock_last_name",
+      school_name: "org1",
+      title: "mock_title",
+      first_name: "mock_first_name",
+      password: "mock_password",
+      password_confirm: "mock_password",
+      email: "mock_email",
+      district_user_id: "mock_district_user_id",
+      user_name: "mock_user_name",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "school1",
+        ],
+        org_id: Immutable.List [
+          "org1",
+        ],
+      },
+      Immutable.Map {
+        name: Immutable.List [
+          "school2",
+        ],
+        org_id: Immutable.List [
+          "org2",
+        ],
+      },
+    ]
+  }
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<EditAdminContainer /> userOrg is District handleSave username value has not been changed 1`] = `[Function]`;
+
+exports[`<EditAdminContainer /> userOrg is School Expect to render correctly 1`] = `
+<ReduxForm
+  adminToEditData={
+    Immutable.Map {
+      permissions: Immutable.List [
+        Immutable.Map {
+          name: Immutable.List [
+            "View OwnProfile",
+          ],
+          id: Immutable.List [
+            "100",
+          ],
+        },
+      ],
+    }
+  }
+  data={
+    Object {
+      "editMode": true,
+      "editingSameAccount": true,
+    }
+  }
+  editAdminContainerRequest={[Function]}
+  editMode={true}
+  editingSameAccount={true}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      sps_id: "mock_sps_id",
+      password_hint: "mock_password_hint",
+      user_type: "mock_user_type",
+      suffix: "mock_suffix",
+      prefix: "mock_prefix",
+      last_name: "mock_last_name",
+      school_name: "mock_org_name",
+      title: "mock_title",
+      first_name: "mock_first_name",
+      password: "mock_password",
+      password_confirm: "mock_password",
+      email: "mock_email",
+      district_user_id: "mock_district_user_id",
+      user_name: "mock_user_name",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddAdminRequest={[Function]}
+  postSaveAdminRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      organizations: Immutable.List [
+        Immutable.Map {
+          organization: Immutable.List [
+            Immutable.Map {
+              name: Immutable.List [
+                "mock_org_name",
+              ],
+              org_id: Immutable.List [
+                "mock_org_id",
+              ],
+            },
+          ],
+        },
+      ],
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  school={
+    Immutable.Map {
+      name: Immutable.List [
+        "mock_org_name",
+      ],
+      org_id: Immutable.List [
+        "mock_org_id",
+      ],
+    }
+  }
+  schools={null}
+  showEditAdminModalWarning={[Function]}
+  showModal={[Function]}
+  userOrg="School"
+/>
+`;
+
+exports[`<EditAdminContainer /> userOrg is School handleSave username value has not been changed 1`] = `[Function]`;

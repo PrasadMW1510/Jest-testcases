@@ -1,0 +1,96 @@
+.block-one {
+  width: 60%;
+  float: left;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 200px;
+  border-bottom: #ccc 1px solid;
+}
+
+.block-scrl-one {
+  overflow-y: scroll;
+  height: 166px;
+  padding: 11px 10px 15px;
+  font-size: 12px;
+}
+
+.block-scrl {
+  font-size: 12px;
+}
+
+.block-scrl-two a {
+  font-size: 13px;
+  padding: 15px;
+  line-height: 55px;
+}
+
+.block-scrl a {
+  text-decoration: none;
+  color: #11b4ea;
+}
+
+.pull-right {
+  float: right !important;
+  margin: 10px 0 0;
+  font-size: 13px;
+}
+
+.valu {
+  background: #f8fbf8;
+  box-shadow: 2px 1px 4px 1px #797474;
+  border-radius: 20px;
+  float: left;
+  text-align: center;
+  padding: 2px 8px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.block-two {
+  width: 38%;
+  margin: 0 5px 0 0;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 90px;
+  float: right;
+}
+
+.block-three {
+  width: 60%;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 260px;
+  float: left;
+  margin: 3px 0 0;
+}
+
+.block-scrl-three {
+  padding: 11px 10px 15px;
+  height: 213px;
+  font-size: 12px;
+}
+
+.print-read180-studentwork-modal-description-textarea-text {
+  width: 100%;
+  height: 360px;
+  overflow-y: scroll;
+}
+
+textarea {
+  width: 100%;
+  height: 335px;
+  overflow-y: scroll;
+}
+
+.print-read180-studentwork-modal-description-textarea:focus {
+  outline: none;
+}
+
+.block-four {
+  width: 38%;
+  float: right;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 370px;
+  margin: -105px 5px 0 0;
+}

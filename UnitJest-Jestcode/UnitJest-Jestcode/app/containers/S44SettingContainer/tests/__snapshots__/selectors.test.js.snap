@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectS44SettingContainerDomain should consistently return the s44SettingContainer app state 1`] = `
+Immutable.Map {
+  mockProp: null,
+}
+`;

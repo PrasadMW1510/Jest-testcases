@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsNavBar /> isolateTab and overrideClassName 1`] = `
+<div>
+  <NavBar
+    activeItemId="mockTabId1"
+    className="program-settings-nav-bar__tabs program-settings-nav-bar__tabs--isolate mockOverrideClassName"
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId1"
+      key="mockTabId1"
+      onClick={[Function]}
+    >
+      mockTabLabel1
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId2"
+      key="mockTabId2"
+      onClick={[Function]}
+    >
+      mockTabLabel2
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings-nav-bar__tab-content"
+  />
+</div>
+`;
+
+exports[`<ProgramSettingsNavBar /> render two tabs Expect to render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="mockTabId1"
+    className="program-settings-nav-bar__tabs  "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId1"
+      key="mockTabId1"
+      onClick={[Function]}
+    >
+      mockTabLabel1
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId2"
+      key="mockTabId2"
+      onClick={[Function]}
+    >
+      mockTabLabel2
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings-nav-bar__tab-content"
+  />
+</div>
+`;
+
+exports[`<ProgramSettingsNavBar /> render two tabs handleTabClick 1`] = `
+<div>
+  <NavBar
+    activeItemId="mockTabId1"
+    className="program-settings-nav-bar__tabs  "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId1"
+      key="mockTabId1"
+      onClick={[Function]}
+    >
+      mockTabLabel1
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="mockTabId2"
+      key="mockTabId2"
+      onClick={[Function]}
+    >
+      mockTabLabel2
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings-nav-bar__tab-content"
+  />
+</div>
+`;

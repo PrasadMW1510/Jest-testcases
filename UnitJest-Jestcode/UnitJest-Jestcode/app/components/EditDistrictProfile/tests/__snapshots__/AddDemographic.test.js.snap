@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddDemographic /> Expect to match snapshot 1`] = `
+<div
+  className="add-demographic"
+>
+  <SAMButton
+    buttonClassModifier="add-demographic__button"
+    buttonType="button"
+    id="add-demographic-button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Add New Demographic
+  </SAMButton>
+</div>
+`;

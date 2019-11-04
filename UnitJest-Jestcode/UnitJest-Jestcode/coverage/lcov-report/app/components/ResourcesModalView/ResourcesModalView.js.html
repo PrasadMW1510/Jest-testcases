@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/ResourcesModalView/ResourcesModalView.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/ResourcesModalView</a> ResourcesModalView.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/79</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/55</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/22</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/38</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * ResourcesModalView
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMModal <span class="cstat-no" title="statement not covered" >from 'components/SAMModal';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMButton <span class="cstat-no" title="statement not covered" >from 'components/SAMButton';<span class="cstat-no" title="statement not covered" ></span></span>
+import { getBas<span class="cstat-no" title="statement not covered" >eResourceUrl } from 'util</span>s/request';
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import './ResourcesModalView.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+const sortTerm = {
+  term: 'resourceName',
+  order: 'asc',<span class="cstat-no" title="statement not covered" ></span>
+};
+class ResourcesModalV<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >ie</span>w extends React.Component {<span class="cstat-no" title="statement not covered" ></span></span>
+  construct<span class="fstat-no" title="function not covered" >or() {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span>
+    super();
+    this.state = { sortTerm };
+  }
+&nbsp;
+  handleClose = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.updateResourcesModalStatus(false);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  sortSearch = (t<span class="fstat-no" title="function not covered" >er</span>m, event) =&gt; {
+    ev<span class="cstat-no" title="statement not covered" >ent.preventDefault();</span>
+    const newTerm = <span class="cstat-no" title="statement not covered" >this.state.sortTerm;</span>
+    if<span class="cstat-no" title="statement not covered" > (newTerm.term !== term) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState(</span>
+        {
+          sortTerm: {
+            ...this.state.sortTerm,
+            term,
+            order: 'asc',
+          },
+        },
+<span class="fstat-no" title="function not covered" >        ()</span> =&gt; this.pr<span class="cstat-no" title="statement not covered" >ops.sortUpdater(this.state.sortTerm)</span>
+      );
+    } else {
+      const order = <span class="cstat-no" title="statement not covered" >newTerm.order === 'asc' ? 'desc' : 'asc';</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState(</span>
+        {
+          sortTerm: {
+            ...this.state.sortTerm,
+            order,
+          },
+        },
+<span class="fstat-no" title="function not covered" >        ()</span> =&gt; this.pr<span class="cstat-no" title="statement not covered" >ops.sortUpdater(this.state.sortTerm)</span>
+      );
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  openDownloadableLink = re<span class="fstat-no" title="function not covered" >so</span>urceId =&gt;<span class="cstat-no" title="statement not covered" ></span>
+    `${getBaseResourceUrl()}/ResourceManager/previewresource.spr?_page=0&amp;objectId=${resourceId}`;<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  downloadableLinks = re<span class="fstat-no" title="function not covered" >so</span>urceInput =&gt;<span class="cstat-no" title="statement not covered" ></span>
+    resourceInput.get('resource').map(moda<span class="fstat-no" title="function not covered" >lR</span>es =&gt; {
+      const gradeCount = mo<span class="cstat-no" title="statement not covered" >dalRes.getIn(['resource_grades', 0, 'grade']).size;</span>
+      retu<span class="cstat-no" title="statement not covered" >rn (</span>
+        &lt;div key={modalRes.getIn(['resource_id', 0])} className="resources-modal__content"&gt;
+          &lt;div className="resources-modal--download resources-modal__content--text"&gt;
+            &lt;a href={this.openDownloadableLink(modalRes.getIn(['resource_id', 0]))} target="_blank"&gt;
+              Download
+            &lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div className="resources-modal--resource-name resources-modal__content--text"&gt;
+            &lt;span&gt;
+              &lt;div className="resources-modal__content-bold"&gt;
+                {modalRes.getIn(['resource_name', 0])}
+              &lt;/div&gt;
+              &lt;div&gt;{modalRes.getIn(['resource_desc', 0])}&lt;/div&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div className="resources-modal--resource-type resources-modal__content--text"&gt;
+            &lt;span&gt;{modalRes.getIn(['resource_type', 0])}&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div className="resources-modal--resource-type resources-modal__content--text"&gt;
+            &lt;span&gt;{modalRes.getIn(['resource_programs', 0, 'program', 0, 'program_name', 0])}&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div className="resources-modal--download resources-modal__content--text"&gt;
+            &lt;span&gt;
+              Grades{' '}
+              {modalRes.getIn(['resource_grades', 0, 'grade']).map((gr<span class="fstat-no" title="function not covered" >ad</span>e, index) =&gt; {
+                if (<span class="cstat-no" title="statement not covered" >gradeCount === index + 1) {</span>
+                  retu<span class="cstat-no" title="statement not covered" >rn grade;</span>
+                }
+                retu<span class="cstat-no" title="statement not covered" >rn `${grade}, `;</span>
+              })}
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      );
+    });<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+&nbsp;
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;SAMModal
+        isOpen={this.props.modalStatus}
+        contentLabel="Resources Results"
+        modalClassModifier="resources-modal"
+      &gt;
+        &lt;div className="resources-modal__header"&gt;Resources Search Results&lt;/div&gt;
+        &lt;div className="resources-modal__title"&gt;
+          Click a link below to open a Resource. You can sort Resources by each of the column
+          headings.
+        &lt;/div&gt;
+        &lt;div className="resources-modal__display"&gt;
+          &lt;div className="resources-modal__display--header"&gt;
+            &lt;button className="resources-modal__button-non-click" /&gt;
+            &lt;button
+              className={
+                this.state.sortTerm.term === 'resourceName'
+                  ? 'resources-modal__button--active resources-modal--resource-name'
+                  : 'resources-modal__button resources-modal--resource-name'
+              }
+              onClick={event =&gt; this<span class="fstat-no" title="function not covered" >.sortSea</span>rch('res<span class="cstat-no" title="statement not covered" >ourceName', event)}</span>
+            &gt;
+              Resource Name
+            &lt;/button&gt;
+            &lt;button
+              className={
+                this.state.sortTerm.term === 'resourceType'
+                  ? 'resources-modal__button--active'
+                  : 'resources-modal__button'
+              }
+              onClick={event =&gt; this<span class="fstat-no" title="function not covered" >.sortSea</span>rch('res<span class="cstat-no" title="statement not covered" >ourceType', event)}</span>
+            &gt;
+              Resource Type
+            &lt;/button&gt;
+            &lt;button
+              className={
+                this.state.sortTerm.term === 'resourceProgram'
+                  ? 'resources-modal__button--active'
+                  : 'resources-modal__button'
+              }
+              onClick={event =&gt; this<span class="fstat-no" title="function not covered" >.sortSea</span>rch('res<span class="cstat-no" title="statement not covered" >ourceProgram', event)}</span>
+            &gt;
+              Program
+            &lt;/button&gt;
+            &lt;button className="resources-modal__button-non-click"&gt;Grade/Level&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div className="resources-modal__display-body"&gt;
+            {this.props.item.get('resource_search_results') &amp;&amp;
+              this.downloadableLinks(this.props.item.get('resource_search_results'))}
+            {!this.props.item.get('resource_search_results') &amp;&amp; (
+              &lt;p className="resources-modal__display-no-response"&gt;
+                No resource match the search criteria. Click close and check your search criteria.
+              &lt;/p&gt;
+            )}
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="resources-modal__footer"&gt;
+          {this.props.item.get('resource_search_results') &amp;&amp; (
+            &lt;span&gt;
+              Results 1 through{' '}
+              {this.props.item.getIn(['resource_search_results', 'item_count', 0])} of
+              {` ${this.props.item.getIn(['resource_search_results', 'item_count', 0])}`}
+            &lt;/span&gt;
+          )}
+          &lt;SAMButton
+            buttonClassModifier="resources-modal__footer-button"
+            onClickHandler={this.handleClose}
+          &gt;
+            Close
+          &lt;/SAMButton&gt;
+        &lt;/div&gt;
+      &lt;/SAMModal&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >ResourcesModalView.propTypes = {</span>
+  item: PropTypes.object.isRequired,
+  updateResourcesModalStatus: PropTypes.func,
+  modalStatus: PropTypes.bool.isRequired,
+  sortUpdater: PropTypes.func,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default ResourcesModalView;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

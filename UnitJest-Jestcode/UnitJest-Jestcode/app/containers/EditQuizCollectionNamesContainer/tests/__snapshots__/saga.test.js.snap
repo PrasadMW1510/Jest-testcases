@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditQuizCollectionNamesContainer Saga getEditQuizCollectionNamesDataRequest getEditQuizCollectionNamesDataRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "initial_request",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer Saga getEditQuizCollectionNamesDataRequest getEditQuizCollectionNamesDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "initial_request",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer Saga postEditQuizCollectionNamesDataRequest postEditQuizCollectionNamesRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer Saga postEditQuizCollectionNamesDataRequest postEditQuizCollectionNamesRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<RenameQuizCollectionReq><OldName></OldName><NewName></NewName></RenameQuizCollectionReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer Saga postEditQuizCollectionNamesDataRequest postEditQuizCollectionNamesRequest 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "EditQuizCollectionNamesContainer/get_editquizcollectionnamesdata_request",
+    },
+    "channel": null,
+  },
+}
+`;

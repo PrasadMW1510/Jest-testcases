@@ -1,0 +1,619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CatchSystem44Class  /> should render  1`] = `
+<div
+  className="catchall-modal-title"
+>
+  <div
+    className="catchall-name"
+  >
+    <div>
+      <div
+        className="print-catchallclass-modal-title"
+      >
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Students :
+        </span>
+        <span
+          className="print-catchallclass-modal-title-span"
+        >
+           
+        </span>
+         
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <span
+            className="print-catchallclass-modal-title-span"
+          >
+             
+            <select
+              className="assignment-passage-select"
+              name="communityId"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                Select Program
+              </option>
+              <option
+                value="M180Y2"
+              >
+                Math 180 Year 2
+              </option>
+              <option
+                value="S44JR"
+              >
+                iRead
+              </option>
+              <option
+                value="S44NG,R180NG"
+              >
+                System 44 Next Generation
+              </option>
+            </select>
+          </span>
+           
+        </div>
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Assignment Type: 
+        </span>
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <select
+            className="print-catchall-modal-select"
+            name="assignmentType"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              Assignment Type 
+            </option>
+            <option
+              value="QuickWrites"
+            >
+              QuickWrites 
+            </option>
+            <option
+              value="Participation"
+            >
+              Participation
+            </option>
+            <option
+              value="Evidence Based Writing"
+            >
+              Evidence Based Writing
+            </option>
+            <option
+              value="Research"
+            >
+              Research
+            </option>
+            <option
+              value="others"
+            >
+              Other
+            </option>
+          </select>
+           
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Assignment Name 
+        </span>
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <input
+            className="print-catchall-modal-input-textbox"
+            name="assName"
+            onChange={[Function]}
+            type="textbox"
+            value=""
+          />
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-description-box"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Description:
+    </div>
+    <div
+      className="print-catchall-modal-description-textarea"
+    >
+      <textarea
+        className="print-catchall-modal-description-textarea-text"
+        cols="75"
+        name="desc"
+        onChange={[Function]}
+        rows="3"
+        value=""
+      />
+      <div
+        className="print-catchall-modal-description-inbox"
+      >
+         
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-due-date"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Due Date:
+    </div>
+    <div
+      className="print-catchall-modal-due-date-textarea"
+    >
+      <div
+        className="print-catchall-modal-due-date-inbox"
+      >
+        <p
+          className="print-catchall-modal-due-date-content1"
+        >
+           
+          Input a due date for the assignment or select a date from the calendar:
+           
+        </p>
+        <div
+          className="catchallclass-print-due-date"
+        >
+          <input
+            className="print-catchall-modal-due-date-input"
+            name="dateValue"
+            onChange={[Function]}
+            type="date"
+            value=""
+          />
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-assignment-roster-box"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Assignment Roster:
+    </div>
+    <div
+      className="print-catchall-modal-assignment-roster-textarea1"
+    >
+      <div
+        className="print-catchall-modal-assignment-roster-div-headers11"
+      >
+        <div
+          className="print-catchall-modal-assignment-roster-div-details"
+        >
+          <div
+            className="print-catchall-modal-assignment-roster-main"
+          >
+            <div
+              className="print-catchall-modal-assignment-roster-div-conent"
+            >
+              Select students that will complete the assessment. If you would like to enter grades, enter percentages in the percentage fields below. You may also calculate grades by entering the student's score and the total points possible and clicking the equal button.
+            </div>
+            <div
+              className="print-catchall-modal-assignment-roster-div-content-error"
+            >
+              <span
+                className="catchallclass-error-text-color"
+              />
+            </div>
+          </div>
+          <br />
+        </div>
+        Students
+         
+        <span
+          className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-grades"
+        >
+          Grades
+        </span>
+         
+        <span
+          className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-comments"
+        >
+          Comments
+        </span>
+      </div>
+      <div
+        className="print-catchall-modal-assignment-wrapper1"
+      >
+        <div>
+          <input
+            checked={true}
+            name="selected"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Select All
+        </div>
+        <div
+          className="print-catchall-modal-assignment-roster-inbox"
+        >
+           
+        </div>
+        <div>
+          <div
+            className="catchall-modal-assignment"
+            key="0"
+          >
+            <div
+              className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig"
+            >
+              <input
+                checked={true}
+                name="checkbox_0"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              priyanka
+              vangaveeti
+            </div>
+            <div
+              className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig txt-center"
+            >
+              <input
+                className="print-catchall-modal-assignment-textbox1"
+                disabled={true}
+                name="score0"
+                onChange={[Function]}
+                value={
+                  Array [
+                    "100",
+                  ]
+                }
+              />
+              <span>
+                /
+              </span>
+              <input
+                className="print-catchall-modal-assignment-textbox2"
+                disabled={true}
+                name="total0"
+                onChange={[Function]}
+                value={
+                  Array [
+                    "100",
+                  ]
+                }
+              />
+              <button
+                className="print-catchall-modal-button-equals"
+                name="average"
+                onClick={[Function]}
+              >
+                =
+              </button>
+              <input
+                className="print-catchall-modal-assignment-textbox3"
+                disabled={true}
+                name="average0"
+                onChange={[Function]}
+                type="textbox"
+                value={
+                  Array [
+                    "100",
+                  ]
+                }
+              />
+              <span>
+                %
+              </span>
+            </div>
+            <div
+              className="catchall-modal-assignment-three font-wei-normal bord-top-bot-rig"
+            >
+              <input
+                className="print-catchall-modal-assignment-textbox-comment"
+                name="comment0"
+                onChange={[Function]}
+                type="textbox"
+                value={
+                  Array [
+                    "100",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CatchSystem44Class  /> should render  2`] = `
+<div
+  className="catchall-modal-title"
+>
+  <div
+    className="catchall-name"
+  >
+    <div>
+      <div
+        className="print-catchallclass-modal-title"
+      >
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Students :
+        </span>
+        <span
+          className="print-catchallclass-modal-title-span"
+        >
+           
+        </span>
+         
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <span
+            className="print-catchallclass-modal-title-span"
+          >
+             
+            <select
+              className="assignment-passage-select"
+              name="communityId"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                Select Program
+              </option>
+              <option
+                value="M180Y2"
+              >
+                Math 180 Year 2
+              </option>
+              <option
+                value="S44JR"
+              >
+                iRead
+              </option>
+              <option
+                value="S44NG,R180NG"
+              >
+                System 44 Next Generation
+              </option>
+            </select>
+          </span>
+           
+        </div>
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Assignment Type: 
+        </span>
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <select
+            className="print-catchall-modal-select"
+            name="assignmentType"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              Assignment Type 
+            </option>
+            <option
+              value="QuickWrites"
+            >
+              QuickWrites 
+            </option>
+            <option
+              value="Participation"
+            >
+              Participation
+            </option>
+            <option
+              value="Evidence Based Writing"
+            >
+              Evidence Based Writing
+            </option>
+            <option
+              value="Research"
+            >
+              Research
+            </option>
+            <option
+              value="others"
+            >
+              Other
+            </option>
+          </select>
+           
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+        <span
+          className="catchallclass-assignmenttype-error-content"
+        >
+          Assignment Name 
+        </span>
+        <div
+          className="catchallclass-assignmenttype-error-main"
+        >
+          <input
+            className="print-catchall-modal-input-textbox"
+            name="assName"
+            onChange={[Function]}
+            type="textbox"
+            value=""
+          />
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-description-box"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Description:
+    </div>
+    <div
+      className="print-catchall-modal-description-textarea"
+    >
+      <textarea
+        className="print-catchall-modal-description-textarea-text"
+        cols="75"
+        name="desc"
+        onChange={[Function]}
+        rows="3"
+        value=""
+      />
+      <div
+        className="print-catchall-modal-description-inbox"
+      >
+         
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-due-date"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Due Date:
+    </div>
+    <div
+      className="print-catchall-modal-due-date-textarea"
+    >
+      <div
+        className="print-catchall-modal-due-date-inbox"
+      >
+        <p
+          className="print-catchall-modal-due-date-content1"
+        >
+           
+          Input a due date for the assignment or select a date from the calendar:
+           
+        </p>
+        <div
+          className="catchallclass-print-due-date"
+        >
+          <input
+            className="print-catchall-modal-due-date-input"
+            name="dateValue"
+            onChange={[Function]}
+            type="date"
+            value=""
+          />
+          <span
+            className="catchallclass-error-text-color"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-catchall-modal-assignment-roster-box"
+  >
+    <div
+      className="print-catchall-modal-description-title"
+    >
+      Assignment Roster:
+    </div>
+    <div
+      className="print-catchall-modal-assignment-roster-textarea1"
+    >
+      <div
+        className="print-catchall-modal-assignment-roster-div-headers11"
+      >
+        <div
+          className="print-catchall-modal-assignment-roster-div-details"
+        >
+          <div
+            className="print-catchall-modal-assignment-roster-main"
+          >
+            <div
+              className="print-catchall-modal-assignment-roster-div-conent"
+            >
+              Select students that will complete the assessment. If you would like to enter grades, enter percentages in the percentage fields below. You may also calculate grades by entering the student's score and the total points possible and clicking the equal button.
+            </div>
+            <div
+              className="print-catchall-modal-assignment-roster-div-content-error"
+            >
+              <span
+                className="catchallclass-error-text-color"
+              />
+            </div>
+          </div>
+          <br />
+        </div>
+        Students
+         
+        <span
+          className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-grades"
+        >
+          Grades
+        </span>
+         
+        <span
+          className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-comments"
+        >
+          Comments
+        </span>
+      </div>
+      <div
+        className="print-catchall-modal-assignment-wrapper1"
+      >
+        <div>
+          <input
+            checked={true}
+            name="selected"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Select All
+        </div>
+        <div
+          className="print-catchall-modal-assignment-roster-inbox"
+        >
+           
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;

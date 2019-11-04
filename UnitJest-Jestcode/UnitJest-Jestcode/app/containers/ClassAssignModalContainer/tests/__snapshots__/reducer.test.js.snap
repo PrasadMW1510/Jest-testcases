@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`classAssignModal reducer should handle CLOSE_CLASS_ASSIGN_MODAL 1`] = `
+Immutable.Map {
+  classesAndGroups: Immutable.List [
+  ],
+  showModal: false,
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_CLASSES_AND_GROUPS_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  classesAndGroups: Immutable.List [
+  ],
+  showModal: false,
+  error: "err",
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_CLASSES_AND_GROUPS_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  classesAndGroups: Immutable.List [
+    "test",
+  ],
+  showModal: false,
+}
+`;
+
+exports[`classAssignModal reducer should handle OPEN_CLASS_ASSIGN_MODAL 1`] = `
+Immutable.Map {
+  classesAndGroups: Immutable.List [
+  ],
+  showModal: true,
+}
+`;

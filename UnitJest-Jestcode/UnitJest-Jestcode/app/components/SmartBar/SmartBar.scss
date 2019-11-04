@@ -1,0 +1,47 @@
+.smart-bar-container {
+  float: left;
+  width: 18%;
+  font-size: 12px;
+  padding-top: 7px;
+  height: 100%;
+}
+
+.smart-bar-container__title {
+  padding-top: 10px;
+  height: 5%;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tabs {
+  height: 95%;
+  background:
+    linear-gradient(to bottom,
+    #666,
+    #666 50%,
+    #858585 50%,
+    #858585);
+  background-size: 100% 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sam-body--red {
+  .smart-bar-container {
+    display: none;
+  }
+}
+
+.sam-body--green {
+  .smart-bar-container {
+    display: none;
+  }
+}
+
+.sam-body--purple {
+  .smart-bar-container {
+    display: none;
+  }
+}

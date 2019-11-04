@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/SearchModalContainer/SearchModalContainer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/SearchModalContainer</a> SearchModalContainer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/83</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/35</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/40</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * SearchModalContainer
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { createS<span class="cstat-no" title="statement not covered" >tructuredSelector } </span>from 'reselect';
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+import SearchModal <span class="cstat-no" title="statement not covered" >from 'components/SearchModal/SearchModal';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  hideModal,
+  showWarningModal,
+  showSearchClassAssignModal,
+  showAccountDeleteModal,
+} from 'containers/ModalController/actions';
+import { openCla<span class="cstat-no" title="statement not covered" >ssAssignModal } from 'containers/ClassAssignModalContain</span>er/actions';
+import injectSaga <span class="cstat-no" title="statement not covered" >from 'utils/injectSaga';<span class="cstat-no" title="statement not covered" ></span></span>
+import injectReducer <span class="cstat-no" title="statement not covered" >from 'utils/injectReducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  getSearchMetaDataRequest,
+  resetSearchMetaData,
+  getSearchResultsRequest,
+  resetForSearchByChange,
+} from './actions';
+import makeSelect<span class="cstat-no" title="statement not covered" >SearchModalContainer fr</span>om './selectors';<span class="cstat-no" title="statement not covered" ></span>
+import reducer <span class="cstat-no" title="statement not covered" >from './reducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import saga <span class="cstat-no" title="statement not covered" >from './saga';<span class="cstat-no" title="statement not covered" ></span></span>
+import { makeSelec<span class="cstat-no" title="statement not covered" >tLoginUserOrg, makeSelectPro</span>fileUserT<span class="fstat-no" title="function not covered" >ype } from '../App/sele</span>ctors'<span class="cstat-no" title="statement not covered" >;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class SearchModalContainer extends React.Component {
+  componentDidMount() {
+    this.props.getSearchMetaDataRequest();<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span>
+  }
+&nbsp;
+  getSearchContainer = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.prop<span class="cstat-no" title="statement not covered" >s.searchModalContainer.toJS();</span>
+&nbsp;
+  appsMeta = [];
+  classesMeta = [];
+  gradesMeta = [];
+  permissionsMeta = [];
+  schoolsMeta = [];
+  teachersMeta = [];
+&nbsp;
+  /**
+   * Component should not render until the async data has been returned from its Saga
+   * this function checks the metaDataInitialized property from the redux state. That prop
+   * is set at the successful completion of the Saga. Uses map.get for better performance.
+   *
+   * @returns {boolean}
+   */
+  isMetaDataInitialized = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.prop<span class="cstat-no" title="statement not covered" >s.searchModalContainer.get('metaDataInitialized');</span>
+&nbsp;
+  parseMetaData = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const searchData = <span class="cstat-no" title="statement not covered" >this.getSearchContainer();</span>
+    th<span class="cstat-no" title="statement not covered" >is.appsMeta = searchData.searchMeta.apps;</span>
+    th<span class="cstat-no" title="statement not covered" >is.classesMeta = searchData.searchMeta.classes;</span>
+    th<span class="cstat-no" title="statement not covered" >is.gradesMeta = searchData.searchMeta.grades;</span>
+    th<span class="cstat-no" title="statement not covered" >is.permissionsMeta = searchData.searchMeta.permissions;</span>
+    th<span class="cstat-no" title="statement not covered" >is.schoolsMeta = searchData.searchMeta.schools;</span>
+    th<span class="cstat-no" title="statement not covered" >is.teachersMeta = searchData.searchMeta.teachers;</span>
+  };
+&nbsp;
+  handleClose = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    e.<span class="cstat-no" title="statement not covered" >preventDefault();</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.resetSearchMetaData();</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.hideModal();</span>
+  };
+  handleSearch = op<span class="fstat-no" title="function not covered" >ts</span> =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.getSearchResultsRequest(opts);</span>
+  };
+&nbsp;
+  handleResetForSearchByChange = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.resetForSearchByChange();</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+&nbsp;
+  render() {
+    if (!this.isMetaDataInitialized()) {
+      return null;
+    }
+    this.parseMetaData();<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;SearchModal
+        isOpen
+        onClose={this.handleClose}
+        onSearch={this.handleSearch}
+        apps={this.appsMeta}
+        classes={this.classesMeta}
+        grades={this.gradesMeta}
+        openClassAssignModal={this.props.openClassAssignModal}
+        permissions={this.permissionsMeta}
+        schools={this.schoolsMeta}
+        teachers={this.teachersMeta}
+        searchResults={this.getSearchContainer().searchResults}
+        profileUserType={this.props.profileUserType}
+        onResetForSearchByChange={this.handleResetForSearchByChange}
+        loginUserOrg={this.props.loginUserOrg}
+        showWarningModal={this.props.showWarningModal}
+        showSearchClassAssignModal={this.props.showSearchClassAssignModal}
+        showAccountDeleteModal={this.props.showAccountDeleteModal}
+      /&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >SearchModalContainer.propTypes = {</span>
+  hideModal: PropTypes.func.isRequired,
+  openClassAssignModal: PropTypes.func.isRequired,
+  getSearchMetaDataRequest: PropTypes.func.isRequired,
+  resetSearchMetaData: PropTypes.func.isRequired,
+  searchModalContainer: PropTypes.object,
+  getSearchResultsRequest: PropTypes.func.isRequired,
+  profileUserType: PropTypes.string.isRequired,
+  resetForSearchByChange: PropTypes.func.isRequired,
+  loginUserOrg: PropTypes.string.isRequired,
+  showWarningModal: PropTypes.func.isRequired,
+  showSearchClassAssignModal: PropTypes.func.isRequired,
+  showAccountDeleteModal: PropTypes.func.isRequired,
+};
+&nbsp;
+const mapStateToProps <span class="cstat-no" title="statement not covered" >= createStructuredSelector({</span>
+  searchModalContainer: makeSelectSearchModalContainer(),
+  profileUserType: makeSelectProfileUserType(),
+  loginUserOrg: makeSelectLoginUserOrg(),
+});
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(mapStateToProps, {</span>
+  hideModal,
+  getSearchMetaDataRequest,
+  resetSearchMetaData,
+  getSearchResultsRequest,
+  resetForSearchByChange,
+  openClassAssignModal,
+  showWarningModal,
+  showSearchClassAssignModal,
+  showAccountDeleteModal,
+});
+&nbsp;
+const withReducer <span class="cstat-no" title="statement not covered" >= injectReducer({ key: 'searchModalContainer', reducer });</span>
+const withSaga <span class="cstat-no" title="statement not covered" >= injectSaga({ key: 'searchModalContainer', saga });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withReducer, withSaga, withConnect)(SearchModalContainer);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

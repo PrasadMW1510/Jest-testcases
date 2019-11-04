@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TeacherMadeQuiz/> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="Teacher-Made Quizzes"
+    isOpen={true}
+    modalClassModifier="modal--teachermade-form"
+    quizData={Array []}
+  >
+    <div
+      className="school-form school-form--orange"
+    >
+      <div
+        className="teacher-made-quiz-title"
+      >
+        Teacher-Made Quizzes
+      </div>
+      <form
+        id="teacher-made-quiz-profile-form"
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="modal__wrapper"
+        >
+          <aside
+            className="modal__wrapper-sidebar"
+          >
+            <div
+              className="teacher-made-modal-title"
+            >
+              Quiz Name
+            </div>
+            <ul
+              className="tmq-quiz-list tmq-quiz-list-scroll"
+            >
+              <li
+                className="tmq-links"
+              >
+                <Link
+                  className="tmq-links-create-quiz"
+                  onClick={[Function]}
+                  replace={false}
+                  to="#"
+                >
+                  Create a New Quiz
+                </Link>
+              </li>
+              <TeacherMadeQuizList
+                cliclHandler={[Function]}
+                data={Array []}
+              />
+            </ul>
+          </aside>
+          <main
+            className="modal__wrapper-content"
+          >
+            <div
+              className="modal__wrapper-content__error-message"
+            />
+            <div
+              className="modal__wrapper-content-main"
+            >
+              <div
+                className="modal__wrapper-default-content"
+              >
+                <div
+                  className="teacher-made-quiz-choose"
+                >
+                  Please choose a quiz to edit.
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal__wrapper-action"
+            >
+              <SAMButton
+                buttonClassModifier="modal__wrapper-action-close"
+                buttonType="button"
+                isPrimaryButton={false}
+                onClickHandler={[Function]}
+              >
+                Close
+              </SAMButton>
+              <SAMButton
+                buttonClassModifier="modal__wrapper-action-save"
+                buttonType="submit"
+                isPrimaryButton={true}
+              >
+                Save
+              </SAMButton>
+            </div>
+          </main>
+        </div>
+      </form>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--teachermade-form-warning"
+  >
+    <div
+      className="school-form-warning"
+    >
+      <div>
+        Reading Level must be less than 1000.
+      </div>
+      <SAMButton
+        buttonClassModifier="school-form-warning-ok"
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Ok
+      </SAMButton>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--teachermade-form-warning"
+  >
+    <div
+      className="school-form-warning"
+    >
+      Please enter both a Lexile score and a Word Count to calculate the Point value.
+      <SAMButton
+        buttonClassModifier="school-form-warning-ok"
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Ok
+      </SAMButton>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="Delete Quiz"
+    isOpen={false}
+    modalClassModifier="modal-teachermade-delete-warning"
+  >
+    <div
+      className="modal-teachermade-delete-title"
+    >
+      Delete Quiz
+    </div>
+    <div
+      className="modal--wrapper-warning"
+    >
+      <div
+        className="delete-quiz-content"
+      >
+        Are you sure you want to delete this quiz? This action can not be undone.
+      </div>
+      <div
+        className="teacher-made-quiz-delete-button"
+      >
+        <SAMButton
+          buttonClassModifier="teacher-made-quiz-delete-warning-cancel"
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          Cancel
+        </SAMButton>
+        <SAMButton
+          buttonClassModifier="teacher-made-quiz-delete-warning-delete"
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Delete
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

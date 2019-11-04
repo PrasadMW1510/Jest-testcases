@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingContainerRequest action 1`] = `
+Object {
+  "type": "app/XSkillsSettingContainer/XSKILLS_SETTING_CONTAINER_REQUEST",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingContainerRequestFailure action 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/XSkillsSettingContainer/XSKILLS_SETTING_CONTAINER_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingContainerRequestSuccess action 1`] = `
+Object {
+  "programSettings": Object {},
+  "testAssignmentMeta": Object {},
+  "type": "app/XSkillsSettingContainer/XSKILLS_SETTING_CONTAINER_REQUEST_SUCCESS",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingsRequest action 1`] = `
+Object {
+  "type": "app/XSkillsSettingContainer/XSKILLS_SETTINGS_REQUEST",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingsRequestFailure action 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/XSkillsSettingContainer/XSKILLS_SETTINGS_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingsRequestSuccess action 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/XSkillsSettingContainer/XSKILLS_SETTINGS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsSettingsSaveRequest action 1`] = `
+Object {
+  "settings": Object {
+    "settings": Array [],
+  },
+  "type": "app/XSkillsSettingContainer/XSKILLS_SETTINGS_SAVE_REQUEST",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsTestAssignmentSaveRequest action 1`] = `
+Object {
+  "data": Object {
+    "output": Object {
+      "output_data": Object {
+        "test_number": "3",
+      },
+    },
+  },
+  "type": "XSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsTestAssignmentSaveRequestFailure action 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "XSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`XSkillsSettingContainer actions should match xSkillsTestAssignmentSaveRequestSuccess action 1`] = `
+Object {
+  "results": Object {},
+  "type": "XSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_SUCCESS",
+}
+`;

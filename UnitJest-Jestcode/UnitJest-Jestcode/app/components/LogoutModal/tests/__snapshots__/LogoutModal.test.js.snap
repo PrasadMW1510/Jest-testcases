@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoutModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="Logout Modal"
+  isOpen={true}
+>
+  <div
+    className="logout-modal__message"
+  >
+    Do you really want to exit? If not, click Cancel. Otherwise, click Exit SAM to close the program.
+  </div>
+  <button
+    className="logout-modal__no"
+  >
+    Cancel
+  </button>
+  <button
+    className="logout-modal__yes"
+  >
+    Exit SAM
+  </button>
+</SAMModal>
+`;

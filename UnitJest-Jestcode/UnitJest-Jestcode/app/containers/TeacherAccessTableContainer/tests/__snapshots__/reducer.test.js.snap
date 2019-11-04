@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`teacherAccessTableContainerReducer should handle teacher Access Save request actions 1`] = `
+Immutable.Map {
+  error: false,
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  loadingApps: true,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Access Save request failure actions 1`] = `
+Immutable.Map {
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  error: "err",
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  loadingTeachers: false,
+  loadingApps: false,
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Access Saverequest success actions 1`] = `
+Immutable.Map {
+  error: false,
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: false,
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: true,
+  loadingApps: true,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Apps Usage request actions 1`] = `
+Immutable.Map {
+  error: false,
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  loadingApps: true,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Apps Usage request failure actions 1`] = `
+Immutable.Map {
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  error: "err",
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  loadingTeachers: false,
+  loadingApps: false,
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Apps Usage request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.Map {
+  },
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  loadingApps: false,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Enroll request actions 1`] = `
+Immutable.Map {
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  error: false,
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  loadingTeachers: true,
+  loadingApps: true,
+  loading: true,
+  itemCount: -1,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Enroll request failure actions 1`] = `
+Immutable.Map {
+  paginationData: Immutable.Map {
+  },
+  saveSuccess: false,
+  error: "err",
+  teacherEnroll: Immutable.List [
+  ],
+  teacherAppsUsage: Immutable.List [
+  ],
+  loadingTeachers: false,
+  loadingApps: false,
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`teacherAccessTableContainerReducer should handle teacher Enroll request success actions 1`] = `
+Immutable.Map {
+  paginationData: undefined,
+  saveSuccess: false,
+  error: false,
+  teacherEnroll: undefined,
+  teacherAppsUsage: Immutable.List [
+  ],
+  loadingTeachers: false,
+  loadingApps: true,
+  loading: false,
+  itemCount: undefined,
+}
+`;

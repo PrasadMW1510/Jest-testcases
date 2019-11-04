@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivateQuizContainer /> should call activateQuiz else  1`] = `
+<div>
+  <ActivateQuiz
+    activateQuiz={[Function]}
+    activateQuizRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [
+          "iii",
+        ],
+      }
+    }
+    showMessageLogModal={[Function]}
+  />
+</div>
+`;
+
+exports[`<ActivateQuizContainer /> should call activateQuiz if  1`] = `undefined`;
+
+exports[`<ActivateQuizContainer /> should render correctly for if 1`] = `
+<div>
+  <ActivateQuiz
+    activateQuiz={[Function]}
+    activateQuizRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [],
+      }
+    }
+    showMessageLogModal={[Function]}
+  />
+</div>
+`;

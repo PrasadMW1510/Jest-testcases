@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/Read180StudentWorkContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getRead180StudentWorkRequest 1`] = `
+Object {
+  "read180nData": Object {
+    "name": "comskill 1",
+  },
+  "type": "containers/Read180NgContainer/Read180_Student_work_detail_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getRead180StudentWorkRequestSuccess 1`] = `
+Object {
+  "resultsData": Object {
+    "name": "culture 1",
+  },
+  "type": "containers/Read180NgContainer/Read180_Student_work_detail_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for read180StudentWorkRequest 1`] = `
+Object {
+  "read180StudentWorkPreviewData": Array [
+    Object {
+      "name": "award 1",
+    },
+  ],
+  "type": "app/Read180StudentWorkContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for setRead180StudentWorkData 1`] = `
+Object {
+  "read180ngData": Object {
+    "type": "genre 1",
+  },
+  "type": "containers/Read180NgContainer/set_read180_Student_work_data",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for setRead180StudentWorkRequestSuccess 1`] = `
+Object {
+  "resultsData": Object {
+    "type": "interestLevel 1",
+  },
+  "type": "containers/Read180NgContainer//set_read180_Student_work_data_success",
+}
+`;

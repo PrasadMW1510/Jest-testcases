@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/StudentWorks/StudentWorks.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/StudentWorks</a> StudentWorks.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/111</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/71</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/22</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/56</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import ResultsTable <span class="cstat-no" title="statement not covered" >from './ResultsTable';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Const<span class="cstat-no" title="statement not covered" >ants from '../../components/InBox/constants'</span>;<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >import './StudentWorks.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class St<span class="cstat-no" title="statement not covered" >udentWorks extends Reac<span class="fstat-no" title="function not covered" >t.</span>Component {<span class="cstat-no" title="statement not covered" ></span></span>
+  construct<span class="fstat-no" title="function not covered" >or(props) {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+    super(pr<span class="cstat-no" title="statement not covered" >ops);</span>
+    this.state = {
+      searchBy: 'Title',
+      searchResultsIdsChecked: [],
+      selectedrows: [],
+      selectAll: false,
+      searchFilterInfo: '',
+    };
+  }
+&nbsp;
+  toggleAllCheckboxes = (i<span class="fstat-no" title="function not covered" >sC</span>hecked, itemIds) =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      searchResultsIdsChecked: itemIds,
+      selectAll: isChecked,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleRowSelections = (i<span class="fstat-no" title="function not covered" >sC</span>hecked, itemId, row) =&gt; {
+    if<span class="cstat-no" title="statement not covered" > (isChecked) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.state.selectedrows.push(row);</span>
+    } else {
+      const Index = <span class="cstat-no" title="statement not covered" >this.state.searchResultsIdsChecked.findIndex(e<span class="fstat-no" title="function not covered" >le</span>ment =&gt; element ==<span class="cstat-no" title="statement not covered" >= itemId);</span></span>
+      th<span class="cstat-no" title="statement not covered" >is.state.selectedrows.splice(Index, 1);</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleClick = cl<span class="fstat-no" title="function not covered" >ic</span>kedValue =&gt; {
+    const mathvalue = <span class="cstat-no" title="statement not covered" >Constants.MATH_VALUE_1;</span>
+    const mathvalue2 = <span class="cstat-no" title="statement not covered" >Constants.MATH_VALUE_2;</span>
+    if<span class="cstat-no" title="statement not covered" > (clickedValue === mathvalue || clickedValue === mathvalue2) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.showInboxProgram();</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleDetailProgram = (p<span class="fstat-no" title="function not covered" >ro</span>gramRow, selectedIndex, metaData) =&gt; {
+    const read180 = <span class="cstat-no" title="statement not covered" >['R180NG', 'RTNG', 'S44NG'];</span>
+    const mathvalue = <span class="cstat-no" title="statement not covered" >['M180', 'M180Y2'];</span>
+    if<span class="cstat-no" title="statement not covered" > (</span>
+      programRow.assignment === Constants.ASSIGN_SUCCESS_RECORDING ||
+      programRow.assignment === Constants.ASSIGN_FINAL_RECORDING
+    ) {
+      th<span class="cstat-no" title="statement not covered" >is.props.showSystem44SuccessRecordModal(programRow, selectedIndex, metaData);</span>
+      re<span class="cstat-no" title="statement not covered" >turn false;</span>
+    }
+    if<span class="cstat-no" title="statement not covered" > (read180.findIndex(re<span class="fstat-no" title="function not covered" >ad</span>value =&gt; readvalue =<span class="cstat-no" title="statement not covered" >== programRow.community_id) &gt; -1) {</span></span>
+      if<span class="cstat-no" title="statement not covered" > (</span>
+        programRow.assignment === Constants.ASSIGN_RESPOND_WRITE ||
+        programRow.assignment === Constants.ASSIGN_WRITE_ACTIVITY
+      ) {
+        th<span class="cstat-no" title="statement not covered" >is.props.showRead180RespondWriteModal(</span>
+          programRow,
+          'StudentWorks',
+          selectedIndex,
+          metaData
+        );
+        re<span class="cstat-no" title="statement not covered" >turn false;</span>
+      }
+      th<span class="cstat-no" title="statement not covered" >is.props.showRead180Modal(programRow, 'StudentWorks', selectedIndex, metaData);</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (mathvalue.findIndex(mv<span class="fstat-no" title="function not covered" >al</span>ue =&gt; mvalue === <span class="cstat-no" title="statement not covered" >programRow.community_id) &gt; -1) {</span></span>
+      th<span class="cstat-no" title="statement not covered" >is.props.showInboxProgram(programRow, 'StudentWorks', selectedIndex, metaData);</span>
+    }
+    if<span class="cstat-no" title="statement not covered" > (programRow.community_id === 'S44NG') {</span>
+      if<span class="cstat-no" title="statement not covered" > (programRow.from === 'Student Goals') {</span>
+        const mappedMetaData = <span class="cstat-no" title="statement not covered" >metaData;</span>
+        ma<span class="cstat-no" title="statement not covered" >ppedMetaData[selectedIndex].kind = 'Goal';</span>
+        ma<span class="cstat-no" title="statement not covered" >ppedMetaData[selectedIndex].goals = metaData[selectedIndex].date</span>
+          .split('T')[0]
+          .split('-')
+          .reverse()
+          .join('/');
+        ma<span class="cstat-no" title="statement not covered" >ppedMetaData[selectedIndex].student_name = mappedMetaData[selectedIndex].student;</span>
+        ma<span class="cstat-no" title="statement not covered" >ppedMetaData[selectedIndex].studentId = mappedMetaData[selectedIndex].id;</span>
+        th<span class="cstat-no" title="statement not covered" >is.props.showSystem44StudentGoalsModal({</span>
+          ...programRow,
+          location: this.props.location,
+          metaData: mappedMetaData,
+          selectedIndex,
+        });
+      }
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (programRow.community_id === 'S44JR') {</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.showIReadStudentWorkModal(programRow);</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn true;</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleRowCheckboxOnChange = (i<span class="fstat-no" title="function not covered" >sC</span>hecked, itemId) =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState(pre<span class="fstat-no" title="function not covered" >vi</span>ousState =&gt; {</span>
+      const searchResultsIdsChecked = <span class="cstat-no" title="statement not covered" >previousState.searchResultsIdsChecked;</span>
+&nbsp;
+      if<span class="cstat-no" title="statement not covered" > (isChecked) {</span>
+        se<span class="cstat-no" title="statement not covered" >archResultsIdsChecked.push(itemId);</span>
+      } else {
+        const Index = <span class="cstat-no" title="statement not covered" >searchResultsIdsChecked.findIndex(<span class="fstat-no" title="function not covered" >el</span>ement =&gt; element =<span class="cstat-no" title="statement not covered" >== itemId);</span></span>
+        se<span class="cstat-no" title="statement not covered" >archResultsIdsChecked.splice(Index, 1);</span>
+      }
+      re<span class="cstat-no" title="statement not covered" >turn { searchResultsIdsChecked };</span>
+    });
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+&nbsp;
+  render() {
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div&gt;
+        &lt;div className="student-work-remove-btn"&gt;
+          &lt;a&gt;Remove&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div className="student-work-header-right-block"&gt;
+          &lt;ResultsTable
+            data={this.props.data}
+            toggleAllCheckboxes={this.toggleAllCheckboxes}
+            handleClick={this.handleClick}
+            searchResultsIdsChecked={this.state.searchResultsIdsChecked}
+            handleRowSelections={this.handleRowSelections}
+            handleRowCheckboxOnChange={this.handleRowCheckboxOnChange}
+            selectAll={this.state.selectAll}
+            handleDetailProgram={this.handleDetailProgram}
+          /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >StudentWorks.propTypes = {</span>
+  data: PropTypes.array,
+  showInboxProgram: PropTypes.func.isRequired,
+  showRead180Modal: PropTypes.func,
+  showSystem44StudentGoalsModal: PropTypes.func.isRequired,
+  showIReadStudentWorkModal: PropTypes.func.isRequired,
+  location: PropTypes.object,
+  showRead180RespondWriteModal: PropTypes.func,
+  showSystem44SuccessRecordModal: PropTypes.func,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default StudentWorks;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

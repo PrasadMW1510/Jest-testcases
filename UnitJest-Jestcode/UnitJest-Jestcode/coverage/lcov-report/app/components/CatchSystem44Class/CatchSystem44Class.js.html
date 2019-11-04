@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/CatchSystem44Class/CatchSystem44Class.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/CatchSystem44Class</a> CatchSystem44Class.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/70</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/58</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/20</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/27</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * CatchSystem44Class
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Const<span class="cstat-no" title="statement not covered" >ants from './constants'</span>;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class CatchSystem44Class extends React.Component {
+  getAssignmentRoaster = (student, index) =&gt; {
+    if (this.props.students != null) {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span>
+      let sys44Student = '0<span class="cstat-no" title="statement not covered" >';</span>
+      if<span class="cstat-no" title="statement not covered" > (</span>
+        this.props.studentDetails.students !== undefined &amp;&amp;
+        this.props.studentDetails.students[0].student[index].applications !== undefined
+      ) {
+        fo<span class="cstat-no" title="statement not covered" >r (</span>
+          let i = 0;
+          i &lt;
+          this.props.studentDetails.students[0].student[index].applications[0].application.length;
+          i += 1
+        ) {
+          if<span class="cstat-no" title="statement not covered" > (</span>
+            this.props.studentDetails.students[0].student[index].applications[0].application[i]
+              .app_id[0] === Constants.CATCH_ALL_CLASS_SYSTEM44
+          ) {
+            sy<span class="cstat-no" title="statement not covered" >s44Student = '1';</span>
+          }
+        }
+      }
+      if<span class="cstat-no" title="statement not covered" > (sys44Student === '1') {</span>
+        re<span class="cstat-no" title="statement not covered" >turn (</span>
+          &lt;div className="catchall-modal-assignment" key={index}&gt;
+            &lt;div className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig"&gt;
+              &lt;input
+                name={`checkbox_${index}`}
+                type="checkbox"
+                onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  th<span class="cstat-no" title="statement not covered" >is.props.handleSelectChange(event, index);</span>
+                }}
+                checked={this.props.students[index].checked}
+              /&gt;
+              {this.props.studentDetails.students &amp;&amp;
+                this.props.studentDetails.students[0].student[index].student_last_name[0]}
+              {this.props.studentDetails.students &amp;&amp;
+                this.props.studentDetails.students[0].student[index].student_first_name[0]}
+            &lt;/div&gt;
+            &lt;div className="catchall-modal-assignment-one font-wei-normal bord-top-bot-rig txt-center"&gt;
+              &lt;input
+                className="print-catchall-modal-assignment-textbox1"
+                value={this.props.students[index].score}
+                name={`score${index}`}
+                onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  th<span class="cstat-no" title="statement not covered" >is.props.handleInputChange(event, index);</span>
+                }}
+                disabled={this.props.students[index].textdisable}
+              /&gt;
+              &lt;span&gt;/&lt;/span&gt;
+              &lt;input
+                className="print-catchall-modal-assignment-textbox2"
+                value={this.props.students[index].total}
+                name={`total${index}`}
+                onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  th<span class="cstat-no" title="statement not covered" >is.props.handleInputChange(event, index);</span>
+                }}
+                disabled={this.props.students[index].textdisable}
+              /&gt;
+              &lt;button
+                className="print-catchall-modal-button-equals"
+                name="average"
+                disabled={this.props.students[index].buttonDisable}
+                onClick={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  this<span class="cstat-no" title="statement not covered" >.props.gradePercent(event, index);</span>
+                }}
+              &gt;
+                =
+              &lt;/button&gt;
+              &lt;input
+                type="textbox"
+                className="print-catchall-modal-assignment-textbox3"
+                value={this.props.students[index].average}
+                name={`average${index}`}
+                onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  th<span class="cstat-no" title="statement not covered" >is.props.handleInputChange(event, index);</span>
+                }}
+                disabled={this.props.students[index].textdisable}
+              /&gt;
+              &lt;span&gt;%&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div className="catchall-modal-assignment-three font-wei-normal bord-top-bot-rig"&gt;
+              &lt;input
+                type="textbox"
+                className="print-catchall-modal-assignment-textbox-comment"
+                value={this.props.students[index].comment}
+                name={`comment${index}`}
+                onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                  th<span class="cstat-no" title="statement not covered" >is.props.handleInputChange(event, index);</span>
+                }}
+              /&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        );
+      }
+    }
+    re<span class="cstat-no" title="statement not covered" >turn '';</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div className="catchall-modal-title"&gt;
+        &lt;div className="catchall-name"&gt;
+          &lt;div&gt;
+            &lt;div className="print-catchallclass-modal-title"&gt;
+              &lt;span className="catchallclass-assignmenttype-error-content"&gt;Students :&lt;/span&gt;
+              &lt;span className="print-catchallclass-modal-title-span"&gt; &lt;/span&gt;{' '}
+              &lt;div className="catchallclass-assignmenttype-error-main"&gt;
+                &lt;span className="print-catchallclass-modal-title-span"&gt;
+                  {' '}
+                  &lt;select
+                    name="communityId"
+                    onChange={this.props.handleDatachange}
+                    className="assignment-passage-select"
+                    value={this.props.communityId}
+                  &gt;
+                    &lt;option value=""&gt;Select Program&lt;/option&gt;
+                    &lt;option value="M180Y2"&gt;Math 180 Year 2&lt;/option&gt;
+                    &lt;option value="S44JR"&gt;iRead&lt;/option&gt;
+                    &lt;option value="S44NG,R180NG"&gt;System 44 Next Generation&lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/span&gt;{' '}
+              &lt;/div&gt;
+              &lt;span className="catchallclass-assignmenttype-error-content"&gt;Assignment Type: &lt;/span&gt;
+              &lt;div className="catchallclass-assignmenttype-error-main"&gt;
+                &lt;select
+                  className="print-catchall-modal-select"
+                  name="assignmentType"
+                  onChange={this.props.gradeChanges}
+                &gt;
+                  &lt;option value=""&gt;Assignment Type &lt;/option&gt;
+                  &lt;option value="QuickWrites"&gt;QuickWrites &lt;/option&gt;
+                  &lt;option value="Participation"&gt;Participation&lt;/option&gt;
+                  &lt;option value="Evidence Based Writing"&gt;Evidence Based Writing&lt;/option&gt;
+                  &lt;option value="Research"&gt;Research&lt;/option&gt;
+                  &lt;option value="others"&gt;Other&lt;/option&gt;
+                &lt;/select&gt;{' '}
+                &lt;span className="catchallclass-error-text-color"&gt;
+                  {this.props.assignmentTypeError}
+                &lt;/span&gt;
+              &lt;/div&gt;
+              &lt;span className="catchallclass-assignmenttype-error-content"&gt;Assignment Name &lt;/span&gt;
+              &lt;div className="catchallclass-assignmenttype-error-main"&gt;
+                &lt;input
+                  type="textbox"
+                  name="assName"
+                  className="print-catchall-modal-input-textbox"
+                  value={this.props.name}
+                  onChange={this.props.gradeChanges}
+                /&gt;
+                &lt;span className="catchallclass-error-text-color"&gt;
+                  {this.props.assignmentNameError}
+                &lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="print-catchall-modal-description-box"&gt;
+          &lt;div className="print-catchall-modal-description-title"&gt;Description:&lt;/div&gt;
+          &lt;div className="print-catchall-modal-description-textarea"&gt;
+            &lt;textarea
+              name="desc"
+              className="print-catchall-modal-description-textarea-text"
+              rows="3"
+              cols="75"
+              value={this.props.desc}
+              onChange={this.props.gradeChanges}
+            /&gt;
+            &lt;div className="print-catchall-modal-description-inbox"&gt; &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="print-catchall-modal-due-date"&gt;
+          &lt;div className="print-catchall-modal-description-title"&gt;Due Date:&lt;/div&gt;
+          &lt;div className="print-catchall-modal-due-date-textarea"&gt;
+            &lt;div className="print-catchall-modal-due-date-inbox"&gt;
+              &lt;p className="print-catchall-modal-due-date-content1"&gt;
+                {' '}
+                Input a due date for the assignment or select a date from the calendar:{' '}
+              &lt;/p&gt;
+              &lt;div className="catchallclass-print-due-date"&gt;
+                &lt;input
+                  className="print-catchall-modal-due-date-input"
+                  type="date"
+                  name="dateValue"
+                  value={this.props.dateValue}
+                  onChange={this.props.gradeChanges}
+                /&gt;
+                &lt;span className="catchallclass-error-text-color"&gt;{this.props.dueDateError}&lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="print-catchall-modal-assignment-roster-box"&gt;
+          &lt;div className="print-catchall-modal-description-title"&gt;Assignment Roster:&lt;/div&gt;
+          &lt;div className="print-catchall-modal-assignment-roster-textarea1"&gt;
+            &lt;div className="print-catchall-modal-assignment-roster-div-headers11"&gt;
+              &lt;div className="print-catchall-modal-assignment-roster-div-details"&gt;
+                &lt;div className="print-catchall-modal-assignment-roster-main"&gt;
+                  &lt;div className="print-catchall-modal-assignment-roster-div-conent"&gt;
+                    Select students that will complete the assessment. If you would like to enter
+                    grades, enter percentages in the percentage fields below. You may also calculate
+                    grades by entering the student&amp;apos;s score and the total points possible and
+                    clicking the equal button.
+                  &lt;/div&gt;
+                  &lt;div className="print-catchall-modal-assignment-roster-div-content-error"&gt;
+                    &lt;span className="catchallclass-error-text-color"&gt;
+                      {this.props.studentError}
+                    &lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;br /&gt;
+              &lt;/div&gt;
+              Students{' '}
+              &lt;span className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-grades"&gt;
+                Grades
+              &lt;/span&gt;{' '}
+              &lt;span className="print-catchall-modal-assignment-span print-catchall-modal-assignment-roster-comments"&gt;
+                Comments
+              &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div className="print-catchall-modal-assignment-wrapper1"&gt;
+              &lt;div&gt;
+                &lt;input
+                  name="selected"
+                  type="checkbox"
+                  onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                    th<span class="cstat-no" title="statement not covered" >is.props.handleAllSelectChange(event);</span>
+                  }}
+                  checked={this.props.checked}
+                /&gt;
+                Select All
+              &lt;/div&gt;
+&nbsp;
+              &lt;div className="print-catchall-modal-assignment-roster-inbox"&gt; &lt;/div&gt;
+              &lt;div&gt;
+                {this.props.studentDetails !== undefined &amp;&amp;
+                  this.props.studentDetails.students !== undefined &amp;&amp;
+                  this.props.studentDetails.students[0].student.map(<span class="fstat-no" title="function not covered" >(s</span>tudent, i) =&gt;<span class="cstat-no" title="statement not covered" ></span>
+                    this.getAssignmentRoaster(student, i)
+                  )}
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >CatchSystem44Class.propTypes = {</span>
+  handleDatachange: PropTypes.func,
+  communityId: PropTypes.string,
+  assignmentTypeError: PropTypes.string,
+  name: PropTypes.string,
+  gradeChanges: PropTypes.func,
+  assignmentNameError: PropTypes.string,
+  desc: PropTypes.string,
+  dateValue: PropTypes.string,
+  dueDateError: PropTypes.string,
+  studentError: PropTypes.string,
+  handleAllSelectChange: PropTypes.func,
+  checked: PropTypes.bool,
+  studentDetails: PropTypes.any,
+  students: PropTypes.array,
+  handleSelectChange: PropTypes.func,
+  handleInputChange: PropTypes.func,
+  gradePercent: PropTypes.func,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default CatchSystem44Class;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* stylelint-disable-next-line selector-class-pattern */
+.add-group-select-student > .ReactTable {
+  height: 302px;
+  overflow: hidden;
+  border: 0;
+  text-align: center;
+  border-top: 1px solid #000;
+
+  .rt-thead {
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-th {
+    background-color: #fdb12a;
+  }
+
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #fda128;
+  }
+
+  .rt-tbody {
+    display: inline-grid;
+    background-color: #feeea3;
+  }
+
+  .rt-tr-group {
+    border-bottom: 1px solid #000;
+    height: 25px;
+  }
+
+  .rt-tr-group:last-child {
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-td {
+    padding-top: 3px;
+    border-right: 1px solid #000;
+  }
+}

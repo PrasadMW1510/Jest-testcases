@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditAdminWarning /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="edit-admin-warning"
+>
+  <div
+    className="edit-admin-warning--message"
+  >
+    Changing usernames will create a new Interactive Teaching System (ITS) profile for READ 180 users and make previously stored ITS data inaccessible. Are you sure you want to change the username?
+  </div>
+  <SAMButton
+    buttonClassModifier="edit-admin-warning--ok-button"
+    buttonType="button"
+    isPrimaryButton={true}
+    onClickHandler={[Function]}
+  >
+    OK
+  </SAMButton>
+  <SAMButton
+    buttonClassModifier="edit-admin-warning--cancel-button"
+    buttonType="button"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Cancel
+  </SAMButton>
+</SAMModal>
+`;

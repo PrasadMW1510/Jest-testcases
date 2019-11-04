@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorBoundary /> no error Expect to match snapshots 1`] = `
+<div>
+  some child component
+</div>
+`;

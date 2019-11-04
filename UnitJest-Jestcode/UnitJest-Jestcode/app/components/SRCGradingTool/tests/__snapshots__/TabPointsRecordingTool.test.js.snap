@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabPointsRecordingTool /> Expect to render correctly 1`] = `
+<div
+  className="src-points__recording-tool-content"
+>
+  <span
+    className="quiz-score__instruction-text"
+  >
+    d
+     
+    h
+  </span>
+  <span
+    className="points-score__students-stats"
+  >
+    Points Earned to Date: 
+    0
+  </span>
+  <span
+    className="points-score__students-stats"
+  >
+    Points Used to Date: 
+    0
+  </span>
+  <span
+    className="points-score__students-stats"
+  >
+    Points Available: 
+    0
+  </span>
+  <div
+    className="inline-text__points-summary"
+  >
+    <span
+      className="points-score__points-summary-text"
+    >
+      Points Usage Summary
+    </span>
+    <button
+      className="points-score__redeem-points-link"
+    >
+      Redeem Points
+    </button>
+  </div>
+  <SAMTable
+    checkedIds={Array []}
+    className="src-points-summary__table"
+    columns={
+      Array [
+        Object {
+          "Header": [Function],
+          "accessor": "Points Redeemed",
+          "id": "Points Redeemed",
+          "width": 210,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "Date Redeemed",
+          "id": "Date Redeemed",
+          "width": 210,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "Entered By",
+          "id": "Entered By",
+          "width": 320,
+        },
+      ]
+    }
+    data={Array []}
+    hasCheckboxes={false}
+    pageSize={0}
+    selectAll={false}
+    sortable={true}
+  />
+  <withRouter(SAMLinkButton)
+    buttonClassModifier="quiz-score__cancel-button"
+    id="cancelAndReturn"
+    to="/roster"
+  >
+    Cancel & Return
+  </withRouter(SAMLinkButton)>
+  <div />
+</div>
+`;

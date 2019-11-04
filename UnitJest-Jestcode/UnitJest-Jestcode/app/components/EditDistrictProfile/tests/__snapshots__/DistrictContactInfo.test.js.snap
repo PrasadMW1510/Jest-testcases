@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DistrictContactInfo /> Expect to match snapshot 1`] = `
+<div
+  className="edit-district-profile__form-contact-info"
+>
+  <Field
+    component={[Function]}
+    label="District Contact Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    showAsterisk={false}
+    type="text"
+    withRef={true}
+  />
+  <Field
+    component={[Function]}
+    label="District Contact First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    showAsterisk={false}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Contact Middle Name"
+    maxLength={40}
+    name="middle_name"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Contact Title"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Contact Email"
+    maxLength={40}
+    name="email_address1"
+    required={true}
+    showAsterisk={false}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Address Line 1"
+    maxLength={40}
+    name="address1"
+    required={true}
+    showAsterisk={false}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Address Line 2"
+    maxLength={40}
+    name="address2"
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    label="District Address Line 3"
+    maxLength={40}
+    name="address3"
+    type="text"
+  />
+  <Field
+    className="edit-district-profile__city"
+    component={[Function]}
+    hasSiblingInputErrors={false}
+    label="City, State, and Zip Code"
+    maxLength={30}
+    name="city"
+    required={true}
+    showAsterisk={false}
+    type="text"
+  />
+  <Field
+    className="edit-district-profile__state"
+    component={[Function]}
+    maxLength={2}
+    name="state"
+    type="text"
+  />
+  <Field
+    className="edit-district-profile__zip"
+    component={[Function]}
+    name="postal_code"
+    normalize={[Function]}
+    type="text"
+  />
+  <InputPhoneNumber
+    className=""
+    label="Contact Phone Number"
+    name="phone_number1"
+    required={true}
+    showAsterisk={false}
+  />
+</div>
+`;

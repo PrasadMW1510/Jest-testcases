@@ -1,0 +1,11 @@
+.resources-browse-container {
+  border: 1px solid;
+  font-size: 12px;
+  height: 320px;
+  overflow: auto;
+  width: 920px;
+}
+
+.resources-browse-container__columns {
+  display: flex;
+}

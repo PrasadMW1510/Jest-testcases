@@ -1,0 +1,60 @@
+.mia-content-panel {
+  background-color: #fff;
+  border: 2px solid #000;
+  height: 540px;
+  padding: 8px;
+  width: 800px;
+}
+
+.mia-content-panel__intro {
+  font-size: 11px;
+}
+
+.mia-content-panel__cohort-selection {
+  padding: 3px 0 10px 25px;
+}
+
+.mia-content-panel__dropdown {
+  background-color: #fff;
+  border: 1px #000 solid;
+  display: inline;
+  font-size: 11px;
+  height: 20px;
+  width: 170px;
+}
+
+.mia-content-panel__heading {
+  margin: 0 0 2px;
+  padding: 0;
+}
+
+.mia-content-panel__footer {
+  display: inline-block;
+  padding: 3px 0 10px 25px;
+  vertical-align: top;
+  width: 40%;
+
+  .btn--secondary {
+    height: 26px;
+    min-width: 30px;
+    width: 30px;
+    display: inline;
+    margin-left: 10px;
+    padding: 0;
+  }
+
+}
+
+.mia-content-panel__item-accumulator {
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 2px;
+  padding: 0 3px;
+}
+
+.mia-content-panel__paginator {
+  display: inline-block;
+  text-align: right;
+  width: 60%;
+}
+

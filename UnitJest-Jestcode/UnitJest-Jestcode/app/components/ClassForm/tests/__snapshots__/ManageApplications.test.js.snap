@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageApplications /> Expect to render correctly 1`] = `
+<Field
+  className="form-control--manage-applications"
+  component={[Function]}
+  formatLabel={[Function]}
+  getId={[Function]}
+  items={
+    Array [
+      Object {
+        "$": Object {
+          "community_id": "XYZ",
+          "name": "app name 1",
+          "version": ".0.0.1",
+        },
+      },
+    ]
+  }
+  label="Manage Applications"
+  name="applications"
+/>
+`;

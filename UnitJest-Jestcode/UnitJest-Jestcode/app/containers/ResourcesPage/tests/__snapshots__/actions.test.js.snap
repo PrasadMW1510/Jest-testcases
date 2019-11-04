@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Get Product actions should return the correct constant for build info 1`] = `
+Object {
+  "type": "get_build_info",
+}
+`;
+
+exports[` Get Product actions should return the correct constant for build info failure 1`] = `
+Object {
+  "errBuildInfo": "invalid user",
+  "type": "get_build_info_FAILURE",
+}
+`;
+
+exports[` Get Product actions should return the correct constant for build info success 1`] = `
+Object {
+  "buildInfo": undefined,
+  "type": "get_build_info_success",
+}
+`;
+
+exports[` Get Product actions should return the correct constant for product list request 1`] = `
+Object {
+  "type": "get_product_search",
+}
+`;
+
+exports[` Get Product actions should return the correct constant for product list request failure 1`] = `
+Object {
+  "error": "invalid user",
+  "type": "get_product_search_failure",
+}
+`;
+
+exports[` Get Product actions should return the correct constant for product list request success 1`] = `
+Object {
+  "output": undefined,
+  "type": "get_product_search_success",
+}
+`;
+
+exports[` Get Product actions should trigger the resources quick search 1`] = `
+Object {
+  "resource": "value",
+  "type": "post_resources_quick_search",
+}
+`;
+
+exports[` Get Product actions should update resources quick search failure 1`] = `
+Object {
+  "errResources": false,
+  "type": "post_resources_quick_search_failure",
+}
+`;
+
+exports[` Get Product actions should update resources quick search success output 1`] = `
+Object {
+  "resource": "success",
+  "type": "post_resources_quick_search_success",
+}
+`;
+
+exports[` Get Product actions should update the status for modal status 1`] = `
+Object {
+  "status": true,
+  "type": "update_resources_quick_modal_status",
+}
+`;

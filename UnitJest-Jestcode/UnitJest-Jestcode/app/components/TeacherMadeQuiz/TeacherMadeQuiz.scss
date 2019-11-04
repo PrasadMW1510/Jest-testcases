@@ -1,0 +1,510 @@
+.modal__wrapper {
+  display: flex;
+}
+
+.teacher-made-quiz-title {
+  background: #fb6042;
+  margin: 0;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px #000;
+}
+
+.modal--teachermade-form {
+  animation: fadein 0.4s;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  margin: 21px 1px;
+  outline: none;
+  height: auto;
+  width: 603px;
+  padding: 0;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .teacher-made-modal-title {
+    background-color: #ff9e61;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0;
+    border-top: 1px solid #000;
+    border-width: 1px 1px 0 0;
+  }
+}
+
+.modal__wrapper-sidebar {
+  border: 1px #000;
+  overflow: auto;
+}
+
+.modal__wrapper {
+  display: flex;
+}
+
+.modal__wrapper-content {
+  padding: 11px 15px 0;
+  width: 100%;
+  border-left: 1px solid #000;
+}
+
+.modal__wrapper-action {
+  display: flex;
+  float: right;
+}
+
+.modal__wrapper-action-close {
+  cursor: pointer;
+  height: 26px;
+  width: 92px;
+  margin: 10px 11px;
+  line-height: 2px;
+}
+
+.modal__wrapper-action-close:hover {
+  border: 1px solid #000;
+}
+
+.modal__wrapper-action-close:focus {
+  outline: 0;
+}
+
+.modal__wrapper-action-save {
+  height: 26px;
+  width: 92px;
+  cursor: pointer;
+  margin: 10px 0;
+  line-height: 2px;
+}
+
+.modal__wrapper-action-save:hover {
+  border: 1px solid #000;
+}
+
+.modal__wrapper-action-save:focus {
+  outline: 0;
+}
+
+.modal__wrapper-action-save .btn,
+.modal__wrapper-action-save .btn--secondary,
+.modal__wrapper-action-save .btn--primary {
+  width: 90px;
+  height: 25px;
+  min-width: 92px;
+  margin: 0 auto;
+}
+
+.modal__wrapper-action-save .btn--primary,
+.modal__wrapper-action-save .btn--secondary,
+.modal__wrapper-action-delete .btn--primary,
+.modal__wrapper-action-delete .btn--secondary,
+.modal__wrapper-action-quizform .btn--primary,
+.modal__wrapper-action-quizform .btn--secondary,
+.modal__wrapper-action-close .btn--primary,
+.modal__wrapper-action-close .btn--secondary {
+  margin: 0 1rem;
+  cursor: pointer;
+  width: 90px;
+  height: 25px;
+  min-width: 92px;
+}
+
+.modal__wrapper-action-save .btn--secondary,
+.modal__wrapper-action-delete .btn--secondary,
+.modal__wrapper-action-close .btn--secondary,
+.modal__wrapper-action-quizform .btn--secondary {
+  margin: 0 0 1rem;
+  cursor: pointer;
+  line-height: 2px;
+  height: 25px;
+}
+
+.teacher-made-btn--secondary:hover {
+  border: 1px solid #000;
+  min-height: 26px;
+}
+
+.editxt {
+  margin: auto;
+}
+
+.modal__wrapper-content-main-form {
+  border: 1px solid #000;
+  margin: 3px 0;
+}
+
+.teacher-made-wrapper-content-modal-title {
+  background-color: #ff9e61;
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0 0 9px;
+}
+
+.form-control {
+  margin-bottom: 0.3rem;
+
+  .form-control__label {
+    font-size: 11px;
+    width: 98px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 0 5px;
+    font-weight: 400;
+  }
+
+  .form-control-label-checkbox {
+    width: 130px !important;
+  }
+}
+
+.teacher-made-quiz-type input {
+  font-size: 13px;
+  margin: 0 5px 2px 0;
+  vertical-align: middle;
+}
+
+.btn-gray {
+  background: #ccc;
+  border: 1px solid #000;
+  font-size: 13px;
+  float: right;
+  box-shadow: 0 1px 0 #fff inset;
+  padding: 0 8px;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 1px #c3c3c3 solid;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  min-height: 20px;
+}
+
+.btn-gray:hover {
+  background: #ccc;
+  padding: 1px 9px 2px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.btn-gray:hover {
+  outline: 0;
+}
+
+.padding-md {
+  padding: 1rem 0 2rem !important;
+}
+
+.sm-field {
+  .form-control__input {
+    width: calc(100% - 236px);
+    margin: 0 86px 0 0;
+  }
+}
+
+.points-field {
+  .form-control__input {
+    width: calc(100% - 14px);
+    max-width: 70px;
+  }
+}
+
+.modal__wrapper-quiz-form .form-control .form-control__input {
+  font-size: 11px;
+  text-indent: 4px;
+}
+
+.modal__wrapper-quiz-form .form-control .form-control__input:focus {
+  outline: 0;
+}
+
+.modal__wrapper-content-main .modal__wrapper-content-main-form .form-control {
+  padding: 1px 3.5rem 1px 1.5rem;
+}
+
+.col-2 {
+  display: flex;
+  position: relative;
+
+  .form-control {
+    width: auto;
+  }
+
+  .form-control__label {
+    width: 140px;
+  }
+
+  .btn-gray {
+    margin: 0 25px 4px -10px;
+    position: absolute;
+    right: 44px;
+  }
+
+  .btn-gray:focus {
+    outline: 0;
+  }
+}
+
+.label-error-tqform {
+  color: #f00;
+}
+
+.teacher-made-quiz-choose {
+  margin: 36% auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.tmq-quiz-list-scroll {
+  overflow: auto;
+  overflow-x: hidden;
+  margin: 0;
+  max-height: 434px;
+  min-height: 150px;
+  line-height: 24px;
+}
+
+.tmq-links a {
+  color: #000;
+  font-size: 11px;
+  padding: 10px 0;
+  text-decoration: underline;
+}
+
+.tmq-links a :focus {
+  outline: 0;
+}
+
+.tmq-links-create-quiz {
+  color: #00f !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.teacher-made-quiz-type label {
+  width: 100%;
+  float: left;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.teacher-made-title {
+  color: #e83408;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.teachermade-field-text {
+  font-size: 12px;
+}
+
+.th-made-qz-error-msg {
+  font-size: 12px;
+  color: #f00;
+}
+
+.teacher-made-quiz-sub-title {
+  display: inline;
+  font-weight: 700;
+  color: #fb6042;
+  font-size: 15px;
+}
+
+.teacher-made-question-content {
+  font-size: 12px;
+}
+
+.tmt-left {
+  float: left;
+}
+
+.modal-teachermade-delete-warning {
+  width: 253px;
+  padding: 0;
+  margin: 13px 0;
+  height: auto;
+  height: 240px;
+}
+
+.modal-teachermade-delete-title {
+  background: #f50404;
+  padding: 0.3rem 1rem;
+  color: #fff;
+  font-weight: 745;
+  font-size: 11px;
+}
+
+.modal--teachermade-form-warning {
+  height: 202px;
+  width: 301px;
+  padding: 10px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 12px;
+  margin: 25px 2px;
+}
+
+.teacher-made-quiz-form-warning {
+  margin-top: 35px;
+}
+
+.teacher-made-quiz-form-warning-ok {
+  margin-left: 7rem;
+  min-width: 0 !important;
+  width: 55px;
+  height: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  background: #fb6042;
+}
+
+.teacher-made-quiz-delete-warning-cancel {
+  min-width: 0 !important;
+  width: 60px;
+  height: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.teacher-made-quiz-delete-warning-cancel:hover {
+  border: 1px solid #000;
+}
+
+.teacher-made-quiz-delete-warning-delete {
+  min-width: 0 !important;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.teacher-made-quiz-delete-warning-delete:hover {
+  border: 1px solid #000;
+}
+
+.delete-quiz-content {
+  font-size: 11px;
+  margin: 30px 0 0 8px;
+  padding: 12px;
+  line-height: 12px;
+  font-family: inherit;
+  text-align: left;
+  width: 87%;
+}
+
+.teacher-made-quiz-delete-button {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.teacher-made-quiz-delete-button .btn--secondary {
+  margin: 50px 35px 0 !important;
+  width: 60px;
+  min-height: 25px;
+  cursor: pointer;
+}
+
+.teacher-made-quiz-delete-button .btn--secondary:focus {
+  outline: 0;
+}
+
+.teacher-made-quiz-delete-button .btn--primary {
+  margin: 50px 0 0 18px !important;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
+}
+
+.teacher-made-quiz-delete-button .btn--primary:focus {
+  outline: 0;
+}
+
+.modal__wrapper-content-main {
+  margin-bottom: 0;
+}
+
+.modal__wrapper-action-delete .btn,
+.modal__wrapper-action-delete .btn--secondary,
+.modal__wrapper-action-delete .btn--primary {
+  float: left;
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.teacher-made-quiz-type .form-control__label {
+  flex: none !important;
+  width: 132px !important;
+  font-family: inherit;
+  font-size: 11px;
+  margin: 1px 9px;
+}
+
+.form-control .textarea {
+  border-bottom: 2px #e4e4e4 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #e4e4e4 solid;
+  border-top: 1px #a6a6a6 solid;
+}
+
+.form-control .textarea:focus {
+  outline: 0;
+}
+
+.modal__wrapper-action-quizform .btn--primary:first-child {
+  margin: 0 88px 0 0;
+}
+
+.modal__wrapper-action-quizform .btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.modal__wrapper-action-quizform .btn--primary:focus {
+  outline: 0;
+}
+
+.modal__wrapper-action-quizform .btn--secondary:hover {
+  border: 1px solid #000;
+}
+
+.modal__wrapper-action-quizform .btn--secondary:focus {
+  outline: 0;
+}
+
+.modal__wrapper-action-quizform .btn--primary:last-child {
+  margin: 0 9px 0 11px;
+}
+
+.school-form-warning-ok {
+  min-width: 54px;
+  height: 25px;
+  margin: 40px 1px 0 110px;
+  width: 54px;
+  background: #fb6042;
+}
+
+.school-form-warning-ok:hover {
+  border: 1px solid #000;
+}
+
+.school-form-warning-ok:focus {
+  outline: 0;
+}
+
+.school-form-warning {
+  margin: 25px 0;
+}

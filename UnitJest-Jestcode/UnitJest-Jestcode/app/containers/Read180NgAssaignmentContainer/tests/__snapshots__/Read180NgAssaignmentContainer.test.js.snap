@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read180NgAssaignmentContainer  Should render Read180NgAssaignmentContainer 1`] = `
+<Read180NgAssaignment
+  addNewAssignment={[Function]}
+  assignmentContainerData={
+    Object {
+      "classAssignmentForClass": Array [
+        "class",
+      ],
+    }
+  }
+  data={
+    Object {
+      "classId": "classid",
+      "newclassId": "nc",
+    }
+  }
+  getClassAssignmentRequest={[Function]}
+  getRead180ngAssignmentRequest={[Function]}
+  getStudentDetails={[Function]}
+  getStudentsSubmissionMetadata={[Function]}
+  hideCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  postSaveNewAssignment={[Function]}
+  read180ngAssaignmentRequest={[Function]}
+  setRead180ngAssignmentRequest={[Function]}
+/>
+`;
+
+exports[`Read180NgAssaignmentContainer  Should render Read180NgAssaignmentContainer 2`] = `
+<Read180NgAssaignment
+  addNewAssignment={[Function]}
+  assignmentContainerData={
+    Object {
+      "classAssignmentForClass": Array [
+        "class",
+      ],
+    }
+  }
+  data={
+    Object {
+      "classId": "classid",
+      "newclassId": "nc",
+    }
+  }
+  getClassAssignmentRequest={[Function]}
+  getRead180ngAssignmentRequest={[Function]}
+  getStudentDetails={[Function]}
+  getStudentsSubmissionMetadata={[Function]}
+  hideCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  postSaveNewAssignment={[Function]}
+  read180ngAssaignmentRequest={[Function]}
+  setRead180ngAssignmentRequest={[Function]}
+/>
+`;

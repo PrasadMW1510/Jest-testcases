@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabBar /> Expect to render correctly 1`] = `
+<div
+  className="tab-bar"
+>
+  <div
+    className="tab-bar__container"
+  >
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--home"
+      component={[Function]}
+      exact={true}
+      to="/"
+    >
+      Home
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--roster"
+      component={[Function]}
+      to="/roster"
+    >
+      Roster
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--reports"
+      component={[Function]}
+      to="/reports"
+    >
+      Reports
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--resources"
+      component={[Function]}
+      to="/resources"
+    >
+      Resources
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--books"
+      component={[Function]}
+      to="/books"
+    >
+      Books
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--portfolio"
+      component={[Function]}
+      to="/portfolio"
+    >
+      Portfolio
+    </Tab>
+  </div>
+</div>
+`;

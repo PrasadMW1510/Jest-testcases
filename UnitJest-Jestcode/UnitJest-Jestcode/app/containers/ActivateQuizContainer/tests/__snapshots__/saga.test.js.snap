@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`postactivateQuizRequest Saga postactivateQuizRequest getPreviewDataFailuresuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`postactivateQuizRequest Saga postactivateQuizRequest getPreviewDataFailuresuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<SetQuizActivationReq><ActiveState>true</ActiveState><Quizzes><QuizId>ggg</QuizId></Quizzes></SetQuizActivationReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`postactivateQuizRequest Saga postactivateQuizRequest getPreviewDataFailuresuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "selectedIds": undefined,
+      "selectedrows": Array [
+        Object {
+          "QuizActive": Array [
+            "true",
+          ],
+          "QuizID": Array [
+            "ggg",
+          ],
+        },
+      ],
+      "type": "SearchResultsContainer/results_save",
+    },
+    "channel": null,
+  },
+}
+`;

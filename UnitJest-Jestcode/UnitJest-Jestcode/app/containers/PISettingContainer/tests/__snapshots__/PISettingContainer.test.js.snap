@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PISettingContainer /> Expect to render correctly 1`] = `
+<PISettings
+  cohortObj={
+    Immutable.Map {
+      cohortType: "mockCohType",
+    }
+  }
+  enrollmentCount={10}
+  handleSave={[Function]}
+  isLoading={false}
+  settings={
+    Immutable.Map {
+    }
+  }
+/>
+`;

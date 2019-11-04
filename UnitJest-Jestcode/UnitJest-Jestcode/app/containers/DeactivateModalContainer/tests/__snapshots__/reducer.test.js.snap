@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`certificateInfoReducer should handle deactivate user request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  deactivateUser: Immutable.List [
+  ],
+}
+`;
+
+exports[`certificateInfoReducer should handle deactivate user request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  deactivateUser: Immutable.Map {
+  },
+}
+`;

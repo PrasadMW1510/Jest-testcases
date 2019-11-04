@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/AdvancedSettings/AdvancedSettings.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/AdvancedSettings</a> AdvancedSettings.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/19</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ></span>
+ *
+ * Advanced Settings
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { Link } from '<span class="cstat-no" title="statement not covered" >react-router-dom';</span>
+import { isUserTy<span class="cstat-no" title="statement not covered" >peAdminOrTech } from 'utils</span>/utilities';
+import { USER_ORG<span class="cstat-no" title="statement not covered" > } from 'containers/App/constants';</span>
+&nbsp;
+import LinkToExternalSAMApp <span class="cstat-no" title="statement not covered" >from 'components/LinkToExternalSAMApp';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import * as Advanc<span class="cstat-no" title="statement not covered" >edSettingsConstants fro</span>m './constants';<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >import './AdvancedSettings.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+function AdvancedSettings(props) {
+  // query param mappings for external SAM app URL's
+  const exportParams = [<span class="fstat-no" title="function not covered" ></span>
+    ['user_id', props<span class="cstat-no" title="statement not covered" >.profileUserId],</span>
+    ['sid', props.profileSessionId],
+    ['district_id', props.profileDistrictId],
+  ];
+&nbsp;
+  const importParams <span class="cstat-no" title="statement not covered" >= [</span>
+    ['user_id', props.profileUserId],
+    ['sid', props.profileSessionId],
+    ['district_id', props.profileDistrictId],
+  ];
+&nbsp;
+  const importTeacherParams <span class="cstat-no" title="statement not covered" >= [</span>
+    ['type', 'Teacher'],
+    ['sid', props.profileSessionId],
+    ['district_id', props.profileDistrictId],
+  ];
+&nbsp;
+  const importAdminParams <span class="cstat-no" title="statement not covered" >= [</span>
+    ['type', 'Admin'],
+    ['sid', props.profileSessionId],
+    ['district_id', props.profileDistrictId],
+  ];
+&nbsp;
+  const manageStudentPromotionsParams <span class="cstat-no" title="statement not covered" >= [</span>
+    ['user_id', props.profileUserId],
+    ['sid', props.profileSessionId],
+  ];
+&nbsp;
+  const viewOutputFilesParams <span class="cstat-no" title="statement not covered" >= [['user_id', props.profileUserId], ['sid', props.profileSessionId]</span>];
+&nbsp;
+  const renderRowForLinkToExternalSAMApp <span class="cstat-no" title="statement not covered" >= (linkTe<span class="fstat-no" title="function not covered" >xt, relativeUrlPath, queryParamLi</span>st) =&gt; (<span class="cstat-no" title="statement not covered" ></span></span>
+    &lt;tr className="advanced-settings-table__tr"&gt;
+      &lt;td className="advanced-settings-table__td"&gt;
+        &lt;LinkToExternalSAMApp
+          linkText={linkText}
+          relativeUrlPath={relativeUrlPath}
+          queryParamList={queryParamList}
+        /&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  );
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="advanced-settings"&gt;
+      &lt;table className="advanced-settings__table"&gt;
+        &lt;thead /&gt;
+        &lt;tbody className="advanced-settings-table__body"&gt;
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              &lt;Link to="/roster/manageStudentLicenses"&gt;Manage Student Licenses&lt;/Link&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              &lt;Link to="/roster/manageTeacherLicenses"&gt;Manage Teacher Licenses&lt;/Link&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          {renderRowForLinkToExternalSAMApp(
+            'Import',
+            AdvancedSettingsConstants.IMPORT_URL_PATH,
+            importParams
+          )}
+          {renderRowForLinkToExternalSAMApp(
+            'Import Teachers',
+            AdvancedSettingsConstants.IMPORT_URL_PATH,
+            importTeacherParams
+          )}
+          {renderRowForLinkToExternalSAMApp(
+            'Import Admins',
+            AdvancedSettingsConstants.IMPORT_URL_PATH,
+            importAdminParams
+          )}
+          {renderRowForLinkToExternalSAMApp(
+            'Export',
+            AdvancedSettingsConstants.EXPORT_URL_PATH,
+            exportParams
+          )}
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              &lt;Link to="/roster/manageInactiveAccounts"&gt;Manage Inactive Accounts&lt;/Link&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          {renderRowForLinkToExternalSAMApp(
+            'Manage Student Promotions',
+            AdvancedSettingsConstants.STUDENT_PROMOTIONS_URL_PATH,
+            manageStudentPromotionsParams
+          )}
+          {renderRowForLinkToExternalSAMApp(
+            'View Output Files',
+            AdvancedSettingsConstants.VIEW_OUTPUT_FILES_URL_PATH,
+            viewOutputFilesParams
+          )}
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              {/* TODO: Use the currently selected school ID as a parameter to this
+                  Maintenance Log link, most likely from the Smart bar data slice? */}
+              &lt;a href="" target="_blank"&gt;
+                Maintenance Log (PDF)
+              &lt;/a&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              &lt;Link to="/roster/manageAdminAccounts"&gt;Manage Admin Accounts&lt;/Link&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr className="advanced-settings-table__tr"&gt;
+            &lt;td className="advanced-settings-table__td"&gt;
+              {props.profileOrgType === USER_ORG.District &amp;&amp;
+                isUserTypeAdminOrTech(props.profileUserType) &amp;&amp; (
+                  &lt;Link to="/roster/manageSMA"&gt;Manage SMA&lt;/Link&gt;
+                )}
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;
+  );
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >AdvancedSettings.propTypes = {</span>
+  profileUserId: PropTypes.string.isRequired,
+  profileDistrictId: PropTypes.string.isRequired,
+  profileSessionId: PropTypes.string.isRequired,
+  profileOrgType: PropTypes.string,
+  profileUserType: PropTypes.string,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default AdvancedSettings;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

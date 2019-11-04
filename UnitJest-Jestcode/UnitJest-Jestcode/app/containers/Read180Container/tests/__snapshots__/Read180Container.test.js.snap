@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180Container  /> Expect to render correctly 1`] = `
+<div>
+  <Read180
+    getRead180DataRequest={[Function]}
+    getRead180StudentWorkRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    requestData={[Function]}
+    selectedClassAssignments={Array []}
+    showread180RespondWriteModal={[Function]}
+    studentworkscontainer={Object {}}
+  />
+</div>
+`;

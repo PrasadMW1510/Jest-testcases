@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NGSetting />  Cohort Type is Student 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <withReducer(withSaga(Connect(R180NGTopicContainer)))
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      isolateTab={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting />  Cohort Type is Class 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This class does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting />  Cohort Type is Grade 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This grade does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting />  Cohort Type is Group 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This group does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting />  Cohort Type is Student 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This student is not enrolled in READ 180 Next Generation.."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting />  Cohort Type is Teacher 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This teacher does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> <R180NGSetting /> Expect to render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="To change READ 180 Next Generation settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Expect to render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Should render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Should render correctly when settings tab clicked 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Should render correctly when tab is isolated. 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Should render correctly when taba are reset. 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> Should render correctly when topic manager tab clicked 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <withReducer(withSaga(Connect(R180NGTopicContainer)))
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      isolateTab={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is empty object Should render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is not an empty object Should render correctly when topic manager tab clicked 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object Should render correctly 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <LoadingBar />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for District Admin school topic manager 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This school does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for District Admin topic manager 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This district does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for Teacher topic manager tab 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This teacher does not have any students enrolled in READ 180 Next Generation."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for school 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-settings"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="To change READ 180 Next Generation settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for school topic manager tab 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <withReducer(withSaga(Connect(R180NGTopicContainer)))
+      handleTabsReset={[Function]}
+      handleToggle={[Function]}
+      isolateTab={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`<R180NGSetting /> props.selectedProgram is r180ng with no enrollment object verify no enrollment message for user org default 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-topic-manager"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-topic-manager"
+      key="tab-topic-manager"
+      onClick={[Function]}
+    >
+      Topic Manager
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="To change READ 180 Next Generation settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+    />
+  </div>
+</div>
+`;

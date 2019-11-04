@@ -1,0 +1,208 @@
+.program-settings-heading {
+  font-size: 8pt;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.roster-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.program-settings-r180ng__quadrants-textpad {
+  padding-right: 15px;
+}
+
+.program-settings--r180ng {
+  background-color: #ffe279;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.program-settings--r180ng-overlay {
+  position: relative;
+  z-index: 300;
+}
+
+.program-settings--r180ng__quadrants {
+  float: left;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #000;
+
+  .program-settings-r180ng__quadrants-text {
+    width: 100%;
+    text-wrap: normal;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+
+  .program-settings-r180ng__quadrants-options {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .program-settings-r180ng-second-lang-option {
+    margin-right: 3px;
+  }
+
+  .program-settings-r180ng-eread {
+    margin-top: 5px;
+  }
+
+  .program-settings-r180ng__quadrants-textoptions {
+    margin-left: 18px;
+    padding-right: 5px;
+    margin-top: 5px;
+  }
+
+  .program-settings-r180ng__quadrants-eread {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+  }
+
+  .program-settings-writingzone-frequency {
+    list-style: disc;
+    background-color: #fff;
+    min-width: 45px;
+    width: auto;
+    font-size: 8pt;
+    font-weight: 500;
+  }
+
+  .program-settings--r180ng__level-caption {
+    font-weight: bold;
+    vertical-align: text-bottom;
+    padding-left: 10px;
+    background-color: #ffd400;
+    width: 99.9%;
+    height: 20%;
+    display: inline-block;
+    margin-top: 0%;
+    padding-top: 2.5%;
+    z-index: +1;
+  }
+
+  .program-settings-list {
+    list-style: none;
+    padding-left: 5px;
+    margin-left: 2px;
+  }
+
+  .program-settings-list__item {
+    margin-bottom: 5px;
+  }
+
+  .program-settings-r180ng__quadrants-reading-speed {
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 8px;
+  }
+
+  .program-settings-r180ng__quadrants-select {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 8pt;
+    padding-left: 4px;
+    width: 45px;
+    margin-left: 5px;
+  }
+
+  .program-settings-r180ng__quadrants-learneroption {
+    overflow-y: scroll;
+    height: 60%;
+    width: 95%;
+    margin-right: 15%;
+    margin-left: 10px;
+    margin-bottom: -2%;
+    display: inline-block;
+  }
+}
+
+.program-settings-r180ng__second-lang-options {
+  float: left;
+  width: 50%;
+  height: 25%;
+  margin: 0;
+  margin-top: 2%;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 1px;
+
+}
+
+.program-settings-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 1px;
+  width: 100%;
+  margin-bottom: 2px;
+
+  .program-settings-footer-restoredefault {
+    background-color: #808080;
+    border-bottom: 1px #404040 solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #000 solid;
+    border-top: 1px #a6a6a6 solid;
+  }
+
+  .program-settings-footer-cancelreturn {
+    background-color: #808080;
+    border-bottom: 1px #404040 solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #000 solid;
+    border-top: 1px #a6a6a6 solid;
+  }
+}
+
+.promote-student {
+  height: 200px;
+  width: 200px;
+}
+
+.r180btn {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  min-width: 102px;
+  width: auto;
+  height: 30px;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.r180btn--primary {
+  display: inline-block;
+  margin-left: 2px;
+  background-color: #d06021;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px #000 solid;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+}
+
+.display-hide-options {
+  margin: 0;
+  display: inline-block;
+}
+
+.program-settings-r180ng:checked .display-hide-options {
+  display: inline-block;
+}
+
+.r180btn--secondary {
+  display: inline-block;
+  margin-left: 2px;
+  background-color: #808080;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 3px #a6a6a6 solid;
+}

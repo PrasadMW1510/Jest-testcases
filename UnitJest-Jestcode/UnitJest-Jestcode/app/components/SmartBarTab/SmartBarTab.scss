@@ -1,0 +1,186 @@
+.tabs__tab {
+  background-color: #aaa;
+  border-top: 2px solid #000;
+  color: #fff;
+  display: flex;
+  flex: 0 1 24px;
+  flex-direction: column;
+  max-height: 24px;
+  min-height: 24px;
+  overflow: hidden;
+  position: relative;
+  transition: all 300ms;
+  width: 100%;
+
+  // By default have tabs fill up entire smartbar space
+  &.tabs__tab--active {
+    flex-basis: 596px;
+  }
+
+  &.tabs__tab--active.tabs__tab--has-many-items {
+    max-height: 596px;
+  }
+
+  &:last-of-type {
+    border-bottom: 2px solid #000;
+  }
+}
+
+// Specify max-heights based on how many items are present in smartbar tab.
+// Only first 20 needed since that fills the smartbar height completely.
+@for $i from 1 through 20 {
+  .tabs__tab--active.tabs__tab--has-items-#{$i} {
+    // Include a few extra pixels (45px instead of 42px) max-height so 
+    // scrollbar remains automatically hidden on some edge-cases.
+    max-height: ($i * 22 + 45)+px;
+  }
+}
+
+.tab__input {
+  opacity: 0;
+  overflow-y: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+/* :checked */
+.tab__input:checked ~ .tab__content {
+  overflow-y: auto;
+}
+
+.tab__input:checked ~ .tab__for-label {
+  border-bottom: 1px solid #000;
+  min-height: 20px;
+}
+
+.tab__input + .tab__label::after {
+  content: '\25B6';
+  transform: scale(0.55, 0.55);
+}
+
+.tab__input:disabled + .tab__label::after {
+  content: '';
+}
+
+.tab__input:checked + .tab__label::after {
+  transform: scale(0.55, 0.55) rotate(90deg);
+}
+
+.tab__content {
+  background-color: #aaa;
+  color: #000;
+  min-height: 21px;
+  overflow: hidden;
+}
+
+.tab__label,
+.tab__for-label {
+  background: #606060;
+  cursor: pointer;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 2;
+  padding: 0 0 0 2em;
+  position: relative;
+}
+
+.tab__for-label {
+  max-height: 0;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 12px;
+  min-height: 0;
+  transition: max-height 300ms;
+  transition: min-height 300ms;
+}
+
+/* Triangle icon */
+.tab__label::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 2em;
+  height: 2em;
+  line-height: 2;
+  text-align: center;
+  transition: all 300ms;
+}
+
+.tab__list-item {
+  list-style: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #000;
+  background: #aaa;
+  font-size: 11px;
+
+  &:hover {
+    border-top: 1px solid #aaa;
+  }
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+.tab__list-button {
+  outline-width: 0;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: clip;
+  overflow: hidden;
+  padding: 2px 2px 2px 4px;
+}
+
+.tab__list-text {
+  padding: 2px 2px 2px 4px;
+}
+
+.tab__list-item--selected {
+  background: #808080;
+
+  &:hover {
+    border-top: 1px solid #808080;
+  }
+}
+
+.tab__list-item--highlighted {
+  background: #ffb200;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transition: background 0.16s ease-out;
+
+  &:hover {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+}
+
+.sam-body--orange {
+  .tab__list-item--highlighted {
+    background: #ffb200;
+  }
+}
+
+.sam-body--blue {
+  .tab__list-item--highlighted {
+    background: #47aee8;
+  }
+}
+
+.sam-body--purple {
+  .tab__list-item--highlighted {
+    background: #bd68f2;
+  }
+}
+
+.tab__list {
+  padding: 0;
+  margin: 0;
+}

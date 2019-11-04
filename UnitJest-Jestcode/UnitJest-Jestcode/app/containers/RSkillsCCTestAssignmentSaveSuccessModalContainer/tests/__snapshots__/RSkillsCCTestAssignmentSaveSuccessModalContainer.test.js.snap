@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillsCCTestAssignmentSaveSuccessModalContainer /> with results having user data should render correctly 1`] = `
+<RSkillsCCTestAssignmentSaveSuccessModal
+  affectedMessage="On the next login, 0 students will take the below grade-level
+        test, and 1 students will take the grade-level test."
+  isOpen={true}
+  onYes={[Function]}
+  rSkillsTestName="Skills for Workshop 1"
+  redirectToRoster={false}
+  title="rBook"
+  unaffectedUsers={Array []}
+  unenrolledUsers={Array []}
+/>
+`;
+
+exports[`<RSkillsCCTestAssignmentSaveSuccessModalContainer /> with results not having user data and redirecting to roster should render correctly 1`] = `
+<RSkillsCCTestAssignmentSaveSuccessModal
+  affectedMessage="On the next login,  students will take the below grade-level
+        test, and  students will take the grade-level test."
+  isOpen={true}
+  onYes={[Function]}
+  rSkillsTestName="Skills for Workshop 1"
+  redirectToRoster={true}
+  title="rBook"
+  unaffectedUsers={Array []}
+  unenrolledUsers={Array []}
+/>
+`;

@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<S44Settings /> cohortType is District Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> cohortType is District renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="To change System 44 settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<S44Settings /> cohortType is School Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> cohortType is School renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="To change System 44 settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Class Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Class renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="This class does not have any students enrolled in System 44."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Grade Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Grade renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="This grade does not have any students enrolled in System 44."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Group Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Group renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="This group does not have any students enrolled in System 44."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Student Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Student renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="This student is not enrolled in System 44."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Teacher Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is 0 cohortType is Teacher renderContent renders correctly 1`] = `
+<SettingsMessage
+  message1="This teacher does not have any students enrolled in System 44."
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is more than 0 Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> enrollmentCount is more than 0 renderContent renders correctly 1`] = `
+<ProgramSettingsViewS44
+  cohortType="Student"
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Object {
+      "data": "mockSettingData",
+    }
+  }
+/>
+`;
+
+exports[`<S44Settings /> isLoading is set to true Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> isLoading is set to true renderContent renders correctly 1`] = `null`;
+
+exports[`<S44Settings /> isolate tab Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={true}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<S44Settings /> isolate tab renderContent renders correctly 1`] = `
+<ProgramSettingsViewS44
+  cohortType="Student"
+  handleSave={[Function]}
+  isTabIsolated={true}
+  setIsolateTab={[Function]}
+  settings={
+    Object {
+      "data": "mockSettingData",
+    }
+  }
+/>
+`;

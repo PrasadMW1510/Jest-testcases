@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/ModalController/actions.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/ModalController</a> actions.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">2.08% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/48</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">7.69% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>2/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">2.33% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/43</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">2.08% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/48</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*
+ *
+ * ModalController actions
+ *
+ */
+&nbsp;
+import * as Constants from './constants';
+&nbsp;
+/**
+ * Opens a modal window, which prevents the user from interacting with any other part of the page,
+ * until the modal is closed.
+ *
+ * @param modalType The type of the modal, defined and mapped in the ./constants module.
+ * @param data Any dynamic data needed by the modal
+ * @returns {{type, modalType: string, data: {}}}
+ */
+export function <span class="fstat-no" title="function not covered" >showModal(</span>modalType = <span class="branch-0 cbranch-no" title="branch not covered" >'',</span> data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: Constants.SHOW_MODAL,
+    modalType,
+    data,
+  };
+}
+&nbsp;
+/**
+ * Hides a modal
+ *
+ * NOTE:  The parameters passed here are not used internally to identify
+ * the modal to close.  Rather, they are specifically informational
+ * to the reducers that want to determine which modal just closed.  As an
+ * example, some components might wish to focus a specific input field
+ * when a warning-type modal closes.  Its reducer could hook into this
+ * action and use the parameters accordingly.
+ *
+ * @param modalType
+ * @param data
+ * @returns {{type, modalType: string, data: {}}}
+ */
+export function hideModal(modalType = '', data = {}) {
+  return {
+    type: Constants.HIDE_MODAL,
+    modalType,
+    data,
+  };
+}
+&nbsp;
+/*
+  Show a About Link Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showAboutLinkModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.ABOUT_LINK_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Class Form Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showClassFormModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.CLASS_FORM_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Student Form Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showStudentFormModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.STUDENT_FORM_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Deactivate Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showDeactivateUserModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.DEACTIVATE_USER_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Deactivate success Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showDeactivateUserSuccessModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.DEACTIVATE_USER_SUCCESS_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Deactivate Group Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showDeactivateGroupModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.DEACTIVATE_GROUP_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Deactivate Group success Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showDeactivateGroupSuccessModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.DEACTIVATE_GROUP_SUCCESS_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show the Edit Admin Modal Warning
+ */
+export function <span class="fstat-no" title="function not covered" >showEditAdminModalWarning(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.EDIT_ADMIN_MODAL_WARNING, data);</span>
+}
+&nbsp;
+/*
+  Show a logout Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showLogoutModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.LOGOUT_MODAL);</span>
+}
+&nbsp;
+/*
+  Show a message log modal
+ */
+export function <span class="fstat-no" title="function not covered" >showMessageLogModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.MESSAGE_LOG_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a Program Setting SetStudent Level Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showProgramSettingSetStudentLevelModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.PROGRAM_SETTING_SET_STUDENT_LEVEL_MODAL, data);</span>
+}
+&nbsp;
+/*
+Show r180ng topics stage selection modal
+ */
+export function <span class="fstat-no" title="function not covered" >showR180NGTopicsStageModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.R180NG_TOPICS_STAGE_MODAL, data);</span>
+}
+&nbsp;
+/*
+Show r180ng topics skip topic modal
+ */
+export function <span class="fstat-no" title="function not covered" >showR180NGTopicsSkipModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.R180NG_TOPICS_SKIP_MODAL, data);</span>
+}
+&nbsp;
+/*
+Show r180ng topics skip Segment  modal
+ */
+export function <span class="fstat-no" title="function not covered" >showR180NGSkipSegmentModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.R180NG_SKIP_SEGMENT_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show the School Form Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showSchoolFormModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SCHOOL_FORM_MODAL);</span>
+}
+&nbsp;
+/*
+ Show a search Modal.
+ */
+export function <span class="fstat-no" title="function not covered" >showSearchModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SEARCH_MODAL);</span>
+}
+&nbsp;
+/*
+  Show the teacher form modal
+ */
+export function <span class="fstat-no" title="function not covered" >showTeacherFormModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.TEACHER_FORM_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a warning modal
+ */
+export function <span class="fstat-no" title="function not covered" >showWarningModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.WARNING_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show a search class assign modal
+ */
+export function <span class="fstat-no" title="function not covered" >showSearchClassAssignModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SEARCH_CLASS_ASSIGN_MODAL, data);</span>
+}
+&nbsp;
+/*
+ Show reactivate school moda (MIA)
+ */
+export function <span class="fstat-no" title="function not covered" >showReactivateSchoolModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.MIA_REACTIVATE_SCHOOL_MODAL, data);</span>
+}
+&nbsp;
+/*
+ Show reactivate school moda (MIA)
+ */
+export function <span class="fstat-no" title="function not covered" >showReactivateClassModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.MIA_REACTIVATE_CLASS_MODAL, data);</span>
+}
+&nbsp;
+/*
+  Show an account delete modal
+ */
+export function <span class="fstat-no" title="function not covered" >showAccountDeleteModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.ACCOUNT_DELETE_MODAL, data);</span>
+}
+/*
+ * Show the Edit Quiz Collection Names Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showEditQuizCollectionNames(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.EDIT_QUIZ_COLLECTION_NAMES_MODAL);</span>
+}
+export function <span class="fstat-no" title="function not covered" >showPrintQuizModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.PRINT_CUSTOM_QUIZ_MODAL, data);</span>
+}
+export function <span class="fstat-no" title="function not covered" >showPrintBookLabelModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.PRINT_BOOK_LABEL_MODAL, data);</span>
+}
+export function <span class="fstat-no" title="function not covered" >showPrintQuizAndAnswerKeyModal(</span>data = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.PRINT_QUIZ_AND_ANSWER_KEY_MODAL, data);</span>
+}
+&nbsp;
+/*
+ * Show the Activate Quiz Modal
+*/
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >activateQuizModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.ACTIVATE_QUIZ_MODAL);</span>
+}
+&nbsp;
+/*
+ * Show the Deactivate Quiz Modal
+*/
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >deactivateQuizModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.DEACTIVATE_QUIZ_MODAL);</span>
+}
+&nbsp;
+/*
+ * Show the Teacher Made Quiz Modal
+ */
+export function <span class="fstat-no" title="function not covered" >showTeacherMadeQuiz(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.TEACHER_MADE_QUIZ_MODAL);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >getSearchResultDetailsRequest(</span>rowData, module, checkedIDLength) {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    id: rowData.ID,
+    page: module,
+    teacherMadeQuiz: rowData.QuizTeacherMade,
+    checkedId: checkedIDLength,
+  };
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SEARCH_RESULT_DETAILS_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >handleExportTeacherQuizModal(</span>) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.HANDLE_EXPORT_TEACHER_QUIZ_MODAL);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showRead180Modal(</span>rowData, rowPage, rowIndex, allRows) {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    row: rowData,
+    page: rowPage,
+    currentIndex: rowIndex,
+    allData: allRows,
+  };
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.READ_180_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showCatchAllClassModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.CATCH_ALL_CLASS_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showIreadAddModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.IREAD_ADD_MODAL, data);</span>
+}
+export function <span class="fstat-no" title="function not covered" >showRead180NgAssaignmentModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.READ_180_NG_ASSAIGNMENT_MODAL, data);</span>
+}
+export function <span class="fstat-no" title="function not covered" >showInboxProgram(</span>rowData, rowPage, rowIndex, allRows) {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    row: rowData,
+    page: rowPage,
+    currentIndex: rowIndex,
+    allData: allRows,
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.PRINT_INBOX_PROGRAM, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showIreadModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.IREAD_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showIReadStudentWorkModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.IREAD_STUDENT_WORK_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showSystem44StudentGoalsModal(</span>data) {
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SYSTEM_44_STUDENT_GOALS_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showRead180RespondWriteModal(</span>rowData, rowPage, rowIndex, allRows) {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    row: rowData,
+    page: rowPage,
+    currentIndex: rowIndex,
+    allData: allRows,
+  };
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.READ_180_RESPOND_WRITE_MODAL, data);</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >showSystem44SuccessRecordModal(</span>rowData, rowIndex, allRows) {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    rowData,
+    rowIndex,
+    allData: allRows,
+  };
+<span class="cstat-no" title="statement not covered" >  return showModal(Constants.SYSTEM_44_SUCCESS_RECORD_MODAL, data);</span>
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

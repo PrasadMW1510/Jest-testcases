@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillCCTestAssignmentTab /> should render correctly 1`] = `
+<React.Fragment>
+  <div
+    className="rskillscc-test-assign"
+  >
+    <form
+      defaultValue={Object {}}
+      onSubmit={[Function]}
+    >
+      <div
+        className="rskillscc-test-assign__tab-content "
+      >
+        <div
+          className="rskillscc-test-assign__setting"
+        >
+          <span
+            className="rskillscc-test-assign--left"
+          >
+            <label
+              className="rskillscc-test-assign__step-label"
+              htmlFor="id_r180Stage"
+            >
+              1. Select a READ 180 stage:
+            </label>
+            <select
+              className="rskillscc-test-assign__select-option"
+              id="id_r180Stage"
+              name="r180Stage"
+              onChange={[Function]}
+              value="A"
+            >
+              <option
+                key="A"
+                value="A"
+              >
+                Stage A
+              </option>
+              <option
+                key="B"
+                value="B"
+              >
+                Stage B
+              </option>
+            </select>
+          </span>
+        </div>
+        <div
+          className="rskillscc-test-assign__setting"
+        >
+          <span
+            className="rskillscc-test-assign--right"
+          >
+            <label
+              className="rskillscc-test-assign__step-label"
+              htmlFor="id_rBook"
+            >
+              2. Select the rBook you are using:
+            </label>
+            <select
+              className="rskillscc-test-assign__select-option"
+              id="id_rBook"
+              name="rBook"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                disabled={true}
+                key="-1"
+              />
+              <option
+                key="rbook"
+                value="rbook"
+              >
+                rBook
+              </option>
+            </select>
+          </span>
+        </div>
+      </div>
+      <div
+        className="rskillscc-test-assign__program-setting-buttons-container"
+      >
+        <ProgramSettingsButtons
+          saveAndReturnHandler={[Function]}
+          setInitialValuesHandler={[Function]}
+          showRestoreDefaults={false}
+          stateResult={false}
+          suppressSaveAndReturnRedirect={true}
+        />
+      </div>
+    </form>
+  </div>
+</React.Fragment>
+`;
+
+exports[`<RSkillCCTestAssignmentTab /> when isLoading is true should render a LoadingBar 1`] = `
+<div
+  className="rskillscc-settings-tab"
+>
+  <LoadingBar />
+</div>
+`;

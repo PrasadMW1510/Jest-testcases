@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveAdmindModalContraint actions should disableAdminRequest 1`] = `
+Object {
+  "adminId": undefined,
+  "type": "app/RemoveAdminContainer/DISABLE_ADMIN_REQUEST",
+}
+`;
+
+exports[`RemoveAdmindModalContraint actions should disableAdminRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/RemoveAdminContainer/DISABLE_ADMIN_REQUEST_FAILURE",
+}
+`;
+
+exports[`RemoveAdmindModalContraint actions should disableAdminRequestSuccess 1`] = `
+Object {
+  "type": "app/RemoveAdminContainer/DISABLE_ADMIN_REQUEST_SUCCESS",
+}
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TeacherAccessTable /> All Views Should match the snapshot 1`] = `
+<div
+  className="teacher-enrollment "
+>
+  <div
+    className="teacher-enrollment-header"
+  >
+    Use the check boxes to enable or remove user access to HMH teacher products. Use the check box at the top of each column to enable access for all teachers in that product.
+  </div>
+  <ScrollSync />
+  <div
+    className="teacher-enrollment-footer"
+  >
+    <div
+      className="teacher-enrollment-footer__buttons"
+    >
+      <withRouter(SAMLinkButton)
+        buttonClassModifier="teacher-enrollment-cancel__btn"
+        to="/roster"
+      >
+        Cancel & Return
+      </withRouter(SAMLinkButton)>
+    </div>
+    <div
+      className="teacher-enrollment__pagination"
+    >
+       
+      <div
+        className="teacher-enrollment__item-accumulator"
+      >
+        Items 1 through 250 of 2083
+      </div>
+      <a
+        activePage={1}
+        firstPageText="first"
+        getPageUrl={[Function]}
+        hideFirstLastPages={false}
+        innerClass="pagination"
+        itemClass=""
+        itemsCountPerPage={250}
+        lastPageText="last"
+        nextPageText="next"
+        onChange={[Function]}
+        pageRangeDisplayed={3}
+        prevPageText="prev"
+        totalItemsCount="2083"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookExpert /> Expect to render correctly 1`] = `
+<div
+  className="book-expert-page"
+>
+  <a
+    className="book-expert-button"
+    href="http://readingcountsbookexpert.tgds.hmhco.com/bookexpert/default.asp?UID=971E4A596FB04431B7F09B42BD6E63FD&subt=0&Test=NA"
+    target="_blank"
+  >
+    BOOK EXPERT ONLINE
+  </a>
+</div>
+`;

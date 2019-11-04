@@ -1,0 +1,4752 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TeacherForm /> TeacherForm for adding Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Add a 
+      Teacher
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Enter
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={false}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value="schoolx"
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1-full"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            />
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "none",
+                }
+              }
+            />
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={false}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={
+              Object {
+                "confirm_password": "Password and password confirmation must match.",
+                "password": true,
+              }
+            }
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> no errors in form Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          />
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              editingSameAccount={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={
+                Array [
+                  110,
+                  100,
+                  210,
+                  200,
+                  310,
+                  300,
+                  620,
+                  630,
+                  640,
+                  820,
+                  825,
+                  830,
+                  850,
+                  1000,
+                  1500,
+                  1550,
+                  1600,
+                ]
+              }
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> submitFailed and there are only submitErrors Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={
+              Object {
+                "confirm_password": "Password and password confirmation must match.",
+                "password": true,
+              }
+            }
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> submitFailed and there are only validationErrors there are more than one validation error Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={
+              Object {
+                "classes": "mockClassesError",
+                "user_name": "mockUserNameError",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> submitFailed and there are only validationErrors there is only one validation error, it is a classes error Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={
+              Object {
+                "classes": "mockClassesError",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> submitFailed and there are only validationErrors there is only one validation error, it is not a classes error Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={
+              Object {
+                "user_name": "mockUserNameError",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<TeacherForm /> submitFailed and there are submitErrors and validationErrors Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--teacher-form"
+>
+  <div
+    className="teacher-form teacher-form--orange"
+  >
+    <h2
+      className="teacher-form__heading"
+    >
+      Edit 
+      Teacher
+       Profile
+    </h2>
+    <div
+      className="teacher-form__intro"
+    >
+      Edit
+       information about this Teacher account on the Profile, Schools & Classes, and Permissions tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="teacher-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="teacher-form__nav-bar"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-schools"
+          key="tab-schools"
+          onClick={[Function]}
+        >
+          Schools & Classes*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-permissions"
+          key="tab-permissions"
+          onClick={[Function]}
+        >
+          Permissions
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="teacher-form__body"
+      >
+        <main
+          className="teacher-form__body-main"
+        >
+          <div
+            className="teacher-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="Identify SAM Account"
+            sectionClassModifier="teacher-form__section"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <SAMAccountForm
+              editMode={true}
+              isSchoolAdminForm={false}
+              passwordConfigsArray={
+                Array [
+                  Object {
+                    "$": Object {
+                      "id": "Complex",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Medium",
+                    },
+                  },
+                  Object {
+                    "$": Object {
+                      "id": "Simple",
+                    },
+                  },
+                ]
+              }
+              userOrg=""
+            />
+          </FormSection>
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <div
+              className="teacher-form__school-name-div"
+            >
+              <select
+                className="teacher-form__school-name-select"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  key="1"
+                  value={1}
+                >
+                  mockSchool1
+                </option>
+                <option
+                  key="2"
+                  value={2}
+                >
+                  mockSchool2
+                </option>
+              </select>
+            </div>
+            <FormSection
+              headerText="Classes"
+              sectionClassModifier="teacher-form__class-section-1"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                formatLabel={[Function]}
+                getId={[Function]}
+                items={
+                  Array [
+                    Object {
+                      "class_id": Array [
+                        1,
+                      ],
+                      "class_name": Array [
+                        "mockClass1",
+                      ],
+                    },
+                    Object {
+                      "class_id": Array [
+                        2,
+                      ],
+                      "class_name": Array [
+                        "mockClass2",
+                      ],
+                    },
+                  ]
+                }
+                name="classes"
+              />
+            </FormSection>
+            <FormSection
+              headerText="Schools and classes currently associated"
+              sectionClassModifier="teacher-form__class-section-2"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                key="1"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool1
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="1"
+                  >
+                    mockClass1
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="2"
+                  >
+                    mockClass2
+                  </div>
+                </div>
+              </div>
+              <div
+                key="2"
+              >
+                <div
+                  className="teacher-form__class-section-2-schools"
+                >
+                  mockSchool2
+                </div>
+                <div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="3"
+                  >
+                    mockClass3
+                  </div>
+                  <div
+                    className="teacher-form__class-section-2-classes"
+                    key="4"
+                  >
+                    mockClass4
+                  </div>
+                </div>
+              </div>
+            </FormSection>
+          </div>
+          <FormSection
+            headerText="Permissions"
+            sectionClassModifier="teacher-form__permissions-section"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <PermissionsGrantedTable
+              editMode={true}
+              onCheckboxChange={[Function]}
+              permissions={
+                Array [
+                  Object {
+                    "display_name": Array [
+                      "Edit Student Profile",
+                    ],
+                    "id": Array [
+                      "100",
+                    ],
+                    "name": Array [
+                      "Edit Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Demographics",
+                    ],
+                    "id": Array [
+                      "1000",
+                    ],
+                    "name": Array [
+                      "View Demographics",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Student Profile",
+                    ],
+                    "id": Array [
+                      "110",
+                    ],
+                    "name": Array [
+                      "View Student Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Export Data",
+                    ],
+                    "id": Array [
+                      "1100",
+                    ],
+                    "name": Array [
+                      "Export Data",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                    "id": Array [
+                      "1500",
+                    ],
+                    "name": Array [
+                      "Manage Student Applications Settings",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                    "id": Array [
+                      "1550",
+                    ],
+                    "name": Array [
+                      "Manage Student Enrollment",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                    "id": Array [
+                      "1600",
+                    ],
+                    "name": Array [
+                      "NCLB Filter on Reports",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                    "id": Array [
+                      "1700",
+                    ],
+                    "name": Array [
+                      "Subgroup Setup in District and School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "License Key Input",
+                    ],
+                    "id": Array [
+                      "1800",
+                    ],
+                    "name": Array [
+                      "License Key Input",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Group Profile",
+                    ],
+                    "id": Array [
+                      "200",
+                    ],
+                    "name": Array [
+                      "Edit Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Group Profile",
+                    ],
+                    "id": Array [
+                      "210",
+                    ],
+                    "name": Array [
+                      "View Group Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Class Profile",
+                    ],
+                    "id": Array [
+                      "300",
+                    ],
+                    "name": Array [
+                      "Edit Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Class Profile",
+                    ],
+                    "id": Array [
+                      "310",
+                    ],
+                    "name": Array [
+                      "View Class Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit School Profile",
+                    ],
+                    "id": Array [
+                      "400",
+                    ],
+                    "name": Array [
+                      "Edit School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View School Profile",
+                    ],
+                    "id": Array [
+                      "410",
+                    ],
+                    "name": Array [
+                      "View School Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit District Profile",
+                    ],
+                    "id": Array [
+                      "500",
+                    ],
+                    "name": Array [
+                      "Edit District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View District Profile",
+                    ],
+                    "id": Array [
+                      "510",
+                    ],
+                    "name": Array [
+                      "View District Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                    "id": Array [
+                      "600",
+                    ],
+                    "name": Array [
+                      "Edit Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Teacher Profile",
+                    ],
+                    "id": Array [
+                      "610",
+                    ],
+                    "name": Array [
+                      "View Teacher Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Profile",
+                    ],
+                    "id": Array [
+                      "620",
+                    ],
+                    "name": Array [
+                      "View Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Own Profile",
+                    ],
+                    "id": Array [
+                      "630",
+                    ],
+                    "name": Array [
+                      "Edit Own Profile",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Own Permissions",
+                    ],
+                    "id": Array [
+                      "640",
+                    ],
+                    "name": Array [
+                      "View Own Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "View Others Permissions",
+                    ],
+                    "id": Array [
+                      "660",
+                    ],
+                    "name": Array [
+                      "View Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Edit Other Permissions",
+                    ],
+                    "id": Array [
+                      "670",
+                    ],
+                    "name": Array [
+                      "Edit Others Permissions",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                    "id": Array [
+                      "700",
+                    ],
+                    "name": Array [
+                      "Manage Inactive Accounts",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Students",
+                    ],
+                    "id": Array [
+                      "820",
+                    ],
+                    "name": Array [
+                      "Add Students",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Groups",
+                    ],
+                    "id": Array [
+                      "825",
+                    ],
+                    "name": Array [
+                      "Add Groups",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Classes",
+                    ],
+                    "id": Array [
+                      "830",
+                    ],
+                    "name": Array [
+                      "Add Classes",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Teachers",
+                    ],
+                    "id": Array [
+                      "835",
+                    ],
+                    "name": Array [
+                      "Add Teachers",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Add Schools",
+                    ],
+                    "id": Array [
+                      "840",
+                    ],
+                    "name": Array [
+                      "Add Schools",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Student",
+                    ],
+                    "id": Array [
+                      "845",
+                    ],
+                    "name": Array [
+                      "Deactivate Student",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Group",
+                    ],
+                    "id": Array [
+                      "850",
+                    ],
+                    "name": Array [
+                      "Deactivate Group",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Class",
+                    ],
+                    "id": Array [
+                      "855",
+                    ],
+                    "name": Array [
+                      "Deactivate Class",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate Teacher",
+                    ],
+                    "id": Array [
+                      "860",
+                    ],
+                    "name": Array [
+                      "Deactivate Teacher",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Deactivate School",
+                    ],
+                    "id": Array [
+                      "865",
+                    ],
+                    "name": Array [
+                      "Deactivate School",
+                    ],
+                  },
+                  Object {
+                    "display_name": Array [
+                      "Import Student Rosters",
+                    ],
+                    "id": Array [
+                      "900",
+                    ],
+                    "name": Array [
+                      "Import Student Rosters",
+                    ],
+                  },
+                ]
+              }
+              permissionsChecked={Array []}
+              userOrg="Teacher"
+            />
+          </FormSection>
+        </main>
+        <aside
+          className="teacher-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={
+              Object {
+                "confirm_password": "Password and password confirmation must match.",
+                "password": true,
+              }
+            }
+            validationErrors={
+              Object {
+                "classes": "mockClassesError",
+                "user_name": "mockUserNameError",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;

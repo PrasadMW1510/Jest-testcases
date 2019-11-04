@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modalControllerReducer returns the initial state 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+  ],
+}
+`;
+
+exports[`modalControllerReducer should handle hide modal actions 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+  ],
+}
+`;
+
+exports[`modalControllerReducer should handle logout modal actions 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+    Object {
+      "data": Object {},
+      "modalType": "LOGOUT_MODAL",
+    },
+  ],
+}
+`;
+
+exports[`modalControllerReducer should handle message log modal actions 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+    Object {
+      "data": Object {
+        "messageData": "test message data",
+      },
+      "modalType": "MESSAGE_LOG_MODAL",
+    },
+  ],
+}
+`;
+
+exports[`modalControllerReducer should handle search modal actions 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+    Object {
+      "data": Object {},
+      "modalType": "SEARCH_MODAL",
+    },
+  ],
+}
+`;
+
+exports[`modalControllerReducer should handle show modal actions 1`] = `
+Immutable.Map {
+  openModals: Immutable.List [
+    Object {
+      "data": Object {
+        "mockData": "test data",
+      },
+      "modalType": "superModal",
+    },
+  ],
+}
+`;

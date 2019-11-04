@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for getEditQuizCollectionNamesDataRequest 1`] = `
+Object {
+  "type": "EditQuizCollectionNamesContainer/get_editquizcollectionnamesdata_request",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for getEditQuizCollectionNamesDataRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "EditQuizCollectionNamesContainer/get_editquizcollectionnamesdata_request_failure",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for getEditQuizCollectionNamesDataRequestSuccess 1`] = `
+Object {
+  "editQuizCollectionNamesData": Array [
+    Object {
+      "name": "editQuizCollectionNamesData 1",
+    },
+  ],
+  "type": "EditQuizCollectionNamesContainer/get_editquizcollectionnamesdata_request_success",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for getEditQuizCollectionNamesDataRequestSuccess 2`] = `
+Object {
+  "editQuizCollectionNamesData": Array [],
+  "type": "EditQuizCollectionNamesContainer/get_editquizcollectionnamesdata_request_success",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for initializeClassFormResponseSuccess 1`] = `
+Object {
+  "type": "initialize-class-form-response-success",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for initializeQuizNameRequest 1`] = `
+Object {
+  "type": "EditQuizCollectionNamesContainer/get_editquiznamesdata_request",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for postEditQuizCollectionNamesRequest 1`] = `
+Object {
+  "nameObject": undefined,
+  "type": "EditQuizCollectionNamesContainer/post_editquizcollectionnamesdata_request",
+}
+`;
+
+exports[`EditQuizCollectionNamesContainer actions All actions should return the correct constant for postEditQuizCollectionNamesRequest 2`] = `
+Object {
+  "nameObject": Array [
+    Object {
+      "name": "nameObject 1",
+    },
+  ],
+  "type": "EditQuizCollectionNamesContainer/post_editquizcollectionnamesdata_request",
+}
+`;

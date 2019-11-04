@@ -1,0 +1,70 @@
+.print-custom-list__wrapper {
+  white-space: pre-wrap;
+  float: left;
+  font-size: 11px;
+  background: #fff1cf;
+  height: 115px;
+  position: absolute;
+  margin: -130px 0 0 10px;
+  border-left: 1px solid #000;
+  width: 180px;
+}
+
+.print-custom-list__custom-list--orange {
+  background: #f96044;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.print-custom-list__lnk {
+  color: #00f;
+  float: left;
+  margin: 3px 0 0 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.print-custom-list__labl {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0 0 0 10px;
+}
+
+.print-custom-list__text {
+  width: 20px;
+}
+
+.print-custom-list__wrapper-manage {
+  white-space: pre-wrap;
+  float: left;
+  font-size: 11px;
+  background: #fff1cf;
+  position: absolute;
+  height: 90px;
+  margin: -130px 0 0 195px;
+  border-left: 1px solid #000;
+  width: 180px;
+}
+
+.print-custom-list__manage-quiz--orange {
+  background: #f96044;
+  padding: 4px;
+}
+
+.print-custom-list__print-quiz-list {
+  color: #3939f5;
+  margin: 0 0 0 -5px;
+}
+
+.print-custom-list__print-quiz-list:focus {
+  outline: none;
+}
+
+.print-custom-list__manage-quiz-list {
+  color: #3939f5;
+  margin-left: 0 0 0 -5px;
+}
+
+.print-custom-list__manage-quiz-list:focus {
+  outline: 0;
+}

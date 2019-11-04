@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviousBehaviouralGoalsModal  Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="print-system44-modal__warning-heading-wrapper-last--assesment"
+>
+  <div
+    className="print-system44-modal__warning-heading-last--assessment"
+  >
+    <div
+      className="print-system44-modal__warning-heading-last-assessment--heading"
+    />
+    <button
+      className="print-system44-modal-warning-heading__button--close"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="print-system44-modal__warning-heading-last-assessment-display--content"
+  >
+    <div
+      className="print-system44-modal__warning-heading-last-assessment-display-content--paragraph"
+    >
+      Last Behavioral Goals Assesment
+      <ul
+        className="print-system44__modal-list--style"
+      >
+        <li>
+          abc
+        </li>
+      </ul>
+    </div>
+    <div>
+      <table
+        className="print-system44__recipients--table"
+      >
+        <thead
+          className="print-system44__recipients-table--heading"
+        >
+          <tr>
+            <th
+              className="print-system44__recipients-table--class"
+            />
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Responsibility
+            </th>
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Respect
+            </th>
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Effort
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="print-system44__recipients-table--body"
+        >
+          <tr
+            className="print-system44__recipients-table-class--row"
+            key="Total Points Earned"
+          >
+            <td
+              className="recipients-table__class-individual-textdata--final"
+            >
+              Total Points Earned
+            </td>
+            <td
+              className="recipients-table__class-individual-textdata--final"
+              key="Total Points Earned"
+            >
+              1
+            </td>
+            <td
+              className="recipients-table__class-individual-textdata--final"
+              key="Total Points Earned"
+            >
+              2
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</SAMModal>
+`;
+
+exports[`PreviousBehaviouralGoalsModal  Expect to render correctly 2`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="print-system44-modal__warning-heading-wrapper-last--assesment"
+>
+  <div
+    className="print-system44-modal__warning-heading-last--assessment"
+  >
+    <div
+      className="print-system44-modal__warning-heading-last-assessment--heading"
+    />
+    <button
+      className="print-system44-modal-warning-heading__button--close"
+      onClick={[Function]}
+    >
+      X
+    </button>
+  </div>
+  <div
+    className="print-system44-modal__warning-heading-last-assessment-display--content"
+  >
+    <div
+      className="print-system44-modal__warning-heading-last-assessment-display-content--paragraph"
+    >
+      Last Behavioral Goals Assesment
+      <ul
+        className="print-system44__modal-list--style"
+      >
+        <li>
+          abc
+        </li>
+      </ul>
+    </div>
+    <div>
+      <table
+        className="print-system44__recipients--table"
+      >
+        <thead
+          className="print-system44__recipients-table--heading"
+        >
+          <tr>
+            <th
+              className="print-system44__recipients-table--class"
+            />
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Responsibility
+            </th>
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Respect
+            </th>
+            <th
+              className="print-system44__recipients-table--class"
+            >
+              Effort
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="print-system44__recipients-table--body"
+        >
+          <tr
+            className="print-system44__recipients-table-class--row"
+            key="Total Points Earned1"
+          >
+            <td
+              className="recipients-table__class-individual--textdata"
+            >
+              Total Points Earned1
+            </td>
+            <td
+              className="recipients-table__class-individual--textdata"
+              key="Total Points Earned1"
+            >
+              1
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</SAMModal>
+`;

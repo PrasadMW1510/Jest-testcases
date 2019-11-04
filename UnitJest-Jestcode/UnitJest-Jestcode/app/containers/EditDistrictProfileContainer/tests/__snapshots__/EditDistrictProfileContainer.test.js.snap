@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditDistrictProfileContainer /> Expect to render correctly 1`] = `
+<ReduxForm
+  applications={
+    Array [
+      Object {
+        "id": "CRX",
+        "label": undefined,
+      },
+    ]
+  }
+  data={Object {}}
+  getTimeZonesRequest={[Function]}
+  handleAddDemographic={[Function]}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      email_address1: undefined,
+      postal_code: "mock-last-name",
+      school_days: Immutable.Map {
+        2: true,
+        3: true,
+      },
+      city: "mock-city",
+      name: "mock-display-name",
+      state: "mock-state",
+      start_of_day: "mock-start-of-day",
+      last_name: undefined,
+      middle_name: undefined,
+      location: "mock-location",
+      restricted_apps: Immutable.Map {
+        CRX: true,
+      },
+      phone_number1: undefined,
+      end_of_day: "mock-start-of-day",
+      title: undefined,
+      first_name: undefined,
+      type: "mock-type",
+      description: "mock-description",
+      address1: "mock-address1",
+      time_zone: "mock-time-zone",
+      address2: "mock-address2",
+      address3: "mock-address3",
+    }
+  }
+  isOpen={true}
+  profile={
+    Immutable.Map {
+      profileDetailsDistAdmin: Immutable.Map {
+        display_name: Immutable.List [
+          "mock-display-name",
+        ],
+        description: Immutable.List [
+          "mock-description",
+        ],
+        type: Immutable.List [
+          "mock-type",
+        ],
+        district_info: Immutable.List [
+          Immutable.Map {
+            location: Immutable.List [
+              "mock-location",
+            ],
+            apps: Immutable.List [
+              Immutable.Map {
+                app: Immutable.List [
+                  Immutable.Map {
+                    _: "CRX",
+                    $: Immutable.Map {
+                      restricted: "true",
+                    },
+                  },
+                ],
+              },
+            ],
+            school_days: Immutable.List [
+              Immutable.Map {
+                school_day: Immutable.List [
+                  "2",
+                  "3",
+                ],
+              },
+            ],
+            time_zone: Immutable.List [
+              "mock-time-zone",
+            ],
+            start_of_day: Immutable.List [
+              "mock-start-of-day",
+            ],
+            end_of_day: Immutable.List [
+              "mock-start-of-day",
+            ],
+          },
+        ],
+        contact_person: Immutable.List [
+          Immutable.Map {
+            district_last_name: Immutable.List [
+              "mock-last-name",
+            ],
+            district_first_name: Immutable.List [
+              "mock-first-name",
+            ],
+            district_middle_name: Immutable.List [
+              "mock-middle-name",
+            ],
+            district_contact_title: Immutable.List [
+              "mock-title",
+            ],
+          },
+        ],
+        contact_info: Immutable.List [
+          Immutable.Map {
+            email_address: Immutable.List [
+              "mock-email-address",
+            ],
+            address1: Immutable.List [
+              "mock-address1",
+            ],
+            address2: Immutable.List [
+              "mock-address2",
+            ],
+            address3: Immutable.List [
+              "mock-address3",
+            ],
+            phone_number: Immutable.List [
+              "mock-phone-number",
+            ],
+            state: Immutable.List [
+              "mock-state",
+            ],
+            city: Immutable.List [
+              "mock-city",
+            ],
+            postal_code: Immutable.List [
+              "mock-last-name",
+            ],
+          },
+        ],
+      },
+    }
+  }
+  showModal={[Function]}
+  timeZones={
+    Array [
+      "Pacific (US & Canada",
+      "Eastern (US & Canada)",
+    ]
+  }
+  title="Edit District Profile"
+  updateDistrictProfileRequest={[Function]}
+/>
+`;

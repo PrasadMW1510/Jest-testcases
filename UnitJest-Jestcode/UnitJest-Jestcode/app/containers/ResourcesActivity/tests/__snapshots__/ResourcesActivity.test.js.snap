@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update the Advanced Dropdown Expect to render correctly 1`] = `
+<ResourcesActivityTab
+  appITSInfo={Array []}
+  appSelected="DTM_NOW"
+  modalSearchStatus={false}
+  postResourcesBasedOnId={[Function]}
+  resourcesAppInfo={
+    Immutable.Map {
+    }
+  }
+  resourcesPostResponse={
+    Immutable.Map {
+    }
+  }
+  sessionId="8493hfkd93jr0"
+  updateResourcesSearchModalStatus={[Function]}
+/>
+`;
+
+exports[`verifyITSStatus verify nothing happens with same appSelected 1`] = `
+<ResourcesActivityTab
+  appITSInfo={Array []}
+  appSelected="DTM_NOW"
+  modalSearchStatus={true}
+  postResourcesBasedOnId={[Function]}
+  resourcesAppInfo={
+    Immutable.Map {
+    }
+  }
+  resourcesPostResponse={
+    Immutable.Map {
+    }
+  }
+  sessionId="8493hfkd93jr0"
+  updateResourcesSearchModalStatus={[Function]}
+/>
+`;
+
+exports[`verifyITSStatus verify the ITS enabled false 1`] = `
+<ResourcesActivityTab
+  appITSInfo={Array []}
+  appSelected="DTM_NOW"
+  modalSearchStatus={true}
+  postResourcesBasedOnId={[Function]}
+  resourcesAppInfo={
+    Immutable.Map {
+    }
+  }
+  resourcesPostResponse={
+    Immutable.Map {
+    }
+  }
+  sessionId="8493hfkd93jr0"
+  updateResourcesSearchModalStatus={[Function]}
+/>
+`;

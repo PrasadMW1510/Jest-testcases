@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/EditDistrictProfileContainer/selectors.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/EditDistrictProfileContainer</a> selectors.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/25</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { crea<span class="cstat-no" title="statement not covered" >teSelector } from 'reselect';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+import { sortData<span class="cstat-no" title="statement not covered" > } from 'utils/utilities';</span>
+import { Iterable<span class="cstat-no" title="statement not covered" > } from 'immutable';</span>
+import { FORM_EDI<span class="cstat-no" title="statement not covered" >T_DISTRICT_PROFILE } fr</span>om './constants';
+&nbsp;
+/**
+ * Direct selector to the editDistrictProfileContainer state domain
+ */
+const selectEditDistrictProfileContainerDomain <span class="cstat-no" title="statement not covered" >= state =<span class="fstat-no" title="function not covered" >&gt; state.get('editDistrictProfileContainer</span>');<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+/**
+ * Other specific selectors
+ */
+&nbsp;
+export const makeSelectDistrictTim<span class="cstat-no" title="statement not covered" >eZones = () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(selectEditDistrictProfileContainerDomain, substate =&gt; {<span class="fstat-no" title="function not covered" ></span>
+    let timeZones;<span class="cstat-no" title="statement not covered" ></span>
+    if<span class="cstat-no" title="statement not covered" > (substate) {</span>
+      const allTimeZones = <span class="cstat-no" title="statement not covered" >substate.get('timeZones');</span>
+      if<span class="cstat-no" title="statement not covered" > (Iterable.isIterable(allTimeZones) &amp;&amp; allTimeZones.get('time_zones')) {</span>
+        const legacyTimeZones = <span class="cstat-no" title="statement not covered" >allTimeZones</span>
+          .get('time_zones')
+          .getIn([0, 'scholastic', 0, 'time_zone'])
+          .toJS();
+&nbsp;
+        const javaTimeZones = <span class="cstat-no" title="statement not covered" >allTimeZones</span>
+          .get('time_zones')
+          .getIn([0, 'java', 0, 'time_zone'])
+          .toJS();
+&nbsp;
+        const sortedLegacyTimeZones = <span class="cstat-no" title="statement not covered" >legacyTimeZones.sort(sortData);</span>
+        const sortedJavaTimeZones = <span class="cstat-no" title="statement not covered" >javaTimeZones.sort(sortData);</span>
+&nbsp;
+        ti<span class="cstat-no" title="statement not covered" >meZones = sortedLegacyTimeZones.concat(sortedJavaTimeZones);</span>
+      }
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn timeZones;</span>
+  });
+&nbsp;
+export const makeSelectCustomDemogr<span class="cstat-no" title="statement not covered" >aphics = () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(
+    selectEditDistrictProfileContainerDomain,
+<span class="fstat-no" title="function not covered" >    su</span>bstate =&gt; substate <span class="cstat-no" title="statement not covered" >&amp;&amp; substate.toJS().customDemographics</span>
+  );
+&nbsp;
+const selectForms <span class="cstat-no" title="statement not covered" >= state =<span class="fstat-no" title="function not covered" >&gt; state.get(</span>'form');<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export const makeSelectForm<span class="cstat-no" title="statement not covered" >Errors = () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(
+    selectForms,
+<span class="fstat-no" title="function not covered" >    fo</span>rmState =&gt; formState<span class="cstat-no" title="statement not covered" > &amp;&amp; formState.getIn([FORM_EDIT_DISTRICT_PROFILE, 'syncErrors'])</span>
+  );
+&nbsp;
+export const makeSelectSubmit<span class="cstat-no" title="statement not covered" >Errors = () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(
+    selectForms,
+<span class="fstat-no" title="function not covered" >    fo</span>rmState =&gt; formState<span class="cstat-no" title="statement not covered" > &amp;&amp; formState.getIn([FORM_EDIT_DISTRICT_PROFILE, 'submitErrors'])</span>
+  );
+&nbsp;
+/**
+ * Default selector used by EditDistrictProfileContainer
+ */
+&nbsp;
+export const makeSelectEditDistrictProfileCon<span class="cstat-no" title="statement not covered" >tainer = () =&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+  createSelector(selectEditDistrictProfileContainerDomain, substate =&gt; subst<span class="fstat-no" title="function not covered" >at</span>e &amp;&amp; substate.toJS(<span class="cstat-no" title="statement not covered" >));</span>
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

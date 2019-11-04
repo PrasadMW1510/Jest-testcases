@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`classAssignModal reducer returns the initial state 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMIN_REQUEST 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMIN_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+  error: "err",
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMIN_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+    name: "test",
+  },
+  loading: true,
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMINS_REQUEST 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMINS_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+  error: "err",
+}
+`;
+
+exports[`classAssignModal reducer should handle GET_ADMINS_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  admins: Immutable.List [
+    "test",
+  ],
+  adminToEdit: Immutable.Map {
+  },
+  loading: false,
+}
+`;
+
+exports[`classAssignModal reducer should handle RESET_ADMINS_LIST 1`] = `
+Immutable.Map {
+  admins: Array [],
+  adminToEdit: Immutable.Map {
+  },
+  loading: true,
+  [object Object]: undefined,
+}
+`;

@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmartBar actions All actions reset constants 1`] = `
+Object {
+  "type": "reset_smartbar_constants",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for class redirection success 1`] = `
+Object {
+  "classId": "asdfz123",
+  "type": "class_redirection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for class selection request 1`] = `
+Object {
+  "classId": "asdfz123",
+  "type": "class_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for class selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "class_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for class selection request success 1`] = `
+Object {
+  "classId": "asdfz123",
+  "type": "class_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for grade redirection success 1`] = `
+Object {
+  "gradeId": "asdfz123",
+  "type": "grade_redirection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for grade redirection success 2`] = `
+Object {
+  "classId": "asdfz123",
+  "type": "class_redirection_in_group",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for grade selection request 1`] = `
+Object {
+  "gradeId": "asdfz123",
+  "type": "grade_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for grade selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "grade_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for grade selection request success 1`] = `
+Object {
+  "gradeId": "asdfz123",
+  "type": "grade_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for group selection request 1`] = `
+Object {
+  "groupId": "asdfz123",
+  "type": "group_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for group selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "group_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for group selection request success 1`] = `
+Object {
+  "groupId": "asdfz123",
+  "type": "group_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for reset selections 1`] = `
+Object {
+  "type": "reset_selections",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for school redirection success 1`] = `
+Object {
+  "schoolId": "asdfz123",
+  "type": "school_redirection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for school selection request 1`] = `
+Object {
+  "schoolId": "asdfz123",
+  "type": "school_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for school selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "school_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for school selection request success 1`] = `
+Object {
+  "schoolId": "asdfz123",
+  "type": "school_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for student selection request 1`] = `
+Object {
+  "studentId": "asdfz123",
+  "type": "student_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for student selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "student_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for student selection request success 1`] = `
+Object {
+  "studentId": "asdfz123",
+  "type": "student_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for teacher redirection success 1`] = `
+Object {
+  "teacherId": "asdfz123",
+  "type": "teacher_redirection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for teacher selection request 1`] = `
+Object {
+  "teacherId": "asdfz123",
+  "type": "teacher_selection",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for teacher selection request failure 1`] = `
+Object {
+  "error": "error error",
+  "type": "teacher_selection_failure",
+}
+`;
+
+exports[`SmartBar actions All actions should return the correct constant for teacher selection request success 1`] = `
+Object {
+  "teacherId": "asdfz123",
+  "type": "teacher_selection_success",
+}
+`;
+
+exports[`SmartBar actions All actions should update active grade id 1`] = `
+Object {
+  "gradeId": "grade",
+  "type": "profile_selected_grade",
+}
+`;
+
+exports[`SmartBar actions All actions should update active school id 1`] = `
+Object {
+  "schoolId": "school",
+  "type": "profile_selected_school",
+}
+`;
+
+exports[`SmartBar actions All actions should update active school id 2`] = `
+Object {
+  "teacherId": "teacher",
+  "type": "profile_selected_teacher",
+}
+`;
+
+exports[`SmartBar actions All actions should update active school id 3`] = `
+Object {
+  "schoolId": "class",
+  "type": "profile_selected_school",
+}
+`;
+
+exports[`SmartBar actions All actions should update active school id 4`] = `
+Object {
+  "schoolId": "group",
+  "type": "profile_selected_school",
+}
+`;
+
+exports[`SmartBar actions All actions should update active school id 5`] = `
+Object {
+  "schoolId": "student",
+  "type": "profile_selected_school",
+}
+`;
+
+exports[`SmartBar actions All actions smartbarSelectedUpdateData constants 1`] = `
+Object {
+  "type": "smartbar_selected_update_data",
+}
+`;
+
+exports[`SmartBar actions All actions verify common redirection 1`] = `
+Object {
+  "type": "redirection_common_SGT",
+}
+`;

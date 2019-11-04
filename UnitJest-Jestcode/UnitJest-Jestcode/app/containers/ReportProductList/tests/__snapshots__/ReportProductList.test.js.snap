@@ -1,0 +1,1466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportProductList /> Expect to render as expected 1`] = `
+<div
+  className="report-list-product-header"
+  key="S44"
+>
+  <div
+    className="report-list-product-title"
+    onClick={[Function]}
+    rel="S44"
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="report-list-product-arrow"
+    >
+      ▼
+    </span>
+    System 44
+  </div>
+  <div
+    className="report-list-product-entries"
+  >
+    <ReportEntry
+      chooseReport={[Function]}
+      index={0}
+      key="S44_05"
+      report={
+        Object {
+          "app_id": Array [
+            "S44",
+          ],
+          "category_name": Array [
+            "Category B",
+          ],
+          "cohort_id": Array [
+            "abcd",
+          ],
+          "cohort_type": Array [
+            "school",
+          ],
+          "date_ranges": Array [
+            Array [
+              "CurrSchoolYear",
+              "LastMonth",
+              "Custom",
+            ],
+          ],
+          "description": Array [
+            "example report data 2",
+          ],
+          "last_generated": Array [
+            "2017/12/08",
+          ],
+          "name": Array [
+            "Example Report C",
+          ],
+          "relationship": Array [
+            "Optimal",
+          ],
+          "report_cohort_type": Array [
+            "Group",
+          ],
+          "report_id": Array [
+            "def",
+          ],
+          "type_id": Array [
+            "S44_05",
+          ],
+        }
+      }
+      reportKey="S44"
+    />
+    <ReportEntry
+      chooseReport={[Function]}
+      index={1}
+      key="S44_06"
+      report={
+        Object {
+          "app_id": Array [
+            "S44",
+          ],
+          "category_name": Array [
+            "Category C",
+          ],
+          "cohort_id": Array [
+            "abc",
+          ],
+          "cohort_type": Array [
+            "school",
+          ],
+          "date_ranges": Array [
+            Array [
+              "CurrSchoolYear",
+              "Custom",
+            ],
+          ],
+          "description": Array [
+            "example report data 3",
+          ],
+          "last_generated": Array [
+            "2018/01/18",
+          ],
+          "name": Array [
+            "Example Report D",
+          ],
+          "relationship": Array [
+            "Optimal",
+          ],
+          "report_cohort_type": Array [
+            "Student",
+          ],
+          "report_id": Array [
+            "def",
+          ],
+          "type_id": Array [
+            "S44_06",
+          ],
+        }
+      }
+      reportKey="S44"
+    />
+    <ReportEntry
+      chooseReport={[Function]}
+      index={2}
+      key="S44_07"
+      report={
+        Object {
+          "app_id": Array [
+            "S44",
+          ],
+          "category_name": Array [
+            "Category C",
+          ],
+          "cohort_id": Array [
+            "abc",
+          ],
+          "cohort_type": Array [
+            "school",
+          ],
+          "date_ranges": Array [
+            Array [
+              "CurrSchoolYear",
+              "Custom",
+            ],
+          ],
+          "description": Array [
+            "example report data 0",
+          ],
+          "last_generated": Array [
+            "2018/01/18",
+          ],
+          "name": Array [
+            "Example Report C",
+          ],
+          "relationship": Array [
+            "Optimal",
+          ],
+          "report_cohort_type": Array [
+            "Aggregate",
+          ],
+          "report_id": Array [
+            "def",
+          ],
+          "type_id": Array [
+            "S44_07",
+          ],
+        }
+      }
+      reportKey="S44"
+    />
+    <ReportEntry
+      chooseReport={[Function]}
+      index={3}
+      key="S44_08"
+      report={
+        Object {
+          "app_id": Array [
+            "S44",
+          ],
+          "category_name": Array [
+            "Category C",
+          ],
+          "cohort_id": Array [
+            "abc",
+          ],
+          "cohort_type": Array [
+            "school",
+          ],
+          "date_ranges": Array [
+            Array [
+              "CurrSchoolYear",
+              "Custom",
+            ],
+          ],
+          "description": Array [
+            "example report data 0",
+          ],
+          "last_generated": Array [
+            "2018/01/18",
+          ],
+          "name": Array [
+            "Example Report C",
+          ],
+          "relationship": Array [
+            "Optimal",
+          ],
+          "report_cohort_type": Array [
+            "Student",
+          ],
+          "report_id": Array [
+            "def",
+          ],
+          "type_id": Array [
+            "S44_08",
+          ],
+        }
+      }
+      reportKey="S44"
+    />
+  </div>
+  <div
+    className="report-list-clear-float"
+  />
+</div>
+`;
+
+exports[`<ReportProductList /> Should filter reports by type: Aggregate 1`] = `
+<div
+  className="report-list-product-header"
+  key="S44"
+>
+  <div
+    className="report-list-product-title"
+    onClick={[Function]}
+    rel="S44"
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="report-list-product-arrow"
+    >
+      ▼
+    </span>
+    System 44
+  </div>
+  <div
+    className="report-list-product-entries"
+  >
+    <div
+      key="S44_05"
+    >
+       
+    </div>
+    <div
+      key="S44_06"
+    >
+       
+    </div>
+    <div
+      key="S44_07"
+    >
+       
+    </div>
+    <div
+      key="S44_08"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="report-list-clear-float"
+  />
+</div>
+`;
+
+exports[`<ReportProductList /> Should filter reports by type: Group 1`] = `
+<div
+  className="report-list-product-header"
+  key="S44"
+>
+  <div
+    className="report-list-product-title"
+    onClick={[Function]}
+    rel="S44"
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="report-list-product-arrow"
+    >
+      ▼
+    </span>
+    System 44
+  </div>
+  <div
+    className="report-list-product-entries"
+  >
+    <div
+      key="S44_05"
+    >
+       
+    </div>
+    <div
+      key="S44_06"
+    >
+       
+    </div>
+    <div
+      key="S44_07"
+    >
+       
+    </div>
+    <div
+      key="S44_08"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="report-list-clear-float"
+  />
+</div>
+`;
+
+exports[`<ReportProductList /> Should filter reports by type: Student 1`] = `
+<div
+  className="report-list-product-header"
+  key="S44"
+>
+  <div
+    className="report-list-product-title"
+    onClick={[Function]}
+    rel="S44"
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="report-list-product-arrow"
+    >
+      ▼
+    </span>
+    System 44
+  </div>
+  <div
+    className="report-list-product-entries"
+  >
+    <div
+      key="S44_05"
+    >
+       
+    </div>
+    <div
+      key="S44_06"
+    >
+       
+    </div>
+    <div
+      key="S44_07"
+    >
+       
+    </div>
+    <div
+      key="S44_08"
+    >
+       
+    </div>
+  </div>
+  <div
+    className="report-list-clear-float"
+  />
+</div>
+`;
+
+exports[`<ReportProductList /> Should toggle visibility 1`] = `
+<ReportProductList
+  chooseReport={[Function]}
+  filter=""
+  productName="System 44"
+  reportKey="S44"
+  reports={
+    Array [
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category B",
+        ],
+        "cohort_id": Array [
+          "abcd",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "LastMonth",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 2",
+        ],
+        "last_generated": Array [
+          "2017/12/08",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Group",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_05",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 3",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report D",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Student",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_06",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 0",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Aggregate",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_07",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 0",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Student",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_08",
+        ],
+      },
+    ]
+  }
+>
+  <div
+    className="report-list-product-header"
+    key="S44"
+  >
+    <div
+      className="report-list-product-title"
+      onClick={[Function]}
+      rel="S44"
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="report-list-product-arrow"
+      >
+        ▶
+      </span>
+      System 44
+    </div>
+    <div
+      className="report-list-product-entries"
+    >
+      <ReportEntry
+        chooseReport={[Function]}
+        index={0}
+        key="S44_05"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category B",
+            ],
+            "cohort_id": Array [
+              "abcd",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "LastMonth",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 2",
+            ],
+            "last_generated": Array [
+              "2017/12/08",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Group",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_05",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_05"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_0"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_05",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category B
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2017/12/08
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={1}
+        key="S44_06"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 3",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report D",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Student",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_06",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_06"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_1"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_06",
+                ]
+              }
+            />
+            Example Report D
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={2}
+        key="S44_07"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 0",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Aggregate",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_07",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_07"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_2"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_07",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={3}
+        key="S44_08"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 0",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Student",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_08",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_08"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_3"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_08",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+    </div>
+    <div
+      className="report-list-clear-float"
+    />
+  </div>
+</ReportProductList>
+`;
+
+exports[`<ReportProductList /> Should toggle visibility 2`] = `
+<ReportProductList
+  chooseReport={[Function]}
+  filter=""
+  productName="System 44"
+  reportKey="S44"
+  reports={
+    Array [
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category B",
+        ],
+        "cohort_id": Array [
+          "abcd",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "LastMonth",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 2",
+        ],
+        "last_generated": Array [
+          "2017/12/08",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Group",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_05",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 3",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report D",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Student",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_06",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 0",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Aggregate",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_07",
+        ],
+      },
+      Object {
+        "app_id": Array [
+          "S44",
+        ],
+        "category_name": Array [
+          "Category C",
+        ],
+        "cohort_id": Array [
+          "abc",
+        ],
+        "cohort_type": Array [
+          "school",
+        ],
+        "date_ranges": Array [
+          Array [
+            "CurrSchoolYear",
+            "Custom",
+          ],
+        ],
+        "description": Array [
+          "example report data 0",
+        ],
+        "last_generated": Array [
+          "2018/01/18",
+        ],
+        "name": Array [
+          "Example Report C",
+        ],
+        "relationship": Array [
+          "Optimal",
+        ],
+        "report_cohort_type": Array [
+          "Student",
+        ],
+        "report_id": Array [
+          "def",
+        ],
+        "type_id": Array [
+          "S44_08",
+        ],
+      },
+    ]
+  }
+>
+  <div
+    className="report-list-product-header"
+    key="S44"
+  >
+    <div
+      className="report-list-product-title"
+      onClick={[Function]}
+      rel="S44"
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="report-list-product-arrow"
+      >
+        ▼
+      </span>
+      System 44
+    </div>
+    <div
+      className="report-list-product-entries"
+    >
+      <ReportEntry
+        chooseReport={[Function]}
+        index={0}
+        key="S44_05"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category B",
+            ],
+            "cohort_id": Array [
+              "abcd",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "LastMonth",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 2",
+            ],
+            "last_generated": Array [
+              "2017/12/08",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Group",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_05",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_05"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_0"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_05",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category B
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2017/12/08
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={1}
+        key="S44_06"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 3",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report D",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Student",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_06",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_06"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_1"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_06",
+                ]
+              }
+            />
+            Example Report D
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={2}
+        key="S44_07"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 0",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Aggregate",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_07",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_07"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_2"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_07",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+      <ReportEntry
+        chooseReport={[Function]}
+        index={3}
+        key="S44_08"
+        report={
+          Object {
+            "app_id": Array [
+              "S44",
+            ],
+            "category_name": Array [
+              "Category C",
+            ],
+            "cohort_id": Array [
+              "abc",
+            ],
+            "cohort_type": Array [
+              "school",
+            ],
+            "date_ranges": Array [
+              Array [
+                "CurrSchoolYear",
+                "Custom",
+              ],
+            ],
+            "description": Array [
+              "example report data 0",
+            ],
+            "last_generated": Array [
+              "2018/01/18",
+            ],
+            "name": Array [
+              "Example Report C",
+            ],
+            "relationship": Array [
+              "Optimal",
+            ],
+            "report_cohort_type": Array [
+              "Student",
+            ],
+            "report_id": Array [
+              "def",
+            ],
+            "type_id": Array [
+              "S44_08",
+            ],
+          }
+        }
+        reportKey="S44"
+      >
+        <div
+          className="report-list-product-entry"
+          key="S44_08"
+        >
+          <div
+            className="report-list-col1"
+          >
+            <input
+              className="report-list-product-entry-input"
+              id="ReportS44_3"
+              name="type_id"
+              onClick={[Function]}
+              type="radio"
+              value={
+                Array [
+                  "S44_08",
+                ]
+              }
+            />
+            Example Report C
+          </div>
+          <div
+            className="report-list-col2"
+          >
+            Category C
+          </div>
+          <div
+            className="report-list-col3"
+          >
+            2018/01/18
+          </div>
+          <div
+            className="report-list-clear-float"
+          />
+        </div>
+      </ReportEntry>
+    </div>
+    <div
+      className="report-list-clear-float"
+    />
+  </div>
+</ReportProductList>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderButton /> Expect to render correctly 1`] = `
+<Link
+  className="folder-btn"
+  replace={false}
+  to="/home"
+>
+  <div
+    className="folder-btn__body"
+  >
+    <img
+      alt="Home"
+      src="home.png"
+    />
+    <div>
+      Home
+    </div>
+  </div>
+</Link>
+`;

@@ -1,0 +1,143 @@
+.program-setting-topic-footer {
+  float: right;
+}
+
+.program-settings__select {
+  border: 1px #000 solid;
+  border-radius: 0;
+  line-height: 16px;
+  margin-left: 108px;
+  padding: 0 4px;
+
+}
+
+.program-settings__intro-text,
+.program-settings__footnote {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.topic-manager-level {
+  width: 50%;
+  height: 25%;
+  float: left;
+  border: 1px solid #000;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 50%;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fee17f;
+}
+
+.topic-manager-level__text {
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 10pt;
+  float: left;
+  display: inline-flex;
+}
+
+.topic-manager-level__subtext {
+  margin-left: 10pt;
+}
+
+.topic-manager-level__sections {
+  line-height: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.topic-manager-level__text--plain {
+  // display: inline;
+  float: left;
+  font-size: 11px;
+  margin-left: 12px;
+  font-weight: normal;
+}
+
+.topic-manager-level__text--plain-topic {
+  display: inline;
+  font-size: 11px;
+  font-weight: normal;
+  padding-left: 5pt;
+}
+
+.topic-manager-level__container {
+  width: 97%;
+  height: 250px;
+  border: 1px solid #000;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background-color: #ffee6e;
+}
+
+.topic-manager-level__container-header {
+  background-color: #fed130;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.topic-manager-level__container-enable {
+  margin-right: 2%;
+  width: 100px;
+}
+
+.topic-manager-level__container-id {
+  width: 100px;
+}
+
+.topic-manager-level__container-name {
+  width: 100px;
+}
+
+.topic-manager-level__container-level {
+  width: 100px;
+}
+
+.topic-manager-level__container-footer {
+  font-size: 12px;
+  padding-left: 15px;
+  float: left;
+}
+
+.program-settings__btn--topic-manager {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  justify-content: flex-end;
+}
+
+.display-student-level-different {
+
+  display: none;
+}
+
+.display-student-level-different-toggle {
+  width: 100%;
+  display: inline-block;
+}
+
+.topic-manager-skip-level {
+  display: block;
+  font-size: 1em;
+  text-align: left;
+  float: right;
+  margin: 0;
+  outline: none;
+  font-size: 11px;
+  border: 0;
+  background-color: transparent;
+  cursor: hand;
+  color: #00f;
+  text-decoration: underline;
+
+}
+
+topic-manager-skip-link {
+  float: right;
+  position: relative;
+}

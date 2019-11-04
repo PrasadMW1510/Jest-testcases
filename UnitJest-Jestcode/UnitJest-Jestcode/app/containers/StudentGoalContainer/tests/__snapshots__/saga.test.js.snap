@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherMadeQuizContainer Saga getSGClassDataRequest getSGClassDataRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassDataRequest getSGClassDataRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassDataRequest getSGClassDataRequest 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassDataRequest getSGClassDataRequest 4`] = `undefined`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest else  1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest else  2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest else  3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      Object {},
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest if 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest if 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getSGClassGridListDataRequest getSGClassGridListDataRequest if 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      Object {},
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

@@ -1,0 +1,21 @@
+.form-control {
+  display: flex;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.form-control--disabled {
+  opacity: 0.5;
+}
+
+.form-control--error {
+  color: #f00;
+  // So checkboxes & radios are normal color on error
+  .form-control__form-group {
+    color: #000;
+  }
+}
+
+.form-control--required {
+  // placeholder for required state
+}

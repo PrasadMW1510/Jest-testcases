@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageLogTable /> props.messages is empty array Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="msg-log-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Type",
+        "accessor": "type",
+        "width": 40,
+      },
+      Object {
+        "Cell": [Function],
+        "Header": "Message",
+        "accessor": [Function],
+        "getProps": [Function],
+        "id": "message",
+        "width": 450,
+      },
+      Object {
+        "Header": "Product",
+        "accessor": [Function],
+        "id": "product",
+        "width": 100,
+      },
+      Object {
+        "Header": "Date",
+        "accessor": [Function],
+        "id": "date",
+      },
+    ]
+  }
+  data={Array []}
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={0}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<MessageLogTable /> props.messages is not an empty array Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="msg-log-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Type",
+        "accessor": "type",
+        "width": 40,
+      },
+      Object {
+        "Cell": [Function],
+        "Header": "Message",
+        "accessor": [Function],
+        "getProps": [Function],
+        "id": "message",
+        "width": 450,
+      },
+      Object {
+        "Header": "Product",
+        "accessor": [Function],
+        "id": "product",
+        "width": 100,
+      },
+      Object {
+        "Header": "Date",
+        "accessor": [Function],
+        "id": "date",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": Array [
+          1,
+        ],
+        "message_date": Array [
+          "2017-06-26",
+        ],
+        "message_id": Array [
+          1,
+        ],
+        "message_title": Array [
+          "Message title mock 1",
+        ],
+        "message_type": Array [
+          "Unknown",
+        ],
+        "product": Array [
+          "product1",
+        ],
+      },
+      Object {
+        "_id": Array [
+          12,
+        ],
+        "message_date": Array [
+          "2017-06-26",
+        ],
+        "message_id": Array [
+          12,
+        ],
+        "message_title": Array [
+          "Message title mock 2",
+        ],
+        "message_type": Array [
+          "Unknown",
+        ],
+        "product": Array [
+          "SLMS",
+        ],
+      },
+    ]
+  }
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={2}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<MessageLogTable /> props.messages is not an empty array should populate the SAMTable with the right columns 1`] = `
+<div
+  className="msg-log-table__message-td-group"
+>
+  <MessageLogCell
+    rowData={
+      Object {
+        "message_date": "2017-06-26",
+        "message_id": 1,
+        "message_title": "Message title mock 1",
+        "message_type": "Unknown",
+        "product": "product1",
+      }
+    }
+  />
+  <hr
+    className="msg-log-table__vertical-line"
+  />
+  <div
+    className="msg-log-table__message-td-cell"
+  >
+    <MessageLogCell
+      link={true}
+      onShowMeClick={[Function]}
+      rowData={
+        Object {
+          "message_date": "2017-06-26",
+          "message_id": 1,
+          "message_title": "Message title mock 1",
+          "message_type": "Unknown",
+          "product": "product1",
+        }
+      }
+    />
+  </div>
+</div>
+`;

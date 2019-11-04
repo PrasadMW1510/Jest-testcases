@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingModal /> isOpen is false Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  modalClassModifier="loading-modal"
+>
+  <LoadingBar />
+</SAMModal>
+`;
+
+exports[`<LoadingModal /> isOpen is true Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="loading-modal"
+>
+  <LoadingBar />
+</SAMModal>
+`;

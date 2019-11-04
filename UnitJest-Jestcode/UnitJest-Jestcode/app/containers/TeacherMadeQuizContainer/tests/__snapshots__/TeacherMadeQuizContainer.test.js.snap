@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teacher Made Quiz Container Should render TeacherMadeQuizContainer 1`] = `
+<div>
+  <TeacherMadeQuiz
+    deleteQuiz={[Function]}
+    getInstalledQuizDataRequest={[Function]}
+    getTeacherMadeQuizDetailsRequest={[Function]}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    hideModal={[Function]}
+    installedQuizData={Array []}
+    isOpen={true}
+    loadQuizDetails={[Function]}
+    postTeacherMadeQuizRequest={[Function]}
+    teacherMadeQuizContainer={
+      Immutable.Map {
+      }
+    }
+  />
+</div>
+`;

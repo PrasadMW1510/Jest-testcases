@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdvancedSearchControlButtons /> Expect to have unit tests specified 1`] = `
+<div
+  className="advanced-search-button__wrapper"
+>
+  <p
+    className="advanced-search-button__para"
+  >
+    Use these options to select criteria for your search. You must select at least one option; selecting more options will narrow your search.
+  </p>
+  <div
+    className="advanced-search-button__wrapper-controls"
+  >
+    <button
+      className="button-clear"
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+    <button
+      className="button-search"
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;

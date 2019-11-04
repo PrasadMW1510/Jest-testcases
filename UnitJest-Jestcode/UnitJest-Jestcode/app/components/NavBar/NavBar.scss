@@ -1,0 +1,150 @@
+.navbar {
+  position: relative;
+  width: 100%;
+}
+
+.navbar__item {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover,
+  .navbar__item-text:hover {
+    cursor: pointer;
+  }
+}
+
+.navbar__item-text {
+  color: #000;
+  font-weight: 700;
+  line-height: 26px; // Matches icon image height
+  padding: 0 16px;
+  position: relative;
+  z-index: 2;
+
+  &.navbar__item-text--error {
+    color: #f00;
+  }
+
+}
+
+// `inset` style removes left vertical line of first item -- style handly for modal use.
+.navbar--inset .navbar__item {
+  &:first-child::before {
+    visibility: hidden; // `display: none` causes display issue here in couple browsers.
+  }
+}
+
+//// Theme -> Tabs ////
+
+.navbar--theme-tabs {
+  border-bottom: 2px #000 solid;
+  height: 32px;
+}
+
+.navbar--theme-tabs .navbar__item {
+  align-items: center;
+  border-style: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  width: 170px;
+  z-index: 10;
+  // A background needed here to hide bottom border
+  &.navbar__item--active {
+    color: #fff;
+    z-index: 12;
+  }
+
+  &.navbar__item--active::after {
+    background-color: #fff;
+  }
+
+  // Active and last item are always in full view
+  &.navbar__item--active,
+  &:last-child {
+    width: 180px;
+  }
+
+  &.navbar__item--active:last-child {
+    margin-right: 10px;
+  }
+
+  // Create slanted borders
+  &::before {
+    background: #000;
+    content: '';
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    z-index: 9;
+  }
+
+  // Create item's vertical border on left-side
+  &::after {
+    border: 2px #000 solid;
+    box-sizing: border-box;
+    content: '';
+    height: 32px;
+    left: -16px;
+    position: absolute;
+    top: 0;
+    transform: skew(32deg);
+    width: 186px;
+    z-index: 0; // So text is above bg color
+  }
+
+  &.navbar__item--active::after {
+    border-bottom-style: none;
+    z-index: 1;
+  }
+  
+  // Adjust all items after the active item
+  &.navbar__item--active ~ .navbar__item {
+    left: -10px;
+  }
+
+  // Adjust item immediately following active item
+  &.navbar__item--active + .navbar__item::before {
+    height: 19px;
+  }
+
+  &.navbar__item--active + .navbar__item::after {
+    border-left-style: none;
+    left: 0;
+    width: 170px;
+  }
+}
+
+//// Theme -> Tabs -> Palette ////
+
+// Orange
+
+.navbar--theme-tabs.navbar--palette-orange {
+  .navbar__item::after {
+    background-color: #ffe37d;
+  }
+
+  .navbar__item.navbar__item--active::after {
+    background-color: #fff;
+  }
+}
+
+// Green
+
+.navbar--theme-tabs.navbar--palette-green {
+  .navbar__item::after {
+    background-color: #c0db6d;
+  }
+  
+  .navbar__item.navbar__item--active::after {
+    background-color: #fff;
+  }
+}

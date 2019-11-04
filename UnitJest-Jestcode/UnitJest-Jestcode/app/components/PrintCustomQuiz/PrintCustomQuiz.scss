@@ -1,0 +1,159 @@
+.modal-empty__quiz {
+  height: 202px;
+  width: 301px;
+  padding: 0;
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.print-custom-quiz__wrapper {
+  white-space: pre-wrap;
+  font-size: 11px;
+}
+
+.modal--printcustom-quiz {
+  height: 381px;
+  width: 303px;
+  padding: 0;
+  margin: 23px 0 0;
+}
+
+.print-custom-quiz__quiz-list--orange {
+  background: #ff5c41;
+  margin: 0;
+  padding: 4px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.print-custom-quiz__heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 0 4px;
+}
+
+.print-custom-quiz__buttons {
+  position: absolute;
+  text-align: right;
+  bottom: 2px;
+  right: 8px;
+}
+
+.print-custom-quiz__countheader {
+  font-size: 11px;
+  margin: 0 0 0 5px;
+  padding: 3px;
+}
+
+.print-custom-quiz__layout {
+  background-color: #f99a59;
+  font-size: 11px;
+}
+
+.print-custom-quiz__layouttext {
+  margin: 0 0 0 5px;
+  font-size: 11px;
+  padding: 3px;
+}
+
+.print-custom-quiz__layout-content {
+  margin: 0;
+  font-size: 11px;
+  border-bottom: 1px solid #ffe4d2;
+  padding: 2px 0 10px 9px;
+  line-height: normal;
+}
+
+.print-custom-quiz__chckbox .collapsible-book-list-names {
+  font-size: 11px;
+}
+
+.print-custom-quiz__boder {
+  border-top: 1px solid #f99a59;
+  width: 100%;
+}
+
+.print-custom-quiz__chckbox {
+  font-size: 12px;
+  margin: 0 0 0 5px;
+}
+
+.print-custom-quiz__preview,
+.print-custom-quiz__cancel {
+  margin: 0 0 2px 12px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.empty-quiz-button__ok {
+  margin: 40px 0 0;
+}
+
+.empty-quiz-button__ok .btn,
+.empty-quiz-button__ok .btn--primary {
+  height: 25px;
+  min-width: 53px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #fb6042;
+  cursor: pointer;
+}
+
+.empty-quiz-button__ok .btn:hover {
+  border: 1px solid #000;
+
+}
+
+.print-custom-quiz-empty-titles__text {
+  margin: 37px 15px 0;
+}
+
+.customlist-btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.print-custom-quiz__cancel .btn,
+.print-custom-quiz__cancel .btn--secondary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.print-custom-quiz__preview .btn,
+.print-custom-quiz__preview .btn--primary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.print-custom-quiz__chckbox-lexile {
+  position: absolute;
+  background: radial-gradient(ellipse at bottom right, #fff 0%, #fff 41%, #ccc 100%);
+  background-color: #fafafa;
+  border: 1px #000 solid;
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+}
+
+.print-custom-quiz__cancel .btn--secondary:hover {
+  border: 1px solid #000;
+}
+
+.print-custom-quiz__preview .btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.print-custom-quiz__cancel .btn--secondary:focus {
+  outline: 0;
+}
+
+.print-custom-quiz__preview .btn--primary:focus {
+  outline: 0;
+}
+

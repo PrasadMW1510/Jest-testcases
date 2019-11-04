@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountDeleteModalContainer /> should render correctly 1`] = `
+<AccountDeleteModal
+  isAccountDelete={true}
+  isOpen={true}
+  itemCount={1}
+  onNo={[Function]}
+  onYes={[Function]}
+/>
+`;

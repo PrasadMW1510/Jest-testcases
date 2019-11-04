@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return correct school usage summary 1`] = `
+Object {
+  "schoolId": "zzzzz123",
+  "type": "usage_summary_school_request",
+}
+`;
+
+exports[`should return the correct correct usage summary table failure 1`] = `
+Object {
+  "error": "error",
+  "subType": "usage_summary_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`should return the correct usage summary table 1`] = `
+Object {
+  "type": "usage_summary_request",
+}
+`;
+
+exports[`should return the correct usage summary table success 1`] = `
+Object {
+  "type": "usage_summary_request_success",
+  "usageSummary": Object {},
+}
+`;

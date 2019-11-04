@@ -1,0 +1,38 @@
+.deactivate-success__message {
+  font-size: 11px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.deactivate-success__yes {
+  color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 4px 5px;
+}
+
+.modal--deactivate-modal-success {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.deactivate-success__heading {
+  font-size: 16px;
+  padding: 3px 11px;
+  background-color: #ffd400;
+  width: 350px;
+  margin-top: -19px;
+  margin-left: -50px;
+}
+
+.deactivate-success__button {
+  margin-top: 100px;
+  background-color: #d06021;
+  border-left: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-top: 2px solid hsla(0, 0%, 100%, 0.5);
+  width: 120px;
+  text-align: center;
+  margin-left: 60px;
+}

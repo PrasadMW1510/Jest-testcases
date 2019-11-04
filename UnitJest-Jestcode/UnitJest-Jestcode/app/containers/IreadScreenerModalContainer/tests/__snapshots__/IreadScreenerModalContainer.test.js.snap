@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IreadScreenerModalContainer /> Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="iread-screener-modal"
+>
+  <div
+    className="iread-screener-modal--header"
+  >
+    Screener Administration
+  </div>
+  <div
+    className="iread-screener-modal--body"
+  >
+    <div
+      className="iread-screener-modal--message"
+    >
+      Enabling this checkbox will require the student to complete the screener and affect their placement in the scope and sequence. 
+      <br />
+      <br />
+      Are you sure you wish to proceed?
+    </div>
+    <SAMButton
+      buttonClassModifier="iread-screener-modal--yes-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Yes
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="iread-screener-modal--cancel-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMModal /> Expect to match snapshot when closed 1`] = `""`;
+
+exports[`<SAMModal /> Expect to match snapshot when is open 1`] = `
+<div
+  className="overlay"
+>
+  <div
+    aria-labelledby="SAM Modal"
+    className="modal"
+    role="dialog"
+  >
+     
+    <span>
+      hello world!
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SAMModal /> Expect to match snapshot when the modal modifier class is defined 1`] = `
+<div
+  className="overlay"
+>
+  <div
+    aria-labelledby="SAM Modal"
+    className="modal modal--test"
+    role="dialog"
+  >
+     
+    <span>
+      hello world!
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SAMModal /> Expect to match snapshot when the overlay modifier class is defined 1`] = `
+<div
+  className="overlay overlay--test"
+>
+  <div
+    aria-labelledby="SAM Modal"
+    className="modal"
+    role="dialog"
+  >
+     
+    <span>
+      hello world!
+    </span>
+  </div>
+</div>
+`;

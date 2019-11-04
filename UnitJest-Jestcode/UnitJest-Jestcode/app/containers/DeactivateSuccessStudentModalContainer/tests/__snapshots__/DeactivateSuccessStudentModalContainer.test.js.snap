@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeactivateSuccessStudentModalContainer /> should deactivate modal close when user agrees 1`] = `
+<DeactivateStudentSuccessModal
+  isOpen={true}
+  onYes={[Function]}
+/>
+`;

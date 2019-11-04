@@ -1,0 +1,40 @@
+.advanced-search__wrapper {
+  margin-top: -3px;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border: 2px solid #000;
+}
+
+.advanced-search__collapsible {
+  flex-grow: 2;
+  background: #fee1b4;
+  border: 1px solid #000;
+  width: 100%;
+
+  .advanced-search__collapsible-group {
+    height: auto;
+    max-height: 390px;
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: 390px;
+  }
+}
+
+.advanced-search-buttons {
+  flex-grow: 1;
+  width: 354px;
+  position: relative;
+
+  &.advanced-search-buttons--control {
+    border: 1px solid #000;
+    width: 272px;
+    border-left: 0;
+  }
+}
+
+.lexilemin--span {
+  text-align: center;
+  width: 0 !important;
+}

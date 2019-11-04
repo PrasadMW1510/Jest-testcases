@@ -1,0 +1,1931 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopicManagerStudentViewTab /> Expect to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> componentWillReceiveProps 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> getCurrentTopic 1`] = `undefined`;
+
+exports[`<TopicManagerStudentViewTab /> getCurrentTopicData 1`] = `"Student Choice"`;
+
+exports[`<TopicManagerStudentViewTab /> getSegment 1`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> getSegmentName 1`] = `" segment1_name (A01.1)"`;
+
+exports[`<TopicManagerStudentViewTab /> getSegmentName 2`] = `" segment1_name (A01.1)"`;
+
+exports[`<TopicManagerStudentViewTab /> handleCheckBoxChange when checked value is false 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "3",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A04",
+              ],
+              "current_segment": Array [
+                "4",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={false}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> handleCheckBoxChange when checked value is true 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "3",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A04",
+              ],
+              "current_segment": Array [
+                "4",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={false}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 1`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 2`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 3`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 4`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 5`] = `undefined`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipSegment 6`] = `""`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipTopic 1`] = `undefined`;
+
+exports[`<TopicManagerStudentViewTab /> setSkipTopic to student choice 1`] = `undefined`;
+
+exports[`<TopicManagerStudentViewTab /> verify handle handleSetInitialValues  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> verify handle hideSaveOptions  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> verify handle showSaveOptions  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerStudentViewTab /> verify handleSaveAndReturn  1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-level"
+    >
+      <div
+        className="topic-manager-level__sections"
+      >
+        <span
+          className="topic-manager-level__text "
+        >
+          Current Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             
+          </span>
+        </span>
+        <span
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Next Level:
+             
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+            1
+             *
+          </span>
+        </span>
+      </div>
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Topic:
+            
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             Can You Believe It? (A01)
+             
+          </span>
+          <span
+            className="topic-manager-skip-link topic-manager-skip-link"
+          >
+            <button
+              className="topic-manager-skip-level"
+              onClick={[Function]}
+            >
+               
+              Skip
+            </button>
+          </span>
+        </div>
+      </div>
+       
+      <div
+        className="topic-manager-level__sections"
+      >
+        <div
+          className="topic-manager-level__text display-student-level-different"
+        >
+          Current Segment:
+          <span
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+          </span>
+        </div>
+        <div
+          className="topic-manager-level__text display-student-level-different-toggle"
+        >
+          Current Segment:
+          <div
+            className="topic-manager-level__text--plain-topic"
+          >
+             segment1_name (A01.1)
+             
+            <span
+              className="topic-manager-skip-link topic-manager-skip-link"
+            >
+              <button
+                className="topic-manager-skip-level"
+                onClick={[Function]}
+              >
+                Skip
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <div
+      className="topic-manager-level__text--plain"
+    >
+      Use the check boxes to activate or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Topic ID"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId="A01"
+      topicId="A01.1"
+      topicName="Can You Believe It?-segment1_name"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                Object {
+                  "topic_complete_level": Array [],
+                },
+              ],
+              "topic_name": Array [
+                "Can You Believe It?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A02",
+              ],
+              "current_segment": Array [
+                "2",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "segment1_name",
+              ],
+              "segment2_name": Array [
+                "segment2_name",
+              ],
+              "segment3_name": Array [
+                "segment3_name",
+              ],
+              "segment4_name": Array [
+                "segment4_name",
+              ],
+              "student_level": Array [
+                "2",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Predator",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-level__container-footer"
+    >
+      <span
+        className="topic-manager-level__text--plain"
+      >
+        'S' indicates manual skip by the teacher.
+      </span>
+      <span
+        className="topic-manager-level__text--plain display-student-level-different"
+      >
+         
+        * This student's level has changed. The next level will take effect when the student begins a new segment.
+      </span>
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;

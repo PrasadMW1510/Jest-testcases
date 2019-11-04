@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Advanced Search Container Saga getStudentSubmissionsRequest saga flow should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getStudentSubmissionsRequest saga flow should successfully run 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga getStudentSubmissionsRequest saga flow should successfully run 3`] = `"R180NG,S44NG,S44JR,M180,M180Y2"`;
+
+exports[`Advanced Search Container Saga getStudentSubmissionsRequest saga flow should successfully run 4`] = `"teacher"`;
+
+exports[`Advanced Search Container Saga getStudentSubmissionsRequest saga flow should successfully run 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "goalID",
+      "R180NG,S44NG,S44JR,M180,M180Y2",
+      "teacher",
+      "<workItemsSubset>
+  <workItemInfo
+      workItemId=\\"work_hjs\\"
+      communityId=\\"comm_id\\"
+      studentId=\\"ksja\\"
+      assignment=\\"assign\\"
+      kind=\\"kind\\"/>
+      </workItemsSubset>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga setStudentAcademicGoals saga flow should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga setStudentAcademicGoals saga flow should successfully run 2`] = `"2"`;
+
+exports[`Advanced Search Container Saga setStudentAcademicGoals saga flow should successfully run 3`] = `"555_yyy"`;
+
+exports[`Advanced Search Container Saga setStudentAcademicGoals saga flow should successfully run 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "UserIDVal",
+      "SessionIDVal",
+      "goalID",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga setStudentBehaviourGoals saga flow should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga setStudentBehaviourGoals saga flow should successfully run 2`] = `"2"`;
+
+exports[`Advanced Search Container Saga setStudentBehaviourGoals saga flow should successfully run 3`] = `"555_yyy"`;
+
+exports[`Advanced Search Container Saga setStudentBehaviourGoals saga flow should successfully run 4`] = `"true"`;
+
+exports[`Advanced Search Container Saga setStudentBehaviourGoals saga flow should successfully run 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "UserIDVal",
+      "SessionIDVal",
+      "isupdate",
+      "goalID",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 2`] = `"2"`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 3`] = `"555_yyy"`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 4`] = `"true"`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 5`] = `"skdkdjjbbckjd_skjsxbjh"`;
+
+exports[`Advanced Search Container Saga updateStudentBehaviourGoals saga flow should successfully run 6`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "UserIDVal",
+      "SessionIDVal",
+      "isupdate",
+      "workId",
+      "goalID",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

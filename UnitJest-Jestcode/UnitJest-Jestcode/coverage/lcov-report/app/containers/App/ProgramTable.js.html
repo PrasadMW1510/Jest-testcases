@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/App/ProgramTable.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/App</a> ProgramTable.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/45</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/23</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import CDXIco<span class="cstat-no" title="statement not covered" >nLarge from 'images/gateway_assets/btn_codex.png';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+import DTMIconLarge f<span class="cstat-no" title="statement not covered" >rom 'images/product-assets/product-settings/DoTheMath_41x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import FADIconLarge from '<span class="cstat-no" title="statement not covered" >images/product-assets/product-settings/FractionNation_90x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import FMIconLarge fro<span class="cstat-no" title="statement not covered" >m 'images/product-assets/product-settings/FasttMath_211x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import FMNGIconLarge fro<span class="cstat-no" title="statement not covered" >m 'images/product-assets/product-settings/FasttMathNG_262x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import M180IconLarge from 'i<span class="cstat-no" title="statement not covered" >mages/product-assets/product-settings/Math180_Course1_206x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import M180Y2IconLarge from <span class="cstat-no" title="statement not covered" >'images/product-assets/product-settings/Math180_Course2_213x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import R180IconLarge fr<span class="cstat-no" title="statement not covered" >om 'images/product-assets/product-settings/Read180_EE_138x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import R180NGIconLarge <span class="cstat-no" title="statement not covered" >from 'images/product-assets/product-settings/Read180_NG_107x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import RTIconLarge from 'images<span class="cstat-no" title="statement not covered" >/product-assets/product-settings/rSkills_Enterprise_164x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import RTNGIconLarge from 'images/<span class="cstat-no" title="statement not covered" >product-assets/product-settings/rSkills_CollegeCareer_205x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import S44IconLarge <span class="cstat-no" title="statement not covered" >from 'images/product-assets/product-settings/System44_50x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import S44JRIconLa<span class="cstat-no" title="statement not covered" >rge from 'images/product-assets/product-settings/iRead_143x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import S44NGIconLarge f<span class="cstat-no" title="statement not covered" >rom 'images/product-assets/product-settings/System44_NG_60x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import SMIIconLarge from '<span class="cstat-no" title="statement not covered" >images/product-assets/product-settings/MathInventory_178x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import SPIIconLarge from 'ima<span class="cstat-no" title="statement not covered" >ges/product-assets/product-settings/PhonicsInventory_181x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import SRCIconLarge from <span class="cstat-no" title="statement not covered" >'images/product-assets/product-settings/ReadingCounts_63x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import SRIIconLarge from 'ima<span class="cstat-no" title="statement not covered" >ges/product-assets/product-settings/ReadingInventory_181x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+import XTIconLarge f<span class="cstat-no" title="statement not covered" >rom 'images/product-assets/product-settings/Expert21_57x50.png';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import ProgramAva<span class="cstat-no" title="statement not covered" >ilableBarIcons from 'components/ProgramAvailableBar/</span>constants';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import { PROGRAM_L<span class="cstat-no" title="statement not covered" >IST } from './constants</span>';<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+&nbsp;
+const PROGRAMS_TABLE <span class="cstat-no" title="statement not covered" >= [</span>
+  {
+    product_code: PROGRAM_LIST.CDX.code,
+    settings: '',
+    worksheets: '',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.CDX,
+    display_image_large: CDXIconLarge,
+    display_name: PROGRAM_LIST.CDX.name,
+  },
+  {
+    product_code: PROGRAM_LIST.DTM.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.DTM,
+    display_image_large: DTMIconLarge,
+    display_name: PROGRAM_LIST.DTM.name,
+  },
+  {
+    product_code: PROGRAM_LIST.DTM2.code,
+    settings: '',
+    worksheets: '',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.DTM2,
+    display_image_large: DTMIconLarge,
+    display_name: PROGRAM_LIST.DTM2.name,
+  },
+  {
+    product_code: PROGRAM_LIST.E3D.code,
+    settings: '',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.E3D,
+    display_image_large: ProgramAvailableBarIcons.E3DIcon,
+    display_name: PROGRAM_LIST.E3D.name,
+  },
+  {
+    product_code: PROGRAM_LIST.FAD.code,
+    settings: 'Settings',
+    worksheets: '',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.FAD,
+    display_image_large: FADIconLarge,
+    display_name: PROGRAM_LIST.FAD.name,
+  },
+  {
+    product_code: PROGRAM_LIST.FM.code,
+    settings: 'Settings',
+    worksheets: 'Worksheets',
+    portfolio: '',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.FM,
+    display_image_large: FMIconLarge,
+    display_name: PROGRAM_LIST.FM.name,
+  },
+  {
+    product_code: PROGRAM_LIST.FMNG.code,
+    settings: 'Settings',
+    worksheets: 'Worksheets',
+    portfolio: '',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.FMNG,
+    display_image_large: FMNGIconLarge,
+    display_name: PROGRAM_LIST.FMNG.name,
+  },
+  {
+    product_code: PROGRAM_LIST.M180.code,
+    settings: 'Settings',
+    worksheets: '',
+    portfolio: 'Portfolio',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.M180,
+    display_image_large: M180IconLarge,
+    display_name: PROGRAM_LIST.M180.name,
+  },
+  {
+    product_code: PROGRAM_LIST.M180Y2.code,
+    settings: 'Settings',
+    worksheets: '',
+    portfolio: 'Portfolio',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.M180Y2,
+    display_image_large: M180Y2IconLarge,
+    display_name: PROGRAM_LIST.M180Y2.name,
+  },
+  {
+    product_code: PROGRAM_LIST.R180.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.R180,
+    display_image_large: R180IconLarge,
+    display_name: PROGRAM_LIST.R180.name,
+  },
+  {
+    product_code: PROGRAM_LIST.R180NG.code,
+    settings: 'Settings',
+    worksheets: 'Assignments',
+    portfolio: 'Portfolio',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.R180NG,
+    display_image_large: R180NGIconLarge,
+    display_name: PROGRAM_LIST.R180NG.name,
+  },
+  {
+    product_code: PROGRAM_LIST.R180U.code,
+    settings: '',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.R180U,
+    display_image_large: R180IconLarge, // TO-DO No large icon provided
+    display_name: PROGRAM_LIST.R180U.name,
+  },
+  {
+    product_code: PROGRAM_LIST.RT.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.RT,
+    display_image_large: RTIconLarge,
+    display_name: PROGRAM_LIST.RT.name,
+  },
+  {
+    product_code: PROGRAM_LIST.RTNG.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: 'Portfolio',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.RTNG,
+    display_image_large: RTNGIconLarge,
+    display_name: PROGRAM_LIST.RTNG.name,
+  },
+  {
+    product_code: PROGRAM_LIST.S44.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.S44,
+    display_image_large: S44IconLarge,
+    display_name: PROGRAM_LIST.S44.name,
+  },
+  {
+    product_code: PROGRAM_LIST.S44JR.code,
+    settings: 'Settings',
+    worksheets: 'Assignments',
+    portfolio: 'Portfolio',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.S44JR,
+    display_image_large: S44JRIconLarge,
+    display_name: PROGRAM_LIST.S44JR.name,
+  },
+  {
+    product_code: PROGRAM_LIST.S44NG.code,
+    settings: 'Settings',
+    worksheets: 'Assignments',
+    portfolio: 'Portfolio',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.S44NG,
+    display_image_large: S44NGIconLarge,
+    display_name: PROGRAM_LIST.S44NG.name,
+  },
+  {
+    product_code: PROGRAM_LIST.SMI.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.SMI,
+    display_image_large: SMIIconLarge,
+    display_name: PROGRAM_LIST.SMI.name,
+  },
+  {
+    product_code: PROGRAM_LIST.SPI.code,
+    settings: 'Settings',
+    worksheets: '',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.SPI,
+    display_image_large: SPIIconLarge,
+    display_name: PROGRAM_LIST.SPI.name,
+  },
+  {
+    product_code: PROGRAM_LIST.SRC.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: 'Certificates',
+    display_image: ProgramAvailableBarIcons.SRC,
+    display_image_large: SRCIconLarge,
+    display_name: PROGRAM_LIST.SRC.name,
+  },
+  {
+    product_code: PROGRAM_LIST.SRI.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.SRI,
+    display_image_large: SRIIconLarge,
+    display_name: PROGRAM_LIST.SRI.name,
+  },
+  {
+    product_code: PROGRAM_LIST.XT.code,
+    settings: 'Settings',
+    worksheets: 'Grading Tools',
+    portfolio: '',
+    certificates: '',
+    display_image: ProgramAvailableBarIcons.XT,
+    display_image_large: XTIconLarge,
+    display_name: PROGRAM_LIST.XT.name,<span class="cstat-no" title="statement not covered" ></span>
+  },
+];
+&nbsp;
+export default PROGRAMS_TABLE;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

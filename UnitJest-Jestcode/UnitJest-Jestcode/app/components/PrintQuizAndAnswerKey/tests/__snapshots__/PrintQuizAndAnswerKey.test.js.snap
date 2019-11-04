@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintQuizAndAnswerKey /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Custom Quiz"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--quiz-and-answer-key"
+  >
+    <div
+      className="print--quiz-and-answer-key-list--orange"
+    >
+      <div
+        className="print-cus-heading"
+      >
+        Print Quiz and Answer Key
+      </div>
+      <div
+        className="print-right-txt"
+      >
+        <a
+          className="print-a-span"
+          href="button"
+          onClick={[Function]}
+        >
+          Previous
+        </a>
+        <a
+          className="print-a-span"
+          href="button"
+          onClick={[Function]}
+        >
+          Next
+        </a>
+      </div>
+    </div>
+    <div
+      className="print-title-quizandanswerkey"
+    >
+      <div
+        className="print-title-quizandanswerkey-style"
+      >
+        <span>
+          Title:
+        </span>
+         
+      </div>
+    </div>
+    <div
+      className="print-background"
+    >
+      <div
+        className="print-questinandanswer__input"
+      >
+        Number of Questions:
+        <input
+          className="print-questinandanswer__textbox"
+          onChange={[Function]}
+          pattern="[0-9]*"
+          type="textbox"
+          value={10}
+        />
+        <span>
+          (Maximum 30)
+        </span>
+      </div>
+    </div>
+    <div
+      className="print-quiz-and-answer-key__buttons"
+    >
+      <div
+        className="print-quiz-and-answer-key__close"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          Close
+        </SAMButton>
+      </div>
+      <div
+        className="print-quiz-and-answer-key__preview"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Preview
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<PrintQuizAndAnswerKey /> Expect to render correctly 2`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Empty Modal For Quiz and Answer"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal-quiz-and-answer__empty"
+  >
+    <div
+      className="print-custom-empty__text"
+    >
+      Please select at least one quiz to print.
+    </div>
+    <div
+      className="empty-quiz_and_answer__buttons"
+    >
+      <div
+        className="empty-quiz-and-answer__secondary-button-ok"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

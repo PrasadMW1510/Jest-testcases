@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CatchAllClass  /> should render  1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180na"
+    isOpen={true}
+    modalClassModifier="modal--catchallclass-modal"
+  >
+    <div
+      className="print-catchallclass-modal-list--wrapper"
+    >
+      <div
+        className="print-catchallclass-modal-list--purple"
+      >
+        <div
+          className="print-catchallclass-modal__heading"
+        >
+          hhh
+        </div>
+        <div>
+          <button
+            className="print-catchallclass-modal__button-close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <CatchAllClassMath180
+        handleDatachange={[Function]}
+      />
+      <div
+        className="show-catchallclass-modal-line"
+      >
+         
+      </div>
+      <div
+        className="print-activate-quiz__buttons"
+      >
+        <div
+          className="print-activate-quiz__primary-button"
+        >
+          <div
+            className="print-catchallclass-modal__buttons-firstset"
+          >
+            <button
+              className="print-catchallclass-modal-button-first-set print-system44-modal-button-print"
+              disabled="true"
+            >
+              Print
+            </button>
+            <button
+              className="print-catchallclass-modal-button-first-set print-system44-modal-button-cancel"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+          </div>
+          <div
+            className="print-catchallclass-modal__buttons-secondset"
+          >
+            <button
+              className="print-catchallclass-modal-button-second-set print-catchallclass-modal-button-delete"
+              disabled="true"
+            >
+              Delete
+            </button>
+            <button
+              className="print-catchallclass-modal-button-second-set print-catchallclass-modal-button-save"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <CatchAllClassWarning
+    cancelWarningModalconClose={[Function]}
+    closeAssignmentUpdate={[Function]}
+    showAssignmentUpdate={false}
+    yesWarningModalclose={[Function]}
+  />
+</div>
+`;
+
+exports[`<CatchAllClass  /> should render  2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180na"
+    isOpen={true}
+    modalClassModifier="modal--catchallclass-modal"
+  >
+    <div
+      className="print-catchallclass-modal-list--wrapper"
+    >
+      <div
+        className="print-catchallclass-modal-list--purple"
+      >
+        <div
+          className="print-catchallclass-modal__heading"
+        >
+          hhh
+        </div>
+        <div>
+          <button
+            className="print-catchallclass-modal__button-close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <CatchAllClassMath180
+        handleDatachange={[Function]}
+      />
+      <div
+        className="show-catchallclass-modal-line"
+      >
+         
+      </div>
+      <div
+        className="print-activate-quiz__buttons"
+      >
+        <div
+          className="print-activate-quiz__primary-button"
+        >
+          <div
+            className="print-catchallclass-modal__buttons-firstset"
+          >
+            <button
+              className="print-catchallclass-modal-button-first-set print-system44-modal-button-print"
+              disabled="true"
+            >
+              Print
+            </button>
+            <button
+              className="print-catchallclass-modal-button-first-set print-system44-modal-button-cancel"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+          </div>
+          <div
+            className="print-catchallclass-modal__buttons-secondset"
+          >
+            <button
+              className="print-catchallclass-modal-button-second-set print-catchallclass-modal-button-delete"
+              disabled="true"
+            >
+              Delete
+            </button>
+            <button
+              className="print-catchallclass-modal-button-second-set print-catchallclass-modal-button-save"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <CatchAllClassWarning
+    cancelWarningModalconClose={[Function]}
+    closeAssignmentUpdate={[Function]}
+    showAssignmentUpdate={false}
+    yesWarningModalclose={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/SRCGradingToolsContainer/transformers.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/SRCGradingToolsContainer</a> transformers.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/23</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+ *
+ * SRCGradingToolsContainer transformer
+ *
+ */
+&nbsp;
+// To transform data from search results for usage in reducer
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import _ from <span class="cstat-no" title="statement not covered" >'lodash';<span class="cstat-no" title="statement not covered" ></span></span>
+import { decodeHt<span class="cstat-no" title="statement not covered" >ml } from 'utils/utilities'</span>;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+&nbsp;
+const CHARACTER_LIMIT_BEFORE_TOOLTIP_QUIZ_SCORE_TABLE <span class="cstat-no" title="statement not covered" >= 1</span>1;
+const CHARACTER_LIMIT_BEFORE_TOOLTIP_SEARCH_QUIZ_TABLE = 28;
+&nbsp;
+const renderStringWithToolTipPositionedQuizScoreTable = (text, characterLimit, position) =&gt; {
+  if (text.length &gt; characterLimit) {
+    return (<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span>
+      &lt;a className={`rt-td__tooltip rt-td__tooltip--${position}`} data-tip={text}&gt;
+        {characterLimit === CHARACTER_LIMIT_BEFORE_TOOLTIP_QUIZ_SCORE_TABLE ? (
+          &lt;div className="rt-td__truncated-block"&gt;{text.substr(0, 10)}...&lt;/div&gt;
+        ) : (
+          &lt;div className="rt-td__truncated-block"&gt;{text.substr(0, 27)}...&lt;/div&gt;
+        )}
+      &lt;/a&gt;
+    );
+  }
+<span class="cstat-no" title="statement not covered" >  return text;</span>
+};
+&nbsp;
+export const transformSrcGradingTools<span class="cstat-no" title="statement not covered" >Scores = payload =&gt; {<span class="fstat-no" title="function not covered" ></span></span>
+  const quizItems <span class="cstat-no" title="statement not covered" >= payload.GetScoreResp[0].QuizHistory[0].QuizIte</span>m;
+  const data <span class="cstat-no" title="statement not covered" >= _.map(quizItems, item =&gt; ({<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+    date: item.Date[0],
+    title: renderStringWithToolTipPositionedQuizScoreTable(
+      decodeHtml(item.Title[0]),
+      CHARACTER_LIMIT_BEFORE_TOOLTIP_QUIZ_SCORE_TABLE,
+      'right'
+    ),
+    lexile: item.Lexile[0],
+    rl: item.ReadingLevel[0],
+    '# Correct': item.NumCorrect[0],
+    '# Questions': item.NumQuestions[0],
+    points: item.Points[0],
+    remove: item.QuizID[0],
+    id: item.QuizID[0],
+    quizSequence: item.QuizSequence[0],
+  }));
+<span class="cstat-no" title="statement not covered" >  return data;</span>
+};
+&nbsp;
+export const transformSrcGradingTools<span class="cstat-no" title="statement not covered" >Points = payload =&gt; {<span class="fstat-no" title="function not covered" ></span></span>
+  const data <span class="cstat-no" title="statement not covered" >= {</span>
+    earnedToDate: payload.GetPointsResp[0].PointsSummary[0].EarnedToDate[0],
+    usedToDate: payload.GetPointsResp[0].PointsSummary[0].UsedToDate[0],
+    available: payload.GetPointsResp[0].PointsSummary[0].Available[0],
+    pointsList: payload.GetPointsResp[0].PointsList[0],
+  };
+<span class="cstat-no" title="statement not covered" >  return data;</span>
+};
+&nbsp;
+export const transformSrcStudentQ<span class="cstat-no" title="statement not covered" >uizzes = payload =&gt; {<span class="fstat-no" title="function not covered" ></span></span>
+  const quizItems <span class="cstat-no" title="statement not covered" >= payload.SrcSearchResp[0].Boo</span>k;
+  const data <span class="cstat-no" title="statement not covered" >= _.map(quizItems, item =&gt; ({<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+    title: renderStringWithToolTipPositionedQuizScoreTable(
+      decodeHtml(item.Title[0]),
+      CHARACTER_LIMIT_BEFORE_TOOLTIP_SEARCH_QUIZ_TABLE,
+      'right'
+    ),
+    author: `${item.Author[0].LastName[0]}, ${item.Author[0].FirstName[0]}`,
+    lexile: item.Lexile[0],
+    rl: item.ReadingLevel[0],
+    points: item.Points[0],
+  }));
+<span class="cstat-no" title="statement not covered" >  return data;</span>
+};
+&nbsp;
+export const transformSrcStudentQuizPaginati<span class="cstat-no" title="statement not covered" >onData = payload =&gt; {<span class="fstat-no" title="function not covered" ></span></span>
+  const paginationData <span class="cstat-no" title="statement not covered" >= payload.pagination_data[0</span>];
+  const data <span class="cstat-no" title="statement not covered" >= {</span>
+    current_page: paginationData.current_page[0],
+    items_per_page: paginationData.items_per_page[0],
+    page_count: paginationData.page_count[0],
+  };
+<span class="cstat-no" title="statement not covered" >  return data;</span>
+};
+&nbsp;
+export const transformSrcStudentQuizIte<span class="cstat-no" title="statement not covered" >mCount = payload =&gt; payload.item_count[0];<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span>
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

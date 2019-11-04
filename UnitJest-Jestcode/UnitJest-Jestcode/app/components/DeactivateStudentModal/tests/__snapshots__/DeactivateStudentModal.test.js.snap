@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeactivateStudentModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--deactivate-cohort"
+>
+  <div
+    className="deactivate-modal__message"
+  >
+    Are you sure you want to deactivate this student?
+  </div>
+  <button
+    className="deactivate-modal__no"
+  >
+    No
+  </button>
+  <button
+    className="deactivate-modal__yes"
+  >
+    Yes
+  </button>
+</SAMModal>
+`;

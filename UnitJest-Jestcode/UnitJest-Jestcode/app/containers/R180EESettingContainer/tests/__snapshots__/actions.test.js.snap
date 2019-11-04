@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetInstallStagesFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_GET_INSTALL_STAGES_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetInstallStagesSuccess 1`] = `
+Object {
+  "installStages": "mockInstallStages",
+  "type": "app/R180EESettingContainer/R180EE_GET_INSTALL_STAGES_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetSettingsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_GET_SETTINGS_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetSettingsSuccess with params 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "app/R180EESettingContainer/R180EE_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetSettingsSuccess without params 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/R180EESettingContainer/R180EE_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetTopicsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_GET_TOPICS_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EEGetTopicsSuccess 1`] = `
+Object {
+  "topics": "mockTopics",
+  "type": "app/R180EESettingContainer/R180EE_GET_TOPICS_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESetSelectedStage 1`] = `
+Object {
+  "selectedStage": "mockSelectedStage",
+  "type": "app/R180EESettingContainer/R180EE_SET_SELECTED_STAGE",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsContainerFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsContainerRequest 1`] = `
+Object {
+  "type": "app/R180EESettingContainer/R180EE_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsContainerSuccess 1`] = `
+Object {
+  "type": "app/R180EESettingContainer/R180EE_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsSave 1`] = `
+Object {
+  "settingsData": "mockSettings",
+  "type": "app/R180EESettingContainer/R180EE_SETTINGS_SAVE",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EESettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/R180EESettingContainer/R180EE_SETTINGS_SAVE_SUCCESS",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EETopicSave 1`] = `
+Object {
+  "topicData": "mockTopicData",
+  "type": "app/R180EESettingContainer/R180EE_TOPIC_SAVE",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EETopicSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/R180EESettingContainer/R180EE_TOPIC_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`R180EESettingContainer actions should return the correct constant for r180EETopicSaveSuccess 1`] = `
+Object {
+  "type": "app/R180EESettingContainer/R180EE_TOPIC_SAVE_SUCCESS",
+}
+`;

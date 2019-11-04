@@ -1,0 +1,1 @@
+export const CATCH_ALL_CLASS_SYSTEM44 = 'S44NG';

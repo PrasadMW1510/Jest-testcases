@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderImage /> Should render correctly 1`] = `
+<img
+  alt="SAM"
+  className="header-img"
+  src="IMAGE_MOCK"
+/>
+`;

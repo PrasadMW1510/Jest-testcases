@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NgtopicsStageModalContainer /> Expect to render correctly 1`] = `
+<R180NgtopicsStageModal
+  isOpen={true}
+  onNo={[Function]}
+  onYes={[Function]}
+/>
+`;

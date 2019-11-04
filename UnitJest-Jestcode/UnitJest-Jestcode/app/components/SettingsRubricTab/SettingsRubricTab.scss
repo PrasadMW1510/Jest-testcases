@@ -1,0 +1,109 @@
+.settings-rubric__tab {
+  height: 225px;
+}
+
+.settings-rubric__title {
+  background-color: #ffe279;
+  float: left;
+  width: 100%;
+}
+
+.settings-rubric__title-text {
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.settings-rubric__title-column-header {
+  font-weight: bold;
+}
+
+.settings-rubric__details {
+  background-color: #fff;
+  float: left;
+  height: 180px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.settings-rubric__title-column-header-score {
+  background-color: #ffe279;
+  display: inline;
+  float: left;
+  padding-left: 5px;
+  width: 12%;
+}
+
+.settings-rubric__title-column-header-label {
+  background-color: #ffe279;
+  display: inline;
+  float: left;
+  width: 28%;
+}
+
+.settings-rubric__title-column-header-description {
+  background-color: #ffe279;
+  display: inline;
+  float: left;
+  width: 60%;
+}
+
+.settings-rubric__score--detail {
+  display: inline;
+  float: left;
+  text-indent: 38px;
+  width: 12%;
+}
+
+.settings-rubric__label--detail-container {
+  display: inline;
+  float: left;
+  width: 28%;
+}
+
+.settings-rubric__label--detail {
+  border: 1px solid #d5dddd;
+  margin-right: 8px;
+  width: 98%;
+}
+
+.settings-rubric__label-input {
+  text-indent: 3px;
+  width: 100%;
+}
+
+.settings-rubric__row {
+  float: left;
+  padding-top: 4px;
+  width: 100%;
+}
+
+.settings-rubric__description--detail {
+  border-bottom: 2px ridge #d5dddd;
+  border-left: 1px solid #d5dddd;
+  border-right: 2px ridge #d5dddd;
+  border-top: 1px solid #d5dddd;
+  display: inline;
+  float: left;
+  font-family: sans-serif;
+  height: 95px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 60%;
+
+  // SAM server can return data wrapped in a P tag so we override it.
+  p {
+    font-family: sans-serif;
+    line-height: 1.3em;
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  // SAM server can return data wrapped in a FONT tag with inline styling so we override it.
+  //
+  font {
+    font-family: sans-serif;
+    font-kerning: initial;
+    font-size: 9pt;
+    letter-spacing: initial;
+  }
+}

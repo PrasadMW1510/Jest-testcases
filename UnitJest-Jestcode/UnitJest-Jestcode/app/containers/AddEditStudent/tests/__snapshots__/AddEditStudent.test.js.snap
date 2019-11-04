@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEditStudent /> render Expect to render correctly for "Add Student" 1`] = `
+<ReduxForm
+  data={Object {}}
+  formData={
+    Immutable.Map {
+    }
+  }
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeStudentFormRequest={[Function]}
+  isOpen={true}
+  title="Add a Student"
+/>
+`;
+
+exports[`<AddEditStudent /> render Expect to render correctly for "Edit Student" 1`] = `
+<ReduxForm
+  data={
+    Object {
+      "edit": true,
+    }
+  }
+  formData={
+    Immutable.Map {
+    }
+  }
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeStudentFormRequest={[Function]}
+  isOpen={true}
+  title="Edit Student Profile"
+/>
+`;

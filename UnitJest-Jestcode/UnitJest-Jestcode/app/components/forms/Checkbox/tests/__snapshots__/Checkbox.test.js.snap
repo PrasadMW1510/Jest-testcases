@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> Should render correctly when checked 1`] = `
+<div
+  className="form-control__checkbox form-control__checkbox--checked "
+  id="123"
+>
+  <button
+    className="form-control__checkbox-icon"
+    onClick={[Function]}
+  />
+  <span>
+    my label
+  </span>
+</div>
+`;
+
+exports[`<Checkbox /> Should render correctly when checked and clicked 1`] = `
+<div
+  className="form-control__checkbox form-control__checkbox--checked "
+  id="123"
+>
+  <button
+    className="form-control__checkbox-icon"
+    onClick={[Function]}
+  />
+  <span>
+    my label
+  </span>
+</div>
+`;
+
+exports[`<Checkbox /> Should render correctly when unchecked 1`] = `
+<div
+  className="form-control__checkbox  "
+  id="123"
+>
+  <button
+    className="form-control__checkbox-icon"
+    onClick={[Function]}
+  />
+  <span>
+    my label
+  </span>
+</div>
+`;
+
+exports[`<Checkbox /> Should render correctly when unchecked and clicked 1`] = `
+<div
+  className="form-control__checkbox  "
+  id="123"
+>
+  <button
+    className="form-control__checkbox-icon"
+    onClick={[Function]}
+  />
+  <span>
+    my label
+  </span>
+</div>
+`;
+
+exports[`<Checkbox /> Should render correctly with a custom class 1`] = `
+<div
+  className="form-control__checkbox  my-custom-class"
+  id="123"
+>
+  <button
+    className="form-control__checkbox-icon"
+    onClick={[Function]}
+  />
+  <span>
+    my label
+  </span>
+</div>
+`;

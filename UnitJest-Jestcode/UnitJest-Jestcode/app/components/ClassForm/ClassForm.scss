@@ -1,0 +1,263 @@
+.class-form__navbar-bg {
+  background-color: #fff7d7;
+  display: flex;
+}
+
+.class-form__navbar {
+  left: -2px;
+
+  .nav-bar__text {
+    font-size: 14px;
+  }
+}
+
+.class-form__heading {
+  font-size: 16px;
+  margin: 0;
+  padding: 3px 11px;
+}
+
+.class-form__intro {
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0;
+  padding: 7px 100px 16px 20px;
+}
+
+.class-form__body {
+  display: flex;
+  padding: 8px;
+
+  .class-form__body-main {
+    flex: 0 1 auto; // Only expand width of modal, even if it has overflow
+    width: 100%;
+  }
+
+  .class-form__body-aside {
+    display: flex;
+    flex: 0 1 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+}
+
+.class-form__callout {
+  border: 1px #000 solid;
+
+  // If stacked, only show a single border between them.
+  + .class-form__callout {
+    border-top-style: none;
+  }
+}
+
+.class-form__callout--orange {
+  background-color: #fff7d7;
+
+  .class-form__callout-heading {
+    background-color: #ffd400;
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .class-form__callout-body {
+    background-color: #ffef9e;
+    padding: 3px 36px 7px 8px;
+  }
+}
+
+.class-form__roster-students {
+  border-style: none;
+
+  .form-section__callout--orange .form-section__callout-body {
+    height: 301px;
+    padding: 0;
+  }
+}
+
+.class-form__callout-heading {
+  line-height: 28px;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.class-form__callout-body {
+  height: 175px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.class-form__error-message {
+  align-items: flex-end;
+  color: #f00;
+  display: flex;
+  font-size: 11px;
+  height: 36px;
+}
+
+.class-form__error-list {
+  color: #f00;
+  font-size: 10px;
+  line-height: 11px;
+  list-style: none;
+  margin: 40px 16px 0 0;
+  padding: 0;
+
+  .class-form__error-list-item {
+    list-style: none;
+    margin: 0 0 12px;
+  }
+}
+
+.class-form__btn {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 30px;
+  min-width: 102px;
+  width: 100%;
+
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.class-form__btn--default {
+  background-color: #808080;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 3px #a6a6a6 solid;
+}
+
+.class-form__btn--urgent {
+  background-color: #d06021;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px #000 solid;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+}
+
+.form-group {
+  margin-top: 3px;
+}
+
+.class-form .form-group {
+  margin-top: 3px;
+}
+
+.class-form--orange {
+  background-color: #fff;
+
+  .class-form__heading {
+    background-color: #ffd400;
+  }
+
+  .class-form__intro {
+    background-color: #fff7d7;
+  }
+
+  .class-form__body--tab-student-roster .class-form__intro {
+    background-color: #fff;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+}
+
+.class-form__form-identity .form-control__form-group--row {
+  .form-control__checkbox {
+    flex: 1 0 32%;
+  }
+}
+
+.class-form__navbar--error .navbar__item:first-child {
+  .navbar__item-text {
+    color: #f00;
+  }
+}
+
+.form-control__label-required {
+  color: #000;
+}
+
+.form-control--manage-applications {
+  .form-control__label {
+    display: none;
+  }
+}
+
+.class-form__manage-applications .form-section__callout {
+  border-top-style: none;
+}
+
+// For cases where content is desired in DOM but not visible
+.class-form__form--hide {
+  display: none;
+}
+
+// Reorder grade items
+.form-control__form-group-grades .form-control__form-group {
+  .form-control__checkbox:nth-child(1) {
+    order: 1;
+  }
+
+  .form-control__checkbox:nth-child(2) {
+    order: 3;
+  }
+
+  .form-control__checkbox:nth-child(3) {
+    order: 5;
+  }
+
+  .form-control__checkbox:nth-child(4) {
+    order: 7;
+  }
+
+  .form-control__checkbox:nth-child(5) {
+    order: 9;
+  }
+
+  .form-control__checkbox:nth-child(6) {
+    order: 11;
+  }
+
+  .form-control__checkbox:nth-child(7) {
+    order: 13;
+  }
+
+  .form-control__checkbox:nth-child(8) {
+    order: 2;
+  }
+
+  .form-control__checkbox:nth-child(9) {
+    order: 4;
+  }
+
+  .form-control__checkbox:nth-child(10) {
+    order: 6;
+  }
+
+  .form-control__checkbox:nth-child(11) {
+    order: 8;
+  }
+
+  .form-control__checkbox:nth-child(12) {
+    order: 10;
+  }
+
+  .form-control__checkbox:nth-child(13) {
+    order: 12;
+  }
+
+  .form-control__checkbox:nth-child(14) {
+    order: 14;
+  }
+}
+
+.modal--class-form {
+  height: 570px;
+  overflow: hidden;
+  padding: 0;
+  width: 552px;
+}

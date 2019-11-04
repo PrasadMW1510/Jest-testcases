@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickSearch /> Expect to have unit tests specified 1`] = `
+<div
+  className="quick-search__wrapper"
+>
+  <p
+    className="quick-search-para"
+  >
+    Quick Search
+  </p>
+  <span
+    className="quick-search-span"
+  >
+     Search by:
+  </span>
+  <select
+    className="quick-search__select"
+    id="searchBy"
+    name="searchBy"
+    onChange={[Function]}
+    value="Title"
+  >
+    <option
+      value="Title"
+    >
+      Title
+    </option>
+    <option
+      value="Author"
+    >
+      Author
+    </option>
+  </select>
+  <div
+    className="form-control"
+  >
+    <input
+      className="quick-search-input"
+      id="term"
+      name="term"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      className="quicksearch-search-btn"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;

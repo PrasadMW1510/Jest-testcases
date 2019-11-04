@@ -1,0 +1,1214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentForm /> Expect password fields to be enabled when grade selected 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--student-form"
+>
+  <div
+    className="student-form student-form--orange"
+  >
+    <h2
+      className="student-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="student-form__intro"
+    >
+      Enter information about this Student account on the Profile, Demographics, and Guardian tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="student-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="student-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="student-form__body student-form__body--tab-profile"
+      >
+        <main
+          className="student-form__body-main"
+        >
+          <div
+            className="student-form__error-message"
+          />
+          <div
+            className="student-form__sections"
+          >
+            <FormSection
+              headerText="1. Identify Student"
+              sectionClassModifier="student-form__identity"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                label="Student ID"
+                maxLength={32}
+                name="sis_id"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="First Name"
+                maxLength={40}
+                name="first_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Middle Initial"
+                maxLength={2}
+                name="middle_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Last Name"
+                maxLength={40}
+                name="last_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Suffix"
+                maxLength={5}
+                name="suffix"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Preferred Name"
+                maxLength={100}
+                name="preferred_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                items={Array []}
+                label="Grade"
+                name="grade"
+                required={true}
+              />
+              <Field
+                component={[Function]}
+                label="Username"
+                maxLength={20}
+                name="user_name"
+                required={true}
+                type="text"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className=""
+                  component={[Function]}
+                  disabled={false}
+                  label="Password"
+                  maxLength={16}
+                  name="password"
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="student-form__help-icon"
+                >
+                  <QuestionIconToolTip>
+                    Please select a grade.
+                  </QuestionIconToolTip>
+                </div>
+              </div>
+              <Field
+                className=""
+                component={[Function]}
+                disabled={false}
+                label="Password Confirmation"
+                maxLength={16}
+                name="password_confirm"
+                required={true}
+                type="password"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--sm"
+                  component={[Function]}
+                  label="Date of Birth"
+                  maxLength={10}
+                  name="birth_date"
+                  normalize={[Function]}
+                  type="text"
+                />
+                <div
+                  className="student-form__dob-label"
+                >
+                  (Ex: 11/3/1967)
+                </div>
+              </div>
+            </FormSection>
+            <FormSection
+              headerText="2. Add to Classes & Groups"
+              sectionClassModifier="student-form__class-groups"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                className="student-form__class-groups-empty"
+              >
+                A student must be associated with a class. Please add a class before you add this student.
+              </div>
+              <ClassesWithGroupsControl
+                change={[Function]}
+                className=""
+                classes={
+                  Immutable.Map {
+                  }
+                }
+                classesAll={Array []}
+                groups={
+                  Immutable.Map {
+                  }
+                }
+                groupsAll={Array []}
+                name="classesWithGroups"
+              />
+            </FormSection>
+          </div>
+        </main>
+        <aside
+          className="student-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<StudentForm /> Expect tabs to render correctly when student profile tab clicked 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--student-form"
+>
+  <div
+    className="student-form student-form--orange"
+  >
+    <h2
+      className="student-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="student-form__intro"
+    >
+      Enter information about this Student account on the Profile, Demographics, and Guardian tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="student-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="student-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="student-form__body student-form__body--tab-profile"
+      >
+        <main
+          className="student-form__body-main"
+        >
+          <div
+            className="student-form__error-message"
+          />
+          <div
+            className="student-form__sections"
+          >
+            <FormSection
+              headerText="1. Identify Student"
+              sectionClassModifier="student-form__identity"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                label="Student ID"
+                maxLength={32}
+                name="sis_id"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="First Name"
+                maxLength={40}
+                name="first_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Middle Initial"
+                maxLength={2}
+                name="middle_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Last Name"
+                maxLength={40}
+                name="last_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Suffix"
+                maxLength={5}
+                name="suffix"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Preferred Name"
+                maxLength={100}
+                name="preferred_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                items={
+                  Array [
+                    "",
+                  ]
+                }
+                label="Grade"
+                name="grade"
+                required={true}
+              />
+              <Field
+                component={[Function]}
+                label="Username"
+                maxLength={20}
+                name="user_name"
+                required={true}
+                type="text"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--disable"
+                  component={[Function]}
+                  disabled={true}
+                  label="Password"
+                  maxLength={16}
+                  name="password"
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="student-form__help-icon"
+                >
+                  <QuestionIconToolTip>
+                    Please select a grade.
+                  </QuestionIconToolTip>
+                </div>
+              </div>
+              <Field
+                className="form-control--disable"
+                component={[Function]}
+                disabled={true}
+                label="Password Confirmation"
+                maxLength={16}
+                name="password_confirm"
+                required={true}
+                type="password"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--sm"
+                  component={[Function]}
+                  label="Date of Birth"
+                  maxLength={10}
+                  name="birth_date"
+                  normalize={[Function]}
+                  type="text"
+                />
+                <div
+                  className="student-form__dob-label"
+                >
+                  (Ex: 11/3/1967)
+                </div>
+              </div>
+            </FormSection>
+            <FormSection
+              headerText="2. Add to Classes & Groups"
+              sectionClassModifier="student-form__class-groups"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                className="student-form__class-groups-empty"
+              >
+                A student must be associated with a class. Please add a class before you add this student.
+              </div>
+              <ClassesWithGroupsControl
+                change={[Function]}
+                className=""
+                classes={
+                  Immutable.Map {
+                  }
+                }
+                classesAll={Array []}
+                groups={
+                  Immutable.Map {
+                  }
+                }
+                groupsAll={Array []}
+                name="classesWithGroups"
+              />
+            </FormSection>
+          </div>
+        </main>
+        <aside
+          className="student-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<StudentForm /> Expect to render correctly when in edit mode 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--student-form"
+>
+  <div
+    className="student-form student-form--orange"
+  >
+    <h2
+      className="student-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="student-form__intro"
+    >
+      Enter information about this Student account on the Profile, Demographics, and Guardian tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="student-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="student-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="student-form__body student-form__body--tab-profile"
+      >
+        <main
+          className="student-form__body-main"
+        >
+          <div
+            className="student-form__error-message"
+          />
+          <div
+            className="student-form__sections"
+          >
+            <FormSection
+              headerText="1. Identify Student"
+              sectionClassModifier="student-form__identity"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                label="Student ID"
+                maxLength={32}
+                name="sis_id"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="First Name"
+                maxLength={40}
+                name="first_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Middle Initial"
+                maxLength={2}
+                name="middle_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Last Name"
+                maxLength={40}
+                name="last_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Suffix"
+                maxLength={5}
+                name="suffix"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Preferred Name"
+                maxLength={100}
+                name="preferred_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                items={
+                  Array [
+                    "",
+                  ]
+                }
+                label="Grade"
+                name="grade"
+                required={true}
+              />
+              <Field
+                component={[Function]}
+                label="Username"
+                maxLength={20}
+                name="user_name"
+                required={true}
+                type="text"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--disable"
+                  component={[Function]}
+                  disabled={true}
+                  label="Password"
+                  maxLength={16}
+                  name="password"
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="student-form__help-icon"
+                >
+                  <QuestionIconToolTip>
+                    Please select a grade.
+                  </QuestionIconToolTip>
+                </div>
+              </div>
+              <Field
+                className="form-control--disable"
+                component={[Function]}
+                disabled={true}
+                label="Password Confirmation"
+                maxLength={16}
+                name="password_confirm"
+                required={true}
+                type="password"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--sm"
+                  component={[Function]}
+                  label="Date of Birth"
+                  maxLength={10}
+                  name="birth_date"
+                  normalize={[Function]}
+                  type="text"
+                />
+                <div
+                  className="student-form__dob-label"
+                >
+                  (Ex: 11/3/1967)
+                </div>
+              </div>
+            </FormSection>
+            <FormSection
+              headerText="2. Add to Classes & Groups"
+              sectionClassModifier="student-form__class-groups"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                className="student-form__class-groups-empty"
+              >
+                A student must be associated with a class. Please add a class before you add this student.
+              </div>
+              <ClassesWithGroupsControl
+                change={[Function]}
+                className=""
+                classes={
+                  Immutable.Map {
+                  }
+                }
+                classesAll={Array []}
+                groups={
+                  Immutable.Map {
+                  }
+                }
+                groupsAll={Array []}
+                name="classesWithGroups"
+              />
+            </FormSection>
+          </div>
+        </main>
+        <aside
+          className="student-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<StudentForm /> Expect to render correctly when no classes are selected 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--student-form"
+>
+  <div
+    className="student-form student-form--orange"
+  >
+    <h2
+      className="student-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="student-form__intro"
+    >
+      Enter information about this Student account on the Profile, Demographics, and Guardian tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="student-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="student-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="student-form__body student-form__body--tab-profile"
+      >
+        <main
+          className="student-form__body-main"
+        >
+          <div
+            className="student-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <div
+            className="student-form__sections"
+          >
+            <FormSection
+              headerText="1. Identify Student"
+              sectionClassModifier="student-form__identity"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                label="Student ID"
+                maxLength={32}
+                name="sis_id"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="First Name"
+                maxLength={40}
+                name="first_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Middle Initial"
+                maxLength={2}
+                name="middle_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Last Name"
+                maxLength={40}
+                name="last_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Suffix"
+                maxLength={5}
+                name="suffix"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Preferred Name"
+                maxLength={100}
+                name="preferred_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                items={
+                  Array [
+                    "",
+                  ]
+                }
+                label="Grade"
+                name="grade"
+                required={true}
+              />
+              <Field
+                component={[Function]}
+                label="Username"
+                maxLength={20}
+                name="user_name"
+                required={true}
+                type="text"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--disable"
+                  component={[Function]}
+                  disabled={true}
+                  label="Password"
+                  maxLength={16}
+                  name="password"
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="student-form__help-icon"
+                >
+                  <QuestionIconToolTip>
+                    Please select a grade.
+                  </QuestionIconToolTip>
+                </div>
+              </div>
+              <Field
+                className="form-control--disable"
+                component={[Function]}
+                disabled={true}
+                label="Password Confirmation"
+                maxLength={16}
+                name="password_confirm"
+                required={true}
+                type="password"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--sm"
+                  component={[Function]}
+                  label="Date of Birth"
+                  maxLength={10}
+                  name="birth_date"
+                  normalize={[Function]}
+                  type="text"
+                />
+                <div
+                  className="student-form__dob-label"
+                >
+                  (Ex: 11/3/1967)
+                </div>
+              </div>
+            </FormSection>
+            <FormSection
+              headerText="2. Add to Classes & Groups"
+              sectionClassModifier="student-form__class-groups student-form__class-groups--error"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                className="student-form__class-groups-empty"
+              >
+                A student must be associated with a class. Please add a class before you add this student.
+              </div>
+              <ClassesWithGroupsControl
+                change={[Function]}
+                className=""
+                classes={
+                  Immutable.Map {
+                  }
+                }
+                classesAll={Array []}
+                groups={
+                  Immutable.Map {
+                  }
+                }
+                groupsAll={Array []}
+                name="classesWithGroups"
+              />
+            </FormSection>
+          </div>
+        </main>
+        <aside
+          className="student-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={
+              Object {
+                "classes": "foo error",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<StudentForm /> Expect to render correctly when server errors that have meta-data 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--student-form"
+>
+  <div
+    className="student-form student-form--orange"
+  >
+    <h2
+      className="student-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="student-form__intro"
+    >
+      Enter information about this Student account on the Profile, Demographics, and Guardian tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="student-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="student-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="student-form__body student-form__body--tab-profile"
+      >
+        <main
+          className="student-form__body-main"
+        >
+          <div
+            className="student-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <div
+            className="student-form__sections"
+          >
+            <FormSection
+              headerText="1. Identify Student"
+              sectionClassModifier="student-form__identity"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <Field
+                component={[Function]}
+                label="Student ID"
+                maxLength={32}
+                name="sis_id"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="First Name"
+                maxLength={40}
+                name="first_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Middle Initial"
+                maxLength={2}
+                name="middle_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Last Name"
+                maxLength={40}
+                name="last_name"
+                required={true}
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Suffix"
+                maxLength={5}
+                name="suffix"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                label="Preferred Name"
+                maxLength={100}
+                name="preferred_name"
+                type="text"
+              />
+              <Field
+                component={[Function]}
+                items={
+                  Array [
+                    "",
+                  ]
+                }
+                label="Grade"
+                name="grade"
+                required={true}
+              />
+              <Field
+                component={[Function]}
+                label="Username"
+                maxLength={20}
+                name="user_name"
+                required={true}
+                type="text"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--disable"
+                  component={[Function]}
+                  disabled={true}
+                  label="Password"
+                  maxLength={16}
+                  name="password"
+                  required={true}
+                  type="password"
+                />
+                <div
+                  className="student-form__help-icon"
+                >
+                  <QuestionIconToolTip>
+                    Please select a grade.
+                  </QuestionIconToolTip>
+                </div>
+              </div>
+              <Field
+                className="form-control--disable"
+                component={[Function]}
+                disabled={true}
+                label="Password Confirmation"
+                maxLength={16}
+                name="password_confirm"
+                required={true}
+                type="password"
+              />
+              <div
+                className="student-form__field-wrap"
+              >
+                <Field
+                  className="form-control--sm"
+                  component={[Function]}
+                  label="Date of Birth"
+                  maxLength={10}
+                  name="birth_date"
+                  normalize={[Function]}
+                  type="text"
+                />
+                <div
+                  className="student-form__dob-label"
+                >
+                  (Ex: 11/3/1967)
+                </div>
+              </div>
+            </FormSection>
+            <FormSection
+              headerText="2. Add to Classes & Groups"
+              sectionClassModifier="student-form__class-groups"
+              sectionStyle={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <div
+                className="student-form__class-groups-empty"
+              >
+                A student must be associated with a class. Please add a class before you add this student.
+              </div>
+              <ClassesWithGroupsControl
+                change={[Function]}
+                className=""
+                classes={
+                  Immutable.Map {
+                  }
+                }
+                classesAll={Array []}
+                groups={
+                  Immutable.Map {
+                  }
+                }
+                groupsAll={Array []}
+                name="classesWithGroups"
+              />
+            </FormSection>
+          </div>
+        </main>
+        <aside
+          className="student-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={
+              Object {
+                "errorMeta": Object {
+                  "alternate_username": Array [
+                    "student01",
+                  ],
+                },
+                "user_name": "user_name error  Alternate value: student01",
+              }
+            }
+            validationErrors={null}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;

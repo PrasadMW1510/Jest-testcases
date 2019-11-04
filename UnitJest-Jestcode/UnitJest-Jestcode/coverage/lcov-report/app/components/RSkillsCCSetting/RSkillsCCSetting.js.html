@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/RSkillsCCSetting/RSkillsCCSetting.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/RSkillsCCSetting</a> RSkillsCCSetting.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/99</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/56</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/19</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/48</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * RSkillsCCSetting
+ *
+ */
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import NavBar,<span class="cstat-no" title="statement not covered" > { NavItem } from 'components</span>/NavBar';<span class="cstat-no" title="statement not covered" ></span>
+import * as PSVCo<span class="cstat-no" title="statement not covered" >nstants from 'components/ProgramSettingsView/constan</span>ts';<span class="cstat-no" title="statement not covered" ></span>
+import * as Consta<span class="cstat-no" title="statement not covered" >nts from 'components/RSkillsCCSetting/constants';<span class="cstat-no" title="statement not covered" ></span></span>
+import RSkillsCCSettingsTab <span class="cstat-no" title="statement not covered" >from 'components/RSkillsCCSettingsTab';<span class="cstat-no" title="statement not covered" ></span></span>
+import SettingsMessage <span class="cstat-no" title="statement not covered" >from 'components/SettingsMessage/SettingsMessage';<span class="cstat-no" title="statement not covered" ></span></span>
+import { COHORT_TY<span class="cstat-no" title="statement not covered" >PE } from 'containers/App/constants'</span>;
+&nbsp;
+import RSkillCCTestAssignmentTab <span class="cstat-no" title="statement not covered" >from './RSkillCCTestAssignmentTab';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import './RSkillsCCSetting.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class RSkillsCCSetting extends React.Component {
+  constructor(props) {
+    super(props);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+    this.state = {
+      activeTab: Constants.TAB_TEST_ASSIGNMENT,
+      isolateTab: false,
+    };
+  }
+&nbsp;
+  enrolledCount = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.prop<span class="cstat-no" title="statement not covered" >s.enrollmentCount;<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+  // TODO : determine if these tab functions might be better as a shared component
+  handleTabsReset = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.setS<span class="cstat-no" title="statement not covered" >tate({ isolateTab: false });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+  handleTabClick = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ activeTab: ev.currentTarget.id });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleTabIsolate = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ isolateTab: true });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  determineUnenrolledMsg = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // either passed in cohortType or whichever userOrg for logged in user
+    const cohortType = <span class="cstat-no" title="statement not covered" >this.props.effectiveCohortObject.cohortType;</span>
+    let msg = PS<span class="cstat-no" title="statement not covered" >VConstants.UNDER_CONSTRUCTION;</span>
+    sw<span class="cstat-no" title="statement not covered" >itch (cohortType) {</span>
+      case COHORT_TYPE.Student:
+        ms<span class="cstat-no" title="statement not covered" >g = 'This student is not enrolled in';</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      default:
+        ms<span class="cstat-no" title="statement not covered" >g = `This ${cohortType.toLowerCase()} does not have any students enrolled in`;</span>
+    }
+    ms<span class="cstat-no" title="statement not covered" >g += ` ${this.props.programMeta.name}`;</span>
+    re<span class="cstat-no" title="statement not covered" >turn msg;</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  renderSettingsTab = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.enrolledCount() === 0) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn &lt;SettingsMessage message1={this.determineUnenrolledMsg()} /&gt;;</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;RSkillsCCSettingsTab
+        effectiveCohortObject={this.props.effectiveCohortObject}
+        handleIsolateTab={this.handleTabIsolate}
+        handleRSkillsCCGetDefaultSettings={this.props.handleRSkillsCCGetDefaultSettings}
+        handleSave={this.props.handleRSkillsCCSettingsSave}
+        handleTabReset={this.handleTabsReset}
+        isDefaultProgramSettingsLoading={this.props.isDefaultProgramSettingsLoading}
+        isLoading={this.props.isLoading}
+        immDefaultProgramSettings={this.props.immDefaultProgramSettings}
+        immProgramSettings={this.props.immProgramSettings}
+        isTabIsolated={this.state.isolateTab}
+      /&gt;
+    );
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  renderTestAssignmentTab = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.enrolledCount() === 0) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn &lt;SettingsMessage message1={this.determineUnenrolledMsg()} /&gt;;</span>
+    }
+    const cohortType = <span class="cstat-no" title="statement not covered" >this.props.effectiveCohortObject.cohortType;</span>
+    sw<span class="cstat-no" title="statement not covered" >itch (cohortType) {</span>
+      case COHORT_TYPE.District:
+      case COHORT_TYPE.School:
+      case COHORT_TYPE.Grade:
+        re<span class="cstat-no" title="statement not covered" >turn &lt;SettingsMessage message1={Constants.RSKILLSCC_SELECT_OTHER_COHORT} /&gt;;</span>
+      // no default
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;RSkillCCTestAssignmentTab
+        effectiveCohortObject={this.props.effectiveCohortObject}
+        handleSave={this.props.handleRSkillsCCTestAssignmentSave}
+        handleTabReset={this.handleTabsReset}
+        handleIsolateTab={this.handleTabIsolate}
+        isLoading={this.props.isLoading}
+        isTabIsolated={this.state.isolateTab}
+        testAssignmentStages={this.props.testAssignmentStages}
+      /&gt;
+    );
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    const { active<span class="cstat-no" title="statement not covered" >Tab } = this.state;</span>
+    const classesNavBar = <span class="cstat-no" title="statement not covered" >`program-settings__navbar ${</span>
+      this.state.isolateTab ? 'program-settings__navbar--isolate-tab' : ''
+    }`;
+&nbsp;
+    const tabs = <span class="cstat-no" title="statement not covered" >[</span>
+      { id: Constants.TAB_TEST_ASSIGNMENT, label: Constants.TAB_TEST_ASSIGNMENT_LABEL },
+      PSVConstants.TAB_SETTINGS,
+    ];
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div&gt;
+        &lt;NavBar activeItemId={activeTab} className={classesNavBar} theme="tabs" palette="orange"&gt;
+          {tabs.map((<span class="fstat-no" title="function not covered" >{ </span>label, id }) =&gt; (<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+            &lt;NavItem id={id} key={id} onClick={this.handleTabClick}&gt;
+              {label}
+            &lt;/NavItem&gt;
+          ))}
+        &lt;/NavBar&gt;
+        &lt;div className="program-settings__tab-content"&gt;
+          {activeTab === Constants.TAB_TEST_ASSIGNMENT &amp;&amp; this.renderTestAssignmentTab()}
+          {activeTab === PSVConstants.TAB_SETTINGS.id &amp;&amp; this.renderSettingsTab()}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >RSkillsCCSetting.propTypes = {</span>
+  effectiveCohortObject: PropTypes.object.isRequired,
+  enrollmentCount: PropTypes.number.isRequired,
+  handleRSkillsCCGetDefaultSettings: PropTypes.func.isRequired,
+  handleRSkillsCCSettingsSave: PropTypes.func,
+  handleRSkillsCCTestAssignmentSave: PropTypes.func,
+  immDefaultProgramSettings: PropTypes.object.isRequired,
+  immProgramSettings: PropTypes.object.isRequired,
+  isDefaultProgramSettingsLoading: PropTypes.bool,
+  isLoading: PropTypes.bool,
+  programMeta: PropTypes.object.isRequired,
+  testAssignmentStages: PropTypes.array.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default RSkillsCCSetting;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

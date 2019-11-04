@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogoutBox /> Expect to match snapshot 1`] = `
+<div
+  className="logout-box"
+>
+  <h3>
+    Sign Off Complete
+  </h3>
+  <p>
+    Thank you for using SAM. To sign on again, click 
+    <Link
+      replace={false}
+      to="/login"
+    >
+      here.
+    </Link>
+  </p>
+  <p>
+    It is now safe to close this browser window.
+  </p>
+</div>
+`;

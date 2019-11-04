@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SchoolProfile /> Expect to render correctly 1`] = `
+<div
+  className="school-form__form-identity"
+>
+  <Field
+    className="school-form__identity-info"
+    component={[Function]}
+    label="Full School Name"
+    maxLength={60}
+    name="name"
+    required={true}
+    type="text"
+    withRef={true}
+  />
+  <Field
+    className="school-form__identity-info"
+    component={[Function]}
+    label="School Number"
+    maxLength={50}
+    name="schoolNumber"
+    required={true}
+    type="text"
+  />
+  <Field
+    component={[Function]}
+    formatLabel={[Function]}
+    getId={[Function]}
+    label="Grades"
+    name="grades"
+    required={true}
+    row={true}
+  />
+  <Field
+    className="school-form__school-type"
+    component={[Function]}
+    getId={[Function]}
+    items={
+      Array [
+        Object {
+          "id": "0",
+          "label": "Elementary School",
+        },
+        Object {
+          "id": "1",
+          "label": "Junior High School",
+        },
+        Object {
+          "id": "2",
+          "label": "Middle School",
+        },
+        Object {
+          "id": "3",
+          "label": "High School",
+        },
+      ]
+    }
+    label="School Type"
+    name="schoolTypes"
+    required={true}
+    row={true}
+  />
+  <div
+    className="school-form__title-1-row"
+  >
+    <Field
+      className="school-form__title-1-status"
+      component={[Function]}
+      items={
+        Array [
+          Object {
+            "id": "None",
+            "label": "None",
+          },
+          Object {
+            "id": "Title I",
+            "label": "Title I",
+          },
+          Object {
+            "id": "Title I School-Wide",
+            "label": "Title I School-Wide",
+          },
+          Object {
+            "id": "High Needs",
+            "label": "High Needs",
+          },
+          Object {
+            "id": "At-Risk",
+            "label": "At-Risk",
+          },
+          Object {
+            "id": "Focus Site",
+            "label": "Focus Site",
+          },
+        ]
+      }
+      label="Title 1 Status"
+      name="title1Status"
+    />
+    <div
+      className="school-form__required-label"
+    >
+      * Required
+    </div>
+  </div>
+  <div
+    className="school-form__school-year-callout"
+  >
+    <Field
+      className="school-form__school-year"
+      component={[Function]}
+      datePickerClassModifier="sam-datepicker-form-control__input"
+      label="School starts"
+      name="schoolYearStart"
+      onChange={[Function]}
+      required={true}
+      withRef={true}
+    />
+    <Field
+      className="school-form__school-year"
+      component={[Function]}
+      datePickerClassModifier="sam-datepicker-form-control__input"
+      label="School ends"
+      name="schoolYearEnd"
+      onChange={[Function]}
+      required={true}
+      withRef={true}
+    />
+    <Field
+      className="school-form__num-grading-periods"
+      component={[Function]}
+      items={
+        Array [
+          Object {
+            "id": 1,
+            "label": "1",
+          },
+          Object {
+            "id": 2,
+            "label": "2",
+          },
+          Object {
+            "id": 3,
+            "label": "3",
+          },
+          Object {
+            "id": 4,
+            "label": "4",
+          },
+          Object {
+            "id": 5,
+            "label": "5",
+          },
+          Object {
+            "id": 6,
+            "label": "6",
+          },
+        ]
+      }
+      label="No. of Grading Periods"
+      name="numGradingPeriods"
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="school-form__grading-period-callout"
+  >
+    <div
+      key="1"
+    >
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 1 Starts"
+        name="gradingPeriodStart[0]"
+        required={true}
+        withRef={true}
+      />
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 1 Ends"
+        name="gradingPeriodEnd[0]"
+        required={true}
+        withRef={true}
+      />
+    </div>
+    <div
+      key="2"
+    >
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 2 Starts"
+        name="gradingPeriodStart[1]"
+        required={true}
+        withRef={true}
+      />
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 2 Ends"
+        name="gradingPeriodEnd[1]"
+        required={true}
+        withRef={true}
+      />
+    </div>
+    <div
+      key="3"
+    >
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 3 Starts"
+        name="gradingPeriodStart[2]"
+        required={true}
+        withRef={true}
+      />
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 3 Ends"
+        name="gradingPeriodEnd[2]"
+        required={true}
+        withRef={true}
+      />
+    </div>
+    <div
+      key="4"
+    >
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 4 Starts"
+        name="gradingPeriodStart[3]"
+        required={true}
+        withRef={true}
+      />
+      <Field
+        className="school-form__grading-period"
+        component={[Function]}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label="Period 4 Ends"
+        name="gradingPeriodEnd[3]"
+        required={true}
+        withRef={true}
+      />
+    </div>
+  </div>
+</div>
+`;

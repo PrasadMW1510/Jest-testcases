@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditAdminContainer actions should return the correct constant for editAdminContainerRequest 1`] = `
+Object {
+  "type": "app/EditAdminContainer/EDIT_ADMIN_CONTAINER_REQUEST",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for editAdminContainerRequestFailure 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/EditAdminContainer/EDIT_ADMIN_CONTAINER_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for editAdminContainerRequestSuccess 1`] = `
+Object {
+  "type": "app/EditAdminContainer/EDIT_ADMIN_CONTAINER_REQUEST_SUCCESS",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postAddAdminRequest 1`] = `
+Object {
+  "permissionIds": Array [
+    100,
+  ],
+  "profileData": Object {
+    "user_type": "admin",
+  },
+  "type": "app/EditAdminContainer/POST_ADD_ADMIN_REQUEST",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postAddAdminRequestFailure 1`] = `
+Object {
+  "type": "app/EditAdminContainer/POST_ADD_ADMIN_REQUEST_FAILURE",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postAddAdminRequestSuccess 1`] = `
+Object {
+  "type": "app/EditAdminContainer/POST_ADD_ADMIN_REQUEST_SUCCESS",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postSaveAdminRequest with no params 1`] = `
+Object {
+  "editingSameAccount": true,
+  "permissionIds": undefined,
+  "profileData": Object {},
+  "type": "app/EditAdminContainer/POST_SAVE_ADMIN_REQUEST",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postSaveAdminRequest with param 1`] = `
+Object {
+  "editingSameAccount": true,
+  "permissionIds": undefined,
+  "profileData": "mockProfileData",
+  "type": "app/EditAdminContainer/POST_SAVE_ADMIN_REQUEST",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postSaveAdminRequestFailure 1`] = `
+Object {
+  "type": "app/EditAdminContainer/POST_SAVE_ADMIN_REQUEST_FAILURE",
+}
+`;
+
+exports[`EditAdminContainer actions should return the correct constant for postSaveAdminRequestSuccess 1`] = `
+Object {
+  "type": "app/EditAdminContainer/POST_SAVE_ADMIN_REQUEST_SUCCESS",
+}
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavItem /> Should render correctly 1`] = `
+<button
+  className="navbar__item  custom-class"
+  style={
+    Object {
+      "foo": "test-if-custom-prop-gets-passed-through-to-dom-element",
+    }
+  }
+>
+  <span
+    className="navbar__item-text "
+  >
+    navitem content
+  </span>
+</button>
+`;
+
+exports[`<NavItem /> Should render correctly when flagged as active 1`] = `
+<button
+  className="navbar__item navbar__item--active "
+>
+  <span
+    className="navbar__item-text "
+  >
+    navitem content
+  </span>
+</button>
+`;
+
+exports[`<NavItem /> Should render correctly when flagged with errors 1`] = `
+<button
+  className="navbar__item  "
+>
+  <span
+    className="navbar__item-text navbar__item-text--error"
+  >
+    navitem content
+  </span>
+</button>
+`;
+
+exports[`<NavItem /> Should render correctly with a custom component specified 1`] = `
+<a
+  className="navbar__item  "
+>
+  <span
+    className="navbar__item-text "
+  >
+    navitem content
+  </span>
+</a>
+`;

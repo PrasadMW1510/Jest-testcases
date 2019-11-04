@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassAssignCheckboxes /> Expect it to render correctly 1`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="123"
+      key="123"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="123"
+        key="123"
+        name="123"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class A
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343"
+      key="343"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343"
+        key="343"
+        name="343"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class B
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ClassAssignCheckboxes /> Expect to render correctly when classes with Groups are passed 1`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+      key="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+        key="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+        name="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        Class 123 C
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+        id="05jvgud8j45t7lm5thup1tpb_2efa7f0"
+        key="05jvgud8j45t7lm5thup1tpb_2efa7f0"
+      >
+        <input
+          checked={false}
+          className="group-assign-modal__checkbox-row-input"
+          id="05jvgud8j45t7lm5thup1tpb_2efa7f0"
+          key="05jvgud8j45t7lm5thup1tpb_2efa7f0"
+          name="05jvgud8j45t7lm5thup1tpb_2efa7f0"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="group-assign-modal__checkbox-row-span"
+        >
+          grpNAME_ABC_C_A
+        </span>
+      </div>
+      <div
+        className="group-assign-modal__checkbox-row"
+        id="eqfpp6hrcj0tgco9mj545kh3_2efa7f0"
+        key="eqfpp6hrcj0tgco9mj545kh3_2efa7f0"
+      >
+        <input
+          checked={false}
+          className="group-assign-modal__checkbox-row-input"
+          id="eqfpp6hrcj0tgco9mj545kh3_2efa7f0"
+          key="eqfpp6hrcj0tgco9mj545kh3_2efa7f0"
+          name="eqfpp6hrcj0tgco9mj545kh3_2efa7f0"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="group-assign-modal__checkbox-row-span"
+        >
+          grpNAME_XYZ_C_A
+        </span>
+      </div>
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343C"
+      key="343C"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343C"
+        key="343C"
+        name="343C"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        Class 343 C
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+        id="grp343A"
+        key="grp343A"
+      >
+        <input
+          checked={false}
+          className="group-assign-modal__checkbox-row-input"
+          id="grp343A"
+          key="grp343A"
+          name="grp343A"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="group-assign-modal__checkbox-row-span"
+        >
+          grpNAME_343A
+        </span>
+      </div>
+      <div
+        className="group-assign-modal__checkbox-row"
+        id="grp343B"
+        key="grp343B"
+      >
+        <input
+          checked={false}
+          className="group-assign-modal__checkbox-row-input"
+          id="grp343B"
+          key="grp343B"
+          name="grp343B"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="group-assign-modal__checkbox-row-span"
+        >
+          grpNAME_343B
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ClassAssignCheckboxes /> When new classes props are passed in Should render when new props are same as existing props 1`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="123"
+      key="123"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="123"
+        key="123"
+        name="123"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class A
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343"
+      key="343"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343"
+        key="343"
+        name="343"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class B
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ClassAssignCheckboxes /> When new classes props are passed in Should render when new props are same as existing props 2`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="123"
+      key="123"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="123"
+        key="123"
+        name="123"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class A
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343"
+      key="343"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343"
+        key="343"
+        name="343"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class B
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ClassAssignCheckboxes /> When new classes props are passed in Should render with new props 1`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="123"
+      key="123"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="123"
+        key="123"
+        name="123"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class A
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343"
+      key="343"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343"
+        key="343"
+        name="343"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class B
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ClassAssignCheckboxes /> When new classes props are passed in Should render with new props 2`] = `
+<div
+  className="class-assign-modal__checkbox-list"
+>
+  <div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="123"
+      key="123"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="123"
+        key="123"
+        name="123"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class A
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+    <div
+      className="class-assign-modal__checkbox-row"
+      id="343"
+      key="343"
+    >
+      <input
+        checked={false}
+        className="class-assign-modal__checkbox-row-input"
+        id="343"
+        key="343"
+        name="343"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="class-assign-modal__checkbox-row-span"
+      >
+        My Class B
+      </span>
+      <div
+        className="group-assign-modal__checkbox-row"
+      />
+    </div>
+  </div>
+</div>
+`;

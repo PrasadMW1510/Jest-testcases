@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdvancedSettings /> Administrator should match snapshot 1`] = `
+<div
+  className="advanced-settings"
+>
+  <table
+    className="advanced-settings__table"
+  >
+    <thead />
+    <tbody
+      className="advanced-settings-table__body"
+    >
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageStudentLicenses"
+          >
+            Manage Student Licenses
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageTeacherLicenses"
+          >
+            Manage Teacher Licenses
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import Teachers"
+            queryParamList={
+              Array [
+                Array [
+                  "type",
+                  "Teacher",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import Admins"
+            queryParamList={
+              Array [
+                Array [
+                  "type",
+                  "Admin",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Export"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="export.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageInactiveAccounts"
+          >
+            Manage Inactive Accounts
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Manage Student Promotions"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+              ]
+            }
+            relativeUrlPath="endOfYear.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="View Output Files"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+              ]
+            }
+            relativeUrlPath="fileList.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <a
+            href=""
+            target="_blank"
+          >
+            Maintenance Log (PDF)
+          </a>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageAdminAccounts"
+          >
+            Manage Admin Accounts
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<AdvancedSettings /> Teacher should match snapshot 1`] = `
+<div
+  className="advanced-settings"
+>
+  <table
+    className="advanced-settings__table"
+  >
+    <thead />
+    <tbody
+      className="advanced-settings-table__body"
+    >
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageStudentLicenses"
+          >
+            Manage Student Licenses
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageTeacherLicenses"
+          >
+            Manage Teacher Licenses
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import Teachers"
+            queryParamList={
+              Array [
+                Array [
+                  "type",
+                  "Teacher",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Import Admins"
+            queryParamList={
+              Array [
+                Array [
+                  "type",
+                  "Admin",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="import.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Export"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+                Array [
+                  "district_id",
+                  "some_district_id",
+                ],
+              ]
+            }
+            relativeUrlPath="export.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageInactiveAccounts"
+          >
+            Manage Inactive Accounts
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="Manage Student Promotions"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+              ]
+            }
+            relativeUrlPath="endOfYear.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <LinkToExternalSAMApp
+            linkText="View Output Files"
+            queryParamList={
+              Array [
+                Array [
+                  "user_id",
+                  "some_user_id",
+                ],
+                Array [
+                  "sid",
+                  "some_session_id",
+                ],
+              ]
+            }
+            relativeUrlPath="fileList.s"
+          />
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <a
+            href=""
+            target="_blank"
+          >
+            Maintenance Log (PDF)
+          </a>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        >
+          <Link
+            replace={false}
+            to="/roster/manageAdminAccounts"
+          >
+            Manage Admin Accounts
+          </Link>
+        </td>
+      </tr>
+      <tr
+        className="advanced-settings-table__tr"
+      >
+        <td
+          className="advanced-settings-table__td"
+        />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcademicGoals  Expect to render correctly 1`] = `
+<div
+  className="print-system44-modal__description--box1"
+>
+  <div
+    className="print-system44-modal__description--title"
+  >
+    Academic Goals
+  </div>
+  <div
+    className="print-system44__modal--boldtext"
+  >
+    <p>
+      <b>
+        Adjust Goals and Adjust benchmarks*
+      </b>
+      <span
+        className="print-system44__modal--span"
+      >
+        <a
+          className="print-system44__hyper--link"
+          onClick={[Function]}
+          role="link"
+          tabIndex="0"
+        >
+          Reset Default Values
+        </a>
+      </span>
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        key="decoding"
+      >
+        <div>
+          <a
+            className="print-system44__modal--link"
+            onClick={[Function]}
+            role="link"
+            tabIndex="0"
+          >
+            Decoding
+          </a>
+        </div>
+        <div
+          className="print-system44__modal--optiondiv"
+        >
+          <div
+            className="print-system44__modal--paragraphdiv"
+          >
+            <span
+              className="print-system44__modal-annual--goal"
+            >
+              <b>
+                Annual Goal:
+              </b>
+            </span>
+            The student will pass
+            <input
+              className="print-system44__modal-annual-goal--input"
+              readOnly={true}
+              type="text"
+            />
+            <span>
+              topics with 70% fluency.
+            </span>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              The values should be between 
+               and 
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Please enter a value in all Academic Goal field(s)
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Benchmarks must show cumulative progress toward annual goal.
+            </p>
+          </div>
+          <div
+            className="print-system44-modal-listdata-element1"
+          >
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark1: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                topics
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark2: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                topics
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark3: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                topics
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark4: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                topics
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__inbox-remove--btn1 inbox-save-btn"
+      >
+        <span
+          className="print-system44-modal__button-italic--text"
+        >
+          *Benchmark values show cumulative progress toward annual goal
+        </span>
+        <button
+          className="print-system44-modal__inbox-remove--btn2"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Save Goals
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcademicGoals  Expect to render correctly 2`] = `
+<div
+  className="print-system44-modal__description--box1"
+>
+  <div
+    className="print-system44-modal__description--title"
+  >
+    Academic Goals
+  </div>
+  <div
+    className="print-system44__modal--boldtext"
+  >
+    <p>
+      <b>
+        Adjust Goals and Adjust benchmarks*
+      </b>
+      <span
+        className="print-system44__modal--span"
+      >
+        <a
+          className="print-system44__hyper--link"
+          onClick={[Function]}
+          role="link"
+          tabIndex="0"
+        >
+          Reset Default Values
+        </a>
+      </span>
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        key="spelling"
+      >
+        <div>
+          <a
+            className="print-system44__modal--link"
+            onClick={[Function]}
+            role="link"
+            tabIndex="0"
+          >
+            Spelling
+          </a>
+        </div>
+        <div
+          className="print-system44-modal-optiondiv"
+        >
+          <div
+            className="print-system44__modal--paragraphdiv print-system44-modal-paragraphdiv1"
+          >
+            <span
+              className="print-system44__modal-annual--goal"
+            >
+              <b>
+                Annual Goal:
+              </b>
+            </span>
+            The student will score 70% on
+            <input
+              className="print-system44__modal-annual-goal--input"
+              readOnly={true}
+              type="text"
+            />
+            <span>
+              spelling challenges.
+            </span>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              The values should be between 
+               and 
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Benchmarks must show cumulative progress toward annual goal.
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Please enter a value in all Academic Goal field(s)
+            </p>
+          </div>
+          <div
+            className="print-system44-modal-listdata-element1"
+          >
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark1: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                challenges
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark2: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                challenges
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark3: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                challenges
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark4: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                challenges
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__inbox-remove--btn1 inbox-save-btn"
+      >
+        <span
+          className="print-system44-modal__button-italic--text"
+        >
+          *Benchmark values show cumulative progress toward annual goal
+        </span>
+        <button
+          className="print-system44-modal__inbox-remove--btn2"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Save Goals
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AcademicGoals  Expect to render correctly 3`] = `
+<div
+  className="print-system44-modal__description--box1"
+>
+  <div
+    className="print-system44-modal__description--title"
+  >
+    Academic Goals
+  </div>
+  <div
+    className="print-system44__modal--boldtext"
+  >
+    <p>
+      <b>
+        Adjust Goals and Adjust benchmarks*
+      </b>
+      <span
+        className="print-system44__modal--span"
+      >
+        <a
+          className="print-system44__hyper--link"
+          onClick={[Function]}
+          role="link"
+          tabIndex="0"
+        >
+          Reset Default Values
+        </a>
+      </span>
+    </p>
+    <div
+      className="row"
+    >
+      <div
+        key="independent reading"
+      >
+        <div>
+          <a
+            className="print-system44__modal--link"
+            onClick={[Function]}
+            role="link"
+            tabIndex="0"
+          >
+            Independent reading
+          </a>
+        </div>
+        <div
+          className="print-system44-modal-optiondiv last"
+        >
+          <div
+            className="print-system44__modal--paragraphdiv print-system44-modal-paragraphdiv2"
+          >
+            <span
+              className="print-system44-modal-annual-goal"
+            >
+              <b>
+                Annual Goal:
+              </b>
+            </span>
+            The student will read
+            <input
+              className="print-system44__modal-annual-goal--input"
+              readOnly={true}
+              type="text"
+            />
+            <span>
+              leave-appropriate and non-fiction books and demonstrate comprehension of key ideas.
+            </span>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              The values should be between 
+               and 
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Benchmarks must show cumulative progress toward annual goal.
+            </p>
+            <p
+              className="print-system44__studentgoal--errormessage"
+            >
+              Please enter a value in all Academic Goal field(s)
+            </p>
+          </div>
+          <div
+            className="print-system44-modal-listdata-element1"
+          >
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark1: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                books
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark2: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                books
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark3: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                books
+              </span>
+            </div>
+            <span
+              className="print-system44__modal--listdata1"
+            >
+               Benchmark4: 
+            </span>
+            <div
+              className="print-system44__pull--right2"
+            >
+              <input
+                className="print-system44-modal__annual-academic-goal--input"
+                maxLength="3"
+                onChange={[Function]}
+                type="text"
+              />
+              <span>
+                books
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44-modal__inbox-remove--btn1 inbox-save-btn"
+      >
+        <span
+          className="print-system44-modal__button-italic--text"
+        >
+          *Benchmark values show cumulative progress toward annual goal
+        </span>
+        <button
+          className="print-system44-modal__inbox-remove--btn2"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Save Goals
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

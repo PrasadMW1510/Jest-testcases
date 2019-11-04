@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fmSettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmAdvancedSettingsSave action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmGetAdvancedSettingsSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+    data: "mockData",
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmGetSettingsSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+    data: "mockData",
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmSettingsContainerRequest action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmSettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle fmSettingsSave action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle schoolSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;
+
+exports[`fmSettingContainerReducer should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  advancedSettings: Immutable.Map {
+  },
+}
+`;

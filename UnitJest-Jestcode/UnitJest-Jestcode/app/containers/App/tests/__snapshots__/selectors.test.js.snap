@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`makeSelectLocation should consistently return reset credentials status 1`] = `"reset_credentials"`;
+
+exports[`makeSelectLocation should consistently return the error state 1`] = `"foobar"`;
+
+exports[`makeSelectLocation should consistently return the global app classes data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app grades data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app groups data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app login data state 1`] = `
+Immutable.Map {
+}
+`;
+
+exports[`makeSelectLocation should consistently return the global app profile data state 1`] = `
+Immutable.Map {
+}
+`;
+
+exports[`makeSelectLocation should consistently return the global app program available data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app schools data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app state 1`] = `
+Immutable.Map {
+  userData: Immutable.Map {
+  },
+}
+`;
+
+exports[`makeSelectLocation should consistently return the global app students data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app teachers data state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`makeSelectLocation should consistently return the global app user data state 1`] = `
+Immutable.Map {
+}
+`;
+
+exports[`makeSelectLocation should consistently return the initial global app classes data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the initial global app grades data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the initial global app groups data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the initial global app schools data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the initial global app students data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the initial global app teachers data state 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the password config data 1`] = `
+Immutable.Map {
+  grade_mappings: Immutable.List [
+  ],
+  configs: Immutable.List [
+  ],
+}
+`;
+
+exports[`makeSelectLocation should consistently return the permission data 1`] = `"123"`;
+
+exports[`makeSelectLocation should consistently return the profile user type 1`] = `undefined`;
+
+exports[`makeSelectLocation should consistently return the schools and classes data 1`] = `
+Immutable.Map {
+  school: Immutable.List [
+    Immutable.Map {
+      school_id: Immutable.List [
+      ],
+      school_name: Immutable.List [
+      ],
+      classes: Immutable.List [
+        Immutable.Map {
+          class: Immutable.List [
+            Immutable.Map {
+              class_id: Immutable.List [
+              ],
+              class_name: Immutable.List [
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

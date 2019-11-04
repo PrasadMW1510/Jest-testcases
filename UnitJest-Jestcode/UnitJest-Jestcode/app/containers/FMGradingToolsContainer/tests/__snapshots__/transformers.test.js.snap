@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when the cohort type is class 1`] = `
+Array [
+  Object {
+    "FastFacts": "96",
+    "FocusFacts": "0",
+    "Operation": "Addition",
+    "Students": "studentfirst, studentlast",
+  },
+]
+`;
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when the cohort type is group 1`] = `
+Array [
+  Object {
+    "FastFacts": "96",
+    "FocusFacts": "0",
+    "Operation": "Addition",
+    "Students": "studentfirst, studentlast",
+  },
+]
+`;
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when the cohort type is invalid 1`] = `Array []`;
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when the cohort type is teacher 1`] = `
+Array [
+  Object {
+    "FastFacts": "96",
+    "FocusFacts": "0",
+    "Operation": "Addition",
+    "Students": "studentfirst, studentlast",
+  },
+]
+`;
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when there are NO students in the student cohort 1`] = `Array []`;
+
+exports[`FMGradingTools transformers FMStudentOperationRepresentation should provide the correct response when there are students in the student cohort 1`] = `
+Array [
+  Object {
+    "FastFacts": "96",
+    "FocusFacts": "0",
+    "Operation": "Addition",
+    "Students": "studentfirst, studentlast",
+  },
+]
+`;

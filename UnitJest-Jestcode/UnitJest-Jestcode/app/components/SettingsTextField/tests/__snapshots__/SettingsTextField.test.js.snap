@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsTextField /> should render disabled/mixed/left-label correctly 1`] = `
+<span
+  className="settings-text-field-wrapper"
+  key="label"
+>
+  <span
+    className="settings-text-field-label--left  settings-text-field-label--grey"
+  >
+    label
+  </span>
+  <input
+    className="settings-text-field fieldClass settings-text-field--grey"
+    disabled={true}
+    name="fieldName"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</span>
+`;
+
+exports[`<SettingsTextField /> should render enabled/non-mixed correctly 1`] = `
+<span
+  className="settings-text-field-wrapper"
+  key="label"
+>
+  <input
+    className="settings-text-field fieldClass"
+    disabled={false}
+    name="fieldName"
+    onChange={[Function]}
+    type="text"
+    value="1"
+  />
+  <span
+    className="settings-text-field-label--right labelClass"
+  >
+    label
+  </span>
+</span>
+`;

@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<S44PlacementAndLevelingOptions /> student has started working isS44NG is false Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--full-height s44ng-settings__section--full-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    Placement and Leveling Options
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <div
+      className="s44ng-settings__has-started-working"
+    >
+      Once student has started System 44  the
+      <br />
+      “Placement and Leveling” options are unavailable
+    </div>
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="Enable Fast-Track between series"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44PlacementAndLevelingOptions /> student has started working isS44NG is true Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--full-height s44ng-settings__section--full-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    Placement and Leveling Options
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <div
+      className="s44ng-settings__has-started-working"
+    >
+      Once student has started System 44 NG the
+      <br />
+      “Placement and Leveling” options are unavailable
+    </div>
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="Enable Fast-Track between series"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44PlacementAndLevelingOptions /> student hasnt started working auto_placement is 0 Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--half-height s44ng-settings__section--half-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    Placement and Leveling Options
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <div
+      className="s44ng-settings__initial-settings"
+    >
+      <div
+        className="s44ng-settings__radio"
+      >
+        <input
+          checked={false}
+          id="autoPlacement"
+          onChange={[Function]}
+          type="radio"
+        />
+        <span
+          className="s44ng-settings__radio-text"
+        >
+          Enable automatic placement based on initial Phonics Inventory results
+        </span>
+      </div>
+      <div
+        className="s44ng-settings__radio"
+      >
+        <input
+          checked={true}
+          id="setInitial"
+          onChange={[Function]}
+          type="radio"
+        />
+        <span
+          className="s44ng-settings__radio-text"
+        >
+          Set initial series to:
+        </span>
+        <select
+          className="s44ng-settings__select "
+          disabled={false}
+          onChange={[Function]}
+          value="0"
+        >
+          <option
+            value={0}
+          >
+            -
+          </option>
+          <option
+            key="0"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="10"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="11"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="12"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="13"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="14"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="15"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="16"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="17"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="18"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="19"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="20"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="21"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="22"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="23"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="24"
+            value={25}
+          >
+            25
+          </option>
+        </select>
+      </div>
+    </div>
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="Enable Fast-Track between series"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44PlacementAndLevelingOptions /> student hasnt started working auto_placement is 1 Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--half-height s44ng-settings__section--half-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    Placement and Leveling Options
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <div
+      className="s44ng-settings__initial-settings"
+    >
+      <div
+        className="s44ng-settings__radio"
+      >
+        <input
+          checked={true}
+          id="autoPlacement"
+          onChange={[Function]}
+          type="radio"
+        />
+        <span
+          className="s44ng-settings__radio-text"
+        >
+          Enable automatic placement based on initial Phonics Inventory results
+        </span>
+      </div>
+      <div
+        className="s44ng-settings__radio"
+      >
+        <input
+          checked={false}
+          id="setInitial"
+          onChange={[Function]}
+          type="radio"
+        />
+        <span
+          className="s44ng-settings__radio-text"
+        >
+          Set initial series to:
+        </span>
+        <select
+          className="s44ng-settings__select s44ng-settings__select--disabled"
+          disabled={true}
+          onChange={[Function]}
+          value="0"
+        >
+          <option
+            value={0}
+          >
+            -
+          </option>
+          <option
+            key="0"
+            value={1}
+          >
+            1
+          </option>
+          <option
+            key="1"
+            value={2}
+          >
+            2
+          </option>
+          <option
+            key="2"
+            value={3}
+          >
+            3
+          </option>
+          <option
+            key="3"
+            value={4}
+          >
+            4
+          </option>
+          <option
+            key="4"
+            value={5}
+          >
+            5
+          </option>
+          <option
+            key="5"
+            value={6}
+          >
+            6
+          </option>
+          <option
+            key="6"
+            value={7}
+          >
+            7
+          </option>
+          <option
+            key="7"
+            value={8}
+          >
+            8
+          </option>
+          <option
+            key="8"
+            value={9}
+          >
+            9
+          </option>
+          <option
+            key="9"
+            value={10}
+          >
+            10
+          </option>
+          <option
+            key="10"
+            value={11}
+          >
+            11
+          </option>
+          <option
+            key="11"
+            value={12}
+          >
+            12
+          </option>
+          <option
+            key="12"
+            value={13}
+          >
+            13
+          </option>
+          <option
+            key="13"
+            value={14}
+          >
+            14
+          </option>
+          <option
+            key="14"
+            value={15}
+          >
+            15
+          </option>
+          <option
+            key="15"
+            value={16}
+          >
+            16
+          </option>
+          <option
+            key="16"
+            value={17}
+          >
+            17
+          </option>
+          <option
+            key="17"
+            value={18}
+          >
+            18
+          </option>
+          <option
+            key="18"
+            value={19}
+          >
+            19
+          </option>
+          <option
+            key="19"
+            value={20}
+          >
+            20
+          </option>
+          <option
+            key="20"
+            value={21}
+          >
+            21
+          </option>
+          <option
+            key="21"
+            value={22}
+          >
+            22
+          </option>
+          <option
+            key="22"
+            value={23}
+          >
+            23
+          </option>
+          <option
+            key="23"
+            value={24}
+          >
+            24
+          </option>
+          <option
+            key="24"
+            value={25}
+          >
+            25
+          </option>
+        </select>
+      </div>
+    </div>
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="Enable Fast-Track between series"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;

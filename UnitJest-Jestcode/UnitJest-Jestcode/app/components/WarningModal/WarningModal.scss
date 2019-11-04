@@ -1,0 +1,33 @@
+.warning-modal {
+  width: 252px;
+  height: 170px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+}
+
+.warning-modal--message {
+  font-size: 11px;
+  text-align: center;
+  // padding-top: 22px;
+}
+
+.warning-modal__button-box {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.warning-modal--ok-button {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 50px;
+  width: 50px;
+  position: relative;
+  text-align: center;
+  height: 24px;
+  margin-bottom: 24px;
+  background-color: #ffac1b;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalController /> Expect to render a main modal 1`] = `
+<React.Fragment>
+  <LoadableComponent
+    data={Object {}}
+    key="LOGOUT_MODAL"
+  />
+</React.Fragment>
+`;
+
+exports[`<ModalController /> Expect to render the error modal 1`] = `
+<LoadableComponent
+  error="foobar error"
+  shouldLogout={true}
+/>
+`;
+
+exports[`<ModalController /> Expect to render the error modal when error is not string 1`] = `
+<LoadableComponent
+  error="Map { \\"Error\\": \\"Network Error\\" }"
+  shouldLogout={true}
+/>
+`;

@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillsCCSetting /> render should render correctly when district cohortType enrolled 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+    />
+  </div>
+</div>
+`;
+
+exports[`<RSkillsCCSetting /> render should render correctly when no selected cohortTypeCohortId empty enrollment 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This teacher does not have any students enrolled in rSkills Tests: College & Career"
+    />
+  </div>
+</div>
+`;
+
+exports[`<RSkillsCCSetting /> render should render correctly when student cohortType empty enrollment 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This student is not enrolled in rSkills Tests: College & Career"
+    />
+  </div>
+</div>
+`;
+
+exports[`<RSkillsCCSetting /> render should render correctly when student cohortType enrolled 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <RSkillCCTestAssignmentTab
+      effectiveCohortObject={
+        Object {
+          "cohortType": "Student",
+          "id": "guidStudent54321",
+        }
+      }
+      handleIsolateTab={[Function]}
+      handleSave={[Function]}
+      handleTabReset={[Function]}
+      isLoading={false}
+      isTabIsolated={false}
+      testAssignmentStages={
+        Array [
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "A",
+            "name": "Stage A",
+          },
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_i",
+                "name": "rBook Flex",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_ii",
+                "name": "rBook Flex II",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "B",
+            "name": "Stage B",
+          },
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_i",
+                "name": "rBook Flex",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_ii",
+                "name": "rBook Flex II",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "C",
+            "name": "Stage C",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<RSkillsCCSetting /> render should render correctly when teacher cohortType empty enrollment 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <SettingsMessage
+      message1="This teacher does not have any students enrolled in rSkills Tests: College & Career"
+    />
+  </div>
+</div>
+`;
+
+exports[`<RSkillsCCSetting /> render should render correctly when teacher cohortType enrolled 1`] = `
+<div>
+  <NavBar
+    activeItemId="tab-test-assignment"
+    className="program-settings__navbar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-test-assignment"
+      key="tab-test-assignment"
+      onClick={[Function]}
+    >
+      Test Assignment
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="tab-settings"
+      key="tab-settings"
+      onClick={[Function]}
+    >
+      Settings
+    </NavItem>
+  </NavBar>
+  <div
+    className="program-settings__tab-content"
+  >
+    <RSkillCCTestAssignmentTab
+      effectiveCohortObject={
+        Object {
+          "cohortType": "Teacher",
+          "id": "guidTeacher54321",
+        }
+      }
+      handleIsolateTab={[Function]}
+      handleSave={[Function]}
+      handleTabReset={[Function]}
+      isLoading={false}
+      isTabIsolated={false}
+      testAssignmentStages={
+        Array [
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_A_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "A",
+            "name": "Stage A",
+          },
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_B_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_i",
+                "name": "rBook Flex",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_ii",
+                "name": "rBook Flex II",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "B",
+            "name": "Stage B",
+          },
+          Object {
+            "bundles": Array [
+              Object {
+                "id": "rbook",
+                "name": "rBook",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_C_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_i",
+                "name": "rBook Flex",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F1_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexI_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+              Object {
+                "id": "rbook_flex_ii",
+                "name": "rBook Flex II",
+                "tests": Array [
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_FlexII_1b.pdf",
+                    "description": "Skills from Workshop 1",
+                    "name": "Test 1",
+                    "number": "1",
+                  },
+                  Object {
+                    "atGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "belowGradePdf": "/rtng/extensions/sample_pdfs/rSkillsTests_F2_2b.pdf",
+                    "description": "Skills from Workshop 2",
+                    "name": "Test 2",
+                    "number": "2",
+                  },
+                ],
+              },
+            ],
+            "id": "C",
+            "name": "Stage C",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

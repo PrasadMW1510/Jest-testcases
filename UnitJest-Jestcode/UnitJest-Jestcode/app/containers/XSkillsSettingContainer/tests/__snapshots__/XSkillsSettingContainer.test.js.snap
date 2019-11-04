@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XSkillsSettingContainer /> Expect to render correctly 1`] = `
+<XSkillsSettings
+  cohortObj={
+    Object {
+      "cohortType": "School",
+      "id": "guidSchool12345",
+    }
+  }
+  enrollmentCount={3}
+  handleSettingsSave={[Function]}
+  handleTestAssignmentSave={[Function]}
+  highestEnrolledCourse="C1"
+  isLoadingSettings={false}
+  isLoadingTestAssignment={false}
+  settings={
+    Immutable.Map {
+      audio_instructions: "1",
+      show_correct_incorrect: "1",
+      include_open_response: "1",
+      include_writing_prompts: "1",
+      ell_audio_instructions: "0",
+    }
+  }
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;

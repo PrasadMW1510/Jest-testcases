@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PSSettingContainer /> Expect to render correctly 1`] = `
+<PSSettings
+  cohortObj={
+    Immutable.Map {
+      cohortType: "mockCohType",
+    }
+  }
+  enrollmentCount={10}
+  handleSave={[Function]}
+  isLoading={false}
+  settings={
+    Immutable.Map {
+    }
+  }
+  testAssignmentData={
+    Immutable.Map {
+      loading: false,
+      settings: Immutable.Map {
+      },
+    }
+  }
+/>
+`;

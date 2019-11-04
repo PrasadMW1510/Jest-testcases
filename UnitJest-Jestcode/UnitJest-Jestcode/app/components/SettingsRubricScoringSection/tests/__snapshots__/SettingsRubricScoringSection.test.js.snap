@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsRubricScoringSection /> should render correctly 1`] = `
+<Connect(NavBarWithModalContainer)
+  modalOverrideClassName="xskills-settings__rubric-modal"
+  onOkHandler={[Function]}
+  tabs={
+    Array [
+      Object {
+        "id": "tab-2point-scoring",
+        "label": "2-pt Scoring Guide",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-4point-scoring",
+        "label": "4-pt Scoring Guide",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-6point-scoring",
+        "label": "6-pt Scoring Guide",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<SettingsRubricScoringSection /> should render2PointScoring 1`] = `
+<SettingsRubricTab
+  cohortType="District"
+  gradeOptions={
+    Array [
+      Object {
+        "grade_option": Object {
+          "description": "Satisfactory 2 pt grade option here",
+          "label": Array [
+            "Satisfactory",
+          ],
+          "score": Array [
+            "2",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Insufficient 2 pt grade option here",
+          "label": Array [
+            "Insufficient",
+          ],
+          "score": Array [
+            "1",
+          ],
+        },
+      },
+    ]
+  }
+  gradingRubric="2"
+  handleChangeDescription={[Function]}
+  handleChangeLabel={[Function]}
+  reinitializeEditorComplete={[Function]}
+  shouldReinitializeEditor={false}
+  title="Constructed Response"
+/>
+`;
+
+exports[`<SettingsRubricScoringSection /> should render4PointScoring 1`] = `
+<SettingsRubricTab
+  cohortType="District"
+  gradeOptions={
+    Array [
+      Object {
+        "grade_option": Object {
+          "description": "Expert 4 pt grade option here",
+          "label": Array [
+            "Expert",
+          ],
+          "score": Array [
+            "4",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Proficient 4 pt grade option here",
+          "label": Array [
+            "Proficient",
+          ],
+          "score": Array [
+            "3",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Novice 4 pt grade option here",
+          "label": Array [
+            "Novice",
+          ],
+          "score": Array [
+            "2",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Insufficient 4 pt grade option here",
+          "label": Array [
+            "Insufficient",
+          ],
+          "score": Array [
+            "1",
+          ],
+        },
+      },
+    ]
+  }
+  gradingRubric="4"
+  handleChangeDescription={[Function]}
+  handleChangeLabel={[Function]}
+  reinitializeEditorComplete={[Function]}
+  shouldReinitializeEditor={false}
+  title="Constructed Response"
+/>
+`;
+
+exports[`<SettingsRubricScoringSection /> should render6PointScoring 1`] = `
+<SettingsRubricTab
+  cohortType="District"
+  gradeOptions={
+    Array [
+      Object {
+        "grade_option": Object {
+          "description": "Expert 6 pt grade option here",
+          "label": Array [
+            "Expert",
+          ],
+          "score": Array [
+            "6",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Well Done 6 pt grade option here",
+          "label": Array [
+            "Well Done",
+          ],
+          "score": Array [
+            "5",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Almost There 6 pt grade option here",
+          "label": Array [
+            "Almost There",
+          ],
+          "score": Array [
+            "4",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Making Strides 6 pt grade option here",
+          "label": Array [
+            "Making Strides",
+          ],
+          "score": Array [
+            "3",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "On the Way 6 pt grade option here",
+          "label": Array [
+            "On the Way",
+          ],
+          "score": Array [
+            "2",
+          ],
+        },
+      },
+      Object {
+        "grade_option": Object {
+          "description": "Getting Started 6 pt grade option here",
+          "label": Array [
+            "Getting Started",
+          ],
+          "score": Array [
+            "1",
+          ],
+        },
+      },
+    ]
+  }
+  gradingRubric="6"
+  handleChangeDescription={[Function]}
+  handleChangeLabel={[Function]}
+  reinitializeEditorComplete={[Function]}
+  shouldReinitializeEditor={false}
+  title="Writing Prompt"
+/>
+`;

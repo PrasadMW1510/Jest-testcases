@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultsContainer /> render Expect to render correctly 1`] = `
+<div>
+  <SearchResults
+    collectionsList={
+      Array [
+        Object {
+          "Name": Array [
+            "All Collections",
+          ],
+        },
+      ]
+    }
+    getselectedbookresults={[Function]}
+    handleSaveOnClick={[Function]}
+    handleSelectedItems={[Function]}
+    handleSortResultsOnClick={[Function]}
+    onCollectionsChange={[Function]}
+    onSearch={[Function]}
+    productsAvailable={Array []}
+    searchOpts={
+      Object {
+        "SrcSearchReq": Object {
+          "BookInfo": Object {
+            "Author": "",
+          },
+          "Collection": Array [],
+          "SortTerms": Object {
+            "SortTerm": Object {
+              "Term": "Author",
+            },
+            "curPage": "45",
+          },
+        },
+      }
+    }
+    searchResultDetailsRequest={[Function]}
+    searchResults={Object {}}
+    searchResultsContainersearchResultsIdsChecked={Array []}
+  />
+</div>
+`;
+
+exports[`<SearchResultsContainer /> render Expect to render correctly 2`] = `
+<div>
+  <SearchResults
+    collectionsList={
+      Array [
+        Object {
+          "Name": Array [
+            "All Collections",
+          ],
+        },
+      ]
+    }
+    getselectedbookresults={[Function]}
+    handleSaveOnClick={[Function]}
+    handleSelectedItems={[Function]}
+    handleSortResultsOnClick={[Function]}
+    onCollectionsChange={[Function]}
+    onSearch={[Function]}
+    productsAvailable={Array []}
+    searchOpts={
+      Object {
+        "SrcSearchReq": Object {
+          "Collection": Array [],
+          "SortTerms": Object {
+            "curPage": "45",
+          },
+        },
+      }
+    }
+    searchResultDetailsRequest={[Function]}
+    searchResults={Object {}}
+    searchResultsContainersearchResultsIdsChecked={Array []}
+  />
+</div>
+`;

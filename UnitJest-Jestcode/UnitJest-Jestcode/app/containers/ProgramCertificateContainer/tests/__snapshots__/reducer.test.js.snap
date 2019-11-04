@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`certificateInfoReducer should handle certificate Info request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  certificateInfo: Immutable.List [
+  ],
+}
+`;
+
+exports[`certificateInfoReducer should handle certificate Info request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  certificateInfo: Immutable.Map {
+  },
+}
+`;

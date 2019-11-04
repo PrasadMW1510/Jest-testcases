@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchTabBar /> Expect to render tab 1 correctly 1`] = `
+<div
+  className="tab-bar search-tab-bar"
+>
+  <div
+    className="tab-bar__container search-tab-container"
+  >
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--adv-search"
+      component={[Function]}
+      to="/books/quiz/advanced"
+    >
+      Advanced Search
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--results"
+      component={[Function]}
+      onClick={[Function]}
+      to="/books/quiz/results"
+    >
+      Search Results
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--custom"
+      component={[Function]}
+      to="/books/quiz/custom"
+    >
+      Custom List
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<SearchTabBar /> Expect to render tab 2 correctly 1`] = `
+<div
+  className="tab-bar search-tab-bar"
+>
+  <div
+    className="tab-bar__container search-tab-container"
+  >
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--adv-search"
+      component={[Function]}
+      to="/books/quiz/advanced"
+    >
+      Advanced Search
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--results"
+      component={[Function]}
+      onClick={[Function]}
+      to="/books/quiz/results"
+    >
+      Search Results
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--custom"
+      component={[Function]}
+      to="/books/quiz/custom"
+    >
+      Custom List
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<SearchTabBar /> Expect to render tab 3 correctly 1`] = `
+<div
+  className="tab-bar search-tab-bar"
+>
+  <div
+    className="tab-bar__container search-tab-container"
+  >
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--adv-search"
+      component={[Function]}
+      to="/books/quiz/advanced"
+    >
+      Advanced Search
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--results"
+      component={[Function]}
+      onClick={[Function]}
+      to="/books/quiz/results"
+    >
+      Search Results
+    </Tab>
+    <Tab
+      activeClassName="tab-bar__tab--active"
+      className="tab-bar__tab--custom"
+      component={[Function]}
+      to="/books/quiz/custom"
+    >
+      Custom List
+    </Tab>
+  </div>
+</div>
+`;

@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageTopicTable /> Should render correctly with data 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="manage-topic-table"
+  columns={
+    Array [
+      Object {
+        "Cell": [Function],
+        "Header": "Enabled",
+        "getHeaderProps": [Function],
+        "id": "topics",
+        "sortable": false,
+        "width": 130,
+      },
+      Object {
+        "Cell": [Function],
+        "Header": "A01",
+        "accessor": "cd_name",
+        "width": 128,
+      },
+      Object {
+        "Header": "Topic Name",
+        "accessor": "topic_name",
+        "id": "topic_name",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": "i",
+        "cd_name": "i",
+        "enabled": undefined,
+        "globally_enabled": undefined,
+        "supplimental": "0",
+        "topic_name": "I",
+      },
+    ]
+  }
+  pageSize={1}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+/>
+`;
+
+exports[`<ManageTopicTable /> Should render correctly with data 2`] = `
+<div
+  className="manage-topic-table__cell-enabled"
+>
+  <SettingsFourStateCheckbox
+    checkboxClass=""
+    checkboxName="settingsFourStateCheckbox"
+    disabled={false}
+    handleChangeCheckboxValue={[Function]}
+    isCheckboxDisabled="-1"
+    statusMap={
+      Object {
+        "checkedDisabled": Array [],
+        "checkedEnabled": Array [
+          "1",
+        ],
+        "mixedDisabled": Array [],
+        "mixedEnabled": Array [
+          "-2",
+          "2",
+        ],
+        "uncheckedDisabled": Array [
+          "-1",
+        ],
+        "uncheckedEnabled": Array [
+          "0",
+        ],
+      }
+    }
+    textClass=""
+  />
+</div>
+`;
+
+exports[`<ManageTopicTable /> Should render correctly with no data 1`] = `
+<ManageTopicTable
+  handleToggle={[Function]}
+  secondColumnHeader=""
+  topics={Array []}
+>
+  <SAMTable
+    checkedIds={Array []}
+    className="manage-topic-table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Enabled",
+          "getHeaderProps": [Function],
+          "id": "topics",
+          "sortable": false,
+          "width": 130,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": "cd_name",
+          "width": 128,
+        },
+        Object {
+          "Header": "Topic Name",
+          "accessor": "topic_name",
+          "id": "topic_name",
+        },
+      ]
+    }
+    data={Array []}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+  >
+    <div
+      className="manage-topic-table"
+    >
+      <ReactTable
+        AggregatedComponent={[Function]}
+        ExpanderComponent={[Function]}
+        FilterComponent={[Function]}
+        LoadingComponent={[Function]}
+        NoDataComponent={[Function]}
+        PadRowComponent={[Function]}
+        PaginationComponent={[Function]}
+        PivotValueComponent={[Function]}
+        ResizerComponent={[Function]}
+        TableComponent={[Function]}
+        TbodyComponent={[Function]}
+        TdComponent={[Function]}
+        TfootComponent={[Function]}
+        ThComponent={[Function]}
+        TheadComponent={[Function]}
+        TrComponent={[Function]}
+        TrGroupComponent={[Function]}
+        aggregatedKey="_aggregated"
+        checkedIds={Array []}
+        className="manage-topic-table"
+        collapseOnDataChange={true}
+        collapseOnPageChange={true}
+        collapseOnSortingChange={true}
+        column={
+          Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "Cell": [Function],
+              "Header": "Enabled",
+              "getHeaderProps": [Function],
+              "id": "topics",
+              "sortable": false,
+              "width": 130,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "",
+              "accessor": "cd_name",
+              "width": 128,
+            },
+            Object {
+              "Header": "Topic Name",
+              "accessor": "topic_name",
+              "id": "topic_name",
+            },
+          ]
+        }
+        data={Array []}
+        defaultExpanded={Object {}}
+        defaultFilterMethod={[Function]}
+        defaultFiltered={Array []}
+        defaultPageSize={20}
+        defaultResized={Array []}
+        defaultSortDesc={false}
+        defaultSortMethod={[Function]}
+        defaultSorted={Array []}
+        expanderDefaults={
+          Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          }
+        }
+        filterable={false}
+        freezeWhenExpanded={false}
+        getLoadingProps={[Function]}
+        getNoDataProps={[Function]}
+        getPaginationProps={[Function]}
+        getProps={[Function]}
+        getResizerProps={[Function]}
+        getTableProps={[Function]}
+        getTbodyProps={[Function]}
+        getTdProps={[Function]}
+        getTfootProps={[Function]}
+        getTfootTdProps={[Function]}
+        getTfootTrProps={[Function]}
+        getTheadFilterProps={[Function]}
+        getTheadFilterThProps={[Function]}
+        getTheadFilterTrProps={[Function]}
+        getTheadGroupProps={[Function]}
+        getTheadGroupThProps={[Function]}
+        getTheadGroupTrProps={[Function]}
+        getTheadProps={[Function]}
+        getTheadThProps={[Function]}
+        getTheadTrProps={[Function]}
+        getTrGroupProps={[Function]}
+        getTrProps={[Function]}
+        groupedByPivotKey="_groupedByPivot"
+        indexKey="_index"
+        loading={false}
+        loadingText="Loading..."
+        multiSort={true}
+        nestingLevelKey="_nestingLevel"
+        nextText="Next"
+        noDataText="No rows found"
+        ofText="of"
+        onFetchData={[Function]}
+        originalKey="_original"
+        pageSize={0}
+        pageSizeOptions={
+          Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ]
+        }
+        pageText="Page"
+        pivotDefaults={Object {}}
+        pivotIDKey="_pivotID"
+        pivotValKey="_pivotVal"
+        previousText="Previous"
+        renderEmptyTable={[Function]}
+        resizable={false}
+        rowsText="rows"
+        selectAll={false}
+        showPageJump={true}
+        showPageSizeOptions={true}
+        showPagination={false}
+        showPaginationBottom={true}
+        showPaginationTop={false}
+        sortable={true}
+        style={Object {}}
+        subRowsKey="_subRows"
+      >
+        <div
+          className="ReactTable manage-topic-table"
+          style={Object {}}
+        >
+          <Table
+            className=""
+          >
+            <div
+              className="rt-table"
+            >
+              <Thead
+                className="-header"
+                style={
+                  Object {
+                    "minWidth": "358px",
+                  }
+                }
+              >
+                <div
+                  className="rt-thead -header"
+                  style={
+                    Object {
+                      "minWidth": "358px",
+                    }
+                  }
+                >
+                  <Tr>
+                    <div
+                      className="rt-tr"
+                    >
+                      <ThComponent
+                        className="manage-topic-table__header-enabled"
+                        key="0-topics"
+                        style={
+                          Object {
+                            "flex": "130 0 auto",
+                            "maxWidth": "130px",
+                            "width": "130px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th manage-topic-table__header-enabled"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "130 0 auto",
+                              "maxWidth": "130px",
+                              "width": "130px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Enabled
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="1-cd_name"
+                        style={
+                          Object {
+                            "flex": "128 0 auto",
+                            "maxWidth": "128px",
+                            "width": "128px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "128 0 auto",
+                              "maxWidth": "128px",
+                              "width": "128px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="2-topic_name"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Topic Name
+                          </div>
+                        </div>
+                      </ThComponent>
+                    </div>
+                  </Tr>
+                </div>
+              </Thead>
+              <renderEmptyTable
+                className=""
+                style={
+                  Object {
+                    "minWidth": "358px",
+                  }
+                }
+              >
+                <div
+                  className="manage-topic-table__no-data"
+                >
+                  <div
+                    className="manage-topic-table__no-data-text"
+                  >
+                    No items.
+                  </div>
+                </div>
+              </renderEmptyTable>
+            </div>
+          </Table>
+          <NoData>
+            <div
+              className="rt-noData"
+            >
+              No rows found
+            </div>
+          </NoData>
+          <LoadingComponent
+            loading={false}
+            loadingText="Loading..."
+          >
+            <div
+              className="-loading"
+            >
+              <div
+                className="-loading-inner"
+              >
+                Loading...
+              </div>
+            </div>
+          </LoadingComponent>
+        </div>
+      </ReactTable>
+    </div>
+  </SAMTable>
+</ManageTopicTable>
+`;

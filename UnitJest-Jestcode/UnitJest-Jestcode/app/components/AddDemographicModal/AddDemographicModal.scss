@@ -1,0 +1,57 @@
+.add-demographic-modal__message {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.add-demographic-modal__input {
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  font-size: 13px;
+}
+
+.add-demographic-modal__input input:focus {
+  outline: none;
+}
+
+.add-demographic-modal__button--save {
+  background-color: #ffb200;
+  border-left: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-top: 2px solid hsla(0, 0%, 100%, 0.5);
+  color: #fff;
+  border-radius: 0;
+  width: 90px;
+  float: right;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.add-demographic-modal__button--cancel {
+  background-color: #808080;
+  border-left: 2px solid #ccc;
+  border-top: 3px solid #a6a6a6;
+  color: #fff;
+  border-radius: 0;
+  width: 90px;
+  float: left;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.add-demographic-modal__button--yes {
+  cursor: pointer;
+  float: left;
+  padding: 3px;
+}
+
+.add-demographic-modal__button--no {
+  cursor: pointer;
+  float: right;
+  padding: 3px;
+}
+
+.add-demographic-modal {
+  width: 255px;
+  height: 170px;
+  padding: 20px;
+  overflow: hidden;
+}

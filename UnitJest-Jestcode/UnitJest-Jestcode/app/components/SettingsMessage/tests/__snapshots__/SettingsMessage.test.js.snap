@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsMessage /> Should render correctly 1`] = `
+<div
+  className="settings-message"
+>
+  <span
+    className="settings-message__text"
+  />
+  <div
+    className="settings-message__footer"
+  >
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="settings-message__btn"
+      to="/roster"
+    >
+      Return to Profile
+    </withRouter(SAMLinkButton)>
+  </div>
+</div>
+`;

@@ -1,0 +1,112 @@
+.modal--activate-quiz {
+  height: 110px;
+  width: 250px;
+  margin-top: 29px;
+  padding: 0;
+}
+
+.print-activatequiz__confirmtext {
+  width: 76%;
+  margin: 18px auto;
+  font-size: 11px;
+  line-height: 1;
+}
+
+.print-activate-quiz__buttons {
+  display: flex;
+}
+
+.print-activate-quiz__primary-button {
+  float: left;
+  margin: 0 18px;
+}
+
+.message-log-modal {
+  width: 272px;
+  height: 175px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.message-log-modal__message {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: auto;
+  text-align: center;
+  font-size: 12px;
+  white-space: pre-line;
+  overflow: hidden;
+}
+
+
+.message-log-modal__ok {
+  margin: 10px auto 0;
+  color: #fff;
+  background: #ed5e1c;
+  font-family: inherit;
+  width: 56px;
+  height: 24px;
+  font-size: 13px;
+}
+
+.pop-up-container .error {
+  background: #f00;
+  line-height: 23px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: left;
+  text-indent: 12px;
+  height: 25px;
+  font-size: 11px;
+}
+
+.pop-up-container .error-msg {
+  padding: 7px;
+  margin: 0;
+  font-family: inherit;
+  height: 85px;
+  line-height: 12px;
+  overflow-y: scroll;
+}
+
+.print-activate-quiz__primary-button 
+.btn ,
+.print-activate-quiz__primary-button
+.btn--primary {
+  width: 92px;
+  height: 24px;
+  min-width: 92px;
+  cursor: pointer;
+}
+
+.print-activate-quiz__secondary-button 
+.btn ,
+.print-activate-quiz__secondary-button
+.btn--primary {
+  width: 92px;
+  height: 24px;
+  min-width: 92px;
+  line-height: 2px;
+  border-style: outset;
+  border-style: outset;
+  cursor: pointer;
+}
+
+.print-activate-quiz__primary-button :hover {
+  border: 1px solid #000;
+}
+
+.print-activate-quiz__secondary-button .btn--secondary:hover {
+  border: 1px solid #000;
+}
+
+.print-activate-quiz__primary-button :focus {
+  outline: 0;
+}
+
+.print-activate-quiz__secondary-button .btn--secondary:hover {
+  outline: 0;
+}
+

@@ -1,0 +1,101 @@
+.recipients {
+  margin-top: 10px;
+}
+
+.recepient__title {
+  font-size: 10px;
+}
+
+.recipients-table-cont {
+  margin-top: 10px;
+}
+
+.recipients-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #000;
+  font-size: 10px;
+  text-align: center;
+}
+
+.recipients-table__class,
+.recipients-table__grade,
+.recipients-table__lexile,
+.recipients-table__checkbox,
+.recipients-table__r180level,
+.recipients-table__books,
+.recipients-table__points {
+  border: 1px solid #000;
+  background-color: #f4cc37;
+  color: #000;
+  height: 20px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.recipients-table__body {
+  display: block;
+  overflow-y: auto;
+  width: 749px;
+  height: 189px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  background-color: #fbe380;
+}
+
+.recipients-table__tr {
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #fff;
+  border-bottom: 2px solid #ffd300;
+  white-space: nowrap;
+}
+
+.recipients-table__checkbox,
+.recipients-table__checkinput {
+  width: 5%;
+}
+
+.recipients-table__class,
+.recipients-table__classdata {
+  width: 30%;
+}
+
+.recipients-table__garde,
+.recipients-table__gradedata {
+  width: 10%;
+}
+
+.recipients-table__lexile,
+.recipients-table__lexiledata {
+  width: 15%;
+}
+
+.recipients-table__r180level,
+.recipients-table__r180leveldata {
+  width: 15%;
+}
+
+.recipients-table__books,
+.recipients-table__booksdata {
+  width: 15%;
+}
+
+.recipients-table__points,
+.recipients-table__pointsdata {
+  width: 15%;
+}
+
+.recipients-table__checkinput,
+.recipients-table__classdata,
+.recipients-table__gradedata,
+.recipients-table__lexiledata,
+.recipients-table__r180leveldata,
+.recipients-table__booksdata,
+.recipients-table__pointsdata {
+  border-bottom: 2px solid #ffd300;
+  text-align: left;
+  padding-left: 23px;
+}

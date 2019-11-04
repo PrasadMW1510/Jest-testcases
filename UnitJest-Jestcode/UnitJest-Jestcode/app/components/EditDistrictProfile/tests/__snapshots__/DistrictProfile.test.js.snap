@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DistrictProfile /> Expect to match snapshot 1`] = `
+<div>
+  <Field
+    className="district-form-input-control district-profile__district-input"
+    component={[Function]}
+    label="District Name"
+    maxLength={50}
+    name="name"
+    type="text"
+  />
+  <Field
+    className="district-form-input-control district-profile__district-input"
+    component={[Function]}
+    items={
+      Array [
+        Object {
+          "id": "DoDEA",
+          "label": "DoDEA",
+        },
+        Object {
+          "id": "Job Corps",
+          "label": "Job Corps",
+        },
+        Object {
+          "id": "Alabama",
+          "label": "Alabama",
+        },
+        Object {
+          "id": "Alaska",
+          "label": "Alaska",
+        },
+        Object {
+          "id": "American Samoa",
+          "label": "American Samoa",
+        },
+        Object {
+          "id": "Arizona",
+          "label": "Arizona",
+        },
+        Object {
+          "id": "Arkansas",
+          "label": "Arkansas",
+        },
+        Object {
+          "id": "California",
+          "label": "California",
+        },
+        Object {
+          "id": "Colorado",
+          "label": "Colorado",
+        },
+        Object {
+          "id": "Connecticut",
+          "label": "Connecticut",
+        },
+        Object {
+          "id": "Delaware",
+          "label": "Delaware",
+        },
+        Object {
+          "id": "District of Columbia",
+          "label": "District of Columbia",
+        },
+        Object {
+          "id": "Florida",
+          "label": "Florida",
+        },
+        Object {
+          "id": "Georgia",
+          "label": "Georgia",
+        },
+        Object {
+          "id": "Guam",
+          "label": "Guam",
+        },
+        Object {
+          "id": "Hawaii",
+          "label": "Hawaii",
+        },
+        Object {
+          "id": "Idaho",
+          "label": "Idaho",
+        },
+        Object {
+          "id": "Illinois",
+          "label": "Illinois",
+        },
+        Object {
+          "id": "Indiana",
+          "label": "Indiana",
+        },
+        Object {
+          "id": "Iowa",
+          "label": "Iowa",
+        },
+        Object {
+          "id": "Kansas",
+          "label": "Kansas",
+        },
+        Object {
+          "id": "Kentucky",
+          "label": "Kentucky",
+        },
+        Object {
+          "id": "Louisiana",
+          "label": "Louisiana",
+        },
+        Object {
+          "id": "Maine",
+          "label": "Maine",
+        },
+        Object {
+          "id": "Maryland",
+          "label": "Maryland",
+        },
+        Object {
+          "id": "Massachusetts",
+          "label": "Massachusetts",
+        },
+        Object {
+          "id": "Michigan",
+          "label": "Michigan",
+        },
+        Object {
+          "id": "Minnesota",
+          "label": "Minnesota",
+        },
+        Object {
+          "id": "Mississippi",
+          "label": "Mississippi",
+        },
+        Object {
+          "id": "Missouri",
+          "label": "Missouri",
+        },
+        Object {
+          "id": "Montana",
+          "label": "Montana",
+        },
+        Object {
+          "id": "Nebraska",
+          "label": "Nebraska",
+        },
+        Object {
+          "id": "Nevada",
+          "label": "Nevada",
+        },
+        Object {
+          "id": "New Hampshire",
+          "label": "New Hampshire",
+        },
+        Object {
+          "id": "New Jersey",
+          "label": "New Jersey",
+        },
+        Object {
+          "id": "New Mexico",
+          "label": "New Mexico",
+        },
+        Object {
+          "id": "New York",
+          "label": "New York",
+        },
+        Object {
+          "id": "North Carolina",
+          "label": "North Carolina",
+        },
+        Object {
+          "id": "North Dakota",
+          "label": "North Dakota",
+        },
+        Object {
+          "id": "Northern Mariana Islands",
+          "label": "Northern Mariana Islands",
+        },
+        Object {
+          "id": "Ohio",
+          "label": "Ohio",
+        },
+        Object {
+          "id": "Oklahoma",
+          "label": "Oklahoma",
+        },
+        Object {
+          "id": "Oregon",
+          "label": "Oregon",
+        },
+        Object {
+          "id": "Pennsylvania",
+          "label": "Pennsylvania",
+        },
+        Object {
+          "id": "Puerto Rico",
+          "label": "Puerto Rico",
+        },
+        Object {
+          "id": "Rhode Island",
+          "label": "Rhode Island",
+        },
+        Object {
+          "id": "South Carolina",
+          "label": "South Carolina",
+        },
+        Object {
+          "id": "South Dakota",
+          "label": "South Dakota",
+        },
+        Object {
+          "id": "Tennessee",
+          "label": "Tennessee",
+        },
+        Object {
+          "id": "Texas",
+          "label": "Texas",
+        },
+        Object {
+          "id": "Utah",
+          "label": "Utah",
+        },
+        Object {
+          "id": "Vermont",
+          "label": "Vermont",
+        },
+        Object {
+          "id": "Virgin Islands",
+          "label": "Virgin Islandss",
+        },
+        Object {
+          "id": "Virginia",
+          "label": "Virginia",
+        },
+        Object {
+          "id": "Washington",
+          "label": "Washington",
+        },
+        Object {
+          "id": "West Virginia",
+          "label": "West Virgina",
+        },
+        Object {
+          "id": "Wisconsin",
+          "label": "Wisconsin",
+        },
+        Object {
+          "id": "Wyoming",
+          "label": "Wyoming",
+        },
+        Object {
+          "id": "Other",
+          "label": "Other",
+        },
+      ]
+    }
+    label="District Location"
+    name="location"
+    type="text"
+  />
+  <Field
+    className="district-form-input-control district-profile__district-input"
+    component={[Function]}
+    items={
+      Array [
+        "Pacific (US & Canada",
+        "Eastern (US & Canada)",
+      ]
+    }
+    label="District Time Zone"
+    name="time_zone"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    items={
+      Array [
+        Object {
+          "id": "2",
+          "label": "Monday",
+        },
+        Object {
+          "id": "3",
+          "label": "Tuesday",
+        },
+        Object {
+          "id": "4",
+          "label": "Wednesday",
+        },
+        Object {
+          "id": "5",
+          "label": "Thursday",
+        },
+        Object {
+          "id": "6",
+          "label": "Friday",
+        },
+        Object {
+          "id": "7",
+          "label": "Saturday",
+        },
+        Object {
+          "id": "1",
+          "label": "Sunday",
+        },
+      ]
+    }
+    label="School Days "
+    name="school_days"
+    row={true}
+  />
+  <Field
+    className="district-form-input-control"
+    component={[Function]}
+    label="School Hours "
+    name="school_hours"
+  />
+  <span
+    className="district-profile__restrict-text"
+  >
+    Restrict student use for selected programs to during school days and hours
+     
+  </span>
+  <Field
+    className="district-form-input-control district-profile__checkbox-group"
+    component={[Function]}
+    items={
+      Array [
+        Object {
+          "id": "CDX",
+          "label": "Common Core Code X",
+        },
+        Object {
+          "id": "DTM",
+          "label": "Progress Space",
+        },
+        Object {
+          "id": "DTM2",
+          "label": "Do The Math",
+        },
+      ]
+    }
+    label=""
+    name="restricted_apps"
+    row={true}
+  />
+</div>
+`;

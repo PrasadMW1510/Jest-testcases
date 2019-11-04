@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`clearRosterModalReducer returns the initial state 1`] = `
+Immutable.Map {
+}
+`;
+
+exports[`clearRosterModalReducer should handle GET_CLASSES_AND_GROUPS_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  error: "err",
+}
+`;

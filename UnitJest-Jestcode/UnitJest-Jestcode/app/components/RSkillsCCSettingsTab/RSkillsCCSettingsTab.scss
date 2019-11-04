@@ -1,0 +1,110 @@
+.rskillscc-settings-tab {
+  background-color: #fff;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 9pt;
+  height: 395px;
+  margin-left: 1%;
+  position: relative;
+  width: 98%;
+}
+
+.rskillscc-program-settings__program-setting-buttons-container {
+  bottom: 5px;
+  position: absolute;
+  width: 99%;
+}
+
+.rskillscc-program-settings__test-experience-settings {
+  border-right: 1px solid #000;
+  float: left;
+  width: 40%;
+}
+
+.rskillscc-program-settings__ell-settings {
+  float: left;
+  width: 60%;
+}
+
+.rskillscc-program-settings__writing-prompt-settings {
+  border: 1px solid #000;
+  float: left;
+  width: 100%;
+}
+
+.rskillscc-program-settings__caption {
+  font-weight: bold;
+  vertical-align: top;
+  padding: 3px 0 0 10px;
+  background-color: #ffd400;
+  width: 100%;
+  height: 25px;
+  display: inline-block;
+  margin-top: 0%;
+  z-index: +1;
+}
+
+.rskillscc-program-settings__setting {
+  padding: 3px 3px 3px 8px;
+}
+
+.rskillscc-program-settings__radio {
+  margin-right: 4px;
+  cursor: pointer;
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+.rskillscc-program-settings__radio-label {
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.rskillscc-program-settings__cursor--default {
+  cursor: default;
+}
+
+.rskillscc-program-settings__ell-audio-instructions {
+  float: left;
+  width: 50%;
+  height: 25%;
+  margin: 0;
+  margin-top: 2%;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.rskillscc-program-settings__rubric-options {
+  float: left;
+  width: 50%;
+  height: 25%;
+  margin: 0;
+  margin-top: 2%;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 10px;
+  padding-bottom: 50px;
+}
+
+.rskillscc-program-settings__section--full-width {
+  width: 100%;
+}
+
+.rskillscc-program-settings__section--top {
+  height: 40%;
+}
+
+.rskillscc-program-settings__section--top-inputs {
+  border: 1px solid #000;
+  float: left;
+}
+
+.rskillscc-program-settings__section--half-height {
+  height: 50%;
+}
+
+.rskillscc-program-settings__writing-prompt-settings-instructions {
+  background-color: #ffe279;
+  padding: 3px 10px 10px;
+}

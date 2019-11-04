@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XSkillsTestAssignmentSaveSuccessModalContainer /> having no data should render as expected 1`] = `
+<XSkillsTestAssignmentSaveSuccessModal
+  affectedUserCount={0}
+  assignedButIncompleteUsers={Array []}
+  completedUsers={Array []}
+  isOpen={true}
+  onYes={[Function]}
+  redirectToRoster={false}
+  unenrolledUsers={Array []}
+  xSkillsTestName=""
+  xSkillsTestNumber="undefined"
+/>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModalContainer /> should render as expected 1`] = `
+<XSkillsTestAssignmentSaveSuccessModal
+  affectedUserCount={1}
+  assignedButIncompleteUsers={Array []}
+  completedUsers={Array []}
+  isOpen={true}
+  onYes={[Function]}
+  redirectToRoster={false}
+  unenrolledUsers={Array []}
+  xSkillsTestName=""
+  xSkillsTestNumber="undefined"
+/>
+`;

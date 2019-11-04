@@ -1,0 +1,118 @@
+.collapsible__wrapper {
+  background: #f96044;
+}
+
+.collapsible__wrapper-heading {
+  .collapsible-title {
+    position: relative;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    padding: 0.2rem 1rem 0.2rem 1.5rem;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 1px 1px 0 #fbe4b7 inset;
+  }
+
+  .collapsible-title:hover {
+    box-shadow: 0 0 #000;
+    outline: 0;
+  }
+
+  .collapsible-title:focus {
+    outline: 0;
+  }
+
+  .collapsible-icon--right-arrow::after,
+  .collapsible-icon--down-arrow::after {
+    left: 10px;
+    top: 50%;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #000;
+    border-width: 5px;
+    margin-top: -5px;
+  }
+
+  .collapsible-icon--down-arrow::after {
+    top: 60%;
+    left: 15px;
+    border-left-color: transparent;
+    border-top-color: #000;
+    border-width: 5px;
+    margin-left: -5px;
+  }
+}
+
+.collapsible__wrapper-heading:focus {
+  outline: none;
+}
+
+.collapsible__wrapper-body {
+  padding: 1px 0 0;
+}
+
+.collapsible__wrapper-collapse {
+  background: #fbe4b7;
+  border-top: 0 solid rgba(204, 204, 204, 0.5);
+  border-bottom: 1px solid #f96044;
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 10px;
+  transition: max-height 0.5s cubic-bezier(0.525, 0.66, 0.495, 1.4);
+
+  .form-control .label-control {
+    display: inline-block;
+    font-size: 11px;
+    margin: 1px 10px 0 0;
+    width: 120px;
+    text-align: right;
+    font-family: inherit;
+  }
+
+  .form-control .label-control.label-control-lg {
+    width: 220px;
+  }
+
+  .form-control input {
+    background: #fff;
+    border: 1px solid #000;
+    vertical-align: middle;
+    margin: 2px 5px 0 0;
+  }
+
+  .form-control .form-input {
+    width: 265px;
+    padding: 0;
+  }
+
+  .form-control span {
+    display: inline-block;
+    font-size: 11px;
+    margin-right: 0.5rem;
+    width: 130px;
+  }
+
+  .form-control.form-control-sm span {
+    width: 90px;
+  }
+
+  .form-control.form-control-sm input {
+    margin: 0 0.3rem;
+    width: 95%;
+    height: 18px;
+  }
+}
+
+.collapsible__wrapper.collapsible__wrapper--is-expanded {
+  .collapsible__wrapper-collapse {
+    max-height: 1200px;
+    height: auto;
+    overflow-y: auto;
+  }
+}

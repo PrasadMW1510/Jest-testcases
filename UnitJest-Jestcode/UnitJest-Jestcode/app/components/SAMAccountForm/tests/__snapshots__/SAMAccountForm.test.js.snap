@@ -1,0 +1,639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMAccountForm /> editMode is false Expect to render correctly 1`] = `
+<div>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    formatText={[Function]}
+    label="Type of Account"
+    name="user_type"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="District User ID"
+    maxLength={32}
+    name="district_user_id"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="SPS ID"
+    maxLength={255}
+    name="sps_id"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Prefix"
+    maxLength={5}
+    name="prefix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Title (e.g. Teacher)"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Suffix"
+    maxLength={5}
+    name="suffix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Email"
+    maxLength={50}
+    name="email"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Username"
+    maxLength={20}
+    name="user_name"
+    required={true}
+    type="text"
+  />
+  <span>
+    <Field
+      className="form-input-control"
+      component={[Function]}
+      label="Password"
+      maxLength={20}
+      name="password"
+      required={true}
+      type="password"
+    />
+    <QuestionIconToolTip>
+      Passwords must contain between 8 and 16 characters and cannot be only the user's first or last name or a combination of the two. Passwords must also contain at least one upper case letter and one lower case letter, and one numeral.
+    </QuestionIconToolTip>
+  </span>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Confirm Password"
+    maxLength={20}
+    name="password_confirm"
+    required={true}
+    type="password"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Password Hint"
+    maxLength={40}
+    name="password_hint"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="School"
+    name="school_name"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<SAMAccountForm /> editMode is false Expect to render correctly for DA adding an SA 1`] = `
+<div>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    formatText={[Function]}
+    label="Type of Account"
+    name="user_type"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="District User ID"
+    maxLength={32}
+    name="district_user_id"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="SPS ID"
+    maxLength={255}
+    name="sps_id"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Prefix"
+    maxLength={5}
+    name="prefix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Title (e.g. Teacher)"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Suffix"
+    maxLength={5}
+    name="suffix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Email"
+    maxLength={50}
+    name="email"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Username"
+    maxLength={20}
+    name="user_name"
+    required={true}
+    type="text"
+  />
+  <span>
+    <Field
+      className="form-input-control"
+      component={[Function]}
+      label="Password"
+      maxLength={20}
+      name="password"
+      required={true}
+      type="password"
+    />
+    <QuestionIconToolTip>
+      Passwords must contain between 8 and 16 characters and cannot be only the user's first or last name or a combination of the two. Passwords must also contain at least one upper case letter and one lower case letter, and one numeral.
+    </QuestionIconToolTip>
+  </span>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Confirm Password"
+    maxLength={20}
+    name="password_confirm"
+    required={true}
+    type="password"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Password Hint"
+    maxLength={40}
+    name="password_hint"
+    type="text"
+  />
+  <Field
+    className="form-input-control sam-account-form__dropdown"
+    component={[Function]}
+    formatLabel={[Function]}
+    items={
+      Array [
+        Object {
+          "name": Array [
+            "school1",
+          ],
+          "org_id": Array [
+            "iii",
+          ],
+        },
+      ]
+    }
+    label="School"
+    name="school_name"
+  />
+</div>
+`;
+
+exports[`<SAMAccountForm /> userOrg is District Expect to render correctly 1`] = `
+<div>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    formatText={[Function]}
+    label="Type of Account"
+    name="user_type"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="District User ID"
+    maxLength={32}
+    name="district_user_id"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="SPS ID"
+    maxLength={255}
+    name="sps_id"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Prefix"
+    maxLength={5}
+    name="prefix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Title (e.g. Teacher)"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Suffix"
+    maxLength={5}
+    name="suffix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Email"
+    maxLength={50}
+    name="email"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Username"
+    maxLength={20}
+    name="user_name"
+    required={true}
+    type="text"
+  />
+  <span>
+    <Field
+      className="form-input-control"
+      component={[Function]}
+      label="Password"
+      maxLength={20}
+      name="password"
+      required={true}
+      type="password"
+    />
+    <QuestionIconToolTip>
+      Passwords must contain between 8 and 16 characters and cannot be only the user's first or last name or a combination of the two. Passwords must also contain at least one upper case letter and one lower case letter, and one numeral.
+    </QuestionIconToolTip>
+  </span>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Confirm Password"
+    maxLength={20}
+    name="password_confirm"
+    required={true}
+    type="password"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Password Hint"
+    maxLength={40}
+    name="password_hint"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<SAMAccountForm /> userOrg is School Expect to render correctly 1`] = `
+<div>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    formatText={[Function]}
+    label="Type of Account"
+    name="user_type"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="District User ID"
+    maxLength={32}
+    name="district_user_id"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="SPS ID"
+    maxLength={255}
+    name="sps_id"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Prefix"
+    maxLength={5}
+    name="prefix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Title (e.g. Teacher)"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Suffix"
+    maxLength={5}
+    name="suffix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Email"
+    maxLength={50}
+    name="email"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Username"
+    maxLength={20}
+    name="user_name"
+    required={true}
+    type="text"
+  />
+  <span>
+    <Field
+      className="form-input-control"
+      component={[Function]}
+      label="Password"
+      maxLength={20}
+      name="password"
+      required={true}
+      type="password"
+    />
+    <QuestionIconToolTip>
+      Passwords must contain between 8 and 16 characters and cannot be only the user's first or last name or a combination of the two. Passwords must also contain at least one upper case letter and one lower case letter, and one numeral.
+    </QuestionIconToolTip>
+  </span>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Confirm Password"
+    maxLength={20}
+    name="password_confirm"
+    required={true}
+    type="password"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Password Hint"
+    maxLength={40}
+    name="password_hint"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="School"
+    name="school_name"
+    type="text"
+  />
+</div>
+`;
+
+exports[`<SAMAccountForm /> userOrg is default value Expect to render correctly 1`] = `
+<div>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    formatText={[Function]}
+    label="Type of Account"
+    name="user_type"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="District User ID"
+    maxLength={32}
+    name="district_user_id"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="SPS ID"
+    maxLength={255}
+    name="sps_id"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Prefix"
+    maxLength={5}
+    name="prefix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="First Name"
+    maxLength={40}
+    name="first_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Last Name"
+    maxLength={40}
+    name="last_name"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Title (e.g. Teacher)"
+    maxLength={40}
+    name="title"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Suffix"
+    maxLength={5}
+    name="suffix"
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Email"
+    maxLength={50}
+    name="email"
+    required={true}
+    type="text"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Username"
+    maxLength={20}
+    name="user_name"
+    required={true}
+    type="text"
+  />
+  <span>
+    <Field
+      className="form-input-control"
+      component={[Function]}
+      label="Password"
+      maxLength={20}
+      name="password"
+      required={true}
+      type="password"
+    />
+    <QuestionIconToolTip>
+      Passwords must contain between 8 and 16 characters and cannot be only the user's first or last name or a combination of the two. Passwords must also contain at least one upper case letter and one lower case letter, and one numeral.
+    </QuestionIconToolTip>
+  </span>
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Confirm Password"
+    maxLength={20}
+    name="password_confirm"
+    required={true}
+    type="password"
+  />
+  <Field
+    className="form-input-control"
+    component={[Function]}
+    label="Password Hint"
+    maxLength={40}
+    name="password_hint"
+    type="text"
+  />
+</div>
+`;

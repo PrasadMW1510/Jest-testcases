@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RISettingContainer /> Expect to render correctly 1`] = `
+<div>
+  <RISetting
+    enrollmentCount={0}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    immSettingData={
+      Immutable.Map {
+        proficiencyBandData: Immutable.Map {
+        },
+        programSetting: Immutable.Map {
+        },
+      }
+    }
+    loggedInUserType="Teacher"
+    programName="Reading Inventory"
+    selectedCohortName="this student"
+    selectedCohortType="Student"
+    showModal={[Function]}
+    transformLexile={[Function]}
+  />
+</div>
+`;
+
+exports[`<RISettingContainer /> Expect to render correctly with truthy selectedCohortName 1`] = `
+<div>
+  <RISetting
+    enrollmentCount={0}
+    handleCancel={[Function]}
+    handleSave={[Function]}
+    immSettingData={
+      Immutable.Map {
+        proficiencyBandData: Immutable.Map {
+        },
+        programSetting: Immutable.Map {
+        },
+      }
+    }
+    loggedInUserType="Teacher"
+    programName="Reading Inventory"
+    selectedCohortName="Student Last Name, Student First Name"
+    selectedCohortType="Student"
+    showModal={[Function]}
+    transformLexile={[Function]}
+  />
+</div>
+`;

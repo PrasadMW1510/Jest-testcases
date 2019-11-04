@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for deleteQuiz 1`] = `
+Object {
+  "quizId": Array [
+    Object {
+      "name": "quizId 1",
+    },
+  ],
+  "type": "TeacherMadeQuizContainer/delete_teacher_made_quiz_details_srequest",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for deleteQuiz 2`] = `
+Object {
+  "quizId": undefined,
+  "type": "TeacherMadeQuizContainer/delete_teacher_made_quiz_details_srequest",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for deleteTeacherMadeQuizRequestSuccess 1`] = `
+Object {
+  "delSuccess": Array [
+    Object {
+      "name": "delSuccess 1",
+    },
+  ],
+  "type": "TeacherMadeQuizContainer/delete_teacher_made_quiz_details_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for deleteTeacherMadeQuizRequestSuccess 2`] = `
+Object {
+  "delSuccess": Array [],
+  "type": "TeacherMadeQuizContainer/delete_teacher_made_quiz_details_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_installedquizdata_request",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDataRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_installedquizdata_request_failure",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDataRequestSuccess 1`] = `
+Object {
+  "installedQuizData": Array [
+    Object {
+      "name": "installedQuizData 1",
+    },
+  ],
+  "type": "AdvancedSearchContainer/get_installedquizdata_request_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDataRequestSuccess 2`] = `
+Object {
+  "installedQuizData": Array [],
+  "type": "AdvancedSearchContainer/get_installedquizdata_request_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDetailDataRequestSuccess 1`] = `
+Object {
+  "quizQuestions": Array [
+    Object {
+      "name": "quizQuestions 1",
+    },
+  ],
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_details_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getInstalledQuizDetailDataRequestSuccess 2`] = `
+Object {
+  "quizQuestions": Array [],
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_details_success",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getTeacherMadeQuizDetailsRequest 1`] = `
+Object {
+  "key": Array [
+    Object {
+      "name": "key 1",
+    },
+  ],
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_details_request",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for getTeacherMadeQuizDetailsRequest 2`] = `
+Object {
+  "key": undefined,
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_details_request",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for postTeacherMadeQuizRequest 1`] = `
+Object {
+  "quizObject": Array [
+    Object {
+      "name": "quizObject 1",
+    },
+  ],
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_request",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for postTeacherMadeQuizRequest 2`] = `
+Object {
+  "quizObject": undefined,
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_request",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for postTeacherMadeQuizRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_failure",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for postTeacherMadeQuizRequestFailure 2`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "TeacherMadeQuizContainer/delete_teacher_made_quiz_details_failure",
+}
+`;
+
+exports[`Teacher Made Quiz Container actions should return the correct constant for postTeacherMadeQuizRequestSuccess 1`] = `
+Object {
+  "type": "TeacherMadeQuizContainer/form_teacher_made_quiz_success",
+}
+`;

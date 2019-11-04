@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Class Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Class renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="This class does not have any students enrolled in iRead."
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Group Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Group renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="This group does not have any students enrolled in iRead."
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Student Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is Student renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="This student is not enrolled in iRead."
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is invalid Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> enrollment count is 0 cohort type is invalid renderSettingsTab renders correctly 1`] = `null`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is District Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is District renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="To change iRead settings, please select a class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is Grade Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is Grade renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="To change iRead settings, please select a class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is School Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is School renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="To change iRead settings, please select a class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is Teacher Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> render incorrect cohort message cohort type is Teacher renderSettingsTab renders correctly 1`] = `
+<SettingsMessage
+  message1="To change iRead settings, please select a class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<IReadSettings /> renders null based on isLoading and programSettingData.size isLoading is false, but programSettingData.size is 0 Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> renders null based on isLoading and programSettingData.size isLoading is false, but programSettingData.size is 0 renderSettingsTab renders correctly 1`] = `null`;
+
+exports[`<IReadSettings /> renders null based on isLoading and programSettingData.size isLoading is true Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<IReadSettings /> renders null based on isLoading and programSettingData.size isLoading is true renderSettingsTab renders correctly 1`] = `null`;
+
+exports[`<IReadSettings /> should render ProgramSettingsViewIRead renderSettingsTab renders correctly 1`] = `
+<ProgramSettingViewIRead
+  handleSave={[Function]}
+  isTabIsolated={false}
+  programSettingData={
+    Immutable.Map {
+      mockSettings: "mockSettings",
+    }
+  }
+  setIsolateTab={[Function]}
+  showModal={[Function]}
+/>
+`;
+
+exports[`<IReadSettings /> should render ProgramSettingsViewIRead should render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookQuizContainer handleCheckSearch 1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;
+
+exports[`BookQuizContainer handleResetSearchResults 1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;
+
+exports[`BookQuizContainer handleSearch 1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;
+
+exports[`BookQuizContainer handleSearchtermChange  1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;
+
+exports[`BookQuizContainer handleclose 1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;
+
+exports[`BookQuizContainer to render 1`] = `
+<div
+  className="book-quiz-page"
+>
+  <QuickSearch
+    onResetSearchResults={[Function]}
+    onSearch={[Function]}
+    onSearchtermChange={[Function]}
+  />
+  <div
+    className="search-tab-wrapper"
+  >
+    <SearchTabBar />
+    <div>
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/advanced"
+        />
+        <Route
+          component={[Function]}
+          path="/results"
+        />
+        <Route
+          component={[Function]}
+          path="/custom"
+        />
+        <Redirect
+          push={false}
+          to="/advanced"
+        />
+      </Switch>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="Error Modal"
+    isOpen={false}
+    modalClassModifier="error-modal"
+  >
+    <div
+      className="error-modal__message"
+    >
+      Please enter a search term to view the information on this tab.
+    </div>
+    <SAMButton
+      buttonType="button"
+      className="error-modal__ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Ok
+    </SAMButton>
+  </SAMModal>
+</div>
+`;

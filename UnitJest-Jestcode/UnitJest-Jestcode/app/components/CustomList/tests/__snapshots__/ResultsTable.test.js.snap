@@ -1,0 +1,614 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultsTable else calculateRowCount if else  1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`ResultsTable else calculateRowCount if else  2`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`ResultsTable else calculateRowCount if else  3`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "QuizActive": Array [
+            "true",
+          ],
+          "_id": undefined,
+        },
+        Object {
+          "Title": Array [
+            "Monsterhearts",
+          ],
+          "_id": undefined,
+        },
+        Object {
+          "ReadingLevel": Array [
+            "6.2",
+          ],
+          "_id": undefined,
+        },
+        Object {
+          "Lexile": Array [
+            "1000",
+          ],
+          "_id": undefined,
+        },
+      ]
+    }
+    pageSize={10}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+  />
+</div>
+`;
+
+exports[`ResultsTable else calculateRowCount if else else  1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`ResultsTable else renderEmptyTable if else  1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns 1`] = `
+<div
+  className="search-result-table__group"
+>
+  <SearchResultsEditCell
+    clickHandler={[Function]}
+    rowData={
+      Object {
+        "cd_name": "item-0001",
+        "enabled": 1,
+        "supplimental": 0,
+        "topic_name": "Item 1",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns sortmethod "" 1`] = `
+<div
+  className="search-result-table__group"
+>
+  <SearchResultsEditCell
+    onRemoveClick={[Function]}
+    rowData={
+      Object {
+        "cd_name": "item-0001",
+        "enabled": 1,
+        "supplimental": 0,
+        "topic_name": "Item 1",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ResultsTable should populate the BooksTable with the right columns sortmethod Author 1`] = `"sss, fdfd"`;
+
+exports[`ResultsTable should render correctly renderTableData if if  1`] = `
+<div
+  className="search-results__wrapper"
+>
+  <BooksTable
+    checkedIds={Array []}
+    className="custom-list-search-results__table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Book/Quiz Title",
+          "accessor": "Title",
+          "getProps": [Function],
+          "sortable": true,
+          "width": 230,
+        },
+        Object {
+          "Header": "Quiz Author",
+          "accessor": [Function],
+          "id": "author",
+          "width": 150,
+        },
+        Object {
+          "Header": "Lexile®",
+          "accessor": "Lexile",
+          "id": "lexile",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "RL",
+          "accessor": "ReadingLevel",
+          "id": "rl",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "GRL",
+          "accessor": "GuidedReadingLevel",
+          "id": "grl",
+          "width": 60,
+        },
+        Object {
+          "Header": "Points",
+          "accessor": "Points",
+          "id": "points",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Words",
+          "accessor": "Words",
+          "id": "words",
+          "sortMethod": [Function],
+          "width": 100,
+        },
+        Object {
+          "Header": "Type",
+          "accessor": [Function],
+          "id": "type",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Header": "Copies",
+          "accessor": "Copies",
+          "id": "copies",
+          "sortMethod": [Function],
+          "width": 60,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "accessor": [Function],
+          "id": "links",
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    hasCheckboxes={true}
+    pageSize={0}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;

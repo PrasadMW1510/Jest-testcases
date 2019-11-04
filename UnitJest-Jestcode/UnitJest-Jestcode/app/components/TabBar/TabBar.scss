@@ -1,0 +1,80 @@
+.tab-bar {
+  height: 38px;
+  background-color: #666;
+  overflow: hidden;
+  position: relative;
+}
+
+.tab-bar__container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: -80px;
+}
+
+.tab-bar__tab {
+  .tab-bar__text {
+    margin-left: 8px;
+    padding-left: 34px;
+  }
+}
+
+.tab-bar__tab--home {
+  .tab-bar__text {
+    padding-left: 86px;
+  }
+
+  &::before {
+    background-color: #ffc;
+  }
+}
+
+.tab-bar__tab--roster {
+  .tab-bar__text {
+    background: url('~images/roster-icon.png') no-repeat;
+  }
+
+  &::before {
+    background-color: #ffb200;
+  }
+}
+
+.tab-bar__tab--reports {
+  .tab-bar__text {
+    background: url('~images/reports-icon.png') no-repeat;
+  }
+
+  &::before {
+    background-color: #47aee8;
+  }
+}
+
+.tab-bar__tab--resources {
+  .tab-bar__text {
+    background: url('~images/resources-icon.png') no-repeat;
+  }
+
+  &::before {
+    background-color: #99cd00;
+  }
+}
+
+.tab-bar__tab--books {
+  .tab-bar__text {
+    background: url('~images/books-icon.png') no-repeat;
+  }
+
+  &::before {
+    background-color: #f96044;
+  }
+}
+
+.tab-bar__tab--portfolio {
+  .tab-bar__text {
+    background: url('~images/portfolio-icon.png') no-repeat;
+  }
+
+  &::before {
+    background-color: #bd68f2;
+  }
+}

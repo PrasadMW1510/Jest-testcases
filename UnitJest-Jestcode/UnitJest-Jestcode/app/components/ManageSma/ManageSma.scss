@@ -1,0 +1,145 @@
+.manage-sma__header-text {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.manage-sma__text-direction {
+  font-size: 12px;
+}
+
+.manage-sma__table-link {
+  cursor: pointer;
+  color: #00f;
+}
+
+.manage-sma-panel--white {
+  padding-bottom: 50px;
+}
+
+.manage-sma__add-sma-right {
+  color: #00f;
+  font-size: 11px;
+  float: right;
+  padding-top: 80px;
+}
+
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-color: #311c00;
+$thead-background-color: #ffd300;
+$thead-clicked-color: #ffa200;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.manage-sma-table > .ReactTable {
+  height: 300px;
+  font-size: 12px;
+
+  margin: 100px 0 30px 5px;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    border-bottom: 1px solid #000;
+    color: $thead-color;
+    font-weight: 700;
+    height: 24px;
+    max-height: 24px;
+  }
+
+  .rt-th {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    font-size: 11px;
+    justify-content: left;
+    max-height: 24px;
+    overflow: hidden;
+    padding: 10px;
+    color: #000;
+    text-overflow: ellipsis;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+    background-color: #ffdd69;
+    display: block;
+    //height: 185px;
+    overflow-y: auto;
+    // width: 300px;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 3px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-right: 0 solid #000;
+    text-align: left;
+    transition-property: width, min-width, padding, opacity;
+    white-space: nowrap;
+  }
+
+  .rt-td__link {
+    text-align: center;
+  }
+
+  .rt-td__tooltip--up:hover::after {
+    background: #ffffe0;
+    border-radius: 5px;
+    color: #000;
+    left: 0%;
+    content: attr(data-tip);
+    padding: 5px 15px;
+    position: relative;
+    z-index: 98;
+    width: 350px;
+    /* padding-bottom: 10px; */
+  }
+
+  .rt-tr {
+    // border-bottom: 1px solid #ffb200;
+    max-height: 30px;
+    text-overflow: ellipsis;
+  }
+
+  .rt-tr-group {
+    max-height: 25px;
+  }
+
+  // styles for custom elements within SAMTable
+  .manage-sma-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+
+  .manage-sma-table__no-data {
+    background-color: #fff;
+    display: inherit;
+    height: 188px;
+    background-color: #fff;
+  }
+
+  .manage-sma-table__no-data-text {
+    color: #f00;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+}

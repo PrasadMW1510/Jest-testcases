@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchEditCell /> Expect to render anchor tags correctly 1`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <a
+    href="button"
+    id="h"
+    onClick={[Function]}
+  >
+    hjgfj
+  </a>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="SAM"
+      src="IMAGE_MOCK"
+      style={
+        Object {
+          "width": "18px",
+        }
+      }
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchEditCell /> Expect to render img tags correctly 1`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <Link
+    replace={false}
+    to="#"
+  >
+    hjgfj
+  </Link>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="SAM"
+      src="IMAGE_MOCK"
+      style={
+        Object {
+          "width": "18px",
+        }
+      }
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchEditCell /> Expect to render img tags correctly 2`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <Link
+    replace={false}
+    to="#"
+  >
+    hjgfj
+  </Link>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="SAM"
+      src="IMAGE_MOCK"
+      style={
+        Object {
+          "width": "18px",
+        }
+      }
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchEditCell /> Expect to render img tags correctly 3`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <Link
+    replace={false}
+    to="#"
+  >
+    hjgfj
+  </Link>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="SAM"
+      src="IMAGE_MOCK"
+      style={
+        Object {
+          "width": "18px",
+        }
+      }
+    />
+  </button>
+</div>
+`;
+
+exports[`<SearchEditCell /> Expect to render img tags correctly 4`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <Link
+    replace={false}
+    to="#"
+  >
+    hjgfj
+  </Link>
+  <button
+    className="search-results-table__result-col-button"
+  >
+    <img
+      alt="SAM"
+      src="IMAGE_MOCK"
+      style={
+        Object {
+          "width": "18px",
+        }
+      }
+    />
+  </button>
+</div>
+`;

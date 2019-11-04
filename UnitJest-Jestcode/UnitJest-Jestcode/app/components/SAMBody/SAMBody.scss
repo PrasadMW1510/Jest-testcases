@@ -1,0 +1,25 @@
+.sam-body {
+  height: 610px;
+  width: 100%;
+  overflow: hidden;
+
+  &--cream {
+    background-color: #ffc;
+  }
+
+  &--orange {
+    background-color: #ffb200;
+  }
+
+  &--blue {
+    background-color: #47aee8;
+  }
+
+  &--green {
+    background-color: #99cd00;
+  }
+
+  &--red {
+    background-color: #f96044;
+  }
+}

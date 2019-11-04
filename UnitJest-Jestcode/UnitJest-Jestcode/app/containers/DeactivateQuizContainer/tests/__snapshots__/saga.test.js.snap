@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintBookLabel Saga postDeactivateQuizRequest postDeactivateQuizRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga postDeactivateQuizRequest postDeactivateQuizRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<SetQuizActivationReq><ActiveState>false</ActiveState><Quizzes><QuizId></QuizId></Quizzes></SetQuizActivationReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`PrintBookLabel Saga postDeactivateQuizRequest postDeactivateQuizRequest 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "selectedIds": undefined,
+      "selectedrows": Array [
+        Object {
+          "QuizActive": Array [
+            "false",
+          ],
+          "QuizID": Array [
+            "",
+          ],
+        },
+      ],
+      "type": "SearchResultsContainer/results_save",
+    },
+    "channel": null,
+  },
+}
+`;

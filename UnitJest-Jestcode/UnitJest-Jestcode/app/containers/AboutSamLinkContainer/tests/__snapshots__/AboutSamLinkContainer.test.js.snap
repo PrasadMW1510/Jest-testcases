@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutSamLinkContainer /> Should match the Snapshot 1`] = `
+<div>
+  <title>
+    AboutSamLinkContainer
+  </title>
+  <AboutSamLink
+    item={
+      Array [
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+        Object {
+          "Enabled": undefined,
+          "MediaBuildNumber": undefined,
+          "ServerBuildNumber": undefined,
+          "name": undefined,
+          "supernumber": undefined,
+          "version": undefined,
+        },
+      ]
+    }
+    onAboutSAMClick={[Function]}
+  />
+</div>
+`;

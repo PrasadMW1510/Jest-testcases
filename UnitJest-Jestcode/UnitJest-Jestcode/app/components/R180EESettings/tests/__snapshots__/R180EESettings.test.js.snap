@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180EESettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderAction": [Function],
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-topic-manager",
+        "label": "Topic Manager",
+        "renderAction": [Function],
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<ProgramSettingsViewR180EE
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockData",
+    }
+  }
+  showModal={[Function]}
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="Class"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="District"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="District"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Grade"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Grade"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<ProgramSettingsViewR180EE
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockData",
+    }
+  }
+  showModal={[Function]}
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="Grade"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<ProgramSettingsViewR180EE
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockData",
+    }
+  }
+  showModal={[Function]}
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="Group"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="School"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="School"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change READ 180 Enterprise Edition settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<ProgramSettingsViewR180EE
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockData",
+      student_level: Immutable.List [
+        "2",
+      ],
+    }
+  }
+  showModal={[Function]}
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerStudentViewR180EE
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settingsStudentLevel="2"
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 0 renderTopicManagerTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="READ 180 Enterprise Edition"
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false setting size is 0, installedStages size is 0, and topics size is 0 renderTopicManagerTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderSettingTab 1`] = `
+<ProgramSettingsViewR180EE
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockData",
+    }
+  }
+  showModal={[Function]}
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false setting size is not 0, installedStages size is not 0, and topics size is not 0 renderTopicManagerTab 1`] = `
+<TopicManagerViewR180EE
+  cohortType="Teacher"
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleTopicSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  setStage={[Function]}
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+        1,
+        2,
+      ],
+      topics: Immutable.List [
+        1,
+        2,
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<R180EESettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderTopicManagerTab 1`] = `<LoadingBar />`;

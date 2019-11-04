@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NgtopicsStageModal/> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="Set Student Level"
+  isOpen={true}
+  modalClassModifier="r180ng-topics-stage-modal"
+>
+  <div
+    className="r180ng-topics-stage-modal-body"
+  >
+    <div>
+      Using the filter menu will erase any
+    </div>
+    <div>
+      changes that you have not already 
+    </div>
+    <div>
+      saved. Would you like to continue?
+    </div>
+    <div
+      className="r180ng-topics-stage-modal-footer"
+    >
+      <SAMButton
+        buttonClassModifier="r180ng-topics-stage-modal--ok-button"
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Yes
+      </SAMButton>
+      <SAMButton
+        buttonClassModifier="r180ng-topics-stage-modal--cancel-button"
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        No
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

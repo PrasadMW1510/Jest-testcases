@@ -1,0 +1,58 @@
+.reactivate-school-modal {
+  height: 150px;
+  padding: 0;
+  width: 355px;
+}
+
+.reactivate-school-modal__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffd400;
+  width: 350px;
+  height: 25px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.reactivate-school-modal__header-title {
+  font-weight: bold;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.reactivate-school-modal--bold {
+  font-weight: bold;
+}
+
+.reactivate-school-modal__button-group {
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  left: auto;
+  margin: 0 auto;
+  right: auto;
+  width: 200px;
+}
+
+.reactivate-school-modal__button-group-container {
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.reactivate-school-modal__button {
+  float: left;
+  height: 23px;
+  margin-top: 0;
+  min-width: 90px;
+  padding: 1px 0 2px;
+  width: 90px;
+}
+
+.reactivate-school-modal__message {
+  font-size: 11px;
+  padding: 30px 10px 0 30px;
+}

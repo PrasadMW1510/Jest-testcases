@@ -1,0 +1,715 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesActivityTab /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="ADVANCED"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesAdvancedView
+      advancedResource={Array []}
+      advancedSkill={
+        Immutable.Map {
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> Expect to render correctly with resources Info no subtype 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="ADVANCED"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesAdvancedView
+      advancedResource={
+        Array [
+          Object {},
+        ]
+      }
+      advancedSkill={
+        Immutable.Map {
+          resource_supertypes: Immutable.List [
+            Immutable.Map {
+              resource_supertype: Immutable.List [
+                Immutable.Map {
+                  resource_types: Immutable.List [
+                    Immutable.Map {
+                      type_id: Immutable.List [
+                        "TOP0300",
+                      ],
+                      type_name: Immutable.List [
+                        "Group students",
+                      ],
+                    },
+                  ],
+                },
+              ],
+              supertype_id: Immutable.List [
+                "TOP0200",
+              ],
+              supertype_name: Immutable.List [
+                "For individual students",
+              ],
+            },
+          ],
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> Expect to render correctly with resources Info type Info 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="ADVANCED"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesAdvancedView
+      advancedResource={Array []}
+      advancedSkill={
+        Immutable.Map {
+          resouce_supertype: Immutable.List [
+            Immutable.Map {
+              resource_types: Immutable.List [
+                Immutable.Map {
+                  type_id: Immutable.List [
+                    "GEN0200",
+                  ],
+                  type_name: Immutable.List [
+                    "Practice Pages/BLMs",
+                  ],
+                  type_description: Immutable.List [
+                    "Provide students with guided or independent practice opportunities in class or to take home.",
+                  ],
+                  resource_subtypes: Immutable.List [
+                    Immutable.Map {
+                      resource_subtype: Immutable.List [
+                        Immutable.Map {
+                          resource_subtype_description: Immutable.List [
+                            "",
+                          ],
+                          resource_subtype_id: Immutable.List [
+                            "GEN0201",
+                          ],
+                          resource_subtype_name: Immutable.List [
+                            "Practice Pages",
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+              supertype_description: Immutable.List [
+                "",
+              ],
+              supertype_id: Immutable.List [
+                "TOP0200",
+              ],
+              supertype_name: Immutable.List [
+                "For individual students",
+              ],
+            },
+            Immutable.Map {
+              resource_types: Immutable.List [
+              ],
+              supertype_description: Immutable.List [
+                "",
+              ],
+              supertype_id: Immutable.List [
+                "TOP0100",
+              ],
+              supertype_name: Immutable.List [
+                "For Whole/Small Group Instructions",
+              ],
+            },
+          ],
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> click browse 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="BROWSE"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <div
+      className="resources-browse-header-text"
+    >
+      <span
+        className="resources-browse-header-text__text"
+      >
+        Click a link to view Resources.
+      </span>
+      <ResourcesBrowse />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> click standards 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="STANDARDS"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesStandardsView
+      standard={
+        Immutable.Map {
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> random tab other than ITS 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="ITS"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ITS"
+        onClick={[Function]}
+      >
+        ITS
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesITSView
+      appInfo={
+        Array [
+          Object {
+            "$": Object {
+              "app": "DTM",
+            },
+            "text1": Array [
+              "text1",
+            ],
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> verify if the data is rendered correctly 1`] = `
+Object {
+  "resource": Array [
+    Object {
+      "resource_subtypes": Array [
+        "",
+      ],
+      "type_description": Array [
+        "",
+      ],
+      "type_id": Array [
+        "GEN1500",
+      ],
+      "type_name": Array [
+        "Assessment",
+      ],
+    },
+    Object {
+      "resource_subtypes": Array [
+        "",
+      ],
+      "type_description": Array [
+        "Use the Parent Letter to inform parents or guardians of their child's enrollment in this program.",
+      ],
+      "type_id": Array [
+        "GEN1700",
+      ],
+      "type_name": Array [
+        "Parent Letters",
+      ],
+    },
+    Object {
+      "resource_subtypes": Array [
+        Object {
+          "resource_subtype": Array [
+            Object {
+              "resource_subtype_description": Array [
+                "",
+              ],
+              "resource_subtype_id": Array [
+                "GEN0201",
+              ],
+              "resource_subtype_name": Array [
+                "Practice Pages",
+              ],
+            },
+          ],
+        },
+      ],
+      "type_description": Array [
+        "Provide students with guided or independent practice opportunities in class or to take home.",
+      ],
+      "type_id": Array [
+        "GEN0200",
+      ],
+      "type_name": Array [
+        "Practice Pages/BLMs",
+      ],
+    },
+    Object {
+      "resource_subtypes": Array [
+        "",
+      ],
+      "type_description": Array [
+        "Print out vocabulary lists and cards to teach, share with students or display.",
+      ],
+      "type_id": Array [
+        "GEN1000",
+      ],
+      "type_name": Array [
+        "Vocabulary Lists",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`<ResourcesActivityTab /> verify if the standards tab is selected on no ITS app 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="STANDARDS"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesStandardsView
+      standard={
+        Immutable.Map {
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> verify render method when ITS value exist 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="BROWSE"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ITS"
+        onClick={[Function]}
+      >
+        ITS
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <div
+      className="resources-browse-header-text"
+    >
+      <span
+        className="resources-browse-header-text__text"
+      >
+        Click a link to view Resources.
+      </span>
+      <ResourcesBrowse />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesActivityTab /> verify with next props has no value for resources Info 1`] = `
+<div>
+  <div
+    className="resources-activity-tab"
+  >
+    <NavBar
+      activeItemId="ADVANCED"
+      className=""
+      inset={false}
+      palette="green"
+      theme="tabs"
+    >
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="ADVANCED"
+        onClick={[Function]}
+      >
+        Advanced
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="BROWSE"
+        onClick={[Function]}
+      >
+        Browse
+      </NavItem>
+      <NavItem
+        active={false}
+        className="resources-activity-tab--button"
+        component="button"
+        hasErrors={false}
+        id="STANDARDS"
+        onClick={[Function]}
+      >
+        Standards
+      </NavItem>
+    </NavBar>
+  </div>
+  <div
+    className="resources-activity-content"
+  >
+    <ResourcesAdvancedView
+      advancedResource={Array []}
+      advancedSkill={
+        Immutable.Map {
+        }
+      }
+    />
+  </div>
+</div>
+`;

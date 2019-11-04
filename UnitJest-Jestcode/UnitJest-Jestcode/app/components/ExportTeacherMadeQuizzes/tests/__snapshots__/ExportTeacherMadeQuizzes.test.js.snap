@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExportTeacherMadeQuizzes /> Expect to render correctly 1`] = `
+<ExportTeacherMadeQuizzes
+  handleCancel={[Function]}
+  handleExportTeacherMadeQuiz={[Function]}
+  isOpen={true}
+  onClickHandler={[Function]}
+  onExportTeacherMadeQuiz={[Function]}
+  openSuccessModal={true}
+  searchresultsselectedData={Object {}}
+  selectedItems={
+    Array [
+      Object {
+        "QuizTeacherMade": Array [
+          "true",
+        ],
+      },
+    ]
+  }
+>
+  <SAMModal
+    contentLabel="export Teacher Made Quizzes"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--export-teacher-made-quizzes"
+  >
+    <div
+      className="overlay"
+    >
+      <div
+        aria-labelledby="export Teacher Made Quizzes"
+        className="modal modal--export-teacher-made-quizzes"
+        role="dialog"
+      >
+        <div
+          className="print-export-teacher-made-quizzes__confirmtext"
+        >
+          All Teacher-Made Quizzes in your Custom List will be exported to the Teacher-Made Quizzes folder on your computer. Do you wish to continue?
+        </div>
+        <div
+          className="print-export-teacher-made-quizzes__buttons"
+        >
+          <div
+            className="print-export-teacher-made-quizzes__primary-button-yes"
+          >
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={true}
+              onClickHandler={[Function]}
+            >
+              <button
+                className="btn btn--primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Yes
+              </button>
+            </SAMButton>
+          </div>
+          <div
+            className="print-export-teacher-made-quizzes__secondary-button-no"
+          >
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              <button
+                className="btn btn--secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                No
+              </button>
+            </SAMButton>
+          </div>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</ExportTeacherMadeQuizzes>
+`;
+
+exports[`<ExportTeacherMadeQuizzes /> Expect to render correctly 2`] = `
+<SAMModal
+  contentLabel="export Teacher Made Quizzes"
+  id="pcq"
+  isOpen={true}
+  modalClassModifier="modal--export-teacher-made-quizzes-no-select"
+>
+  <div
+    className="print-export-teacher-made-quizzes-no-select__confirmtext"
+  >
+    There are no Teacher-Made Quizzes in the Custom List to export. Please select at least one Teacher-Made Quiz to export.
+  </div>
+  <div
+    className="print-export-teacher-made-quizzes__buttons"
+  >
+    <div
+      className="print-export-teacher-made-quizzes-no-select__secondary-button-ok"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        OK
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabQuizScoreRecordingTool /> Expect to render correctly 1`] = `
+<div
+  className="src-quiz-score__recording-tool-content"
+>
+  <span
+    className="quiz-score__instruction-text"
+  >
+     Quiz History for 
+  </span>
+  <span
+    className="quiz-score__user-name"
+  >
+    d
+     
+    h
+  </span>
+  <SAMTable
+    checkedIds={Array []}
+    className="src-quiz-hisory__table"
+    columns={
+      Array [
+        Object {
+          "Header": [Function],
+          "accessor": "date",
+          "id": "date",
+          "width": 107,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "title",
+          "id": "title",
+          "width": 78,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "lexile",
+          "id": "lexile",
+          "width": 78,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "rl",
+          "id": "rl",
+          "width": 52,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "# Correct",
+          "id": "# Correct",
+          "width": 100,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "# Questions",
+          "id": "# Questions",
+          "width": 110,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "points",
+          "id": "points",
+          "width": 78,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "remove",
+          "id": "remove",
+          "width": 137,
+        },
+      ]
+    }
+    data={Array []}
+    hasCheckboxes={false}
+    pageSize={0}
+    selectAll={false}
+    sortable={true}
+  />
+  <span
+    className="quiz-score__instruction-text"
+  >
+    Add a New Quiz Score
+  </span>
+  <div
+    className="quiz-score__search-quizzes-container"
+  >
+    <span
+      className="quiz-score__search-quizzes-instruction"
+    >
+      Search quizzes by
+    </span>
+    <SettingsSelectBox
+      className="quiz-score__search-quizzes-dropdown"
+      disabled={false}
+      fieldClass="quiz-score__search-quizzes-dropdown"
+      fieldName="settingsSelectBox"
+      fieldValue="Title"
+      id=""
+      labelClass=""
+      labelPosition="left"
+      mixedValue="2"
+      onChange={[Function]}
+    >
+      <React.Fragment>
+        <option
+          value="Title"
+        >
+          Title
+        </option>
+        <option
+          value="Author"
+        >
+          Author
+        </option>
+      </React.Fragment>
+    </SettingsSelectBox>
+    <span
+      className="quiz-score__search-quizzes-instruction"
+    >
+      for
+    </span>
+    <input
+      className="quiz-score__search-quizzes-input"
+      onChange={[Function]}
+      type="text"
+    />
+    <button
+      className="quiz-score__search-quizzes-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      GO
+    </button>
+    <div
+      className="quiz-score__page-item-count"
+    >
+      Items 0 - 0 of 0
+    </div>
+  </div>
+  <SAMTable
+    checkedIds={Array []}
+    className="quiz-score__table"
+    columns={
+      Array [
+        Object {
+          "Header": [Function],
+          "accessor": "title",
+          "id": "title",
+          "width": 180,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "author",
+          "id": "author",
+          "width": 180,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "lexile",
+          "id": "lexile",
+          "width": 95,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "rl",
+          "id": "rl",
+          "width": 95,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "points",
+          "id": "points",
+          "width": 95,
+        },
+        Object {
+          "Header": [Function],
+          "accessor": "remove",
+          "id": "remove",
+          "width": 95,
+        },
+      ]
+    }
+    data={Array []}
+    hasCheckboxes={false}
+    pageSize={0}
+    selectAll={false}
+    sortable={true}
+  />
+  <div
+    className="empty-area__pagination"
+  />
+  <withRouter(SAMLinkButton)
+    buttonClassModifier="quiz-score__cancel-button"
+    id="cancelAndReturn"
+    to="/roster"
+  >
+    Cancel & Return
+  </withRouter(SAMLinkButton)>
+</div>
+`;

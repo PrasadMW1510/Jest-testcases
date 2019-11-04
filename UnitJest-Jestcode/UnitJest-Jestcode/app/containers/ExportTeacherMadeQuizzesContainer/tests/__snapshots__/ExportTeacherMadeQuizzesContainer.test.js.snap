@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExportTeacherMadeQuizzesContainer /> should call deactivateQuiz    1`] = `[Function]`;
+
+exports[`<ExportTeacherMadeQuizzesContainer /> should render correctly 1`] = `
+<ExportTeacherMadeQuizzes
+  exportTeacherMadeQuizRequest={[Function]}
+  exportTeacherMadeQuizzesContainer={
+    Object {
+      "selectedItems": Array [],
+    }
+  }
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  initialRequest={[Function]}
+  isOpen={true}
+  onExportTeacherMadeQuiz={[Function]}
+  openSuccessModal={true}
+  searchResultsContainer={Object {}}
+  searchresultsselectedData={Object {}}
+  selectedItems={Array []}
+/>
+`;

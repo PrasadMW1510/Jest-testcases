@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsNoEnrollmentsMessage /> cohort is not student 1`] = `
+<SettingsMessage
+  message1="This district does not have any students enrolled in iRead."
+/>
+`;
+
+exports[`<SettingsNoEnrollmentsMessage /> cohort is student 1`] = `
+<SettingsMessage
+  message1="This student is not enrolled in READ 180 Enterprise Edition."
+/>
+`;

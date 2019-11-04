@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentGoals /> Expect to render correctly 1`] = `
+<ResultsTable
+  data={Array []}
+  handleClick={[Function]}
+  handleRowCheckboxOnChange={[Function]}
+  handleRowSelections={[Function]}
+  searchResultsIdsChecked={Array []}
+  selectAll={false}
+  toggleAllCheckboxes={[Function]}
+/>
+`;

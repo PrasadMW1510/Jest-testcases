@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`teacher Made Quiz Container Reducer should handle CLEAR_STATE 1`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: null,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle GET_STUDENT_SUBMISSIONS_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: true,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: null,
+  studentWorkData: "ásjk",
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 1`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: undefined,
+  behaviouralGoalSaveStatus: null,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 2`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: undefined,
+  behaviouralGoalSaveStatus: null,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 3`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: undefined,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 4`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: undefined,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 5`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: undefined,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 6`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: undefined,
+  studentWorkData: null,
+}
+`;
+
+exports[`teacher Made Quiz Container Reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 7`] = `
+Immutable.Map {
+  error: false,
+  getCombinedStudentGoalsData: null,
+  getAllStudentGoalsData: null,
+  fetchSuccess: false,
+  academicGoalSaveStatus: null,
+  behaviouralGoalSaveStatus: null,
+  studentWorkData: null,
+}
+`;

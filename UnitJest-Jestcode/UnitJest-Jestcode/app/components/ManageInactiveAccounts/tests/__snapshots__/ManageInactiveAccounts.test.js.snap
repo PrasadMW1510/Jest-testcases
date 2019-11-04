@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageInactiveAccounts /> should match snapshot 1`] = `
+<div
+  className="mia-content-panel"
+>
+  <h4
+    className="mia-content-panel__heading"
+  >
+    Manage Inactive Accounts: 
+    STUDENT
+  </h4>
+  <div
+    className="mia-content-panel__intro"
+  >
+    Use this screen to view, assign, or delete accounts not in your SmartBar
+  </div>
+  <div
+    className="mia-content-panel__cohort-selection"
+  >
+    <select
+      className="mia-content-panel__dropdown"
+      disabled={false}
+      onChange={[Function]}
+      value="Student"
+    >
+      <option
+        key="Student"
+        value="Student"
+      >
+        Student
+      </option>
+      <option
+        key="Teacher"
+        value="Teacher"
+      >
+        Teacher
+      </option>
+      <option
+        key="Class"
+        value="Class"
+      >
+        Class
+      </option>
+      <option
+        key="School"
+        value="School"
+      >
+        School
+      </option>
+    </select>
+  </div>
+  <InactiveAccountsTable
+    allSelected={false}
+    checkedIds={Array []}
+    cohortSelection="Student"
+    handleFetchData={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    isLoadingNewCohort={true}
+    isLoadingNewPageOrSort={false}
+    onEdit={[Function]}
+    rowData={
+      Array [
+        Object {
+          "_id": 2,
+        },
+        Object {
+          "_id": 3,
+        },
+      ]
+    }
+    showSearchClassAssignModal={[Function]}
+    toggleAllCheckboxes={[Function]}
+  />
+  <div>
+    <div
+      className="mia-content-panel__footer"
+    >
+      <select
+        className="mia-content-panel__dropdown"
+        disabled={false}
+        onChange={[Function]}
+        value="SelectAnOption"
+      >
+        <option
+          key="SelectAnOption"
+          value="SelectAnOption"
+        >
+          - Select an Option -
+        </option>
+        <option
+          key="Assign To a Class"
+          value="Assign To a Class"
+        >
+          Assign To a Class
+        </option>
+        <option
+          key="Delete"
+          value="Delete"
+        >
+          Delete
+        </option>
+        <option
+          key="Unenroll"
+          value="Unenroll"
+        >
+          Unenroll
+        </option>
+      </select>
+      <SAMButton
+        buttonType="button"
+        disabled={false}
+        id="goButton"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Go
+      </SAMButton>
+    </div>
+    <div
+      className="mia-content-panel__paginator"
+    >
+      <div
+        className="mia-content-panel__item-accumulator"
+      >
+        Items 1 through 0 of 0
+      </div>
+      <a
+        activePage={1}
+        firstPageText="first"
+        getPageUrl={[Function]}
+        hideFirstLastPages={false}
+        innerClass="pagination"
+        itemClass=""
+        itemsCountPerPage={250}
+        lastPageText="last"
+        nextPageText="next"
+        onChange={[Function]}
+        pageRangeDisplayed={7}
+        prevPageText="prev"
+        totalItemsCount={0}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ManageInactiveAccounts /> should match snapshot for non-last page of data 1`] = `
+<div
+  className="mia-content-panel"
+>
+  <h4
+    className="mia-content-panel__heading"
+  >
+    Manage Inactive Accounts: 
+    STUDENT
+  </h4>
+  <div
+    className="mia-content-panel__intro"
+  >
+    Use this screen to view, assign, or delete accounts not in your SmartBar
+  </div>
+  <div
+    className="mia-content-panel__cohort-selection"
+  >
+    <select
+      className="mia-content-panel__dropdown"
+      disabled={false}
+      onChange={[Function]}
+      value="Student"
+    >
+      <option
+        key="Student"
+        value="Student"
+      >
+        Student
+      </option>
+      <option
+        key="Teacher"
+        value="Teacher"
+      >
+        Teacher
+      </option>
+      <option
+        key="Class"
+        value="Class"
+      >
+        Class
+      </option>
+      <option
+        key="School"
+        value="School"
+      >
+        School
+      </option>
+    </select>
+  </div>
+  <InactiveAccountsTable
+    allSelected={false}
+    checkedIds={Array []}
+    cohortSelection="Student"
+    handleFetchData={[Function]}
+    handleRowCheckboxOnChange={[Function]}
+    isLoadingNewCohort={true}
+    isLoadingNewPageOrSort={false}
+    onEdit={[Function]}
+    rowData={
+      Array [
+        Object {
+          "_id": 2,
+        },
+        Object {
+          "_id": 3,
+        },
+      ]
+    }
+    showSearchClassAssignModal={[Function]}
+    toggleAllCheckboxes={[Function]}
+  />
+  <div>
+    <div
+      className="mia-content-panel__footer"
+    >
+      <select
+        className="mia-content-panel__dropdown"
+        disabled={false}
+        onChange={[Function]}
+        value="SelectAnOption"
+      >
+        <option
+          key="SelectAnOption"
+          value="SelectAnOption"
+        >
+          - Select an Option -
+        </option>
+        <option
+          key="Assign To a Class"
+          value="Assign To a Class"
+        >
+          Assign To a Class
+        </option>
+        <option
+          key="Delete"
+          value="Delete"
+        >
+          Delete
+        </option>
+        <option
+          key="Unenroll"
+          value="Unenroll"
+        >
+          Unenroll
+        </option>
+      </select>
+      <SAMButton
+        buttonType="button"
+        disabled={false}
+        id="goButton"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Go
+      </SAMButton>
+    </div>
+    <div
+      className="mia-content-panel__paginator"
+    >
+      <div
+        className="mia-content-panel__item-accumulator"
+      >
+        Items 1 through 250 of 2000
+      </div>
+      <a
+        activePage={1}
+        firstPageText="first"
+        getPageUrl={[Function]}
+        hideFirstLastPages={false}
+        innerClass="pagination"
+        itemClass=""
+        itemsCountPerPage={250}
+        lastPageText="last"
+        nextPageText="next"
+        onChange={[Function]}
+        pageRangeDisplayed={7}
+        prevPageText="prev"
+        totalItemsCount={2000}
+      />
+    </div>
+  </div>
+</div>
+`;

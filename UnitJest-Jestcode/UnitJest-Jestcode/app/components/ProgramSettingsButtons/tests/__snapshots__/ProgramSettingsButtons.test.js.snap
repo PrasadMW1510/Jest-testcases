@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsButtons /> all buttons are shown expect to render correctly 1`] = `
+<div
+  className="program-settings-buttons"
+>
+  <SAMButton
+    buttonClassModifier="program-settings-buttons__button"
+    buttonType="button"
+    id="restoreDefaults"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Restore Defaults
+  </SAMButton>
+  <div
+    className="program-settings-buttons__display-save-options "
+  >
+    <SAMButton
+      buttonClassModifier="program-settings-buttons__button"
+      buttonType="button"
+      id="cancel"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="program-settings-buttons__button"
+      id="cancelAndReturn"
+      to="/roster"
+    >
+      Cancel & Return
+    </withRouter(SAMLinkButton)>
+    <div
+      className="program-settings-buttons__display-hide-options"
+    >
+      <SAMButton
+        buttonClassModifier="program-settings-buttons__button"
+        buttonType="submit"
+        id="save"
+        isPrimaryButton={true}
+      >
+        Save
+      </SAMButton>
+      <withRouter(SAMLinkButton)
+        buttonClassModifier="program-settings-buttons__button"
+        id="saveAndReturn"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+        suppressRedirect={false}
+        to="/roster"
+      >
+        Save & Return
+      </withRouter(SAMLinkButton)>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsButtons /> stateResult is true and showRestoreDefaults is false expect to render correctly 1`] = `
+<div
+  className="program-settings-buttons"
+>
+  <span />
+  <div
+    className="program-settings-buttons__display-save-options program-settings-buttons__display-save-options-restore"
+  >
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="program-settings-buttons__button"
+      id="cancelAndReturn"
+      to="/roster"
+    >
+      Cancel & Return
+    </withRouter(SAMLinkButton)>
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsButtons /> stateResult is true expect to render correctly 1`] = `
+<div
+  className="program-settings-buttons"
+>
+  <SAMButton
+    buttonClassModifier="program-settings-buttons__button"
+    buttonType="button"
+    id="restoreDefaults"
+    isPrimaryButton={false}
+    onClickHandler={[Function]}
+  >
+    Restore Defaults
+  </SAMButton>
+  <div
+    className="program-settings-buttons__display-save-options "
+  >
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="program-settings-buttons__button"
+      id="cancelAndReturn"
+      to="/roster"
+    >
+      Cancel & Return
+    </withRouter(SAMLinkButton)>
+  </div>
+</div>
+`;

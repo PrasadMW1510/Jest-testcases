@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  slms-client:
+    container_name: slms-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './app:/usr/src/app/app'
+    ports:
+      - '3000:3000'

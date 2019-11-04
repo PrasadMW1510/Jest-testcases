@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesBrowse /> Expect to render itself 1`] = `
+<div
+  className="resources-browse-container"
+/>
+`;
+
+exports[`<ResourcesBrowse /> Verify render with multiple tabs 1`] = `
+<div
+  className="resources-browse-container"
+>
+  <div
+    className="resources-browse-container__columns"
+  >
+    <ResourcesBrowseTab
+      browseList={
+        Immutable.Map {
+          supertype_id: Immutable.List [
+            "0",
+          ],
+        }
+      }
+      key="0"
+    />
+    <ResourcesBrowseTab
+      browseList={
+        Immutable.Map {
+          supertype_id: Immutable.List [
+            "1",
+          ],
+        }
+      }
+      key="1"
+    />
+  </div>
+</div>
+`;

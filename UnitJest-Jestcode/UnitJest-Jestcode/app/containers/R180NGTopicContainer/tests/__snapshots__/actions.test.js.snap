@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct correct r180ng Topics failure 1`] = `
+Object {
+  "error": "error",
+  "type": "R180NG_topics_request_failure",
+}
+`;
+
+exports[`should return the correct correct r180ng Topics failure 2`] = `
+Object {
+  "error": "error",
+  "type": "R180NG_topics_save_request_failure",
+}
+`;
+
+exports[`should return the correct correct r180ng topics installed stages failure 1`] = `
+Object {
+  "error": "error",
+  "type": "R180NG_topics_installed_stages_request_failure",
+}
+`;
+
+exports[`should return the correct r180ng Topics 1`] = `
+Object {
+  "r180ngTopics": undefined,
+  "type": "R180NG_topics_request",
+}
+`;
+
+exports[`should return the correct r180ng Topics success 1`] = `
+Object {
+  "r180ngTopics": "r180ung",
+  "type": "R180NG_topics_request_success",
+}
+`;
+
+exports[`should return the correct r180ng save Topics 1`] = `
+Object {
+  "r180ngTopics": "r180ng",
+  "type": "R180NG_topics_save_request",
+}
+`;
+
+exports[`should return the correct r180ng save Topics success 1`] = `
+Object {
+  "r180ngTopics": "r180ung",
+  "type": "R180NG_topics_save_request_success",
+}
+`;
+
+exports[`should return the correct r180ng topics installed stages 1`] = `
+Object {
+  "type": "R180NG_topics_installed_stages_request",
+}
+`;
+
+exports[`should return the correct r180ng topics installed stages success 1`] = `
+Object {
+  "r180ngTopicsInstalledStages": "r180ung",
+  "type": "R180NG_topics_installed_stages_request_success",
+}
+`;
+
+exports[`should return the correct r180ng update Topics success 1`] = `
+Object {
+  "r180ngTopics": "r180ung",
+  "type": "update_R180NG_topics_request",
+}
+`;
+
+exports[`should return the correct r180ng update selected stage success 1`] = `
+Object {
+  "activeStage": "r180ng_A",
+  "type": "update_topics_selected_stage",
+}
+`;

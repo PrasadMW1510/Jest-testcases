@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ireadSettingsContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: false,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should handle IreadProgramSettingsRequestFailure action 1`] = `
+Immutable.Map {
+  error: "mockFailure",
+  programSetting: Immutable.Map {
+  },
+  loading: false,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should handle IreadProgramSettingsRequestSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: "mockProgramSettings",
+  loading: false,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should handle IreadSaveRequestSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: false,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should set loading to true should handle IreadProgramSettingsRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should set loading to true should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should set loading to true should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`ireadSettingsContainerReducer should set loading to true should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  programSetting: Immutable.Map {
+  },
+  loading: true,
+}
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProficiencyBandDataTableRow should render correctly 1`] = `
+<tr
+  key="5"
+>
+  <td
+    className="pb-data-table__cell"
+  >
+    5
+  </td>
+  <ProficiencyBandDataTableRowCell
+    bandIndex={1}
+    bandName="Below Basic"
+    bandValueTranslator={[Function]}
+    gradeNumber="5"
+    handleBlurBandHighValue={[Function]}
+    handleChangeBandHighValue={[Function]}
+    high={-999998}
+    highIsValid={false}
+    isCellEditable={false}
+    isTableEditable={true}
+    key="Below Basic"
+    low={-999998}
+  />
+  <ProficiencyBandDataTableRowCell
+    bandIndex={2}
+    bandName="Basic"
+    bandValueTranslator={[Function]}
+    gradeNumber="5"
+    handleBlurBandHighValue={[Function]}
+    handleChangeBandHighValue={[Function]}
+    high={189}
+    highIsValid={false}
+    isCellEditable={true}
+    isTableEditable={true}
+    key="Basic"
+    low={-999998}
+  />
+  <ProficiencyBandDataTableRowCell
+    bandIndex={3}
+    bandName="Proficient"
+    bandValueTranslator={[Function]}
+    gradeNumber="5"
+    handleBlurBandHighValue={[Function]}
+    handleChangeBandHighValue={[Function]}
+    high={530}
+    highIsValid={true}
+    isCellEditable={true}
+    isTableEditable={true}
+    key="Proficient"
+    low={190}
+  />
+  <ProficiencyBandDataTableRowCell
+    bandIndex={4}
+    bandName="Advanced"
+    bandValueTranslator={[Function]}
+    gradeNumber="5"
+    handleBlurBandHighValue={[Function]}
+    handleChangeBandHighValue={[Function]}
+    high={999998}
+    highIsValid={false}
+    isCellEditable={false}
+    isTableEditable={true}
+    key="Advanced"
+    low={531}
+  />
+  <td
+    className="pb-data-table__cell pb-data-table__cell--filler"
+    key="filler-0"
+  >
+     
+  </td>
+</tr>
+`;

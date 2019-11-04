@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`printQuizAndAnswerKeyContainerReducer should handle  1`] = `
+Immutable.Map {
+  showError: true,
+}
+`;
+
+exports[`printQuizAndAnswerKeyContainerReducer should handle  2`] = `
+Immutable.Map {
+  showError: false,
+}
+`;

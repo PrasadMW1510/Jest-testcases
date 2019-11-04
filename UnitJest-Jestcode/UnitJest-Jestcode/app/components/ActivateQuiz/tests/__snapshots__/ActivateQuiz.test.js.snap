@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActivateQuiz /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--activate-quiz"
+  >
+    <div
+      className="print-activatequiz__confirmtext"
+    >
+      Are you sure you want to activate all of these quizzes?
+    </div>
+    <div
+      className="print-activate-quiz__buttons"
+    >
+      <div
+        className="print-activate-quiz__primary-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+      </div>
+      <div
+        className="print-activate-quiz__secondary-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          No
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/XSkillsSettingsTab/XSkillsSettingsTab.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/XSkillsSettingsTab</a> XSkillsSettingsTab.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/110</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/47</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/73</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * XSkillsSettingsTab
+ *
+ */
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProgramSettingsButtons <span class="cstat-no" title="statement not covered" >from 'components/ProgramSettingsButtons';<span class="cstat-no" title="statement not covered" ></span></span>
+import SettingsRubricScoringSection <span class="cstat-no" title="statement not covered" >from 'components/SettingsRubricScoringSection';<span class="cstat-no" title="statement not covered" ></span></span>
+import SettingsTestExperienceSection <span class="cstat-no" title="statement not covered" >from 'components/SettingsTestExperienceSection';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  XSKILLS_SETTINGS_CHECKBOX_STATUS_MAP,
+  XSKILLS_SETTINGS_TEST_EXPERIENCE_VALUES,
+} from 'components/XSkillsSettings/constants';
+<span class="cstat-no" title="statement not covered" >import './XSkillsSettingsTab.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class XSkillsSettingsTab extends React.Component {
+  constructor(props) {
+    super(props);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+    const settingsOnScreen = props.immProgramSettings.toJS();
+    this.state = {
+      settingsOnScreen,
+      shouldReinitializeEditor: false,
+    };
+  }
+  englishLanguageLearnerAudioDirectionsMeta = [{ id: 0, name: 'None' }, { id: 1, name: 'Spanish' }];<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChange = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    const targetFieldName = <span class="cstat-no" title="statement not covered" >e.target.name;</span>
+    let newValue = e.<span class="cstat-no" title="statement not covered" >target.value;</span>
+    const isChecked = <span class="cstat-no" title="statement not covered" >e.target.checked;</span>
+    const newState = <span class="cstat-no" title="statement not covered" >{</span>
+      settingsOnScreen: this.state.settingsOnScreen,
+    };
+    if<span class="cstat-no" title="statement not covered" > (e.target.type === 'checkbox' &amp;&amp; isChecked === true) {</span>
+      ne<span class="cstat-no" title="statement not covered" >wValue = 1;</span>
+    } else if<span class="cstat-no" title="statement not covered" > (e.target.type === 'checkbox' &amp;&amp; isChecked === false) {</span>
+      ne<span class="cstat-no" title="statement not covered" >wValue = 0;</span>
+    }
+    ne<span class="cstat-no" title="statement not covered" >wState.settingsOnScreen[targetFieldName] = [String(newValue)];</span>
+    // TODO Writing rubric will be saved in future story. keeping this comment out until then
+    // if (e.target.name === 'writing_rubric') {
+    //   // writing rubric is nested one deep, so cannot use targetFieldName
+    //   newState.settingsOnScreen.writing_prompt_grading[0].grading_rubric = [String(newValue)];
+    // } else {
+    //   newState.settingsOnScreen[targetFieldName] = [String(newValue)];
+    // }
+    th<span class="cstat-no" title="statement not covered" >is.setState(newState);</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.setIsolateTab(true);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  findGradeOption = (g<span class="fstat-no" title="function not covered" >ra</span>dingRubric, gradingType, gradingScore) =&gt; {
+    const newState = <span class="cstat-no" title="statement not covered" >{</span>
+      settingsOnScreen: this.state.settingsOnScreen,
+    };
+    const temp = <span class="cstat-no" title="statement not covered" >newState.settingsOnScreen[gradingType].find(</span>
+<span class="fstat-no" title="function not covered" >      it</span>em =&gt; item.grad<span class="cstat-no" title="statement not covered" >ing_rubric[0] === gradingRubric</span>
+    );
+    const gradeOptions = <span class="cstat-no" title="statement not covered" >temp.grade_options;</span>
+    re<span class="cstat-no" title="statement not covered" >turn gradeOptions[0].grade_option.find(it<span class="fstat-no" title="function not covered" >em</span> =&gt; item.score[<span class="cstat-no" title="statement not covered" >0] === gradingScore);</span></span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChangeLabel = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const gradingRubric = <span class="cstat-no" title="statement not covered" >ev.target.getAttribute('data-gradingrubric');</span>
+    const gradingType = <span class="cstat-no" title="statement not covered" >ev.target.getAttribute('data-gradingtype');</span>
+    const gradingScore = <span class="cstat-no" title="statement not covered" >ev.target.getAttribute('data-gradingscore');</span>
+    const gradeOption = <span class="cstat-no" title="statement not covered" >this.findGradeOption(gradingRubric, gradingType, gradingScore);</span>
+    const newState = <span class="cstat-no" title="statement not covered" >{</span>
+      settingsOnScreen: this.state.settingsOnScreen,
+    };
+    if<span class="cstat-no" title="statement not covered" > (gradeOption) {</span>
+      gr<span class="cstat-no" title="statement not covered" >adeOption.label[0] = ev.target.value;</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.setState(newState);</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.setIsolateTab(true);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChangeDescription = da<span class="fstat-no" title="function not covered" >ta</span>Obj =&gt; {
+    const gradingRubric = <span class="cstat-no" title="statement not covered" >dataObj.idObj.gradingRubric;</span>
+    const gradingType = <span class="cstat-no" title="statement not covered" >dataObj.idObj.gradingType;</span>
+    const gradingScore = <span class="cstat-no" title="statement not covered" >dataObj.idObj.gradingScore;</span>
+&nbsp;
+    const gradeOption = <span class="cstat-no" title="statement not covered" >this.findGradeOption(gradingRubric, gradingType, gradingScore);</span>
+    const newState = <span class="cstat-no" title="statement not covered" >{</span>
+      settingsOnScreen: this.state.settingsOnScreen,
+    };
+    if<span class="cstat-no" title="statement not covered" > (gradeOption) {</span>
+      gr<span class="cstat-no" title="statement not covered" >adeOption.description[0] = dataObj.target.value;</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.setState(newState);</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.setIsolateTab(true);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleRestoreDefaultClick = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // TODO , implement.
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleSaveAndReturn = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // TODO implement redirect on the Save story 'const redirect = true';
+    th<span class="cstat-no" title="statement not covered" >is.props.handleSave();</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleSetInitialValues = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // reititializeEditor set to true,  needs to pass down to its SAMEditor so that it knows to reset itself
+    const resetSettings = <span class="cstat-no" title="statement not covered" >this.props.immProgramSettings.toJS();</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      settingsOnScreen: resetSettings,
+      shouldReinitializeEditor: true,
+    });
+    th<span class="cstat-no" title="statement not covered" >is.props.setIsolateTab(false);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleSubmit = ev<span class="fstat-no" title="function not covered" >en</span>t =&gt; {
+    ev<span class="cstat-no" title="statement not covered" >ent.preventDefault();</span>
+    // TODO implement redirect on the Save story  'const noRedirect = false';
+    th<span class="cstat-no" title="statement not covered" >is.props.handleSave();</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.setIsolateTab(false);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  // function passed down to its SAMEditor
+  reinitializeEditorComplete = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ shouldReinitializeEditor: false });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  renderTestExperience = ()<span class="fstat-no" title="function not covered" > =</span>&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;SettingsTestExperienceSection
+      checkBoxStatusMap={XSKILLS_SETTINGS_CHECKBOX_STATUS_MAP}
+      handleChange={this.handleChange}
+      settingsOnScreen={this.state.settingsOnScreen}
+      settingValues={XSKILLS_SETTINGS_TEST_EXPERIENCE_VALUES}<span class="cstat-no" title="statement not covered" ></span>
+    /&gt;
+  );
+&nbsp;
+  renderEnglishLanguageLearner = ()<span class="fstat-no" title="function not covered" > =</span>&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;div className="xskills-program-settings__ell-settings"&gt;
+      &lt;span className="xskills-program-settings__caption"&gt;
+        English-Language Learner Audio Directions
+      &lt;/span&gt;
+      {this.englishLanguageLearnerAudioDirectionsMeta.map(opti<span class="fstat-no" title="function not covered" >on</span> =&gt; (<span class="cstat-no" title="statement not covered" ></span>
+        &lt;div className="xskills-program-settings__ell-audio-instructions" key={option.name}&gt;
+          &lt;label htmlFor={option.name} className="xskills-program-settings__radio-label"&gt;
+            &lt;input
+              type="radio"
+              className="xskills-program-settings__radio"
+              name="ell_audio_instructions"
+              onChange={this.handleChange}
+              id={option.name}
+              key={option.name}
+              value={option.id}
+              checked={
+                this.state.settingsOnScreen.ell_audio_instructions &amp;&amp;
+                Number(this.state.settingsOnScreen.ell_audio_instructions[0]) === Number(option.id)
+              }
+            /&gt;
+            {option.name}<span class="cstat-no" title="statement not covered" ></span>
+          &lt;/label&gt;
+        &lt;/div&gt;
+      ))}
+    &lt;/div&gt;
+  );
+&nbsp;
+  renderRubricScoringSection = ()<span class="fstat-no" title="function not covered" > =</span>&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;SettingsRubricScoringSection
+      cohortType={this.props.cohortType}
+      handleChange={this.handleChange}
+      handleChangeDescription={this.handleChangeDescription}
+      handleChangeLabel={this.handleChangeLabel}
+      handleSetInitialValues={this.handleSetInitialValues}
+      reinitializeEditorComplete={this.reinitializeEditorComplete}
+      settingsOnScreen={this.state.settingsOnScreen}
+      shouldReinitializeEditor={this.state.shouldReinitializeEditor}<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+<span class="cstat-no" title="statement not covered" >    /&gt;<span class="fstat-no" title="function not covered" ></span></span>
+  );
+&nbsp;
+  render() {
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;form onSubmit={this.handleSubmit}&gt;
+        &lt;div className="xskills-settings-tab"&gt;
+          &lt;div className="xskills-program-settings__section--top-inputs"&gt;
+            &lt;div className="xskills-settings__test-experience-section"&gt;
+              {this.renderTestExperience()}
+            &lt;/div&gt;
+            {this.renderEnglishLanguageLearner()}
+          &lt;/div&gt;
+          &lt;div className="xskills-program-settings__section--rubric"&gt;
+            {this.renderRubricScoringSection()}
+          &lt;/div&gt;
+          &lt;div className="xskills-settings__program-setting-buttons-container"&gt;
+            &lt;ProgramSettingsButtons
+              restoreDefaultHandler={this.handleRestoreDefaultClick}
+              saveAndReturnHandler={this.handleSaveAndReturn}
+              setInitialValuesHandler={this.handleSetInitialValues}
+              stateResult={!this.props.isTabIsolated}
+            /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >XSkillsSettingsTab.propTypes = {</span>
+  cohortType: PropTypes.string.isRequired,
+  handleSave: PropTypes.func.isRequired,
+  immProgramSettings: PropTypes.any,
+  isTabIsolated: PropTypes.bool.isRequired,
+  setIsolateTab: PropTypes.func.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default XSkillsSettingsTab;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

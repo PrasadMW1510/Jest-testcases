@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignmentContainerReducer reducer should handle GET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST_TEMP 1`] = `
+Immutable.Map {
+  classData: Immutable.List [
+  ],
+  selectedClassAssignments: Immutable.List [
+  ],
+  classAssignmentForClass: Immutable.List [
+    Immutable.Map {
+      classId: "jjj_ii",
+      createdForClass: "jjj_ii",
+    },
+  ],
+  selectedClass: false,
+  communityId: undefined,
+  classId: "jjj_ii",
+  programList: Immutable.List [
+  ],
+}
+`;
+
+exports[`assignmentContainerReducer reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES 1`] = `
+Immutable.Map {
+  classData: Immutable.List [
+  ],
+  selectedClassAssignments: Immutable.List [
+  ],
+  classAssignmentForClass: Immutable.List [
+  ],
+  selectedClass: false,
+  communityId: "",
+  classId: "",
+  programList: Immutable.List [
+  ],
+}
+`;
+
+exports[`assignmentContainerReducer reducer should handle SET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST 1`] = `
+Immutable.Map {
+  classData: Immutable.List [
+  ],
+  selectedClassAssignments: Immutable.List [
+  ],
+  classAssignmentForClass: Immutable.List [
+  ],
+  selectedClass: true,
+  communityId: "",
+  classId: "",
+  programList: Immutable.List [
+  ],
+}
+`;

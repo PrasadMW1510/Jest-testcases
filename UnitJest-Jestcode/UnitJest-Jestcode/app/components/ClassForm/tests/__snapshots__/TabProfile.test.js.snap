@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabProfile /> Expect to render correctly when hidden 1`] = `
+<section
+  className="class-form__form--hide"
+>
+  <FormSection
+    headerText="Identify This Class"
+    sectionClassModifier=""
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <IdentifyThisForm
+      grades={Array []}
+      teachers={Array []}
+    />
+  </FormSection>
+  <FormSection
+    headerText="Manage Applications"
+    sectionClassModifier="class-form__manage-applications"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <ManageApplications
+      applications={Array []}
+    />
+  </FormSection>
+</section>
+`;
+
+exports[`<TabProfile /> Expect to render correctly when visible 1`] = `
+<section
+  className=""
+>
+  <FormSection
+    headerText="Identify This Class"
+    sectionClassModifier=""
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <IdentifyThisForm
+      grades={Array []}
+      teachers={Array []}
+    />
+  </FormSection>
+  <FormSection
+    headerText="Manage Applications"
+    sectionClassModifier="class-form__manage-applications"
+    sectionStyle={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <ManageApplications
+      applications={Array []}
+    />
+  </FormSection>
+</section>
+`;

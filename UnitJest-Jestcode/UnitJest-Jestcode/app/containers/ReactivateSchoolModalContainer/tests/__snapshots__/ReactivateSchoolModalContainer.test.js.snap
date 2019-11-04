@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactivateSchoolModalContainer /> should render correctly 1`] = `
+<ReactivateSchoolModal
+  isOpen={true}
+  onCancel={[Function]}
+  onSave={[Function]}
+  toReactivateCount={1}
+/>
+`;

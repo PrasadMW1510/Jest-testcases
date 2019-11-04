@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getSearchResultsRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getSearchResultsRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "abcd",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

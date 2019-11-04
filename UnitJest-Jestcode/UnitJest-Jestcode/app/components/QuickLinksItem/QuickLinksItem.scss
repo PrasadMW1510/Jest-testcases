@@ -1,0 +1,10 @@
+.quick-links-item {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+  cursor: pointer;
+
+  &--red {
+    color: #f44;
+  }
+}

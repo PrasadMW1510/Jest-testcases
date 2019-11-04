@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/SchoolForm/SchoolProfile.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/SchoolForm</a> SchoolProfile.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/92</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/59</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/21</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/55</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * SchoolProfile
+ *
+ */
+&nbsp;
+import React,<span class="cstat-no" title="statement not covered" > { Component } fr</span>om 'react';<span class="cstat-no" title="statement not covered" ></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import moment <span class="cstat-no" title="statement not covered" >from 'moment';<span class="cstat-no" title="statement not covered" ></span></span>
+import { Field } <span class="cstat-no" title="statement not covered" >from 'redux-form/immutable';</span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  CheckboxControl,
+  DateInputControl,
+  DropdownControl,
+  InputControl,
+} from 'components/forms/';
+import {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+  FORM_FIELD_NAMES,
+  NUM_GRADING_PERIODS_LIST,
+  SCHOOL_TYPE_LIST,
+  TITLE_1_STATUS_LIST,
+} from './constants';
+&nbsp;
+class SchoolProf<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >il</span>e extends Component {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+  // componentDidUpdate is responsible for popping up any imperative errors
+  componentDidUpdate = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { showWa</span>rningModal, validat<span class="cstat-no" title="statement not covered" >ionErrors } = this.props;<span class="cstat-no" title="statement not covered" ></span></span>
+    const popupErrorFieldName = <span class="cstat-no" title="statement not covered" >validationErrors.popupErrorFieldName;</span>
+    // if there are validation errors requiring a popup warning modal (currently they are only calendars)..
+    if<span class="cstat-no" title="statement not covered" > (validationErrors.hasImperativeNotificationErrors &amp;&amp; popupErrorFieldName) {</span>
+      // validation errors with the school year dates require additional cleanup:
+      if<span class="cstat-no" title="statement not covered" > (popupErrorFieldName === FORM_FIELD_NAMES.SchoolYearStart) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.handleChangeSchoolYearStart(null);</span>
+      } else if<span class="cstat-no" title="statement not covered" > (popupErrorFieldName === FORM_FIELD_NAMES.SchoolYearEnd) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.handleChangeSchoolYearEnd(null);</span>
+      }
+      // this clear method hits the DatePicker's API directly, which ensures a complete reset
+      // if the user is still interacting with the component (e.g. typing into the field directly)
+      th<span class="cstat-no" title="statement not covered" >is.clearCalendarInput(popupErrorFieldName);</span>
+      // NOTE: it's actually possible for multiple popup warnings to be attempted at once, e.g.
+      // if a user sets a school start date (which also sets the first grading period start
+      // date), and then attempts to set a school end date that is before the start date:
+      // in that case, the school end date will be cleared; the warning modal will be
+      // opened; the clearing will drive another validation, which detects the first grading
+      // period as invalid too.  The ModalController prevents duplicate modals of the same
+      // type from being opened.  Longer-term, these multiple change actions might be wrapped
+      // together in a saga.
+      sh<span class="cstat-no" title="statement not covered" >owWarningModal(validationErrors[popupErrorFieldName]);</span>
+    }
+  };
+&nbsp;
+  getGradeId = it<span class="fstat-no" title="function not covered" >em</span> =&gt; item &amp;&amp; ite<span class="cstat-no" title="statement not covered" >m.name[0];</span>
+  getSchoolTypeId = it<span class="fstat-no" title="function not covered" >em</span> =&gt; item &amp;&amp; ite<span class="cstat-no" title="statement not covered" >m.label;</span>
+  formatGradeLabel = it<span class="fstat-no" title="function not covered" >em</span> =&gt; (item &amp;&amp; it<span class="cstat-no" title="statement not covered" >em.name &amp;&amp; item.name[0]) || '';</span>
+&nbsp;
+  updateGradingPeriodDatesForSchoolYearEndDate = (n<span class="fstat-no" title="function not covered" >um</span>GradingPeriods, schoolYearEndDate) =&gt; {
+    const { dispatchChangeToFormFi<span class="cstat-no" title="statement not covered" >eld } = this.props;</span>
+    const finalGradingPeriodIndex = <span class="cstat-no" title="statement not covered" >numGradingPeriods - 1;</span>
+    const newDateValue = <span class="cstat-no" title="statement not covered" >moment(schoolYearEndDate);</span>
+    if<span class="cstat-no" title="statement not covered" > (newDateValue.isValid()) {</span>
+      // a change to the school year end date should first clear out
+      // all of the grading period dates except the start date of the first
+      // grading period
+      fo<span class="cstat-no" title="statement not covered" >r (let i = 0; i &lt; numGradingPeriods; i += 1) {</span>
+        if<span class="cstat-no" title="statement not covered" > (i &gt; 0) {</span>
+          di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodStart}[${i}]`, null);</span>
+        }
+        di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodEnd}[${i}]`, null);</span>
+      }
+      // set the final grading period's end date to match the new school year end date
+      di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(</span>
+        `${FORM_FIELD_NAMES.GradingPeriodEnd}[${finalGradingPeriodIndex}]`,
+        newDateValue
+      );
+    } else {
+      // otherwise (if the new school year end date is invalid), be sure to clear out the
+      // final grading period's end date as well
+      di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(</span>
+        `${FORM_FIELD_NAMES.GradingPeriodEnd}[${finalGradingPeriodIndex}]`,
+        null
+      );
+    }
+  };
+&nbsp;
+  handleChangeNumGradingPeriods = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    // this follows the same behavior as changing the school year end date:
+    // erasing the intermediary grading periods, and updating the last
+    // grading period's end date.
+    th<span class="cstat-no" title="statement not covered" >is.updateGradingPeriodDatesForSchoolYearEndDate(</span>
+      ev.target.value,
+      this.props.schoolYearEndDate
+    );
+  };
+&nbsp;
+  handleChangeSchoolYearStart = ne<span class="fstat-no" title="function not covered" >wV</span>alue =&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { dispat</span>chChangeToFormField, numGrad<span class="cstat-no" title="statement not covered" >ingPeriods } = this.props;<span class="cstat-no" title="statement not covered" ></span></span>
+    const newDateValue = <span class="cstat-no" title="statement not covered" >moment(newValue);</span>
+    if<span class="cstat-no" title="statement not covered" > (newDateValue.isValid()) {</span>
+      // a change to the school year start date should first clear out
+      // all of the grading period dates except the end date of the final
+      // grading period
+      fo<span class="cstat-no" title="statement not covered" >r (let i = 0; i &lt; numGradingPeriods; i += 1) {</span>
+        di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodStart}[${i}]`, null);</span>
+        if<span class="cstat-no" title="statement not covered" > (i &lt; numGradingPeriods - 1) {</span>
+          di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodEnd}[${i}]`, null);</span>
+        }
+      }
+      // set the first grading period's start date to match the new school year start date
+      di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodStart}[0]`, newDateValue);</span>
+    } else {
+      // otherwise (if the new school year start date is invalid), be sure to clear out the
+      // first grading period's start date as well
+      di<span class="cstat-no" title="statement not covered" >spatchChangeToFormField(`${FORM_FIELD_NAMES.GradingPeriodStart}[0]`, null);</span>
+    }
+  };
+&nbsp;
+  handleChangeSchoolYearEnd = ne<span class="fstat-no" title="function not covered" >wV</span>alue =&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.updateGradingPeriodDatesForSchoolYearEndDate(this.props.numGradingPeriods, newValue);</span>
+  };
+&nbsp;
+  calendarRefs = {};
+  // This next line represents an example of how one would use ref's with the DatePicker:
+  clearCalendarInput = re<span class="fstat-no" title="function not covered" >fN</span>ame =&gt; this.calend<span class="cstat-no" title="statement not covered" >arRefs[refName].getRenderedComponent().clearInput();</span>
+&nbsp;
+  assignCalendarRef = re<span class="fstat-no" title="function not covered" >f </span>=&gt; {
+    // When the user clicks the 'Cancel' button in the modal, the
+    // calendars will unmount, causing the ref callback to be passed null.
+    // This is standard React behavior (see https://reactjs.org/docs/refs-and-the-dom.html ).
+    if<span class="cstat-no" title="statement not covered" > (ref) {</span>
+      // template string notation is necessary here, because the grading period form fields have array-based
+      // names, e.g. 'gradingPeriodStart[0]', 'gradingPeriodEnd[0]', 'gradingPeriodStart[1]', etc.
+      th<span class="cstat-no" title="statement not covered" >is.calendarRefs[`${ref.props.name}`] = ref;</span>
+    }
+  };
+&nbsp;
+  renderGradingPeriod = gr<span class="fstat-no" title="function not covered" >ad</span>ingPeriodIndex =&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;div key={gradingPeriodIndex}&gt;
+      &lt;Field
+        className="school-form__grading-period"
+        component={DateInputControl}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label={`Period ${gradingPeriodIndex} Starts`}
+        name={`gradingPeriodStart[${gradingPeriodIndex - 1}]`}
+        ref={this.assignCalendarRef}
+        required
+        withRef
+      /&gt;
+      &lt;Field
+        className="school-form__grading-period"
+        component={DateInputControl}
+        datePickerClassModifier="sam-datepicker-form-control__input"
+        label={`Period ${gradingPeriodIndex} Ends`}
+        name={`gradingPeriodEnd[${gradingPeriodIndex - 1}]`}
+        ref={this.assignCalendarRef}
+        required
+        withRef
+      /&gt;
+<span class="cstat-no" title="statement not covered" >    &lt;/div&gt;<span class="fstat-no" title="function not covered" ></span></span>
+  );
+&nbsp;
+  render() {
+    const { gra<span class="cstat-no" title="statement not covered" >des } = this.props.formMeta</span>;
+    const gradingPeriodCalendars = <span class="cstat-no" title="statement not covered" >[];</span>
+    fo<span class="cstat-no" title="statement not covered" >r (</span>
+      let gradingPeriodIndex = 1;
+      gradingPeriodIndex &lt;= this.props.numGradingPeriods;
+      gradingPeriodIndex += 1
+    ) {
+      gr<span class="cstat-no" title="statement not covered" >adingPeriodCalendars.push(this.renderGradingPeriod(gradingPeriodIndex));</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div className="school-form__form-identity"&gt;
+        &lt;Field
+          className="school-form__identity-info"
+          name={FORM_FIELD_NAMES.SchoolName}
+          type="text"
+          component={InputControl}
+          label="Full School Name"
+          maxLength={60}
+          ref={this.props.refAssignFocusedField}
+          required
+          withRef
+        /&gt;
+        &lt;Field
+          className="school-form__identity-info"
+          name={FORM_FIELD_NAMES.SchoolNumber}
+          type="text"
+          component={InputControl}
+          label="School Number"
+          maxLength={50}
+          required
+        /&gt;
+        &lt;Field
+          name={FORM_FIELD_NAMES.Grades}
+          component={CheckboxControl}
+          getId={this.getGradeId}
+          items={grades}
+          label="Grades"
+          formatLabel={this.formatGradeLabel}
+          required
+          row
+        /&gt;
+        &lt;Field
+          className="school-form__school-type"
+          getId={this.getSchoolTypeId}
+          name={FORM_FIELD_NAMES.SchoolTypes}
+          component={CheckboxControl}
+          items={SCHOOL_TYPE_LIST}
+          label="School Type"
+          required
+          row
+        /&gt;
+        &lt;div className="school-form__title-1-row"&gt;
+          &lt;Field
+            className="school-form__title-1-status"
+            name="title1Status"
+            component={DropdownControl}
+            items={TITLE_1_STATUS_LIST}
+            label="Title 1 Status"
+          /&gt;
+          &lt;div className="school-form__required-label"&gt;* Required&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="school-form__school-year-callout"&gt;
+          &lt;Field
+            className="school-form__school-year"
+            component={DateInputControl}
+            datePickerClassModifier="sam-datepicker-form-control__input"
+            label="School starts"
+            name="schoolYearStart"
+            onChange={this.handleChangeSchoolYearStart}
+            ref={this.assignCalendarRef}
+            required
+            withRef
+          /&gt;
+          &lt;Field
+            className="school-form__school-year"
+            component={DateInputControl}
+            datePickerClassModifier="sam-datepicker-form-control__input"
+            label="School ends"
+            name="schoolYearEnd"
+            onChange={this.handleChangeSchoolYearEnd}
+            ref={this.assignCalendarRef}
+            required
+            withRef
+          /&gt;
+          &lt;Field
+            className="school-form__num-grading-periods"
+            name="numGradingPeriods"
+            component={DropdownControl}
+            items={NUM_GRADING_PERIODS_LIST}
+            label="No. of Grading Periods"
+            onChange={this.handleChangeNumGradingPeriods}
+          /&gt;
+        &lt;/div&gt;
+        &lt;div className="school-form__grading-period-callout"&gt;{gradingPeriodCalendars}&lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >SchoolProfile.defaultProps = {</span>
+  formMeta: {},
+};
+&nbsp;
+<span class="cstat-no" title="statement not covered" >SchoolProfile.propTypes = {</span>
+  dispatchChangeToFormField: PropTypes.func.isRequired,
+  formMeta: PropTypes.object.isRequired,
+  numGradingPeriods: PropTypes.number.isRequired,
+  refAssignFocusedField: PropTypes.func,
+  schoolYearEndDate: PropTypes.object,
+  showWarningModal: PropTypes.func.isRequired,
+  validationErrors: PropTypes.object.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default SchoolProfile;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeactivateQuiz /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="deactivate Quiz"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--deactivate-quiz"
+  >
+    <div
+      className="print-deactivatequiz__confirmtext"
+    >
+      Are you sure you want to deactivate all of these quizzes?
+    </div>
+    <div
+      className="print-deactivate-quiz__buttons"
+    >
+      <div
+        className="print-deactivate-quiz__primary-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+      </div>
+      <div
+        className="print-deactivate-quiz__secondary-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          No
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

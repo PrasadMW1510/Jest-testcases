@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortfolioTabBar  /> Expect to render correctly 1`] = `
+<div
+  className="portfoloio-nav-bar"
+>
+  <div
+    className="nav-bar__container portfolio-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--inbox"
+      component={[Function]}
+      to="/portfolio/inBox"
+    >
+      Inbox
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--student"
+      component={[Function]}
+      to="/portfolio/studentGoals"
+    >
+      Student Goals
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--assignments"
+      component={[Function]}
+      to="/portfolio/assignments"
+    >
+      Assignments
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--studentwork"
+      component={[Function]}
+      to="/portfolio/studentWorks"
+    >
+      Student Work
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<PortfolioTabBar  /> Expect to render correctly 2`] = `
+<div
+  className="portfoloio-nav-bar"
+>
+  <div
+    className="nav-bar__container portfolio-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--inbox"
+      component={[Function]}
+      to="/portfolio/inBox"
+    >
+      Inbox
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--assignments"
+      component={[Function]}
+      to="/portfolio/assignments"
+    >
+      Assignments
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--studentwork"
+      component={[Function]}
+      to="/portfolio/studentWorks"
+    >
+      Student Work
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<PortfolioTabBar  /> Expect to render correctly 3`] = `
+<div
+  className="portfoloio-nav-bar"
+>
+  <div
+    className="nav-bar__container portfolio-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--inbox"
+      component={[Function]}
+      to="/portfolio/inBox"
+    >
+      Inbox
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--assignments"
+      component={[Function]}
+      to="/portfolio/assignments"
+    >
+      Assignments
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--studentwork"
+      component={[Function]}
+      to="/portfolio/studentWorks"
+    >
+      Student Work
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<PortfolioTabBar  /> Expect to render correctly 4`] = `
+<div
+  className="portfoloio-nav-bar"
+>
+  <div
+    className="nav-bar__container portfolio-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--inbox"
+      component={[Function]}
+      to="/portfolio/inBox"
+    >
+      Inbox
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--assignments"
+      component={[Function]}
+      to="/portfolio/assignments"
+    >
+      Assignments
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--studentwork"
+      component={[Function]}
+      to="/portfolio/studentWorks"
+    >
+      Student Work
+    </Tab>
+  </div>
+</div>
+`;
+
+exports[`<PortfolioTabBar  /> Expect to render correctly 5`] = `
+<div
+  className="portfoloio-nav-bar"
+>
+  <div
+    className="nav-bar__container portfolio-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--inbox"
+      component={[Function]}
+      to="/portfolio/inBox"
+    >
+      Inbox
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--assignments"
+      component={[Function]}
+      to="/portfolio/assignments"
+    >
+      Assignments
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--studentwork"
+      component={[Function]}
+      to="/portfolio/studentWorks"
+    >
+      Student Work
+    </Tab>
+  </div>
+</div>
+`;

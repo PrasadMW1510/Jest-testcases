@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearRosterSuccessModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="clear-roster-success-modal"
+>
+  <h2
+    className="clear-roster-success-modal__heading"
+  >
+     Success! 
+  </h2>
+  <div
+    className="clear-roster-success-modal__message"
+  >
+    You've successfully cleared the school roster.
+  </div>
+  <div
+    className="clear-roster-success-modal__button"
+  >
+    <button
+      className="clear-roster-success-modal__profile-button"
+    >
+      Back to Profile
+    </button>
+  </div>
+</SAMModal>
+`;

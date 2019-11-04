@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultsTableRow /> should render correctly when user type profile is Teacher should render correctly 1`] = `
+<tr
+  className="search-results-table__tr"
+>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-small search-results-table__id-col"
+  >
+    <input
+      id="checkBox"
+      type="checkbox"
+    />
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-large search-results-table__first_name-col"
+  >
+    D, J
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--medium search-results-table__student_id-col-text"
+  >
+    A
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--large search-results-table__user_name-col-text"
+  >
+    j
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--small search-results-table__grade-col"
+  >
+    6
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__classes-col"
+  >
+    S
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__teacher-col"
+  >
+    D
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__enrollment-col"
+  >
+    M
+  </td>
+</tr>
+`;
+
+exports[`<SearchResultsTableRow /> should render correctly when user type profile is administrator and student Results should render correctly 1`] = `
+<tr
+  className="search-results-table__tr"
+>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-small search-results-table__id-col"
+  >
+    <input
+      id="checkBox"
+      type="checkbox"
+    />
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-large search-results-table__first_name-col"
+  >
+    D, J
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--medium search-results-table__student_id-col-text"
+  >
+    A
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--large search-results-table__user_name-col-text"
+  >
+    j
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--small search-results-table__grade-col"
+  >
+    6
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--large search-results-table__user_name-col-text"
+  >
+    S
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__classes-col"
+  >
+    S
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__enrollment-col"
+  >
+    M
+  </td>
+</tr>
+`;
+
+exports[`<SearchResultsTableRow /> should render correctly when user type profile is administrator and teacher Results should render correctly 1`] = `
+<tr
+  className="search-results-table__tr"
+>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-small search-results-table__id-col"
+  >
+    <input
+      id="checkBox"
+      type="checkbox"
+    />
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-large search-results-table__first_name-col"
+  >
+    D, J
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--medium search-results-table__student_id-col-text"
+  >
+    A
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--large search-results-table__user_name-col-text"
+  >
+    j
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--large search-results-table__user_name-col-text"
+  >
+    S
+  </td>
+  <td
+    className="search-results-table__body-col search-results-table__col--extra-extra-large search-results-table__enrollment-col"
+  >
+    S
+  </td>
+</tr>
+`;
+
+exports[`<SearchResultsTableRow /> should render nothing when user type profile is not Teacher nor Admin should render correctly 1`] = `""`;
+
+exports[`<SearchResultsTableRow /> should render nothing when user type profile is teacher and teacher Results should render correctly 1`] = `""`;

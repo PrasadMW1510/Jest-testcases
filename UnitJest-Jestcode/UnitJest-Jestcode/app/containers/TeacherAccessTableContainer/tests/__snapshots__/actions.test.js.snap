@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct Teacher Access Loading 1`] = `
+Object {
+  "type": "teacher_access_loading",
+}
+`;
+
+exports[`should return the correct Teacher Apps Usage Request 1`] = `
+Object {
+  "type": "teacher_apps_usage_request",
+}
+`;
+
+exports[`should return the correct Teacher Enroll Request 1`] = `
+Object {
+  "payload": "1234567",
+  "type": "teacher_enroll_request",
+}
+`;
+
+exports[`should return the failure for Teacher Access Loading 1`] = `
+Object {
+  "type": "teacher_access_loading_failure",
+}
+`;
+
+exports[`should return the failure for Teacher Apps Usage Request 1`] = `
+Object {
+  "error": "error",
+  "type": "teacher_apps_usage_request_failure",
+}
+`;
+
+exports[`should return the failure for Teacher Enroll Request 1`] = `
+Object {
+  "error": "error",
+  "type": "teacher_enroll_request_failure",
+}
+`;
+
+exports[`should return the success for Teacher Access Loading 1`] = `
+Object {
+  "type": "teacher_access_loading_success",
+}
+`;
+
+exports[`should return the success for Teacher Apps Usage Request 1`] = `
+Object {
+  "teacherAppsUsage": Object {},
+  "type": "teacher_apps_usage_request_success",
+}
+`;
+
+exports[`should return the success for Teacher Enroll Request 1`] = `
+Object {
+  "teacherEnroll": Object {},
+  "type": "teacher_enroll_request_success",
+}
+`;

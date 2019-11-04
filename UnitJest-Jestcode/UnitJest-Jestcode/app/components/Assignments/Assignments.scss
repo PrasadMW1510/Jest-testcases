@@ -1,0 +1,226 @@
+.assignments-page {
+  width: 100%;
+  height: 552px;
+  text-align: center;
+  margin-top: -2px;
+  display: flex;
+  align-items: center;
+}
+
+.assignments-leftpanel-container {
+  float: left;
+  width: 25%;
+  font-size: 12px;
+  padding-top: 35px;
+  height: 90%;
+  border: 1px solid;
+  border-color: #ddd;
+  margin-left: 10px;
+  border-radius: 15px;
+  background-color: #e7e8e7;
+  padding-bottom: 35px;
+}
+
+.assignments-rightpanel-container {
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  height: 90%;
+  border: 1px solid;
+  border-color: #ddd;
+  margin-left: 10px;
+  border-radius: 15px;
+  background-color: #e7e8e7;
+  padding-bottom: 35px;
+}
+
+.assignments-header-block {
+  background-color: #fff;
+  height: 100%;
+  clear: both;
+}
+
+.assignments-header-right-block {
+  background-color: #fff;
+  height: 91%;
+  clear: both;
+}
+
+.assignment-btn {
+  display: block;
+  height: 35px;
+  border-radius: 15px 15px 0 0;
+  background-color: #e7e8e7;
+}
+
+.assignments-remove-btn {
+  float: left;
+  display: none;
+}
+
+.assignments-add-btn {
+  float: right;
+}
+
+.assignments-remove-btn,
+.assignments-add-btn {
+  background: linear-gradient(to bottom, #f0ebf0 0%, #f1ecec 27%, #c7c1c1 100%);
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  border: 1px solid;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  height: 25px;
+}
+
+.assignments-remove-btn a:hover,
+.assignments-add-btn a:hover {
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+}
+/* stylelint-disable selector-class-pattern */
+.assignment-table {
+  .ReactTable {
+    border: 0 !important;
+  }
+
+  .ReactTable .rt-table {
+    height: 420px !important;
+  }
+
+  .ReactTable .rt-thead.-header {
+    background: linear-gradient(to top, #ddd 0%, #ddd 97%, #ddd 100%);
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .ReactTable .rt-tr-group {
+    border-bottom: 1px solid !important;
+    border-color: 1px solid #ddd !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+/* stylelint-enable selector-class-pattern 
+*/
+
+.student-work-rightpanel-container {
+  background: #fff;
+}
+
+.assignment-left-menu svg {
+  display: none;
+}
+
+.portfolio-assignment-success {
+  width: 210px;
+  height: 144px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 5px 10px 18px #756c6c;
+  border: #353131 1px solid;
+}
+
+.portfolio-assignment-success-txt {
+  font-size: 14px;
+  padding: 8px;
+}
+
+.portfolio-assignment-success-heading {
+  background: #e7e8e7;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-assignment-success-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-assignment-success-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-assignment-success .btn--primary {
+  background: linear-gradient(to bottom, #c1e2f1 49%, #bce1f1 49%, #a4cdde 50%);
+  margin-left: 10%;
+  margin-top: 10px;
+  color: #000;
+  border: #000 1px solid !important;
+  border-radius: 3px;
+  height: auto;
+  width: 70px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.portfolio-assignment-success-txt {
+  text-align: center;
+}
+
+.portfolio-assignment-success-heading {
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.portfolio-assignment-success .btn--secondary {
+  background: linear-gradient (to bottom, #ddf1f9 49%, #ddf1f9 49%, #a0d8ef 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #000;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.portfolio-assignment-show-success-btn {
+  margin-left: 75px;
+}
+
+.modal--assignments-savescreen-warning {
+  box-shadow: 0 1px 11px 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  width: 280px !important;
+  padding: 0;
+  margin: 0;
+  height: 120px;
+}
+
+.modal--assignments-savewrapper-heading {
+  padding: 17px 12px;
+  margin-left: 1px;
+  background: #ddd;
+  font-weight: 700;
+}
+
+.modal--assignments-savewrapper-warning {
+  text-align: left !important;
+  padding: 7px 20px 0;
+}
+
+.modal-assignments-okbtns {
+  margin: 8px 0 0 90px;
+}
+
+.modal-assignments-okbtns .btn--primary {
+  background: linear-gradient(to bottom, #d2e4f3 48%, #a8c3e2 49%);
+  border: #000 1px solid;
+  border-radius: 3px;
+  width: auto;
+  min-width: auto;
+  padding: 0 22px;
+  color: #000;
+  font-size: 12px;
+  height: 23px;
+}
+
+.modal-assignments-okbtns .btn--primary:hover {
+  background: linear-gradient(to bottom, #ccd8e2 48%, #99bde6 49%);
+}

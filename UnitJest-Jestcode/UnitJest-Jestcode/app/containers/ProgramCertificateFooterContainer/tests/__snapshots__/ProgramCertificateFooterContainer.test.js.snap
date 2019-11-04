@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramCertificateFooterContainer /> Expect to render correctly 1`] = `
+<ProgramCertificateFooter
+  onCancel={[Function]}
+  onPrintPdfClick={[Function]}
+/>
+`;
+
+exports[`<ProgramCertificateFooterContainer /> getCertificatePdfContainer: check for null condition 1`] = `
+<ProgramCertificateFooter
+  onCancel={[Function]}
+  onPrintPdfClick={[Function]}
+/>
+`;
+
+exports[`<ProgramCertificateFooterContainer /> to verify the component will receive props 1`] = `
+<ProgramCertificateFooter
+  onCancel={[Function]}
+  onPrintPdfClick={[Function]}
+/>
+`;

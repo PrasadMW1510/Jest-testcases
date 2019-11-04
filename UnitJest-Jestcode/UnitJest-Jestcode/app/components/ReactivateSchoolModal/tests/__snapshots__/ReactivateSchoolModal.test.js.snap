@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactivateSchoolModal /> should render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="reactivate-school-modal"
+>
+  <div
+    className="reactivate-school-modal__header"
+  >
+    <h5
+      className="reactivate-school-modal__header-title"
+    >
+      Reactivate schools
+    </h5>
+  </div>
+  <div
+    className="reactivate-school-modal__message"
+  >
+    You have chosen
+     
+    <span
+      className="reactivate-school-modal--bold"
+    >
+       2 
+    </span>
+    Schools
+     for assignment. Are you sure you want to reactivate these schools for your district?
+  </div>
+  <div
+    className="reactivate-school-modal__button-group-container"
+  >
+    <div
+      className="reactivate-school-modal__button-group"
+    >
+      <SAMButton
+        buttonClassModifier="reactivate-school-modal__button"
+        buttonType="submit"
+        id="reactivate-school-modal__no-btn"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+        Cancel
+      </SAMButton>
+      <SAMButton
+        buttonClassModifier="reactivate-school-modal__button"
+        buttonType="button"
+        id="reactivate-school-modal__yes-btn"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Save
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

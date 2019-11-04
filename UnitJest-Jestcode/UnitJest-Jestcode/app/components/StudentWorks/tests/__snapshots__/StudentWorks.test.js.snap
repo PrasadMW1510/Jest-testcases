@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentWorks /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="student-work-remove-btn"
+  >
+    <a>
+      Remove
+    </a>
+  </div>
+  <div
+    className="student-work-header-right-block"
+  >
+    <ResultsTable
+      data={Array []}
+      handleClick={[Function]}
+      handleDetailProgram={[Function]}
+      handleRowCheckboxOnChange={[Function]}
+      handleRowSelections={[Function]}
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+</div>
+`;

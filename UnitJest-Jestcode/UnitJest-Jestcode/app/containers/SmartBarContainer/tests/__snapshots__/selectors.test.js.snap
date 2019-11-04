@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected class 1`] = `
+Immutable.Map {
+  display_name: Immutable.List [
+    "Selected Class",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected grade 1`] = `
+Immutable.Map {
+  full_name: Immutable.List [
+    "Grade Full Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected group 1`] = `
+Immutable.Map {
+  display_name: Immutable.List [
+    "Selected Group",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected school 1`] = `
+Immutable.Map {
+  name: Immutable.List [
+    "Selected School",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected student 1`] = `
+Immutable.Map {
+  first_name: Immutable.List [
+    "Student First Name",
+  ],
+  last_name: Immutable.List [
+    "Student Last Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return nothing if there is no selected teacher 1`] = `
+Immutable.Map {
+  first_name: Immutable.List [
+    "Teacher First Name",
+  ],
+  last_name: Immutable.List [
+    "Teacher Last Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active classId 1`] = `"activeClassId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active gradeId 1`] = `"activeGradeId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active groupId 1`] = `"activeGroupId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active schoolId 1`] = `"activeSchoolId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active studentId 1`] = `"activeStudentId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the active teacherId 1`] = `"activeTeacherId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the class id 1`] = `"selectedClassId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the grade id 1`] = `"selectedGradeId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the group id 1`] = `"selectedGroupId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the school id 1`] = `"selectedSchoolId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected class 1`] = `
+Immutable.Map {
+  display_name: Immutable.List [
+    "Selected Class",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected cohort type 1`] = `undefined`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected grade 1`] = `
+Immutable.Map {
+  full_name: Immutable.List [
+    "Grade Full Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected group 1`] = `
+Immutable.Map {
+  display_name: Immutable.List [
+    "Selected Group",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected school 1`] = `
+Immutable.Map {
+  name: Immutable.List [
+    "Selected School",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected student 1`] = `
+Immutable.Map {
+  first_name: Immutable.List [
+    "Student First Name",
+  ],
+  last_name: Immutable.List [
+    "Student Last Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the selected teacher 1`] = `
+Immutable.Map {
+  first_name: Immutable.List [
+    "Teacher First Name",
+  ],
+  last_name: Immutable.List [
+    "Teacher Last Name",
+  ],
+}
+`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the student id 1`] = `"selectedStudentId"`;
+
+exports[`SmartBar selectors Actual Selections should consistently return the teacher id 1`] = `"selectedTeacherId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected class 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected grade 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected group 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected school 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected student 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return nothing if there is no selected teacher 1`] = `null`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the class id 1`] = `"clickedClassId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the grade id 1`] = `"clickedGradeId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the group id 1`] = `"clickedGroupId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the school id 1`] = `"clickedSchoolId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected class 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected grade 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected group 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected school 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected student 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selected teacher 1`] = `undefined`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for class 1`] = `
+Object {
+  "id": "selectedClassId",
+  "selectedCohortType": "Class",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for grade 1`] = `
+Object {
+  "id": "selectedGradeId",
+  "selectedCohortType": "Grade",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for group 1`] = `
+Object {
+  "id": "selectedGroupId",
+  "selectedCohortType": "Group",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for school 1`] = `
+Object {
+  "id": "selectedSchoolId",
+  "selectedCohortType": "School",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for student 1`] = `
+Object {
+  "id": "selectedStudentId",
+  "selectedCohortType": "Student",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId for teacher 1`] = `
+Object {
+  "id": "selectedTeacherId",
+  "selectedCohortType": "Teacher",
+}
+`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the selectedCohortTypeCohortId when none selected 1`] = `Object {}`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the student id 1`] = `"clickedStudentId"`;
+
+exports[`SmartBar selectors Clicked Selections should consistently return the teacher id 1`] = `"clickedTeacherId"`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when Class selected in SmartBar 1`] = `
+Object {
+  "cohortType": "Class",
+  "id": "selectedClassId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when Grade selected in SmartBar 1`] = `
+Object {
+  "cohortType": "Grade",
+  "id": "selectedGradeId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when Group selected in SmartBar 1`] = `
+Object {
+  "cohortType": "Group",
+  "id": "selectedGroupId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when School selected in SmartBar 1`] = `
+Object {
+  "cohortType": "School",
+  "id": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when Student selected in SmartBar 1`] = `
+Object {
+  "cohortType": "Student",
+  "id": "selectedStudentId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when none selected and District userOrg 1`] = `
+Object {
+  "cohortType": "District",
+  "id": "loginDistrictId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when none selected and School userOrg 1`] = `
+Object {
+  "cohortType": "School",
+  "id": "loginSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when none selected and Teacher is logged in 1`] = `
+Object {
+  "cohortType": "Teacher",
+  "id": "loginTeacherId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors cohort selections should consistently return the selectedEffectiveCohortObject when teacher selected in SmartBar 1`] = `
+Object {
+  "cohortType": "Teacher",
+  "id": "selectedTeacherId",
+  "schoolId": "selectedSchoolId",
+}
+`;
+
+exports[`SmartBar selectors should consistently return the smartbar state 1`] = `
+Immutable.Map {
+  selectedTeacherId: "selectedTeacherId",
+  selectedSchoolId: "selectedSchoolId",
+  clickedGradeId: "clickedGradeId",
+  activeGradeId: "activeGradeId",
+  clickedClassId: "clickedClassId",
+  activeClassId: "activeClassId",
+  clickedStudentId: "clickedStudentId",
+  activeStudentId: "activeStudentId",
+  clickedGroupId: "clickedGroupId",
+  activeGroupId: "activeGroupId",
+  activeSchoolId: "activeSchoolId",
+  clickedTeacherId: "clickedTeacherId",
+  clickedSchoolId: "clickedSchoolId",
+  activeTeacherId: "activeTeacherId",
+  selectedGradeId: "selectedGradeId",
+  selectedClassId: "selectedClassId",
+  makeSelectCohortType: "makeSelectCohortType",
+  selectedStudentId: "selectedStudentId",
+  selectedGroupId: "selectedGroupId",
+}
+`;

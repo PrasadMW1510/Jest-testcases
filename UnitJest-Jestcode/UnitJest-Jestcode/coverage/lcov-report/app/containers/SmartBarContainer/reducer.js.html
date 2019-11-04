@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/SmartBarContainer/reducer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/SmartBarContainer</a> reducer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/40</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/26</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*<span class="cstat-no" title="statement not covered" ></span>
+ *
+ * SmartBarContainer reducer
+ *
+ */
+&nbsp;
+import { fromJS }<span class="cstat-no" title="statement not covered" > from 'immutable';</span>
+import * as AppCo<span class="cstat-no" title="statement not covered" >nstants from 'containers/App/constan</span>ts';<span class="cstat-no" title="statement not covered" ></span>
+import * as Consta<span class="cstat-no" title="statement not covered" >nts from './constants';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+const initialState <span class="cstat-no" title="statement not covered" >= fromJS({</span>
+  selectedSchoolId: '',
+  selectedClassId: '',
+  selectedGroupId: '',
+  selectedStudentId: '',
+  selectedGradeId: '',
+  selectedTeacherId: '',
+  clickedSchoolId: '',
+  clickedClassId: '',
+  clickedGroupId: '',
+  clickedStudentId: '',
+  clickedGradeId: '',
+  clickedTeacherId: '',
+  selectedCohType: '',
+  activeSchoolId: '',
+  activeGradeId: '',
+  activeTeacherId: '',
+  activeClassId: '',
+  activeGroupId: '',
+  activeStudentId: '',
+});
+&nbsp;
+/**
+ * smartBar
+ *  a click is when a cohort is Clicked once.
+ *  a selection is when a clicked cohort is clicked a second time and it then becomes the active selected cohort.
+ *    in flash SAM this is indicated by the selected cohort being colored the same as current Tab (Roster=Orange, Reports=Blue, etc)
+ *  (the second click does not need to be a standard DoubleClick i.e. it doesn't need to be a rapid second click)
+ * @param state
+ * @param action
+ * @returns {any}
+ */
+function smartBarContainerReducer(state = initialState, action) {
+  switch (action.type) {
+    case Constants.GRADE_SELECTION_SUCCESS:
+      return state<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span>
+        .set('selectedGradeId', action.gradeId)
+        .set('selectedTeacherId', '')
+        .set('selectedClassId', '')
+        .set('selectedGroupId', '')
+        .set('selectedStudentId', '')
+        .set('selectedCohType', AppConstants.COHORT_TYPE.Grade);
+    case Constants.TEACHER_SELECTION_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('selectedTeacherId', action.teacherId)
+        .set('selectedClassId', '')
+        .set('selectedGroupId', '')
+        .set('selectedStudentId', '')
+        .set('selectedCohType', AppConstants.COHORT_TYPE.Teacher);
+    case Constants.SCHOOL_SELECTION_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('selectedSchoolId', action.schoolId)
+        .set('selectedGradeId', '')
+        .set('selectedTeacherId', '')
+        .set('selectedClassId', '')
+        .set('selectedGroupId', '')
+        .set('selectedStudentId', '')
+        .set('selectedCohType', AppConstants.COHORT_TYPE.School);
+    case Constants.CLASS_SELECTION_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('selectedClassId', action.classId)
+        .set('selectedStudentId', '')
+        .set('selectedGroupId', '')
+        .set('selectedCohType', AppConstants.COHORT_TYPE.Class);
+    case Constants.GROUP_SELECTION_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('selectedGroupId', action.groupId)
+        .set('selectedStudentId', '')
+        .set('selectedCohType', AppConstants.COHORT_TYPE.Group);
+    case Constants.STUDENT_SELECTION_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('selectedStudentId', action.studentId)
+        .set('selectedCohType', AppConstants.COHORT_TYPE.Student);
+    case AppConstants.UPDATE_GRADE_DATA:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('clickedGradeId', action.gradeId)
+        .set('clickedTeacherId', '')
+        .set('clickedClassId', '')
+        .set('clickedGroupId', '')
+        .set('clickedStudentId', '');
+    case AppConstants.UPDATE_TEACHER_DATA:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('clickedTeacherId', action.teacherId)
+        .set('clickedClassId', '')
+        .set('clickedGroupId', '')
+        .set('clickedStudentId', '');
+    case AppConstants.UPDATE_SCHOOL_DATA:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('clickedSchoolId', action.schoolId)
+        .set('clickedGradeId', '')
+        .set('clickedTeacherId', '')
+        .set('clickedClassId', '')
+        .set('clickedGroupId', '')
+        .set('clickedStudentId', '');
+    case AppConstants.UPDATE_CLASS_DATA:
+<span class="cstat-no" title="statement not covered" >      return state</span>
+        .set('clickedClassId', action.classId)
+        .set('clickedStudentId', '')
+        .set('clickedGroupId', '');
+    case AppConstants.UPDATE_GROUP_DATA:
+<span class="cstat-no" title="statement not covered" >      return state.set('clickedGroupId', action.groupId).set('clickedStudentId', '');</span>
+    case AppConstants.UPDATE_STUDENT_DATA:
+<span class="cstat-no" title="statement not covered" >      return state.set('clickedStudentId', action.studentId);</span>
+    case Constants.PROFILE_SELECTED_SCHOOL:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeSchoolId', fromJS(action.schoolId));</span>
+    case Constants.PROFILE_SELECTED_GRADE:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeGradeId', fromJS(action.gradeId));</span>
+    case Constants.PROFILE_SELECTED_TEACHER:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeTeacherId', fromJS(action.teacherId));</span>
+    case Constants.PROFILE_SELECTED_CLASS:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeClassId', fromJS(action.classId));</span>
+    case Constants.PROFILE_SELECTED_GROUP:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeGroupId', fromJS(action.groupId));</span>
+    case Constants.PROFILE_SELECTED_STUDENT:
+<span class="cstat-no" title="statement not covered" >      return state.set('activeStudentId', fromJS(action.studentId));</span>
+    case Constants.RESET_SELECTIONS:
+    case AppConstants.LOGOUT_REQUEST_SUCCESS:
+<span class="cstat-no" title="statement not covered" >      return initialState;</span>
+    default:
+<span class="cstat-no" title="statement not covered" >      return state;</span>
+  }
+}<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+export default smartBarContainerReducer;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

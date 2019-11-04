@@ -1,0 +1,721 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XSkillsSettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName="xskills-settings-navbar"
+  tabs={
+    Array [
+      Object {
+        "id": "tab-test-assignment",
+        "label": "xSkills Test Assignment",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-settings",
+        "label": "xSkills Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> loading properties are true should show loading bar when loadingSettings 1`] = `
+<div
+  className="xskills-loading"
+>
+  <LoadingBar />
+</div>
+`;
+
+exports[`<XSkillsSettings /> loading properties are true should show loading bar when loadingTestAssignment 1`] = `
+<div
+  className="xskills-loading"
+>
+  <LoadingBar />
+</div>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Class"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Class"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="District"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="District"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="District"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Grade"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Grade"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Grade"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Group"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Group"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="School"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="School"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="School"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="To change xSkills tests settings, please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Student"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Student"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Expert 21"
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Teacher"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<XSkillsSettingsTab
+  cohortType="Teacher"
+  handleSave={[Function]}
+  immProgramSettings={
+    Immutable.Map {
+      audio_instructions: Immutable.List [
+        "1",
+      ],
+      show_correct_incorrect: Immutable.List [
+        "1",
+      ],
+      include_open_response: Immutable.List [
+        "1",
+      ],
+      include_writing_prompts: Immutable.List [
+        "1",
+      ],
+      ell_audio_instructions: Immutable.List [
+        "0",
+      ],
+    }
+  }
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+/>
+`;
+
+exports[`<XSkillsSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `
+<XSkillsTestAssignment
+  handleSave={[Function]}
+  highestCourse="C2"
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  testsMeta={
+    Immutable.Map {
+      test: Immutable.List [
+        Immutable.Map {
+          test_number: "1",
+          test_title: "Test 1",
+          test_description: "test 1: Skills from Workshops 1",
+        },
+      ],
+    }
+  }
+/>
+`;

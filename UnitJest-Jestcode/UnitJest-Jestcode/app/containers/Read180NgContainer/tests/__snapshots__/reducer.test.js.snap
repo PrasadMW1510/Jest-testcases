@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read180NgContainer reducer should handle DEFAULT_ACTION 1`] = `
+Immutable.Map {
+  read180Program: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/Read180NgContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  read180PostProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/Read180NgContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+}
+`;

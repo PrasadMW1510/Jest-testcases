@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageContainer actions should return the correct constant for getMessageRequest 1`] = `
+Object {
+  "type": "MessageContainer/get_messages_request",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for getMessagesRequestFailure 1`] = `
+Object {
+  "error": "error",
+  "type": "MessageContainer/get_messages_request_failure",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for getMessagesRequestSuccess 1`] = `
+Object {
+  "messages": "message",
+  "type": "MessageContainer/get_messages_request_success",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for postDeleteRequest 1`] = `
+Object {
+  "messageIdsChecked": Array [
+    "messageId",
+  ],
+  "type": "MessageContainer/post_delete_request",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for postDeleteRequest, when passed nothing 1`] = `
+Object {
+  "messageIdsChecked": Array [],
+  "type": "MessageContainer/post_delete_request",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for postDeleteRequestFailure 1`] = `
+Object {
+  "error": "error",
+  "type": "MessageContainer/post_delete_request_failure",
+}
+`;
+
+exports[`MessageContainer actions should return the correct constant for postDeleteRequestSuccess 1`] = `
+Object {
+  "type": "MessageContainer/post_delete_request_success",
+}
+`;

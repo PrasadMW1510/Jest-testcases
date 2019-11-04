@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NGSettingContainer /> <R180NGSettingContainer /> Expect to render correctly 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": Array [
+          Object {
+            "$": Object {
+              "type": "SUBPRODUCT",
+            },
+            "application.id": Array [
+              "R180NG",
+            ],
+            "name": "READ 180 NG Stage B",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+          Object {
+            "$": Object {
+              "type": "SUBPRODUCT",
+            },
+            "application.id": Array [
+              "R180NG",
+            ],
+            "name": "READ 180 NG Stage A Teacher",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+        ],
+        "programSetting": Object {
+          "auto_level": Array [
+            "1",
+          ],
+          "second_language_id": Array [
+            "1",
+          ],
+          "student_level": Array [
+            "1",
+          ],
+        },
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> handleSaveClick username value has been change 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": "admin",
+        "programSetting": "admin",
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> should call Admin enrollcount to verify the component will receive props 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": "admin",
+        "programSetting": "admin",
+      }
+    }
+    smartBarSelections=""
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> shouldComponentUpdate Expect to render correctly 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": Array [
+          Object {
+            "$": "SUBPRODUCT",
+            "application.id": "r180NG",
+            "name": "progress space",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+        ],
+        "programSetting": Object {
+          "auto_level": Array [
+            "1",
+          ],
+          "second_language_id": Array [
+            "0",
+          ],
+          "student_level": Array [
+            "1",
+          ],
+        },
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> shouldComponentUpdate to verify the component will receive props 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": Array [
+          Object {
+            "$": "SUBPRODUCT",
+            "application.id": "r180NG",
+            "name": "progress space",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+        ],
+        "programSetting": Object {
+          "auto_level": Array [
+            "1",
+          ],
+          "second_language_id": Array [
+            "0",
+          ],
+          "student_level": Array [
+            "1",
+          ],
+        },
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> shouldComponentUpdate verify handle shandleChangeOkClick 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": Array [
+          Object {
+            "$": "SUBPRODUCT",
+            "application.id": "r180NG",
+            "name": "progress space",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+        ],
+        "programSetting": Object {
+          "auto_level": Array [
+            "1",
+          ],
+          "second_language_id": Array [
+            "0",
+          ],
+          "student_level": Array [
+            "1",
+          ],
+        },
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;
+
+exports[`<R180NGSettingContainer /> shouldComponentUpdate verify handle student level change 1`] = `
+<div>
+  <R180NGSetting
+    enrollmentData={3}
+    handleSaveClick={[Function]}
+    isLoading={true}
+    onStudentLevelClick={[Function]}
+    programName={
+      Object {
+        "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+        "display_name": "READ 180 Next Generation",
+        "settings": "Settings",
+      }
+    }
+    programSettingData={
+      Object {
+        "error": false,
+        "loading": true,
+        "programEnrollmentSetting": Array [
+          Object {
+            "$": "SUBPRODUCT",
+            "application.id": "r180NG",
+            "name": "progress space",
+            "students": Array [
+              Object {
+                "total": Array [
+                  "1",
+                ],
+              },
+            ],
+          },
+        ],
+        "programSetting": Object {
+          "auto_level": Array [
+            "1",
+          ],
+          "second_language_id": Array [
+            "0",
+          ],
+          "student_level": Array [
+            "1",
+          ],
+        },
+      }
+    }
+    smartBarSelections="Teacher"
+  />
+</div>
+`;

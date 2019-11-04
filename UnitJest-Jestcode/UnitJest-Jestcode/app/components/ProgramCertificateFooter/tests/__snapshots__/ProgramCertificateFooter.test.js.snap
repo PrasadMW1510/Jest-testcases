@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramCertificateFooter /> Expect to render correctly 1`] = `
+<div
+  className="recipients-footer"
+>
+  <button
+    className="recipients-footer__print"
+  >
+    Print Preview (PDF)
+  </button>
+  <button
+    className="recipients-footer__profile"
+  >
+    Return to Profile
+  </button>
+</div>
+`;
+
+exports[`display cancel button isWorksheetUpdate is true 1`] = `
+<div
+  className="recipients-footer"
+>
+  <button
+    className="recipients-footer__print"
+  >
+    Print Preview (PDF)
+  </button>
+  <button
+    className="recipients-footer__profile"
+  >
+    Return to Profile
+  </button>
+  <button
+    className="recipients-footer__cancel"
+  >
+    Cancel
+  </button>
+</div>
+`;

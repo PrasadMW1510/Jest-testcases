@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddAssignmentContainer Saga getStudentDetailsRequest getStudentDetailsFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga getStudentDetailsRequest getStudentDetailsSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga getStudentDetailsRequest getStudentDetailsSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "jjj",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga postNewAssignmentRequest getStudentDetailsSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga postNewAssignmentRequest getStudentDetailsSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "<classAssignmentGroup wholeClass=\\"false\\">
+    <assignmentName>assign</assignmentName>
+    <assignmentType>assi</assignmentType>
+    <dueDate>jhdh</dueDate>
+    <description/>
+    <createdForClass>createdForClass</createdForClass>
+    <classAssignment communityId=\\"communityId\\">
+      <studentAssignments>
+        <student>
+          <userId>studentId</userId>
+          <average>avg</average>
+          <comment>comment</comment>
+        </student>
+      </studentAssignments>
+    </classAssignment>
+  </classAssignmentGroup>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga postNewAssignmentRequest getStudentDetailsSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "containers/PortfolioPageContainer/Student_Submission",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`AddAssignmentContainer Saga postNewAssignmentRequest postSaveNewAssignmentFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;

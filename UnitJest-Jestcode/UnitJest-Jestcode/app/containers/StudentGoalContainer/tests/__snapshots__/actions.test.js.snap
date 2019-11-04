@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All actions should return the correct constant for getClassStudentGoalRequest 1`] = `
+Object {
+  "classid": undefined,
+  "type": "app/StudentGoalContainer/GET_PORTFOLIO_SG_CLASSES_GOAL_LIST",
+}
+`;
+
+exports[`All actions should return the correct constant for getSGClassesDataRequest 1`] = `
+Object {
+  "type": "app/StudentGoalContainer/SET_PORTFOLIO_SG_CLASSES",
+  "updTeacherObj": Array [],
+}
+`;
+
+exports[`All actions should return the correct constant for setClassSGGridRequestSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/StudentGoalContainer/SET_PORTFOLIO_SG_CLASSES_GOAL_LIST",
+}
+`;
+
+exports[`All actions should return the correct constant for setSGClassRequestSuccess 1`] = `
+Object {
+  "type": "app/StudentGoalContainer/SET_PORTFOLIO_SG_CLASSES",
+  "updTeacherObj": Array [
+    Object {
+      "community_id": Array [
+        "S44NG",
+      ],
+      "type": "PfStudentGoal",
+    },
+  ],
+}
+`;
+
+exports[`All actions should return the correct constant for setSGClassRequestSuccess 2`] = `
+Object {
+  "type": "app/StudentGoalContainer/SET_PORTFOLIO_SG_CLASSES",
+  "updTeacherObj": Array [],
+}
+`;

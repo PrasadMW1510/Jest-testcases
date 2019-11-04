@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateInputControl /> Should render correctly 1`] = `
+<FormControl
+  className="custom-date-picker-class"
+>
+  <DatePicker
+    allowSameDay={false}
+    className=""
+    dateFormat="L"
+    dateFormatCalendar="MMMM YYYY"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    fixedHeight={true}
+    monthsShown={1}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    readOnly={false}
+    selected={"2018-03-05T08:00:00.000Z"}
+    shouldCloseOnSelect={true}
+    showTimeSelect={false}
+    showYearDropdown={true}
+    timeCaption="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</FormControl>
+`;
+
+exports[`<DateInputControl /> Should render correctly when a submission fails with errors 1`] = `
+<FormControl
+  className="custom-date-picker-class"
+>
+  <DatePicker
+    allowSameDay={false}
+    className="modified-class"
+    dateFormat="L"
+    dateFormatCalendar="MMMM YYYY"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    fixedHeight={true}
+    monthsShown={1}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    readOnly={false}
+    selected={"2018-03-05T08:00:00.000Z"}
+    shouldCloseOnSelect={true}
+    showTimeSelect={false}
+    showYearDropdown={true}
+    timeCaption="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</FormControl>
+`;
+
+exports[`<DateInputControl /> Should render correctly with label and required 1`] = `
+<FormControl
+  className="custom-date-picker-class"
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    Some Calendar Date
+    <span
+      className="form-control__label-required"
+    >
+      *
+    </span>
+  </FormLabel>
+  <DatePicker
+    allowSameDay={false}
+    className=""
+    dateFormat="L"
+    dateFormatCalendar="MMMM YYYY"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    fixedHeight={true}
+    monthsShown={1}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    readOnly={false}
+    selected={"2018-03-05T08:00:00.000Z"}
+    shouldCloseOnSelect={true}
+    showTimeSelect={false}
+    showYearDropdown={true}
+    timeCaption="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</FormControl>
+`;
+
+exports[`<DateInputControl /> Should use passed in datePickerClassModifier class name 1`] = `
+<FormControl
+  className="custom-date-picker-class"
+>
+  <DatePicker
+    allowSameDay={false}
+    className="modified-class"
+    dateFormat="L"
+    dateFormatCalendar="MMMM YYYY"
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    fixedHeight={true}
+    monthsShown={1}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    readOnly={false}
+    selected={"2018-03-05T08:00:00.000Z"}
+    shouldCloseOnSelect={true}
+    showTimeSelect={false}
+    showYearDropdown={true}
+    timeCaption="Time"
+    timeIntervals={30}
+    withPortal={false}
+  />
+</FormControl>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NgTopicManagerSkipModalContainer /> Expect to render correctly 1`] = `
+<R180NgTopicManagerSkipModal
+  data={
+    Object {
+      "data": "topic",
+      "skipTopic": [Function],
+    }
+  }
+  isOpen={true}
+  onNo={[Function]}
+  onYes={[Function]}
+/>
+`;

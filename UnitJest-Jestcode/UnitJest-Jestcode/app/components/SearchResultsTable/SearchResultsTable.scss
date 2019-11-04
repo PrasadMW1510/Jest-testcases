@@ -1,0 +1,181 @@
+.search-results-table {
+  width: 100%;
+  height: 350px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.search-results__table-header-group {
+  display: table-header-group;
+}
+
+.search-results-table__col--extra-small {
+  width: 4%;
+}
+
+.search-results-table__col--small {
+  width: 6%;
+}
+
+.search-results-table__col--medium {
+  width: 11%;
+}
+
+.search-results-table__col--large {
+  width: 13%;
+}
+
+.search-results-table__col--extra-large {
+  width: 15%;
+}
+
+.search-results-table__col--extra-extra-large {
+  width: 17%;
+}
+
+.search-results-table__header-col {
+  border: 1px solid #000;
+  background-color: #ffac1b;
+  color: #000;
+  height: 25px;
+}
+
+.search-results-table__body {
+  display: block;
+  overflow-y: auto;
+  width: 915px;
+  height: 189px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.search-results-table__no-data {
+  display: inherit;
+  height: 188px;
+  border-left: 1px solid #000;
+  background-color: #fff;
+}
+
+.search-results-table__no-data-text {
+  color: #f00;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 12px;
+  margin-top: 70px;
+}
+
+
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-color: #311c00;
+$thead-background-color: #ffd300;
+$thead-clicked-color: #ffa200;
+$odd-table-row-background-color: rgba(0, 0, 0, 0);
+$even-table-row-background-color: rgba(0, 0, 0, 0);
+
+/* stylelint-disable-next-line selector-class-pattern */
+.search-results-reusable-table > .ReactTable {
+  height: 400px;
+  width: 940px;
+  font-size: 12px;
+  border: 1px solid #000;
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    color: $thead-color;
+    font-weight: 700;
+    height: 24px;
+    max-height: 24px;
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-th {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 3px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+  /* stylelint-disable-next-line selector-max-compound-selectors */
+  .rt-tr:last-child .rt-td {
+    border-bottom: 0 solid #000;
+  }
+
+  // styles for custom elements within SAMTable
+  .search-results-reusable-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+
+  .search-results-reusable-table__no-data {
+    background-color: #fff;
+    display: inherit;
+    height: 188px;
+    background-color: #fff;
+  }
+
+  .search-results-reusable-table__no-data-text {
+    color: #000;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .search-results-table__cell {
+    font-style: italic;
+  }
+
+}
+
+.search-results__loading-bar {
+  height: 400px;
+  width: 940px;
+  border: 1px solid #000;
+}
+

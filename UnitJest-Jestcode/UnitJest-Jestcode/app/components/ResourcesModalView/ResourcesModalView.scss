@@ -1,0 +1,153 @@
+.resources-modal {
+  display: inline-block;
+  height: 600px;
+  width: 650px;
+  padding: unset;
+}
+
+.resources-modal__header {
+  background-color: #c0dd66;
+  color: #000;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 18px;
+  height: 30px;
+  width: 100%;
+}
+
+.resources-modal__title {
+  font-size: 11px;
+  height: 50px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.resources-modal__display--header {
+  background-color: #99cd00;
+  height: 30px;
+  width: 94.5%;
+  margin-top: 1px;
+  position: fixed;
+}
+
+.resources-modal__display-body {
+  margin-top: 35px;
+}
+
+.resources-modal__display {
+  height: 75%;
+  width: 95%;
+  border: solid 1px;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.resources-modal__button {
+  background-color: #99cd00;
+  color: #fff;
+  border-left: 1px solid #bce650;
+  border-right: 1px solid #000;
+  border-top: 1px solid #bce650;
+  border-bottom: 1px solid #000;
+  height: 30px;
+  float: left;
+  width: 120px;
+  font-size: 12px;
+
+  &:hover {
+    border: 1px solid #000;
+    outline: none;
+  }
+}
+
+.resources-modal__button--active {
+  background-color: #349800;
+  color: #fff;
+  border-left: 1px solid #bce650;
+  border-right: 1px solid #000;
+  border-top: 1px solid #bce650;
+  border-bottom: 1px solid #000;
+  height: 30px;
+  float: left;
+  width: 120px;
+  font-size: 12px;
+
+  &:hover {
+    border: 1px solid #000;
+    outline: none;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.resources-modal__button-non-click {
+  color: #fff;
+  outline: none;
+  background: none;
+  float: left;
+  padding-top: 8px;
+  width: 70px;
+  font-size: 12px;
+
+  &:hover {
+    outline: none;
+  }
+}
+
+.resources-modal__content {
+  display: inline-block;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.resources-modal--resource-name {
+  width: 200px;
+}
+
+.resources-modal--grade {
+  width: 70px;
+}
+
+.resources-modal--resource-type {
+  width: 120px;
+}
+
+.resources-modal__content--text {
+  float: left;
+  text-align: left;
+  font-size: 11px;
+  padding-left: 5px;
+}
+
+.resources-modal__content-bold {
+  font-weight: bold;
+}
+
+.resources-modal--download {
+  width: 70px;
+}
+
+.resources-modal__display-no-response {
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 12px;
+}
+
+.resources-modal__footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.resources-modal__footer-button {
+  margin-bottom: 10px;
+  margin-right: 40px;
+  float: right;
+
+  &:focus {
+    outline: 0;
+  }
+}

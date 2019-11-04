@@ -1,0 +1,114 @@
+.resources-state-modal {
+  display: inline-block;
+  height: 550px;
+  width: 600px;
+  padding: unset;
+}
+
+.resources-state-modal__header {
+  background-color: #c0dd66;
+  color: #000;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 18px;
+  height: 30px;
+  width: 100%;
+}
+
+.resources-state-modal__title-text {
+  color: #80b200;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.resources-state-modal__title-value {
+  color: #000;
+  font-weight: bold;
+}
+
+.resources-state-modal__title-padding {
+  margin-top: 10px;
+}
+
+.resources-state-modal__title-value--program {
+  padding-left: 20px;
+}
+
+.resources-state-modal__title-value--grade {
+  padding-left: 37px;
+}
+
+.resources-state-modal__title-value--state {
+  padding-left: 40px;
+}
+
+.resources-state-modal__title-description {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 11px;
+}
+
+.resources-state-modal__display {
+  border: solid 1px;
+  width: 95%;
+  height: 350px;
+  margin: auto;
+}
+
+.resources-state-modal__display-header {
+  background-color: #99cd00;
+  color: #fff;
+  height: 50px;
+}
+
+.resources-state-modal__display-header-no-data {
+  float: left;
+  width: 100px;
+  height: 50px;
+}
+
+.resources-state-modal__display-header-correlation {
+  float: left;
+  width: 350px;
+  height: 50px;
+  border-left: 1px solid #bce650;
+  border-right: 1px solid #000;
+  border-top: 1px solid #bce650;
+  border-bottom: 1px solid #000;
+  background-color: #349800;
+
+  &:hover {
+    border: solid 1px #000;
+  }
+}
+
+.resources-state-modal__display-correlation {
+  float: left;
+  width: 350px;
+  height: 50px;
+}
+
+.resources-state-modal__display-no-response {
+  font-weight: bold;
+  margin-top: 150px;
+  font-size: 12px;
+}
+
+.resources-state-modal__footer-button {
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.resources-state-modal__display-bottom {
+  font-size: 11px;
+  display: inline-block;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.resources-state-modal__body-contant-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}

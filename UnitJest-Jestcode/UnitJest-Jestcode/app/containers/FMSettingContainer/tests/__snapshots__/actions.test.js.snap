@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FMSettingContainer actions should return the correct constant for fmAdvancedSettingsSave 1`] = `
+Object {
+  "settingsData": "mockAdvancedSettings",
+  "type": "app/FMSettingContainer/FM_ADVANCED_SETTINGS_SAVE",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmAdvancedSettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/FMSettingContainer/FM_ADVANCED_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmAdvancedSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/FMSettingContainer/FM_ADVANCED_SETTINGS_SAVE_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetAdvancedSettingsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/FMSettingContainer/FM_GET_ADVANCED_SETTINGS_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetAdvancedSettingsSuccess with params 1`] = `
+Object {
+  "advancedSettings": "mockSettings",
+  "type": "app/FMSettingContainer/FM_GET_ADVANCED_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetAdvancedSettingsSuccess without params 1`] = `
+Object {
+  "advancedSettings": Object {},
+  "type": "app/FMSettingContainer/FM_GET_ADVANCED_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetSettingsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/FMSettingContainer/FM_GET_SETTINGS_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetSettingsSuccess with params 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "app/FMSettingContainer/FM_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmGetSettingsSuccess without params 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/FMSettingContainer/FM_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsContainerFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/FMSettingContainer/FM_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsContainerRequest 1`] = `
+Object {
+  "type": "app/FMSettingContainer/FM_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsContainerSuccess 1`] = `
+Object {
+  "type": "app/FMSettingContainer/FM_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsSave 1`] = `
+Object {
+  "settingsData": "mockSettings",
+  "type": "app/FMSettingContainer/FM_SETTINGS_SAVE",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/FMSettingContainer/FM_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`FMSettingContainer actions should return the correct constant for fmSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/FMSettingContainer/FM_SETTINGS_SAVE_SUCCESS",
+}
+`;

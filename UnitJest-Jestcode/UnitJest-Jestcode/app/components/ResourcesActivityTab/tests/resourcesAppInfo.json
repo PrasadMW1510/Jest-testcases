@@ -1,0 +1,60 @@
+{
+  "resource_supertype": [
+    {
+      "supertype_id": ["TOP0200"],
+      "supertype_name": ["For individual students"],
+      "supertype_description": [""],
+      "resource_types": [
+        {
+          "resource_type": [
+            {
+              "type_id": ["GEN1700"],
+              "type_name": ["Parent Letters"],
+              "type_description": ["Use the Parent Letter to inform parents or guardians of their child's enrollment in this program."],
+              "resource_subtypes": [""]
+            },
+            {
+              "type_id": ["GEN0200"],
+              "type_name": ["Practice Pages/BLMs"],
+              "type_description": ["Provide students with guided or independent practice opportunities in class or to take home."],
+              "resource_subtypes": [
+                {
+                  "resource_subtype": [
+                    {
+                      "resource_subtype_id": ["GEN0201"],
+                      "resource_subtype_name": ["Practice Pages"],
+                      "resource_subtype_description": [""]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type_id": ["GEN1000"],
+              "type_name": ["Vocabulary Lists"],
+              "type_description": ["Print out vocabulary lists and cards to teach, share with students or display."],
+              "resource_subtypes": [""]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "supertype_id": ["TOP0100"],
+      "supertype_name": ["For Whole/Small Group Instruction"],
+      "supertype_description": [""],
+      "resource_types": [
+        {
+          "resource_type": [
+            {
+              "type_id": ["GEN1500"],
+              "type_name": ["Assessment"],
+              "type_description": [""],
+              "resource_subtypes": [""]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resource_type": null,
+  "program_id": "",
+  "skill_category": null,
+  "skill": null,
+  "sortTerms": {
+    "sortTerm": {
+      "term": "resourceName",
+      "order": "asc"
+    }
+  },
+  "pagination": {
+    "cur_pg": 0,
+    "ipp": 100
+  },
+  "samversion": "",
+  "location": "Florida"
+}

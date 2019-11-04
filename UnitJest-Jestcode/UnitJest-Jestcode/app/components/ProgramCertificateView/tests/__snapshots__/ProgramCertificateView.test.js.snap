@@ -1,0 +1,906 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Will not receive Props Component Will not receive Props 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+        value="fmng100"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={Array []}
+    selectedCertificate="fmng100"
+  />
+</div>
+`;
+
+exports[`ProgramCertificateView  should return no data Should render as expected 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={
+      Object {
+        "certificates": Array [
+          Object {
+            "certificate": Object {},
+          },
+        ],
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgramCertificateView  should return valid certificateInfo Component Will not recieve Props if its an array 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+        value="fmng11"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={
+      Object {
+        "certificates": Array [
+          Object {
+            "certificate": Array [
+              Object {
+                "certificate_id": "fmng_11",
+                "certificate_name": "FASTT Math NG Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FMNG",
+              },
+              Object {
+                "certificate_id": "fm_11",
+                "certificate_name": "FASTT Math Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FM",
+              },
+            ],
+          },
+        ],
+        "recipients": Object {
+          "recipient": Array [
+            Object {
+              "grade": "5",
+              "id": "sc49dbt98j3dbigsb1e73f31_2efa7f0",
+              "name": "DoTheMath",
+              "type": "class",
+            },
+            Object {
+              "grade": "K",
+              "id": "fs8lgl4fohettf9h1401pb56_2efa7f0",
+              "name": "E3D CA V1",
+              "type": "class",
+            },
+            Object {
+              "grade": "5",
+              "id": "mff03ugu34i2lrrmt0j39vlg_2efa7f0",
+              "name": "E3D CA V2",
+              "type": "class",
+            },
+            Object {
+              "grade": "PK",
+              "id": "c8eib35pi81ada20bp0pmltg_2efa7f0",
+              "name": "E3D CB V1",
+              "type": "class",
+            },
+          ],
+        },
+      }
+    }
+    selectedCertificate="fmng11"
+  />
+</div>
+`;
+
+exports[`ProgramCertificateView  should return valid certificateInfo Component Will recieve Props 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+        value="fmng11"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={
+      Object {
+        "certificates": Array [
+          Object {
+            "certificate": Array [
+              Object {
+                "certificate_id": "fmng_11",
+                "certificate_name": "FASTT Math NG Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FMNG",
+              },
+              Object {
+                "certificate_id": "fm_11",
+                "certificate_name": "FASTT Math Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FM",
+              },
+            ],
+          },
+        ],
+        "recipients": Object {
+          "recipient": Array [
+            Object {
+              "grade": "5",
+              "id": "sc49dbt98j3dbigsb1e73f31_2efa7f0",
+              "name": "DoTheMath",
+              "type": "class",
+            },
+            Object {
+              "grade": "K",
+              "id": "fs8lgl4fohettf9h1401pb56_2efa7f0",
+              "name": "E3D CA V1",
+              "type": "class",
+            },
+            Object {
+              "grade": "5",
+              "id": "mff03ugu34i2lrrmt0j39vlg_2efa7f0",
+              "name": "E3D CA V2",
+              "type": "class",
+            },
+            Object {
+              "grade": "PK",
+              "id": "c8eib35pi81ada20bp0pmltg_2efa7f0",
+              "name": "E3D CB V1",
+              "type": "class",
+            },
+          ],
+        },
+      }
+    }
+    selectedCertificate="fmng11"
+  />
+</div>
+`;
+
+exports[`ProgramCertificateView  should return valid certificateInfo Should render as expected 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+        <option
+          key="f"
+          value="f"
+        >
+          F
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={
+      Object {
+        "certificates": Array [
+          Object {
+            "certificate": Array [
+              Object {
+                "certificate_id": "fmng_11",
+                "certificate_name": "FASTT Math NG Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FMNG",
+              },
+              Object {
+                "certificate_id": "fm_11",
+                "certificate_name": "FASTT Math Award Certificate",
+                "certificate_type": "Default",
+                "parent_app_id": "FM",
+              },
+            ],
+          },
+        ],
+        "recipients": Object {
+          "recipient": Array [
+            Object {
+              "grade": "5",
+              "id": "sc49dbt98j3dbigsb1e73f31_2efa7f0",
+              "name": "DoTheMath",
+              "type": "class",
+            },
+            Object {
+              "grade": "K",
+              "id": "fs8lgl4fohettf9h1401pb56_2efa7f0",
+              "name": "E3D CA V1",
+              "type": "class",
+            },
+            Object {
+              "grade": "5",
+              "id": "mff03ugu34i2lrrmt0j39vlg_2efa7f0",
+              "name": "E3D CA V2",
+              "type": "class",
+            },
+            Object {
+              "grade": "PK",
+              "id": "c8eib35pi81ada20bp0pmltg_2efa7f0",
+              "name": "E3D CB V1",
+              "type": "class",
+            },
+          ],
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgramCertificateView , if an array , pass no Data Should render as expected 1`] = `
+<div
+  className="certinfo"
+>
+  <span
+    className="certinfo__header"
+  >
+    Certificate Manager
+  </span>
+  <div
+    className="awardselect"
+  >
+    <span
+      className="awardselect__header"
+    >
+       Select a Certificate 
+    </span>
+    <div
+      className="awardselect__cont"
+    >
+      <span
+        className="awardselect__label"
+      >
+        Select a program certificate:
+      </span>
+      <select
+        className="awardselectbox"
+        name="selectedCertificate"
+      >
+        <option>
+           -- Certificate Name -- 
+        </option>
+      </select>
+    </div>
+    <div
+      className="messagecont"
+    >
+      <span
+        className="messagecont__header"
+      >
+        Enter a custom message:
+      </span>
+      <ul
+        className="customlines"
+      >
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 1:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line1"
+            name="lineOne"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 2:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line2"
+            name="lineTwo"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 3:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line3"
+            name="lineThree"
+            type="text"
+          />
+        </li>
+        <li
+          className="customlines__item"
+        >
+          <span
+            className="customlines__text"
+          >
+            Line 4:
+          </span>
+          <input
+            autoComplete="off"
+            className="customlines__input"
+            id="line4"
+            name="lineFour"
+            type="text"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ProgramCertificateList
+    certificateInfo={Array []}
+  />
+</div>
+`;

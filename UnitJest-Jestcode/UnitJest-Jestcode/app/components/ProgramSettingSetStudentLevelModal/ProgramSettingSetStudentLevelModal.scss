@@ -1,0 +1,63 @@
+.student-level-modal {
+
+  background-color: #ffe279;
+  overflow: hidden;
+  padding: 0;
+  font-size: 12px;
+  height: 220px;
+  border: 2px solid #000;
+
+}
+
+.student-level-modal-heading {
+
+  font-weight: bold;
+  height: 12%;
+  padding-top: 3px;
+  padding-left: 8px;
+  background-color: #ffd400;
+  margin-top: 0;
+  border-left: 1px solid #000;
+
+}
+
+.student-level-modal-message {
+
+  text-align: center;
+  background: #ffe279;
+  border-left: 1px solid #000;
+
+}
+
+.student-level-modal-message-confirmation1 {
+
+  line-height: 0.8em;
+  margin-top: 10px;
+  padding-top: 0;
+
+}
+
+.student-level-modal-message-footer {
+
+  margin-top: 10px;
+  padding-top: 30px;
+
+}
+
+.student-level-modal--ok-button {
+
+  margin-left: 50px;
+  float: left;
+  height: 20pt;
+  width: 86pt;
+
+}
+
+.student-level-modal--cancel-button {
+
+  margin-right: 50px;
+  float: right;
+  height: 20pt;
+  width: 86pt;
+
+}

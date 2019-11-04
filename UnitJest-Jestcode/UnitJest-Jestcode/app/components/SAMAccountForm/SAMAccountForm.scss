@@ -1,0 +1,17 @@
+.form-input-control {
+  display: inline-flex;
+  width: 90%;
+
+  .form-control__label {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .form-control__input {
+    margin-left: 5px;
+  }
+
+  .form-control__dropdown {
+    margin-left: 5px;
+  }
+}

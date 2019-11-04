@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectR180EESettingContainerDomain should consistently return the getSelectedStage value 1`] = `"mockSelectedStage"`;
+
+exports[`selectR180EESettingContainerDomain should consistently return the r180EESettingContainer app state 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    selectedStage: "mockSelectedStage",
+  },
+}
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectRSkillsCCSettingContainerDomain should select default program settings loading substate 1`] = `false`;
+
+exports[`selectRSkillsCCSettingContainerDomain should select loading substate 1`] = `false`;
+
+exports[`selectRSkillsCCSettingContainerDomain should select programSettings substate 1`] = `"mockProgramSettings"`;
+
+exports[`selectRSkillsCCSettingContainerDomain should select rSkillsCCSetting Container Domain 1`] = `
+Immutable.Map {
+  error: null,
+  stages: "mockStages",
+  loading: false,
+  programSettings: "mockProgramSettings",
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: false,
+}
+`;
+
+exports[`selectRSkillsCCSettingContainerDomain should select stages substate 1`] = `"mockStages"`;
+
+exports[`selectRSkillsCCSettingContainerDomain should select the default program settings 1`] = `
+Immutable.Map {
+}
+`;

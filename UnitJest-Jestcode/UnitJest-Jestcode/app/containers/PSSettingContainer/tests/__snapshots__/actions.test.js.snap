@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PSSettingContainer actions should return the correct constant for ps get DTM Modules 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_MODULE_REQUEST",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for ps get DTM Modules Failure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_MODULE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for ps get DTM Modules Success 1`] = `
+Object {
+  "testAssignment": Object {},
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_MODULE_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmSubProductRequest 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_SUBPRODUCT_REQUEST",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmTestsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_TEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmTestsFailure 2`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_SUBPRODUCT_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmTestsRequest 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_TEST_REQUEST",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmTestsSuccess 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_TEST_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psGetDtmTestsSuccess 2`] = `
+Object {
+  "settings": Object {},
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_SUBPRODUCT_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsContainerFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsContainerRequest 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsContainerSuccess with params 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "app/PSSettingContainer/PS_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsContainerSuccess without params 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/PSSettingContainer/PS_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsSave 1`] = `
+Object {
+  "settingsData": "mockSettings",
+  "type": "app/PSSettingContainer/PS_SETTINGS_SAVE",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_SETTINGS_SAVE_SUCCESS",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psTestAssignmentFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psTestAssignmentRequest 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT",
+}
+`;
+
+exports[`PSSettingContainer actions should return the correct constant for psTestAssignmentSuccess 1`] = `
+Object {
+  "type": "app/PSSettingContainer/PS_TEST_ASSIGNMENT_SUCCESS",
+}
+`;

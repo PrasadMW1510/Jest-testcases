@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassesWithGroupsControl /> Expect to render correctly 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <React.Fragment
+      key="foo-class"
+    >
+      <div
+        className="student-form__input-class"
+      >
+        <input
+          checked={false}
+          className="student-form__input"
+          id="foo-class"
+          key="foo-class"
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </div>
+      <div
+        className="student-form__input-group"
+      >
+        <div
+          key="foo-group"
+        >
+          <div>
+            <input
+              checked={false}
+              className="student-form__input"
+              data-classid={
+                Array [
+                  "foo-class",
+                ]
+              }
+              id="foo-group"
+              onChange={[Function]}
+              type="checkbox"
+            />
+          </div>
+        </div>
+        <div
+          key="bah-group"
+        />
+      </div>
+    </React.Fragment>
+  </FormGroup>
+  <Field
+    component="input"
+    name="classes"
+    type="hidden"
+  />
+  <Field
+    component="input"
+    name="groups"
+    type="hidden"
+  />
+</FormControl>
+`;

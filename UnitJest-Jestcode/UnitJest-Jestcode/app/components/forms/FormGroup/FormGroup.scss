@@ -1,0 +1,10 @@
+.form-control__form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-control__form-group--row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

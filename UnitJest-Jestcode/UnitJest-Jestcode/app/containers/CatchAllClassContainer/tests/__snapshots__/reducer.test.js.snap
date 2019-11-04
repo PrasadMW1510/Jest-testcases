@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addAssignmentContainerReducer reducer should handle DEFAULT_ACTION 1`] = `
+Immutable.Map {
+  studentDetails: Immutable.List [
+  ],
+  postnewAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`addAssignmentContainerReducer reducer should handle GET_STUDENTDETAIL_SUCCESS 1`] = `
+Immutable.Map {
+  studentDetails: Object {},
+  postnewAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`addAssignmentContainerReducer reducer should handle POST_NEW_ASSIGNMENT_SUCCESS 1`] = `
+Immutable.Map {
+  studentDetails: Immutable.List [
+  ],
+  postnewAssignment: Object {},
+}
+`;

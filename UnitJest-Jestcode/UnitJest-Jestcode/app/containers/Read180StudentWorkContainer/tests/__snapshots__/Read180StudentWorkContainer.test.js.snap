@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read180StudentWorkContainer   Should call handlePreview   1`] = `[Function]`;
+
+exports[`Read180StudentWorkContainer   Should call savePostAssesment  1`] = `[Function]`;
+
+exports[`Read180StudentWorkContainer   Should render Read180NgContainer when data is present  1`] = `
+<div>
+  <meta
+    content="Description of Read180StudentWorkContainer"
+    name="description"
+  />
+  <Read180StudentWork
+    data={
+      Object {
+        "row": Object {
+          "communityId": "RTNG",
+          "id": "id",
+          "studentId": "stud",
+        },
+      }
+    }
+    getRead180StudentWorkRequest={[Function]}
+    handleCancel={[Function]}
+    read180studentworkcontainer={Object {}}
+    readStudentWork180Data={Object {}}
+    savePostAssesment={[Function]}
+    setRead180StudentWorkData={[Function]}
+  />
+</div>
+`;
+
+exports[`Read180StudentWorkContainer   Should render Read180NgContainer when data is present  2`] = `
+<div>
+  <meta
+    content="Description of Read180StudentWorkContainer"
+    name="description"
+  />
+  <Read180StudentWork
+    data={
+      Object {
+        "row": Object {
+          "communityId": "RTNG",
+          "id": "id",
+          "studentId": undefined,
+        },
+      }
+    }
+    getRead180StudentWorkRequest={[Function]}
+    handleCancel={[Function]}
+    read180studentworkcontainer={Object {}}
+    readStudentWork180Data={Object {}}
+    savePostAssesment={[Function]}
+    setRead180StudentWorkData={[Function]}
+  />
+</div>
+`;
+
+exports[`Read180StudentWorkContainer   Should render Read180NgContainer when data is present  3`] = `
+<div>
+  <meta
+    content="Description of Read180StudentWorkContainer"
+    name="description"
+  />
+  <Read180StudentWork
+    data={
+      Object {
+        "row": Object {
+          "communityId": "lll",
+          "id": "id",
+          "studentId": undefined,
+        },
+      }
+    }
+    getRead180StudentWorkRequest={[Function]}
+    handleCancel={[Function]}
+    read180studentworkcontainer={Object {}}
+    readStudentWork180Data={Object {}}
+    savePostAssesment={[Function]}
+    setRead180StudentWorkData={[Function]}
+  />
+</div>
+`;

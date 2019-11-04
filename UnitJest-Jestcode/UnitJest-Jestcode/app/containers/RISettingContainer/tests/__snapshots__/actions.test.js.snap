@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RISettingContainer Actions Get RI program settings should return the correct constant for RIProgramSettingsRequest 1`] = `
+Object {
+  "type": "RI_program_settings_request",
+}
+`;
+
+exports[`RISettingContainer Actions Get RI program settings should return the correct constant for RIProgramSettingsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "RI_program_settings_request_failure",
+}
+`;
+
+exports[`RISettingContainer Actions Get RI program settings should return the correct constant for RIProgramSettingsRequestSuccess with params 1`] = `
+Object {
+  "proficiencyBandData": Object {
+    "key1": "value1",
+  },
+  "programSetting": Object {
+    "key1": "value1",
+  },
+  "type": "RI_program_settings_request_success",
+}
+`;
+
+exports[`RISettingContainer Actions Get RI program settings should return the correct constant for RIProgramSettingsRequestSuccess without params 1`] = `
+Object {
+  "proficiencyBandData": Object {},
+  "programSetting": Object {},
+  "type": "RI_program_settings_request_success",
+}
+`;
+
+exports[`RISettingContainer Actions Save RI program settings should return the correct constant for RISaveRequest 1`] = `
+Object {
+  "activeTabId": Object {
+    "key1": "value1",
+    "key2": "value2",
+  },
+  "programSettingsToSave": undefined,
+  "type": "RI_save_request",
+}
+`;
+
+exports[`RISettingContainer Actions Save RI program settings should return the correct constant for RISaveRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "RI_save_request_failure",
+}
+`;
+
+exports[`RISettingContainer Actions Save RI program settings should return the correct constant for RISaveRequestSuccess 1`] = `
+Object {
+  "activeTabId": undefined,
+  "immFormProgramSettingsSaved": undefined,
+  "type": "RI_save_request_success",
+}
+`;
+
+exports[`RISettingContainer Actions should cancel correctly 1`] = `
+Object {
+  "type": "RI_program_settings_cancel",
+}
+`;

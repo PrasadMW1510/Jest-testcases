@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FADresetModal /> Expect to render as expected 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="fad-reset-modal"
+>
+  <div
+    className="fad-reset-modal__title"
+  >
+    Reset Student
+  </div>
+  <p>
+    Resetting the selected student to the Initial Assessment will require the student to retake the Initial Assessment the next time this program is used. The student will be reset to an entry point and may repeat material. All prior performance data will be deleted.
+  </p>
+  <p>
+    Are you sure you want the selected student to be reset to the Initial Assessment?
+  </p>
+  <input
+    className="fad-reset-modal__orange-button"
+    onClick={[Function]}
+    type="button"
+    value="Yes"
+  />
+  <input
+    className="fad-reset-modal__grey-button"
+    onClick={[Function]}
+    type="button"
+    value="No"
+  />
+</SAMModal>
+`;

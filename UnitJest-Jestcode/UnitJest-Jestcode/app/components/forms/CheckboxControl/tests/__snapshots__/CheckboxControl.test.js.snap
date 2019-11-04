@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxControl /> Should render correctly when errors present 1`] = `
+<FormControl
+  className=""
+  error={true}
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label={3}
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly when label is provided and not required 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    Dummy Label
+  </FormLabel>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label={3}
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly when label is provided and required 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    Dummy Label
+    <span
+      className="form-control__label-required"
+    >
+      *
+    </span>
+  </FormLabel>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label={3}
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly with \`row\` flag set 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={true}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label={3}
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly with custom id formatting 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={123}
+      key="123"
+      label="foo"
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly with custom label formatting 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label="test: 1"
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label="test: 2"
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label="test: 3"
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly with items 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label="three"
+    />
+  </FormGroup>
+</FormControl>
+`;
+
+exports[`<CheckboxControl /> Should render correctly with required flag set 1`] = `
+<FormControl
+  className=""
+>
+  <FormGroup
+    className=""
+    row={false}
+  >
+    <Checkbox
+      className="form-control__checkbox"
+      id={1}
+      key="1"
+      label={1}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={2}
+      key="2"
+      label={2}
+    />
+    <Checkbox
+      className="form-control__checkbox"
+      id={3}
+      key="3"
+      label={3}
+    />
+  </FormGroup>
+</FormControl>
+`;

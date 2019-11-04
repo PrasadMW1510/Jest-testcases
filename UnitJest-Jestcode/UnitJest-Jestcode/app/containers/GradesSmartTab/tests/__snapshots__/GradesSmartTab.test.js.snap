@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GradesSmartTab /> Expect to display login first and last name as the for name 1`] = `"John Adams"`;
+
+exports[`<GradesSmartTab /> Expect to display school name as the for name 1`] = `"grade two"`;
+
+exports[`<GradesSmartTab /> verify when the grade id is empty 1`] = `
+<SmartBarTab
+  defaultChecked={true}
+  forName="John Adams"
+  isTabActive={false}
+  items={
+    Array [
+      Object {
+        "id": "grade1",
+        "text": "grade one",
+      },
+      Object {
+        "id": "grade2",
+        "text": "grade two",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  selectedItemId="xzcvxzvasd"
+  smartbarSelectedUpdateData={[Function]}
+  title="Grades"
+/>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`programSettingsContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  loading: false,
+  enrollmentList: Immutable.List [
+  ],
+}
+`;
+
+exports[`programSettingsContainerReducer should handle programSettingsEnrollmentList action 1`] = `
+Immutable.Map {
+  loading: true,
+  enrollmentList: Immutable.List [
+  ],
+}
+`;
+
+exports[`programSettingsContainerReducer should handle programSettingsEnrollmentListSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  enrollmentList: Immutable.List [
+    "mockEnrollmentList",
+  ],
+}
+`;

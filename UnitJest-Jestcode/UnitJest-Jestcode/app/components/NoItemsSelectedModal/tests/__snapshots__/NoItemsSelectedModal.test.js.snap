@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NoItemsSelectedModal /> expect to render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="no-items-selected-modal-success"
+>
+  <div
+    className="no-items-selected-modal-success__message"
+  >
+    No 
+    mockType
+     selected.
+  </div>
+  <div
+    className="no-items-selected-modal-success__button"
+  >
+    <button
+      className="no-items-selected-modal-success__ok"
+      onClick={[Function]}
+    >
+      OK
+    </button>
+  </div>
+</SAMModal>
+`;

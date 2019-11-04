@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/RSkillsCCTestAssignmentSaveSuccessModalContainer/RSkillsCCTestAssignmentSaveSuccessModalContainer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/RSkillsCCTestAssignmentSaveSuccessModalContainer</a> RSkillsCCTestAssignmentSaveSuccessModalContainer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/72</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/59</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/34</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * RSkillsCCTestAssignmentSaveSuccessContainer
+ *
+ */
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+&nbsp;
+import RSkillsCCTestAssignmentSaveSuccessModal <span class="cstat-no" title="statement not covered" >from 'components/RSkillsCCTestAssignmentSaveSuccessModal';<span class="cstat-no" title="statement not covered" ></span></span>
+import { hideMo<span class="cstat-no" title="statement not covered" >dal } from 'containers/ModalController/actions</span>';
+import { rSkills<span class="cstat-no" title="statement not covered" >CCSettingsTestAssignmentRequest } from 'containers/RSkil</span>lsCCSetti<span class="fstat-no" title="function not covered" >ngContainer/actions';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class RSkillsCCTestAssignmentSaveSuccessModalContainer extends React.Component {
+  handleYes = () =&gt; {
+    this.props.hideModal();<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span>
+    if<span class="cstat-no" title="statement not covered" > (!this.props.data.redirectToRoster) {</span>
+      // call this request only when we haven't redirected
+      th<span class="cstat-no" title="statement not covered" >is.props.rSkillsCCSettingsTestAssignmentRequest();</span>
+    }
+  };
+&nbsp;
+  parseAffectedMessage = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const { d<span class="cstat-no" title="statement not covered" >ata } = this.prop</span>s;
+    let usersAffectedBelowGrade = ''<span class="cstat-no" title="statement not covered" >;</span>
+    if<span class="cstat-no" title="statement not covered" > (data &amp;&amp; data.users_affected &amp;&amp; data.users_affected[0].below_grade_count) {</span>
+      us<span class="cstat-no" title="statement not covered" >ersAffectedBelowGrade = data.users_affected[0].below_grade_count;</span>
+    }
+&nbsp;
+    let usersAffectedGrade = ''<span class="cstat-no" title="statement not covered" >;</span>
+    if<span class="cstat-no" title="statement not covered" > (data &amp;&amp; data.users_affected &amp;&amp; data.users_affected[0].grade_count) {</span>
+      us<span class="cstat-no" title="statement not covered" >ersAffectedGrade = data.users_affected[0].grade_count;</span>
+    }
+    const affectedMsg = <span class="cstat-no" title="statement not covered" >`On the next login, ${usersAffectedBelowGrade} students will take the below grade-level</span>
+        test, and ${usersAffectedGrade} students will take the grade-level test.`;
+    re<span class="cstat-no" title="statement not covered" >turn affectedMsg;</span>
+  };
+&nbsp;
+  /*
+    returns an array of the unaffected users. the modal decides how to display these
+  */
+  unaffectedUsers = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const { d<span class="cstat-no" title="statement not covered" >ata } = this.prop</span>s;
+    let result = []<span class="cstat-no" title="statement not covered" >;</span>
+    if<span class="cstat-no" title="statement not covered" > (</span>
+      data &amp;&amp;
+      data.users_unaffected &amp;&amp;
+      data.users_unaffected[0] &amp;&amp;
+      data.users_unaffected[0].assigned_but_incomplete_users &amp;&amp;
+      data.users_unaffected[0].assigned_but_incomplete_users[0]
+    ) {
+      re<span class="cstat-no" title="statement not covered" >sult = data.users_unaffected[0].assigned_but_incomplete_users[0].user;</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn result;</span>
+  };
+&nbsp;
+  /*
+    returns an array of the unenrolled users. the modal decides how to display these
+  */
+  unenrolledUsers = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const { d<span class="cstat-no" title="statement not covered" >ata } = this.prop</span>s;
+    let result = []<span class="cstat-no" title="statement not covered" >;</span>
+    if<span class="cstat-no" title="statement not covered" > (</span>
+      data &amp;&amp;
+      data.users_unaffected &amp;&amp;
+      data.users_unaffected[0] &amp;&amp;
+      data.users_unaffected[0].unenrolled_users_rt &amp;&amp;
+      data.users_unaffected[0].unenrolled_users_rt[0]
+    ) {
+      re<span class="cstat-no" title="statement not covered" >sult = data.users_unaffected[0].unenrolled_users_rt[0].user;</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn result;</span>
+  };
+&nbsp;
+  render() {
+    const { data } = this.props;
+    return (<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+      &lt;RSkillsCCTestAssignmentSaveSuccessModal
+        affectedMessage={this.parseAffectedMessage()}
+        isOpen
+        onYes={this.handleYes}
+        redirectToRoster={data.redirectToRoster}
+        rSkillsTestName={data.rSkillsTestDescription}
+        title={data.rBookName}
+        unaffectedUsers={this.unaffectedUsers()}
+        unenrolledUsers={this.unenrolledUsers()}
+      /&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >RSkillsCCTestAssignmentSaveSuccessModalContainer.propTypes = {</span>
+  data: PropTypes.object.isRequired,
+  hideModal: PropTypes.func.isRequired,
+  rSkillsCCSettingsTestAssignmentRequest: PropTypes.func.isRequired,
+};
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(null, { hideModal, rSkillsCCSettingsTestAssignmentRequest });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withConnect)(RSkillsCCTestAssignmentSaveSuccessModalContainer);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

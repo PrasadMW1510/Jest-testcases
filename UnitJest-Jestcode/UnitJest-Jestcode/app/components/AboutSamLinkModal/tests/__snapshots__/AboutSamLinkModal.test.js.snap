@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutSamLinkModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="About SAM"
+  isOpen={true}
+  modalClassModifier="asl-link-sam-modal"
+>
+  <div
+    className="asl-link-modal-container"
+  >
+    <div
+      className="asl-link-modal-header-modal"
+    >
+      <img
+        alt="samlogo"
+        className="asl-link-modal-header-modal__img"
+        height="100%"
+        key="samlogo"
+        position="absolute"
+        src="IMAGE_MOCK"
+        width="40%"
+      />
+      <span
+        className="asl-link-modal-header-modal__version"
+      >
+         
+        Version 
+        3.0.0-32
+         
+      </span>
+    </div>
+    <div
+      className="asl-link-modal-table-container"
+    >
+      <div
+        className="asl-link-modal-table-container__rows"
+        key="SAM Server"
+      >
+        <input
+          className="asl-link-modal-table-container__triangle"
+          defaultChecked=""
+          id="SAM Server"
+          name="tabs2"
+          type="checkbox"
+        />
+        <label
+          className="asl-link-modal-table-container__prodname"
+          htmlFor="SAM Server"
+          key="[object Object]"
+        >
+          SAM Server
+           
+          <span>
+            (v 
+          </span>
+           
+          3.0.0-32
+           
+          <span>
+            )
+          </span>
+           
+        </label>
+        <div
+          className="asl-link-modal-table-container__content"
+        >
+          <div
+            className="asl-link-modal-table-details"
+          >
+            <div
+              className="asl-link-modal-table-details__enabled"
+            >
+              Enabled: 
+              <span
+                className="asl-link-modal-table-details__enabledspan"
+              >
+                yes
+              </span>
+            </div>
+            <span>
+              SERVER
+            </span>
+            <div
+              className="asl-link-modal-table-details__server"
+            >
+              server build number: 
+              3.0.0-32
+              <br />
+            </div>
+            <div
+              className="asl-link-modal-table-details__supernumber"
+            >
+              Supernumber: 
+               
+              <span
+                className="asl-link-modal-table-details__supernumberspan"
+              >
+                3.0.0.44
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="asl-link-modal-table-container__rows"
+        key="Math Inventory"
+      >
+        <input
+          className="asl-link-modal-table-container__triangle"
+          defaultChecked=""
+          id="Math Inventory"
+          name="tabs2"
+          type="checkbox"
+        />
+        <label
+          className="asl-link-modal-table-container__prodname"
+          htmlFor="Math Inventory"
+          key="[object Object]"
+        >
+          Math Inventory
+           
+          <span>
+            (v 
+          </span>
+           
+          2.6.3
+           
+          <span>
+            )
+          </span>
+           
+        </label>
+        <div
+          className="asl-link-modal-table-container__content"
+        >
+          <div
+            className="asl-link-modal-table-details"
+          >
+            <div
+              className="asl-link-modal-table-details__enabled"
+            >
+              Enabled: 
+              <span
+                className="asl-link-modal-table-details__enabledspan"
+              >
+                no
+              </span>
+            </div>
+            <span>
+              SERVER
+            </span>
+            <div
+              className="asl-link-modal-table-details__server"
+            >
+              server build number: 
+              2.6.3
+              <br />
+            </div>
+            <div>
+              <span>
+                MEDIA
+              </span>
+              <div
+                className="asl-link-modal-table-details__media"
+              >
+                media build number: 
+                 
+                2.8.0
+                 
+              </div>
+            </div>
+            <div
+              className="asl-link-modal-table-details__supernumber"
+            >
+              Supernumber: 
+               
+              <span
+                className="asl-link-modal-table-details__supernumberspan"
+              >
+                3.0.0.37
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="asl-link-modal-footer-modal"
+    >
+      <span
+        className="asl-link-modal-footer-modal__url"
+      >
+        SAM Server address: 
+        null//undefined
+      </span>
+      <button
+        className="asl-link-modal-footer-modal__close"
+        onClick={[Function]}
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</SAMModal>
+`;

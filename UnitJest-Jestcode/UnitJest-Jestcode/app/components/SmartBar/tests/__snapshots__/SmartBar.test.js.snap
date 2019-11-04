@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SmartBar /> District admin view should match snapshot 1`] = `
+<div
+  className="smart-bar-container"
+>
+  <button
+    className="smart-bar-container__title"
+    onClick={[Function]}
+  >
+    My District
+  </button>
+  <div
+    className="tabs"
+  >
+    <Connect(SchoolsSmartTab) />
+    <Connect(GradesSmartTab) />
+    <Connect(TeachersSmartTab) />
+    <Connect(ClassesSmartTab) />
+    <Connect(GroupsSmartTab) />
+    <Connect(StudentsSmartTab) />
+  </div>
+</div>
+`;
+
+exports[`<SmartBar /> School admin view should match snapshot 1`] = `
+<div
+  className="smart-bar-container"
+>
+  <button
+    className="smart-bar-container__title"
+    onClick={[Function]}
+  >
+    My School
+  </button>
+  <div
+    className="tabs"
+  >
+    <Connect(SchoolsSmartTab) />
+    <Connect(GradesSmartTab) />
+    <Connect(TeachersSmartTab) />
+    <Connect(ClassesSmartTab) />
+    <Connect(GroupsSmartTab) />
+    <Connect(StudentsSmartTab) />
+  </div>
+</div>
+`;
+
+exports[`<SmartBar /> Teacher view should match snapshot 1`] = `
+<div
+  className="smart-bar-container"
+>
+  <button
+    className="smart-bar-container__title"
+    onClick={[Function]}
+  >
+    My Classes
+  </button>
+  <div
+    className="tabs"
+  >
+    <Connect(SchoolsSmartTab) />
+    <Connect(GradesSmartTab) />
+    <Connect(TeachersSmartTab) />
+    <Connect(ClassesSmartTab) />
+    <Connect(GroupsSmartTab) />
+    <Connect(StudentsSmartTab) />
+  </div>
+</div>
+`;

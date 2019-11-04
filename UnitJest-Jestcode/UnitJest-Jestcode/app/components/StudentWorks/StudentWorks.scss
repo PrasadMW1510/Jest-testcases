@@ -1,0 +1,99 @@
+.student-work-page {
+  width: 100%;
+  height: 552px;
+  text-align: center;
+  margin: -2px 0 0 0;
+  display: flex;
+}
+
+.student-work-leftpanel-container {
+  float: left;
+  width: 25%;
+  font-size: 12px;
+  padding: 35px 0 0;
+  height: 90%;
+  border: 1px solid;
+  border-color: #ddd;
+  margin: 18px 0 0 15px;
+  border-radius: 15px;
+  background-color: #e7e8e7;
+  padding-bottom: 35px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.student-work-rightpanel-container {
+  float: left;
+  width: 70%;
+  font-size: 12px;
+  height: 90%;
+  border: 1px solid;
+  border-color: #ddd;
+  margin: 18px 0 0 15px;
+  border-radius: 15px;
+  background-color: #e7e8e7;
+  padding-bottom: 35px;
+}
+
+.student-work-header-block {
+  background-color: #fff;
+  height: 100%;
+  clear: both;
+}
+
+.student-work-header-right-block {
+  background-color: #fff;
+  height: 91%;
+  clear: both;
+}
+
+.student-work-remove-btn {
+  float: left;
+}
+
+.student-work-remove-btn a {
+  background: linear-gradient(to bottom, #f0ebf0 0%, #f1ecec 27%, #c7c1c1 100%);
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  border: 1px solid;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.student-work-remove-btn a:hover {
+  background: linear-gradient(to bottom, #f0ebf0 4%, #d8d1d1 27%, #867f7f 100%);
+}
+
+/* stylelint-disable selector-class-pattern */
+
+.studentWorksTable {
+  .ReactTable {
+    border: 0 !important;
+  }
+
+  .ReactTable .rt-table {
+    height: 420px !important;
+  }
+
+  .ReactTable .rt-thead.-header {
+    background: linear-gradient(to top, #ddd 0%, #ddd 97%, #ddd 100%);
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  .ReactTable .rt-tr-group {
+    border-bottom: 1px solid !important;
+    border-color: #ddd !important;
+    padding-top: 15px;
+    flex: none;
+  }
+
+  .ReactTable .rt-tbody {
+    background: #fff;
+  }
+}
+
+/* stylelint-enable selector-class-pattern 
+*/

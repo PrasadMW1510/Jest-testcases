@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FolderNavBar /> profileUserType is Teacher Expect to render correctly 1`] = `
+<div
+  className="folder-navbar"
+>
+  <span>
+    <FolderButton
+      folderTitle="Roster"
+      imgSrc="IMAGE_MOCK"
+      link="/roster"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Reports"
+      imgSrc="IMAGE_MOCK"
+      link="/reports"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Resources"
+      imgSrc="IMAGE_MOCK"
+      link="/resources"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Books"
+      imgSrc="IMAGE_MOCK"
+      link="/books"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Portfolio"
+      imgSrc="IMAGE_MOCK"
+      link="/"
+      profileUserType=""
+    />
+  </span>
+  <button
+    className="folder-navbar__its-link"
+    onClick={[Function]}
+  >
+    Click here to learn how to access and use the READ180 Interactive Teacher System (ITS).
+  </button>
+</div>
+`;
+
+exports[`<FolderNavBar /> profileUserType is not Teacher Expect to render correctly 1`] = `
+<div
+  className="folder-navbar"
+>
+  <span>
+    <FolderButton
+      folderTitle="Roster"
+      imgSrc="IMAGE_MOCK"
+      link="/roster"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Reports"
+      imgSrc="IMAGE_MOCK"
+      link="/reports"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Resources"
+      imgSrc="IMAGE_MOCK"
+      link="/resources"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Books"
+      imgSrc="IMAGE_MOCK"
+      link="/books"
+      profileUserType=""
+    />
+    <FolderButton
+      folderTitle="Portfolio"
+      imgSrc="IMAGE_MOCK"
+      link="/"
+      profileUserType=""
+    />
+  </span>
+</div>
+`;

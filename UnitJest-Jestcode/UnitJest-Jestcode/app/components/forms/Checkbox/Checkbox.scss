@@ -1,0 +1,39 @@
+.form-control__checkbox {
+  cursor: pointer;
+  font-size: 11px;
+  margin-bottom: 6px;
+  margin-right: 12px;
+}
+
+.form-control__checkbox--checked {
+  .form-control__checkbox-icon::after {
+    // Check icon
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyODU0NTk0N0ZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyODU0NTk0OEZDOTYxMUU3QUIzQjkwOEM2RUE1NzcyNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjI4NTQ1OTQ1RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjI4NTQ1OTQ2RkM5NjExRTdBQjNCOTA4QzZFQTU3NzI1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eRcH0gAAASxJREFUeNpi/P//PwMtARMDrQGVfaAJxAuBeDkQW4PNpqIFAUD8DuRmIC4DhQ41LeiCGgzCCSihQ6EFHNDg+I/kcgZqWcAHxAeQDJ+GNX7JtIAfiE8gGb4DW4ok1wJeID6KZPhjIBbHmUJJtAAU5oeQDP8HxE54swCSBcpA7E3AgmVIhoNwDcE8BrXACohvQzX1QF2KDvrQDN9JVCaGWgDy5mskzZeBWBdJbTaa4R+BWIUUC0DAA82Qr0CcAsRmQPwDTS6V6GIILZJb0Az6A8Sf0cQ2kVTOoVnAjJa+0TGorJGjxAIQ0AHiLzgsKCa5pMaRD9KxGH4ciBmpZQEIbEAy/C8Qm5NV1+CxAJQMP0EtmEh2ZUagqMiBpiIxWlkAKthcKamOGYd8qwIgwABICdj/4N1ZdQAAAABJRU5ErkJggg==');
+    content: '';
+    cursor: pointer;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0.7) translate(0%, -25%);
+    transform-origin: 0 0;
+    width: 24px;
+    z-index: 9;
+  }
+}
+
+.form-control__checkbox-icon {
+  background: radial-gradient(ellipse at bottom right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 41%, rgba(204, 204, 204, 1) 100%);
+  background-color: #fafafa;
+  border: 1px #000 solid;
+  cursor: pointer;
+  height: 13px;
+  margin-right: 4px;
+  padding: 0 5px;
+  position: relative;
+  width: 13px;
+
+  &:focus {
+    outline: none;
+  }
+}

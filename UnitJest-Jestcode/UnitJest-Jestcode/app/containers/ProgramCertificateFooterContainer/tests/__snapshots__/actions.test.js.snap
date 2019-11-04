@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the certificate id with a failure 1`] = `
+Object {
+  "error": "error",
+  "type": "certificate_print_request_failure",
+}
+`;
+
+exports[`should return the certificate id with a success 1`] = `
+Object {
+  "certificatePrint": Object {},
+  "type": "certificate_print_request_success",
+}
+`;
+
+exports[`should return the correct certificate id 1`] = `
+Object {
+  "requestParams": "q2jc42v9h5lr5k8ssq441g09_2efa7f0",
+  "type": "certificate_print_request",
+}
+`;

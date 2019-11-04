@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxChangeModal /> Should render as expected 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="portfolio-conf-warning-saved-grade"
+>
+  <div>
+    <div
+      className="portfolio-conf-warning-heading"
+    >
+      Warning 
+    </div>
+    <div
+      className="portfolio-conf-warning-txt"
+    >
+      This student has a saved grade for this assignment. Removing this student from the roster will delete his or her grade. Would you like to continue
+    </div>
+    <div
+      className="portfolio-conf-warning-btn"
+    >
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+         
+        Yes
+         
+      </SAMButton>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+         No 
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

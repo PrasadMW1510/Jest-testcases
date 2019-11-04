@@ -1,0 +1,133 @@
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-background-color: #909050;
+$thead-clicked-color: #404000;
+$odd-table-row-background-color: #e9e9c9;
+$even-table-row-background-color: #f6f6e6;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.msg-log-table > .ReactTable {
+  height: 215px;
+  font-size: 12px;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    color: #fff;
+    height: 24px;
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-th {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+  }
+  
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-right: 1px solid #000;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+
+  // styles for custom elements within SAMTable
+  .msg-log-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+  
+  .msg-log-table__no-data {
+    background-color: #fff;
+    display: inherit;
+    height: 188px;
+    background-color: #fff;
+  }
+  
+  .msg-log-table__no-data-text {
+    color: #f00;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+  
+  .msg-log-table__message-col-link-button {
+    color: #424afb;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 7px;
+    padding-left: 1px;
+  }
+  
+  .msg-log-table__message-td-group {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .msg-log-table__message-td-cell:first-child {
+    flex: 0.8;
+    font-size: 11px;
+    line-height: 1;
+    padding: 5px;
+  }
+  
+  .msg-log-table__message-td-cell:last-child {
+    flex: 0.2;
+  }
+  
+  .msg-log-table__vertical-line {
+    width: 1px;
+    background-color: #000;
+    height: 190px;
+    float: left;
+    right: 350px;
+    top: 24px;
+    margin: 0;
+    position: absolute;
+    border: 1px #000;
+  }
+  
+  .msg-log-table__message-td {
+    padding: 0;
+  }
+
+}

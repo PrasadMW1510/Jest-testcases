@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return a teacher id 1`] = `"foo-abc"`;
+
+exports[`should return a teacher name 1`] = `"Bar, Foo"`;
+
+exports[`should return application data 1`] = `
+Array [
+  false,
+  false,
+]
+`;
+
+exports[`should return sort data 1`] = `1`;
+
+exports[`should return sort data 2`] = `-1`;
+
+exports[`should return sort data 3`] = `0`;
+
+exports[`should transform json to xml 1`] = `"<foo>bar</foo><foo2>bar2</foo2><foo4><bar1>123</bar1></foo4>"`;

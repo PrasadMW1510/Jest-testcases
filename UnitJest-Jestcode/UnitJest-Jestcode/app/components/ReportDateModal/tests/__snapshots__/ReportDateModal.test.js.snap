@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportDateModal /> Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="Custom Date Modal"
+  isOpen={true}
+>
+  <div>
+    Select a custom time period:
+  </div>
+  <div>
+    From (MM/DD/YY)
+  </div>
+  <div>
+    <input
+      id="ReportDateCustomStart"
+      onChange={[Function]}
+      type="date"
+    />
+  </div>
+  <div>
+    To (MM/DD/YY)
+  </div>
+  <div>
+    <input
+      id="ReportDateCustomEnd"
+      onChange={[Function]}
+      type="date"
+    />
+  </div>
+  <input
+    className="grey-button"
+    id="CancelReportButton"
+    onClick={[Function]}
+    type="button"
+    value="Cancel"
+  />
+  <input
+    className="orange-button"
+    id="RunReportModal"
+    onClick={[Function]}
+    type="button"
+    value="Run Report"
+  />
+</SAMModal>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180NgtopicManagerSkipModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="Skip Topic CD"
+  isOpen={true}
+  modalClassModifier="r180ng-topics-skip-modal"
+>
+  <h4
+    className="r180ng-topics-skip-modal-heading"
+  >
+    Skip Topic CD
+  </h4>
+  <div
+    className="r180ng-topics-skip-modal-body"
+  >
+    <div
+      className="r180ng-topics-skip-modal-message1"
+    >
+      Are you sure you want 
+      <Connect(UserTitleText) />
+       to
+       
+    </div>
+    <div
+      className="r180ng-topics-skip-modal-message1"
+    >
+      skip topic 
+      topic
+       ? 
+    </div>
+  </div>
+  <div
+    className="r180ng-topics-skip-modal-footer"
+  >
+    <SAMButton
+      buttonClassModifier="r180ng-topics-skip-modal--ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      Yes
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="r180ng-topics-skip-modal--cancel-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      No
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

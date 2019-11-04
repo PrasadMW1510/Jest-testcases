@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultsTable /> Should have Teacher searching for student columns when profile userType not Teacher, admin, or Tech should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 144,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "student_id",
+        "id": "student_id",
+        "width": 110,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "width": 145,
+      },
+      Object {
+        "Header": "Grade",
+        "accessor": "grade",
+        "id": "grade",
+        "width": 72,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 145,
+      },
+      Object {
+        "Header": "Teachers",
+        "accessor": "teachers",
+        "id": "teachers",
+        "width": 145,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "id": "enrollment",
+        "width": 144,
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": "123",
+        "first_name": "Any",
+        "last_name": "Student",
+        "user_id": "123",
+      },
+    ]
+  }
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={1}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render Empty when data is not available Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 144,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "student_id",
+        "id": "student_id",
+        "width": 110,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "id": "user_name",
+        "width": 145,
+      },
+      Object {
+        "Header": "Grade",
+        "accessor": "grade",
+        "id": "grade",
+        "width": 72,
+      },
+      Object {
+        "Header": "Schools",
+        "accessor": "schools",
+        "id": "schools",
+        "width": 145,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 145,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "id": "enrollment",
+        "width": 144,
+      },
+    ]
+  }
+  data={Array []}
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={null}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render correctly when Student results data available for admin Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 144,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "student_id",
+        "id": "student_id",
+        "width": 110,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "id": "user_name",
+        "width": 145,
+      },
+      Object {
+        "Header": "Grade",
+        "accessor": "grade",
+        "id": "grade",
+        "width": 72,
+      },
+      Object {
+        "Header": "Schools",
+        "accessor": "schools",
+        "id": "schools",
+        "width": 145,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 145,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "id": "enrollment",
+        "width": 144,
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": "123",
+        "user_id": "123",
+      },
+    ]
+  }
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={250}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render correctly when Student results data available for teacher Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 144,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "student_id",
+        "id": "student_id",
+        "width": 110,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "width": 145,
+      },
+      Object {
+        "Header": "Grade",
+        "accessor": "grade",
+        "id": "grade",
+        "width": 72,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 145,
+      },
+      Object {
+        "Header": "Teachers",
+        "accessor": "teachers",
+        "id": "teachers",
+        "width": 145,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "id": "enrollment",
+        "width": 144,
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": "123",
+        "first_name": "Any",
+        "last_name": "Student",
+        "user_id": "123",
+      },
+    ]
+  }
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={1}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render correctly when Teacher results data available for admin Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 208,
+      },
+      Object {
+        "Header": "District User ID",
+        "accessor": "district_user_id",
+        "id": "district_user_id",
+        "width": 156,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "id": "user_name",
+        "width": 105,
+      },
+      Object {
+        "Header": "Schools",
+        "accessor": "schools",
+        "id": "schools",
+        "width": 206,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 208,
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "_id": "abc",
+        "district_user_id": "123",
+        "user_id": "abc",
+      },
+    ]
+  }
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={-249}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render correctly when data is not available Should render correctly 1`] = `
+<SAMTable
+  checkedIds={Array []}
+  className="search-results-reusable-table"
+  columns={
+    Array [
+      Object {
+        "Header": "Name",
+        "accessor": [Function],
+        "id": "name",
+        "width": 144,
+      },
+      Object {
+        "Header": "Student ID",
+        "accessor": "student_id",
+        "id": "student_id",
+        "width": 110,
+      },
+      Object {
+        "Header": "Username",
+        "accessor": "user_name",
+        "id": "user_name",
+        "width": 145,
+      },
+      Object {
+        "Header": "Grade",
+        "accessor": "grade",
+        "id": "grade",
+        "width": 72,
+      },
+      Object {
+        "Header": "Schools",
+        "accessor": "schools",
+        "id": "schools",
+        "width": 145,
+      },
+      Object {
+        "Header": "Classes",
+        "accessor": "classes",
+        "id": "classes",
+        "width": 145,
+      },
+      Object {
+        "Header": "Enrollment",
+        "accessor": "enrollment",
+        "id": "enrollment",
+        "width": 144,
+      },
+    ]
+  }
+  data={Array []}
+  handleRowCheckboxOnChange={[Function]}
+  hasCheckboxes={true}
+  pageSize={null}
+  renderEmptyTable={[Function]}
+  selectAll={false}
+  sortable={true}
+  toggleAllCheckboxes={[Function]}
+/>
+`;
+
+exports[`<SearchResultsTable /> Should render loadingbar when loading property is true Should render correctly 1`] = `
+<div
+  className="search-results__loading-bar"
+>
+  <LoadingBar />
+</div>
+`;

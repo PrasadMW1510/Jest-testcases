@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectRCSettingContainerDomain should consistently return the rcSettingContainer app state 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    selectedStage: "mockSelectedStage",
+  },
+}
+`;

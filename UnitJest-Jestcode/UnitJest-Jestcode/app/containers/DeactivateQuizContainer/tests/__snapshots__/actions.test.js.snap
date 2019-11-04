@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for deactivateQuizRequest 1`] = `
+Object {
+  "searchOpts": Array [
+    Object {
+      "name": "searchOpts   1",
+    },
+  ],
+  "tableData": Array [
+    Object {
+      "name": "tableData   1",
+    },
+  ],
+  "type": "app/DeactivateQuizContainer/deactivate_quiz_list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for deactivateQuizRequest 2`] = `
+Object {
+  "searchOpts": undefined,
+  "tableData": undefined,
+  "type": "app/DeactivateQuizContainer/deactivate_quiz_list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/DeactivateQuizContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getPostDeactivateRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "app/DeactivateQuizContainer/deactivate-quiz-list-failure",
+}
+`;

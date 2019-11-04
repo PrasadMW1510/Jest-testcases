@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsFourStateCheckbox /> currentCheckboxValue is -1 Expect to render correctly 1`] = `
+<span>
+  <input
+    checked={0}
+    className=""
+    disabled={true}
+    name="settingsFourStateCheckbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="settings-four-state-checkbox__text "
+  >
+    Value is -1
+  </span>
+</span>
+`;
+
+exports[`<SettingsFourStateCheckbox /> currentCheckboxValue is -2 Expect to render correctly 1`] = `
+<span>
+  <input
+    checked={1}
+    className=" settings-four-state-checkbox__checkbox-grey"
+    disabled={false}
+    name="settingsFourStateCheckbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="settings-four-state-checkbox__text-grey "
+  >
+    Value is -2
+  </span>
+</span>
+`;
+
+exports[`<SettingsFourStateCheckbox /> currentCheckboxValue is 0 Expect to render correctly 1`] = `
+<span>
+  <input
+    checked={0}
+    className=""
+    disabled={false}
+    name="settingsFourStateCheckbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="settings-four-state-checkbox__text "
+  >
+    Value is 0
+  </span>
+</span>
+`;
+
+exports[`<SettingsFourStateCheckbox /> currentCheckboxValue is 1 Expect to render correctly 1`] = `
+<span>
+  <input
+    checked={1}
+    className=""
+    disabled={false}
+    name="settingsFourStateCheckbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="settings-four-state-checkbox__text "
+  >
+    Value is 1
+  </span>
+</span>
+`;
+
+exports[`<SettingsFourStateCheckbox /> currentCheckboxValue is 2 Expect to render correctly 1`] = `
+<span>
+  <input
+    checked={1}
+    className=" settings-four-state-checkbox__checkbox-grey"
+    disabled={false}
+    name="settingsFourStateCheckbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    className="settings-four-state-checkbox__text-grey "
+  >
+    Value is 2
+  </span>
+</span>
+`;

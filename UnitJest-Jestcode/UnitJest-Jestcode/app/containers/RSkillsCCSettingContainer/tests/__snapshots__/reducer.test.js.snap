@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rSkillsCCSettingContainerReducer should handle the RSKILLS_TEST_ASSIGNMENT_SAVE_REQUEST_SUCCESS action 1`] = `
+Immutable.Map {
+  error: false,
+  stages: Immutable.List [
+  ],
+  loading: false,
+  programSettings: Immutable.Map {
+  },
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: false,
+}
+`;
+
+exports[`rSkillsCCSettingContainerReducer should handle the RSKILLSCC_DEFAULT_SETTINGS_REQUEST action 1`] = `
+Immutable.Map {
+  error: false,
+  stages: Immutable.List [
+  ],
+  loading: false,
+  programSettings: Immutable.Map {
+  },
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: true,
+}
+`;
+
+exports[`rSkillsCCSettingContainerReducer should handle the RSKILLSCC_DEFAULT_SETTINGS_REQUEST_SUCCESS action 1`] = `
+Immutable.Map {
+  error: false,
+  stages: Immutable.List [
+  ],
+  loading: false,
+  programSettings: Immutable.Map {
+  },
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: false,
+}
+`;
+
+exports[`rSkillsCCSettingContainerReducer should handle the RSKILLSCC_SETTINGS_CONTAINER_LOADING action 1`] = `
+Immutable.Map {
+  error: false,
+  stages: Immutable.List [
+  ],
+  loading: true,
+  programSettings: Immutable.Map {
+  },
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: false,
+}
+`;
+
+exports[`rSkillsCCSettingContainerReducer should handle the RSKILLSCC_SETTINGS_TEST_ASSIGNMENT_REQUEST_SUCCESS action 1`] = `
+Immutable.Map {
+  error: false,
+  stages: Immutable.List [
+    Immutable.Map {
+      stage: Immutable.Map {
+        id: Immutable.List [
+          "A",
+        ],
+        name: Immutable.List [
+          "Stage A",
+        ],
+      },
+    },
+  ],
+  loading: false,
+  programSettings: "mockProgramSettings",
+  defaultProgramSettings: Immutable.Map {
+  },
+  defaultProgramSettingsLoading: false,
+}
+`;

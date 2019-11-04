@@ -1,0 +1,175 @@
+.usage-table__body {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 200px;
+}
+
+.usage-table__head,
+.usage-table__data {
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #fff;
+  border-bottom: 2px solid #ffd300;
+  white-space: nowrap;
+}
+
+.usage-table__head {
+  border: 1px solid #999;
+  background-color: #ffd300;
+}
+
+.usage-table-scroll {
+  position: relative;
+  width: 750px;
+  height: 200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.usage-table__left {
+  color: #ffac1b;
+  font-size: 14px;
+}
+
+.usage-summary__container {
+  height: 200px;
+}
+
+$msg-log-thead-height: 67px;
+
+// Styles that extend the styles provided by ReactTable/SAMTable
+/* stylelint-disable-next-line selector-class-pattern */
+.usage-table > .ReactTable {
+  height: 200px;
+  font-size: 12px;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    background-color: #ffac1b;
+  }
+
+  .rt-thead {
+    background-color: #ffd300;
+    color: #000;
+    height: $msg-log-thead-height;
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-tbody {
+    color: #000;
+  }
+
+  .rt-th {
+    display: flex;
+    height: $msg-log-thead-height;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .rt-tbody,
+  .rt-td {
+    border-bottom: 1px solid #ffd300;
+  }
+
+  .rt-th,
+  .rt-td {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td {
+    height: 22px;
+    font-size: 11px;
+    border-right: initial;
+    border-bottom: 1px solid #ffd300;
+    text-align: center;
+    padding-top: 2px;
+  }
+
+  .rt-td:first-child {
+    text-align: initial;
+    padding-left: 5px;
+  }
+
+  .rt-tfoot {
+    background-color: #ffd300;
+    padding-top: 2px;
+  }
+
+  .rt-tr.-odd {
+    background: #fff;
+  }
+
+  .rt-tr.-even {
+    background: #fff;
+  }
+}
+
+.usage-summary__grid {
+  font-size: 12px;
+  background-color: #fff;
+  height: 190px;
+  border: 1px solid #000;
+  -ms-overflow-style: none;
+}
+
+.usage-summary__grid-header {
+  background-color: #ffd300;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.usage-summary__grid-body {
+  /* stylelint-disable-next-line selector-class-pattern */
+  .ReactVirtualized__Grid {
+    overflow-x: hidden !important;
+    -ms-overflow-style: auto;
+  }
+}
+
+.usage-summary__grid-header--selected {
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.6);
+  background-color: #ffac1b;
+}
+
+.usage-summary__grid-cell {
+  padding: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 140px;
+  white-space: nowrap;
+  border-bottom: 1px solid #ffd300;
+}
+
+.usage-summary__grid-tally {
+  text-align: center;
+  border-bottom: 1px solid #ffd300;
+  height: 20px !important;
+}
+
+.usage-summary__grid-footer {
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+
+.usage-summary__grid-footer-cell {
+  background-color: #ffd300;
+}
+
+.usage-summary__grid-footer-tally {
+  background-color: #ffd300;
+  text-align: center;
+}

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillsCCTestAssignmentSaveSuccessModal /> should render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="rskillscc-test-assignment-modal-save-success"
+>
+  <div
+    className="rskillscc-test-assignment-save-success__container"
+  >
+    <div
+      className="rskillscc-test-assignment-save-success__title"
+    >
+      rBook Flex
+    </div>
+    <div
+      className="rskillscc-test-assignment-save-success__info-container"
+    >
+      <div
+        className="rskillscc-test-assignment-save-success__info"
+      >
+        <div
+          className="rskillscc-test-assignment-save-success__test-name"
+        >
+          Workshop 1
+        </div>
+        <div
+          className="rskillscc-test-assignment-save-success__message"
+        >
+          Placeholder Message
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="rskillscc-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="rskillscc-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<RSkillsCCTestAssignmentSaveSuccessModal /> when redirectToRoster is true should render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="rskillscc-test-assignment-modal-save-success"
+>
+  <div
+    className="rskillscc-test-assignment-save-success__container"
+  >
+    <div
+      className="rskillscc-test-assignment-save-success__title"
+    >
+      rBook Flex
+    </div>
+    <div
+      className="rskillscc-test-assignment-save-success__info-container"
+    >
+      <div
+        className="rskillscc-test-assignment-save-success__info"
+      >
+        <div
+          className="rskillscc-test-assignment-save-success__test-name"
+        >
+          Workshop 1
+        </div>
+        <div
+          className="rskillscc-test-assignment-save-success__message"
+        >
+          Placeholder Message
+        </div>
+        <div
+          className="rskillscc-test-assignment-save-success__unaffected-users-message"
+        >
+          The following students have already been assigned 
+          Workshop 1
+          :
+          <ul
+            className="rskillscc-test-assignment-modal-save-success__list"
+          >
+            <li
+              key="1"
+            >
+              John
+               
+              Doe
+            </li>
+          </ul>
+        </div>
+        <div
+          className="rskillscc-test-assignment-save-success__unenrolled-users-message"
+        >
+          The following students are not enrolled in rSkills Tests:
+          <ul
+            className="rskillscc-test-assignment-modal-save-success__list"
+          >
+            <li
+              key="2"
+            >
+              Jane
+               
+              Doe
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="rskillscc-test-assignment-save-success__ok-button-container"
+  >
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="rskillscc-test-assignment-save-success__ok-button"
+      id="ok"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+      to="/roster"
+    >
+      OK
+    </withRouter(SAMLinkButton)>
+  </div>
+</SAMModal>
+`;

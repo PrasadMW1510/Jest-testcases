@@ -1,0 +1,28 @@
+.book-paginator__navigator {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-right: 7px;
+}
+
+.book-paginator__navigator-item {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.book-paginator__navigator-item-div:focus,
+.book-paginator__navigator-item .result:focus {
+  outline: none;
+}
+
+.book-paginator__navigator-item-div {
+  cursor: pointer;
+  color: #00f;
+  text-decoration: underline;
+}
+
+.search-modal__book-paginator {
+  margin-left: auto;
+  margin-right: 0;
+}

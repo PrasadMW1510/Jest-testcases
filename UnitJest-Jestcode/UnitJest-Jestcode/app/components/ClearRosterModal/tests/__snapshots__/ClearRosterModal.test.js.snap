@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClearRosterModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="clear-roster-modal"
+>
+  <div
+    className="clear-roster-modal__message"
+  >
+    Are you sure you that you want to clear the school roster? This action will deactivate all Teachers, Classes, and Students associated with this School and cannot be undone. HMH strongly recommends that you back up your database before executing this function.
+  </div>
+  <button
+    className="clear-roster-modal__yes-button"
+  >
+    Yes
+  </button>
+  <button
+    className="clear-roster-modal__no-button"
+  >
+    No
+  </button>
+</SAMModal>
+`;

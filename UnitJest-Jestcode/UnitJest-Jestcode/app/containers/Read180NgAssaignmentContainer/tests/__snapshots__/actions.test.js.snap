@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/Read180NgAssaignmentContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for getStudentDetails 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/Read180NgAssaignmentContainer/GET_STUDENT_DETAILS",
+}
+`;
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for getStudentDetailsFailure 1`] = `
+Object {
+  "error": Array [],
+  "type": "app/Read180NgAssaignmentContainer/GET_STUDENTDETAIL_FAILURE",
+}
+`;
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for getStudentDetailsSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/Read180NgAssaignmentContainer/GET_STUDENTDETAIL_SUCCESS",
+}
+`;
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for postSaveNewAssignment 1`] = `
+Object {
+  "data": Array [],
+  "type": "app/Read180NgAssaignmentContainer/POST_NEW_ASSIGNMENT",
+}
+`;
+
+exports[`Read 180 ng Modal Container Action should return the correct constant for postSaveNewAssignmentSuccess 1`] = `
+Object {
+  "data": Array [],
+  "type": "app/Read180NgAssaignmentContainer/POST_NEW_ASSIGNMENT_SUCCESS",
+}
+`;

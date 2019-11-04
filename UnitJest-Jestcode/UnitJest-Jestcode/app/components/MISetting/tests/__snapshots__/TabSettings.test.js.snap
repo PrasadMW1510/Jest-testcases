@@ -1,0 +1,1268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TabSettings /> Expect estimated reading level to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="mi-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="mi-settings__settings-tab-content"
+  >
+    <div
+      className="mi-settings__test-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-text"
+        >
+          Minimum time between completed tests (We recommend using The Math Inventory 3 to 5 times a year for the most accurate measurement of progress.):
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-field"
+        >
+          <span
+            key="1"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              No Minimum
+            </span>
+          </span>
+          <span
+            key="2"
+          >
+            <input
+              checked={true}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="2"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              30 Days
+            </span>
+          </span>
+          <span
+            key="3"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="3"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              60 Days
+            </span>
+          </span>
+          <span
+            key="4"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="4"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              90 Days
+            </span>
+          </span>
+          <span
+            key="5"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="5"
+            />
+          </span>
+          <span
+            className="mi-settings__radio-button-label--medium-margin"
+          >
+            <SettingsTextField
+              disabled={true}
+              fieldClass="mi-settings__text-field"
+              fieldName="custom_days"
+              fieldValue=""
+              key=""
+              label="days"
+              labelClass="mi-settings__text-field-label"
+              labelPosition="right"
+              mixedValue="-2"
+              onBlur={[Function]}
+              onChange={[Function]}
+            />
+          </span>
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="discard_last_incomplete_test"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="discard_last_incomplete_test"
+            checkboxText="Discard last incomplete test (the student will start a new test on next login)"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                ],
+                "uncheckedDisabled": Array [],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="mi-settings__test-experience-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="mi-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="practice_test"
+          fieldValue="-2"
+          id=""
+          label="Require students to take practice questions (3-5 questions):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value="1"
+          >
+            First test only
+          </option>
+          <option
+            key="2"
+            value="2"
+          >
+            All tests
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_quantile"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_quantile"
+          checkboxText="Show student Quantile® after test completion"
+          currentCheckboxValue="-2"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect renderNoSettingsAvailableContent to work correctly 1`] = `
+<SettingsMessage
+  message1="There are no The Reading Inventory settings available for this student"
+/>
+`;
+
+exports[`<TabSettings /> Expect to render mixed values correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="mi-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="mi-settings__settings-tab-content"
+  >
+    <div
+      className="mi-settings__test-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-text"
+        >
+          Minimum time between completed tests (We recommend using The Math Inventory 3 to 5 times a year for the most accurate measurement of progress.):
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-field"
+        >
+          <span
+            key="1"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              No Minimum
+            </span>
+          </span>
+          <span
+            key="2"
+          >
+            <input
+              checked={true}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="2"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              30 Days
+            </span>
+          </span>
+          <span
+            key="3"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="3"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              60 Days
+            </span>
+          </span>
+          <span
+            key="4"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="4"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              90 Days
+            </span>
+          </span>
+          <span
+            key="5"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="5"
+            />
+          </span>
+          <span
+            className="mi-settings__radio-button-label--medium-margin"
+          >
+            <SettingsTextField
+              disabled={true}
+              fieldClass="mi-settings__text-field"
+              fieldName="custom_days"
+              fieldValue=""
+              key=""
+              label="days"
+              labelClass="mi-settings__text-field-label"
+              labelPosition="right"
+              mixedValue="-2"
+              onBlur={[Function]}
+              onChange={[Function]}
+            />
+          </span>
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="discard_last_incomplete_test"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="discard_last_incomplete_test"
+            checkboxText="Discard last incomplete test (the student will start a new test on next login)"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                ],
+                "uncheckedDisabled": Array [],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="mi-settings__test-experience-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="mi-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="practice_test"
+          fieldValue="-2"
+          id=""
+          label="Require students to take practice questions (3-5 questions):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value="1"
+          >
+            First test only
+          </option>
+          <option
+            key="2"
+            value="2"
+          >
+            All tests
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_quantile"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_quantile"
+          checkboxText="Show student Quantile® after test completion"
+          currentCheckboxValue="-2"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_calculator"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_calculator"
+          checkboxText="Turn off calculator. (Without the use of a calculator, students may find that problems are harder than expected.)"
+          currentCheckboxValue="-2"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_reference_sheet"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_reference_sheet"
+          checkboxText="Turn off formulas. (Without referring to formulas when appropriate, students may find that problems are harder than expected.)"
+          currentCheckboxValue="-2"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render no-enrollments correctly for Non-Student 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="mi-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="mi-settings__settings-tab-content"
+  >
+    <div
+      className="mi-settings__test-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-text"
+        >
+          Minimum time between completed tests (We recommend using The Math Inventory 3 to 5 times a year for the most accurate measurement of progress.):
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-field"
+        >
+          <span
+            key="1"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              No Minimum
+            </span>
+          </span>
+          <span
+            key="2"
+          >
+            <input
+              checked={true}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="2"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              30 Days
+            </span>
+          </span>
+          <span
+            key="3"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="3"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              60 Days
+            </span>
+          </span>
+          <span
+            key="4"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="4"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              90 Days
+            </span>
+          </span>
+          <span
+            key="5"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="5"
+            />
+          </span>
+          <span
+            className="mi-settings__radio-button-label--medium-margin"
+          >
+            <SettingsTextField
+              disabled={true}
+              fieldClass="mi-settings__text-field"
+              fieldName="custom_days"
+              fieldValue=""
+              key=""
+              label="days"
+              labelClass="mi-settings__text-field-label"
+              labelPosition="right"
+              mixedValue="-2"
+              onBlur={[Function]}
+              onChange={[Function]}
+            />
+          </span>
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="discard_last_incomplete_test"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="discard_last_incomplete_test"
+            checkboxText="Discard last incomplete test (the student will start a new test on next login)"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                ],
+                "uncheckedDisabled": Array [],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="mi-settings__test-experience-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="mi-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="practice_test"
+          fieldValue="1"
+          id=""
+          label="Require students to take practice questions (3-5 questions):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value="1"
+          >
+            First test only
+          </option>
+          <option
+            key="2"
+            value="2"
+          >
+            All tests
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_quantile"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_quantile"
+          checkboxText="Show student Quantile® after test completion"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render no-enrollments correctly for Student 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="mi-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="mi-settings__settings-tab-content"
+  >
+    <div
+      className="mi-settings__test-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-text"
+        >
+          Minimum time between completed tests (We recommend using The Math Inventory 3 to 5 times a year for the most accurate measurement of progress.):
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-field"
+        >
+          <span
+            key="1"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              No Minimum
+            </span>
+          </span>
+          <span
+            key="2"
+          >
+            <input
+              checked={true}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="2"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              30 Days
+            </span>
+          </span>
+          <span
+            key="3"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="3"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              60 Days
+            </span>
+          </span>
+          <span
+            key="4"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="4"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              90 Days
+            </span>
+          </span>
+          <span
+            key="5"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="5"
+            />
+          </span>
+          <span
+            className="mi-settings__radio-button-label--medium-margin"
+          >
+            <SettingsTextField
+              disabled={true}
+              fieldClass="mi-settings__text-field"
+              fieldName="custom_days"
+              fieldValue=""
+              key=""
+              label="days"
+              labelClass="mi-settings__text-field-label"
+              labelPosition="right"
+              mixedValue="-2"
+              onBlur={[Function]}
+              onChange={[Function]}
+            />
+          </span>
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="discard_last_incomplete_test"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="discard_last_incomplete_test"
+            checkboxText="Discard last incomplete test (the student will start a new test on next login)"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                ],
+                "uncheckedDisabled": Array [],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="mi-settings__test-experience-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="mi-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="practice_test"
+          fieldValue="1"
+          id=""
+          label="Require students to take practice questions (3-5 questions):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value="1"
+          >
+            First test only
+          </option>
+          <option
+            key="2"
+            value="2"
+          >
+            All tests
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_quantile"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_quantile"
+          checkboxText="Show student Quantile® after test completion"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;
+
+exports[`<TabSettings /> Expect to render non-existent cohort correctly 1`] = `
+<SettingsMessage
+  message1="To change The Reading Inventory settings, please select a school, grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<TabSettings /> Expect to render positive enrollments correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="mi-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    The Reading Inventory
+     settings.
+  </span>
+  <div
+    className="mi-settings__settings-tab-content"
+  >
+    <div
+      className="mi-settings__test-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Settings
+      </span>
+      <div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-text"
+        >
+          Minimum time between completed tests (We recommend using The Math Inventory 3 to 5 times a year for the most accurate measurement of progress.):
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="time-between-tests-field"
+        >
+          <span
+            key="1"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              No Minimum
+            </span>
+          </span>
+          <span
+            key="2"
+          >
+            <input
+              checked={true}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="2"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              30 Days
+            </span>
+          </span>
+          <span
+            key="3"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="3"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              60 Days
+            </span>
+          </span>
+          <span
+            key="4"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="4"
+            />
+            <span
+              className="mi-settings__radio-button-label--large-margin"
+            >
+              90 Days
+            </span>
+          </span>
+          <span
+            key="5"
+          >
+            <input
+              checked={false}
+              name="time_between_tests"
+              onChange={[Function]}
+              type="radio"
+              value="5"
+            />
+          </span>
+          <span
+            className="mi-settings__radio-button-label--medium-margin"
+          >
+            <SettingsTextField
+              disabled={true}
+              fieldClass="mi-settings__text-field"
+              fieldName="custom_days"
+              fieldValue=""
+              key=""
+              label="days"
+              labelClass="mi-settings__text-field-label"
+              labelPosition="right"
+              mixedValue="-2"
+              onBlur={[Function]}
+              onChange={[Function]}
+            />
+          </span>
+        </div>
+        <div
+          className="mi-settings__setting"
+          key="discard_last_incomplete_test"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="discard_last_incomplete_test"
+            checkboxText="Discard last incomplete test (the student will start a new test on next login)"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                ],
+                "uncheckedDisabled": Array [],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="mi-settings__test-experience-settings"
+    >
+      <span
+        className="mi-settings__caption"
+      >
+        Test Experience Settings
+      </span>
+      <div
+        className="mi-settings__setting"
+      >
+        <SettingsSelectBox
+          disabled={false}
+          fieldClass=""
+          fieldName="practice_test"
+          fieldValue="1"
+          id=""
+          label="Require students to take practice questions (3-5 questions):"
+          labelClass=""
+          labelPosition="left"
+          mixedValue="-2"
+          onChange={[Function]}
+        >
+          <option
+            key="1"
+            value="1"
+          >
+            First test only
+          </option>
+          <option
+            key="2"
+            value="2"
+          >
+            All tests
+          </option>
+        </SettingsSelectBox>
+      </div>
+      <div
+        className="mi-settings__setting"
+        key="show_quantile"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxName="show_quantile"
+          checkboxText="Show student Quantile® after test completion"
+          currentCheckboxValue="1"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={false}
+  />
+</form>
+`;

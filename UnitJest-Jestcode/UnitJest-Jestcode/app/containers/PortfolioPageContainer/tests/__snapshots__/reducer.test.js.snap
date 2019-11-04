@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioPageContainer reducer should handle GET_STUDENT_SUBMISSION_META_DATA_COUNT 1`] = `
+Immutable.Map {
+  classData: Immutable.List [
+  ],
+  programList: Immutable.List [
+  ],
+  programListforTabs: Immutable.List [
+  ],
+  baseAssignmentData: Immutable.List [
+  ],
+  submissionsCount: undefined,
+  asssubmissionsCount: undefined,
+  selectedClassAssignments: Immutable.List [
+  ],
+  selectedSchoolId: "",
+  studentSubmissions: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/PortfolioPageContainer/UNINITIALIZED_ITEM_COUNT",
+    paginationData: Immutable.Map {
+    },
+  },
+  selectedGradeId: "",
+  rubricDefenitions: Immutable.List [
+  ],
+  newThisWeekCount: undefined,
+  communityClasses: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/PortfolioPageContainer/UNINITIALIZED_ITEM_COUNT",
+    paginationData: Immutable.Map {
+    },
+  },
+  assnewThisWeekCount: undefined,
+  unReadPrograms: undefined,
+  assunReadPrograms: undefined,
+}
+`;
+
+exports[`PortfolioPageContainer reducer should handle SET_ASSIGNMENT_COUNT 1`] = `
+Immutable.Map {
+  classData: Immutable.List [
+  ],
+  programList: Immutable.List [
+  ],
+  programListforTabs: Immutable.List [
+  ],
+  baseAssignmentData: Immutable.List [
+  ],
+  submissionsCount: 0,
+  asssubmissionsCount: undefined,
+  selectedClassAssignments: Immutable.List [
+  ],
+  selectedSchoolId: "",
+  studentSubmissions: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/PortfolioPageContainer/UNINITIALIZED_ITEM_COUNT",
+    paginationData: Immutable.Map {
+    },
+  },
+  selectedGradeId: "",
+  rubricDefenitions: Immutable.List [
+  ],
+  newThisWeekCount: 0,
+  communityClasses: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "container/PortfolioPageContainer/UNINITIALIZED_ITEM_COUNT",
+    paginationData: Immutable.Map {
+    },
+  },
+  assnewThisWeekCount: undefined,
+  unReadPrograms: 0,
+  assunReadPrograms: undefined,
+}
+`;

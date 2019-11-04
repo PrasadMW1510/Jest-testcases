@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintSystem44StudentGoal /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="print-system44__print--here"
+  >
+    <b />
+    <div
+      className="print-system44__modal--title"
+    >
+      System 44 Next Generation
+       
+      <span
+        className="print-system44__modal-title--span"
+      >
+         
+        Student Goals:
+         
+        15/05/2015
+      </span>
+    </div>
+    <div
+      className="print-system44__here--border"
+    >
+      <b>
+        Academic Goals
+      </b>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Decoding
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Spelling
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Independent Reading
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-system44__print--here print-system44__here--margin"
+  >
+    <div
+      className="print-system44__here--border"
+    >
+      <b>
+        Behavioral Goals
+      </b>
+      <div>
+        <div
+          className="print-system44__here--contents"
+          key="y"
+        >
+          <b
+            className="print-system44__border-heading--first"
+          >
+            Y
+          </b>
+          <div
+            className="print-system44__here-middle--content"
+          >
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Whole Group: 
+              0
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Small Group: 
+              0
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Independent Reading: 
+              0
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Software: 
+              0
+            </div>
+          </div>
+          <div>
+            Total points earned: 
+            5
+          </div>
+          <div
+            className="clear"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PrintSystem44StudentGoal /> Expect to render correctly 2`] = `
+<div>
+  <div
+    className="print-system44__print--here"
+  >
+    <b />
+    <div
+      className="print-system44__modal--title"
+    >
+      System 44 Next Generation
+       
+      <span
+        className="print-system44__modal-title--span"
+      >
+         
+        Student Goals:
+         
+      </span>
+    </div>
+    <div
+      className="print-system44__here--border"
+    >
+      <b>
+        Academic Goals
+      </b>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Decoding
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Spelling
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__here--contents"
+      >
+        <b
+          className="print-system44__border-heading--first"
+        >
+          Independent Reading
+        </b>
+        <div
+          className="print-system44__here-middle--content"
+        >
+          <b>
+            Annual Goal:
+          </b>
+          <div>
+            The student will pass 
+             topics with 70% fluency.
+          </div>
+        </div>
+        <div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark1: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark2: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark3: 
+          </div>
+          <div
+            className="print-system44__here--benchmarks"
+          >
+            Banchmark4: 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="print-system44__print--here print-system44__here--margin"
+  >
+    <div
+      className="print-system44__here--border"
+    >
+      <b>
+        Behavioral Goals
+      </b>
+      <div>
+        <div
+          className="print-system44__here--contents"
+          key="y"
+        >
+          <b
+            className="print-system44__border-heading--first"
+          >
+            Y
+          </b>
+          <div
+            className="print-system44__here-middle--content"
+          >
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Whole Group: 
+              -
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Small Group: 
+              -
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Independent Reading: 
+              -
+            </div>
+            <div
+              className="print-system44__here--benchmarks"
+            >
+              Software: 
+              -
+            </div>
+          </div>
+          <div>
+            Total points earned: 
+            -
+          </div>
+          <div
+            className="clear"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

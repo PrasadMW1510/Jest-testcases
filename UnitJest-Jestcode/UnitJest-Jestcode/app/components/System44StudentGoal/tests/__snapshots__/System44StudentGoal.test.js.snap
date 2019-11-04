@@ -1,0 +1,885 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`System44StudentGoal  Expect to render correctly 1`] = `
+<div>
+  <div
+    className="no-print"
+  >
+    <SAMModal
+      contentLabel="activate Quiz"
+      id="pcq"
+      isOpen={true}
+      modalClassModifier="system44-student-goal__modal-system44--modal"
+    >
+      <div
+        className="print-system44__modal-list--wrapper"
+      >
+        <div
+          className="print-system44__modal-list--purple"
+        >
+          <div
+            className="print-system44__modal-list--heading"
+          >
+            qwer
+          </div>
+          <div>
+            <button
+              className="print-system44-modal__button--close"
+              onClick={[Function]}
+            >
+              X
+            </button>
+          </div>
+        </div>
+        <div
+          className="print-system44__modal--title"
+        >
+          System 44 Next Generation
+           
+          <span
+            className="print-system44__modal-title--span"
+          >
+             
+            Student Goals:
+             
+            12/06/2018
+          </span>
+        </div>
+        <AcademicGoals
+          defaultDecodingData={Array []}
+          defaultReadingData={Array []}
+          defaultSpellingData={Array []}
+          enableSaveGoals={false}
+          handleChange={[Function]}
+          handleGoalNameClick={[Function]}
+          handleSaveGoals={[Function]}
+          resetDefault={[Function]}
+          showErrorDecoding={false}
+          showErrorEmptyDecoding={false}
+          showErrorEmptyReading={false}
+          showErrorEmptySpelling={false}
+          showErrorProgressiveDecoding={false}
+          showErrorProgressiveReading={false}
+          showErrorProgressiveSpelling={false}
+          showErrorReading={false}
+          showErrorSpelling={false}
+          system44StudentGoalDecoding={Array []}
+          system44StudentGoalReading={Array []}
+          system44StudentGoalSpelling={Array []}
+        />
+        <BehaviouralGoals
+          behaviouralGoalsControls={
+            Array [
+              Object {
+                "goal_name": Array [
+                  "responsibility",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+              Object {
+                "goal_name": Array [
+                  "respect",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+              Object {
+                "goal_name": Array [
+                  "effort",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+            ]
+          }
+          data={
+            Object {
+              "location": Object {
+                "pathname": "/portfolio/studentGoals",
+              },
+              "metaData": Array [
+                Object {
+                  "date": "2018-06-12T",
+                  "student": "qwert",
+                  "student_name": "qwer",
+                },
+              ],
+              "selectedIndex": 0,
+            }
+          }
+          enableSaveBehaviouralGoals={false}
+          handleBehaviourInputChange={[Function]}
+          handleOpenLastAssesment={[Function]}
+          handleSaveBehaviourGoals={[Function]}
+        />
+        <div
+          className="print-activate-quiz__buttons"
+        >
+          <div
+            className="print-activate-quiz__primary-button"
+          >
+            <div
+              className="print-system44-modal__buttons--firstset1"
+            >
+              <button
+                className="print-system44__modal-button--firstset print-system44-modal-button-print"
+                onClick={[Function]}
+              >
+                Print
+              </button>
+              <button
+                className="print-system44__modal-button--firstset print-system44-modal-button-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <div
+                className="system44-pagination"
+              >
+                <div
+                  className="pager"
+                >
+                  <div
+                    className="pager-prev"
+                  >
+                    <a
+                      className="previous"
+                      href=""
+                      onClick={[Function]}
+                    >
+                       
+                      &lt;
+                       
+                    </a>
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     
+                    1
+                     
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     of 
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     
+                    1
+                     
+                  </div>
+                  <div
+                    className="pager-prev"
+                  >
+                    <a
+                      className="previous"
+                      href=""
+                      onClick={[Function]}
+                    >
+                       
+                      &gt;
+                       
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <SAMModal
+          contentLabel="SAM Modal"
+          isOpen={false}
+          modalClassModifier="print-system44-modal__cancel--warning"
+        >
+          <div
+            className="print-system44-modal__warning-heading-last--assessment"
+          >
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            >
+              Warning 
+            </div>
+            <div
+              className="print-system44-modal__warning-heading-last-assessment--txt1"
+            >
+              You have unsaved changes. Do you want to leave the screen without saving them?
+            </div>
+            <div
+              className="print-system44-modal__buttons--firstset2"
+            >
+              <button
+                className="print-system44__modal-button--firstset print-system44__modal-button--yes"
+                onClick={[Function]}
+              >
+                Yes
+              </button>
+              <button
+                className="print-system44__modal-button--firstset print-system44__modal-button--no"
+              >
+                No
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+        <SAMModal
+          contentLabel="SAM Modal"
+          isOpen={false}
+          modalClassModifier="print-system44-modal-warning-heading-layout print-system44-modal-warning-heading-undefined"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading--wrapper "
+            >
+              <div
+                className="print-system44-modal__warning--heading"
+              >
+                 
+              </div>
+              <button
+                className="print-system44-modal-warning-heading__button--close"
+                onClick={[Function]}
+              >
+                X
+              </button>
+            </div>
+            <div
+              className="print-system44-modal-warning-heading__warning--txt"
+            />
+          </div>
+        </SAMModal>
+        <PreviousBehaviouralGoalsModal
+          data={
+            Object {
+              "location": Object {
+                "pathname": "/portfolio/studentGoals",
+              },
+              "metaData": Array [
+                Object {
+                  "date": "2018-06-12T",
+                  "student": "qwert",
+                  "student_name": "qwer",
+                },
+              ],
+              "selectedIndex": 0,
+            }
+          }
+          handleOpenLastAssesment={[Function]}
+          previousAssesmentsData={null}
+          showLastAssesmentModal={false}
+        />
+        <SAMModal
+          contentLabel="SAM Modal"
+          modalClassModifier="system44-cancel-warning"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            />
+            <div
+              className="print-system44__modal--content"
+            >
+              Goals
+               Saved
+            </div>
+            <div
+              className="print-system44__modal-save-status--buttons"
+            >
+              <button
+                className="print-system44__modal-save-status--button"
+                onClick={[Function]}
+              >
+                Ok
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+        <SAMModal
+          contentLabel="SAM Modal"
+          modalClassModifier="system44-cancel-warning"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            />
+            <div
+              className="print-system44__modal--content"
+            >
+              Assessment
+               Saved
+            </div>
+            <div
+              className="print-system44__modal-save-status--buttons"
+            >
+              <button
+                className="print-system44__modal-save-status--button"
+                onClick={[Function]}
+              >
+                Ok
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+      </div>
+    </SAMModal>
+  </div>
+  <PrintSystem44StudentGoal
+    behaviouralGoalsControls={
+      Array [
+        Object {
+          "goal_name": Array [
+            "responsibility",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+        Object {
+          "goal_name": Array [
+            "respect",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+        Object {
+          "goal_name": Array [
+            "effort",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+      ]
+    }
+    currentPageIndex={0}
+    data={
+      Object {
+        "location": Object {
+          "pathname": "/portfolio/studentGoals",
+        },
+        "metaData": Array [
+          Object {
+            "date": "2018-06-12T",
+            "student": "qwert",
+            "student_name": "qwer",
+          },
+        ],
+        "selectedIndex": 0,
+      }
+    }
+    lastAssementDateAcademicGoal={null}
+    system44StudentGoalDecoding={Array []}
+    system44StudentGoalReading={Array []}
+    system44StudentGoalSpelling={Array []}
+  />
+</div>
+`;
+
+exports[`System44StudentGoal  Expect to render correctly 2`] = `
+<div>
+  <div
+    className="no-print"
+  >
+    <SAMModal
+      contentLabel="activate Quiz"
+      id="pcq"
+      isOpen={true}
+      modalClassModifier="system44-student-goal__modal-system44--modal"
+    >
+      <div
+        className="print-system44__modal-list--wrapper"
+      >
+        <div
+          className="print-system44__modal-list--purple"
+        >
+          <div
+            className="print-system44__modal-list--heading"
+          >
+            qwer
+          </div>
+          <div>
+            <button
+              className="print-system44-modal__button--close"
+              onClick={[Function]}
+            >
+              X
+            </button>
+          </div>
+        </div>
+        <div
+          className="print-system44__modal--title"
+        >
+          System 44 Next Generation
+           
+          <span
+            className="print-system44__modal-title--span"
+          >
+             
+            Student Goals:
+             
+            12/06/2018
+          </span>
+        </div>
+        <AcademicGoals
+          defaultDecodingData={Array []}
+          defaultReadingData={Array []}
+          defaultSpellingData={Array []}
+          enableSaveGoals={false}
+          handleChange={[Function]}
+          handleGoalNameClick={[Function]}
+          handleSaveGoals={[Function]}
+          resetDefault={[Function]}
+          showErrorDecoding={false}
+          showErrorEmptyDecoding={false}
+          showErrorEmptyReading={false}
+          showErrorEmptySpelling={false}
+          showErrorProgressiveDecoding={false}
+          showErrorProgressiveReading={false}
+          showErrorProgressiveSpelling={false}
+          showErrorReading={false}
+          showErrorSpelling={false}
+          system44StudentGoalDecoding={Array []}
+          system44StudentGoalReading={Array []}
+          system44StudentGoalSpelling={Array []}
+        />
+        <BehaviouralGoals
+          behaviouralGoalsControls={
+            Array [
+              Object {
+                "goal_name": Array [
+                  "responsibility",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+              Object {
+                "goal_name": Array [
+                  "respect",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+              Object {
+                "goal_name": Array [
+                  "effort",
+                ],
+                "independent_reading_score": Array [
+                  0,
+                ],
+                "small_group_score": Array [
+                  0,
+                ],
+                "software_score": Array [
+                  0,
+                ],
+                "total": 0,
+                "whole_group_score": Array [
+                  0,
+                ],
+              },
+            ]
+          }
+          data={
+            Object {
+              "location": Object {
+                "pathname": "/portfolio/studentGoals",
+              },
+              "metaData": Array [
+                Object {
+                  "date": "2018-06-12T",
+                  "student": "qwert",
+                  "student_name": "qwer",
+                },
+              ],
+              "selectedIndex": 0,
+            }
+          }
+          enableSaveBehaviouralGoals={false}
+          handleBehaviourInputChange={[Function]}
+          handleOpenLastAssesment={[Function]}
+          handleSaveBehaviourGoals={[Function]}
+        />
+        <div
+          className="print-activate-quiz__buttons"
+        >
+          <div
+            className="print-activate-quiz__primary-button"
+          >
+            <div
+              className="print-system44-modal__buttons--firstset1"
+            >
+              <button
+                className="print-system44__modal-button--firstset print-system44-modal-button-print"
+                onClick={[Function]}
+              >
+                Print
+              </button>
+              <button
+                className="print-system44__modal-button--firstset print-system44-modal-button-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <div
+                className="system44-pagination"
+              >
+                <div
+                  className="pager"
+                >
+                  <div
+                    className="pager-prev"
+                  >
+                    <a
+                      className="previous"
+                      href=""
+                      onClick={[Function]}
+                    >
+                       
+                      &lt;
+                       
+                    </a>
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     
+                    1
+                     
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     of 
+                  </div>
+                  <div
+                    className="pager-nor"
+                  >
+                     
+                    1
+                     
+                  </div>
+                  <div
+                    className="pager-prev"
+                  >
+                    <a
+                      className="previous"
+                      href=""
+                      onClick={[Function]}
+                    >
+                       
+                      &gt;
+                       
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <SAMModal
+          contentLabel="SAM Modal"
+          isOpen={false}
+          modalClassModifier="print-system44-modal__cancel--warning"
+        >
+          <div
+            className="print-system44-modal__warning-heading-last--assessment"
+          >
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            >
+              Warning 
+            </div>
+            <div
+              className="print-system44-modal__warning-heading-last-assessment--txt1"
+            >
+              You have unsaved changes. Do you want to leave the screen without saving them?
+            </div>
+            <div
+              className="print-system44-modal__buttons--firstset2"
+            >
+              <button
+                className="print-system44__modal-button--firstset print-system44__modal-button--yes"
+                onClick={[Function]}
+              >
+                Yes
+              </button>
+              <button
+                className="print-system44__modal-button--firstset print-system44__modal-button--no"
+              >
+                No
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+        <SAMModal
+          contentLabel="SAM Modal"
+          isOpen={false}
+          modalClassModifier="print-system44-modal-warning-heading-layout print-system44-modal-warning-heading-undefined"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading--wrapper "
+            >
+              <div
+                className="print-system44-modal__warning--heading"
+              >
+                 
+              </div>
+              <button
+                className="print-system44-modal-warning-heading__button--close"
+                onClick={[Function]}
+              >
+                X
+              </button>
+            </div>
+            <div
+              className="print-system44-modal-warning-heading__warning--txt"
+            />
+          </div>
+        </SAMModal>
+        <PreviousBehaviouralGoalsModal
+          data={
+            Object {
+              "location": Object {
+                "pathname": "/portfolio/studentGoals",
+              },
+              "metaData": Array [
+                Object {
+                  "date": "2018-06-12T",
+                  "student": "qwert",
+                  "student_name": "qwer",
+                },
+              ],
+              "selectedIndex": 0,
+            }
+          }
+          handleOpenLastAssesment={[Function]}
+          previousAssesmentsData={null}
+          showLastAssesmentModal={false}
+        />
+        <SAMModal
+          contentLabel="SAM Modal"
+          modalClassModifier="system44-cancel-warning"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            />
+            <div
+              className="print-system44__modal--content"
+            >
+              Goals
+               Saved
+            </div>
+            <div
+              className="print-system44__modal-save-status--buttons"
+            >
+              <button
+                className="print-system44__modal-save-status--button"
+                onClick={[Function]}
+              >
+                Ok
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+        <SAMModal
+          contentLabel="SAM Modal"
+          modalClassModifier="system44-cancel-warning"
+        >
+          <div>
+            <div
+              className="print-system44-modal__warning-heading-last--assessment"
+            />
+            <div
+              className="print-system44__modal--content"
+            >
+              Assessment
+               Saved
+            </div>
+            <div
+              className="print-system44__modal-save-status--buttons"
+            >
+              <button
+                className="print-system44__modal-save-status--button"
+                onClick={[Function]}
+              >
+                Ok
+              </button>
+            </div>
+          </div>
+        </SAMModal>
+      </div>
+    </SAMModal>
+  </div>
+  <PrintSystem44StudentGoal
+    behaviouralGoalsControls={
+      Array [
+        Object {
+          "goal_name": Array [
+            "responsibility",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+        Object {
+          "goal_name": Array [
+            "respect",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+        Object {
+          "goal_name": Array [
+            "effort",
+          ],
+          "independent_reading_score": Array [
+            0,
+          ],
+          "small_group_score": Array [
+            0,
+          ],
+          "software_score": Array [
+            0,
+          ],
+          "total": 0,
+          "whole_group_score": Array [
+            0,
+          ],
+        },
+      ]
+    }
+    currentPageIndex={0}
+    data={
+      Object {
+        "location": Object {
+          "pathname": "/portfolio/studentGoals",
+        },
+        "metaData": Array [
+          Object {
+            "date": "2018-06-12T",
+            "student": "qwert",
+            "student_name": "qwer",
+          },
+        ],
+        "selectedIndex": 0,
+      }
+    }
+    lastAssementDateAcademicGoal={null}
+    system44StudentGoalDecoding={Array []}
+    system44StudentGoalReading={Array []}
+    system44StudentGoalSpelling={Array []}
+  />
+</div>
+`;

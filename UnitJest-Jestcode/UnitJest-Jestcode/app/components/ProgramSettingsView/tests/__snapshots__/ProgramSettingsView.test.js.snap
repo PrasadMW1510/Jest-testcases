@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsView /> expect to render FADSettingsContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel fad-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render IreadSettingsContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel s44jr-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render R180EESettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel r180-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={27}
+      enrollmentDetails={
+        Array [
+          Object {
+            "applicationId": "R180_A",
+            "enrollmentCount": 2,
+          },
+          Object {
+            "applicationId": "R180_B",
+            "enrollmentCount": 3,
+          },
+          Object {
+            "applicationId": "R180_C",
+            "enrollmentCount": 4,
+          },
+          Object {
+            "applicationId": "R180_A_Upsell",
+            "enrollmentCount": 5,
+          },
+          Object {
+            "applicationId": "R180_B_Upsell",
+            "enrollmentCount": 6,
+          },
+          Object {
+            "applicationId": "R180_C_Upsell",
+            "enrollmentCount": 7,
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render R180NGSettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel r180ng-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render RISettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel sri-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render RSkillsCCSettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel rtng-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render S44NGSettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel s44ng-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={87}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render S44SettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel s44-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> expect to render XSkillsSettingContainer Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel xt-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={9}
+      highestEnrolledCourse="XT_II"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramSettingsView /> props.selectedProgram is not an empty object Expect to render correctly 1`] = `
+<div
+  className="program-settings-content-panel dtm-settings-content-panel"
+>
+  <div
+    className="program-settings-header"
+  >
+    <span
+      className="program-settings-header__name"
+    >
+       
+      Program Settings
+    </span>
+    <span
+      className="program-settings__product-code--available"
+    >
+       
+      productCode missing. click ReturnToProfile, ISGTC-1115
+    </span>
+    <img
+      className="program-settings-header__image"
+      src="/b4dced4348bdc9fa80024292c7926954.png"
+    />
+    <LoadableComponent
+      enrollmentCount={0}
+    />
+  </div>
+</div>
+`;

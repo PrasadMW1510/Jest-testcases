@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search Results Container selector should select the search Results 1`] = `
+Immutable.Map {
+  searchResultsContainer: Immutable.Map {
+    name: "test",
+  },
+}
+`;

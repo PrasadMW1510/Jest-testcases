@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherMadeQuizContainer Saga deleteTeacherMadeQuizRequest having quizid deleteTeacherMadeQuizRequest fails 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteTeacherMadeQuizRequest having quizid deleteTeacherMadeQuizRequest fails 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<DeleteTeacherMadeQuizReq><Delete><QuizID>hghgh</QuizID></Delete></DeleteTeacherMadeQuizReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteTeacherMadeQuizRequest having quizid getSearchResultsRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteTeacherMadeQuizRequest having quizid getSearchResultsRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<DeleteTeacherMadeQuizReq><Delete><QuizID>hghgh</QuizID></Delete></DeleteTeacherMadeQuizReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizDetailRequest having value getInstalledQuizDetailDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizDetailRequest having value getInstalledQuizDetailDataRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "GetQuizWithQuestionsReq": Object {
+          "QuizID": undefined,
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizRequest having postData getInstalledQuizDetailDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizRequest having postData getInstalledQuizDetailDataRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "SrcQuizReq": Object {
+          "Book": Object {
+            "Author": Object {
+              "FirstName": "authfirstname",
+              "LastName": "authlastname",
+            },
+            "Copies": 0,
+            "GRL": "Z",
+            "IsFiction": 1,
+            "Lexile": "25",
+            "Points": 0,
+            "ReadingLevel": "7",
+            "Title": "Welcome1",
+            "WordCount": "9000",
+          },
+        },
+        "output_data": Array [
+          Object {
+            "SetQuizResp": Array [
+              Object {
+                "QuizID": Array [
+                  "egdhj",
+                  "hgf",
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizRequest having postData getInstalledQuizDetailDataRequestSuccess fails 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga postTeacherMadeQuizRequest having postData getInstalledQuizDetailDataRequestSuccess fails 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "SrcQuizReq": Object {
+          "Book": Object {
+            "Author": Object {
+              "FirstName": "authfirstname",
+              "LastName": "authlastname",
+            },
+            "Copies": 0,
+            "GRL": "Z",
+            "IsFiction": 1,
+            "Lexile": "25",
+            "Points": 0,
+            "ReadingLevel": "7",
+            "Title": "Welcome1",
+            "WordCount": "9000",
+          },
+        },
+        "output_data": Array [
+          Object {
+            "SetQuizResp": Array [
+              Object {
+                "QuizID": Array [],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageLog /> Should render correctly 1`] = `
+<MessageLog
+  handleDeleteOnClick={[Function]}
+  messages={Array []}
+  onShowMeClick={[Function]}
+  productsAvailable={Array []}
+>
+  <div
+    className="msg-log"
+  >
+    <MessageLogFilter
+      handleProductFilter={[Function]}
+      productsAvailable={Array []}
+    >
+      <div
+        className="msg-log-filter"
+      >
+        <span>
+          Filter by: 
+        </span>
+        <select
+          className="msg-log-filter__select"
+          onChange={[Function]}
+        >
+          <option
+            key="defaultValue"
+            value="all_prods"
+          >
+            All Products
+          </option>
+        </select>
+      </div>
+    </MessageLogFilter>
+    <MessageLogTable
+      handleRowCheckboxOnChange={[Function]}
+      messageIdsChecked={Array []}
+      messages={Array []}
+      onShowMeClick={[Function]}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    >
+      <SAMTable
+        checkedIds={Array []}
+        className="msg-log-table"
+        columns={
+          Array [
+            Object {
+              "Header": "Type",
+              "accessor": "type",
+              "width": 40,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Message",
+              "accessor": [Function],
+              "getProps": [Function],
+              "id": "message",
+              "width": 450,
+            },
+            Object {
+              "Header": "Product",
+              "accessor": [Function],
+              "id": "product",
+              "width": 100,
+            },
+            Object {
+              "Header": "Date",
+              "accessor": [Function],
+              "id": "date",
+            },
+          ]
+        }
+        data={Array []}
+        handleRowCheckboxOnChange={[Function]}
+        hasCheckboxes={true}
+        pageSize={0}
+        renderEmptyTable={[Function]}
+        selectAll={false}
+        sortable={true}
+        toggleAllCheckboxes={[Function]}
+      >
+        <div
+          className="msg-log-table"
+        >
+          <RTSelectTable
+            SelectAllInputComponent={[Function]}
+            SelectInputComponent={[Function]}
+            TbodyComponent={[Function]}
+            checkedIds={Array []}
+            className="msg-log-table"
+            columns={
+              Array [
+                Object {
+                  "Header": "Type",
+                  "accessor": "type",
+                  "width": 40,
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Message",
+                  "accessor": [Function],
+                  "getProps": [Function],
+                  "id": "message",
+                  "width": 450,
+                },
+                Object {
+                  "Header": "Product",
+                  "accessor": [Function],
+                  "id": "product",
+                  "width": 100,
+                },
+                Object {
+                  "Header": "Date",
+                  "accessor": [Function],
+                  "id": "date",
+                },
+              ]
+            }
+            data={Array []}
+            defaultSortMethod={[Function]}
+            handleRowCheckboxOnChange={[Function]}
+            hasCheckboxes={true}
+            isSelected={[Function]}
+            keyField="_id"
+            pageSize={0}
+            renderEmptyTable={[Function]}
+            resizable={false}
+            selectAll={false}
+            selectType="checkbox"
+            showPagination={false}
+            sortable={true}
+            toggleAll={[Function]}
+            toggleAllCheckboxes={[Function]}
+            toggleSelection={[Function]}
+          >
+            <ReactTable
+              AggregatedComponent={[Function]}
+              ExpanderComponent={[Function]}
+              FilterComponent={[Function]}
+              LoadingComponent={[Function]}
+              NoDataComponent={[Function]}
+              PadRowComponent={[Function]}
+              PaginationComponent={[Function]}
+              PivotValueComponent={[Function]}
+              ResizerComponent={[Function]}
+              TableComponent={[Function]}
+              TbodyComponent={[Function]}
+              TdComponent={[Function]}
+              TfootComponent={[Function]}
+              ThComponent={[Function]}
+              TheadComponent={[Function]}
+              TrComponent={[Function]}
+              TrGroupComponent={[Function]}
+              aggregatedKey="_aggregated"
+              checkedIds={Array []}
+              className="msg-log-table"
+              collapseOnDataChange={true}
+              collapseOnPageChange={true}
+              collapseOnSortingChange={true}
+              column={
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": undefined,
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                }
+              }
+              columns={
+                Array [
+                  Object {
+                    "Cell": [Function],
+                    "Header": [Function],
+                    "accessor": [Function],
+                    "filterable": false,
+                    "id": "_selector",
+                    "resizable": false,
+                    "sortable": false,
+                    "style": Object {
+                      "textAlign": "center",
+                    },
+                    "width": 30,
+                  },
+                  Object {
+                    "Header": "Type",
+                    "accessor": "type",
+                    "width": 40,
+                  },
+                  Object {
+                    "Cell": [Function],
+                    "Header": "Message",
+                    "accessor": [Function],
+                    "getProps": [Function],
+                    "id": "message",
+                    "width": 450,
+                  },
+                  Object {
+                    "Header": "Product",
+                    "accessor": [Function],
+                    "id": "product",
+                    "width": 100,
+                  },
+                  Object {
+                    "Header": "Date",
+                    "accessor": [Function],
+                    "id": "date",
+                  },
+                ]
+              }
+              data={Array []}
+              defaultExpanded={Object {}}
+              defaultFilterMethod={[Function]}
+              defaultFiltered={Array []}
+              defaultPageSize={20}
+              defaultResized={Array []}
+              defaultSortDesc={false}
+              defaultSortMethod={[Function]}
+              defaultSorted={Array []}
+              expanderDefaults={
+                Object {
+                  "filterable": false,
+                  "resizable": false,
+                  "sortable": false,
+                  "width": 35,
+                }
+              }
+              filterable={false}
+              freezeWhenExpanded={false}
+              getLoadingProps={[Function]}
+              getNoDataProps={[Function]}
+              getPaginationProps={[Function]}
+              getProps={[Function]}
+              getResizerProps={[Function]}
+              getTableProps={[Function]}
+              getTbodyProps={[Function]}
+              getTdProps={[Function]}
+              getTfootProps={[Function]}
+              getTfootTdProps={[Function]}
+              getTfootTrProps={[Function]}
+              getTheadFilterProps={[Function]}
+              getTheadFilterThProps={[Function]}
+              getTheadFilterTrProps={[Function]}
+              getTheadGroupProps={[Function]}
+              getTheadGroupThProps={[Function]}
+              getTheadGroupTrProps={[Function]}
+              getTheadProps={[Function]}
+              getTheadThProps={[Function]}
+              getTheadTrProps={[Function]}
+              getTrGroupProps={[Function]}
+              getTrProps={[Function]}
+              groupedByPivotKey="_groupedByPivot"
+              handleRowCheckboxOnChange={[Function]}
+              hasCheckboxes={true}
+              indexKey="_index"
+              loading={false}
+              loadingText="Loading..."
+              multiSort={true}
+              nestingLevelKey="_nestingLevel"
+              nextText="Next"
+              noDataText="No rows found"
+              ofText="of"
+              onFetchData={[Function]}
+              originalKey="_original"
+              pageSize={0}
+              pageSizeOptions={
+                Array [
+                  5,
+                  10,
+                  20,
+                  25,
+                  50,
+                  100,
+                ]
+              }
+              pageText="Page"
+              pivotDefaults={Object {}}
+              pivotIDKey="_pivotID"
+              pivotValKey="_pivotVal"
+              previousText="Previous"
+              renderEmptyTable={[Function]}
+              resizable={false}
+              rowsText="rows"
+              showPageJump={true}
+              showPageSizeOptions={true}
+              showPagination={false}
+              showPaginationBottom={true}
+              showPaginationTop={false}
+              sortable={true}
+              style={Object {}}
+              subRowsKey="_subRows"
+              toggleAllCheckboxes={[Function]}
+            >
+              <div
+                className="ReactTable msg-log-table"
+                style={Object {}}
+              >
+                <Table
+                  className=""
+                >
+                  <div
+                    className="rt-table"
+                  >
+                    <Thead
+                      className="-header"
+                      style={
+                        Object {
+                          "minWidth": "720px",
+                        }
+                      }
+                    >
+                      <div
+                        className="rt-thead -header"
+                        style={
+                          Object {
+                            "minWidth": "720px",
+                          }
+                        }
+                      >
+                        <Tr>
+                          <div
+                            className="rt-tr"
+                          >
+                            <ThComponent
+                              className=""
+                              key="0-_selector"
+                              style={
+                                Object {
+                                  "flex": "30 0 auto",
+                                  "maxWidth": "30px",
+                                  "width": "30px",
+                                }
+                              }
+                              toggleSort={[Function]}
+                            >
+                              <div
+                                className="rt-th"
+                                onClick={[Function]}
+                                role="heading"
+                                style={
+                                  Object {
+                                    "flex": "30 0 auto",
+                                    "maxWidth": "30px",
+                                    "width": "30px",
+                                  }
+                                }
+                              >
+                                <div
+                                  className=""
+                                >
+                                  <defaultSelectInputComponent
+                                    checked={false}
+                                    onClick={[Function]}
+                                    selectType="checkbox"
+                                  >
+                                    <input
+                                      checked={false}
+                                      onChange={[Function]}
+                                      onClick={[Function]}
+                                      type="checkbox"
+                                    />
+                                  </defaultSelectInputComponent>
+                                </div>
+                              </div>
+                            </ThComponent>
+                            <ThComponent
+                              className=" -cursor-pointer"
+                              key="1-type"
+                              style={
+                                Object {
+                                  "flex": "40 0 auto",
+                                  "maxWidth": "40px",
+                                  "width": "40px",
+                                }
+                              }
+                              toggleSort={[Function]}
+                            >
+                              <div
+                                className="rt-th  -cursor-pointer"
+                                onClick={[Function]}
+                                role="heading"
+                                style={
+                                  Object {
+                                    "flex": "40 0 auto",
+                                    "maxWidth": "40px",
+                                    "width": "40px",
+                                  }
+                                }
+                              >
+                                <div
+                                  className=""
+                                >
+                                  Type
+                                </div>
+                              </div>
+                            </ThComponent>
+                            <ThComponent
+                              className=" -cursor-pointer"
+                              key="2-message"
+                              style={
+                                Object {
+                                  "flex": "450 0 auto",
+                                  "maxWidth": "450px",
+                                  "width": "450px",
+                                }
+                              }
+                              toggleSort={[Function]}
+                            >
+                              <div
+                                className="rt-th  -cursor-pointer"
+                                onClick={[Function]}
+                                role="heading"
+                                style={
+                                  Object {
+                                    "flex": "450 0 auto",
+                                    "maxWidth": "450px",
+                                    "width": "450px",
+                                  }
+                                }
+                              >
+                                <div
+                                  className=""
+                                >
+                                  Message
+                                </div>
+                              </div>
+                            </ThComponent>
+                            <ThComponent
+                              className=" -cursor-pointer"
+                              key="3-product"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                              toggleSort={[Function]}
+                            >
+                              <div
+                                className="rt-th  -cursor-pointer"
+                                onClick={[Function]}
+                                role="heading"
+                                style={
+                                  Object {
+                                    "flex": "100 0 auto",
+                                    "maxWidth": "100px",
+                                    "width": "100px",
+                                  }
+                                }
+                              >
+                                <div
+                                  className=""
+                                >
+                                  Product
+                                </div>
+                              </div>
+                            </ThComponent>
+                            <ThComponent
+                              className=" -cursor-pointer"
+                              key="4-date"
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": null,
+                                  "width": "100px",
+                                }
+                              }
+                              toggleSort={[Function]}
+                            >
+                              <div
+                                className="rt-th  -cursor-pointer"
+                                onClick={[Function]}
+                                role="heading"
+                                style={
+                                  Object {
+                                    "flex": "100 0 auto",
+                                    "maxWidth": null,
+                                    "width": "100px",
+                                  }
+                                }
+                              >
+                                <div
+                                  className=""
+                                >
+                                  Date
+                                </div>
+                              </div>
+                            </ThComponent>
+                          </div>
+                        </Tr>
+                      </div>
+                    </Thead>
+                    <renderEmptyMsgTable
+                      className=""
+                      style={
+                        Object {
+                          "minWidth": "720px",
+                        }
+                      }
+                    >
+                      <div
+                        className="msg-log-table__no-data"
+                      >
+                        <div
+                          className="msg-log-table__no-data-text"
+                        >
+                          You have no messages at this time. If you believe you should have messages, contact your School Technology Coordinator for assistance.
+                        </div>
+                      </div>
+                    </renderEmptyMsgTable>
+                  </div>
+                </Table>
+                <NoData>
+                  <div
+                    className="rt-noData"
+                  >
+                    No rows found
+                  </div>
+                </NoData>
+                <LoadingComponent
+                  loading={false}
+                  loadingText="Loading..."
+                >
+                  <div
+                    className="-loading"
+                  >
+                    <div
+                      className="-loading-inner"
+                    >
+                      Loading...
+                    </div>
+                  </div>
+                </LoadingComponent>
+              </div>
+            </ReactTable>
+          </RTSelectTable>
+        </div>
+      </SAMTable>
+    </MessageLogTable>
+    <div
+      className="msg-log__footer"
+    >
+      <button
+        className="msg-log__delete-btn"
+        onClick={[Function]}
+      >
+        Delete Checked
+      </button>
+    </div>
+  </div>
+</MessageLog>
+`;

@@ -1,0 +1,161 @@
+.manage-admin-accounts__header-text {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.manage-admin-accounts__text-direction {
+  font-size: 12px;
+}
+
+.manage-admin-accounts__link-container {
+  display: flex;
+  font-size: 12px;
+  width: 450px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  justify-content: space-between;
+}
+
+.manage-admin-accounts__link-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.manage-admin-accounts__link {
+  cursor: pointer;
+  color: #00f;
+  margin-bottom: 7px;
+  text-decoration: underline;
+}
+
+.manage-admin-accounts__table-link {
+  cursor: pointer;
+  color: #00f;
+}
+
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-color: #311c00;
+$thead-background-color: #ffb200;
+$thead-clicked-color: #ffa200;
+$odd-table-row-background-color: #fff;
+$even-table-row-background-color: #fff;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.manage-admin-accounts-table > .ReactTable {
+  height: 380px;
+  font-size: 12px;
+  margin-bottom: 30px;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    border-bottom: 1px solid #000;
+    color: $thead-color;
+    font-weight: 700;
+    height: 24px;
+    max-height: 24px;
+  }
+
+  .rt-th {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    font-size: 11px;
+    justify-content: center;
+    max-height: 24px;
+    overflow: hidden;
+    padding: 0;
+    color: #fff;
+    text-overflow: ellipsis;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 3px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-right: 0 solid #000;
+    text-align: center;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td:first-child {
+    text-align: initial;
+    color: #00f;
+    text-decoration: underline;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+    color: #00f;
+    text-decoration: underline;
+  }
+
+  .rt-tr {
+    border-bottom: 1px solid #ffb200;
+    max-height: 30px;
+    text-overflow: ellipsis;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr-group {
+    max-height: 25px;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+
+  // styles for custom elements within SAMTable
+  .manage-admin-accounts-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+
+  .manage-admin-accounts-table__no-data {
+    background-color: #fff;
+    display: inherit;
+    height: 188px;
+    background-color: #fff;
+  }
+
+  .manage-admin-accounts-table__no-data-text {
+    color: #f00;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .manage-admin-accounts-table__cell-enabled {
+    text-align: center;
+  }
+
+  .manage-admin-accounts-table__header-enabled {
+    background-color: #ffd400;
+  }
+}

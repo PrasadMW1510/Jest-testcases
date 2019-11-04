@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMBody /> Expect to render correctly 1`] = `
+<div
+  className="sam-body sam-body--cream"
+/>
+`;

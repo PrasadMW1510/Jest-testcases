@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramAvailableBarContainer /> Should contain a ProgramAvailableBar 1`] = `
+<ProgramAvailableBar
+  items={
+    Array [
+      Object {
+        "array": undefined,
+      },
+      Object {
+        "array": undefined,
+      },
+      Object {
+        "array": undefined,
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,17 @@
+// make the calendar popup appear over the form tabs
+.react-datepicker-popper {
+  z-index: 100;
+}
+
+.sam-datepicker-form-control__input {
+  width: 100%;
+  width: 124px;
+  background-color: #fff;
+  border: 1px #000 solid;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 18px;
+  background-image: url('~images/calendar_20.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+}

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`piSettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle piSettingsContainerRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle piSettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: "mockSettings",
+}
+`;
+
+exports[`piSettingContainerReducer should handle piSettingsSave action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle piSettingsSave action failure 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle schoolSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;
+
+exports[`piSettingContainerReducer should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+}
+`;

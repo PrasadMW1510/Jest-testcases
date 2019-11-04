@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Collapsible /> Expect to render correctly when clicked expand 1`] = `
+<div
+  className="collapsible__wrapper "
+>
+  <div
+    className="collapsible__wrapper-heading"
+    onClick={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <h2
+      className="collapsible-title collapsible-icon collapsible-icon--right-arrow"
+    >
+      Author
+    </h2>
+  </div>
+  <div
+    className="collapsible__wrapper-collapse"
+  >
+    <div
+      className="collapsible__wrapper-body"
+    />
+  </div>
+</div>
+`;

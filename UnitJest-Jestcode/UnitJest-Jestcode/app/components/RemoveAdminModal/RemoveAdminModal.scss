@@ -1,0 +1,35 @@
+.remove-admin-modal__message {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+.remove-admin-modal__yes-button {
+  background-color: #d06021;
+  border-left: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-top: 2px solid hsla(0, 0%, 100%, 0.5);
+  color: #fff;
+  border-radius: 0;
+  width: 90px;
+  float: left;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.remove-admin-modal__no-button {
+  background-color: #a6a6a6;
+  border-left: 2px solid #ccc;
+  border-top: 3px solid #a6a6a6;
+  color: #fff;
+  border-radius: 0;
+  width: 90px;
+  float: right;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.remove-admin-modal {
+  width: 255px;
+  height: 110px;
+  padding: 15px 20px;
+  overflow: hidden;
+}

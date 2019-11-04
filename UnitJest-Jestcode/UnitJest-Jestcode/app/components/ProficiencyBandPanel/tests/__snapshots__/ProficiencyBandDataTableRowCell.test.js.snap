@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProficiencyBandDataTableRowCell editable cell editable cell should render correctly 1`] = `
+<td
+  className="pb-data-table__cell"
+  key="Basic"
+>
+  <div
+    className="pb-data-table-cell__low"
+  >
+    BR
+  </div>
+  <div
+    className="pb-data-table-cell__dash"
+  >
+    -
+  </div>
+  <div
+    className="pb-data-table-cell__high"
+  >
+    100
+  </div>
+</td>
+`;
+
+exports[`ProficiencyBandDataTableRowCell read-only cell should render correctly with invalid highs and no bandValueTranslator 1`] = `
+<td
+  className="pb-data-table__cell"
+  key="Basic"
+>
+  <div
+    className="pb-data-table-cell__low"
+  >
+    -999998
+  </div>
+  <div
+    className="pb-data-table-cell__dash"
+  >
+    -
+  </div>
+  <div
+    className="pb-data-table-cell__high"
+  >
+    NaN
+  </div>
+</td>
+`;
+
+exports[`ProficiencyBandDataTableRowCell read-only cell should render different high/low values correctly 1`] = `
+<td
+  className="pb-data-table__cell"
+  key="Basic"
+>
+  <div
+    className="pb-data-table-cell__low"
+  >
+    BR
+  </div>
+  <div
+    className="pb-data-table-cell__dash"
+  >
+    -
+  </div>
+  <div
+    className="pb-data-table-cell__high"
+  >
+    100
+  </div>
+</td>
+`;
+
+exports[`ProficiencyBandDataTableRowCell read-only cell should render same high/low values correctly 1`] = `
+<td
+  className="pb-data-table__cell"
+  key="Basic"
+>
+  <div
+    className="pb-data-table__cell-single-value"
+  >
+    100
+  </div>
+</td>
+`;
+
+exports[`ProficiencyBandDataTableRowCell read-only cell should render zero high value correctly 1`] = `
+<td
+  className="pb-data-table__cell"
+  key="Basic"
+>
+  <div
+    className="pb-data-table-cell__low"
+  >
+    BR
+  </div>
+  <div
+    className="pb-data-table-cell__dash"
+  >
+    -
+  </div>
+  <div
+    className="pb-data-table-cell__high"
+  >
+    0
+  </div>
+</td>
+`;

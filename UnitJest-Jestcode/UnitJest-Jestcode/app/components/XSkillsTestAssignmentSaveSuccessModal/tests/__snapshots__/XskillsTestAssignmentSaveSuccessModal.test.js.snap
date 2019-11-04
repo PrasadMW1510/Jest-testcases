@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> assignedButIncompleteUsersMsg does have users who are assigned but incomplete 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          1
+           students will take xSkills Test 
+          8
+        </div>
+        <div
+          className="xskills-test-assignment-save-success__details-message"
+        >
+          The following students have already been assigned xSkills Test 
+          8
+          :
+          <ul
+            className="xskills-test-assignment-modal-save-success__list"
+          >
+            <li
+              key="1"
+            >
+              John
+               
+              a
+               
+              Doe
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> assignedButIncompleteUsersMsg does not any assigned But Incomplete users 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          0
+           students will take xSkills Test 
+          8
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> should render correctly 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          0
+           students will take xSkills Test 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> testsAlreadyCompletedMsg does have users who have already completed the test 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          0
+           students will take xSkills Test 
+          8
+        </div>
+        <div
+          className="xskills-test-assignment-save-success__details-message"
+        >
+          The following students are excluded from this assignment because they have already taken xSkills Test 
+          8
+          :
+          <ul
+            className="xskills-test-assignment-modal-save-success__list"
+          >
+            <li
+              key="1"
+            >
+              John
+               
+              a
+               
+              Doe
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> unenrolledUsersMsg does not have any users unenrolled in xSkills Tests 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          0
+           students will take xSkills Test 
+          8
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<XSkillsTestAssignmentSaveSuccessModal /> unenrolledUsersMsg nesxt, does have users who are not enrolled in xSkills Tests 1`] = `
+<SAMModal
+  contentLabel=""
+  modalClassModifier="xskills-test-assignment-modal-save-success"
+>
+  <div
+    className="xskills-test-assignment-save-success__container"
+  >
+    <div
+      className="xskills-test-assignment-save-success__title"
+    />
+    <div
+      className="xskills-test-assignment-save-success__info-container"
+    >
+      <div
+        className="xskills-test-assignment-save-success__info"
+      >
+        <div
+          className="xskills-test-assignment-save-success__message"
+        >
+          On the next login, 
+          0
+           students will take xSkills Test 
+          8
+        </div>
+        <div
+          className="xskills-test-assignment-save-success__details-message"
+        >
+          The following students are not enrolled in xSkills Tests:
+          <ul
+            className="xskills-test-assignment-modal-save-success__list"
+          >
+            <li
+              key="1"
+            >
+              John
+               
+              a
+               
+              Doe
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="xskills-test-assignment-save-success__ok-button-container"
+  >
+    <SAMButton
+      buttonClassModifier="xskills-test-assignment-save-success__ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,94 @@
+.book-quiz-page {
+  background-color: #fee1b4;
+  border: 2px solid #000;
+  margin-top: -3px;
+  margin: -2px 1px 3px 10px;
+  width: 98%;
+}
+
+.quick-search__wrapper {
+  width: 350px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+
+  .form-control {
+    display: inline;
+  }
+
+  .quick-search-para {
+    margin-bottom: 3px;
+    margin-top: 0;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 47px;
+  }
+
+  .quick-search-span {
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 35px;
+  }
+
+  .form-control .quick-search-input {
+    width: 130px;
+    background-color: #fff;
+    font-size: 12px;
+    margin-left: 2px;
+    padding: 0 1px;
+    outline: none;
+    border: 1px solid #000;
+    margin-left: 5px;
+    height: 20px;
+  }
+
+  .form-control .quicksearch-search-btn {
+    font-weight: bold;
+    padding: 2px;
+    width: 28px;
+    color: #fff;
+    height: 22px;
+    font-size: 12px;
+    background: #d06020;
+    margin-left: 10px;
+    border-bottom: 2px #404040 solid;
+    border-left: 2px rgba(255, 255, 255, 0.5) solid;
+    border-right: 2px #000 solid;
+    border-top: 2px rgba(255, 255, 255, 0.5) solid;
+    cursor: pointer;
+  }
+
+  .quicksearch-search-btn:hover {
+    border: 1px solid #000;
+  }
+  
+  .quicksearch-search-btn:focus {
+    outline: 0;
+  }
+
+}
+
+.quick-search__select {
+  background-color: #fff;
+  font-size: 12px;
+  border: 1px solid #000;
+  padding: 0 1px;
+  margin-left: 5px;
+  height: 20px;
+
+  &::after {
+    content: '';
+    width: 10px;
+    height: 100%;
+    background-color: #888;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  option:hover {
+    box-shadow: 0 0 10px 10px #e1358f inset;
+    color: #fff;
+  }
+}

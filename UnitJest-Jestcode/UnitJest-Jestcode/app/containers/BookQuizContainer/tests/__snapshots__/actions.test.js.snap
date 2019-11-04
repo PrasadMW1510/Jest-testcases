@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All actions should return the correct constant for getSearchResultsRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST",
+}
+`;
+
+exports[`All actions should return the correct constant for getSearchResultsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_FAILURE",
+}
+`;
+
+exports[`All actions should return the correct constant for getSearchResultsRequestSuccess 1`] = `
+Object {
+  "searchOpts": Object {},
+  "searchResults": Array [
+    Object {
+      "name": "award 1",
+    },
+  ],
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`All actions should return the correct constant for getSearchResultsRequestSuccess 2`] = `
+Object {
+  "searchOpts": Object {},
+  "searchResults": Array [],
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`All actions should return the correct constant for resetSearchResultsData 1`] = `
+Object {
+  "type": "BookQuizContainer/RESET_SEARCH_RESULTS_REQUEST",
+}
+`;

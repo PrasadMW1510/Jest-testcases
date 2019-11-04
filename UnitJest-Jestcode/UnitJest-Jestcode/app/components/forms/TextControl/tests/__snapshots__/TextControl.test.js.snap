@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextControl /> should render correctly with defaults 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  />
+  <div
+    className="form-control__text"
+  />
+</FormControl>
+`;
+
+exports[`<TextControl /> should render correctly with formatText function 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    mockLabel
+  </FormLabel>
+  <div
+    className="form-control__text"
+  >
+    mockFormattedText
+  </div>
+</FormControl>
+`;
+
+exports[`<TextControl /> should render correctly without formatText function 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    mockLabel
+  </FormLabel>
+  <div
+    className="form-control__text"
+  >
+    mockInputValue
+  </div>
+</FormControl>
+`;

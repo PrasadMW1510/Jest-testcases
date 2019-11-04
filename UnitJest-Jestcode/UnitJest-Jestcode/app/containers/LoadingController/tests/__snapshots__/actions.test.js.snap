@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingController actions should return the correct constant for hideLoading 1`] = `
+Object {
+  "type": "app/LoadingController/HIDE_LOADING",
+}
+`;
+
+exports[`LoadingController actions should return the correct constant for showLoading 1`] = `
+Object {
+  "type": "app/LoadingController/SHOW_LOADING",
+}
+`;

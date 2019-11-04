@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/PermissionsGrantedTable/PermissionsGrantedTable.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/PermissionsGrantedTable</a> PermissionsGrantedTable.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/106</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/51</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/53</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * PermissionsGrantedTable
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMTable <span class="cstat-no" title="statement not covered" >from 'components/SAMTable';<span class="cstat-no" title="statement not covered" ></span></span>
+import { USER_ORG<span class="cstat-no" title="statement not covered" >, USER_TYPE } from 'containers/App/c</span>onstants';
+import * as Consta<span class="cstat-no" title="statement not covered" >nts from './constants';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >import './PermissionsGrantedTable.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class PermissionsGrantedTable extends React.Component {
+  handleCheckboxChange = (checked, id) =&gt; {
+    this.props.onCheckboxChange(checked, id);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span>
+  };
+&nbsp;
+  createTableData = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { permis</span>sions, userOrg<span class="cstat-no" title="statement not covered" > } = this.props;<span class="cstat-no" title="statement not covered" ></span></span>
+    let permissionsObj = nu<span class="cstat-no" title="statement not covered" >ll;</span>
+&nbsp;
+    sw<span class="cstat-no" title="statement not covered" >itch (userOrg) {</span>
+      case USER_ORG.District:
+        pe<span class="cstat-no" title="statement not covered" >rmissionsObj = Constants.DISTRICT_ADMIN_PERMISSIONS;</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case USER_ORG.School:
+        pe<span class="cstat-no" title="statement not covered" >rmissionsObj = Constants.SCHOOL_ADMIN_PERMISSIONS;</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case USER_TYPE.Teacher:
+        pe<span class="cstat-no" title="statement not covered" >rmissionsObj = Constants.TEACHER_PERMISSIONS;</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      default:
+        pe<span class="cstat-no" title="statement not covered" >rmissionsObj = {</span>
+          viewAndEdit: [],
+          allow: [],
+        };
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+    }
+&nbsp;
+    const viewAndEditData = <span class="cstat-no" title="statement not covered" >permissionsObj.viewAndEdit.map(<span class="fstat-no" title="function not covered" >pe</span>rmission =&gt; {</span>
+      const { permissionT<span class="cstat-no" title="statement not covered" >ype, viewId, editId } = pe</span>rmission;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+      re<span class="cstat-no" title="statement not covered" >turn {</span>
+        permission_type: permissionType,
+        view_access: permissions.findIndex(p <span class="fstat-no" title="function not covered" >=&gt;</span> Number(p.id<span class="cstat-no" title="statement not covered" >[0]) === viewId) &gt;= 0,</span>
+        edit_access: permissions.findIndex(p <span class="fstat-no" title="function not covered" >=&gt;</span> Number(p.id<span class="cstat-no" title="statement not covered" >[0]) === editId) &gt;= 0,</span>
+        view_id: viewId,
+        edit_id: editId,
+      };
+    });
+&nbsp;
+    const allowData = <span class="cstat-no" title="statement not covered" >permissionsObj.allow.map(<span class="fstat-no" title="function not covered" >pe</span>rmission =&gt; {</span>
+      const { permissionT<span class="cstat-no" title="statement not covered" >ype, allowId } = permissio</span>n;<span class="cstat-no" title="statement not covered" ></span>
+      re<span class="cstat-no" title="statement not covered" >turn {</span>
+        permission_type: permissionType,
+        allow_access: permissions.findIndex(p <span class="fstat-no" title="function not covered" >=&gt;</span> Number(p.id<span class="cstat-no" title="statement not covered" >[0]) === allowId) &gt;= 0,</span>
+        allow_id: allowId,
+      };
+    });
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn {</span>
+      viewAndEditData,
+      allowData,
+    };
+  };
+&nbsp;
+  renderCheck = (a<span class="fstat-no" title="function not covered" >cc</span>ess, permissionId, position) =&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { editMo</span>de, permiss<span class="cstat-no" title="statement not covered" >ionsChecked, editingSa</span>meAccount } = this.pr<span class="cstat-no" title="statement not covered" >ops;<span class="cstat-no" title="statement not covered" ></span></span>
+    let check = &lt;s<span class="cstat-no" title="statement not covered" >pan className={`permissions-granted-table__${position}-check`} /&gt;;</span>
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (!access) {</span>
+      ch<span class="cstat-no" title="statement not covered" >eck = &lt;span /&gt;;</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (!editMode || !editingSameAccount) {</span>
+      const checked = <span class="cstat-no" title="statement not covered" >permissionsChecked.findIndex(<span class="fstat-no" title="function not covered" >id</span> =&gt; id === pe<span class="cstat-no" title="statement not covered" >rmissionId) &gt;= 0;</span></span>
+      ch<span class="cstat-no" title="statement not covered" >eck = (</span>
+        &lt;input
+          type="checkbox"
+          className="permissions-granted-table__check-mark"
+          checked={checked}
+          onChange={e =&gt; this<span class="fstat-no" title="function not covered" >.handleCh</span>eckb<span class="cstat-no" title="statement not covered" >oxChange(e.target.checked, permissionId)}</span>
+        /&gt;
+      );
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn check;</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+&nbsp;
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    const viewAndEditColumns = <span class="cstat-no" title="statement not covered" >[</span>
+      {
+        Header: '',
+        accessor: 'permission_type',
+        width: 200,
+        Cell: row =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+          &lt;div className="permissions-granted-table__permission-cell"&gt;
+            &lt;span className="permissions-granted-table__permission-text"&gt;
+              {row.original.permission_type}
+            &lt;/span&gt;
+          &lt;/div&gt;
+        ),
+      },
+      {
+        Header: 'View',
+        accessor: 'view_access',
+        width: 75,
+        Cell: row =&gt; th<span class="fstat-no" title="function not covered" >is.re</span>nderCh<span class="cstat-no" title="statement not covered" >eck(row.original.view_access, row.original.view_id, 'top'),</span>
+      },
+      {
+        Header: 'Edit',
+        accessor: 'edit_access',
+        width: 75,
+        Cell: row =&gt; th<span class="fstat-no" title="function not covered" >is.re</span>nderCh<span class="cstat-no" title="statement not covered" >eck(row.original.edit_access, row.original.edit_id, 'top'),</span>
+      },
+    ];
+&nbsp;
+    const allowColumns = <span class="cstat-no" title="statement not covered" >[</span>
+      {
+        Header: '',
+        accessor: 'permission_type',
+        width: 200,
+        Cell: row =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+          &lt;div className="permissions-granted-table__permission-cell"&gt;
+            &lt;span className="permissions-granted-table__permission-text"&gt;
+              {row.original.permission_type}
+            &lt;/span&gt;
+          &lt;/div&gt;
+        ),
+      },
+      {
+        Header: 'Allow',
+        accessor: 'allow_access',
+        width: 75,
+        Cell: row =&gt; th<span class="fstat-no" title="function not covered" >is.re</span>nderCh<span class="cstat-no" title="statement not covered" >eck(row.original.allow_access, row.original.allow_id, 'bottom'),</span>
+      },
+    ];
+&nbsp;
+    const tableData = <span class="cstat-no" title="statement not covered" >this.createTableData();</span>
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;React.Fragment&gt;
+        &lt;SAMTable
+          className="permissions-granted-table permissions-granted-table__view"
+          columns={viewAndEditColumns}
+          data={tableData.viewAndEditData}
+          pageSize={tableData.viewAndEditData.length}
+          sortable={false}
+        /&gt;
+        &lt;SAMTable
+          className="permissions-granted-table permissions-granted-table__allow"
+          columns={allowColumns}
+          data={tableData.allowData}
+          pageSize={tableData.allowData.length}
+          sortable={false}
+        /&gt;
+      &lt;/React.Fragment&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >PermissionsGrantedTable.defaultProps = {</span>
+  userOrg: '',
+  editMode: true,
+  permissionsChecked: [],
+};
+&nbsp;
+<span class="cstat-no" title="statement not covered" >PermissionsGrantedTable.propTypes = {</span>
+  permissions: PropTypes.array.isRequired,
+  editMode: PropTypes.bool.isRequired,
+  onCheckboxChange: PropTypes.func,
+  permissionsChecked: PropTypes.array,
+  editingSameAccount: PropTypes.bool,
+  userOrg: PropTypes.string,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default PermissionsGrantedTable;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

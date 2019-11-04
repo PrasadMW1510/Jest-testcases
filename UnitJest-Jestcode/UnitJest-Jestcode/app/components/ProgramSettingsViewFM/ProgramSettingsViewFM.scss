@@ -1,0 +1,87 @@
+.fm-settings__heading {
+  font-size: 8pt;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.fm-settings__content {
+  background-color: #ffe279;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.fm-settings__section--top,
+.fm-settings__section--middle,
+.fm-settings__section--bottom {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.fm-settings__section--top {
+  height: 30%;
+}
+
+.fm-settings__section--middle {
+  height: 20%;
+}
+
+.fm-settings__section--bottom {
+  height: 50%;
+}
+
+.fm-settings__section-title {
+  font-weight: bold;
+  vertical-align: text-bottom;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 32px;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 7px;
+  z-index: +1;
+}
+
+.fm-settings__section-content {
+  padding-left: 10px;
+}
+
+.fm-settings__section-content-label,
+.fm-settings__section-content-label--orientation,
+.fm-settings__section-content-label--accessibility,
+.fm-settings__section-content-label--language {
+  font-weight: bold;
+}
+
+.fm-settings__section-content-label--orientation {
+  margin-right: 54px;
+}
+
+.fm-settings__section-content-label--accessibility {
+  margin-right: 40px;
+}
+
+.fm-settings__section-content-label--language {
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.fm-settings__section-content-operation-drop-down {
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.fm-settings__section-content-assignment {
+  display: inline-grid;
+  width: 50%;
+}
+
+.fm-settings__radio-label {
+  padding-left: 5px;
+  margin-right: 40px;
+}

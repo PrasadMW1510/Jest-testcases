@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manageInactiveAccountsReducer returns the initial state 1`] = `
+Immutable.Map {
+  inactiveMembers: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`manageInactiveAccountsReducer should handle get inactive cohort members request actions 1`] = `
+Immutable.Map {
+  inactiveMembers: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`manageInactiveAccountsReducer should handle get inactive cohort members request success actions with data 1`] = `
+Immutable.Map {
+  inactiveMembers: Immutable.List [
+    Immutable.Map {
+      enrollment: "",
+      name: "last, first",
+      user_id: "userid",
+      status: "Inactive",
+      last_name: "last",
+      studentId: "sis_id",
+      userName: "username",
+      grade: "",
+      _id: 1,
+      first_name: "first",
+    },
+  ],
+  itemCount: 15,
+  loading: false,
+  paginationData: "some paginated data",
+}
+`;
+
+exports[`manageInactiveAccountsReducer should handle get inactive cohort members request success actions without data 1`] = `
+Immutable.Map {
+  inactiveMembers: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;

@@ -1,0 +1,20 @@
+/* stylelint-disable selector-class-pattern */
+.ReactVirtualized__Grid {
+  font-size: 12px;
+}
+
+.ReactVirtualized__Grid:focus {
+  font-size: 12px;
+  outline: none;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer:focus {
+  outline: none;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  outline: none;
+  width: 100%;
+}
+
+/* stylelint-enable selector-class-pattern */

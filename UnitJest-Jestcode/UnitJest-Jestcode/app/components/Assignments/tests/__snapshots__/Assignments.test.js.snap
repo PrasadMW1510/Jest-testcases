@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Assignments /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="assignment-btn"
+  >
+    <div
+      className="assignments-add-btn"
+      onClick={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Add Assignments
+    </div>
+  </div>
+  <ResultsTable
+    data={
+      Array [
+        Object {
+          "className": "CLAS3Iread",
+          "community_id": "R180NG",
+        },
+      ]
+    }
+    handleClick={[Function]}
+    handleRowSelections={[Function]}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--assignments-savescreen-warning"
+  >
+    <div
+      className="modal--assignments-savewrapper-heading"
+    />
+    <div
+      className="modal--assignments-savewrapper-warning"
+    >
+      Assignments are not available for Math180 Classes.
+      <div
+        className="read180ngsave-innerpage-button modal-assignments-okbtns"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-grade-invalid"
+  >
+    <div>
+      <div
+        className="portfolio-grade-invalid-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-grade-invalid-txt"
+      >
+        iRead Oral Reading Fluency Assessments are available for students in Grade 1 and 2 only.
+      </div>
+      <div
+        className="portfolio-grade-invalid-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Assignments /> Expect to render correctly 2`] = `
+<div>
+  <div
+    className="assignment-btn"
+  >
+    <div
+      className="assignments-add-btn"
+      onClick={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Add Assignments
+    </div>
+  </div>
+  <ResultsTable
+    data={
+      Array [
+        Object {
+          "className": "CLAS3Iread",
+          "community_id": "R180NG",
+        },
+      ]
+    }
+    handleClick={[Function]}
+    handleRowSelections={[Function]}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--assignments-savescreen-warning"
+  >
+    <div
+      className="modal--assignments-savewrapper-heading"
+    />
+    <div
+      className="modal--assignments-savewrapper-warning"
+    >
+      Assignments are not available for Math180 Classes.
+      <div
+        className="read180ngsave-innerpage-button modal-assignments-okbtns"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-grade-invalid"
+  >
+    <div>
+      <div
+        className="portfolio-grade-invalid-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-grade-invalid-txt"
+      >
+        iRead Oral Reading Fluency Assessments are available for students in Grade 1 and 2 only.
+      </div>
+      <div
+        className="portfolio-grade-invalid-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Assignments /> Expect to render correctly 3`] = `
+<div>
+  <div
+    className="assignment-btn"
+  >
+    <div
+      className="assignments-add-btn"
+      onClick={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Add Assignments
+    </div>
+  </div>
+  <ResultsTable
+    data={
+      Array [
+        Object {
+          "className": "CLAS3Iread",
+          "community_id": "R180NG",
+        },
+      ]
+    }
+    handleClick={[Function]}
+    handleRowSelections={[Function]}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--assignments-savescreen-warning"
+  >
+    <div
+      className="modal--assignments-savewrapper-heading"
+    />
+    <div
+      className="modal--assignments-savewrapper-warning"
+    >
+      Assignments are not available for Math180 Classes.
+      <div
+        className="read180ngsave-innerpage-button modal-assignments-okbtns"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-grade-invalid"
+  >
+    <div>
+      <div
+        className="portfolio-grade-invalid-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-grade-invalid-txt"
+      >
+        iRead Oral Reading Fluency Assessments are available for students in Grade 1 and 2 only.
+      </div>
+      <div
+        className="portfolio-grade-invalid-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Assignments /> Expect to render correctly 4`] = `
+<div>
+  <div
+    className="assignment-btn"
+  >
+    <div
+      className="assignments-add-btn"
+      onClick={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Add Assignments
+    </div>
+  </div>
+  <ResultsTable
+    data={
+      Array [
+        Object {
+          "className": undefined,
+        },
+      ]
+    }
+    handleClick={[Function]}
+    handleRowSelections={[Function]}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--assignments-savescreen-warning"
+  >
+    <div
+      className="modal--assignments-savewrapper-heading"
+    />
+    <div
+      className="modal--assignments-savewrapper-warning"
+    >
+      Assignments are not available for Math180 Classes.
+      <div
+        className="read180ngsave-innerpage-button modal-assignments-okbtns"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-grade-invalid"
+  >
+    <div>
+      <div
+        className="portfolio-grade-invalid-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-grade-invalid-txt"
+      >
+        iRead Oral Reading Fluency Assessments are available for students in Grade 1 and 2 only.
+      </div>
+      <div
+        className="portfolio-grade-invalid-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Assignments /> Expect to render correctly 5`] = `
+<div>
+  <div
+    className="assignment-btn"
+  >
+    <div
+      className="assignments-add-btn"
+      onClick={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Add Assignments
+    </div>
+  </div>
+  <ResultsTable
+    data={Array []}
+    handleClick={[Function]}
+    handleRowSelections={[Function]}
+    searchResultsIdsChecked={Array []}
+    selectAll={false}
+    toggleAllCheckboxes={[Function]}
+  />
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--assignments-savescreen-warning"
+  >
+    <div
+      className="modal--assignments-savewrapper-heading"
+    />
+    <div
+      className="modal--assignments-savewrapper-warning"
+    >
+      Assignments are not available for Math180 Classes.
+      <div
+        className="read180ngsave-innerpage-button modal-assignments-okbtns"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-grade-invalid"
+  >
+    <div>
+      <div
+        className="portfolio-grade-invalid-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-grade-invalid-txt"
+      >
+        iRead Oral Reading Fluency Assessments are available for students in Grade 1 and 2 only.
+      </div>
+      <div
+        className="portfolio-grade-invalid-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Assignments /> Expect to render handleClick correctly 1`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 1`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 2`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 3`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 4`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 5`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 6`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleNewAssignmentClick correctly 7`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleRowSelections correctly 1`] = `undefined`;
+
+exports[`<Assignments /> Expect to render handleRowSelections correctly 2`] = `undefined`;
+
+exports[`<Assignments /> Expect to render toggleAllCheckboxes correctly 1`] = `undefined`;

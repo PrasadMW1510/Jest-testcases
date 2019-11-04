@@ -1,0 +1,1703 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Read180NgAssaignment/Read180NgAssaignment.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/Read180NgAssaignment</a> Read180NgAssaignment.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/171</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/105</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/118</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * Read180NgAssaignment
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMModal <span class="cstat-no" title="statement not covered" >from 'components/SAMModal';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMButton <span class="cstat-no" title="statement not covered" >from 'components/SAMButton';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Read1<span class="cstat-no" title="statement not covered" >80NgAssignmentConstants</span> from './constants';<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >import './Read180NgAssaignment.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+class Read180NgAssaignment extends React.Component {
+  constructor(props) {
+    super(props);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+    this.state = {
+      checked: false,
+      checked1: false,
+      checked2: false,
+      comment: '',
+      average: '',
+      total: '',
+      score: '',
+      comment2: '',
+      average2: '',
+      total2: '',
+      score2: '',
+      name: '',
+      assName: '',
+      assignmentType: '',
+      desc: '',
+      scoreDisable: true,
+      commentDisable: true,
+      disableSave: true,
+      assignmentName: '',
+      assignmentNameError: '',
+      studentId: '',
+      showAssignmentUpdate: false,
+      emptyName: '',
+      dateValue: '',
+      emptyDate: '',
+      saveClass: false,
+      gradeClass: false,
+      emptyAssType: '',
+    };
+  }
+&nbsp;
+  getNewAssignmentRoaster = (s<span class="fstat-no" title="function not covered" >tu</span>dent, i) =&gt; {
+    const read180gradeClass = <span class="cstat-no" title="statement not covered" >['print-read180ngass-modal-button-equals-gray'];</span>
+    const read180saveclass = <span class="cstat-no" title="statement not covered" >[</span>
+      'print-read180ngass-modal-button-second-set print-read180ng-modal-button-save',
+    ];
+    if<span class="cstat-no" title="statement not covered" > (this.state.saveClass) {</span>
+      re<span class="cstat-no" title="statement not covered" >ad180saveclass.push('print-read180ngass-modal-button-save-blue');</span>
+    }
+    if<span class="cstat-no" title="statement not covered" > (this.state.gradeClass) {</span>
+      re<span class="cstat-no" title="statement not covered" >ad180gradeClass.push('print-read180ngass-modal-button-equals');</span>
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div key={i}&gt;
+        &lt;input
+          name="selected"
+          type="checkbox"
+          onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+            th<span class="cstat-no" title="statement not covered" >is.handleChange(i, event);</span>
+          }}
+          value={
+            this.props.addread180ngassaignmentcontainer.studentDetails.students[0].student[i]
+              .student_id
+          }
+          checked={this.state.checked}
+        /&gt;
+        {`${
+          this.props.addread180ngassaignmentcontainer.studentDetails.students[0].student[i]
+            .student_last_name
+        }, `}
+        {
+          this.props.addread180ngassaignmentcontainer.studentDetails.students[0].student[i]
+            .student_first_name
+        }
+&nbsp;
+        &lt;span className="print-read180ngassaignment-modal-assignment-wrapper1"&gt;
+          &lt;input
+            type="text"
+            className="print-read180ngassaignment-modal-assignment-textbox1"
+            name="score"
+            value={this.state.score}
+            onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+              th<span class="cstat-no" title="statement not covered" >is.handleDataChange(event);</span>
+            }}
+            disabled={this.state.scoreDisable}
+          /&gt;
+          &lt;span&gt;/&lt;/span&gt;
+          &lt;input
+            type="text"
+            className="print-read180ngassaignment-modal-assignment-textbox2"
+            name="total"
+            value={this.state.total}
+            onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+              th<span class="cstat-no" title="statement not covered" >is.handleDataChange(event);</span>
+            }}
+            disabled={this.state.scoreDisable}
+          /&gt;
+          &lt;button className={read180gradeClass.join(' ')} onClick={this.gradeValue}&gt;
+            =
+          &lt;/button&gt;
+          &lt;input
+            type="text"
+            className="print-read180ngassaignment-modal-assignment-textbox3"
+            name="average"
+            value={this.state.average}
+            onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+              th<span class="cstat-no" title="statement not covered" >is.handleDataChange(event);</span>
+            }}
+            disabled={this.state.scoreDisable}
+          /&gt;
+          &lt;span&gt;%&lt;/span&gt;
+        &lt;/span&gt;
+        &lt;input
+          type="text"
+          className="print-read180ngassaignment-modal-assignment-textbox-comment"
+          name="comment"
+          value={this.state.comment}
+          onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+            th<span class="cstat-no" title="statement not covered" >is.handleDataChange(event);</span>
+          }}
+          disabled={this.state.commentDisable}
+        /&gt;
+      &lt;/div&gt;
+    );
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  getFormattedDate(date) {
+    let month = String(date.getMonth() + 1);
+    let day = String(date.getDate());
+    const year = String(date.getFullYear());
+    if (month.length &lt; 2) month = `0${month}`;
+    if (day.length &lt; 2) day = `0${day}`;
+    return `${year}-${month}-${day}`;
+  }
+&nbsp;
+  gradeChanges = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    const numbers = <span class="cstat-no" title="statement not covered" >/^[0-9\b]+$/;</span>
+    const change = <span class="cstat-no" title="statement not covered" >{};</span>
+&nbsp;
+    sw<span class="cstat-no" title="statement not covered" >itch (e.target.name) {</span>
+      case Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_SCORE ||
+        Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_TOTAL:
+        th<span class="cstat-no" title="statement not covered" >is.setState({ average: '' });</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_AVERAGE:
+        th<span class="cstat-no" title="statement not covered" >is.setState({ score: '' });</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState({ total: '' });</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_ASS_NAME:
+        th<span class="cstat-no" title="statement not covered" >is.setState({ assName: e.target.value });</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_COMMENT:
+        th<span class="cstat-no" title="statement not covered" >is.setState({ comment: e.target.value });</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      case Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_DESC:
+        th<span class="cstat-no" title="statement not covered" >is.setState({ desc: e.target.value });</span>
+        br<span class="cstat-no" title="statement not covered" >eak;</span>
+      default:
+        ch<span class="cstat-no" title="statement not covered" >ange[e.target.name] = e.target.value;</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState(change);</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (</span>
+      e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_SCORE ||
+      e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_TOTAL ||
+      e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_AVERAGE
+    ) {
+      if<span class="cstat-no" title="statement not covered" > (e.target.value.match(numbers) || e.target.value === '') {</span>
+        ch<span class="cstat-no" title="statement not covered" >ange[e.target.name] = e.target.value;</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState(change);</span>
+      }
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (</span>
+      e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_DATE_VALUE ||
+      e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_DATE_VALUE
+    ) {
+      th<span class="cstat-no" title="statement not covered" >is.setState({ dateValue: e.target.value });</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.setState({ saveClass: true });</span>
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (this.state.score !== '' &amp;&amp; this.state.total !== '') {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ gradeClass: true });</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.setState({ disableSave: false });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  gradeValue = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.state.score !== '' &amp;&amp; this.state.total !== '') {</span>
+      const gPercent = <span class="cstat-no" title="statement not covered" >Number(this.state.score) / Number(this.state.total) * 100;</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ average: gPercent });</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handlePreview = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.onPreview(this.state.checked);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChangeAll = (i<span class="fstat-no" title="function not covered" >nd</span>ex, event) =&gt; {
+    const customquizchecked = <span class="cstat-no" title="statement not covered" >event.target.checked;</span>
+    if<span class="cstat-no" title="statement not covered" > (index === 1) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+        checked: customquizchecked,
+        scoreDisable: !this.state.scoreDisable,
+        commentDisable: !this.state.commentDisable,
+        disableSave: false,
+        assignmentNameError: '',
+      });
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+  handleDataChange = e <span class="fstat-no" title="function not covered" >=&gt;</span> {
+    const numbers = <span class="cstat-no" title="statement not covered" >/^[0-9\b]+$/;</span>
+    const change = <span class="cstat-no" title="statement not covered" >{};</span>
+    if<span class="cstat-no" title="statement not covered" > (e.target.name === Read180NgAssignmentConstants.READ_180_NG_ASSIGNMENT_SCORE) {</span>
+      if<span class="cstat-no" title="statement not covered" > (e.target.value.match(numbers) || e.target.value === '') {</span>
+        ch<span class="cstat-no" title="statement not covered" >ange[e.target.name] = e.target.value;</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState(change);</span>
+      }
+    } else {
+      ch<span class="cstat-no" title="statement not covered" >ange[e.target.name] = e.target.value;</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState(change);</span>
+    }
+&nbsp;
+    th<span class="cstat-no" title="statement not covered" >is.setState({ assignmentNameError: '' });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleSubmit = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.props.data.currentIndex === undefined) {</span>
+      if<span class="cstat-no" title="statement not covered" > (this.state.assName === '') {</span>
+        th<span class="cstat-no" title="statement not covered" >is.setState({ assignmentNameError: '.Please select a Assignment name' });</span>
+        re<span class="cstat-no" title="statement not covered" >turn '';</span>
+      }
+      const newAssignment = <span class="cstat-no" title="statement not covered" >{};</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.assignmentName = this.state.assName;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.assignmentType = this.state.assignmentType;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.createdForClass = this.props.data.newassignment.createdForClass;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.communityId = this.props.data.newassignment.community_id;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.average = this.state.average;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.comment = this.state.comment1;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.studentId = this.state.studentId;</span>
+      ne<span class="cstat-no" title="statement not covered" >wAssignment.dueDate = this.state.dateValue;</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ disableSave: true });</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.addNewAssignment(newAssignment);</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ showAssignmentUpdate: true });</span>
+      re<span class="cstat-no" title="statement not covered" >turn 'modelOpened';</span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn '';</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleCancel = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.state.disableSave === false) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+        cancelWarningModal: true,
+      });
+      re<span class="cstat-no" title="statement not covered" >turn 'modelOpened';</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.props.hideCancel();</span>
+    re<span class="cstat-no" title="statement not covered" >turn '';</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  yesWarningModalclose = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.hideCancel();</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+  cancelWarningModalconClose = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      cancelWarningModal: false,
+    });
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  closeAssignmentUpdate = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.setState({ showAssignmentUpdate: false });</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  handleChange = (i<span class="fstat-no" title="function not covered" >nd</span>ex, event) =&gt; {
+    const customquizchecked = <span class="cstat-no" title="statement not covered" >event.target.checked;</span>
+&nbsp;
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      checked: customquizchecked,
+      scoreDisable: !this.state.scoreDisable,
+      commentDisable: !this.state.commentDisable,
+      disableSave: false,
+      studentId: event.target.value,
+    });
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+  cancelWarningModal() {
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;SAMModal isOpen={this.state.cancelWarningModal} modalClassModifier="portfolio-conf-warning"&gt;
+        &lt;div&gt;
+          &lt;div className="portfolio-conf-warning-heading"&gt;Warning &lt;/div&gt;
+          &lt;div className="portfolio-conf-warning-txt"&gt;
+            You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+          &lt;/div&gt;
+          &lt;div className="portfolio-conf-warning-btn"&gt;
+            &lt;SAMButton isPrimaryButton onClickHandler={this.yesWarningModalclose}&gt;
+              Yes
+            &lt;/SAMButton&gt;
+            &lt;SAMButton onClickHandler={this.cancelWarningModalconClose}&gt; No &lt;/SAMButton&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/SAMModal&gt;
+    );
+  }<span class="fstat-no" title="function not covered" ></span>
+&nbsp;
+  showAssignmentUpdate() {
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;SAMModal
+        isOpen={this.state.showAssignmentUpdate}
+        modalClassModifier="portfolio-conf-success"
+      &gt;
+        &lt;div&gt;
+          &lt;div className="portfolio-conf-success-heading"&gt; &lt;/div&gt;
+          &lt;div className="portfolio-conf-success-txt"&gt;Assignment Created.&lt;/div&gt;
+          &lt;div className="portfolio-conf-success-btn"&gt;
+            &lt;SAMButton onClickHandler={this.closeAssignmentUpdate}&gt;OK &lt;/SAMButton&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/SAMModal&gt;
+    );
+  }<span class="fstat-no" title="function not covered" ></span>
+&nbsp;
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    const { isO<span class="cstat-no" title="statement not covered" >pen } = this.props</span>;
+    const read180gradeClass = <span class="cstat-no" title="statement not covered" >['print-read180ngass-modal-button-equals-gray'];</span>
+    const read180saveclass = <span class="cstat-no" title="statement not covered" >[</span>
+      'print-read180ngass-modal-button-second-set print-read180ng-modal-button-save',
+    ];
+    if<span class="cstat-no" title="statement not covered" > (this.state.saveClass) {</span>
+      re<span class="cstat-no" title="statement not covered" >ad180saveclass.push('print-read180ngass-modal-button-save-blue');</span>
+    }
+    if<span class="cstat-no" title="statement not covered" > (this.state.gradeClass) {</span>
+      re<span class="cstat-no" title="statement not covered" >ad180gradeClass.push('print-read180ngass-modal-button-equals');</span>
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div&gt;
+        &lt;SAMModal
+          isOpen={isOpen}
+          contentLabel="activate Quiz"
+          modalClassModifier="modal-read180ngassaignment-modal"
+          id="r180na"
+        &gt;
+          &lt;div className="print-read180ngassaignment-modal-list--wrapper"&gt;
+            &lt;div className="print-read180ngassaignment-modal-list--purple"&gt;
+              &lt;div className="print-read180ngassaignment-modal__heading"&gt;
+                {this.props.data.currentIndex === undefined &amp;&amp; (
+                  &lt;span&gt;{this.props.data.newassignment.className}&lt;/span&gt;
+                )}
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;button
+                  className="print-read180ngassaignment-modal__button-close"
+                  onClick={this.handleCancel}
+                &gt;
+                  {' '}
+                  X
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+&nbsp;
+            &lt;div className="print-read180ngassaignment-modal-title"&gt;
+              {this.props.data.currentIndex === undefined &amp;&amp; (
+                &lt;div&gt;
+                  &lt;span&gt;{`${this.props.data.newassignment.className}.`}&lt;/span&gt;
+                  &lt;span className="print-read180ngassaignment-modal-title-span"&gt;
+                    {' '}
+                    Assignment Type:{' '}
+                    &lt;select
+                      name="assignmentType"
+                      value={this.state.assignmentType}
+                      className="print-read180ngassaignment-modal-select"
+                      onChange={this.handleDataChange}
+                    &gt;
+                      &lt;option value="quickwrites"&gt;Quick Writes&lt;/option&gt;
+                      &lt;option value="Final Project"&gt;Final Project&lt;/option&gt;
+                      &lt;option value="Participation"&gt;Participation&lt;/option&gt;
+                      &lt;option value="Evidence Based Writing"&gt;Evidence Based Writing&lt;/option&gt;
+                      &lt;option value="Vocabulary Test"&gt;Vocabulary Test&lt;/option&gt;
+                      &lt;option value="Workshop Wrap-Up"&gt;Workshop Wrap-Up&lt;/option&gt;
+                      &lt;option value="others"&gt;Other&lt;/option&gt;
+                    &lt;/select&gt;
+                    &lt;span className="ngassignment-asstype-passage-text-error"&gt;
+                      {this.state.assignmentNameError}
+                    &lt;/span&gt;
+                  &lt;/span&gt;
+                  &lt;span className="print-read180ngassaignment-modal-title-span"&gt;
+                    {' '}
+                    Assignment Name{' '}
+                    &lt;input
+                      type="textbox"
+                      name="assName"
+                      className="print-read180ngassaignment-modal-input-textbox"
+                      value={this.state.assName}
+                      onChange={this.gradeChanges}
+                    /&gt;
+                    &lt;br /&gt;
+                    &lt;span className="ngassignment-name-passage-text-error"&gt;
+                      {this.state.emptyName}
+                    &lt;/span&gt;
+                  &lt;/span&gt;{' '}
+                &lt;/div&gt;
+              )}
+            &lt;/div&gt;
+&nbsp;
+            &lt;div className="print-read180ngassaignment-modal-description-box"&gt;
+              &lt;div className="print-read180ngassaignment-modal-description-title"&gt;Description:&lt;/div&gt;
+              &lt;div className="print-read180ngassaignment-modal-description-textarea"&gt;
+                &lt;textarea
+                  name="desc"
+                  className="print-read180ngassaignment-modal-description-textarea-text"
+                  rows="3"
+                  cols="75"
+                  value={this.state.desc}
+                  onChange={this.gradeChanges}
+                /&gt;
+                &lt;div className="print-read180ngassaignment-modal-description-inbox"&gt; &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+&nbsp;
+            &lt;div className="print-read180ngassaignment-modal-due-date"&gt;
+              &lt;div className="print-read180ngassaignment-modal-description-title"&gt;Due Date:&lt;/div&gt;
+              &lt;div className="print-read180ngassaignment-modal-due-date-textarea"&gt;
+                &lt;div className="print-read180ngassaignment-modal-due-date-inbox"&gt;
+                  &lt;p className="print-read180ngassaignment-modal-due-date-content1"&gt;
+                    {' '}
+                    Input a due date for the assignment or select a date from the calendar:{' '}
+                  &lt;/p&gt;
+                  &lt;input
+                    className="print-read180ngassaignment-modal-due-date-input"
+                    type="date"
+                    name="dateValue"
+                    value={this.state.dateValue}
+                    onChange={this.gradeChanges}
+                  /&gt;
+                  &lt;br /&gt;
+                  &lt;span className="ngassignment-date-passage-text-error"&gt;
+                    {this.state.emptyDate}
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+&nbsp;
+            &lt;div className="print-read180ngassaignment-modal-assignment-roster-box"&gt;
+              &lt;div className="print-read180ngassaignment-modal-description-title"&gt;
+                Assignment Roster:
+              &lt;/div&gt;
+              &lt;div className="print-read180ngassaignment-modal-assignment-roster-textarea1"&gt;
+                &lt;div className="print-read180ngassaignment-modal-assignment-roster-div-headers11"&gt;
+                  &lt;div className="print-read180ngassaignment-modal-assignment-roster-div-details"&gt;
+                    Select students that will complete the assessment. If you would like to enter
+                    grades, enter percentages in the percentage fields below. You may also calculate
+                    grades by entering the student&amp;apos;s score and the total points possible and
+                    clicking the equal button.
+                  &lt;/div&gt;
+                  Students{' '}
+                  &lt;span className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-grades"&gt;
+                    Grades
+                  &lt;/span&gt;{' '}
+                  &lt;span className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-comments"&gt;
+                    Comments
+                  &lt;/span&gt;
+                &lt;/div&gt;
+&nbsp;
+                &lt;div className="print-read180ngassaignment-modal-assignment-wrapper1"&gt;
+                  &lt;div&gt;
+                    &lt;input
+                      name="selected"
+                      type="checkbox"
+                      onChange={event =&gt; {<span class="fstat-no" title="function not covered" ></span>
+                        th<span class="cstat-no" title="statement not covered" >is.handleChangeAll(1, event);</span>
+                      }}
+                      checked={this.state.checked}
+                    /&gt;
+                    Select All
+                  &lt;/div&gt;
+&nbsp;
+                  {this.props.data.currentIndex === undefined &amp;&amp; (
+                    &lt;div&gt;
+                      {this.props.addread180ngassaignmentcontainer.studentDetails !== undefined &amp;&amp;
+                        this.props.addread180ngassaignmentcontainer.studentDetails.students !==
+                          undefined &amp;&amp;
+                        this.props.addread180ngassaignmentcontainer.studentDetails.students[0].student.map(
+<span class="fstat-no" title="function not covered" ></span>                          (student, i) =&gt; thi<span class="cstat-no" title="statement not covered" >s.getNewAssignmentRoaster(student, i)</span>
+                        )}
+                    &lt;/div&gt;
+                  )}
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+&nbsp;
+            &lt;div className="print-read180ngassaignment-buttons"&gt;
+              &lt;div className="print-read180ngassaignment-modal__buttons-firstset"&gt;
+                &lt;button
+                  className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-print"
+                  onClick={this.handlePreview}
+                &gt;
+                  Print
+                &lt;/button&gt;
+                &lt;button
+                  className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-cancel"
+                  onClick={this.handleCancel}
+                &gt;
+                  Cancel
+                &lt;/button&gt;
+              &lt;/div&gt;
+              &lt;div className="print-read180ngassaignment-modal__buttons-secondset"&gt;
+                &lt;button className="print-read180ngassaignment-modal-button-second-set print-read180ngassaignment-modal-button-delete"&gt;
+                  Delete
+                &lt;/button&gt;
+                &lt;button
+                  className={read180saveclass.join(' ')}
+                  disabled={this.state.disableSave}
+                  onClick={this.handleSubmit}
+                &gt;
+                  {' '}
+                  Save{' '}
+                &lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/SAMModal&gt;
+        {this.cancelWarningModal()}
+        {this.showAssignmentUpdate()}
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >Read180NgAssaignment.propTypes = {</span>
+  isOpen: PropTypes.bool.isRequired,
+  hideCancel: PropTypes.func.isRequired,
+  data: PropTypes.object,
+  onPreview: PropTypes.func,
+  addread180ngassaignmentcontainer: PropTypes.object,
+  addNewAssignment: PropTypes.func.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default Read180NgAssaignment;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

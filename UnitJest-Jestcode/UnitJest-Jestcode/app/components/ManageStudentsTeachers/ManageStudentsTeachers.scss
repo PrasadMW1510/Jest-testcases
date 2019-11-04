@@ -1,0 +1,47 @@
+.manage-students-teachers__nav-bar::after {
+  left: 628px;
+  width: 72px;
+}
+
+.manage-students-teachers__nav-bar .navbar__item {
+  padding-left: 0;
+  padding-right: 0;
+
+  .navbar__item-text {
+    padding: 0 6px;
+  }
+}
+
+.manage-students-teachers__nav-bar .navbar__item .navbar__item-text {
+  /* stylelint-disable-next-line selector-max-compound-selectors */
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.manage-students-teachers__panel {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-top-style: none;
+  margin-bottom: 15px;
+  padding: 4px 1px 6px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+
+.manage-students-teachers__nav-bar--isolate-tab {
+  &::after {
+    background: rgba(0, 0, 0, 0.4);
+    content: '';
+    height: 145vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 11;
+  }
+}

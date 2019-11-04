@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesStandardsView /> Expect to render itself 1`] = `
+<div
+  className="resources-standards"
+>
+  <div>
+    Use the pull-down menus to select your state and grade.
+    <div>
+      <span
+        className="resources-standards__text"
+      >
+        Choose a state:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="locale"
+          value="locale"
+        >
+           
+        </option>
+        <option
+          key="MA"
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          key="NY"
+          value="NY"
+        >
+          NY
+        </option>
+      </select>
+      <span
+        className="resources-standards__text"
+      >
+        Grade:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="grade"
+          value="grade"
+        >
+           
+        </option>
+        <option
+          key="1"
+          value="1"
+        >
+          1
+        </option>
+        <option
+          key="2"
+          value="2"
+        >
+          2
+        </option>
+      </select>
+      <button
+        className="resources-standards__button"
+        onClick={[Function]}
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesStandardsView /> handle click event 1`] = `[Function]`;
+
+exports[`<ResourcesStandardsView /> handle click null element 1`] = `[Function]`;
+
+exports[`<ResourcesStandardsView /> veirfy for available standard not matching 1`] = `
+<div
+  className="resources-standards"
+/>
+`;
+
+exports[`<ResourcesStandardsView /> verify component will receive props 1`] = `
+<div
+  className="resources-standards"
+>
+  <div>
+    Use the pull-down menus to select your state and grade.
+    <div>
+      <span
+        className="resources-standards__text"
+      >
+        Choose a state:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="locale"
+          value="locale"
+        >
+           
+        </option>
+        <option
+          key="MA"
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          key="NY"
+          value="NY"
+        >
+          NY
+        </option>
+      </select>
+      <span
+        className="resources-standards__text"
+      >
+        Grade:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="grade"
+          value="grade"
+        >
+           
+        </option>
+        <option
+          key="1"
+          value="1"
+        >
+          1
+        </option>
+        <option
+          key="2"
+          value="2"
+        >
+          2
+        </option>
+      </select>
+      <button
+        className="resources-standards__button"
+        onClick={[Function]}
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesStandardsView /> verify component will receive props didnt udpate 1`] = `
+<div
+  className="resources-standards"
+>
+  <div>
+    Use the pull-down menus to select your state and grade.
+    <div>
+      <span
+        className="resources-standards__text"
+      >
+        Choose a state:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="locale"
+          value="locale"
+        >
+           
+        </option>
+        <option
+          key="MA"
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          key="NY"
+          value="NY"
+        >
+          NY
+        </option>
+      </select>
+      <span
+        className="resources-standards__text"
+      >
+        Grade:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="grade"
+          value="grade"
+        >
+           
+        </option>
+        <option
+          key="1"
+          value="1"
+        >
+          1
+        </option>
+        <option
+          key="2"
+          value="2"
+        >
+          2
+        </option>
+      </select>
+      <button
+        className="resources-standards__button"
+        onClick={[Function]}
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesStandardsView /> verify with the appSelected in FASTT Math 1`] = `
+<div
+  className="resources-standards"
+>
+  <div
+    className="resources-standards__fastt-math"
+  >
+    <a
+      className="resources-standards__fastt-math--herf-link"
+      href="http://www.tomsnyder.com/standards/fasttmath"
+      target="_blank"
+    >
+      Click here to access FASTT Math Standards.
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesStandardsView /> when modal status state is true 1`] = `
+<div
+  className="resources-standards"
+>
+  <div>
+    Use the pull-down menus to select your state and grade.
+    <div>
+      <span
+        className="resources-standards__text"
+      >
+        Choose a state:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="locale"
+          value="locale"
+        >
+           
+        </option>
+        <option
+          key="MA"
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          key="NY"
+          value="NY"
+        >
+          NY
+        </option>
+      </select>
+      <span
+        className="resources-standards__text"
+      >
+        Grade:
+      </span>
+      <select
+        className="resources-standards__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="grade"
+          value="grade"
+        >
+           
+        </option>
+        <option
+          key="1"
+          value="1"
+        >
+          1
+        </option>
+        <option
+          key="2"
+          value="2"
+        >
+          2
+        </option>
+      </select>
+      <button
+        className="resources-standards__button"
+        onClick={[Function]}
+      >
+        GO
+      </button>
+      <ResourcesModalStateView
+        item={
+          Immutable.Map {
+          }
+        }
+        itemGradeState={
+          Object {
+            "grade": null,
+            "pagination": Object {
+              "cur_pg": 0,
+              "ipp": 100,
+            },
+            "program_id": "",
+            "samversion": "",
+            "state": null,
+          }
+        }
+        modalStatus={true}
+        resourceName="Do The Math!"
+        updateResourcesModalStatus={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

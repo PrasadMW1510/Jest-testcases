@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesItsview /> Expect to render itself 1`] = `
+<div
+  className="its-view"
+>
+  <span
+    className="its-view__header"
+  >
+    Interactive Teaching System (ITS)
+  </span>
+  <div
+    className="its-view__content"
+  >
+    text1
+    <div
+      className="its-view__content"
+    >
+      text2
+      <div
+        className="its-view__button"
+      >
+        <a
+          href="null/subcommander/AutoLogin?zone=DTS&sid=2938403"
+          target="_blank"
+        >
+          <button
+            className="its-view__button-content"
+          >
+            Launch Interactive Teaching System
+          </button>
+        </a>
+      </div>
+      <div
+        className="its-view__bottom"
+      >
+        text3 
+        <a
+          href="ref_guide_url"
+          target="_blank"
+        >
+          click here
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

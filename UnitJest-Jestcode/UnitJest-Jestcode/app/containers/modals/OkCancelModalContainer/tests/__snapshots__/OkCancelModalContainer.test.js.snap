@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OkCancelModalContainer /> Modal with all defaults Expect to render label overrides correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="ok-cancel-modal "
+>
+  <div
+    className="ok-cancel-modal--body"
+  >
+    <div
+      className="ok-cancel-modal--message"
+    />
+    <SAMButton
+      buttonClassModifier="ok-cancel-modal--ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="ok-cancel-modal--cancel-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+  </div>
+</SAMModal>
+`;
+
+exports[`<OkCancelModalContainer /> Modal with all overrides Expect to render label overrides correctly 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="ok-cancel-modal "
+>
+  <h2
+    className="ok-cancel-modal--header "
+  >
+    This is a heading
+  </h2>
+  <div
+    className="ok-cancel-modal--body"
+  >
+    <div
+      className="ok-cancel-modal--message"
+    />
+    <SAMButton
+      buttonClassModifier="ok-cancel-modal--ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="ok-cancel-modal--cancel-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

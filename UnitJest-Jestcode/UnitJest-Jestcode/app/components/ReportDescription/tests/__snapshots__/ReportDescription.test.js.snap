@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportDescription /> Expect to render the description as expected 1`] = `
+<div
+  className="report-right-box report-description-box"
+  id="ReportDescriptionBox"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Report Description
+  </div>
+  <div
+    className="report-settings-box report-description"
+  >
+    This is a test of the emergency broadcast system
+  </div>
+</div>
+`;

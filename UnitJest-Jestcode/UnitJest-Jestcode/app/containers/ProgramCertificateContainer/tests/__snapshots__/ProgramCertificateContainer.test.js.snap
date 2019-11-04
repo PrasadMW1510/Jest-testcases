@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramCertificateContainer /> props.certificate Info is not an empty array Expect to render correctly 1`] = `
+<div
+  className="roster-content-panel"
+>
+  <ProgramCertificateView
+    certificateInfo={
+      Object {
+        "certificates": Object {
+          "certificate": Array [
+            Object {
+              "certificate_id": "fmng_11",
+              "certificate_name": "FASTT Math NG Award Certificate",
+              "certificate_type": "Default",
+              "parent_app_id": "FMNG",
+            },
+            Object {
+              "certificate_id": "fm_11",
+              "certificate_name": "FASTT Math Award Certificate",
+              "certificate_type": "Default",
+              "parent_app_id": "FM",
+            },
+          ],
+        },
+        "recipients": Object {
+          "recipient": Array [
+            Object {
+              "grade": "5",
+              "id": "sc49dbt98j3dbigsb1e73f31_2efa7f0",
+              "name": "DoTheMath",
+              "type": "class",
+            },
+            Object {
+              "grade": "K",
+              "id": "fs8lgl4fohettf9h1401pb56_2efa7f0",
+              "name": "E3D CA V1",
+              "type": "class",
+            },
+            Object {
+              "grade": "5",
+              "id": "mff03ugu34i2lrrmt0j39vlg_2efa7f0",
+              "name": "E3D CA V2",
+              "type": "class",
+            },
+            Object {
+              "grade": "PK",
+              "id": "c8eib35pi81ada20bp0pmltg_2efa7f0",
+              "name": "E3D CB V1",
+              "type": "class",
+            },
+          ],
+        },
+      }
+    }
+    handleChange={[Function]}
+    lineFour=""
+    lineOne=""
+    lineThree=""
+    lineTwo=""
+    selectedCertificate=""
+    selectedClasses={Array []}
+    toggleRowSelection={[Function]}
+    toggleRowsSelection={[Function]}
+  />
+  <Connect(withReducer(withSaga(ProgramCertificateFooterContainer)))
+    certificateInformation={
+      Object {
+        "certificate_info": Object {},
+      }
+    }
+    isWorksheetUpdate={false}
+    onCancel={[Function]}
+  />
+</div>
+`;
+
+exports[`<ProgramCertificateContainer /> props.certificateInfo is an empty array Expect to render correctly 1`] = `
+<div
+  className="roster-content-panel"
+>
+  <ProgramCertificateView
+    certificateInfo={Object {}}
+    handleChange={[Function]}
+    lineFour=""
+    lineOne=""
+    lineThree=""
+    lineTwo=""
+    selectedCertificate=""
+    selectedClasses={Array []}
+    toggleRowSelection={[Function]}
+    toggleRowsSelection={[Function]}
+  />
+  <Connect(withReducer(withSaga(ProgramCertificateFooterContainer)))
+    certificateInformation={
+      Object {
+        "certificate_info": Object {},
+      }
+    }
+    isWorksheetUpdate={false}
+    onCancel={[Function]}
+  />
+</div>
+`;

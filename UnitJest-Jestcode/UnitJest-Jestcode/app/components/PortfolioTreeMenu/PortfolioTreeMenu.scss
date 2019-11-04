@@ -1,0 +1,35 @@
+.portfolio-left-panel {
+  width: 20%;
+  float: left;
+  background: #fff !important;
+}
+
+.portfolio-tab-panel ul:first-child {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff !important;
+}
+
+.portfolio-left-panel div {
+  white-space: nowrap;
+  background: #fff !important;
+}
+
+.portfolio-tab-panel li {
+  background: #fff !important;
+  color: #000 !important;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.portfolio-treenode {
+  white-space: nowrap;
+  text-align: left;
+  color: #000;
+  background: #fff !important;
+  width: 100%;
+}
+
+.student-work-header-block div {
+  background: #fff !important;
+}

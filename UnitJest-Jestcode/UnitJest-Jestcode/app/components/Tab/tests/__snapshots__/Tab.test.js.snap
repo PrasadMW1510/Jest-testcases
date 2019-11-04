@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tab /> Expect to render correctly 1`] = `
+<a
+  className="tab-bar__tab tab-bar__tab--foo"
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  <span
+    className="tab-bar__text"
+  >
+    Home
+  </span>
+</a>
+`;

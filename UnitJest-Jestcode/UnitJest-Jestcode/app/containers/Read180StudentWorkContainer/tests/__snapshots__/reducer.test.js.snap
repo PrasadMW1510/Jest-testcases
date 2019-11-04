@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search Result Details Container Reducer should handle DEFAULT_ACTION 1`] = `
+Immutable.Map {
+}
+`;
+
+exports[`search Result Details Container Reducer should handle READ_180_STUDENT_WORK_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  read180Program: Immutable.Map {
+    loading: false,
+    itemCount: "1",
+    results: Immutable.Map {
+      items: Immutable.List [
+        Immutable.Map {
+        },
+        Immutable.Map {
+        },
+      ],
+    },
+    paginationData: "3",
+  },
+}
+`;

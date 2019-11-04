@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintCustomQuiz /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Custom Quiz Empty"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal-empty__quiz"
+  >
+    <p
+      className="print-custom-quiz-empty-titles__text"
+    >
+       
+      There are no selected titles to print. Please select at least one title.
+    </p>
+    <div
+      className="print-custom-quiz-empty-modal__cancel"
+    >
+      <div
+        className="empty-quiz-button__ok"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<PrintCustomQuiz /> Expect to render correctly 2`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Custom Quiz"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--printcustom-quiz"
+  >
+    <div>
+      <div
+        className="print-custom-quiz__quiz-list--orange"
+      >
+        <div
+          className="print-custom-quiz__heading"
+        >
+          Print Custom Quiz List
+        </div>
+      </div>
+      <div
+        className="print-custom-quiz__countheader"
+      >
+        You have selected 
+        1
+         titles.
+      </div>
+      <div
+        className="print-custom-quiz__layout"
+      >
+        <div
+          className="print-custom-quiz__layouttext"
+        >
+          Customize the layout:
+        </div>
+      </div>
+      <div
+        className="print-custom-quiz__layout-content"
+      >
+        Use the check boxes to select information to appear on your printout.
+      </div>
+    </div>
+    <div
+      className="print-custom-quiz__chckbox collapsible-book__wrapper"
+    >
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="print-custom-quiz__chckbox-lexile collapsible-book-input"
+          id="lexile"
+          name="Lexile"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="print-custom-quiz__checkmark collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Lexile
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="readingLevel"
+          name="Reading Level"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="print-custom-quiz__checkmark collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Reading level
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="grl"
+          name="grl"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="print-custom-quiz__checkmark collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        GRL
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="wordCount"
+          name="Word Count"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="print-custom-quiz__checkmark collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Word count
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="points"
+          name="Points"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="print-custom-quiz__checkmark collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Points
+      </div>
+      <div
+        className="print-custom-quiz__buttons"
+      >
+        <div
+          className="print-custom-quiz__cancel"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+            Cancel
+          </SAMButton>
+        </div>
+        <div
+          className="print-custom-quiz__preview"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Preview
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

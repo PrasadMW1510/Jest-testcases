@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickLinks /> Should render correctly 1`] = `
+<span
+  className="quick-links"
+>
+  <QuickLinksItem
+    onClick={[Function]}
+  >
+    SEARCH
+  </QuickLinksItem>
+  <span>
+     | 
+  </span>
+  <QuickLinksItem
+    onClick={[Function]}
+  >
+    EXIT
+  </QuickLinksItem>
+  <span>
+     | 
+  </span>
+  <QuickLinksItem
+    onClick={[Function]}
+  >
+    HELP
+  </QuickLinksItem>
+  <span>
+     | 
+  </span>
+  <QuickLinksItem
+    onClick={[Function]}
+  >
+    MY PROFILE
+  </QuickLinksItem>
+  <span>
+     | 
+  </span>
+  <QuickLinksItem
+    color="red"
+    onClick={[Function]}
+  >
+    HOME
+  </QuickLinksItem>
+</span>
+`;

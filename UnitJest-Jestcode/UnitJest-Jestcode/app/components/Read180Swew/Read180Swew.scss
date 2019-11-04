@@ -1,0 +1,146 @@
+.extended-writing-block-one {
+  width: 60%;
+  float: left;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 200px;
+  border-bottom: #ccc 1px solid;
+}
+
+.block-one {
+  width: 60%;
+  float: left;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 200px;
+  border-bottom: #ccc 1px solid;
+}
+
+.extended-writing-block-titl {
+  font-size: 13px;
+  background: #e7e8e7;
+  font-weight: 600;
+  color: #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: #ccc 1px solid;
+  padding: 7px 0 5px 15px;
+}
+
+.extended-writing-block-scrl-one {
+  overflow-y: scroll;
+  font-size: 12px;
+  height: 166px;
+  padding: 11px 10px 15px;
+}
+
+.block-scrl a {
+  text-decoration: none;
+  color: #11b4ea;
+}
+
+.extended-writing-pull-right {
+  font-size: 13px;
+  position: relative;
+  float: right;
+  bottom: 20px;
+}
+
+.extended-writing-valu {
+  background: #f8fbf8;
+  box-shadow: 2px 1px 4px 1px #797474;
+  border-radius: 20px;
+  float: left;
+  text-align: center;
+  padding: 2px 8px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.extended-writing-block-two {
+  width: 38%;
+  margin: 0 5px 0 0;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 100px;
+  float: right;
+}
+
+.extended-writing-block-three {
+  width: 60%;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 260px;
+  float: left;
+  margin: 4px 0 0;
+}
+
+textarea {
+  width: 100%;
+  height: 187px;
+}
+
+.extended-writing-block-scrl-three {
+  overflow-y: scroll;
+  padding: 11px 10px 15px;
+  height: 222px;
+  font-size: 12px;
+}
+
+.extended-writing-print-read180-studentwork-modal-description-textarea-text {
+  overflow-y: scroll;
+}
+
+.extended-writing-print-read180-studentwork-modal-description-textarea:focus {
+  outline: none;
+}
+
+.extended-writing-block-two {
+  height: auto;
+}
+
+.extended-writing-block-scrl-two {
+  padding: 11px 10px 15px;
+}
+
+.extended-writing-block-scrl-two a {
+  display: block;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.extended-writing-block-four {
+  width: 38%;
+  float: right;
+  border-radius: 10px;
+  border: #ccc 1px solid;
+  height: 220px;
+  margin: 3px 5px 0 0;
+}
+
+.extended-writing-block-scrl-four {
+  overflow-y: scroll;
+  padding: 11px 10px 15px;
+  height: 108px;
+}
+
+.span.valu:active {
+  background: #b79cc9;
+  border: 2px solid rgb(117, 80, 80);
+}
+
+.valu1 {
+  background: #f8fbf8;
+  box-shadow: 2px 1px 4px 1px #797474;
+  border-radius: 20px;
+  float: left;
+  text-align: center;
+  padding: 0 8px;
+  margin: 0 15px 0 0;
+  cursor: pointer;
+
+  &.active {
+    background-color: #dcf;
+    box-shadow: inset 1px 1px 5px 1px #fb63d3de;
+  }
+}

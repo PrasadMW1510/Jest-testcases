@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesPage /> Expect to render correctly 1`] = `
+<div
+  className="resources"
+>
+  <ResourcesSamKeyword
+    modalQuickStatus={false}
+    postResourcesQuickSearch={[Function]}
+    responseQuickSearch={
+      Immutable.Map {
+      }
+    }
+    updateResourcesQuickModalStatus={[Function]}
+  />
+  <div
+    className="resources-page-container"
+  >
+    <div
+      className="resources-program"
+    >
+      <div
+        className="resources-program__header"
+      >
+        To search for Resources, browse for Resources, look up Standards, or access the Interactive Teaching System, first choose a program.
+      </div>
+      <div
+        className="resources-program__input-box"
+      >
+        <b>
+          Program: 
+        </b>
+        <select
+          className="resources-program__search-box"
+          id="appList"
+          onChange={[Function]}
+        >
+          <option>
+            choose a program
+          </option>
+        </select>
+        <div
+          className="resources-program-activity"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesPage /> verify render when state name is empty 1`] = `undefined`;

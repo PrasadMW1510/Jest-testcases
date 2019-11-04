@@ -1,0 +1,79 @@
+.ps-settings__heading {
+  font-size: 8pt;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.ps-settings__content {
+  background-color: #fff;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.ps-settings__quadrants1 {
+  height: 30%;
+  border: 1px solid #000;
+}
+
+.ps-settings__quadrants2 {
+  height: 70%;
+  border: 1px solid #000;
+}
+
+.ps-settings__quadrants-heading {
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 0%;
+  padding-top: 0.5%;
+  z-index: +1;
+}
+
+.ps-setting__quadrants1-content {
+  line-height: 0.5cm;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.ps-setting__quadrants2-content {
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
+.ps-settings__english-language {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ps-setting__audio-instruction {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ps-setting__checkbox {
+  padding-left: 10px;
+  padding-top: 0.5%;
+}
+
+.ps-setting__radio {
+  padding-left: 10px;
+  padding-top: 0.5%;
+  padding-right: 25px;
+}
+
+.ps-settings__radio-label {
+  padding-left: 5pt ;
+}
+
+.ps-settings__footer {
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 29px;
+}

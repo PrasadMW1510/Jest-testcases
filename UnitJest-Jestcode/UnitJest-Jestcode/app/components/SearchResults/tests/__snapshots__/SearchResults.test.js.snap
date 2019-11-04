@@ -1,0 +1,681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResults /> Expect handleSortResultsClick  1`] = `undefined`;
+
+exports[`<SearchResults /> Expect renderCountInfotable 1`] = `
+<div
+  className="search-results__count"
+/>
+`;
+
+exports[`<SearchResults /> Expect renderCountInfotable 2`] = `
+<div
+  className="search-results__count"
+/>
+`;
+
+exports[`<SearchResults /> Expect renderCountInfotable 3`] = `
+<div
+  className="search-results__count"
+>
+  Items 22 - 5 of 5 
+</div>
+`;
+
+exports[`<SearchResults /> Expect renderCountInfotable 4`] = `
+<div
+  className="search-results__count"
+>
+  Items 1 - 0 of 5 
+</div>
+`;
+
+exports[`<SearchResults /> Expect renderCountInfotable 5`] = `false`;
+
+exports[`<SearchResults /> Expect to render correctly 1`] = `
+<div
+  className="search-tabs-content advance-search__wrapper"
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <p
+      className="search-results__content"
+    >
+      <span
+        className="search-results__content-results"
+      >
+        Results for Quiz Manager Search on:
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Award) 
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (ComprehensionSkill) 
+        <span>
+          ; 
+        </span>
+      </span>
+    </p>
+  </div>
+  <div
+    className="collection-search__wrapper"
+  >
+    <span>
+      Show quizzes in: 
+    </span>
+    <CollectionsList
+      data={Array []}
+      onChange={[Function]}
+    />
+    <div
+      className="collection-search-items-count"
+    >
+      <div
+        className="search-results__count"
+      >
+        Items 5 - 2 of 2 
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-results__wrapper"
+  >
+    <ResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      handleRowSelections={[Function]}
+      handleSortResultsClick={[Function]}
+      handleSortResultsOnClick={[Function]}
+      searchDetailModal={[Function]}
+      searchResults={
+        Object {
+          "itemCount": 2,
+          "paginationData": Object {
+            "current_page": 2,
+            "items_per_page": 2,
+            "page_count": 2,
+          },
+          "results": "",
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      showSearchResultDetail={[Function]}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <BooksPaginator
+    data={
+      Object {
+        "current_page": 2,
+        "items_per_page": 2,
+        "page_count": 2,
+      }
+    }
+    handlePaginatedSearch={[Function]}
+  />
+  <div
+    className="collection-result"
+  >
+    <div
+      className="collection-search-block"
+    >
+      <p>
+        <strong>
+          0
+           Records in Custom List
+        </strong>
+         
+        <br />
+        Checked items are added to the Custom List.
+      </p>
+      <Link
+        className="button-primary"
+        replace={false}
+        to="/books/quiz/custom"
+      >
+        View Custom List
+      </Link>
+    </div>
+    <div
+      className="collection-search-items-count install-quiz-desc"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      <span
+        className="collection-search-items__count-activate--quiz"
+      >
+        Installed Quiz
+      </span>
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      <span
+        className="collection-search-items__count-deactivate--quiz"
+      >
+        Deactivated Quiz
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchResults /> Expect to render correctly 2`] = `
+<div
+  className="search-tabs-content advance-search__wrapper"
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <p
+      className="search-results__content"
+    >
+      <span
+        className="search-results__content-results"
+      >
+        Results for Quiz Manager Search on:
+      </span>
+    </p>
+  </div>
+  <div
+    className="collection-search__wrapper"
+  >
+    <span>
+      Show quizzes in: 
+    </span>
+    <CollectionsList
+      data={Array []}
+      onChange={[Function]}
+    />
+    <div
+      className="collection-search-items-count"
+    >
+      <div
+        className="search-results__count"
+      >
+        Items 5 - 2 of 2 
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-results__wrapper"
+  >
+    <ResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      handleRowSelections={[Function]}
+      handleSortResultsClick={[Function]}
+      handleSortResultsOnClick={[Function]}
+      searchDetailModal={[Function]}
+      searchResults={
+        Object {
+          "itemCount": 2,
+          "paginationData": Object {
+            "current_page": 2,
+            "items_per_page": 2,
+            "page_count": 2,
+          },
+          "results": "",
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      showSearchResultDetail={[Function]}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <BooksPaginator
+    data={
+      Object {
+        "current_page": 2,
+        "items_per_page": 2,
+        "page_count": 2,
+      }
+    }
+    handlePaginatedSearch={[Function]}
+  />
+  <div
+    className="collection-result"
+  >
+    <div
+      className="collection-search-block"
+    >
+      <p>
+        <strong>
+          0
+           Records in Custom List
+        </strong>
+         
+        <br />
+        Checked items are added to the Custom List.
+      </p>
+      <Link
+        className="button-primary"
+        replace={false}
+        to="/books/quiz/custom"
+      >
+        View Custom List
+      </Link>
+    </div>
+    <div
+      className="collection-search-items-count install-quiz-desc"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      <span
+        className="collection-search-items__count-activate--quiz"
+      >
+        Installed Quiz
+      </span>
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      <span
+        className="collection-search-items__count-deactivate--quiz"
+      >
+        Deactivated Quiz
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchResults /> Expect to render correctly 3`] = `
+<div
+  className="search-tabs-content advance-search__wrapper"
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <p
+      className="search-results__content"
+    >
+      <span
+        className="search-results__content-results"
+      >
+        Results for Quiz Manager Search on:
+      </span>
+    </p>
+  </div>
+  <div
+    className="collection-search__wrapper"
+  >
+    <span>
+      Show quizzes in: 
+    </span>
+    <CollectionsList
+      data={Array []}
+      onChange={[Function]}
+    />
+    <div
+      className="collection-search-items-count"
+    >
+      <div
+        className="search-results__count"
+      >
+        Items 5 - 2 of 2 
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-results__wrapper"
+  >
+    <ResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      handleRowSelections={[Function]}
+      handleSortResultsClick={[Function]}
+      handleSortResultsOnClick={[Function]}
+      searchDetailModal={[Function]}
+      searchResults={
+        Object {
+          "itemCount": 2,
+          "paginationData": Object {
+            "current_page": 2,
+            "items_per_page": 2,
+            "page_count": 2,
+          },
+          "results": "",
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      showSearchResultDetail={[Function]}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <BooksPaginator
+    data={
+      Object {
+        "current_page": 2,
+        "items_per_page": 2,
+        "page_count": 2,
+      }
+    }
+    handlePaginatedSearch={[Function]}
+  />
+  <div
+    className="collection-result"
+  >
+    <div
+      className="collection-search-block"
+    >
+      <p>
+        <strong>
+          0
+           Records in Custom List
+        </strong>
+         
+        <br />
+        Checked items are added to the Custom List.
+      </p>
+      <Link
+        className="button-primary"
+        replace={false}
+        to="/books/quiz/custom"
+      >
+        View Custom List
+      </Link>
+    </div>
+    <div
+      className="collection-search-items-count install-quiz-desc"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      <span
+        className="collection-search-items__count-activate--quiz"
+      >
+        Installed Quiz
+      </span>
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      <span
+        className="collection-search-items__count-deactivate--quiz"
+      >
+        Deactivated Quiz
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchResults /> Expect to render correctly 4`] = `
+<div
+  className="search-tabs-content advance-search__wrapper"
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <p
+      className="search-results__content"
+    >
+      <span
+        className="search-results__content-results"
+      >
+        Results for Quiz Manager Search on:
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Award) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (ComprehensionSkill) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Culture) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Genre) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (InterestLevel) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Program/Series) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Theme) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+      <span
+        className="search-results__content--title"
+      >
+        (Topic) 
+        sddg
+        <span>
+          ; 
+        </span>
+      </span>
+    </p>
+  </div>
+  <div
+    className="collection-search__wrapper"
+  >
+    <span>
+      Show quizzes in: 
+    </span>
+    <CollectionsList
+      data={Array []}
+      onChange={[Function]}
+    />
+    <div
+      className="collection-search-items-count"
+    >
+      <div
+        className="search-results__count"
+      >
+        Items 5 - 2 of 2 
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-results__wrapper"
+  >
+    <ResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      handleRowSelections={[Function]}
+      handleSortResultsClick={[Function]}
+      handleSortResultsOnClick={[Function]}
+      searchDetailModal={[Function]}
+      searchResults={
+        Object {
+          "itemCount": 2,
+          "paginationData": Object {
+            "current_page": 2,
+            "items_per_page": 2,
+            "page_count": 2,
+          },
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      showSearchResultDetail={[Function]}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <BooksPaginator
+    data={
+      Object {
+        "current_page": 2,
+        "items_per_page": 2,
+        "page_count": 2,
+      }
+    }
+    handlePaginatedSearch={[Function]}
+  />
+  <div
+    className="collection-result"
+  >
+    <div
+      className="collection-search-block"
+    >
+      <p>
+        <strong>
+          0
+           Records in Custom List
+        </strong>
+         
+        <br />
+        Checked items are added to the Custom List.
+      </p>
+      <Link
+        className="button-primary"
+        replace={false}
+        to="/books/quiz/custom"
+      >
+        View Custom List
+      </Link>
+    </div>
+    <div
+      className="collection-search-items-count install-quiz-desc"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      <span
+        className="collection-search-items__count-activate--quiz"
+      >
+        Installed Quiz
+      </span>
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      <span
+        className="collection-search-items__count-deactivate--quiz"
+      >
+        Deactivated Quiz
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SearchResults /> should call createSearchFilters 1`] = `
+Object {
+  "BookInfo": Object {
+    "Author": "",
+    "Title": undefined,
+  },
+  "SortTerms": Object {
+    "SortTerm": Object {
+      "Order": undefined,
+      "Term": "Title",
+    },
+    "curPage": 0,
+    "searchBy": "Title",
+  },
+}
+`;

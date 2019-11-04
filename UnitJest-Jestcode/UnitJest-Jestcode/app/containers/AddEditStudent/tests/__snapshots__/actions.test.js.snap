@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for a "save student" request 1`] = `
+Object {
+  "isEdit": false,
+  "studentObj": Object {
+    "first_name": "Foo",
+  },
+  "type": "AddEditStudent/save_student_request",
+}
+`;
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for a "save student" request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "AddEditStudent/save_student_request_failure",
+}
+`;
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for a "save student" request success 1`] = `
+Object {
+  "type": "AddEditStudent/save_student_request_success",
+}
+`;
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for initializing form request 1`] = `
+Object {
+  "data": undefined,
+  "type": "AddEditStudent/initialize_student_form_request",
+}
+`;
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for initializing form request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "subType": "AddEditStudent/initialize_student_form_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`AddEditAstudent Actions Initialize student (load meta data & student profile) should return the correct constant for initializing form request success 1`] = `
+Object {
+  "type": "AddEditStudent/initialize_student_form_request_success",
+}
+`;

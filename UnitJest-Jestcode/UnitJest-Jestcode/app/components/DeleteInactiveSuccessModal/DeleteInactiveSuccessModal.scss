@@ -1,0 +1,41 @@
+.delete-modal__message {
+  font-size: 11px;
+  padding: 20px 10px 0 30px;
+}
+
+.delete-modal-success__yes {
+  color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 4px 4px 5px;
+}
+
+.delete-modal-success {
+  height: 125px;
+  padding: 0;
+  width: 250px;
+}
+
+.delete-modal-success__message {
+  font-size: 11px;
+  padding: 20px 10px 0 30px;
+}
+
+.delete-modal-success__button {
+  margin-top: 0;
+  background-color: #d06021;
+  border-left: 2px solid hsla(0, 0%, 100%, 0.5);
+  border-top: 2px solid hsla(0, 0%, 100%, 0.5);
+  width: 120px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.delete-modal-success--bold {
+  font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,48 @@
+.fad-settings__container-main {
+  width: 100%;
+  height: 460px;
+}
+
+.fad-settings__content {
+  background-color: #ffe279;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.fad-settings__section {
+  float: left;
+  border: 1px solid #000;
+  width: 100%;
+  height: 50%;
+}
+
+.fad-settings__section-title {
+  font-weight: bold;
+  vertical-align: text-bottom;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 32px;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 7px;
+  z-index: +1;
+}
+
+.fad-settings__section-content {
+  padding-left: 10px;
+}
+
+.fad-settings__section-label {
+  font-size: 10pt;
+}
+
+.fad-settings__section-error {
+  margin-left: 24px;
+  font-size: 10pt;
+}
+

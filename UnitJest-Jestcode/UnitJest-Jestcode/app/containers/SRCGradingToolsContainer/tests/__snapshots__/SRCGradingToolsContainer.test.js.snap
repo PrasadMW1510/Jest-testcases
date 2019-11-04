@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SRCGradingToolsContainer /> Expect to render correctly 1`] = `
+<div
+  className="src-grading-tools__container"
+>
+  <SRCGradingTool
+    clearSearchedQuizzes={[Function]}
+    enrollmentCount={2}
+    saveRemovedQuizzesRequest={[Function]}
+    searchForQuizzesToAdd={[Function]}
+  />
+</div>
+`;

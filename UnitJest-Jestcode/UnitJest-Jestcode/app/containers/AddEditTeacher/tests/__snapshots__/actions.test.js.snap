@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditTeacher actions should return the correct constant for addEditTeacherRequest 1`] = `
+Object {
+  "editTeacherId": undefined,
+  "type": "app/AddEditTeacher/ADD_EDIT_TEACHER_REQUEST",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for addEditTeacherRequestFailure 1`] = `
+Object {
+  "error": "error",
+  "subType": "app/AddEditTeacher/ADD_EDIT_TEACHER_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for addEditTeacherRequestSuccess 1`] = `
+Object {
+  "type": "app/AddEditTeacher/ADD_EDIT_TEACHER_REQUEST_SUCCESS",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postAddTeacherRequest with no params 1`] = `
+Object {
+  "permissionIds": Array [],
+  "profileData": Object {},
+  "type": "app/AddEditTeacher/POST_ADD_TEACHER_REQUEST",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postAddTeacherRequest with params 1`] = `
+Object {
+  "permissionIds": Array [
+    "mockPermissionsId",
+  ],
+  "profileData": "mockProfileData",
+  "type": "app/AddEditTeacher/POST_ADD_TEACHER_REQUEST",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postAddTeacherRequestFailure 1`] = `
+Object {
+  "type": "app/AddEditTeacher/POST_ADD_TEACHER_REQUEST_FAILURE",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postAddTeacherRequestSuccess 1`] = `
+Object {
+  "type": "app/AddEditTeacher/POST_ADD_TEACHER_REQUEST_SUCCESS",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postSaveTeacherRequest with no params 1`] = `
+Object {
+  "permissionIds": Array [],
+  "profileData": Object {},
+  "type": "app/AddEditTeacher/POST_SAVE_TEACHER_REQUEST",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postSaveTeacherRequest with params 1`] = `
+Object {
+  "permissionIds": Array [],
+  "profileData": "mockProfileData",
+  "type": "app/AddEditTeacher/POST_SAVE_TEACHER_REQUEST",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postSaveTeacherRequestFailure 1`] = `
+Object {
+  "type": "app/AddEditTeacher/POST_SAVE_TEACHER_REQUEST_FAILURE",
+}
+`;
+
+exports[`AddEditTeacher actions should return the correct constant for postSaveTeacherRequestSuccess 1`] = `
+Object {
+  "type": "app/AddEditTeacher/POST_SAVE_TEACHER_REQUEST_SUCCESS",
+}
+`;

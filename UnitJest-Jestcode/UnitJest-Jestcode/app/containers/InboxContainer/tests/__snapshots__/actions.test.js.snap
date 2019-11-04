@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InboxContainer actions All actions should return the correct constant for getClassStudentList 1`] = `
+Object {
+  "type": "app/InboxContainer/GET_STUDENT_LIST_CLASS",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for getInboxClassesDataRequest 1`] = `
+Object {
+  "type": "app/InboxContainer/GET_INBOX_CLASS_TREELIST",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for getStudentsSubmissionMetadata 1`] = `
+Object {
+  "classId": undefined,
+  "type": "app/InboxContainer/GET_STUDENT_SUBMISSION_META_DATA",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setAssignmentClassSuccess 1`] = `
+Object {
+  "gridData": "1",
+  "treeData": Array [
+    Object {
+      "community_id": "1",
+      "graded": "false",
+    },
+  ],
+  "type": "app/InboxContainer/SET_ASSIGNMENT_LIST_AND_TREE",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setGridData 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/InboxContainer/SET_STUDENT_SUBMISSION_META_DATA",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setInBoxGridRequestSuccess 1`] = `
+Object {
+  "newGridData": Array [],
+  "type": "app/InboxContainer/SET_INBOX_CLASS_TREELIST",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setInboxTreeData 1`] = `
+Object {
+  "newGridData": "",
+  "type": "app/InboxContainer/SET_TEMP_GRIDDATA",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setInboxTreeDataWithTreeList 1`] = `
+Object {
+  "newGridData": "",
+  "type": "app/InboxContainer/SET_TEMP_GRIDDATA_WITH_TREE",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setStudentRequestSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/InboxContainer/SET_STUDENT_SUBMISSION_META_DATA",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setTempGridData 1`] = `
+Object {
+  "newData": undefined,
+  "type": "app/InboxContainer/SET_TEMP_GRIDDATA",
+}
+`;
+
+exports[`InboxContainer actions All actions should return the correct constant for setUnreadDataWithTree 1`] = `
+Object {
+  "newGridData": "",
+  "type": "app/InboxContainer/SET_TEMP_GRIDDATA_WITH_TREE",
+}
+`;

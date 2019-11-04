@@ -1,0 +1,152 @@
+.manage-admin-accounts__header-text {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.manage-admin-accounts__text-direction {
+  font-size: 12px;
+}
+
+.manage-admin-accounts__link-container {
+  display: flex;
+  font-size: 12px;
+  width: 450px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  justify-content: space-between;
+}
+
+.manage-admin-accounts__link-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-demographic-list__table-link {
+  cursor: pointer;
+  color: #00f;
+  margin-bottom: 7px;
+  text-decoration: underline;
+  text-decoration: underline;
+}
+
+// Styles that extend the styles provided by ReactTable/SAMTable
+$thead-color: #311c00;
+$thead-background-color: #ffd400;
+$thead-clicked-color: #ffa200;
+$odd-table-row-background-color: #ffef9e;
+$even-table-row-background-color: #ffef9e;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.custom-demographics-table > .ReactTable {
+  height: 200px;
+  font-size: 12px;
+  margin-bottom: 30px;
+  border-top: initial;
+
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    border-bottom: initial;
+    color: $thead-color;
+    font-weight: 700;
+    height: 24px;
+    max-height: 24px;
+  }
+
+  .rt-th {
+    display: flex;
+    flex: 1;
+    font-size: 11px;
+    max-height: 24px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 6px;
+    text-overflow: ellipsis;
+    border-style: none;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+    background-color: #ffef9e;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 3px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border-right: 0 solid #000;
+    background-color: #ffef9e;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+    color: #00f;
+    text-decoration: underline;
+  }
+
+  .rt-tr {
+    border-bottom: 1px solid #ffb200;
+    max-height: 30px;
+    text-overflow: ellipsis;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr-group {
+    max-height: 25px;
+    background-color: #ffef9e;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+
+  // styles for custom elements within SAMTable
+  .custom-demographics-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 772px;
+  }
+
+  .custom-demographics-table__no-data {
+    background-color: #ffef9e;
+    display: inherit;
+    height: 188px;
+  }
+
+  .custom-demographics-table__no-data-text {
+    color: #f00;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .custom-demographics-table__cell-enabled {
+    text-align: center;
+  }
+
+  .custom-demographics-table__header-enabled {
+    background-color: #ffd400;
+  }
+}

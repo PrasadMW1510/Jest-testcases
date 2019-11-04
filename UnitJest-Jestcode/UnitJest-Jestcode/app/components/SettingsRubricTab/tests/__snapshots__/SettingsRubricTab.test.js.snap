@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsRubricTab /> should render correctly 1`] = `
+<div
+  className="settings-rubric__tab"
+>
+  <div
+    className="settings-rubric__title"
+  >
+    <span
+      className="settings-rubric__title-text"
+    >
+      Some Title
+    </span>
+  </div>
+  <div
+    className="settings-rubric__title-column-header"
+  >
+    <div
+      className="settings-rubric__title-column-header-score"
+    >
+      Score
+    </div>
+    <div
+      className="settings-rubric__title-column-header-label"
+    >
+      Label
+    </div>
+    <div
+      className="settings-rubric__title-column-header-description"
+    >
+      Description
+    </div>
+  </div>
+  <div
+    className="settings-rubric__details"
+  >
+    <div
+      className="settings-rubric__row"
+      key="1"
+    >
+      <div
+        className="settings-rubric__score--detail"
+      >
+        1
+      </div>
+      <div
+        className="settings-rubric__label--detail-container"
+      >
+        <div
+          className="settings-rubric__label--detail"
+        >
+          <input
+            className="settings-rubric__label-input"
+            data-gradingrubric="2"
+            data-gradingscore="1"
+            data-gradingtype=""
+            maxLength={50}
+            onChange={[Function]}
+            readOnly={false}
+            type="text"
+            value="advanced"
+          />
+        </div>
+      </div>
+      <div
+        className="settings-rubric__description--detail"
+      >
+        <SAMEditor
+          data="<p>student understands the words</p>"
+          editorIdObj={
+            Object {
+              "gradingRubric": "2",
+              "gradingScore": "1",
+              "gradingType": "",
+            }
+          }
+          handleChange={[Function]}
+          isReadOnly={false}
+          key="2__1"
+          reinitialize={false}
+          reinitializeEditorComplete={[Function]}
+          shouldReinitializeEditor={false}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestFailure 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestFailure 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Array [],
+      "type": "containers/PortfolioPageContainer/SET_ASSIGNMENT_META_DATA",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false bool 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false bool 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false bool 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string else condition 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string else condition 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string else condition 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getAssignmentMetaData setStudentAssignmentRequestSuccess with graded false string else condition 4`] = `undefined`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestFailure 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestFailure 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "teacherObj": Array [],
+      "type": "app/PortfolioPageContainer/SET_PORTFOLIO_TEACHERS_DATA",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getClassDataRequest getClassDataRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID 4`] = `
+Array [
+  Object {
+    "@@redux-saga/IO": true,
+    "CALL": Object {
+      "args": Array [
+        "SessionIDVal",
+        "0",
+        "<>",
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+  },
+]
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID application id is not -1 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID application id is not -1 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID application id is not -1 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID application id is not -1 4`] = `
+Array [
+  Object {
+    "@@redux-saga/IO": true,
+    "CALL": Object {
+      "args": Array [
+        "SessionIDVal",
+        "0",
+        "<>",
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+  },
+]
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID applications is null 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID applications is null 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID applications is null 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityID applications is null 4`] = `
+Array [
+  Object {
+    "@@redux-saga/IO": true,
+    "CALL": Object {
+      "args": Array [
+        "SessionIDVal",
+        "0",
+        "<>",
+      ],
+      "context": null,
+      "fn": [Function],
+    },
+  },
+]
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityIDFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityIDFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityIDFailure 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getPortfolioClassByCommunityID getPortfolioClassByCommunityIDFailure 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Array [],
+      "type": "containers/PortfolioPageContainer/SET_PORTFOLIO_PROGRAM_LIST_FOR_TABS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions getRubricDefenitionSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions getRubricDefenitionSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions getRubricDefenitionSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions getRubricDefenitionSuccess err part 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Array [],
+      "type": "containers/PortfolioPageContainer/SET_RUBRIC_DEFENITIONS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getRubricDefenitions should successfully run 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentDataSubmissions getStudentSubmissionSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentDataSubmissions getStudentSubmissionSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentDataSubmissions getStudentSubmissionSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentDataSubmissions getStudentSubmissionSuccess err part 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "resultsData": Array [],
+      "type": "containers/PortfolioPageContainer/Student_Submission_Success",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData getClassDataRequestSuccess kind 6`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData setStudentAssignmentRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData setStudentAssignmentRequestFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData setStudentAssignmentRequestFailure 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Portfolio Page Container Saga getStudentSubmissionMetaData setStudentAssignmentRequestFailure 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "assnewThisWeek": 0,
+        "asssubmissions": 0,
+        "assunreadCount": 0,
+        "newThisWeek": 0,
+        "submissions": 0,
+        "unreadCount": 0,
+      },
+      "type": "containers/PortfolioPageContainer/GET_STUDENT_SUBMISSION_META_DATA_COUNT",
+    },
+    "channel": null,
+  },
+}
+`;

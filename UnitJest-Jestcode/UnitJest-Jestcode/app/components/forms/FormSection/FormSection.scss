@@ -1,0 +1,31 @@
+.form-section__callout {
+  border: 1px #000 solid;
+}
+
+.form-section__callout--orange {
+  background-color: #fff7d7;
+
+  .form-section__callout-heading {
+    background-color: #ffd400;
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .form-section__callout-body {
+    background-color: #ffef9e;
+    padding: 3px 36px 7px 8px;
+  }
+}
+
+.form-section__callout-heading {
+  line-height: 28px;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.form-section__callout-body {
+  height: 175px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 16px;
+}

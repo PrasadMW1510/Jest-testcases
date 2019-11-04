@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingSetStudentLevelModal/> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="Set Student Level"
+  isOpen={true}
+  modalClassModifier="student-level-modal"
+>
+  <h4
+    className="student-level-modal-heading"
+  >
+    Set Student Level
+  </h4>
+  <div
+    className="student-level-modal-message"
+  >
+    <div
+      className="student-level-modal-message-confirmation1"
+    >
+      Are you sure you want 
+      <Connect(UserTitleText) />
+       set
+    </div>
+    <div>
+      at Level 
+      topic
+       in READ 180 Next Generation?
+    </div>
+    <div
+      className="student-level-modal-message-confirmation1"
+    >
+      Changes will take effect when the student begins
+    </div>
+    <div>
+      a new segment.
+    </div>
+  </div>
+  <div
+    className="student-level-modal-message-footer"
+  >
+    <SAMButton
+      buttonClassModifier="student-level-modal--ok-button"
+      buttonType="button"
+      isPrimaryButton={true}
+      onClickHandler={[Function]}
+    >
+      OK
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="student-level-modal--cancel-button"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+  </div>
+</SAMModal>
+`;

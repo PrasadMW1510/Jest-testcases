@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct deactivate class 1`] = `
+Object {
+  "type": "deactivate_student_request",
+}
+`;
+
+exports[`should return the failure for deactivate class 1`] = `
+Object {
+  "error": "error",
+  "type": "deactivate_student_request_failure",
+}
+`;
+
+exports[`should return the success for deactivate class 1`] = `
+Object {
+  "deactivateStudent": Object {},
+  "type": "deactivate_student_request_success",
+}
+`;

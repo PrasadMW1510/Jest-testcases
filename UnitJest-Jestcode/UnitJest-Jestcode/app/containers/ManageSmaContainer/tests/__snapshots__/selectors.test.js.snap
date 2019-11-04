@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectManageSmaContainerDomain should select the manage sma container domain 1`] = `
+Object {
+  "manageSmaContainer": Object {
+    "name": "test",
+  },
+}
+`;

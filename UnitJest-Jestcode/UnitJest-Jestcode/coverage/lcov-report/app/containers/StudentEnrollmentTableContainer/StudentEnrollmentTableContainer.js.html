@@ -1,0 +1,1241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/StudentEnrollmentTableContainer/StudentEnrollmentTableContainer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/StudentEnrollmentTableContainer</a> StudentEnrollmentTableContainer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/247</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/186</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/43</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/143</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * StudentEnrollmentTableContainer
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import SettingsMessage <span class="cstat-no" title="statement not covered" >from 'components/SettingsMessage';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { isUserTy<span class="cstat-no" title="statement not covered" >peAdminOrTech } from 'utils</span>/utilities';
+import StudentEnrollmentTable <span class="cstat-no" title="statement not covered" >from 'components/StudentEnrollmentTable';<span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" >import 'components/StudentEnrollmentTable/StudentEnrollmentTable.scss';</span>
+import { createS<span class="cstat-no" title="statement not covered" >tructuredSelector } </span>from 'reselect';
+import { makeSele<span class="cstat-no" title="statement not covered" >ctSmartBarContainer } from 'containers/SmartBarCon</span>tainer/selectors';
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+import { fromJS }<span class="cstat-no" title="statement not covered" > from 'immutable';</span>
+import { USER_ORG<span class="cstat-no" title="statement not covered" >, COHORT_TYPE } from 'containers/App</span>/constants';
+import injectSaga <span class="cstat-no" title="statement not covered" >from 'utils/injectSaga';<span class="cstat-no" title="statement not covered" ></span></span>
+import injectReducer <span class="cstat-no" title="statement not covered" >from 'utils/injectReducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Act<span class="cstat-no" title="statement not covered" >ions from './actions'</span>;<span class="cstat-no" title="statement not covered" ></span>
+import reducer <span class="cstat-no" title="statement not covered" >from './reducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import saga <span class="cstat-no" title="statement not covered" >from './saga';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as Consta<span class="cstat-no" title="statement not covered" >nts from './constants';<span class="cstat-no" title="statement not covered" ></span></span>
+import { makeSelec<span class="cstat-no" title="statement not covered" >tLoginUserOrg, makeSelectPro</span>fileUserType } from '../App/selectors';
+import { getStudentN<span class="cstat-no" title="statement not covered" >ame, getApplicationData, g</span>etStudentIDs, jsonToXML } from './transformers';
+import * as Select<span class="cstat-no" title="statement not covered" >ors from './selectors';<span class="cstat-no" title="statement not covered" ></span></span>
+import * as ValidationU<span class="cstat-no" title="statement not covered" >tils from './tableValidation'</span>;<span class="cstat-no" title="statement not covered" ></span>
+import getValidationRules fr<span class="cstat-no" title="statement not covered" >om './tableValidationRules';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class StudentEnrollmentTableContainer extends React.Component {
+  state = {
+    isDataInitialized: false,<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span>
+    totals: null,
+    apps: null,
+    sortedApps: fromJS([]),
+    studentData: fromJS([]),
+  };
+&nbsp;
+  componentDidMount() {
+    this.props.studentEnrollRequest();
+    this.props.studentAppsUsageRequest();
+    this.props.studentGetListRequest();
+    if (this.props.orgType === USER_ORG.District &amp;&amp; isUserTypeAdminOrTech(this.props.userType)) {
+      this.props.samCentralStatusRequest();
+    }
+  }
+&nbsp;
+  componentWillReceiveProps(nextProps) {
+    const loadingNext = nextProps.isDataLoading;
+    const loadingApps = nextProps.studentEnrollInfo.get('loadingApps');
+    const loadingStudents = nextProps.studentEnrollInfo.get('loadingStudents');
+    const studentGetList = nextProps.studentEnrollInfo.get('studentGetList');
+&nbsp;
+    // Don't update state while loading for better ux
+    if (loadingNext || (loadingApps &amp;&amp; !this.state.isDataInitialized) || loadingStudents) return;
+&nbsp;
+    // Only sort apps once and always refer to sorted apps
+    const sortedApps = this.getSortedApps(nextProps, studentGetList);
+    const studentData = this.getStudentData(nextProps, sortedApps);
+    const studentIDs = this.getStudentIds(nextProps);
+&nbsp;
+    // Any variable starting with `grid`, implies data tweaked to include header row &amp; fixed 1st column
+    const gridHeaders = this.getGridHeaders(sortedApps);
+    const gridHeaderIDs = this.getGridHeaderIDs(sortedApps);
+&nbsp;
+    // Include the fixed column as first item
+    const headers = [{ id: 'fixed-column' }].concat(
+      sortedApps.map(app =&gt; ({ id: app.application_id[0], label: app.name[0], header: true }))
+    );
+&nbsp;
+    // Footer contains totals so needs to be integer
+    const gridFooters = ['Total seats remaining:'].concat(
+      sortedApps.map(app =&gt; Number(app.available_seats[0]))
+    );
+    const gridData = [this.getHeaders(sortedApps)].concat(
+      studentData &amp;&amp; studentData.length ? studentData : []
+    );
+&nbsp;
+    if (this.props.isolateTab === nextProps.isolateTab) {
+      const validatedData = ValidationUtils.validateAll(gridData, getValidationRules());
+      this.setState({
+        isDataInitialized: true,
+        gridData: fromJS(validatedData),
+        gridHeaderIDs,
+        studentIDs,
+        gridFooters,
+        gridHeaders,
+        headers,
+        sortedApps,
+      });
+    }
+  }
+&nbsp;
+  getStudentData = (p<span class="fstat-no" title="function not covered" >ro</span>ps, sortedApps) =&gt; {
+    const studentData = <span class="cstat-no" title="statement not covered" >props.studentEnrollInfo.get('studentEnroll');</span>
+    if<span class="cstat-no" title="statement not covered" > (this.props.smartBarSelections.getIn(['selectedCohType']) !== COHORT_TYPE.Student) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn (</span>
+        studentData &amp;&amp;
+        studentData.size &gt; 0 &amp;&amp;
+        studentData
+          .toJS()
+          .map<span class="fstat-no" title="function not covered" >((</span>item, index) =&gt;<span class="cstat-no" title="statement not covered" ></span>
+            [getStudentName(item, index)].concat(getApplicationData(item, sortedApps))
+          )
+      );
+    }
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      studentData &amp;&amp;
+      studentData.size &gt; 0 &amp;&amp;
+      studentData.toJS().map(it<span class="fstat-no" title="function not covered" >em</span> =&gt; getApplicat<span class="cstat-no" title="statement not covered" >ionData(item, sortedApps))</span>
+    );
+  };
+&nbsp;
+  getHeaders = so<span class="fstat-no" title="function not covered" >rt</span>edApps =&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.props.smartBarSelections.getIn(['selectedCohType']) !== COHORT_TYPE.Student) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn (</span>
+        sortedApps &amp;&amp;
+        ['Students'].concat(
+          sortedApps.map(<span class="fstat-no" title="function not covered" >ap</span>p =&gt; ({<span class="cstat-no" title="statement not covered" ></span>
+            id: app.application_id &amp;&amp; app.application_id[0],
+            label: app.name &amp;&amp; app.name[0],
+          }))
+        )
+      );
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      sortedApps &amp;&amp;
+      sortedApps.map(ap<span class="fstat-no" title="function not covered" >p </span>=&gt; ({<span class="cstat-no" title="statement not covered" ></span>
+        id: app.application_id &amp;&amp; app.application_id[0],
+        label: app.name &amp;&amp; app.name[0],
+      }))
+    );
+  };
+&nbsp;
+  getGridHeaders = so<span class="fstat-no" title="function not covered" >rt</span>edApps =&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.props.smartBarSelections.getIn(['selectedCohType']) !== COHORT_TYPE.Student) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn ['Students'].concat(sortedApps.map(ap<span class="fstat-no" title="function not covered" >p </span>=&gt; app &amp;&amp; app.<span class="cstat-no" title="statement not covered" >name &amp;&amp; app.name[0]));</span></span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn sortedApps.map(ap<span class="fstat-no" title="function not covered" >p </span>=&gt; app &amp;&amp; app.<span class="cstat-no" title="statement not covered" >name &amp;&amp; app.name[0]);</span></span>
+  };
+&nbsp;
+  getGridHeaderIDs = so<span class="fstat-no" title="function not covered" >rt</span>edApps =&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.props.smartBarSelections.getIn(['selectedCohType']) !== COHORT_TYPE.Student) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn ['Students'].concat(</span>
+        sortedApps.map(<span class="fstat-no" title="function not covered" >ap</span>p =&gt; app &amp;&amp; ap<span class="cstat-no" title="statement not covered" >p.application_id &amp;&amp; app.application_id[0])</span>
+      );
+    }
+    re<span class="cstat-no" title="statement not covered" >turn sortedApps.map(ap<span class="fstat-no" title="function not covered" >p </span>=&gt; app &amp;&amp; app.<span class="cstat-no" title="statement not covered" >application_id &amp;&amp; app.application_id[0]);</span></span>
+  };
+&nbsp;
+  getStudentIds = pr<span class="fstat-no" title="function not covered" >op</span>s =&gt; {
+    const studentData = <span class="cstat-no" title="statement not covered" >props.studentEnrollInfo.get('studentEnroll');</span>
+    if<span class="cstat-no" title="statement not covered" > (studentData &amp;&amp; studentData.size &gt; 0) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn studentData.toJS().map((i<span class="fstat-no" title="function not covered" >te</span>m, index) =&gt; getStuden<span class="cstat-no" title="statement not covered" >tIDs(item, index));</span></span>
+    }
+    re<span class="cstat-no" title="statement not covered" >turn null;</span>
+  };
+&nbsp;
+  getSortedApps = (p<span class="fstat-no" title="function not covered" >ro</span>ps, studentGetList) =&gt; {
+    const studentList =
+<span class="cstat-no" title="statement not covered" >      studentGetList &amp;&amp; studentGetList.toJS() ? studentGetList.toJS() : { application: [] };</span>
+    const immApps = <span class="cstat-no" title="statement not covered" >props.studentEnrollInfo.getIn(['studentAppsUsage', 'application']);</span>
+    if<span class="cstat-no" title="statement not covered" > (this.state.sortedApps &amp;&amp; this.state.sortedApps.size &gt; 0) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn this.state.sortedApps;</span>
+    } else if<span class="cstat-no" title="statement not covered" > (immApps &amp;&amp; immApps.toJS()) {</span>
+      const sortedApps = <span class="cstat-no" title="statement not covered" >immApps.toJS();</span>
+      re<span class="cstat-no" title="statement not covered" >turn studentList.application.map(st<span class="fstat-no" title="function not covered" >ud</span>ent =&gt; {</span>
+        if<span class="cstat-no" title="statement not covered" > (student) {</span>
+          const app = <span class="cstat-no" title="statement not covered" >sortedApps.find(<span class="fstat-no" title="function not covered" >it</span>em =&gt; student.a<span class="cstat-no" title="statement not covered" >pp_id[0] === item.application_id[0]);</span></span>
+          if<span class="cstat-no" title="statement not covered" > (app) {</span>
+            re<span class="cstat-no" title="statement not covered" >turn app;</span>
+          }
+        }
+        re<span class="cstat-no" title="statement not covered" >turn null;</span>
+      });
+    }
+    re<span class="cstat-no" title="statement not covered" >turn [];</span>
+  };
+&nbsp;
+  handleCancel = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    th<span class="cstat-no" title="statement not covered" >is.props.studentEnrollRequest();</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.handleTabReset();</span>
+  };
+&nbsp;
+  handleStudentViewToggle = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const rowIndex = <span class="cstat-no" title="statement not covered" >Number(ev.target.dataset.row);</span>
+    const updatedData = <span class="cstat-no" title="statement not covered" >ValidationUtils.toggle(this.state.gridData.toJS(), 1, rowIndex);</span>
+    const validatedData = <span class="cstat-no" title="statement not covered" >ValidationUtils.validateAll(updatedData, getValidationRules());</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({ gridData: fromJS(validatedData) });</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.handleTabIsolate();</span>
+  };
+&nbsp;
+  handleToggle = ev<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const isHeader = <span class="cstat-no" title="statement not covered" >Boolean(ev.target.dataset.header);</span>
+    const rowIndex = <span class="cstat-no" title="statement not covered" >Number(ev.target.dataset.row);</span>
+    const columnIndex = <span class="cstat-no" title="statement not covered" >Number(ev.target.dataset.column);</span>
+    const headers = <span class="cstat-no" title="statement not covered" >[...this.state.headers];</span>
+&nbsp;
+    // Handle header clicks
+    if<span class="cstat-no" title="statement not covered" > (isHeader) {</span>
+      const isHeaderChecked = <span class="cstat-no" title="statement not covered" >ev.target.checked;</span>
+&nbsp;
+      // Loop through column and update checked state
+      const uncheckedDelta = <span class="cstat-no" title="statement not covered" >this.state.gridData.slice(1).reduce((<span class="fstat-no" title="function not covered" >to</span>tal, row) =&gt; {</span>
+        const value = <span class="cstat-no" title="statement not covered" >row.get(columnIndex) &amp;&amp; row.get(columnIndex).toJS();</span>
+        // Skip header &amp; footer rows and any checkbox already checked
+        if<span class="cstat-no" title="statement not covered" > (value.checked === true) {</span>
+          re<span class="cstat-no" title="statement not covered" >turn total;</span>
+        }
+        // Tally
+        re<span class="cstat-no" title="statement not covered" >turn total + 1;</span>
+      }, 0);
+&nbsp;
+      const gridData = <span class="cstat-no" title="statement not covered" >this.state.gridData.map(r<span class="fstat-no" title="function not covered" >ow</span> =&gt; {</span>
+        const value = <span class="cstat-no" title="statement not covered" >row.get(columnIndex) &amp;&amp; row.get(columnIndex).toJS();</span>
+&nbsp;
+        re<span class="cstat-no" title="statement not covered" >turn typeof value === 'object'</span>
+          ? row.set(columnIndex, fromJS({ ...value, checked: isHeaderChecked }))
+          : row;
+      });
+&nbsp;
+      const gridFooters = [<span class="cstat-no" title="statement not covered" >...this.state.gridFooters];</span>
+      he<span class="cstat-no" title="statement not covered" >aders[columnIndex].checked = headers[columnIndex] &amp;&amp; !headers[columnIndex].checked;</span>
+&nbsp;
+      // Decrease total seats when item changes to checked
+      gr<span class="cstat-no" title="statement not covered" >idFooters[columnIndex] = isHeaderChecked</span>
+        ? gridFooters[columnIndex] - uncheckedDelta
+        : gridFooters[columnIndex] + (this.state.gridData.size - 1 - uncheckedDelta);
+&nbsp;
+      const validatedDataHeader = <span class="cstat-no" title="statement not covered" >ValidationUtils.validateAll(</span>
+        ValidationUtils.toggleAll(gridData.toJS(), columnIndex, isHeaderChecked),
+        getValidationRules()
+      );
+      th<span class="cstat-no" title="statement not covered" >is.setState({ gridData: fromJS(validatedDataHeader), gridFooters, headers });</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.handleTabIsolate();</span>
+      re<span class="cstat-no" title="statement not covered" >turn;</span>
+    }
+&nbsp;
+    const gridFooters = <span class="cstat-no" title="statement not covered" >[...this.state.gridFooters];</span>
+&nbsp;
+    // Header will always be unchecked in this situation
+    he<span class="cstat-no" title="statement not covered" >aders[columnIndex].checked = false;</span>
+&nbsp;
+    // Decrease total seats when item changes to checked
+    gr<span class="cstat-no" title="statement not covered" >idFooters[columnIndex] = ev.target.checked</span>
+      ? gridFooters[columnIndex] - 1
+      : gridFooters[columnIndex] + 1;
+&nbsp;
+    const updatedData = <span class="cstat-no" title="statement not covered" >ValidationUtils.toggle(this.state.gridData.toJS(), rowIndex, columnIndex);</span>
+    const validatedData = <span class="cstat-no" title="statement not covered" >ValidationUtils.validateAll(updatedData, getValidationRules());</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({ gridData: fromJS(validatedData), gridFooters, headers });</span>
+    th<span class="cstat-no" title="statement not covered" >is.props.handleTabIsolate();</span>
+  };
+&nbsp;
+  handleStudentEnrollSave = (s<span class="fstat-no" title="function not covered" >ho</span>uldReturn = false, currentPage<span class="cstat-no" title="statement not covered" > = 1) =&gt; {<span class="cstat-no" title="statement not covered" ></span></span>
+    const users = <span class="cstat-no" title="statement not covered" >[];</span>
+    const gridData = <span class="cstat-no" title="statement not covered" >this.state.gridData.toJS();</span>
+    fo<span class="cstat-no" title="statement not covered" >r (let index = 1; index &lt; gridData.length; index += 1) {</span>
+      const user = <span class="cstat-no" title="statement not covered" >{};</span>
+      const applications = <span class="cstat-no" title="statement not covered" >[];</span>
+      us<span class="cstat-no" title="statement not covered" >er.user_id = this.state.studentIDs[index - 1];</span>
+      fo<span class="cstat-no" title="statement not covered" >r (let userIndex = 1; userIndex &lt; gridData[index].length; userIndex += 1) {</span>
+        // Checkboxes have state - example { checked: true, disabled: false }
+        if<span class="cstat-no" title="statement not covered" > (gridData[index][userIndex] &amp;&amp; gridData[index][userIndex].checked) {</span>
+          ap<span class="cstat-no" title="statement not covered" >plications.push({ application_id: this.state.gridHeaderIDs[userIndex] });</span>
+        }
+      }
+      if<span class="cstat-no" title="statement not covered" > (applications.length &gt; 0) {</span>
+        us<span class="cstat-no" title="statement not covered" >er.applications = { applications };</span>
+      }
+      us<span class="cstat-no" title="statement not covered" >ers.push({ user });</span>
+    }
+    const enrollment = <span class="cstat-no" title="statement not covered" >{</span>
+      users: { users },
+    };
+    th<span class="cstat-no" title="statement not covered" >is.props.studentEnrollSaveRequest(</span>
+      jsonToXML(enrollment, 'enrollment'),
+      shouldReturn,
+      currentPage
+    );
+    th<span class="cstat-no" title="statement not covered" >is.props.handleTabReset();</span>
+  };
+&nbsp;
+  handleStudentViewEnrollSave = (s<span class="fstat-no" title="function not covered" >ho</span>uldReturn = false, currentPage<span class="cstat-no" title="statement not covered" > = 1) =&gt; {<span class="cstat-no" title="statement not covered" ></span></span>
+    const users = <span class="cstat-no" title="statement not covered" >[];</span>
+    const gridData = <span class="cstat-no" title="statement not covered" >this.state.gridData.toJS();</span>
+    fo<span class="cstat-no" title="statement not covered" >r (let index = 1; index &lt; gridData.length; index += 1) {</span>
+      const user = <span class="cstat-no" title="statement not covered" >{};</span>
+      const applications = <span class="cstat-no" title="statement not covered" >[];</span>
+      us<span class="cstat-no" title="statement not covered" >er.user_id = this.state.studentIDs[index - 1];</span>
+      fo<span class="cstat-no" title="statement not covered" >r (let userIndex = 0; userIndex &lt; gridData[index].length; userIndex += 1) {</span>
+        if<span class="cstat-no" title="statement not covered" > (gridData[index][userIndex] &amp;&amp; gridData[index][userIndex].checked) {</span>
+          ap<span class="cstat-no" title="statement not covered" >plications.push({ application_id: this.state.gridHeaderIDs[userIndex] });</span>
+        }
+      }
+      if<span class="cstat-no" title="statement not covered" > (applications.length &gt; 0) {</span>
+        us<span class="cstat-no" title="statement not covered" >er.applications = { applications };</span>
+      }
+      us<span class="cstat-no" title="statement not covered" >ers.push({ user });</span>
+    }
+    const enrollment = <span class="cstat-no" title="statement not covered" >{</span>
+      school_id: this.props.smartBarSelections.getIn(['selectedSchoolId']),
+      users: { users },
+    };
+&nbsp;
+    th<span class="cstat-no" title="statement not covered" >is.props.studentEnrollSaveRequest(</span>
+      jsonToXML(enrollment, 'enrollment'),
+      shouldReturn,
+      currentPage
+    );
+    th<span class="cstat-no" title="statement not covered" >is.props.handleTabReset();</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span>
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+  render() {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+    const { smartBarSele<span class="cstat-no" title="statement not covered" >ctions, isDataLoading } = this.p</span>rops;<span class="cstat-no" title="statement not covered" ></span>
+    const { gridData<span class="cstat-no" title="statement not covered" >, gridFooters, headers, sortedApps } = this.sta<span class="fstat-no" title="function not covered" >te</span>;<span class="cstat-no" title="statement not covered" ></span></span>
+    if (!sortedApps || !<span class="cstat-no" title="statement not covered" >gridData) {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+      re<span class="cstat-no" title="statement not covered" >turn null;</span>
+    }
+    const paginationData = <span class="cstat-no" title="statement not covered" >Selectors.selectPaginationData(this.props.studentEnrollInfo);</span>
+    const studentData = <span class="cstat-no" title="statement not covered" >this.props.studentEnrollInfo.get('studentEnroll');</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;div&gt;
+        {studentData &amp;&amp;
+          studentData.size &gt; 0 &amp;&amp; (
+            &lt;StudentEnrollmentTable
+              handleToggle={this.handleToggle}
+              handleStudentViewToggle={this.handleStudentViewToggle}
+              gridList={gridData.toJS()}
+              headers={headers}
+              footers={gridFooters}
+              isDataInitialized={this.state.isDataInitialized}
+              isDataLoading={isDataLoading}
+              paginationData={paginationData}
+              studentEnrollRequest={this.props.studentEnrollRequest}
+              isolateTab={this.props.isolateTab}
+              handleTabIsolate={this.props.handleTabIsolate}
+              studentEnrollSaveRequest={this.handleStudentEnrollSave}
+              studentViewEnrollSaveRequest={this.handleStudentViewEnrollSave}
+              handleCancel={this.handleCancel}
+              handleTabReset={this.props.handleTabReset}
+              smartBarSelections={smartBarSelections}
+            /&gt;
+          )}
+        {!studentData &amp;&amp; (
+          &lt;div&gt;
+            &lt;div className="teacher-enrollment-header"&gt;
+              Use the check boxes to enroll or unenroll students in HMH programs. Use the check box
+              at the top of each column to enroll all students in that program.
+            &lt;/div&gt;
+            &lt;SettingsMessage message1={Constants.STUDENT_ENROLLMENT_COUNT} /&gt;
+          &lt;/div&gt;
+        )}
+      &lt;/div&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >StudentEnrollmentTableContainer.propTypes = {</span>
+  smartBarSelections: PropTypes.object.isRequired,
+  studentEnrollRequest: PropTypes.func,
+  studentAppsUsageRequest: PropTypes.func,
+  studentEnrollSaveRequest: PropTypes.func,
+  samCentralStatusRequest: PropTypes.func,
+  studentGetListRequest: PropTypes.func,
+  studentEnrollInfo: PropTypes.any,
+  isolateTab: PropTypes.bool.isRequired,
+  handleTabIsolate: PropTypes.func.isRequired,
+  handleTabReset: PropTypes.func.isRequired,
+  orgType: PropTypes.any,
+  userType: PropTypes.any,
+  isDataLoading: PropTypes.bool.isRequired,
+};
+&nbsp;
+const mapStateToProps <span class="cstat-no" title="statement not covered" >= createStructuredSelector({</span>
+  studentEnrollInfo: Selectors.makeSelectStudentEnrollTableContainer(),
+  orgType: makeSelectLoginUserOrg(),
+  userType: makeSelectProfileUserType(),
+  smartBarSelections: makeSelectSmartBarContainer(),
+  isDataLoading: Selectors.makeSelectLoading(),
+});
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(mapStateToProps, {</span>
+  ...Actions,
+});
+&nbsp;
+const withReducer <span class="cstat-no" title="statement not covered" >= injectReducer({ key: 'studentEnroll', reducer });</span>
+const withSaga <span class="cstat-no" title="statement not covered" >= injectSaga({ key: 'studentEnroll', saga });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withReducer, withSaga, withConnect)(StudentEnrollmentTableContainer);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manageSmaContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+}
+`;
+
+exports[`manageSmaContainerReducer should handle GET_MEDIA_SERVERS_REQUEST 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+}
+`;
+
+exports[`manageSmaContainerReducer should handle GET_MEDIA_SERVERS_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+}
+`;
+
+exports[`manageSmaContainerReducer should handle GET_MEDIA_SERVERS_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  mediaServers: Array [
+    Object {
+      "name": "mockServer1",
+    },
+  ],
+}
+`;

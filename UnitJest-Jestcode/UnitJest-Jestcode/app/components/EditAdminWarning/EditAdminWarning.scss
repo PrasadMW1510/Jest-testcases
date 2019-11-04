@@ -1,0 +1,28 @@
+.edit-admin-warning {
+  width: 252px;
+  height: 152px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+}
+
+.edit-admin-warning--message {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.edit-admin-warning--ok-button,
+.edit-admin-warning--cancel-button {
+  min-width: 90px;
+  width: 90px;
+  height: 24px;
+}
+
+.edit-admin-warning--ok-button {
+  float: left;
+}
+
+.edit-admin-warning--cancel-button {
+  float: right;
+}

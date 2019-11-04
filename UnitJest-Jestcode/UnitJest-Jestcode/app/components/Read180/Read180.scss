@@ -1,0 +1,147 @@
+.modal-modal--read180ng-modal {
+  width: 77%;
+  height: 90%;
+  padding: 0;
+  margin: 1.5% 0 0;
+  border: 0;
+  border-radius: 15px;
+  position: fixed;
+}
+
+.modal--savescreen-warning {
+  width: 200px;
+  height: 114px;
+  padding: 0;
+}
+
+.modal--savewrapper-heading {
+  background: #ddd;
+  font-size: 13px;
+  padding: 15px;
+  font-weight: 700;
+}
+
+.modal--savewrapper-warning {
+  font-size: 13px;
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+.read180ngsave-innerpage-button {
+  display: flex;
+  margin: 10px 0 0 50px;
+}
+
+.modal--savewrapper-warning .btn--primary {
+  margin: 0 17px 0 45px;
+  text-align: center;
+  width: 30px;
+  background-color: linear-gradient(#dee2e6, #1989e5);
+}
+
+.read180ng-delete-innerpage .btn--primary {
+  background-color: linear-gradient(#dee2e6, #1989e5) !important;
+}
+
+.read180ng-delete-innerpage .btn--secondary {
+  background-color: linear-gradient(#dee2e6, #1989e5);
+}
+
+.portfolio-conf-warning {
+  width: 230px;
+  height: 100px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-warning-heading {
+  background: #9ca8b5;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-warning-btn {
+  display: flex;
+  margin: auto;
+  width: 65%;
+}
+
+.portfolio-conf-warning-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-warning .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin: 0 10% 0 0;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+}
+
+.print-read180ng-modal-assignment-roster-comments-warning {
+  text-align: right;
+  display: block;
+  font-size: 13px;
+  color: #f00;
+}
+
+.print-read180ng-modal-assignment-students {
+  width: 15%;
+  display: inline-block;
+}
+
+.print-read180ng-modal-assignment-grades {
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+.print-read180ng-modal-assignment-comments {
+  display: inline-block;
+}
+
+.iread-modal-buttons-firstset {
+  width: 30%;
+}
+
+.pager {
+  display: inline-flex;
+  font-size: 11px;
+  margin: 0 25%;
+}
+
+.pager-nor {
+  padding: 3px;
+  background-color: #fff;
+  height: 21px;
+  width: 15px;
+  margin: 5px 0 0;
+  line-height: 15px;
+  text-align: center;
+}
+
+.pager-prev {
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  margin: 5px 0 0;
+  line-height: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}

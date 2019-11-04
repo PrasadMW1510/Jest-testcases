@@ -1,0 +1,89 @@
+.r180ee-settings__heading {
+  font-size: 8pt;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1.5%;
+}
+
+.r180ee-settings__content {
+  background-color: #ffe279;
+  display: inline-block;
+  height: 340px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 9pt;
+  margin-top: 1%;
+}
+
+.r180ee-settings__section {
+  float: left;
+  border: 1px solid #000;
+}
+
+.r180ee-settings__section--top {
+  height: 35%;
+  width: 100%;
+}
+
+.r180ee-settings__section--bottom {
+  height: 65%;
+  width: 50%;
+}
+
+.r180ee-settings__section-title {
+  font-weight: bold;
+  vertical-align: text-bottom;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 32px;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 7px;
+  z-index: +1;
+}
+
+.r180ee-settings__section-content {
+  padding-left: 10px;
+}
+
+.r180ee-settings__section-footer {
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  display: inline-block;
+  margin-top: 29px;
+}
+
+.r180ee-settings__initial-settings {
+  padding-bottom: 10px;
+}
+
+.r180ee-settings__radio {
+  padding-bottom: 5px;
+}
+
+.r180ee-settings__radio-text {
+  padding-left: 5px;
+}
+
+.r180ee-settings__reading-speed-label {
+  margin-left: 57px;
+}
+
+.r180ee-settings__student-level-label {
+  margin-left: 35px;
+}
+
+.r180ee-settings__select-field {
+  width: 40px;
+}
+
+.r180ee-settings__student-level-modal {
+  background-color: #fee180;
+}
+
+.r180ee-settings__student-level-modal-header {
+  color: #000;
+  background-color: #fed230;
+}

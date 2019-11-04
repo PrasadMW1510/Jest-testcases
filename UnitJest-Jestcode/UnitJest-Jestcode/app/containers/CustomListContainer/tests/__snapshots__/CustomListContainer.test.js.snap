@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomListContainer /> should render correctly 1`] = `
+<div>
+  <CustomList
+    clearCustomList={[Function]}
+    closeNoTitlesToPrintModal={[Function]}
+    noDataToExportHTML={false}
+    onTitleClick={[Function]}
+    searchresultsData={
+      Object {
+        "selectedItems": Array [
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "Lexile": Array [
+              "900",
+            ],
+            "LexileSort": Array [
+              "900",
+            ],
+            "Points": Array [
+              "22",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              6.2,
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+          },
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "Lexile": Array [
+              "1000",
+            ],
+            "LexileSort": Array [
+              "1000",
+            ],
+            "Points": Array [
+              "30",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              "6.2",
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+          },
+        ],
+      }
+    }
+  />
+  <PrintCustomList
+    activateQuizModal={[Function]}
+    clearSelectedCustomList={[Function]}
+    deactivateQuizModal={[Function]}
+    exportCustomQuizRequest={[Function]}
+    getselectedbookresults={[Function]}
+    handleExportTeacherQuizModal={[Function]}
+    handleTitleClick={[Function]}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "Lexile": Array [
+              "900",
+            ],
+            "LexileSort": Array [
+              "900",
+            ],
+            "Points": Array [
+              "22",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              6.2,
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+          },
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "Lexile": Array [
+              "1000",
+            ],
+            "LexileSort": Array [
+              "1000",
+            ],
+            "Points": Array [
+              "30",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              "6.2",
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+          },
+        ],
+      }
+    }
+    searchresultsData={
+      Object {
+        "selectedItems": Array [
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "Lexile": Array [
+              "900",
+            ],
+            "LexileSort": Array [
+              "900",
+            ],
+            "Points": Array [
+              "22",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              6.2,
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "7bj95dlpefk21ljc2o399idb_2efa7f0",
+            ],
+          },
+          Object {
+            "Author": Array [
+              Object {
+                "FirstName": Array [
+                  "Cassandra",
+                ],
+                "LastName": Array [
+                  "Lease",
+                ],
+              },
+            ],
+            "CollectionName": Array [
+              "",
+            ],
+            "Copies": Array [
+              "0",
+            ],
+            "GuidedReadingLevel": Array [
+              "Z",
+            ],
+            "ID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "Lexile": Array [
+              "1000",
+            ],
+            "LexileSort": Array [
+              "1000",
+            ],
+            "Points": Array [
+              "30",
+            ],
+            "QuizActive": Array [
+              "true",
+            ],
+            "QuizAuthor": Array [
+              "",
+            ],
+            "QuizID": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+            "QuizInstalled": Array [
+              "true",
+            ],
+            "QuizTeacherMade": Array [
+              "true",
+            ],
+            "ReadingLevel": Array [
+              "6.2",
+            ],
+            "Title": Array [
+              "Monsterhearts",
+            ],
+            "Type": Array [
+              "1",
+            ],
+            "Words": Array [
+              "150000",
+            ],
+            "_id": Array [
+              "9lkbr2621suruvmapib0tn1j_2efa7f0",
+            ],
+          },
+        ],
+      }
+    }
+    showPrintBookLabelModal={[Function]}
+    showPrintQuizAndAnswerKeyModal={[Function]}
+    showPrintQuizModal={[Function]}
+    viewExportHTML={[Function]}
+  />
+</div>
+`;
+
+exports[`<CustomListContainer /> should render correctly 2`] = `
+<div>
+  <CustomList
+    clearCustomList={[Function]}
+    closeNoTitlesToPrintModal={[Function]}
+    noDataToExportHTML={false}
+    onTitleClick={[Function]}
+    searchresultsData={
+      Object {
+        "selectedItems": Array [],
+      }
+    }
+  />
+  <PrintCustomList
+    activateQuizModal={[Function]}
+    clearSelectedCustomList={[Function]}
+    deactivateQuizModal={[Function]}
+    exportCustomQuizRequest={[Function]}
+    getselectedbookresults={[Function]}
+    handleExportTeacherQuizModal={[Function]}
+    handleTitleClick={[Function]}
+    searchResultsContainer={
+      Object {
+        "selectedItems": Array [],
+      }
+    }
+    searchresultsData={
+      Object {
+        "selectedItems": Array [],
+      }
+    }
+    showPrintBookLabelModal={[Function]}
+    showPrintQuizAndAnswerKeyModal={[Function]}
+    showPrintQuizModal={[Function]}
+    viewExportHTML={[Function]}
+  />
+</div>
+`;

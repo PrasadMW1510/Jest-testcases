@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Class successCount is 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     class 
+     successfully deleted. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Class successCount is not 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     classes 
+     successfully deleted. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is School successCount is 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     school 
+     successfully deleted. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is School successCount is not 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     schools 
+     successfully deleted. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Student successCount and failureCount is 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     student was 
+     successfully unenrolled from all programs.
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     student 
+     could not be unenrolled because they are attached to active classes. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Student successCount and failureCount is not 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     students were 
+     successfully unenrolled from all programs.
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     students 
+     could not be unenrolled because they are attached to active classes. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Teacher successCount and failureCount is 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     teacher was 
+     successfully deleted.
+    <span
+      className="delete-modal-success--bold"
+    >
+       1 
+    </span>
+     
+     teacher 
+     could not be deleted because they are assigned to active classes. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;
+
+exports[`<DeleteInactiveSuccessModal /> cohortType is Teacher successCount and failureCount is not 1 1`] = `
+<SAMModal
+  contentLabel=""
+  isOpen={true}
+  modalClassModifier="delete-modal-success"
+>
+  <div
+    className="delete-modal-success__message"
+  >
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     teachers were 
+     successfully deleted.
+    <span
+      className="delete-modal-success--bold"
+    >
+       10 
+    </span>
+     
+     teachers 
+     could not be deleted because they are assigned to active classes. Click Okay to continue
+  </div>
+  <div
+    className="delete-modal-success__button"
+  >
+    <button
+      className="delete-modal-success__yes"
+      onClick={[Function]}
+    >
+      Okay
+    </button>
+  </div>
+</SAMModal>
+`;

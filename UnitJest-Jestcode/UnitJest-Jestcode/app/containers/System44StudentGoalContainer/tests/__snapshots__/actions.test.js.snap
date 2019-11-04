@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getAllStudentGoalsRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "System44StudentGoalContainer/get_all_student_goals_request_failure",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getAllStudentGoalsRequestSuccess 1`] = `
+Object {
+  "getAllStudentGoalsData": Array [],
+  "type": "System44StudentGoalContainer/get_all_student_goals_request_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getAllStudentGoalsRequestSuccess 2`] = `
+Object {
+  "getAllStudentGoalsData": Array [],
+  "type": "System44StudentGoalContainer/get_all_student_goals_request_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getCombinedStudentGoalsRequest 1`] = `
+Object {
+  "studentId": undefined,
+  "type": "System44StudentGoalContainer/get_combined_student_goals_request",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getCombinedStudentGoalsRequestFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "System44StudentGoalContainer/get_combined_student_goals_request_failure",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getCombinedStudentGoalsRequestSuccess 1`] = `
+Object {
+  "getCombinedStudentGoalsData": Array [
+    Object {
+      "name": "award 1",
+    },
+  ],
+  "type": "System44StudentGoalContainer/get_combined_student_goals_request_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getStudentSubmissionsRequestError 1`] = `
+Object {
+  "error": Array [
+    Object {
+      "name": "error 1",
+    },
+  ],
+  "type": "System44StudentGoalContainer/get_student_submissions_error",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for getStudentSubmissionsRequestSuccess 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "award 1",
+    },
+  ],
+  "type": "System44StudentGoalContainer/get_student_submissions_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for setStudentAcademicGoals 1`] = `
+Object {
+  "studentId": undefined,
+  "type": "System44StudentGoalContainer/set_student_academic_goals_request",
+  "value": undefined,
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for setStudentAcademicGoalsError 1`] = `
+Object {
+  "error": undefined,
+  "type": "System44StudentGoalContainer/set_student_academic_goals_error",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for setStudentAcademicGoalsSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "System44StudentGoalContainer/set_student_academic_goals_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for setStudentBehaviourGoalsError 1`] = `
+Object {
+  "error": undefined,
+  "type": "System44StudentGoalContainer/set_student_behaviour_goals_error",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for setStudentBehaviourGoalsSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "System44StudentGoalContainer/set_student_behaviour_goals_success",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for updateStudentBehaviourGoalsError 1`] = `
+Object {
+  "error": undefined,
+  "type": "System44StudentGoalContainer/update_student_behaviour_goals_error",
+}
+`;
+
+exports[`System44StudentGoalContainer actions All actions should return the correct constant for updateStudentBehaviourGoalsSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "System44StudentGoalContainer/update_student_behaviour_goals_success",
+}
+`;

@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingViewIRead /> should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="iread-settings__heading"
+  >
+    Use these options to select iRead Program Settings.
+  </span>
+  <div
+    className="iread-settings__content"
+  >
+    <div
+      className="iread-settings__section--full-width"
+    >
+      <span
+        className="iread-settings__section-title"
+      >
+        Screener Administration Option
+      </span>
+      <div>
+        <ul
+          className="iread-settings__list"
+        >
+          <li
+            className="iread-settings__list-item"
+            key="automaticPlacement"
+          >
+            <SettingsFourStateCheckbox
+              checkboxClass=""
+              checkboxName="settingsFourStateCheckbox"
+              checkboxText="Administer screener on next student login"
+              currentCheckboxValue="0"
+              disabled={false}
+              handleChangeCheckboxValue={[Function]}
+              statusMap={
+                Object {
+                  "checkedDisabled": Array [],
+                  "checkedEnabled": Array [
+                    "1",
+                  ],
+                  "mixedDisabled": Array [],
+                  "mixedEnabled": Array [
+                    "-2",
+                    "2",
+                  ],
+                  "uncheckedDisabled": Array [
+                    "-1",
+                  ],
+                  "uncheckedEnabled": Array [
+                    "0",
+                  ],
+                }
+              }
+              textClass=""
+            />
+          </li>
+        </ul>
+        <span
+          className="iread-settings__note"
+        >
+          Note:
+          <ul
+            className="iread-settings__list-item"
+          >
+            <li>
+              Screener will administer automatically upon first-time login to
+              <span
+                className="iread-settings__note-list-item--italic"
+              >
+                 iRead
+              </span>
+              .
+            </li>
+            <li>
+              Check this box ONLY if student is returning to
+              <span
+                className="iread-settings__note-list-item--italic"
+              >
+                 iRead
+              </span>
+               after a prolonged absence such as summer break and is likely to be re-leveled due to summer loss.
+            </li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <div
+      className="iread-settings__section--half-width"
+    >
+      <span
+        className="iread-settings__section-title"
+      >
+        English Language Learner Option
+      </span>
+      <div
+        className="iread-settings__lang-options"
+      >
+        <div
+          key="None"
+        >
+          <span>
+            <input
+              checked={true}
+              className="iread-settings__lang-option-radio"
+              id="None"
+              key="None"
+              name="second_language_id"
+              onChange={[Function]}
+              type="radio"
+              value="0"
+            />
+            None
+          </span>
+        </div>
+        <div
+          key="Spanish"
+        >
+          <span>
+            <input
+              checked={false}
+              className="iread-settings__lang-option-radio"
+              id="Spanish"
+              key="Spanish"
+              name="second_language_id"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            Spanish
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="iread-settings__section--half-width"
+    >
+      <span
+        className="iread-settings__section-title"
+      >
+        Support Options
+      </span>
+      <ul
+        className="iread-settings__list"
+      >
+        <li
+          className="iread-settings__list-item"
+          key="captioning"
+        >
+          <SettingsFourStateCheckbox
+            checkboxClass=""
+            checkboxName="settingsFourStateCheckbox"
+            checkboxText="Enable student recordings"
+            currentCheckboxValue="0"
+            disabled={false}
+            handleChangeCheckboxValue={[Function]}
+            statusMap={
+              Object {
+                "checkedDisabled": Array [],
+                "checkedEnabled": Array [
+                  "1",
+                ],
+                "mixedDisabled": Array [],
+                "mixedEnabled": Array [
+                  "-2",
+                  "2",
+                ],
+                "uncheckedDisabled": Array [
+                  "-1",
+                ],
+                "uncheckedEnabled": Array [
+                  "0",
+                ],
+              }
+            }
+            textClass=""
+          />
+        </li>
+      </ul>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;

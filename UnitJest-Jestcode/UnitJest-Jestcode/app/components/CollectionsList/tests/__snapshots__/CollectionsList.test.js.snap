@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollectionsList /> Expect to have unit tests specified 1`] = `
+<span>
+  <select
+    className="collections-list__select"
+    name="collections-list"
+    onChange={[Function]}
+  >
+    <option
+      key="vyp"
+      value="vyp"
+    >
+      vyp
+    </option>
+  </select>
+</span>
+`;

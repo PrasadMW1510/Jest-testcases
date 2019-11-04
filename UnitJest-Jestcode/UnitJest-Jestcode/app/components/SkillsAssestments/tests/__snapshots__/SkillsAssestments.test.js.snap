@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SkillsAssestments /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  >
+    <ul
+      className="skill-assestment-overallscore-info-ullist"
+    >
+      <li
+        className="list-none"
+      >
+        Math 180 Year2
+      </li>
+      <li>
+        a
+         : 
+        d
+      </li>
+      <li>
+        <a
+          target="_blank"
+        >
+          mSkills Assessment
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={false}
+      onSelect={[Function]}
+      selectedIndex={0}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      >
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Question 1
+        </Tab>
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Question 2
+        </Tab>
+      </TabList>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <Math180SkillsQuestions
+          buttonChange={[Function]}
+          communityID="s"
+          handleChange={[Function]}
+          index="0"
+          mSkillsQuestionsData={
+            Object {
+              "evaluation": Array [
+                Object {
+                  "$": Object {
+                    "rubricType": "",
+                  },
+                  "rubricScores": Array [
+                    Object {
+                      "score": Array [
+                        Object {
+                          "teacherScore": 2,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            }
+          }
+          question="1"
+          questionsData={
+            Object {
+              "length": 2,
+            }
+          }
+          rubicScore={2}
+          scoreToggle={[Function]}
+          testResults={Object {}}
+        />
+      </TabPanel>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <Math180SkillsQuestions
+          buttonChange={[Function]}
+          communityID="s"
+          handleChange={[Function]}
+          index="1"
+          mSkillsQuestionsData={
+            Object {
+              "evaluation": Array [
+                Object {
+                  "$": Object {
+                    "rubricType": "",
+                  },
+                  "rubricScores": Array [
+                    Object {
+                      "score": Array [
+                        Object {
+                          "teacherScore": 2,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            }
+          }
+          question="2"
+          questionsData={
+            Object {
+              "length": 3,
+            }
+          }
+          rubicScore={2}
+          scoreToggle={[Function]}
+          testResults={Object {}}
+        />
+      </TabPanel>
+    </Tabs>
+  </div>
+  <div
+    className="skill-assestment-overallscore"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <h3
+      className="skill-assestment-overallscore-data"
+    >
+      Overall Score
+    </h3>
+    <button
+      className="inbox-program-close-pop"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <div
+      className="skill-assestment-overallscore-info"
+    >
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          0
+          <br />
+           Needs Improvement
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates inconsistent or no understanding of interpreting the meaning of products in an equal groups problem. The student answers no part correctly.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          1
+          <br />
+           Average
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates partial understanding of interpreting the meaning of products in an equal groups problem. The student answer either Part A or Part B incorrectly and does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          2
+          <br />
+           Good
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates good understanding of interpreting the meaning of products in an equal groups problem. The student answers Part A and B correctly but does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          3
+          <br />
+           Excellent
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates a thorough understanding of interpreting the meaning of products in an equal groups problem. The student answers Parts A and B correctly and provides reasonable explanations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SkillsAssestments /> Expect to render correctly 2`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  />
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={false}
+      onSelect={[Function]}
+      selectedIndex={0}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      />
+    </Tabs>
+  </div>
+  <div
+    className="skill-assestment-overallscore"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <h3
+      className="skill-assestment-overallscore-data"
+    >
+      Overall Score
+    </h3>
+    <button
+      className="inbox-program-close-pop"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <div
+      className="skill-assestment-overallscore-info"
+    >
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          0
+          <br />
+           Needs Improvement
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates inconsistent or no understanding of interpreting the meaning of products in an equal groups problem. The student answers no part correctly.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          1
+          <br />
+           Average
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates partial understanding of interpreting the meaning of products in an equal groups problem. The student answer either Part A or Part B incorrectly and does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          2
+          <br />
+           Good
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates good understanding of interpreting the meaning of products in an equal groups problem. The student answers Part A and B correctly but does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          3
+          <br />
+           Excellent
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates a thorough understanding of interpreting the meaning of products in an equal groups problem. The student answers Parts A and B correctly and provides reasonable explanations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SkillsAssestments /> Expect to render correctly 3`] = `
+<div>
+  <div
+    className="inbox-program-title"
+  >
+    <ul
+      className="skill-assestment-overallscore-info-ullist"
+    >
+      <li
+        className="list-none"
+      >
+        Math 180 Year2
+      </li>
+      <li>
+         : 
+      </li>
+      <li>
+        <a
+          target="_blank"
+        >
+          mSkills Assessment
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="inbox-program-tabclss"
+  >
+    <Tabs
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={false}
+      onSelect={[Function]}
+      selectedIndex={0}
+    >
+      <TabList
+        className="react-tabs__tab-list"
+      >
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Question 1
+        </Tab>
+        <Tab
+          className="react-tabs__tab"
+          disabledClassName="react-tabs__tab--disabled"
+          focus={false}
+          id={null}
+          panelId={null}
+          selected={false}
+          selectedClassName="react-tabs__tab--selected"
+        >
+          Question 2
+        </Tab>
+      </TabList>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <Math180SkillsQuestions
+          buttonChange={[Function]}
+          communityID="s"
+          handleChange={[Function]}
+          index="0"
+          mSkillsQuestionsData={
+            Object {
+              "val": "",
+            }
+          }
+          question="1"
+          questionsData={1}
+          rubicScore={Array []}
+          scoreToggle={[Function]}
+          testResults="1"
+        />
+      </TabPanel>
+      <TabPanel
+        className="react-tabs__tab-panel"
+        forceRender={false}
+        selectedClassName="react-tabs__tab-panel--selected"
+      >
+        <Math180SkillsQuestions
+          buttonChange={[Function]}
+          communityID="s"
+          handleChange={[Function]}
+          index="1"
+          mSkillsQuestionsData={
+            Object {
+              "val": "",
+            }
+          }
+          question="2"
+          questionsData={2}
+          rubicScore={Array []}
+          scoreToggle={[Function]}
+          testResults="1"
+        />
+      </TabPanel>
+    </Tabs>
+  </div>
+  <div
+    className="skill-assestment-overallscore"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <h3
+      className="skill-assestment-overallscore-data"
+    >
+      Overall Score
+    </h3>
+    <button
+      className="inbox-program-close-pop"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <div
+      className="skill-assestment-overallscore-info"
+    >
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          0
+          <br />
+           Needs Improvement
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates inconsistent or no understanding of interpreting the meaning of products in an equal groups problem. The student answers no part correctly.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          1
+          <br />
+           Average
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The student demonstrates partial understanding of interpreting the meaning of products in an equal groups problem. The student answer either Part A or Part B incorrectly and does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          2
+          <br />
+           Good
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates good understanding of interpreting the meaning of products in an equal groups problem. The student answers Part A and B correctly but does not provide reasonable explanations.
+        </p>
+      </div>
+      <div
+        className="skill-assestment-overallscore-information"
+      >
+        <h4
+          className="skill-assestment-overallscore-info-points"
+        >
+          3
+          <br />
+           Excellent
+        </h4>
+        <p
+          className="skill-assestment-overallscore-info-exp"
+        >
+          The Student demonstrates a thorough understanding of interpreting the meaning of products in an equal groups problem. The student answers Parts A and B correctly and provides reasonable explanations.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

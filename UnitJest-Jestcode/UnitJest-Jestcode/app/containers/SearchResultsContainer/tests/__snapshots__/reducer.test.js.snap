@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultsContainer reducer should handle BOOK_SELECTED_ROWS 1`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: -1,
+    paginationData: Immutable.Map {
+    },
+  },
+  collectionName: Immutable.List [
+  ],
+  selectedItems: undefined,
+  searchResultsIdsChecked: undefined,
+  searchOpts: Immutable.Map {
+  },
+}
+`;
+
+exports[`SearchResultsContainer reducer should handle CLEAR_SEARCH_OPTIONS 1`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: -1,
+    paginationData: Immutable.Map {
+    },
+  },
+  collectionName: Immutable.List [
+  ],
+  selectedItems: Immutable.List [
+  ],
+  searchResultsIdsChecked: Immutable.List [
+  ],
+  searchOpts: Object {},
+}
+`;
+
+exports[`SearchResultsContainer reducer should handle DELETE_SELECTED_ROWS 1`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: -1,
+    paginationData: Immutable.Map {
+    },
+  },
+  collectionName: Immutable.List [
+  ],
+  selectedItems: Array [],
+  searchResultsIdsChecked: Array [],
+  searchOpts: Immutable.Map {
+  },
+}
+`;
+
+exports[`SearchResultsContainer reducer should handle PUT_ALL_TEACHER_MADE_QUIZ_DATA_REQUEST 1`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: -1,
+    paginationData: Immutable.Map {
+    },
+  },
+  collectionName: Immutable.List [
+  ],
+  selectedItems: Immutable.List [
+  ],
+  searchResultsIdsChecked: Immutable.List [
+  ],
+  searchOpts: undefined,
+}
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintQuizAndAnswerKeyContainer  /> should render correctly 1`] = `
+<PrintQuizAndAnswerKey
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  onPreview={[Function]}
+  printQuizAndAnswerKeyRequest={[Function]}
+  printquizandanswerkeycontainer={Object {}}
+  showMessageLogModal={[Function]}
+/>
+`;

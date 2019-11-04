@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FMGradingTools should match the snapshot 1`] = `
+<section
+  className="fs-container-main"
+>
+  <div
+    className="fs-grading-tools-description"
+  >
+    <span>
+      Define customized worksheets for student(s) shown in the table by selecting the options below. Selecting more than one operating type will generate worksheets with mixed problems.
+    </span>
+  </div>
+  <div
+    className="fs-grading-tools-operation-box"
+  >
+    <div
+      className="fs-grading-tools-content-title"
+    >
+      Operation *
+    </div>
+    <div
+      className="fs-grading-tools-operation-check-box-container"
+    >
+      <div>
+        <input
+          checked={true}
+          id="current"
+          name="current"
+          onChange={[Function]}
+          type="checkbox"
+          value="current"
+        />
+        <label
+          htmlFor="current"
+        >
+           Current
+        </label>
+      </div>
+      <div>
+        <input
+          checked={false}
+          id="addition"
+          name="addition"
+          onChange={[Function]}
+          type="checkbox"
+          value="addition"
+        />
+        <label
+          htmlFor="addition"
+        >
+           Addition
+        </label>
+      </div>
+      <div>
+        <input
+          checked={false}
+          id="subtraction"
+          name="subtraction"
+          onChange={[Function]}
+          type="checkbox"
+          value="subtraction"
+        />
+        <label
+          htmlFor="subtraction"
+        >
+           Subtraction
+        </label>
+      </div>
+      <div>
+        <input
+          checked={false}
+          id="multiplication"
+          name="multiplication"
+          onChange={[Function]}
+          type="checkbox"
+          value="multiplication"
+        />
+        <label
+          htmlFor="multiplication"
+        >
+           Multiplication
+        </label>
+      </div>
+      <div>
+        <input
+          checked={false}
+          id="division"
+          name="division"
+          onChange={[Function]}
+          type="checkbox"
+          value="division"
+        />
+        <label
+          htmlFor="division"
+        >
+           Division
+        </label>
+      </div>
+    </div>
+    <div
+      className="fs-grading-tools-operation-box-text"
+    >
+      Worksheets with mixed problems will be generated from all selected operations up to and including the most advanced operation the student has been assigned to in FASTT Math.
+    </div>
+    <div
+      className="fs-grading-tools-operation-box-text"
+    >
+      * Required Field
+    </div>
+  </div>
+  <div
+    className="fs-grading-tools-flex"
+  >
+    <div
+      className="fs-grading-tools-problem-box"
+    >
+      <div
+        className="fs-grading-tools-content-title"
+      >
+        Problem Type
+      </div>
+      <section>
+        <select
+          onChange={[Function]}
+        >
+          <option
+            value="1digit"
+          >
+            FASTT MATH Facts
+          </option>
+          <option
+            value="2digit"
+          >
+            2-digit facts (no regrouping)
+          </option>
+          <option
+            value="2digitregroup"
+          >
+            2-digit-facts (regrouping)
+          </option>
+          <option
+            value="3digit"
+          >
+            2-digit or more facts (no regrouping)
+          </option>
+          <option
+            value="3digitregroup"
+          >
+            2-digit or more facts (regrouping)
+          </option>
+        </select>
+        <div
+          className="ghost-div"
+        />
+        <div>
+          <input
+            checked={false}
+            id="remainder"
+            name="remainder"
+            onChange={[Function]}
+            type="checkbox"
+            value="remainder"
+          />
+          <label
+            htmlFor="remainder"
+          >
+             Remainder
+          </label>
+        </div>
+      </section>
+    </div>
+    <div
+      className="fs-grading-tools-problem-orientation-box"
+    >
+      <div
+        className="fs-grading-tools-content-title"
+      >
+        Problem Orientation
+      </div>
+      <section>
+        <select
+          onChange={[Function]}
+        >
+          <option
+            value="horizontal"
+          >
+            Horizontal (30 Facts)
+          </option>
+          <option
+            value="vertical"
+          >
+            Vertical (15 Facts)
+          </option>
+          <option
+            value="mixed"
+          >
+            Mixed (15 Facts)
+          </option>
+        </select>
+      </section>
+    </div>
+    <div
+      className="fs-grading-tools-printing-option-box"
+    >
+      <div
+        className="fs-grading-tools-content-title"
+      >
+        Printing Option
+      </div>
+      <section>
+        <div>
+          <input
+            checked={false}
+            id="answerKey"
+            name="answerKey"
+            onChange={[Function]}
+            type="checkbox"
+            value="answerKey"
+          />
+          <label
+            htmlFor="answerKey"
+          >
+             Print Answer Key
+          </label>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div
+    className="fs-grading-tools-description"
+  >
+    <div>
+      Worksheets will be generated for all students listed below.
+    </div>
+  </div>
+  <SAMTable
+    checkedIds={Array []}
+    className="fs-worksheet__table"
+    columns={Array []}
+    data={Array []}
+    hasCheckBoxes={false}
+    pageSize={0}
+    selectAll={false}
+    sortable={true}
+  />
+  <div
+    className="grading-tools-button-container"
+  >
+    <withRouter(SAMLinkButton)
+      buttonClassModifier="program-settings-buttons__button"
+      id="cancelAndReturn"
+      to="/roster"
+    >
+      Cancel & Return
+    </withRouter(SAMLinkButton)>
+    <SAMButton
+      buttonClassModifier="print-pdf__button"
+      buttonType="submit"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Print Preview (PDF)
+    </SAMButton>
+  </div>
+</section>
+`;

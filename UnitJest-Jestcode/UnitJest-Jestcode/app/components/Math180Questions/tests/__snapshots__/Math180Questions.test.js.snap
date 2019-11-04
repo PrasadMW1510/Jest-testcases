@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Math180Questions /> Should render as expected 1`] = `
+<div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Question :
+      </div>
+      <div
+        className="inbox-program-block-scrl inbox-program-first-bl"
+      />
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Student Response
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        abc
+      </div>
+      <div
+        className="inbox-program-block-date"
+      >
+        Date of Submission:
+        22/06/2018
+      </div>
+    </div>
+  </div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one printblock"
+    >
+      <div
+        className="inbox-program-block-heading"
+      >
+        <div
+          className="inbox-program-print-rubric"
+        >
+          <b>
+            2-Point Rubric
+          </b>
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          Score
+        </div>
+      </div>
+      <div
+        className="inbox-program-block-content"
+      >
+        <div
+          className="inbox-program-.print-rubric"
+        >
+          Overall Score
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          <span>
+            0
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one hideprint"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        2-Point Rubric
+      </div>
+      <div
+        className="inbox-program-block-scrl-score inbox-program-first-bl"
+      >
+        <button
+          className="button-score"
+          onClick={[Function]}
+        >
+          Overall score
+        </button>
+        <div
+          className="pull-right"
+        >
+          <button
+            className="inbox-program-value active"
+            onClick={[Function]}
+            value="0"
+          >
+            0
+          </button>
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="1"
+          >
+            1
+          </button>
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="2"
+          >
+            2
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Comments
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        <textarea
+          className="inbox-program-textarea"
+          cols={45}
+          name="comments"
+          onChange={[Function]}
+          rows={12}
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Math180Questions /> Should render as expected 2`] = `
+<div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Question :
+      </div>
+      <div
+        className="inbox-program-block-scrl inbox-program-first-bl"
+      />
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Student Response
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        abc
+      </div>
+      <div
+        className="inbox-program-block-date"
+      >
+        Date of Submission:
+        22/06/2018
+      </div>
+    </div>
+  </div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one printblock"
+    >
+      <div
+        className="inbox-program-block-heading"
+      >
+        <div
+          className="inbox-program-print-rubric"
+        >
+          <b>
+            2-Point Rubric
+          </b>
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          Score
+        </div>
+      </div>
+      <div
+        className="inbox-program-block-content"
+      >
+        <div
+          className="inbox-program-.print-rubric"
+        >
+          Overall Score
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          <span>
+            0
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one hideprint"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        2-Point Rubric
+      </div>
+      <div
+        className="inbox-program-block-scrl-score inbox-program-first-bl"
+      >
+        <button
+          className="button-score"
+          onClick={[Function]}
+        >
+          Overall score
+        </button>
+        <div
+          className="pull-right"
+        >
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="0"
+          >
+            0
+          </button>
+          <button
+            className="inbox-program-value active"
+            onClick={[Function]}
+            value="1"
+          >
+            1
+          </button>
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="2"
+          >
+            2
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Comments
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        <textarea
+          className="inbox-program-textarea"
+          cols={45}
+          name="comments"
+          onChange={[Function]}
+          rows={12}
+          value="abc"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Math180Questions /> Should render as expected 3`] = `
+<div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Question :
+      </div>
+      <div
+        className="inbox-program-block-scrl inbox-program-first-bl"
+      />
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Student Response
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        abc
+      </div>
+      <div
+        className="inbox-program-block-date"
+      >
+        Date of Submission:
+        22/06/2018
+      </div>
+    </div>
+  </div>
+  <div
+    className="inbox-program-col-sm-6"
+  >
+    <div
+      className="inbox-program-block-one printblock"
+    >
+      <div
+        className="inbox-program-block-heading"
+      >
+        <div
+          className="inbox-program-print-rubric"
+        >
+          <b>
+            2-Point Rubric
+          </b>
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          Score
+        </div>
+      </div>
+      <div
+        className="inbox-program-block-content"
+      >
+        <div
+          className="inbox-program-.print-rubric"
+        >
+          Overall Score
+        </div>
+        <div
+          className="inbox-program-score"
+        >
+          <span>
+            0
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one hideprint"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        2-Point Rubric
+      </div>
+      <div
+        className="inbox-program-block-scrl-score inbox-program-first-bl"
+      >
+        <button
+          className="button-score"
+          onClick={[Function]}
+        >
+          Overall score
+        </button>
+        <div
+          className="pull-right"
+        >
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="0"
+          >
+            0
+          </button>
+          <button
+            className="inbox-program-value"
+            onClick={[Function]}
+            value="1"
+          >
+            1
+          </button>
+          <button
+            className="inbox-program-value active"
+            onClick={[Function]}
+            value="2"
+          >
+            2
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="inbox-program-block-one"
+    >
+      <div
+        className="inbox-program-tabinr-titl"
+      >
+        Comments
+      </div>
+      <div
+        className="block-scrltw"
+      >
+        <textarea
+          className="inbox-program-textarea"
+          cols={45}
+          name="comments"
+          onChange={[Function]}
+          rows={12}
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

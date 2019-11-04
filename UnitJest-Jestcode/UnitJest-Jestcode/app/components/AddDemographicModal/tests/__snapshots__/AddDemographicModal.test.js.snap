@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddDemograpchicModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="add-demographic-modal"
+>
+  <React.Fragment>
+    <div
+      className="add-demographic-modal__message"
+    >
+      Enter the demographic name and click, Save to finish.
+    </div>
+    <div
+      className="add-demographic-modal__input"
+    >
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <SAMButton
+      buttonClassModifier="add-demographic-modal__button--cancel"
+      buttonType="button"
+      id="add-demographic-modal__button--cancel"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Cancel
+    </SAMButton>
+    <SAMButton
+      buttonClassModifier="add-demographic-modal__button--save"
+      buttonType="button"
+      isPrimaryButton={false}
+      onClickHandler={[Function]}
+    >
+      Save
+    </SAMButton>
+  </React.Fragment>
+</SAMModal>
+`;

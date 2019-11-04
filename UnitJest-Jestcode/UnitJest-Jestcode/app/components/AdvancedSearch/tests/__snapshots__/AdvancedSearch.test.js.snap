@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdvancedSearch /> Expect to render correctly 1`] = `
+<form
+  id="advanced_search_form"
+  onSubmit={[Function]}
+>
+  <div
+    className="advanced-search__wrapper"
+  >
+    <div
+      className="advanced-search__collapsible"
+    >
+      <div
+        className="advanced-search__collapsible-group"
+      >
+        <Collapsible
+          title="Book Info"
+        >
+          <div
+            className="form-control"
+          >
+            <label
+              className="label-control"
+              htmlFor="title"
+            >
+              Title:
+            </label>
+            <input
+              className="form-input"
+              id="title"
+              name="title"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form-control"
+          >
+            <label
+              className="label-control"
+              htmlFor="Author"
+            >
+              Author:
+            </label>
+            <input
+              className="form-input"
+              id="author"
+              name="author"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form-control"
+          >
+            <label
+              className="label-control"
+              htmlFor="BookType"
+            >
+              Book Type:
+            </label>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="booktype"
+                onChange={[Function]}
+                type="radio"
+                value="Fiction"
+              />
+              Fiction Only
+               
+            </span>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="booktype"
+                onChange={[Function]}
+                type="radio"
+                value="Nonfiction"
+              />
+              Nonfiction Only
+               
+            </span>
+            <span>
+              <input
+                checked={true}
+                className="form-control-book-info form-control--radio"
+                name="booktype"
+                onChange={[Function]}
+                type="radio"
+                value=""
+              />
+              All
+               
+            </span>
+          </div>
+          <div
+            className="form-control"
+          >
+            <label
+              className="label-control"
+              htmlFor="Language"
+            >
+              Language:
+            </label>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="lang"
+                onChange={[Function]}
+                type="radio"
+                value="english"
+              />
+              English Only
+               
+            </span>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="lang"
+                onChange={[Function]}
+                type="radio"
+                value="spanish"
+              />
+              Spanish Only
+               
+            </span>
+            <span>
+              <input
+                checked={true}
+                className="form-control-book-info form-control--radio"
+                name="lang"
+                onChange={[Function]}
+                type="radio"
+                value=""
+              />
+              All
+               
+            </span>
+          </div>
+          <div
+            className="form-control"
+          >
+            <label
+              className="label-control"
+              htmlFor="Accessibility"
+            >
+              Accessibility:
+            </label>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="accessibility"
+                onChange={[Function]}
+                type="radio"
+                value="Activated"
+              />
+              Activated
+               
+            </span>
+            <span>
+              <input
+                checked={false}
+                className="form-control-book-info form-control--radio"
+                name="accessibility"
+                onChange={[Function]}
+                type="radio"
+                value="Deactivated"
+              />
+              Deactivated
+               
+            </span>
+            <span>
+              <input
+                checked={true}
+                className="form-control-book-info form-control--radio"
+                name="accessibility"
+                onChange={[Function]}
+                type="radio"
+                value=""
+              />
+              All
+               
+            </span>
+          </div>
+        </Collapsible>
+        <Collapsible
+          title="Book Level"
+        >
+          <div
+            className="form-control form-control-sm"
+          >
+            <label
+              className="label-control label-control-lg"
+              htmlFor="Lexilerange"
+            >
+              Lexile range:
+            </label>
+            <span>
+              <input
+                id="lexilemin"
+                name="lexilemin"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+            <span
+              className="lexilemin--span"
+            >
+              -
+            </span>
+            <span>
+              <input
+                id="lexilemax"
+                name="lexilemax"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+          <div
+            className="form-control form-control-sm"
+          >
+            <label
+              className="label-control label-control-lg"
+              htmlFor="ReadingLevelRange"
+            >
+              Reading level range:
+            </label>
+            <span>
+              <input
+                id="readinglevelmin"
+                name="readinglevelmin"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+            <span
+              className="lexilemin--span"
+            >
+              -
+            </span>
+            <span>
+              <input
+                id="readinglevelmax"
+                name="readinglevelmax"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+          <div
+            className="form-control form-control-sm"
+          >
+            <label
+              className="label-control label-control-lg"
+              htmlFor="GuidedReadingLevelRange"
+            >
+              Guided Reading level range:
+            </label>
+            <span>
+              <input
+                id="guidereadinglevelmin"
+                name="guidereadinglevelmin"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+            <span
+              className="lexilemin--span"
+            >
+              -
+            </span>
+            <span>
+              <input
+                id="guidereadinglevelmax"
+                name="guidereadinglevelmax"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+          <div
+            className="form-control form-control-sm"
+          >
+            <label
+              className="label-control label-control-lg"
+              htmlFor="PointsRange"
+            >
+              Points range:
+            </label>
+            <span>
+              <input
+                id="pointsrangemin"
+                name="pointsrangemin"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+            <span
+              className="lexilemin--span"
+            >
+              -
+            </span>
+            <span>
+              <input
+                id="pointsrangemax"
+                name="pointsrangemax"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </Collapsible>
+        <Collapsible
+          title="Award"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Comprehension Skill"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Culture"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Genre"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Interest Level"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Program/Series"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Topics"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+        <Collapsible
+          title="Themes"
+        >
+          <CollapsibleBook
+            callbackFromParent={[Function]}
+            data={Array []}
+            selectedata={Array []}
+          />
+        </Collapsible>
+      </div>
+    </div>
+    <div
+      className="advanced-search-buttons advanced-search-buttons--control"
+    >
+      <AdvancedSearchControlButtons
+        callbackFromParent={[Function]}
+      />
+    </div>
+    <div
+      className="advanced-search-buttons"
+    >
+      <InstalledQuiz
+        callbackFromParent={[Function]}
+        data={Object {}}
+        editQuizCollectionModalData={[Function]}
+        quizModalData={[Function]}
+      />
+    </div>
+  </div>
+</form>
+`;

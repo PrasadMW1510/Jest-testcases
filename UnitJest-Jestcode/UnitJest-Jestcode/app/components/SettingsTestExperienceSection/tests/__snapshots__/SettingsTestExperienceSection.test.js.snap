@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsTestExperienceSection /> should render correctly 1`] = `
+<div
+  className="test-experience-container "
+>
+  <span
+    className="test-experience-title"
+  >
+    Test Experience
+  </span>
+  <div
+    className="test-experience__checkbox"
+    key="audio_instructions"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="audio_instructions"
+      checkboxText="Include audio directions"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+          ],
+          "uncheckedDisabled": Array [],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+  <div
+    className="test-experience__checkbox"
+    key="show_correct_incorrect"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="show_correct_incorrect"
+      checkboxText="Show correct and incorrect answers"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+          ],
+          "uncheckedDisabled": Array [],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+  <div
+    className="test-experience__checkbox"
+    key="include_open_response"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="include_open_response"
+      checkboxText="Include constructed response"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+          ],
+          "uncheckedDisabled": Array [],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+  <div
+    className="test-experience__checkbox"
+    key="include_writing_prompts"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="include_writing_prompts"
+      checkboxText="Include extended constructed response"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+          ],
+          "uncheckedDisabled": Array [],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;

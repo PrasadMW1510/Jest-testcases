@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddAssignmentComponent /> Should render as expected 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="modal--iread-modal"
+  >
+    <div
+      className="iread-modal-list--wrapper"
+    >
+      <div
+        className="iread-modal-list--purple"
+      >
+        <div
+          className="iread-modal-heading"
+        >
+          <span />
+        </div>
+        <div>
+          <button
+            className="iread-modal-button-close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-modal-title"
+      >
+        <div
+          className="iread-name"
+        >
+          <div>
+            <div
+              className="assignment-classname-text"
+            >
+              . undefined. 
+              Fluency Passage:
+            </div>
+            <div
+              className="assignment-passage-text"
+            >
+              <select
+                className="assignment-passage-select"
+                name="assignmentName"
+                onChange={[Function]}
+              >
+                <option
+                  value=""
+                >
+                  Select a Fluency Passage
+                </option>
+                <option
+                  value="Grade 1:Benchmark Passage1"
+                >
+                  Grade 1:Benchmark Passage1
+                </option>
+                <option
+                  value="Grade 1:Benchmark Passage2"
+                >
+                  Grade 1:Benchmark Passage2
+                </option>
+                <option
+                  value="Grade 2:Benchmark Passage1"
+                >
+                  Grade 2:Benchmark Passage1
+                </option>
+                <option
+                  value="Grade 2:Benchmark Passage2"
+                >
+                  Grade 2:Benchmark Passage2
+                </option>
+                <option
+                  value="Grade 2:Benchmark Passage3"
+                >
+                  Grade 2:Benchmark Passage3
+                </option>
+              </select>
+              <span
+                className="assignment-passage-text-error"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="iread-modal-student-box"
+        >
+          <div
+            className="iread-modal-description-title"
+          >
+            Assignment Roster:
+          </div>
+        </div>
+      </div>
+      <div
+        className="iread-modal-assignment-roster-textarea"
+      >
+        <div
+          className="iread-modal-assignment-roster-div-headers"
+        >
+          <div
+            className="iread-modal-assignment-mesg"
+          >
+            Select Students that will comeplete the Assignment. Enter Words Correct Per Minute (WCPM) in the field below.
+          </div>
+          <div
+            className="iread-modal-assignment"
+          >
+            <div
+              className="iread-modal-assignment-one"
+            >
+              Students
+            </div>
+            <div
+              className="iread-modal-assignment-one"
+            >
+              WPCM
+            </div>
+            <div
+              className="iread-modal-assignment-three"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="iread-modal-assignment"
+          >
+            <div
+              className="iread-modal-assignment-one font-wei-normal bord-bot"
+            >
+              <input
+                checked={false}
+                name="selected"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Select All
+            </div>
+            <div
+              className="iread-modal-assignment-one font-wei-normal bord-bot"
+            />
+            <div
+              className="iread-modal-assignment-three font-wei-normal bord-bot"
+            />
+          </div>
+          <div>
+            <div>
+              <div
+                className="iread-modal-assignment"
+                key="0"
+              >
+                <div
+                  className="iread-modal-assignment-one font-wei-normal bord-top-bot-rig"
+                >
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="checkbox"
+                    value="0"
+                  />
+                </div>
+                <div
+                  className="iread-modal-assignment-one font-wei-normal bord-top-bot-rig txt-center"
+                >
+                  <input
+                    className="iread-modal-assignment-textbox1"
+                    disabled={true}
+                    name="score"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  className="iread-modal-assignment-three font-wei-normal bord-top-bot-rig"
+                >
+                  <input
+                    className="iread-modal-assignment-textbox-comment"
+                    disabled={true}
+                    name="comment"
+                    onChange={[Function]}
+                    type="textbox"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="iread-modal-buttons"
+      >
+        <div
+          className="iread-modal-buttons-firstset"
+        >
+          <button
+            className="iread-modal-button mr-r-12"
+          >
+            Print
+          </button>
+          <button
+            className="iread-modal-button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="iread-modal-buttons-secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-success"
+  >
+    <div>
+      <div
+        className="portfolio-conf-success-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-conf-success-txt"
+      >
+        Assignment Created.
+      </div>
+      <div
+        className="portfolio-conf-success-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<AddAssignmentComponent /> Should render as expected 2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    isOpen={true}
+    modalClassModifier="modal--iread-modal"
+  >
+    <div
+      className="iread-modal-list--wrapper"
+    >
+      <div
+        className="iread-modal-list--purple"
+      >
+        <div
+          className="iread-modal-heading"
+        />
+        <div>
+          <button
+            className="iread-modal-button-close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-modal-title"
+      >
+        <div
+          className="iread-name"
+        />
+      </div>
+      <div
+        className="s44"
+      >
+        <div
+          className="iread-modal-student-box"
+        >
+          <div
+            className="iread-modal-description-title"
+          >
+            Assignment Roster:
+          </div>
+        </div>
+      </div>
+      <div
+        className="iread-modal-assignment-roster-textarea"
+      >
+        <div
+          className="iread-modal-assignment-roster-div-headers"
+        >
+          <div
+            className="iread-modal-assignment-mesg"
+          >
+            Select Students that will comeplete the Assignment. Enter Words Correct Per Minute (WCPM) in the field below.
+          </div>
+          <div
+            className="iread-modal-assignment"
+          >
+            <div
+              className="iread-modal-assignment-one"
+            >
+              Students
+            </div>
+            <div
+              className="iread-modal-assignment-one"
+            >
+              WPCM
+            </div>
+            <div
+              className="iread-modal-assignment-three"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="iread-modal-assignment"
+          >
+            <div
+              className="iread-modal-assignment-one font-wei-normal bord-bot"
+            >
+              <input
+                checked={false}
+                name="selected"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Select All
+            </div>
+            <div
+              className="iread-modal-assignment-one font-wei-normal bord-bot"
+            />
+            <div
+              className="iread-modal-assignment-three font-wei-normal bord-bot"
+            />
+          </div>
+          <div />
+        </div>
+      </div>
+      <div
+        className="iread-modal-buttons"
+      >
+        <div
+          className="iread-modal-buttons-firstset"
+        >
+          <button
+            className="iread-modal-button mr-r-12"
+          >
+            Print
+          </button>
+          <button
+            className="iread-modal-button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="iread-modal-buttons-secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-success"
+  >
+    <div>
+      <div
+        className="portfolio-conf-success-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-conf-success-txt"
+      >
+        Assignment Created.
+      </div>
+      <div
+        className="portfolio-conf-success-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

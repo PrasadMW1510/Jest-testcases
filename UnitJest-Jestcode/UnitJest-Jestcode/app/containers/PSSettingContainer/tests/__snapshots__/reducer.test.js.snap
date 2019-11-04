@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`psSettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle piSettingsContainerRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle piSettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: "mockSettings",
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle piSettingsSave action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle piSettingsSave action failure 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle psGetDtmModulesSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+  dtmModules: "mockUpdatedSettings",
+}
+`;
+
+exports[`psSettingContainerReducer should handle psGetDtmSubProductSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+  subproduct: "mockUpdatedSettings",
+}
+`;
+
+exports[`psSettingContainerReducer should handle psTestAssignmentSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle psTestAssignmentSuccess action 2`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle psTestAssignmentSuccess action 3`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle schoolSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`psSettingContainerReducer should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  settings: Immutable.Map {
+  },
+  testAssignment: Immutable.Map {
+  },
+}
+`;

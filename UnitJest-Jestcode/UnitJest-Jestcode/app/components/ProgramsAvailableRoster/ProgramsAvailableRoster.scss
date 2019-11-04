@@ -1,0 +1,51 @@
+.program-available {
+  border: 1px solid #000;
+  display: block;
+  background-color: #fff;
+  overflow-y: scroll;
+  height: 140px;
+  font-size: 12px;
+}
+
+.programs-body-table__image {
+  margin-right: 4px;
+  border: 1px solid #f00;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.programs-body-table__list {
+  width: 50%;
+  padding: 5px 10px;
+  border-bottom: 1px solid #fdd607;
+  text-align: left;
+}
+
+.programs-body-table__settings,
+.programs-body-table__portfolio {
+  width: 12%;
+  border-bottom: 1px solid #fdd607;
+  border-left: 1px solid #000;
+  padding: 5px 10px;
+}
+
+.programs-body-table__grading,
+.programs-body-table__certificates {
+  width: 18%;
+  border-bottom: 1px solid #fdd607;
+  border-left: 1px solid #000;
+  padding: 5px 10px;
+}
+
+.programs-body-table__tr {
+  padding: 8px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #fff;
+  border-bottom: 2px solid #ffd300;
+  white-space: nowrap;
+}
+
+.programs-body-table__link {
+  color: #00f;
+}

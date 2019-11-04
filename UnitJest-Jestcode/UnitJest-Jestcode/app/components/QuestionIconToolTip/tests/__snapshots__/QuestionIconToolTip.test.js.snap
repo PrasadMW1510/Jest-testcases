@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuestionIconToolTip /> expect the default to render 1`] = `
+<span>
+  <div
+    className="question-icon"
+    data-for="questionToolTip"
+    data-tip=""
+  >
+    ?
+  </div>
+  <ReactTooltip
+    className="question-tool-tip"
+    effect="solid"
+    id="questionToolTip"
+    insecure={true}
+    resizeHide={true}
+    wrapper="div"
+  >
+    Tool Tip Text
+  </ReactTooltip>
+</span>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectProgramSettingsContainerDomain should consistently return the programSettingsContainer app enrollmentList state 1`] = `
+Immutable.List [
+]
+`;
+
+exports[`selectProgramSettingsContainerDomain should consistently return the programSettingsContainer app state 1`] = `
+Immutable.Map {
+  enrollmentList: Immutable.List [
+  ],
+}
+`;

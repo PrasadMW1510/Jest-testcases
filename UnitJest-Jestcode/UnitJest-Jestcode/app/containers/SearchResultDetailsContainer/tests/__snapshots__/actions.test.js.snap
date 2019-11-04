@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchQuizResultsSuccess 1`] = `
+Object {
+  "detailsID": Object {
+    "name": "searchDetails  1",
+  },
+  "searchDetails": Array [
+    Object {
+      "name": "searchDetails  1",
+    },
+  ],
+  "type": "SearchResultDetailsContainer/search-quiz-results-details-success",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchQuizResultsSuccess 2`] = `
+Object {
+  "detailsID": Object {},
+  "searchDetails": Array [],
+  "type": "SearchResultDetailsContainer/search-quiz-results-details-success",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchResultDetailsDataRequest 1`] = `
+Object {
+  "data": Object {
+    "id": undefined,
+    "teacherMadeQuiz": undefined,
+  },
+  "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchResultDetailsFailure 1`] = `
+Object {
+  "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request_failure",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchResultDetailsSuccess 1`] = `
+Object {
+  "detailsID": Object {},
+  "searchDetails": Array [
+    Object {
+      "name": "searchDetails  1",
+    },
+  ],
+  "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request_success",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getSearchResultDetailsSuccess 2`] = `
+Object {
+  "detailsID": Object {},
+  "searchDetails": Array [],
+  "type": "SearchResultDetailsContainer/getsearchresultdetailsdata_request_success",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for saveSearchResultDetailsDataFailure 1`] = `
+Object {
+  "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request_failure",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for saveSearchResultDetailsDataRequest 1`] = `
+Object {
+  "data": undefined,
+  "flag": undefined,
+  "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for saveSearchResultDetailsDataRequest 2`] = `
+Object {
+  "data": Array [
+    Object {
+      "name": "data  1",
+    },
+  ],
+  "flag": undefined,
+  "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for saveSearchResultDetailsSuccess 1`] = `
+Object {
+  "searchDetails": Array [
+    Object {
+      "name": "searchDetails  1",
+    },
+  ],
+  "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request_success",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for saveSearchResultDetailsSuccess 2`] = `
+Object {
+  "searchDetails": Array [],
+  "type": "SearchResultDetailsContainer/savesearchresultdetailsdata_request_success",
+}
+`;

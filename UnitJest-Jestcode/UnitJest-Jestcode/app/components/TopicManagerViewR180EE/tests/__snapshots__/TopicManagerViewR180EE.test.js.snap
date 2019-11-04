@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopicManagerViewR180EE /> expect it to render correctly 1`] = `
+<form
+  className="topic-manager-view-r180ee"
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-view-r180ee__header"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="topic-manager-view-r180ee__select"
+    >
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="topic-manager-view-r180ee__select-field"
+        fieldName="settingsSelectBox"
+        fieldValue=""
+        id=""
+        label="Show Topic Software for:"
+        labelClass="topic-manager-view-r180ee__select-label"
+        labelPosition="left"
+        mixedValue="2"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="R180_A"
+          value={
+            Array [
+              "R180_A",
+            ]
+          }
+        >
+          READ 180 EE Stage A
+        </option>
+        <option
+          key="R180_A_Upsell"
+          value={
+            Array [
+              "R180_A_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software A
+        </option>
+        <option
+          key="R180_B"
+          value={
+            Array [
+              "R180_B",
+            ]
+          }
+        >
+          READ 180 EE Stage B
+        </option>
+        <option
+          key="R180_B_Upsell"
+          value={
+            Array [
+              "R180_B_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software B
+        </option>
+        <option
+          key="R180_C"
+          value={
+            Array [
+              "R180_C",
+            ]
+          }
+        >
+          READ 180 EE Stage C
+        </option>
+        <option
+          key="R180_C_Upsell"
+          value={
+            Array [
+              "R180_C_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software C
+        </option>
+      </SettingsSelectBox>
+    </div>
+    <ManageTopicTable
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      topics={
+        Array [
+          Object {
+            "cd_name": Array [
+              "A01",
+            ],
+            "enable": Array [
+              "0",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Can You Believe It?",
+            ],
+          },
+          Object {
+            "cd_name": Array [
+              "B01",
+            ],
+            "enable": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Art Attack",
+            ],
+          },
+          Object {
+            "cd_name": Array [
+              "C01",
+            ],
+            "enable": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Believe & Achieve",
+            ],
+          },
+        ]
+      }
+    />
+    <div
+      className="topic-manager-view-r180ee__footer"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;
+
+exports[`<TopicManagerViewR180EE /> renderInstallStages cohortType is District 1`] = `
+Array [
+  <option
+    value={
+        Array [
+            "R180_A",
+          ]
+    }
+>
+    READ 180 EE Stage A
+</option>,
+  <option
+    value={
+        Array [
+            "R180_A_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software A
+</option>,
+  <option
+    value={
+        Array [
+            "R180_B",
+          ]
+    }
+>
+    READ 180 EE Stage B
+</option>,
+  <option
+    value={
+        Array [
+            "R180_B_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software B
+</option>,
+  <option
+    value={
+        Array [
+            "R180_C",
+          ]
+    }
+>
+    READ 180 EE Stage C
+</option>,
+  <option
+    value={
+        Array [
+            "R180_C_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software C
+</option>,
+]
+`;
+
+exports[`<TopicManagerViewR180EE /> renderInstallStages cohortType is School 1`] = `
+Array [
+  <option
+    value={
+        Array [
+            "R180_A",
+          ]
+    }
+>
+    READ 180 EE Stage A
+</option>,
+  <option
+    value={
+        Array [
+            "R180_A_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software A
+</option>,
+  <option
+    value={
+        Array [
+            "R180_B",
+          ]
+    }
+>
+    READ 180 EE Stage B
+</option>,
+  <option
+    value={
+        Array [
+            "R180_B_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software B
+</option>,
+  <option
+    value={
+        Array [
+            "R180_C",
+          ]
+    }
+>
+    READ 180 EE Stage C
+</option>,
+  <option
+    value={
+        Array [
+            "R180_C_Upsell",
+          ]
+    }
+>
+    READ180 Xtra Topic Software C
+</option>,
+]
+`;
+
+exports[`<TopicManagerViewR180EE /> renderInstallStages cohortType is Teacher 1`] = `
+Array [
+  <option
+    value={
+        Array [
+            "R180_A",
+          ]
+    }
+>
+    READ 180 EE Stage A
+</option>,
+  <option
+    value={
+        Array [
+            "R180_B",
+          ]
+    }
+>
+    READ 180 EE Stage B
+</option>,
+  <option
+    value={
+        Array [
+            "R180_C",
+          ]
+    }
+>
+    READ 180 EE Stage C
+</option>,
+]
+`;
+
+exports[`<TopicManagerViewR180EE /> renderOkCancelModalMessage 1`] = `
+<span>
+  Using the filter menu will erase any changes that you have not already saved. Would you like to continue?
+</span>
+`;
+
+exports[`<TopicManagerViewR180EE /> tab is isolated and it render correctly 1`] = `
+<form
+  className="topic-manager-view-r180ee"
+  onSubmit={[Function]}
+>
+  <React.Fragment>
+    <div
+      className="topic-manager-view-r180ee__header"
+    >
+      Use the check boxes to activate or de-activate Topic Software.
+    </div>
+    <div
+      className="topic-manager-view-r180ee__select"
+    >
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="topic-manager-view-r180ee__select-field"
+        fieldName="settingsSelectBox"
+        fieldValue=""
+        id=""
+        label="Show Topic Software for:"
+        labelClass="topic-manager-view-r180ee__select-label"
+        labelPosition="left"
+        mixedValue="2"
+        onChange={[Function]}
+      >
+        <option
+          value=""
+        >
+          All Stages
+        </option>
+        <option
+          key="R180_A"
+          value={
+            Array [
+              "R180_A",
+            ]
+          }
+        >
+          READ 180 EE Stage A
+        </option>
+        <option
+          key="R180_A_Upsell"
+          value={
+            Array [
+              "R180_A_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software A
+        </option>
+        <option
+          key="R180_B"
+          value={
+            Array [
+              "R180_B",
+            ]
+          }
+        >
+          READ 180 EE Stage B
+        </option>
+        <option
+          key="R180_B_Upsell"
+          value={
+            Array [
+              "R180_B_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software B
+        </option>
+        <option
+          key="R180_C"
+          value={
+            Array [
+              "R180_C",
+            ]
+          }
+        >
+          READ 180 EE Stage C
+        </option>
+        <option
+          key="R180_C_Upsell"
+          value={
+            Array [
+              "R180_C_Upsell",
+            ]
+          }
+        >
+          READ180 Xtra Topic Software C
+        </option>
+      </SettingsSelectBox>
+    </div>
+    <ManageTopicTable
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      topics={
+        Array [
+          Object {
+            "cd_name": Array [
+              "A01",
+            ],
+            "enable": Array [
+              "0",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Can You Believe It?",
+            ],
+          },
+          Object {
+            "cd_name": Array [
+              "B01",
+            ],
+            "enable": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Art Attack",
+            ],
+          },
+          Object {
+            "cd_name": Array [
+              "C01",
+            ],
+            "enable": Array [
+              "1",
+            ],
+            "supplimental": Array [
+              "0",
+            ],
+            "topic_name": Array [
+              "Believe & Achieve",
+            ],
+          },
+        ]
+      }
+    />
+    <div
+      className="topic-manager-view-r180ee__footer"
+    >
+      * Supplemental Content
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={false}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </React.Fragment>
+</form>
+`;

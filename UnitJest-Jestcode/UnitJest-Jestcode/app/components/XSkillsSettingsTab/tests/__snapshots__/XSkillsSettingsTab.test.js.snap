@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<XSkillsSettingsTab /> should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="xskills-settings-tab"
+  >
+    <div
+      className="xskills-program-settings__section--top-inputs"
+    >
+      <div
+        className="xskills-settings__test-experience-section"
+      >
+        <SettingsTestExperienceSection
+          checkBoxStatusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+              ],
+              "uncheckedDisabled": Array [],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          handleChange={[Function]}
+          overrideClassName=""
+          settingValues={
+            Array [
+              Object {
+                "apiProperty": "audio_instructions",
+                "label": "Include audio directions",
+              },
+              Object {
+                "apiProperty": "show_correct_incorrect",
+                "label": "Show correct and incorrect answers",
+              },
+              Object {
+                "apiProperty": "include_open_response",
+                "label": "Include constructed response",
+              },
+              Object {
+                "apiProperty": "include_writing_prompts",
+                "label": "Include extended constructed response",
+              },
+            ]
+          }
+          settingsOnScreen={
+            Object {
+              "audio_instructions": Array [
+                "1",
+              ],
+              "ell_audio_instructions": Array [
+                "0",
+              ],
+              "include_open_response": Array [
+                "1",
+              ],
+              "include_writing_prompts": Array [
+                "1",
+              ],
+              "show_correct_incorrect": Array [
+                "1",
+              ],
+            }
+          }
+        />
+      </div>
+      <div
+        className="xskills-program-settings__ell-settings"
+      >
+        <span
+          className="xskills-program-settings__caption"
+        >
+          English-Language Learner Audio Directions
+        </span>
+        <div
+          className="xskills-program-settings__ell-audio-instructions"
+          key="None"
+        >
+          <label
+            className="xskills-program-settings__radio-label"
+            htmlFor="None"
+          >
+            <input
+              checked={true}
+              className="xskills-program-settings__radio"
+              id="None"
+              key="None"
+              name="ell_audio_instructions"
+              onChange={[Function]}
+              type="radio"
+              value={0}
+            />
+            None
+          </label>
+        </div>
+        <div
+          className="xskills-program-settings__ell-audio-instructions"
+          key="Spanish"
+        >
+          <label
+            className="xskills-program-settings__radio-label"
+            htmlFor="Spanish"
+          >
+            <input
+              checked={false}
+              className="xskills-program-settings__radio"
+              id="Spanish"
+              key="Spanish"
+              name="ell_audio_instructions"
+              onChange={[Function]}
+              type="radio"
+              value={1}
+            />
+            Spanish
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      className="xskills-program-settings__section--rubric"
+    >
+      <SettingsRubricScoringSection
+        cohortType="District"
+        handleChange={[Function]}
+        handleChangeDescription={[Function]}
+        handleChangeLabel={[Function]}
+        handleSetInitialValues={[Function]}
+        reinitializeEditorComplete={[Function]}
+        settingsOnScreen={
+          Object {
+            "audio_instructions": Array [
+              "1",
+            ],
+            "ell_audio_instructions": Array [
+              "0",
+            ],
+            "include_open_response": Array [
+              "1",
+            ],
+            "include_writing_prompts": Array [
+              "1",
+            ],
+            "show_correct_incorrect": Array [
+              "1",
+            ],
+          }
+        }
+        shouldReinitializeEditor={false}
+      />
+    </div>
+    <div
+      className="xskills-settings__program-setting-buttons-container"
+    >
+      <ProgramSettingsButtons
+        restoreDefaultHandler={[Function]}
+        saveAndReturnHandler={[Function]}
+        setInitialValuesHandler={[Function]}
+        showRestoreDefaults={true}
+        stateResult={true}
+        suppressSaveAndReturnRedirect={false}
+      />
+    </div>
+  </div>
+</form>
+`;

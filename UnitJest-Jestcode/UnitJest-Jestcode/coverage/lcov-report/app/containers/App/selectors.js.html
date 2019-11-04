@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/App/selectors.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/App</a> selectors.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">31.94% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>46/144</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/28</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/91</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">41.82% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>46/110</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { createSelector } from 'reselect';
+import { List } from 'immutable';
+import { USER_ORG } from './constants';
+&nbsp;
+const selectGlobal = <span class="fstat-no" title="function not covered" >st</span>ate =&gt; <span class="cstat-no" title="statement not covered" >state.get('global');</span>
+&nbsp;
+const selectRoute = <span class="fstat-no" title="function not covered" >st</span>ate =&gt; <span class="cstat-no" title="statement not covered" >state.get('route');</span>
+&nbsp;
+const makeSelectLocation = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectRoute, <span class="fstat-no" title="function not covered" >ro</span>uteState =&gt; <span class="cstat-no" title="statement not covered" >routeState.get('location').toJS())</span>;</span>
+&nbsp;
+const makeSelectGlobal = <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState)</span>;</span>
+&nbsp;
+const makeSelectGlobalUserData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.get('userData'))</span>;</span>
+&nbsp;
+const makeSelectGlobalError = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.get('error'))</span>;</span>
+&nbsp;
+const isGlobalLoading = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; {</span>
+    let isLoading = <span class="cstat-no" title="statement not covered" >true;</span>
+<span class="cstat-no" title="statement not covered" >    if (globalState &amp;&amp; !globalState.get('loading')) {</span>
+<span class="cstat-no" title="statement not covered" >      isLoading = false;</span>
+      const loadingRequests = <span class="cstat-no" title="statement not covered" >globalState.get('loadingRequests').toJS();</span>
+<span class="cstat-no" title="statement not covered" >      Object.keys(loadingRequests).forEach(<span class="fstat-no" title="function not covered" >ke</span>y =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >        if (loadingRequests[key]) {</span>
+<span class="cstat-no" title="statement not covered" >          isLoading = true;</span>
+        }
+      });
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return isLoading;</span>
+  });
+&nbsp;
+/*
+  Server Assets data
+ */
+const makeSelectProgramAvailableData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'serverAssets']))</span>;</span>
+&nbsp;
+/*
+  Login Data
+ */
+const makeSelectLoginData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'login']))</span>;</span>
+&nbsp;
+const makeSelectProfileSessionId = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['session_id', 0]))</span>;</span>
+&nbsp;
+const makeSelectProfileUserId = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['user_id', 0]))</span>;</span>
+&nbsp;
+const makeSelectProfileUserType = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['user_type', 0]))</span>;</span>
+&nbsp;
+const makeSelectLoginUserOrg = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['user_org', 0]))</span>;</span>
+&nbsp;
+const makeSelectProfileUserOrgId = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['user_org_id', 0]))</span>;</span>
+&nbsp;
+const makeSelectResetCredentials = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectLoginData(), <span class="fstat-no" title="function not covered" >lo</span>ginData =&gt; <span class="cstat-no" title="statement not covered" >loginData.getIn(['reset_credentials', 0]))</span>;</span>
+&nbsp;
+const makeSelectUserOrgUserType = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    [makeSelectLoginUserOrg(), makeSelectProfileUserType()],
+<span class="fstat-no" title="function not covered" >    (l</span>oginDataUserOrg, loginDataUserType) =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+      // only admins have a user_org present; teachers should default to USER_ORG.School
+      userOrg: loginDataUserOrg || USER_ORG.School,
+      userType: loginDataUserType,
+    })
+  );
+&nbsp;
+/*
+  Profile data
+ */
+const makeSelectProfileData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'profile']))</span>;</span>
+&nbsp;
+const makeSelectProfileOrganizationData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectProfileData(),
+<span class="fstat-no" title="function not covered" >    pr</span>ofileState =&gt; <span class="cstat-no" title="statement not covered" >profileState &amp;&amp; profileState.get('organizations')</span>
+  );
+&nbsp;
+const makeSelectProfileDistrictId = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(makeSelectProfileOrganizationData(), <span class="fstat-no" title="function not covered" >or</span>gList =&gt; {</span>
+    const firstOrg = <span class="cstat-no" title="statement not covered" >orgList &amp;&amp; orgList.getIn([0, 'organization', 0]);</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      firstOrg &amp;&amp;
+      (firstOrg.getIn(['type', 0]) === 'school'
+        ? firstOrg.getIn(['parent_org_id', 0])
+        : firstOrg.getIn(['org_id', 0]))
+    );
+  });
+&nbsp;
+/*
+  Student data
+ */
+const makeSelectStudentsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'students']))</span>;</span>
+&nbsp;
+const makeSelectStudentsData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectStudentsDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileStudentsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'students']))</span>;</span>
+&nbsp;
+/*
+  Groups data
+ */
+const makeSelectGroupsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'groups']))</span>;</span>
+&nbsp;
+const makeSelectGroupsData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectGroupsDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileGroupsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'groups']))</span>;</span>
+&nbsp;
+/*
+  Schools data
+ */
+const makeSelectSchoolsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'schools']))</span>;</span>
+&nbsp;
+const makeSelectSchoolsData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectSchoolsDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileSchoolsDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'schools']))</span>;</span>
+&nbsp;
+/*
+  Grades data
+ */
+const makeSelectGradesDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'grades']))</span>;</span>
+&nbsp;
+const makeSelectGradesData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectGradesDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileGradesDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'grades']))</span>;</span>
+&nbsp;
+/*
+  Teachers data
+ */
+const makeSelectTeachersDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'teachers']))</span>;</span>
+&nbsp;
+const makeSelectTeachersData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectTeachersDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileTeachersDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'teachers']))</span>;</span>
+&nbsp;
+/*
+  Classes data
+ */
+const makeSelectClassesDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'classes']))</span>;</span>
+&nbsp;
+const makeSelectClassesData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(</span>
+    makeSelectClassesDataMap(),
+<span class="fstat-no" title="function not covered" >    gl</span>obalState =&gt; (<span class="cstat-no" title="statement not covered" >globalState ? List(globalState.values()) : undefined)</span>
+  );
+&nbsp;
+const makeSelectProfileClassesDataMap = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['profileData', 'classes']))</span>;</span>
+&nbsp;
+/*
+  Permissions data
+ */
+const makeSelectPermissionsData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'permissions']))</span>;</span>
+&nbsp;
+/*
+  Password Config data
+ */
+const makeSelectPasswordConfigData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'passwordConfig']))</span>;</span>
+&nbsp;
+/*
+  Schools and Classes data
+ */
+const makeSelectSchoolsAndClassesData = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['userData', 'schoolsAndClasses']))</span>;</span>
+&nbsp;
+const makeSelectSchoolExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    globalState.getIn(['expandCollapseStatus', 'school'])</span>
+  );
+&nbsp;
+const makeSelectGradeExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['expandCollapseStatus', 'grade']))</span>;</span>
+&nbsp;
+const makeSelectTeacherExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    globalState.getIn(['expandCollapseStatus', 'teacher'])</span>
+  );
+&nbsp;
+const makeSelectClassExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['expandCollapseStatus', 'class']))</span>;</span>
+&nbsp;
+const makeSelectGroupExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt; <span class="cstat-no" title="statement not covered" >globalState.getIn(['expandCollapseStatus', 'group']))</span>;</span>
+&nbsp;
+const makeSelectStudentExpandCollapseStatus = <span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >  createSelector(selectGlobal, <span class="fstat-no" title="function not covered" >gl</span>obalState =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    globalState.getIn(['expandCollapseStatus', 'student'])</span>
+  );
+export {
+  makeSelectGlobal,
+  makeSelectLocation,
+  makeSelectGlobalUserData,
+  isGlobalLoading,
+  makeSelectUserOrgUserType,
+  makeSelectClassesData,
+  makeSelectClassesDataMap,
+  makeSelectLoginData,
+  makeSelectProfileData,
+  makeSelectStudentsData,
+  makeSelectStudentsDataMap,
+  makeSelectProfileDistrictId,
+  makeSelectProfileUserType,
+  makeSelectProfileUserId,
+  makeSelectProfileOrganizationData,
+  makeSelectProfileSessionId,
+  makeSelectLoginUserOrg,
+  makeSelectProfileUserOrgId,
+  makeSelectGroupsData,
+  makeSelectGroupsDataMap,
+  makeSelectSchoolsData,
+  makeSelectSchoolsDataMap,
+  makeSelectProgramAvailableData,
+  makeSelectGradesData,
+  makeSelectGradesDataMap,
+  makeSelectTeachersData,
+  makeSelectTeachersDataMap,
+  makeSelectGlobalError,
+  makeSelectPermissionsData,
+  makeSelectPasswordConfigData,
+  makeSelectSchoolsAndClassesData,
+  makeSelectProfileSchoolsDataMap,
+  makeSelectProfileGradesDataMap,
+  makeSelectProfileTeachersDataMap,
+  makeSelectProfileClassesDataMap,
+  makeSelectProfileGroupsDataMap,
+  makeSelectProfileStudentsDataMap,
+  makeSelectResetCredentials,
+  makeSelectSchoolExpandCollapseStatus,
+  makeSelectGradeExpandCollapseStatus,
+  makeSelectTeacherExpandCollapseStatus,
+  makeSelectClassExpandCollapseStatus,
+  makeSelectGroupExpandCollapseStatus,
+  makeSelectStudentExpandCollapseStatus,
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for assignmentSuccessRecordSaveRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "System44SuccessRecordContainer/assignment_success_record_save_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for assignmentSuccessRecordSaveSuccess 1`] = `
+Object {
+  "successData": undefined,
+  "type": "System44SuccessRecordContainer/assignment_success_record_save_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAssignmentSuccessRecordFailure 1`] = `
+Object {
+  "err": undefined,
+  "type": "System44SuccessRecordContainer/get_assignment_success_record_failure",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAssignmentSuccessRecordRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "System44SuccessRecordContainer/get_assignment_success_record_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAssignmentSuccessRecordSuccess 1`] = `
+Object {
+  "getAssignmentSuccessRecordData": Array [],
+  "type": "System44SuccessRecordContainer/get_assignment_success_record_success",
+}
+`;

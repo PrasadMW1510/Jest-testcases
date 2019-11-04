@@ -1,0 +1,528 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmartBar reducer Reset related actions should handle logout actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer Reset related actions should handle reset selections actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer Routes should handle transition to none-home tab 1`] = `
+Immutable.Map {
+  selectedTeacherId: "selectedTeacherId",
+  selectedSchoolId: "selectedSchoolId",
+  clickedGradeId: "clickedGradeId",
+  activeGradeId: "activeGradeId",
+  clickedClassId: "clickedClassId",
+  activeClassId: "activeClassId",
+  clickedStudentId: "clickedStudentId",
+  activeStudentId: "activeStudentId",
+  clickedGroupId: "clickedGroupId",
+  activeGroupId: "activeGroupId",
+  activeSchoolId: "activeSchoolId",
+  clickedTeacherId: "clickedTeacherId",
+  clickedSchoolId: "clickedSchoolId",
+  activeTeacherId: "activeTeacherId",
+  selectedGradeId: "selectedGradeId",
+  selectedClassId: "selectedClassId",
+  selectedStudentId: "selectedStudentId",
+  selectedGroupId: "selectedGroupId",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle action school actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "activeSchoolId",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle active class actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "activeClassId",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle active grade actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "activeGradeId",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle active group actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "activeGroupId",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle active student actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "activeStudentId",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle active teacher actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "activeTeacherId",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle class click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "clickedClassId",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle grade click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "clickedGradeId",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle group click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "clickedGroupId",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle school click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "clickedSchoolId",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle student click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "clickedStudentId",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar clicks should handle teacher click actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "clickedTeacherId",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle class selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "selectedClassId",
+  selectedStudentId: "",
+  selectedCohType: "Class",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle grade selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "selectedGradeId",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "Grade",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle group selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "Group",
+  selectedGroupId: "selectedGroupId",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle school selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "selectedSchoolId",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "School",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle student selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "selectedStudentId",
+  selectedCohType: "Student",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer SmartBar selections should handle teacher selection actions 1`] = `
+Immutable.Map {
+  selectedTeacherId: "selectedTeacherId",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "Teacher",
+  selectedGroupId: "",
+}
+`;
+
+exports[`SmartBar reducer returns the initial state 1`] = `
+Immutable.Map {
+  selectedTeacherId: "",
+  selectedSchoolId: "",
+  clickedGradeId: "",
+  activeGradeId: "",
+  clickedClassId: "",
+  activeClassId: "",
+  clickedStudentId: "",
+  activeStudentId: "",
+  clickedGroupId: "",
+  activeGroupId: "",
+  activeSchoolId: "",
+  clickedTeacherId: "",
+  clickedSchoolId: "",
+  activeTeacherId: "",
+  selectedGradeId: "",
+  selectedClassId: "",
+  selectedStudentId: "",
+  selectedCohType: "",
+  selectedGroupId: "",
+}
+`;

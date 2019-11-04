@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramCertificateFooterContainer should handle certificate Info request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  certificatePrint: Immutable.List [
+  ],
+}
+`;
+
+exports[`ProgramCertificateFooterContainer should handle certificate Info request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  certificatePrint: Immutable.Map {
+  },
+}
+`;

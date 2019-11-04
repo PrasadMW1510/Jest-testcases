@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      false,
+      undefined,
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "data": Object {},
+      },
+      "type": "app/AssignmentContainer/DELETE_ASSIGNMENT_REQUEST_SUCCESS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setClassRequestSuccess 4`] = `undefined`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setStudentRequestSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setStudentRequestSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      false,
+      undefined,
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga deleteAssignmentRequest  setStudentRequestSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "error": "mock err",
+      "type": "app/AssignmentContainer/DELETE_ASSIGNMENT_REQUEST_ERROR",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      Object {
+        "classId": "",
+        "workItemId": Object {
+          "community_id": "",
+        },
+      },
+      "<workItemsSubset><workItemInfo workItemId=\\"[object Object]\\" communityId= \\"\\" studentId=\\"null\\" assignment=\\"undefined\\" kind=\\"ClassAssignment\\"/></workItemsSubset>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "data": Object {
+          "assignment": "assign",
+          "classId": Object {
+            "classId": "",
+            "workItemId": Object {
+              "community_id": "",
+            },
+          },
+        },
+      },
+      "type": "app/EditAssignmentContainer/GET_ASSIGNMENT_SUCCESS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setClassRequestSuccess 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setClassRequestSuccess 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": undefined,
+      "type": "app/EditAssignmentContainer/GET_STUDENTDETAIL_SUCCESS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setStudentRequestSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setStudentRequestSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      Object {
+        "classId": "",
+        "workItemId": Object {
+          "community_id": "",
+        },
+      },
+      "<workItemsSubset><workItemInfo workItemId=\\"[object Object]\\" communityId= \\"\\" studentId=\\"null\\" assignment=\\"undefined\\" kind=\\"ClassAssignment\\"/></workItemsSubset>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getAssignmentDataRequest setStudentRequestSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "error": "mock err",
+      "type": "app/AssignmentContainer/GET_ASSIGNMENT_FAILURE",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setClassRequestSuccess 2`] = `Object {}`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "calssID",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setClassRequestSuccess 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Object {
+        "data": Object {},
+      },
+      "type": "app/EditAssignmentContainer/GET_STUDENTDETAIL_SUCCESS",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setStudentRequestSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setStudentRequestSuccess err part 2`] = `Object {}`;
+
+exports[`TeacherMadeQuizContainer Saga getStudentDetailsRequest setStudentRequestSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "error": "mock err",
+      "type": "app/AssignmentContainer/GET_STUDENTDETAIL_FAILURE",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 1`] = `"work"`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "error": [TypeError: Cannot read property 'map' of undefined],
+      "type": "app/AssignmentContainer/SAVE_ASSGINMENT_REQUEST_ERROR",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 4`] = `undefined`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 5`] = `undefined`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setClassRequestSuccess 6`] = `undefined`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setStudentRequestSuccess err part 1`] = `"work"`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setStudentRequestSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga saveAssignmentRequest  setStudentRequestSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "error": "mock err",
+      "type": "app/AssignmentContainer/SAVE_ASSGINMENT_REQUEST_ERROR",
+    },
+    "channel": null,
+  },
+}
+`;

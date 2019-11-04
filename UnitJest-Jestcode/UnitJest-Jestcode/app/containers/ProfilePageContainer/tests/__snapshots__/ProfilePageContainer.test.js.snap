@@ -1,0 +1,1841 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfilePageContainer /> selectedCoh type is Class Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Class mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Class mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Class mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Class",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Grade Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Grade mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Grade mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Grade mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Grade",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Group Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Group mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Group mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Group mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Group",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is School Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is School mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is School mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is School mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "School",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Student Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Student mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Student mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Student mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Student",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Teacher Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Teacher mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Teacher mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is Teacher mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+        selectedCohType: "Teacher",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is undefined Expect to render correctly 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Tech"
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Tech"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is undefined mockProfilePage is called with Administrator as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is undefined mockProfilePage is called with Teacher as default 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Teacher"
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="District"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Teacher"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<ProfilePageContainer /> selectedCoh type is undefined mockProfilePage is called with profileDetailsSchoolAdmin 1`] = `
+<div
+  className="profile-page__content"
+>
+  <ProfilePage
+    profileOrgType="School"
+    profilePage={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profileUserType="Administrator"
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+  <ManageRoster
+    profile={
+      Object {
+        "profile": Object {
+          "first_name": "John",
+          "last_name": "Smith",
+        },
+      }
+    }
+    profileOrgType="School"
+    profilePage={
+      Immutable.Map {
+        profile: Immutable.Map {
+          first_name: "John",
+          last_name: "Smith",
+        },
+      }
+    }
+    profilePageClassRequest={[Function]}
+    profilePageForDistrictAdminRequest={[Function]}
+    profilePageForSchoolAdminRequest={[Function]}
+    profilePageGradeRequest={[Function]}
+    profilePageGroupRequest={[Function]}
+    profilePageRequest={[Function]}
+    profilePageSchoolRequest={[Function]}
+    profilePageStudentRequest={[Function]}
+    profilePageTeacherRequest={[Function]}
+    profileUserType="Administrator"
+    showClassFormModal={[Function]}
+    showDeactivateUserModal={[Function]}
+    showModal={[Function]}
+    showStudentFormModal={[Function]}
+    showTeacherFormModal={[Function]}
+    smartBarSelections={
+      Immutable.Map {
+      }
+    }
+  />
+</div>
+`;

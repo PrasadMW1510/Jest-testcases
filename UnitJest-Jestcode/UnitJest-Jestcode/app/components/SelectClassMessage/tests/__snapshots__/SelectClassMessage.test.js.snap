@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectClassMessage /> Expect to render correctly when message not visible, it should not contain message text 1`] = `
+<div
+  className="class-assign-modal__select-class-message"
+/>
+`;
+
+exports[`<SelectClassMessage /> Expect to render correctly when message visible it should contain message text 1`] = `
+<div
+  className="class-assign-modal__select-class-message"
+>
+  Please select a class
+</div>
+`;

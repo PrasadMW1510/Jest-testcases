@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="Error Modal"
+  isOpen={true}
+  modalClassModifier="error-modal"
+>
+  <div
+    className="error-modal__message"
+  >
+    foobar
+  </div>
+  <button
+    className="error-modal__ok"
+    onClick={[Function]}
+  >
+    Exit SAM
+  </button>
+</SAMModal>
+`;

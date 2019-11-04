@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with class cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    ClassName
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with district cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    Test District
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with grade cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    Grade Name
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with group cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    group
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with school cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    SchoolName
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with student cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    Lastname, Firstname
+  </div>
+</div>
+`;
+
+exports[`<ReportsCohortTitle /> Expect to render correctly with teacher cohort selected 1`] = `
+<div
+  className="reports-cohort-title"
+>
+  <div
+    className="reports-cohort-title__text"
+  >
+    Name, Teacher
+  </div>
+</div>
+`;

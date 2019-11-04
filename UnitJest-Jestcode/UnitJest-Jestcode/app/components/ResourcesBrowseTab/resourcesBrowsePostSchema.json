@@ -1,0 +1,17 @@
+{
+  "resource_type": null,
+  "program_id": "",
+  "sortTerms": {
+    "sortTerm": {
+      "term": "",
+      "order": ""
+    }
+  },
+  "pagination": {
+    "cur_pg": 0,
+    "ipp": 100
+  },
+  "samversion": "",
+  "location": "Florida"
+}
+

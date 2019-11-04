@@ -1,0 +1,1087 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SchoolForm /> Expect to correctly handle immutable data 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render correctly when contact info tab clicked 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-contact"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-contact"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={false}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={true}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render correctly when demographics tab clicked 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-demographics"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-demographics"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={false}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render correctly when profile tab clicked 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render correctly with number of grading periods 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          />
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={3}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render server returned errors 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={Object {}}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<SchoolForm /> Expect to render validation errors 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--school-form"
+>
+  <div
+    className="school-form school-form--orange"
+  >
+    <h2
+      className="school-form__heading"
+    />
+    <div
+      className="school-form__intro"
+    >
+      Enter information about this School account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="school-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile *
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={true}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact *
+        </NavItem>
+      </NavBar>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="school-form__body school-form__body--tab-profile"
+      >
+        <main
+          className="school-form__body-main"
+        >
+          <div
+            className="school-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <FormSection
+            headerText="School Profile & Grading Periods"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={true}
+              focusOnToggleTrue={true}
+            >
+              <SchoolProfile
+                dispatchChangeToFormField={[Function]}
+                formMeta={Object {}}
+                numGradingPeriods={1}
+                showWarningModal={[Function]}
+                validationErrors={
+                  Object {
+                    "schoolContactZip": "zip validation error",
+                    "schoolTypes": "school types validation error",
+                  }
+                }
+              />
+            </FormFieldFocuser>
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="school-form__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <SchoolContactInfo
+                stateOrZipHasErrors={true}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="school-form__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={true}
+            submitErrors={Object {}}
+            validationErrors={
+              Object {
+                "schoolContactZip": "zip validation error",
+                "schoolTypes": "school types validation error",
+              }
+            }
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;

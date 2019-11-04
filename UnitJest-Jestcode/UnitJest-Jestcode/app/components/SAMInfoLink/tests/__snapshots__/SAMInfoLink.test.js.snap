@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMInfoLink /> Expect to match snapshot 1`] = `
+<button
+  className="sam-info-link"
+>
+  SAM Info
+</button>
+`;

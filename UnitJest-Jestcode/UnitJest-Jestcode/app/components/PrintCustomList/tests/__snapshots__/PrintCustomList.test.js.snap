@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintCustomList /> Expect to render correctly 1`] = `
+<div
+  className="print-custom-list_search-tabs-content"
+>
+  <div
+    className="print-custom-list__wrapper"
+  >
+    <div
+      className="print-custom-list__custom-list--orange"
+    >
+      <div
+        className="print-custom-list_labl"
+      >
+        Print/Export Custom List 
+      </div>
+    </div>
+    <div
+      className="print-custom-list__lnk"
+    >
+      <a
+        className="print-custom-list__print-quiz-list"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Print Custom Quiz List
+      </a>
+      <br />
+      <a
+        className="print-custom-list__print-quiz-list"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Print Quiz and Answer Key
+      </a>
+      <br />
+      <a
+        className="print-custom-list__print-quiz-list"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Print Book Labels
+      </a>
+      <br />
+      <a
+        className="print-custom-list__print-quiz-list"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Export to HTML
+      </a>
+      <br />
+    </div>
+  </div>
+  <div>
+    <div
+      className="print-custom-list__wrapper-manage"
+    >
+      <div
+        className="print-custom-list__manage-quiz--orange"
+      >
+        <div
+          className="print-custom-list__labl"
+        >
+          Manage Quizzes
+        </div>
+        <div
+          className="print-custom-list__lnk"
+        >
+          <a
+            className="print-custom-list__manage-quiz-list"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Activate Quizzes
+          </a>
+          <br />
+          <a
+            className="print-custom-list__manage-quiz-list"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Deactivate Quizzes
+          </a>
+          <br />
+          <a
+            className="print-custom-list__manage-quiz-list"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Export Teacher-Made Quizzes
+          </a>
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

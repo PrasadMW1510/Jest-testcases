@@ -1,0 +1,651 @@
+.modal--catchallclass-modal {
+  width: 76%;
+  height: 92%;
+  padding: 0;
+  margin: 1.5% 0 0;
+  border: 0;
+  border-radius: 15px;
+}
+
+.print-catchallclass-modal-list--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 96%;
+}
+
+.print-catchallclass-modal-list--purple {
+  background-color: #9a6fb6;
+  margin: 2% 0 0;
+  height: 38px;
+  line-height: 37px;
+  padding: 0 0 0 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.print-catchallclass-modal__heading {
+  float: left;
+}
+
+.print-catchallclass-modal__button-close {
+  position: absolute;
+  right: 25px;
+  background: #c895e8;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 3px 7px 0 0;
+}
+
+.print-catchallclass-modal-title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.print-catchallclass-modal-center-content {
+  margin: 0 0 0.5%;
+  background: #e7e8e7;
+  padding: 20px 0 0;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  border: 1px #e7e8e7 solid;
+  border-radius: 10px;
+}
+
+.print-catchallclass-modal-center-content-text {
+  background: #fff;
+  font-size: 20px;
+  text-align: center;
+  height: 400px;
+  line-height: 350px;
+}
+
+.print-catchallclass-modal-title-span {
+  font-style: normal;
+  margin: 0 0 0 1%;
+}
+
+.print-catchallclass-modal-description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin: 0 0.5% 0 0;
+}
+
+.print-catchallclass-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2%;
+}
+
+.print-catchallclass-modal-description-textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.print-catchallclass-modal-assignment-roster-textarea1 {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.print-catchallclass-modal-due-date {
+  width: 43%;
+  float: left;
+  margin: 0 0 0 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+}
+
+.print-catchallclass-modal-due-date-content1 {
+  margin: 0 0 0 3%;
+  font-size: 16px;
+  font-family: initial;
+  width: 41%;
+  float: left;
+}
+
+.print-catchallclass-modal-assignment-roster-box {
+  width: 100%;
+  margin: 1% 0.5% 0 0;
+  border: 1px solid #e7e8e7;
+  border-radius: 16px;
+  height: 16%;
+  float: left;
+  height: 315px;
+}
+
+.print-activatequiz__confirmtext2 {
+  padding: 0;
+  width: 60%;
+  height: 18%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.print-catchallclass-modal-assignment-roster-div-headers11 {
+  font-weight: bold;
+  margin: 0 0 0 2%;
+  font-size: 15px;
+}
+
+.print-catchallclass-modal__buttons-firstset {
+  margin: 10px 0 0 -9px;
+  float: left;
+}
+
+.print-catchallclass-modal__buttons-secondset {
+  padding: 1% 0 0 83%;
+}
+
+.print-catchallclass-modal-button-first-set {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin: 3px 0 0 12px;
+}
+
+.print-catchallclass-modal-button-second-set {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin: 3px 0 0 12px;
+}
+
+.show-catchallclass-modal-line {
+  height: 10px;
+  border-bottom: 1px solid #e7e8e7;
+}
+
+.print-catchallclass-modal-button-save {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  height: 30px;
+}
+
+.print-catchallclass-modal-assignment-span {
+  margin: 0 0 0 123px;
+}
+
+.print-catchallclass-modal-assignment-textbox1 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 1% 0 6px;
+}
+
+.print-catchallclass-modal-assignment-textbox2 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.print-catchallclass-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.print-catchallclass-modal-button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 33px;
+  margin: 3px 0 0 5px;
+}
+
+.print-catchall-modal-button-equals:disabled {
+  background: #808080;
+}
+
+.print-catchallclass-modal-assignment-span {
+  margin: 0 0 0 140px;
+}
+
+.print-catchallclass-modal-assignment-textbox-comment {
+  border: 1px solid;
+  margin: 0 0 0 30px;
+  width: 400px;
+}
+
+.print-catchallclass-modal-assignment-wrapper1 {
+  font-size: 12px;
+  margin: 0 0 0 2%;
+}
+
+.print-catchallclass-modal-due-date-input {
+  margin: 6% 0 0;
+  border: 1px solid;
+}
+
+.print-catchallclass-modal-select {
+  border: 1px solid;
+  margin: 0 1%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.print-catchallclass-modal-input-textbox {
+  border: 1px solid;
+  margin: 0 1%;
+  background: #fff;
+}
+
+.print-catchallclass-modal-assignment-roster-div-details {
+  width: 33%;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 2% 0;
+}
+
+.catch-ireadclass-s44 {
+  display: flex;
+  margin: 10px 0 0;
+}
+
+.catchall-modal-student-box {
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  top: 80px;
+}
+
+.catchall-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0 2%;
+  height: 40px;
+}
+
+.catchall-modal-assignment-roster-textarea {
+  height: 280px;
+  overflow-y: scroll;
+  border: 1px solid #f1ecec;
+  border-radius: 0 25px;
+  margin: 0 0 10px;
+}
+
+.catchall-modal-assignment-roster-div-headers {
+  font-weight: bold;
+  margin: 0 0 0 20px;
+  font-size: 15px;
+}
+
+.catchall-modal-assignment-mesg {
+  font-size: 13px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.catchall-modal-assignment {
+  display: flex;
+}
+
+.catchall-modal-assignment-one {
+  flex: 1;
+}
+
+.catchall-modal-assignment-three {
+  flex: 2;
+}
+
+.font-wei-normal {
+  font-weight: normal;
+}
+
+.bord-bot {
+  border-bottom: 1px solid #efefe7;
+}
+
+.catchall-modal-assignment {
+  display: flex;
+}
+
+.catchall-modal-assignment-one {
+  flex: 1;
+}
+
+.catchall-modal-assignment-two {
+  max-width: 80px;
+  text-align: center;
+}
+
+.catchall-modal-assignment-textbox1 {
+  margin: 5px;
+}
+
+.catchall-modal-assignment-three {
+  flex: 2;
+}
+
+.catchall-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.catchall-modal-assignment-textbox-comment {
+  margin: 5px;
+}
+
+.bord-top-bot-rig {
+  border-right: 1px solid #efefe7;
+  border-bottom: 1px solid #efefe7;
+}
+
+.catchall-modal-assignment-mesg {
+  font-size: 13px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.catchall-modal-assignment-textbox1 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin: 5px;
+}
+
+.catchall-modal-assignment-textbox2 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.catchall-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.catchall-modal-assignment-textbox-comment {
+  border: 1px solid;
+  width: 400px;
+}
+
+.assignment-classname-text {
+  float: left;
+}
+
+.assignment-passage-text {
+  display: inline-block;
+  width: auto;
+  overflow: hidden;
+}
+
+.assignment-passage-select {
+  background: linear-gradient (to top, #ccc 12%, #fff 87%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 3px 4px 7px;
+  border-radius: 4px;
+  border: #000 1px solid;
+}
+
+.assignment-passage-text-error {
+  display: block;
+  clear: both;
+  color: #f00;
+}
+
+.print-catchall-modal-description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin: 0 0.5% 0 0;
+}
+
+.print-catchall-modal-description-title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 2%;
+}
+
+.print-catchall-modal-description-textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.print-catchall-modal-assignment-roster-textarea1 {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.print-catchall-modal-due-date {
+  width: 43%;
+  float: left;
+  margin: 0 0 0 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+}
+
+.print-catchall-modal-due-date-content1 {
+  margin: 0 0 0 3%;
+  font-size: 16px;
+  font-family: initial;
+  width: 41%;
+  float: left;
+}
+
+.print-catchall-modal-assignment-roster-box {
+  width: 100%;
+  margin: 1% 0.5% 0 0;
+  border: 1px solid #e7e8e7;
+  border-radius: 16px;
+  height: 16%;
+  float: left;
+  height: 315px;
+}
+
+.print-catchall-modal-assignment-textbox1 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-right: 0 1% 0 6px;
+}
+
+.print-catchall-modal-assignment-textbox2 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.print-catchall-modal-assignment-textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin: 0 0 0 6px;
+}
+
+.print-catchall-modal-button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 33px;
+  margin: 3px 0 0 5px;
+}
+
+.print-catchall-modal-assignment-span {
+  margin: 0 0 0 140px;
+}
+
+.print-catchall-modal-assignment-textbox-comment {
+  border: 1px solid;
+  margin: 0 0 0 30px;
+  width: 400px;
+}
+
+.print-catchall-modal-input-textbox {
+  border: 1px solid;
+  margin: 0 1%;
+  background: #fff;
+}
+
+.print-catchall-modal-select {
+  border: 1px solid;
+  margin: 0 1%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.print-catchall-modal-due-date-input {
+  margin: 6% 0 0;
+  border: 1px solid;
+}
+
+.portfolio-conf-warning {
+  width: 310px;
+  height: 120px;
+  padding: 0;
+}
+
+.portfolio-conf-warning-txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf-warning-heading {
+  background: #cdcfd2;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf-warning-btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-warning-btn .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+  border: #000 1px solid;
+  border-radius: 3px;
+}
+
+.portfolio-conf-warning .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin: 0 10% 0 0;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: 0 auto;
+}
+
+.print-catchallclass-modal__buttons-secondset button:disabled {
+  opacity: 0.5;
+  background: #808080;
+  height: 30px;
+}
+
+.print-catchallclass-modal__buttons-firstset button:disabled {
+  opacity: 0.5;
+  background: #808080;
+  height: 30px;
+}
+
+.print-catchall-modal-assignment-roster-div-conent {
+  width: 50%;
+  float: left;
+}
+
+.print-catchall-modal-assignment-roster-div-content-error {
+  width: 50%;
+  float: left;
+  padding: 20px 0 0;
+}
+
+.catchallclass-assignmenttype-error-main {
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  width: 200px;
+  margin: 0 10px 0 0;
+}
+
+.catchallclass-assignmenttype-error-content {
+  display: inline-block;
+  float: left;
+}
+
+.catchallclass-error-text-color {
+  color: #f00;
+  display: block;
+  font-size: 13px;
+}
+
+.catchallclass-print-due-date {
+  overflow: hidden;
+}
+
+.print-catchall-modal-assignment-roster-main {
+  overflow: hidden;
+}
+
+.portfolio-conf-warning-popup-btn .btn--primary {
+  background: linear-gradient(to bottom, #e4f5fc 0%, #8fc9e2 50%, #79b1c7 51%, #62adda 100%);
+}
+
+.portfolio-conf-warning-popup-btn .btn--primary:hover {
+  background: linear-gradient(to bottom, #e4f5fc 0%, #a0c6d6 50%, #87b4c5 51%, #5388a7 100%);
+}
+
+.portfolio-conf-warning-popup-btn .btn--secondary {
+  background: linear-gradient(to bottom, #fff 29%, #dedcdc 100%);
+}
+
+.portfolio-conf-warning-popup-btn .btn--secondary:hover {
+  background: linear-gradient(to bottom, #dbdbdb 52%, #ccc 56%);
+}

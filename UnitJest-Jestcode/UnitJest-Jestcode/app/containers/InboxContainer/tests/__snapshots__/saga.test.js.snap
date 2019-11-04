@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InboxContainer Saga getStudentListForClass getGradeDataRequest with Error 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass getGradeDataRequest with Error 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass getGradeDataRequest with Error 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Array [],
+      "type": "app/InboxContainer/SET_STUDENT_SUBMISSION_META_DATA",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      Object {
+        "classId": "jjj",
+      },
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setStudentRequestSuccess else condition 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setStudentRequestSuccess else condition 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentListForClass setStudentRequestSuccess else condition 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      Object {
+        "classId": "jjj",
+      },
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData getGradeDataRequest with Error 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData getGradeDataRequest with Error 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData getGradeDataRequest with Error 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "data": Array [],
+      "type": "app/InboxContainer/SET_STUDENT_SUBMISSION_META_DATA",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "jjj",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setStudentRequestSuccess else condition 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setStudentRequestSuccess else condition 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionMetaData setStudentRequestSuccess else condition 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "jjj",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData getGradeDataRequest with Error 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData getGradeDataRequest with Error 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData getGradeDataRequest with Error 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData getGradeDataRequest with Error 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData getGradeDataRequest with Error 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "newGridData": Array [],
+      "type": "app/InboxContainer/SET_INBOX_CLASS_TREELIST",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with success 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with success 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with success 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with success 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with undefined 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with undefined 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with undefined 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga getStudentSubmissionTreeData setInBoxGridRequestSuccess with undefined 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga setTreeAndGridData setTreeAndGridData 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxContainer Saga setTreeAndGridData setTreeAndGridData 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "gridData": undefined,
+      "treeData": Array [
+        "hiii",
+        "hii",
+        "hi",
+      ],
+      "type": "app/InboxContainer/SET_ASSIGNMENT_LIST_AND_TREE",
+    },
+    "channel": null,
+  },
+}
+`;

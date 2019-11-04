@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsTable /> Expect calculateRowCount to render correctly 1`] = `
+<div
+  className="assignment-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 100,
+        },
+        Object {
+          "Header": "Program",
+          "accessor": [Function],
+          "id": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Header": "Graded",
+          "accessor": [Function],
+          "id": "graded",
+          "sortable": true,
+          "width": 150,
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    pageSize={0}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect componentWillReceiveProps to render correctly 1`] = `
+<div
+  className="assignment-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 100,
+        },
+        Object {
+          "Header": "Program",
+          "accessor": [Function],
+          "id": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Header": "Graded",
+          "accessor": [Function],
+          "id": "graded",
+          "sortable": true,
+          "width": 150,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "_id": 1,
+          "id": 1,
+        },
+      ]
+    }
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    pageSize={1}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect getData to render correctly 1`] = `
+<div
+  className="assignment-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 100,
+        },
+        Object {
+          "Header": "Program",
+          "accessor": [Function],
+          "id": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Header": "Graded",
+          "accessor": [Function],
+          "id": "graded",
+          "sortable": true,
+          "width": 150,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "_id": 1,
+          "id": 1,
+        },
+      ]
+    }
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    pageSize={1}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect setActiveTab to render correctly 1`] = `
+<div
+  className="assignment-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 100,
+        },
+        Object {
+          "Header": "Program",
+          "accessor": [Function],
+          "id": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Header": "Graded",
+          "accessor": [Function],
+          "id": "graded",
+          "sortable": true,
+          "width": 150,
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    pageSize={0}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> Expect to render correctly 1`] = `
+<div
+  className="assignment-table"
+>
+  <SAMTable
+    checkedIds={Array []}
+    columns={
+      Array [
+        Object {
+          "Header": "Date",
+          "accessor": [Function],
+          "id": "date",
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Assignment",
+          "accessor": "assignment",
+          "id": "assignment",
+          "sortable": true,
+          "width": 150,
+        },
+        Object {
+          "Header": "From",
+          "accessor": "from",
+          "sortable": true,
+          "width": 100,
+        },
+        Object {
+          "Header": "Program",
+          "accessor": [Function],
+          "id": "community_id",
+          "sortable": true,
+          "width": 120,
+        },
+        Object {
+          "Header": "Graded",
+          "accessor": [Function],
+          "id": "graded",
+          "sortable": true,
+          "width": 150,
+        },
+      ]
+    }
+    data={Array []}
+    handleRowCheckboxOnChange={[Function]}
+    handleRowSelections={[Function]}
+    pageSize={0}
+    selectAll={true}
+    sortable={true}
+    toggleAllCheckboxes={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns accessor method Date 1`] = `"06/06/2018"`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns accessor method Graded 1`] = `
+<img
+  alt=""
+  height="20px"
+  src="IMAGE_MOCK"
+  width="20px"
+/>
+`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns accessor method Graded 2`] = `""`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns accessor method Program 1`] = `
+<img
+  alt=""
+  height="20px"
+  src=""
+  width="50px"
+/>
+`;
+
+exports[`<ResultsTable /> should populate the BooksTable with the right columns cell method Assignment 1`] = `
+<div
+  className="search-result-table__group"
+>
+  <SearchResultsEditCell
+    clickHandler={[Function]}
+    index={undefined}
+    metaData={
+      Array [
+        Object {
+          "id": 1,
+        },
+      ]
+    }
+    rowData={undefined}
+  />
+</div>
+`;

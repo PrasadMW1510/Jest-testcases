@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultsEditCell /> Should render as expected 1`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <a
+    onClick={[Function]}
+    role="link"
+    tabIndex="-1"
+  />
+</div>
+`;

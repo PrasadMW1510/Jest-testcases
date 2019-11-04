@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FMGradingToolsContainer domain should consistently return the FMGradingTools slice of state 1`] = `
+Immutable.Map {
+  studentOperations: Immutable.List [
+  ],
+}
+`;
+
+exports[`FMGradingToolsContainer domain should consistently return the FMGradingTools studentOperations field 1`] = `Array []`;

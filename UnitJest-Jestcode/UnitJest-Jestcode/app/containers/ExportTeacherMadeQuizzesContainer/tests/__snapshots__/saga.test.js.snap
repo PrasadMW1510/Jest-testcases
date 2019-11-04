@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`postExportTeacherMadeQuizRequest Saga postExportTeacherMadeQuizRequest postExportTeacherMadeQuizRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "app/LoadingController/SHOW_LOADING",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`postExportTeacherMadeQuizRequest Saga postExportTeacherMadeQuizRequest postExportTeacherMadeQuizRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`postExportTeacherMadeQuizRequest Saga postExportTeacherMadeQuizRequest postExportTeacherMadeQuizRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<ExportTeacherMadeQuizReq><Export><QuizId></QuizId></Export></ExportTeacherMadeQuizReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`postExportTeacherMadeQuizRequest Saga postExportTeacherMadeQuizRequest postExportTeacherMadeQuizRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "app/ExportTeacherMadeQuizzesContainer/export-teacher-made-quiz-success",
+    },
+    "channel": null,
+  },
+}
+`;

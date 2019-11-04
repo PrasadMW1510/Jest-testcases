@@ -1,0 +1,38 @@
+.iread-screener-modal {
+  width: 252px;
+  height: 170px;
+  padding: 0;
+}
+
+.iread-screener-modal--header {
+  background-color: #ffd400;
+  color: #000;
+  font-size: 11px;
+  margin-top: 0;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.iread-screener-modal--body {
+  padding: 10px 24px;
+}
+
+.iread-screener-modal--message {
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.iread-screener-modal--yes-button,
+.iread-screener-modal--cancel-button {
+  min-width: 90px;
+  width: 90px;
+  height: 24px;
+}
+
+.iread-screener-modal--yes-button {
+  float: left;
+}
+
+.iread-screener-modal--cancel-button {
+  float: right;
+}

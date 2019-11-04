@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for activateQuizRequest 1`] = `
+Object {
+  "activateQuizPreviewData": Array [
+    Object {
+      "name": "bookLabelPreviewData   1",
+    },
+  ],
+  "searchDataChecked": Array [
+    Object {
+      "name": "bookId   1",
+    },
+  ],
+  "searchOpts": Array [
+    Object {
+      "name": "bookId   1",
+    },
+  ],
+  "type": "app/ActivateQuizContainer/activate_quiz_list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for activateQuizRequest 2`] = `
+Object {
+  "activateQuizPreviewData": undefined,
+  "searchDataChecked": undefined,
+  "searchOpts": undefined,
+  "type": "app/ActivateQuizContainer/activate_quiz_list",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/ActivateQuizContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getPostActivateRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "app/activateQuizContainer/activate-quiz-list-failure",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for initialiseModalFlag 1`] = `
+Object {
+  "type": "app/initialize-modal-flag",
+}
+`;

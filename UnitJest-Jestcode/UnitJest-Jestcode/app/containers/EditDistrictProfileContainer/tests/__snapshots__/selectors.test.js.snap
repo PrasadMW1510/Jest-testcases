@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectEditDistrictProfileContainerDomain should select the class assign modal container domain 1`] = `
+Object {
+  "editDistrictProfileContainer": Object {},
+}
+`;

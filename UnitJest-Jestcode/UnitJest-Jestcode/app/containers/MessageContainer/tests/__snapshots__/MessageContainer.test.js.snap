@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MessageContainer /> Expect to render correctly 1`] = `
+<MessageLog
+  handleDeleteOnClick={[Function]}
+  messages={Array []}
+  onShowMeClick={[Function]}
+  productsAvailable={
+    Array [
+      Object {
+        "community_id": "CDX",
+        "name": "Common Core X",
+      },
+      Object {
+        "community_id": "DTM",
+        "name": "Do The Math",
+      },
+      Object {
+        "community_id": "E3D",
+        "name": "English 3D",
+      },
+    ]
+  }
+/>
+`;

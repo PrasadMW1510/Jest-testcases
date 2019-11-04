@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortfolioTreeMenu  /> Expect to render correctly 1`] = `
+<div>
+  <TreeBeard
+    animations={
+      Object {
+        "drawer": [Function],
+        "toggle": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "name": "A",
+          "type": "PfStudentGoal",
+        },
+        Object {
+          "name": "QWE",
+          "type": "PfAsignment",
+        },
+      ]
+    }
+    decorators={
+      Object {
+        "Container": [Function],
+        "Header": [Function],
+        "Loading": [Function],
+        "Toggle": [Function],
+      }
+    }
+    onToggle={[Function]}
+    style={
+      Object {
+        "tree": Object {
+          "base": Object {
+            "backgroundColor": "#21252B",
+            "color": "#9DA5AB",
+            "fontFamily": "lucida grande ,tahoma,verdana,arial,sans-serif",
+            "fontSize": "14px",
+            "listStyle": "none",
+            "margin": 0,
+            "padding": 0,
+          },
+          "node": Object {
+            "activeLink": Object {
+              "background": "#31363F",
+            },
+            "base": Object {
+              "position": "relative",
+            },
+            "header": Object {
+              "base": Object {
+                "color": "#9DA5AB",
+                "display": "inline-block",
+                "verticalAlign": "top",
+              },
+              "connector": Object {
+                "borderBottom": "solid 2px black",
+                "borderLeft": "solid 2px black",
+                "height": "12px",
+                "left": "-21px",
+                "position": "absolute",
+                "top": "0px",
+                "width": "2px",
+              },
+              "title": Object {
+                "lineHeight": "24px",
+                "verticalAlign": "middle",
+              },
+            },
+            "link": Object {
+              "cursor": "pointer",
+              "display": "block",
+              "padding": "0px 5px",
+              "position": "relative",
+            },
+            "loading": Object {
+              "color": "#E2C089",
+            },
+            "subtree": Object {
+              "listStyle": "none",
+              "paddingLeft": "19px",
+            },
+            "toggle": Object {
+              "arrow": Object {
+                "fill": "#9DA5AB",
+                "strokeWidth": 0,
+              },
+              "base": Object {
+                "display": "inline-block",
+                "height": "24px",
+                "marginLeft": "-5px",
+                "position": "relative",
+                "verticalAlign": "top",
+                "width": "24px",
+              },
+              "height": 14,
+              "width": 14,
+              "wrapper": Object {
+                "height": "14px",
+                "left": "50%",
+                "margin": "-7px 0 0 -7px",
+                "position": "absolute",
+                "top": "50%",
+              },
+            },
+          },
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<PortfolioTreeMenu  /> Expect to render correctly 2`] = `
+<div>
+  <TreeBeard
+    animations={
+      Object {
+        "drawer": [Function],
+        "toggle": [Function],
+      }
+    }
+    data={
+      Array [
+        Object {
+          "name": "QWER",
+          "type": "PfAsignment",
+        },
+        Object {
+          "name": "QWERTYUIOP",
+          "type": "student_work",
+        },
+      ]
+    }
+    decorators={
+      Object {
+        "Container": [Function],
+        "Header": [Function],
+        "Loading": [Function],
+        "Toggle": [Function],
+      }
+    }
+    onToggle={[Function]}
+    style={
+      Object {
+        "tree": Object {
+          "base": Object {
+            "backgroundColor": "#21252B",
+            "color": "#9DA5AB",
+            "fontFamily": "lucida grande ,tahoma,verdana,arial,sans-serif",
+            "fontSize": "14px",
+            "listStyle": "none",
+            "margin": 0,
+            "padding": 0,
+          },
+          "node": Object {
+            "activeLink": Object {
+              "background": "#31363F",
+            },
+            "base": Object {
+              "position": "relative",
+            },
+            "header": Object {
+              "base": Object {
+                "color": "#9DA5AB",
+                "display": "inline-block",
+                "verticalAlign": "top",
+              },
+              "connector": Object {
+                "borderBottom": "solid 2px black",
+                "borderLeft": "solid 2px black",
+                "height": "12px",
+                "left": "-21px",
+                "position": "absolute",
+                "top": "0px",
+                "width": "2px",
+              },
+              "title": Object {
+                "lineHeight": "24px",
+                "verticalAlign": "middle",
+              },
+            },
+            "link": Object {
+              "cursor": "pointer",
+              "display": "block",
+              "padding": "0px 5px",
+              "position": "relative",
+            },
+            "loading": Object {
+              "color": "#E2C089",
+            },
+            "subtree": Object {
+              "listStyle": "none",
+              "paddingLeft": "19px",
+            },
+            "toggle": Object {
+              "arrow": Object {
+                "fill": "#9DA5AB",
+                "strokeWidth": 0,
+              },
+              "base": Object {
+                "display": "inline-block",
+                "height": "24px",
+                "marginLeft": "-5px",
+                "position": "relative",
+                "verticalAlign": "top",
+                "width": "24px",
+              },
+              "height": 14,
+              "width": 14,
+              "wrapper": Object {
+                "height": "14px",
+                "left": "50%",
+                "margin": "-7px 0 0 -7px",
+                "position": "absolute",
+                "top": "50%",
+              },
+            },
+          },
+        },
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getAwardsDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_awardsdata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getAwardsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_awards_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getAwardsRequestSuccess 1`] = `
+Object {
+  "awards": Array [
+    Object {
+      "name": "award 1",
+    },
+  ],
+  "type": "AdvancedSearchContainer/get_awards_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getAwardsRequestSuccess 2`] = `
+Object {
+  "awards": Array [],
+  "type": "AdvancedSearchContainer/get_awards_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getBookResult 1`] = `
+Object {
+  "resultValue": "0",
+  "type": "AdvancedSearchContainer/books_search_result",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getBookResult 2`] = `
+Object {
+  "resultValue": "0",
+  "type": "AdvancedSearchContainer/books_search_result",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getBookSearchFilters 1`] = `
+Object {
+  "searchfilters": Object {
+    "type": "searchfilters 1",
+  },
+  "type": "AdvancedSearchContainer/book_search_filters",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getBookSearchFilters 2`] = `
+Object {
+  "searchfilters": Object {},
+  "type": "AdvancedSearchContainer/book_search_filters",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getComskillDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_comskilldata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getComskillRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_comskill_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getComskillRequestSuccess 1`] = `
+Object {
+  "comskill": Object {
+    "name": "comskill 1",
+  },
+  "type": "AdvancedSearchContainer/get_comskill_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getComskillRequestSuccess 2`] = `
+Object {
+  "comskill": Array [],
+  "type": "AdvancedSearchContainer/get_comskill_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getCultureDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_culturedata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getCultureRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_culture_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getCultureRequestSuccess 1`] = `
+Object {
+  "culture": Object {
+    "name": "culture 1",
+  },
+  "type": "AdvancedSearchContainer/get_culture_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getCultureRequestSuccess 2`] = `
+Object {
+  "culture": Array [],
+  "type": "AdvancedSearchContainer/get_culture_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getGenreDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_genredata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getGenreRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_genre_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getGenreRequestSuccess 1`] = `
+Object {
+  "genre": Object {
+    "type": "genre 1",
+  },
+  "type": "AdvancedSearchContainer/get_genre_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getGenreRequestSuccess 2`] = `
+Object {
+  "genre": Array [],
+  "type": "AdvancedSearchContainer/get_genre_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInstalledQuizCountDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_installedquizcountdata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInstalledQuizCountRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_installedquizcount_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInterestLevelDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_interestleveldata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInterestLevelRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_interestlevel_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInterestLevelRequestSuccess 1`] = `
+Object {
+  "interestLevel": Object {
+    "type": "interestLevel 1",
+  },
+  "type": "AdvancedSearchContainer/get_interestlevel_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getInterestLevelRequestSuccess 2`] = `
+Object {
+  "interestLevel": Array [],
+  "type": "AdvancedSearchContainer/get_interestlevel_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getProgramSeriesDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_program_seriesdata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getProgramSeriesRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_programseries_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getProgramSeriesRequestSuccess 1`] = `
+Object {
+  "programSeries": Object {
+    "type": "programSeries 1",
+  },
+  "type": "AdvancedSearchContainer/get_program_series_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getProgramSeriesRequestSuccess 2`] = `
+Object {
+  "programSeries": Array [],
+  "type": "AdvancedSearchContainer/get_program_series_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getSearchResultsRequest 1`] = `
+Object {
+  "payload": Object {
+    "type": "searchOpts 1",
+  },
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getSearchResultsRequest 2`] = `
+Object {
+  "payload": undefined,
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getSearchResultsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_FAILURE",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getSearchResultsRequestSuccess 1`] = `
+Object {
+  "searchResults": Object {
+    "type": "searchResults 1",
+  },
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getSearchResultsRequestSuccess 2`] = `
+Object {
+  "searchResults": Array [],
+  "type": "BookQuizContainer/GET_SEARCH_RESULTS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getThemesDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_themesdata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getThemesRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_themes_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getThemesRequestSuccess 1`] = `
+Object {
+  "themes": Object {
+    "type": "themes 1",
+  },
+  "type": "AdvancedSearchContainer/get_themes_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getThemesRequestSuccess 2`] = `
+Object {
+  "themes": Array [],
+  "type": "AdvancedSearchContainer/get_themes_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsDataRequest 1`] = `
+Object {
+  "type": "AdvancedSearchContainer/get_topicsdata_request",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsDataRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "AdvancedSearchContainer/get_topicsdata_request_failure",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsRequestSuccess 1`] = `
+Object {
+  "topics": Object {
+    "type": "topics 1",
+  },
+  "type": "AdvancedSearchContainer/get_topics_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsRequestSuccess 2`] = `
+Object {
+  "topics": Array [],
+  "type": "AdvancedSearchContainer/get_topics_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsRequestSuccess 3`] = `
+Object {
+  "installedQuizCount": Object {
+    "type": "installedQuizCount  1",
+  },
+  "type": "AdvancedSearchContainer/get_installedquizcount_request_success",
+}
+`;
+
+exports[`AdvancedSearchContainer actions All actions should return the correct constant for getTopicsRequestSuccess 4`] = `
+Object {
+  "installedQuizCount": Array [],
+  "type": "AdvancedSearchContainer/get_installedquizcount_request_success",
+}
+`;

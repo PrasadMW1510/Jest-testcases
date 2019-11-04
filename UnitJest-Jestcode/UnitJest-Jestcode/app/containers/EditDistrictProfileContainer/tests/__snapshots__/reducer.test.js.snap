@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editDistrictProfileContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  customDemographics: Immutable.List [
+  ],
+  timeZones: Immutable.List [
+  ],
+}
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountDeleteModalContainer actions should return the correct constant for postAccountDeleteRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "app/AccountDeleteModalContainer/POST_ACCOUNT_DELETE_REQUEST",
+}
+`;
+
+exports[`AccountDeleteModalContainer actions should return the correct constant for postAccountDeleteRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "subType": "app/AccountDeleteModalContainer/POST_ACCOUNT_DELETE_REQUEST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`AccountDeleteModalContainer actions should return the correct constant for postAccountDeleteRequestSuccess 1`] = `
+Object {
+  "type": "app/AccountDeleteModalContainer/POST_ACCOUNT_DELETE_REQUEST_SUCCESS",
+}
+`;

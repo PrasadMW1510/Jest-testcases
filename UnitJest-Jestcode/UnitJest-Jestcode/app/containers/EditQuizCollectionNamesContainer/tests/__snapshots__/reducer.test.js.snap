@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editQuizCollectionNamesContainerReducer reducer updates loadingOpen to true for INITIAL_REQUEST action 1`] = `
+Immutable.Map {
+  error: false,
+  editQuizCollectionNamesData: Immutable.List [
+  ],
+  saveSuccess: false,
+  fetchSuccess: false,
+}
+`;

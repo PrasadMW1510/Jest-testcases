@@ -1,0 +1,174 @@
+.print-system44__modal-system44--modal {
+  width: 960px;
+  font-family: inherit;
+
+  .s44-play {
+    height: 470px;
+    background: url('../../images/play.png') no-repeat center;
+    position: relative;
+  }
+
+  .print-system44__modal--playdiv {
+    width: 43%;
+    float: right;
+  }
+
+  .print-system44__modal-due--date {
+    width: 100% !important;
+    margin-bottom: 13px;
+  }
+
+  .print-system44-modal__buttons--secondset {
+    float: right;
+    padding-top: 0% !important;
+    padding-left: 0% !important;
+    margin-top: 10px;
+  }
+
+  .oral-fluency-txt {
+    padding: 0 0 0 10px;
+    line-height: 13px;
+    font-family: inherit;
+    font-size: 13px;
+    color: #00f;
+  }
+
+  .oral-fluency-txt:hover {
+    color: #080;
+  }
+
+  .print-system44-modal__description--box {
+    height: 450px !important;
+  }
+
+  .print-system44__modal-due--date {
+    width: 100%;
+  }
+
+  .print-system44-modal__s44-bot--txt {
+    font-size: 12px;
+    text-align: left;
+    position: absolute;
+    bottom: 15px;
+    border-top: 1px solid #e7e8e7;
+    width: 100%;
+    text-indent: 30px;
+    line-height: 21px;
+    font-family: inherit;
+  }
+
+  .print-system44__modal-due-date--oral {
+    width: 100%;
+    min-height: 186px;
+  }
+
+  .print-system44-modal__play--but {
+    margin: auto;
+    width: 124px;
+    height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 44%;
+    text-decoration: none;
+    color: #000;
+    padding-top: 42px;
+    font-size: 12px;
+  }
+
+  .print-system44-modal__buttons-firstset--pager {
+    margin: 10px 0 0 24%;
+  }
+
+  .pager {
+    display: inline-flex;
+    font-size: 11px;
+    margin: 0 25%;
+  }
+
+  .pager-prev {
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    height: 21px;
+    width: 21px;
+    margin-top: 5px;
+    line-height: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .previous {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .pager-nor {
+    padding: 3px;
+    background-color: #fff;
+    height: 21px;
+    width: 15px;
+    margin-top: 5px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .print-system44__oral-fluency--button {
+    background: #f8fbf8;
+    box-shadow: inset -2px -1px 2px #797474;
+    border: 1px solid #a7a0a0;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px 6px 3px;
+    margin: 0 15px 0 35px;
+    line-height: 17px;
+    font-family: inherit;
+    font-size: 13px;
+    float: right;
+    outline: none;
+    color: #000;
+  }
+
+  .print-system44__oral-fluency--button.active {
+    box-shadow: inset -2px -1px 2px #f3a6a6;
+    border: #f3a6a6 1px solid;
+    font-weight: bold;
+    background: #eaebea;
+  }
+
+  .print-system44-modal__button--save {
+    color: #fff;
+    background: linear-gradient(to bottom, #c6c6c6 46%, #c6c6c6 46%, #a3a3a3 50%, #a3a3a3 100%);
+    text-shadow: 1px 1px #888080;
+    font-size: 16px;
+  }
+
+  .print-math180-modal-button-save-blue {
+    color: #fff;
+    background: linear-gradient(#1989e5, #1f07f7);
+  }
+
+  .print-system44__oral-fluency--button :hover {
+    box-shadow: inset -2px -1px 2px #f3a6a6;
+    border: #f3a6a6 1px solid;
+    font-weight: bold;
+    background: #eaebea;
+  }
+
+  .print-system44__modal-description-title--textarea {
+    height: 142px;
+    width: 100%;
+  }
+}
+
+.print-system44__pull-right--here {
+  float: left !important;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.print-system44__oral-fluency--span {
+  outline: 0 !important;
+}

@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesSamKeyword /> Expect to render itself 1`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesSamKeyword /> verify when the app data exist verify handle click method 1`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesSamKeyword /> verify when the app data exist verify handle sorting post call 1`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesSamKeyword /> verify when the app data exist verify modal status 1`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+  <ResourcesModalView
+    item={
+      Immutable.Map {
+      }
+    }
+    modalStatus={true}
+    sortUpdater={[Function]}
+    updateResourcesModalStatus={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResourcesSamKeyword /> verify when the app data exist verify modal status 2`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesSamKeyword /> verify when the app data exist verify with the Apps has data 1`] = `
+<div
+  className="sam-keyword-container"
+>
+  <div
+    className="sam-keyword"
+  >
+    <div
+      className="sam-keyword__text"
+    >
+      Enter the Keyword of the Resource you are looking for.
+    </div>
+    <div>
+      <span
+        className="sam-keyword__search-text"
+      >
+        SAM Keyword: 
+      </span>
+      <input
+        className="sam-keyword__search-box"
+        onChange={[Function]}
+        type="text"
+        value="math"
+      />
+      <button
+        className="sam-keyword__search-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        GO
+      </button>
+    </div>
+  </div>
+</div>
+`;

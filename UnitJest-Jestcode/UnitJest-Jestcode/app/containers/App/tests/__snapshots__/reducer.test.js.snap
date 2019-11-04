@@ -1,0 +1,4468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Global App reducer returns the initial state 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle PERMISSION_REQUEST 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    permission_request: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle PROFILE_REQUEST 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    profile_request: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle PROGRAM_AVAILABLE_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    program_available_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle Program Available  list request failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "err",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle Program Available list request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    program_available_data: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+      Immutable.Map {
+        $: Immutable.Map {
+          community_id: "DTM2",
+          description: "Do The Math",
+        },
+      },
+      Immutable.Map {
+        $: Immutable.Map {
+          community_id: "FM",
+          description: "Fastt Math",
+        },
+      },
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle SCHOOL_LIST_REQUEST 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    school_list_request: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_CLASS_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_class_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_GRADE_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_grade_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_GROUP_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_group_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_SCHOOL_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_school_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_STUDENT_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_student_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle UPDATE_TEACHER_DATA 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_teacher_data: true,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle class list failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "no classes found",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle class list failure actions 2`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "no profile found",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle class list success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: Immutable.OrderedMap {
+      class1: Immutable.Map {
+        class_id: "class1",
+      },
+      class2: Immutable.Map {
+        class_id: "class2",
+      },
+    },
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle grade list failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "no grades found",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle grade list success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: Immutable.OrderedMap {
+      grade1: Immutable.Map {
+        name: "grade1",
+      },
+      grade2: Immutable.Map {
+        name: "grade2",
+      },
+    },
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle group list request failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "err",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle group list request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: Immutable.OrderedMap {
+    },
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle local relogin actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: true,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle login failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "did not find user",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: false,
+}
+`;
+
+exports[`Global App reducer should handle login save credentials actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: true,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle login success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: false,
+}
+`;
+
+exports[`Global App reducer should handle logout request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle password config request 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      config: Immutable.List [
+        Immutable.Map {
+          id: 123,
+          data: 456,
+        },
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle password hint request failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "err",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle permission request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    permission_request: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+      Immutable.Map {
+        id: 100,
+        name: "Edit Student Profile",
+        display_name: "Edit Student Profile",
+      },
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle profile success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    profile_request: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+      firstName: "John",
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle school list request failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "err",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle school list request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    school_list_request: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: Immutable.OrderedMap {
+    },
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle sso login actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: true,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: true,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle student list request failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "err",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle student list request success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: Immutable.OrderedMap {
+    },
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle teacher list failure actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: "no teachers found",
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle teacher list success actions 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: Immutable.OrderedMap {
+      teacher1: Immutable.Map {
+        user_id: "teacher1",
+      },
+      teacher2: Immutable.Map {
+        user_id: "teacher2",
+      },
+    },
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle update class data success action 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_class_data: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle update grade data success 1`] = `
+Immutable.Map {
+  userData: Immutable.Map {
+    groups: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_grade_data: false,
+  },
+}
+`;
+
+exports[`Global App reducer should handle update group data success action 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_group_data: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle update profile request 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+      id: 123,
+      data: 456,
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle update school data success 1`] = `
+Immutable.Map {
+  userData: Immutable.Map {
+    classes: null,
+    groups: null,
+    students: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_school_data: false,
+  },
+}
+`;
+
+exports[`Global App reducer should handle update school data success teacher 1`] = `
+Immutable.Map {
+  userData: Immutable.Map {
+    classes: Immutable.Map {
+    },
+    groups: Immutable.Map {
+    },
+    students: Immutable.Map {
+    },
+  },
+}
+`;
+
+exports[`Global App reducer should handle update student data success action 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_student_data: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should handle update teacher data success action 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  loadingRequest: Immutable.Map {
+    update_teacher_data: false,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should not update Class data when null 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should not update Grade data when null 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should not update Group data when null 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should not update Student data when null 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should not update Teacher data when null 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update Student data when update profile student data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: Immutable.OrderedMap {
+      student1: Immutable.Map {
+        user_id: "student1",
+      },
+      student2: Immutable.Map {
+        user_id: "student2",
+      },
+    },
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update class data when update profile class data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: Immutable.OrderedMap {
+      class1: Immutable.Map {
+        class_id: "class1",
+      },
+      class2: Immutable.Map {
+        class_id: "class2",
+      },
+    },
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update grade data when update profile grade data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: Immutable.OrderedMap {
+      grade1: Immutable.Map {
+        name: "grade1",
+      },
+      grade2: Immutable.Map {
+        name: "grade2",
+      },
+    },
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update group data when update profile group data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: Immutable.OrderedMap {
+      group1: Immutable.Map {
+        group_id: "group1",
+      },
+      group2: Immutable.Map {
+        group_id: "group2",
+      },
+    },
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update school data when update profile school data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: "123School",
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update school data when update profile school data success is called 2`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  profilesData: Immutable.Map {
+    failure: "error",
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer should update teacher data when update profile teacher data success is called 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: Immutable.OrderedMap {
+      teacher1: Immutable.Map {
+        user_id: "teacher1",
+      },
+      teacher2: Immutable.Map {
+        user_id: "teacher2",
+      },
+    },
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer update expand and collapse status 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: true,
+    teacher: true,
+    class: true,
+    group: true,
+    student: true,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;
+
+exports[`Global App reducer when logged in as org id school clear only  grade and student 1`] = `
+Immutable.Map {
+  loadingRequests: Immutable.Map {
+    update_group_data: false,
+    update_student_data: false,
+    update_class_data: false,
+    update_grade_data: false,
+    profile_request: false,
+    school_list_request: false,
+    program_available_data: false,
+    update_teacher_data: false,
+    permission_request: false,
+    update_school_data: false,
+  },
+  currentUser: false,
+  isSSO: false,
+  error: null,
+  profileData: Immutable.Map {
+    schools: null,
+    grades: null,
+    teachers: null,
+    classes: null,
+    groups: null,
+    students: null,
+    failure: null,
+  },
+  userData: Immutable.Map {
+    permissions: Immutable.List [
+    ],
+    classes: null,
+    serverAssets: Immutable.List [
+    ],
+    profile: Immutable.Map {
+    },
+    login: Immutable.Map {
+    },
+    schoolsAndClasses: Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+          ],
+          school_name: null,
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: null,
+                  class_name: null,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    teachers: null,
+    groups: null,
+    students: null,
+    grades: null,
+    passwordConfig: Immutable.Map {
+      configs: Immutable.List [
+      ],
+    },
+    schools: null,
+  },
+  expandCollapseStatus: Immutable.Map {
+    school: true,
+    grade: false,
+    teacher: false,
+    class: false,
+    group: false,
+    student: false,
+  },
+  loginInProgress: false,
+  loading: true,
+}
+`;

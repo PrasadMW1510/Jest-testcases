@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List/> Expect to render correctly 1`] = `
+<ul
+  className="tmq-quiz-list tmq-quiz-list2"
+>
+  <li
+    className="tmq-links"
+    key="2"
+  >
+    <Link
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/2"
+    >
+      a
+    </Link>
+  </li>
+  <li
+    className="tmq-links"
+    key="2"
+  >
+    <Link
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/2"
+    >
+      b
+    </Link>
+  </li>
+</ul>
+`;
+
+exports[`<List/> Expect to render correctly 2`] = `
+<ul
+  className="tmq-quiz-list tmq-quiz-list2"
+>
+  <li
+    className="tmq-links"
+    key="3"
+  >
+    <Link
+      key="3"
+      onClick={[Function]}
+      replace={false}
+      to="/3"
+    >
+      b
+    </Link>
+  </li>
+  <li
+    className="tmq-links"
+    key="3"
+  >
+    <Link
+      key="3"
+      onClick={[Function]}
+      replace={false}
+      to="/3"
+    >
+      b
+    </Link>
+  </li>
+</ul>
+`;

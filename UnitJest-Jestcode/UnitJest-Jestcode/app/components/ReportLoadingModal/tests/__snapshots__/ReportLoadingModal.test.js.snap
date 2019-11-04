@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportLoadingModal /> Expect to render correctly 1`] = `
+<div
+  className="reports-page__loading-bar"
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <LoadingBar />
+</div>
+`;

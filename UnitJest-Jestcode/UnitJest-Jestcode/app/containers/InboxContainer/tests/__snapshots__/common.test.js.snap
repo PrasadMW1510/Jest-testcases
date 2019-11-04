@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inboxcontainer common if: it should exists getInboxDataByCommunityId  1`] = `
+Array [
+  Object {
+    "community_id": "1",
+    "graded": "false",
+    "kind": "selectedKind",
+  },
+]
+`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityId  1`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityId  2`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityId else  1`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityName  1`] = `
+Array [
+  Object {
+    "className": "1",
+    "graded": "false",
+    "kind": "selectedKind",
+  },
+]
+`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityName  2`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getInboxDataByCommunityName else  1`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getUnreadData  1`] = `
+Array [
+  Object {
+    "graded": "false",
+    "kind": "selectedKind",
+    "read": "false",
+  },
+]
+`;
+
+exports[`inboxcontainer common it should exists getUnreadData  2`] = `Array []`;
+
+exports[`inboxcontainer common it should exists getUnreadData else  1`] = `Array []`;

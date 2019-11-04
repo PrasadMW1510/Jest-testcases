@@ -1,0 +1,2995 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportList /> Should filter reports by type 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter="Aggregate"
+                key="RES44"
+                productName="System 44"
+                reorderedReports={0}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter="Aggregate"
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={0}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should handle unexpected reports when loading 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Test District
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="District"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should render as expected 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Test District
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={0}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                          "CurrGradingPeriod",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={0}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                          "CurrGradingPeriod",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="District"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should render as expected with empty reports 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Test District
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                className="report-no-reports"
+              >
+                There are no reports matching this filter.
+              </div>
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="District"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should render as expected with undefined reports 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Test District
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                className="report-no-reports"
+              >
+                There are no reports matching this filter.
+              </div>
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="District"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should render as expected without reports 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Test District
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={0}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                          "CurrGradingPeriod",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={0}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                          "CurrGradingPeriod",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="District"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Date 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={true}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={true}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Date 2`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={false}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={false}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Name 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={true}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={true}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Name 2`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={false}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={false}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Type 1`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={true}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={true}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<ReportList /> Should sort reports by column: Type 2`] = `
+<div
+  className="report-list"
+>
+  <div
+    className="report-page-title reports-cohort-title__text--body"
+  >
+    Reports for 
+    Lastname, Firstname
+  </div>
+  <table
+    className="report-table"
+  >
+    <tbody>
+      <tr
+        className="report-controls"
+      >
+        <td
+          align="left"
+          height="40"
+          valign="middle"
+          width="576"
+        >
+          Show:
+          <select
+            className="report-list-select"
+            id="report-scope"
+            onChange={[Function]}
+          >
+            <option
+              value=""
+            >
+              All Reports
+            </option>
+            <option
+              value="Aggregate"
+            >
+              Multi-Classroom Reports
+            </option>
+            <option
+              value="Group"
+            >
+              Classroom Reports
+            </option>
+            <option
+              value="Student"
+            >
+              Student Reports
+            </option>
+          </select>
+        </td>
+        <td
+          align="right"
+        />
+      </tr>
+      <tr
+        valign="top"
+      >
+        <td>
+          <div
+            className="report-list-sort-row"
+          >
+            <div
+              className="report-list-col1 report-list-sort-header"
+              id="ReportListSort_name"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Name
+            </div>
+            <div
+              className="report-list-col2 report-list-sort-header"
+              id="ReportListSort_type"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Type
+            </div>
+            <div
+              className="report-list-col3 report-list-sort-header"
+              id="ReportListSort_date"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Date Last Run
+            </div>
+            <div
+              className="report-list-clear-float"
+            />
+          </div>
+          <div
+            className="report-list-table-container"
+          >
+            <form
+              id="ReportForm"
+              name="ReportForm"
+            >
+              <div
+                key="0"
+              >
+                 
+              </div>
+              <div
+                key="FAD"
+              >
+                 
+              </div>
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44"
+                productName="System 44"
+                reorderedReports={false}
+                reportKey="S44"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 3",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report D",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44_06",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abcd",
+                      "cohort_type": "school",
+                      "description": "example report data 2",
+                      "last_generated": "2017-12-08",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Group",
+                      "report_id": "def",
+                      "type_id": "s44_05",
+                    },
+                  ]
+                }
+              />
+              <Connect(ReportProductList)
+                chooseReport={[Function]}
+                filter=""
+                key="RES44NG"
+                productName="System 44NG"
+                reorderedReports={false}
+                reportKey="S44NG"
+                reports={
+                  Array [
+                    Object {
+                      "category_name": "Category C",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-18",
+                      "name": "Example Report C",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_06",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": null,
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-20",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "connect_url": "/slms/SlmsReport?sid=$SESSION_ID$&command=generate_report&report_type_id=$REPORT_TYPE_ID$&user_id=$USER_ID$&cohort_type=$FAMILY$&cohort_id=$COHORT_ID$&date_range=$DATE_RANGE$&attribute_filters=$ATTRIBUTE_FILTERS$&group_filters=$GROUP_FILTERS$&grade_filters=$GRADE_FILTERS$&app_filters=$APP_FILTERS$&item_type=student&school_id=$SCHOOL_ID$",
+                        "dateRanges": Array [
+                          "CurrSchoolYear",
+                        ],
+                        "option_default": null,
+                        "option_labels": null,
+                        "option_name": null,
+                        "option_property": null,
+                        "option_values": null,
+                        "pdf_o_qs": null,
+                        "pdf_qs": null,
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_03",
+                    },
+                    Object {
+                      "category_name": "Category B",
+                      "chosen_option": "",
+                      "cohort_id": "abc",
+                      "cohort_type": "school",
+                      "description": "example report data 0",
+                      "last_generated": "2018-01-19",
+                      "name": "Example Report B",
+                      "relationship": "Optimal",
+                      "reportSettings": Object {
+                        "dateRanges": Array [],
+                        "option_default": "",
+                      },
+                      "report_cohort_type": "Student",
+                      "report_id": "def",
+                      "type_id": "s44ng_05",
+                    },
+                  ]
+                }
+              />
+            </form>
+          </div>
+        </td>
+        <td
+          align="center"
+        >
+          <ReportDateRangeOptions
+            chooseDate={[Function]}
+            cohortType="Student"
+            dateRanges={Array []}
+          />
+          <ReportAdditionalSettings
+            optionChoose={[Function]}
+            optionDefault=""
+            optionLabels={Array []}
+            optionName="Additional Settings"
+            optionValues={Array []}
+          />
+          <ReportDescription
+            description="Please select a report."
+          />
+          <input
+            className="orange-button"
+            id="GenerateReport"
+            onClick={[Function]}
+            type="button"
+            value="Run Report"
+          />
+          <ReportDateModal
+            chooseDate={[Function]}
+            closeModal={[Function]}
+            isOpen={false}
+            runReport={[Function]}
+          />
+          <ReportLoadingModal
+            className="report-loading-modal"
+            isOpen={false}
+          />
+          <ErrorModal
+            errorMessage=""
+            isOpen={false}
+            onClick={[Function]}
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

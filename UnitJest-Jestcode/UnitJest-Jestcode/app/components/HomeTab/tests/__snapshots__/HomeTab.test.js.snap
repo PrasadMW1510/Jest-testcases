@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeTab /> Expect to render correctly 1`] = `
+<NavLink
+  activeClassName="home-tab--active"
+  ariaCurrent="true"
+  className="home-tab"
+  exact={true}
+  to="/"
+>
+  <div
+    className="home-tab__title"
+  >
+    <span
+      className="home-tab-title__tabtxt"
+    >
+      Home
+    </span>
+  </div>
+</NavLink>
+`;

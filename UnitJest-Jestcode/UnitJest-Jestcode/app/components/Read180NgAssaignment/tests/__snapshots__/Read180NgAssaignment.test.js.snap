@@ -1,0 +1,637 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180NgAssaignment /> Expect to render component 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180na"
+    isOpen={true}
+    modalClassModifier="modal-read180ngassaignment-modal"
+  >
+    <div
+      className="print-read180ngassaignment-modal-list--wrapper"
+    >
+      <div
+        className="print-read180ngassaignment-modal-list--purple"
+      >
+        <div
+          className="print-read180ngassaignment-modal__heading"
+        >
+          <span>
+            class
+          </span>
+        </div>
+        <div>
+          <button
+            className="print-read180ngassaignment-modal__button-close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-title"
+      >
+        <div>
+          <span>
+            class.
+          </span>
+          <span
+            className="print-read180ngassaignment-modal-title-span"
+          >
+             
+            Assignment Type:
+             
+            <select
+              className="print-read180ngassaignment-modal-select"
+              name="assignmentType"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value="quickwrites"
+              >
+                Quick Writes
+              </option>
+              <option
+                value="Final Project"
+              >
+                Final Project
+              </option>
+              <option
+                value="Participation"
+              >
+                Participation
+              </option>
+              <option
+                value="Evidence Based Writing"
+              >
+                Evidence Based Writing
+              </option>
+              <option
+                value="Vocabulary Test"
+              >
+                Vocabulary Test
+              </option>
+              <option
+                value="Workshop Wrap-Up"
+              >
+                Workshop Wrap-Up
+              </option>
+              <option
+                value="others"
+              >
+                Other
+              </option>
+            </select>
+            <span
+              className="ngassignment-asstype-passage-text-error"
+            />
+          </span>
+          <span
+            className="print-read180ngassaignment-modal-title-span"
+          >
+             
+            Assignment Name
+             
+            <input
+              className="print-read180ngassaignment-modal-input-textbox"
+              name="assName"
+              onChange={[Function]}
+              type="textbox"
+              value=""
+            />
+            <br />
+            <span
+              className="ngassignment-name-passage-text-error"
+            />
+          </span>
+           
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-description-box"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Description:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-description-textarea"
+        >
+          <textarea
+            className="print-read180ngassaignment-modal-description-textarea-text"
+            cols="75"
+            name="desc"
+            onChange={[Function]}
+            rows="3"
+            value=""
+          />
+          <div
+            className="print-read180ngassaignment-modal-description-inbox"
+          >
+             
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-due-date"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Due Date:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-due-date-textarea"
+        >
+          <div
+            className="print-read180ngassaignment-modal-due-date-inbox"
+          >
+            <p
+              className="print-read180ngassaignment-modal-due-date-content1"
+            >
+               
+              Input a due date for the assignment or select a date from the calendar:
+               
+            </p>
+            <input
+              className="print-read180ngassaignment-modal-due-date-input"
+              name="dateValue"
+              onChange={[Function]}
+              type="date"
+              value=""
+            />
+            <br />
+            <span
+              className="ngassignment-date-passage-text-error"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-assignment-roster-box"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Assignment Roster:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-assignment-roster-textarea1"
+        >
+          <div
+            className="print-read180ngassaignment-modal-assignment-roster-div-headers11"
+          >
+            <div
+              className="print-read180ngassaignment-modal-assignment-roster-div-details"
+            >
+              Select students that will complete the assessment. If you would like to enter grades, enter percentages in the percentage fields below. You may also calculate grades by entering the student's score and the total points possible and clicking the equal button.
+            </div>
+            Students
+             
+            <span
+              className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-grades"
+            >
+              Grades
+            </span>
+             
+            <span
+              className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-comments"
+            >
+              Comments
+            </span>
+          </div>
+          <div
+            className="print-read180ngassaignment-modal-assignment-wrapper1"
+          >
+            <div>
+              <input
+                checked={false}
+                name="selected"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Select All
+            </div>
+            <div>
+              <div
+                key="0"
+              >
+                <input
+                  checked={false}
+                  name="selected"
+                  onChange={[Function]}
+                  type="checkbox"
+                  value={0}
+                />
+                lastname, 
+                firstname
+                <span
+                  className="print-read180ngassaignment-modal-assignment-wrapper1"
+                >
+                  <input
+                    className="print-read180ngassaignment-modal-assignment-textbox1"
+                    disabled={true}
+                    name="score"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <span>
+                    /
+                  </span>
+                  <input
+                    className="print-read180ngassaignment-modal-assignment-textbox2"
+                    disabled={true}
+                    name="total"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    className="print-read180ngass-modal-button-equals-gray"
+                    onClick={[Function]}
+                  >
+                    =
+                  </button>
+                  <input
+                    className="print-read180ngassaignment-modal-assignment-textbox3"
+                    disabled={true}
+                    name="average"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <span>
+                    %
+                  </span>
+                </span>
+                <input
+                  className="print-read180ngassaignment-modal-assignment-textbox-comment"
+                  disabled={true}
+                  name="comment"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-buttons"
+      >
+        <div
+          className="print-read180ngassaignment-modal__buttons-firstset"
+        >
+          <button
+            className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-read180ngassaignment-modal__buttons-secondset"
+        >
+          <button
+            className="print-read180ngassaignment-modal-button-second-set print-read180ngassaignment-modal-button-delete"
+          >
+            Delete
+          </button>
+          <button
+            className="print-read180ngass-modal-button-second-set print-read180ng-modal-button-save"
+            disabled={true}
+            onClick={[Function]}
+          >
+             
+            Save
+             
+          </button>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-success"
+  >
+    <div>
+      <div
+        className="portfolio-conf-success-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-conf-success-txt"
+      >
+        Assignment Created.
+      </div>
+      <div
+        className="portfolio-conf-success-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Read180NgAssaignment /> Expect to render component 2`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="r180na"
+    isOpen={true}
+    modalClassModifier="modal-read180ngassaignment-modal"
+  >
+    <div
+      className="print-read180ngassaignment-modal-list--wrapper"
+    >
+      <div
+        className="print-read180ngassaignment-modal-list--purple"
+      >
+        <div
+          className="print-read180ngassaignment-modal__heading"
+        />
+        <div>
+          <button
+            className="print-read180ngassaignment-modal__button-close"
+            onClick={[Function]}
+          >
+             
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-title"
+      />
+      <div
+        className="print-read180ngassaignment-modal-description-box"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Description:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-description-textarea"
+        >
+          <textarea
+            className="print-read180ngassaignment-modal-description-textarea-text"
+            cols="75"
+            name="desc"
+            onChange={[Function]}
+            rows="3"
+            value=""
+          />
+          <div
+            className="print-read180ngassaignment-modal-description-inbox"
+          >
+             
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-due-date"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Due Date:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-due-date-textarea"
+        >
+          <div
+            className="print-read180ngassaignment-modal-due-date-inbox"
+          >
+            <p
+              className="print-read180ngassaignment-modal-due-date-content1"
+            >
+               
+              Input a due date for the assignment or select a date from the calendar:
+               
+            </p>
+            <input
+              className="print-read180ngassaignment-modal-due-date-input"
+              name="dateValue"
+              onChange={[Function]}
+              type="date"
+              value=""
+            />
+            <br />
+            <span
+              className="ngassignment-date-passage-text-error"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-modal-assignment-roster-box"
+      >
+        <div
+          className="print-read180ngassaignment-modal-description-title"
+        >
+          Assignment Roster:
+        </div>
+        <div
+          className="print-read180ngassaignment-modal-assignment-roster-textarea1"
+        >
+          <div
+            className="print-read180ngassaignment-modal-assignment-roster-div-headers11"
+          >
+            <div
+              className="print-read180ngassaignment-modal-assignment-roster-div-details"
+            >
+              Select students that will complete the assessment. If you would like to enter grades, enter percentages in the percentage fields below. You may also calculate grades by entering the student's score and the total points possible and clicking the equal button.
+            </div>
+            Students
+             
+            <span
+              className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-grades"
+            >
+              Grades
+            </span>
+             
+            <span
+              className="print-read180ngassaignment-modal-assignment-span print-read180ngassaignment-modal-assignment-roster-comments"
+            >
+              Comments
+            </span>
+          </div>
+          <div
+            className="print-read180ngassaignment-modal-assignment-wrapper1"
+          >
+            <div>
+              <input
+                checked={false}
+                name="selected"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              Select All
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-read180ngassaignment-buttons"
+      >
+        <div
+          className="print-read180ngassaignment-modal__buttons-firstset"
+        >
+          <button
+            className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-read180ngassaignment-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-read180ngassaignment-modal__buttons-secondset"
+        >
+          <button
+            className="print-read180ngassaignment-modal-button-second-set print-read180ngassaignment-modal-button-delete"
+          >
+            Delete
+          </button>
+          <button
+            className="print-read180ngass-modal-button-second-set print-read180ng-modal-button-save"
+            disabled={true}
+            onClick={[Function]}
+          >
+             
+            Save
+             
+          </button>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+      </div>
+      <div
+        className="portfolio-conf-warning-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-success"
+  >
+    <div>
+      <div
+        className="portfolio-conf-success-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-conf-success-txt"
+      >
+        Assignment Created.
+      </div>
+      <div
+        className="portfolio-conf-success-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+          OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

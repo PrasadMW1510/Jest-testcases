@@ -1,0 +1,20 @@
+.reports-cohort-title {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+}
+
+.reports-cohort-title__text {
+  white-space: nowrap;
+  width: 810px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reports-cohort-title__text--body {
+  white-space: nowrap;
+  width: 710px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

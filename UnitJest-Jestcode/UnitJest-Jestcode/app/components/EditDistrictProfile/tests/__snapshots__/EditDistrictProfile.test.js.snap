@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditDistrictProfile /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel=" Modal"
+  isOpen={false}
+  modalClassModifier="modal--edit-district-profile"
+>
+  <div
+    className="edit-district-profile edit-district-profile--orange"
+  >
+    <h2
+      className="edit-district-profile__heading"
+    />
+    <div
+      className="edit-district-profile__intro"
+    >
+      Edit information about your account on the Profile, Contact, and Demographics tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="edit-district-profile__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-contact"
+          key="tab-contact"
+          onClick={[Function]}
+        >
+          Contact
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-demographics"
+          key="tab-demographics"
+          onClick={[Function]}
+        >
+          Demographics
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="edit-district-profile__body edit-district-profile__body--tab-profile"
+      >
+        <main
+          className="edit-district-profile__body-main"
+        >
+          <div
+            className="edit-district-profile__error-message"
+          />
+          <FormSection
+            headerText="Profile Information"
+            sectionClassModifier="edit-district-profile__form"
+            sectionStyle={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <DistrictProfile
+              applications={
+                Array [
+                  Object {
+                    "id": "CDX",
+                    "label": "Common Core Code X",
+                  },
+                  Object {
+                    "id": "DTM",
+                    "label": "Progress Space",
+                  },
+                  Object {
+                    "id": "DTM2",
+                    "label": "Do The Math",
+                  },
+                ]
+              }
+              timeZones={
+                Array [
+                  "Pacific (US & Canada",
+                  "Eastern (US & Canada)",
+                ]
+              }
+            />
+          </FormSection>
+          <FormSection
+            headerText="Contact Information"
+            sectionClassModifier="edit-district-profile__form"
+            sectionStyle={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <FormFieldFocuser
+              focusOnMount={false}
+              focusOnToggleTrue={false}
+            >
+              <DistrictContactInfo
+                stateOrZipHasErrors={false}
+              />
+            </FormFieldFocuser>
+          </FormSection>
+        </main>
+        <aside
+          className="edit-district-profile__body-aside"
+        >
+          <FormErrors
+            shouldShowErrors={false}
+            submitErrors={Object {}}
+            validationErrors={Object {}}
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;

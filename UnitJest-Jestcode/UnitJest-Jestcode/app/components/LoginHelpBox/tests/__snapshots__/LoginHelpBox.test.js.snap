@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginHelpBox /> Should match snapshot 1`] = `
+<p
+  className="login-help"
+>
+  Welcome to the Student Achievement Manager. If you do not have a Username or Password, contact your School Technical Administrator. Forgot your password? Click Password Hint.
+</p>
+`;

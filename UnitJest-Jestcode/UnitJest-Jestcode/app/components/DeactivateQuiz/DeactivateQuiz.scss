@@ -1,0 +1,79 @@
+.modal--deactivate-quiz {
+  height: 110px;
+  width: 250px;
+  margin-top: 46px;
+  padding: 0;
+}
+
+.print-deactivatequiz__confirmtext {
+  width: 78%;
+  margin: 18px auto;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.print-deactivate-quiz__buttons {
+  margin: 0 0 0 20px;
+  display: flex;
+}
+
+.print-deactivate-quiz__primary-button {
+  float: left;
+  margin: 0 25px 0 0;  
+}
+
+.print-custom-quiz__layout {
+  background-color: #f99a59;
+  font-size: 11px;
+}
+
+.print-custom-quiz__layouttext {
+  margin-left: 5px;
+  font-size: 11px;
+}
+
+.print-custom-quiz__boder {
+  border-top: 1px solid #f99a59;
+  width: 100%;
+}
+
+.print-deactivate-quiz__primary-button 
+.btn ,
+.print-deactivate-quiz__primary-button 
+.btn--primary {
+  width: 90px;
+  height: 25px;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+.print-deactivate-quiz__secondary-button 
+.btn ,
+.print-deactivate-quiz__secondary-button
+.btn--secondary {
+  width: 90px;
+  height: 25px;
+  min-width: 92px;
+  cursor: pointer;
+};
+
+.print-deactivate-quiz__secondary-button
+.btn--secondary:hover {
+  border: 1px solid #000;
+}
+
+.print-deactivate-quiz__primary-button 
+.btn--primary:hover {
+  border: 1px solid #000;
+}
+
+
+.print-deactivate-quiz__secondary-button
+.btn--secondary:focus {
+  outline: 0;
+}
+
+.print-deactivate-quiz__primary-button 
+.btn--primary:focus {
+  outline: 0;
+}

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180RespondWriteContainer /> Expect to render correctly 1`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 1`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 2`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 3`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 4`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 5`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;
+
+exports[`<Read180RespondWriteContainer /> Expect to render dispatchAction correctly 6`] = `
+<div>
+  <RespondWrite
+    data={Object {}}
+    dispatchAction={[Function]}
+    hideCancel={[Function]}
+    isOpen={true}
+    saveRespondData={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PISettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Class enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Phonics Inventory"
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPI
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      spanish_support: Immutable.List [
+        "0",
+      ],
+      requires_accommodation: Immutable.List [
+        "0",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PISettings /> selectedCohType is District enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is District enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Grade enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Grade"
+  productName="Phonics Inventory"
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPI
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      spanish_support: Immutable.List [
+        "0",
+      ],
+      requires_accommodation: Immutable.List [
+        "0",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PISettings /> selectedCohType is Group enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Phonics Inventory"
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPI
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      spanish_support: Immutable.List [
+        "0",
+      ],
+      requires_accommodation: Immutable.List [
+        "0",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PISettings /> selectedCohType is School enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is School enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="To change Phonics Inventory settings, please select a grade, teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Student enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Phonics Inventory"
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPI
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      spanish_support: Immutable.List [
+        "0",
+      ],
+      requires_accommodation: Immutable.List [
+        "0",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PISettings /> selectedCohType is Teacher enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Phonics Inventory"
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPI
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      spanish_support: Immutable.List [
+        "0",
+      ],
+      requires_accommodation: Immutable.List [
+        "0",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<PISettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;

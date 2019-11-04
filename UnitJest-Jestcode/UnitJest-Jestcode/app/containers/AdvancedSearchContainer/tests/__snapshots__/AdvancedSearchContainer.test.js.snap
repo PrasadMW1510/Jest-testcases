@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdvancedSearchContainer /> render Expect to render correctly 1`] = `
+<AdvancedSearch
+  clearSearchOptions={[Function]}
+  clearSearchTerm={[Function]}
+  messageModal={[Function]}
+  onDisplayTeachers={[Function]}
+  onSearch={[Function]}
+  searchFilters={[Function]}
+/>
+`;
+
+exports[`<AdvancedSearchContainer /> render Expect to render correctly 2`] = `
+<AdvancedSearch
+  clearSearchOptions={[Function]}
+  clearSearchTerm={[Function]}
+  messageModal={[Function]}
+  onDisplayTeachers={[Function]}
+  onSearch={[Function]}
+  searchFilters={[Function]}
+/>
+`;

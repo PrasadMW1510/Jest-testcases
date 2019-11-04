@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditDistrictProfileContainer actions should getTimeZonesRequest 1`] = `
+Object {
+  "profile": undefined,
+  "type": "app/EditDistrictProfileContainer/GET_TIME_ZONES_REQUEST",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should getTimeZonesRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/EditDistrictProfileContainer/GET_TIME_ZONES_REQUEST_FAILURE",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should getTimeZonesRequestSuccess 1`] = `
+Object {
+  "timeZones": Array [
+    "US Pacific",
+  ],
+  "type": "app/EditDistrictProfileContainer/GET_TIME_ZONES_REQUEST_SUCCESS",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should updateCustomDemographics 1`] = `
+Object {
+  "demographics": Array [
+    "my demographic",
+  ],
+  "type": "app/EditDistrictProfileContainer/UPDATE_CUSTOM_DEMOGRAPHICS",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should updateDistrictProfileFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/EditDistrictProfileContainer/UPDATE_DISTRICT_PROFILE_FAILURE",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should updateDistrictProfileRequest 1`] = `
+Object {
+  "profileData": undefined,
+  "type": "app/EditDistrictProfileContainer/UPDATE_DISTRICT_PROFILE_REQUEST",
+}
+`;
+
+exports[`EditDistrictProfileContainer actions should updateDistrictProfileSuccess 1`] = `
+Object {
+  "timeZones": undefined,
+  "type": "app/EditDistrictProfileContainer/UPDATE_DISTRICT_PROFILE_SUCCESS",
+}
+`;

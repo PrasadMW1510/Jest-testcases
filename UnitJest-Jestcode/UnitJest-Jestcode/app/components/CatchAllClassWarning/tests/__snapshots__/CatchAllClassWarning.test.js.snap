@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CatchAllClassWarning  /> should render  1`] = `
+<div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={true}
+    modalClassModifier="portfolio-assignment-success"
+  >
+    <div>
+      <div
+        className="portfolio-assignment-success-heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-assignment-success-txt"
+      >
+        Assignment Created.
+      </div>
+      <div
+        className="portfolio-assignment-success-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+           
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={true}
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf-warning-heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf-warning-txt"
+      >
+        You have unsaved changes. Do you want to leave the screen without saving them?- cancel
+      </div>
+      <div
+        className="portfolio-conf-warning-btn portfolio-conf-warning-popup-btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          Yes
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

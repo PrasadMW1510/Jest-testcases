@@ -1,0 +1,343 @@
+.student-form__navbar-bg {
+  background-color: #fff7d7;
+  display: flex;
+}
+
+.student-form__navbar {
+  left: -2px;
+
+  .nav-bar__text {
+    font-size: 14px;
+  }
+}
+
+.student-form__heading {
+  font-size: 16px;
+  margin: 0;
+  padding: 3px 11px;
+}
+
+.student-form__intro {
+  font-size: 11px;
+  line-height: 12px;
+  margin: 0;
+  padding: 7px 100px 8px 20px;
+}
+
+.student-form__input-class {
+  background-color: #ffd400;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.student-form__input-group {
+  font-size: 11px;
+  min-height: 24px;
+}
+
+.student-form__body {
+  display: flex;
+  padding: 8px;
+
+  .student-form__body-main {
+    flex: 0 1 auto; // Only expand width of modal, even if it has overflow
+    width: 100%;
+  }
+
+  .student-form__body-aside {
+    display: flex;
+    flex: 0 1 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+  }
+}
+
+.student-form__identity {
+  .form-section__callout-body {
+    height: 330px;
+  }
+}
+
+.student-form__form-profile {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.student-form__sections {
+  display: flex;
+}
+
+.student-form__field-wrap {
+  position: relative;
+}
+
+.student-form__help-icon {
+  position: absolute;
+  right: -24px;
+  top: -4px;
+}
+
+.student-form__dob-label {
+  font-size: 11px;
+  position: absolute;
+  right: -8px;
+  top: 2px;
+}
+
+.student-form__form-guardian {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
+  .student-form__callout-body {
+    padding: 6px 69px 7px 0;
+  }
+
+  .form-control {
+    margin-bottom: 9px;
+  }
+
+  .form-control:last-child {
+    margin-bottom: 0;
+  }
+
+  .form-control__label {
+    flex: 1 0 220px;
+    font-weight: 400;
+  }
+}
+
+.student-form__callout {
+  border: 1px #000 solid;
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+.student-form__callout-ayp {
+  height: 122px;
+}
+
+.student-form__callout-gender {
+  height: 66px;
+}
+
+.student-form__callout-ethnicity {
+  height: 148px;
+}
+
+.student-form__callout-identify-student {
+  flex: 1 0 264px;
+  border-right-style: none;
+
+  .student-form__callout-body {
+    padding-right: 44px;
+  }
+}
+
+.student-form__callout--orange {
+  background-color: #fff7d7;
+
+  .student-form__callout-heading {
+    background-color: #ffd400;
+    font-size: 11px;
+    line-height: 21px;
+  }
+
+  .student-form__callout-heading--dark {
+    background-color: #ffb200;
+  }
+}
+
+.student-form__callout-body {
+  background-color: #ffef9e;
+  height: 100%;
+  padding: 3px 36px 7px 8px;
+
+  &.student-form__callout-body--no-padding {
+    padding: 0;
+  }
+}
+
+.student-form__class-groups {
+  width: 220px;
+
+  .form-section__callout {
+    border-left-style: none;
+  }
+
+  .form-section__callout-body {
+    height: 330px;
+    padding: 0;
+  }
+
+  &.student-form__class-groups--error .form-section__callout-heading {
+    color: #f00;
+  }
+}
+
+.student-form__class-groups-empty {
+  font-size: 11px;
+  line-height: 12px;
+  padding: 2px;
+}
+
+.student-form__input-class {
+  line-height: 22px;
+  padding-left: 4px;
+
+  .student-form__input {
+    margin-right: 4px;
+  }
+}
+
+.student-form__input-group {
+  line-height: 22px;
+  padding-left: 12px;
+
+  .student-form__input {
+    margin-right: 2px;
+  }
+}
+
+.student-form__checkbox {
+  align-items: center;
+  display: flex;
+} 
+
+.student-form__form-profile {
+  .student-form__checkbox {
+    background-color: #ffd400;
+    font-weight: 700;
+    margin: 0;
+    min-height: 22px;
+    padding: 0 8px;
+  }  
+}
+
+.student-form__callout-ayp,
+.student-form__callout-gender,
+.student-form__callout-ethnicity {
+  .student-form__callout-body {
+    padding-top: 2px;
+  }
+
+  .student-form__checkbox {
+    margin-bottom: 4px;
+    margin-left: 6px;
+  }
+}
+
+.student-form__checkbox-group {
+  align-items: center;
+  margin-left: 8px;
+  min-height: 22px;
+}
+
+.student-form__callout-heading {
+  line-height: 28px;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.student-form__callout-body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.student-form__error-message {
+  align-items: flex-end;
+  color: #f00;
+  display: flex;
+  font-size: 11px;
+  height: 18px;
+}
+
+.student-form__error-validation {
+  color: #f00;
+  font-size: 10px;
+  line-height: 11px;
+  margin-right: 16px;
+  margin-top: 40px;
+}
+
+.form-group {
+  margin-top: 3px;
+}
+
+.student-form .form-group {
+  margin-top: 3px;
+}
+
+.student-form--orange {
+  background-color: #fff;
+
+  .student-form__heading {
+    background-color: #ffd400;
+  }
+
+  .student-form__intro {
+    background-color: #fff7d7;
+  }
+
+  .student-form__body--tab-student-roster .student-form__intro {
+    background-color: #fff;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+}
+
+.student-form__form {
+  border-bottom: 1px #000 solid;
+  height: 360px;
+
+  &.student-form__form-demographics {
+    border: 1px #000 solid;
+  }
+
+  &.student-form__form-guardian {
+    border: 1px #000 solid;
+  }
+
+  &.student-form__form-guardian .student-form__callout {
+    border-style: none;
+  }
+}
+
+.student-form__form-identity .form-control__form-group--row {
+  .form-control__checkbox {
+    flex: 1 0 32%;
+  }
+}
+
+.form-control--disable {
+  .form-control__input {
+    opacity: 0.4;
+  }
+}
+
+.form-control--sm {
+  .form-control__input,
+  .form-control__dropdown {
+    margin-right: 80px;
+  }
+}
+
+.form-control__label-required {
+  color: #000;
+}
+
+.field__label--multiline {
+  font-size: 10px;
+  line-height: 11px;
+  margin-top: -3px;
+}
+
+.modal--student-form {
+  height: 500px;
+  overflow: hidden;
+  padding: 0;
+  width: 652px;
+}

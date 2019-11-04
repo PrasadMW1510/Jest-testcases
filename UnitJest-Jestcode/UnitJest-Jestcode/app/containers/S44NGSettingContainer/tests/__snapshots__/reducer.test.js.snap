@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`s44NGSettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: false,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should handle s44NGSettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  settings: "mockSettings",
+  loading: false,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle gradeSelectionSuccess action 2`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle s44NGSettingsContainerRequest action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;
+
+exports[`s44NGSettingContainerReducer should set loading to true should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  settings: Immutable.Map {
+  },
+  loading: true,
+}
+`;

@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEditTeacher /> AddEditTeacher is adding Expect to render correctly 1`] = `
+<ReduxForm
+  addEditTeacherRequest={[Function]}
+  associatedClasses={Array []}
+  data={
+    Object {
+      "editMode": false,
+    }
+  }
+  editMode={false}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      user_type: "Teacher",
+      classes: Immutable.Map {
+      },
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsChecked={
+    Array [
+      110,
+      100,
+      210,
+      200,
+      310,
+      300,
+      620,
+      630,
+      640,
+      820,
+      825,
+      830,
+      850,
+      1000,
+      1500,
+      1550,
+      1600,
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddTeacherRequest={[Function]}
+  postSaveTeacherMIARequest={[Function]}
+  postSaveTeacherRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      classes: Immutable.List [
+        Immutable.Map {
+          class: Immutable.List [
+            Immutable.Map {
+              class_id: Immutable.List [
+                1,
+              ],
+              name: Immutable.List [
+                "mockClass1",
+              ],
+            },
+            Immutable.Map {
+              class_id: Immutable.List [
+                2,
+              ],
+              name: Immutable.List [
+                "mockClass2",
+              ],
+            },
+          ],
+        },
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  schoolsAndClasses={
+    Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+            1,
+          ],
+          school_name: Immutable.List [
+            "mockSchool1",
+          ],
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    1,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass1",
+                  ],
+                },
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    2,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass2",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        Immutable.Map {
+          school_id: Immutable.List [
+            2,
+          ],
+          school_name: Immutable.List [
+            "mockSchool2",
+          ],
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    3,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass3",
+                  ],
+                },
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    4,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass4",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    }
+  }
+  schoolsAndClassesData={Object {}}
+  showEditAdminModalWarning={[Function]}
+  userOrg="District"
+/>
+`;
+
+exports[`<AddEditTeacher /> AddEditTeacher is adding Expect to render correctly 2`] = `
+Immutable.Map {
+  user_type: "Teacher",
+  classes: Immutable.Map {
+  },
+}
+`;
+
+exports[`<AddEditTeacher /> Expect to render correctly 1`] = `
+<ReduxForm
+  addEditTeacherRequest={[Function]}
+  associatedClasses={Array []}
+  data={
+    Object {
+      "editMode": true,
+    }
+  }
+  editMode={true}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  hideModal={[Function]}
+  initialValues={
+    Immutable.Map {
+      sps_id: "mock_sps_id",
+      classes: Immutable.Map {
+        1: true,
+        2: true,
+      },
+      password_hint: "mock_password_hint",
+      user_type: "mock_user_type",
+      suffix: "mock_suffix",
+      prefix: "mock_prefix",
+      last_name: "mock_last_name",
+      title: "mock_title",
+      first_name: "mock_first_name",
+      password: "mock_password",
+      password_confirm: "mock_password",
+      email: "mock_email",
+      district_user_id: "mock_district_user_id",
+      user_name: "mock_user_name",
+    }
+  }
+  isOpen={true}
+  passwordConfigs={
+    Immutable.Map {
+      configs: Immutable.List [
+      ],
+    }
+  }
+  passwordConfigsArray={Array []}
+  permissions={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  permissionsChecked={
+    Array [
+      110,
+      100,
+      210,
+      200,
+      310,
+      300,
+      620,
+      630,
+      640,
+      820,
+      825,
+      830,
+      850,
+      1000,
+      1500,
+      1550,
+      1600,
+    ]
+  }
+  permissionsData={
+    Immutable.List [
+      Immutable.Map {
+        name: Immutable.List [
+          "View OwnProfile",
+        ],
+        id: Immutable.List [
+          "100",
+        ],
+      },
+    ]
+  }
+  postAddTeacherRequest={[Function]}
+  postSaveTeacherMIARequest={[Function]}
+  postSaveTeacherRequest={[Function]}
+  profileData={
+    Immutable.Map {
+      sps_id: Immutable.List [
+        "mock_sps_id",
+      ],
+      classes: Immutable.List [
+        Immutable.Map {
+          class: Immutable.List [
+            Immutable.Map {
+              class_id: Immutable.List [
+                1,
+              ],
+              name: Immutable.List [
+                "mockClass1",
+              ],
+            },
+            Immutable.Map {
+              class_id: Immutable.List [
+                2,
+              ],
+              name: Immutable.List [
+                "mockClass2",
+              ],
+            },
+          ],
+        },
+      ],
+      password_hint: Immutable.List [
+        "mock_password_hint",
+      ],
+      user_type: Immutable.List [
+        "mock_user_type",
+      ],
+      suffix: Immutable.List [
+        "mock_suffix",
+      ],
+      prefix: Immutable.List [
+        "mock_prefix",
+      ],
+      last_name: Immutable.List [
+        "mock_last_name",
+      ],
+      title: Immutable.List [
+        "mock_title",
+      ],
+      first_name: Immutable.List [
+        "mock_first_name",
+      ],
+      password: Immutable.List [
+        "mock_password",
+      ],
+      email: Immutable.List [
+        "mock_email",
+      ],
+      district_user_id: Immutable.List [
+        "mock_district_user_id",
+      ],
+      user_name: Immutable.List [
+        "mock_user_name",
+      ],
+    }
+  }
+  schoolsAndClasses={
+    Immutable.Map {
+      school: Immutable.List [
+        Immutable.Map {
+          school_id: Immutable.List [
+            1,
+          ],
+          school_name: Immutable.List [
+            "mockSchool1",
+          ],
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    1,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass1",
+                  ],
+                },
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    2,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass2",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        Immutable.Map {
+          school_id: Immutable.List [
+            2,
+          ],
+          school_name: Immutable.List [
+            "mockSchool2",
+          ],
+          classes: Immutable.List [
+            Immutable.Map {
+              class: Immutable.List [
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    3,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass3",
+                  ],
+                },
+                Immutable.Map {
+                  class_id: Immutable.List [
+                    4,
+                  ],
+                  class_name: Immutable.List [
+                    "mockClass4",
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    }
+  }
+  schoolsAndClassesData={
+    Object {
+      "school": Array [
+        Object {
+          "classes": Array [
+            Object {
+              "class": Array [
+                Object {
+                  "class_id": Array [
+                    1,
+                  ],
+                  "class_name": Array [
+                    "mockClass1",
+                  ],
+                },
+                Object {
+                  "class_id": Array [
+                    2,
+                  ],
+                  "class_name": Array [
+                    "mockClass2",
+                  ],
+                },
+              ],
+            },
+          ],
+          "school_id": Array [
+            1,
+          ],
+          "school_name": Array [
+            "mockSchool1",
+          ],
+        },
+        Object {
+          "classes": Array [
+            Object {
+              "class": Array [
+                Object {
+                  "class_id": Array [
+                    3,
+                  ],
+                  "class_name": Array [
+                    "mockClass3",
+                  ],
+                },
+                Object {
+                  "class_id": Array [
+                    4,
+                  ],
+                  "class_name": Array [
+                    "mockClass4",
+                  ],
+                },
+              ],
+            },
+          ],
+          "school_id": Array [
+            2,
+          ],
+          "school_name": Array [
+            "mockSchool2",
+          ],
+        },
+      ],
+    }
+  }
+  showEditAdminModalWarning={[Function]}
+/>
+`;

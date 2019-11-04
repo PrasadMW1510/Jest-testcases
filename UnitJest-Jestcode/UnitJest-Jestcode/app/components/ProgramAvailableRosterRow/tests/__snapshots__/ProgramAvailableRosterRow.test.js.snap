@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramAvailableRosterRow /> rowData message type is Unknown Should render correctly 1`] = `""`;
+
+exports[`<ProgramAvailableRosterRow /> rowData message type is not Unknown Should render correctly 1`] = `
+<tr
+  className="programs-body-table__tr"
+  key="SRI"
+>
+  <td
+    className="programs-body-table__list"
+  >
+    <img
+      alt="The Reading Inventory"
+      className="programs-body-table__image"
+      height="10"
+      src="/c212d716ed7c102f439b6e66b719c2b1.png"
+      width="10"
+    />
+    The Reading Inventory
+  </td>
+  <td
+    className="programs-body-table__settings"
+  >
+    <Link
+      className="programs-body-table__link"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/programSettings"
+    >
+      Settings
+    </Link>
+  </td>
+  <td
+    className="programs-body-table__grading"
+  >
+    <Link
+      className="programs-body-table__link"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/programGrading"
+    >
+      Grading Tools
+    </Link>
+  </td>
+  <td
+    className="programs-body-table__portfolio"
+  >
+    <Link
+      className="programs-body-table__link"
+      replace={false}
+      to="/"
+    />
+  </td>
+  <td
+    className="programs-body-table__certificates"
+  >
+    <Link
+      className="programs-body-table__link"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/programCertificate"
+    />
+  </td>
+</tr>
+`;

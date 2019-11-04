@@ -1,0 +1,1795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageStudentsTeachers /> Expect to render correctly when StudentEnrollment tab clicked 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    activeItemId="student-enrollment"
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <withReducer(withSaga(Connect(StudentEnrollmentTableContainer)))
+        handleTabIsolate={[Function]}
+        handleTabReset={[Function]}
+        isolateTab={false}
+      />
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ManageStudentsTeachers /> Expect to render correctly when StudentLicensing tab clicked 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    activeItemId="student-licensing"
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<TeacherLicensing /> Expect to render correctly when TeacherAccess tab clicked 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    activeItemId="teacher-access"
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      <withReducer(withSaga(Connect(TeacherAccessTableContainer)))
+        handleTabIsolate={[Function]}
+        handleTabReset={[Function]}
+        isolateTab={false}
+      />
+    </section>
+  </div>
+</div>
+`;
+
+exports[`<TeacherLicensing /> Expect to render correctly when TeacherLicensing tab clicked 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    activeItemId="teacher-licensing"
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.Class 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.Grade 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.Group 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.School 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.Student 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.District cohortType === COHORT_TYPE.Teacher 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.School cohortType === COHORT_TYPE.Class 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.School cohortType === COHORT_TYPE.Grade 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.School cohortType === COHORT_TYPE.Group 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.School cohortType === COHORT_TYPE.Student 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.School cohortType === COHORT_TYPE.Teacher 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  >
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-licensing"
+      key="student-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentLicenses"
+      >
+        Student Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="student-enrollment"
+      key="student-enrollment"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageStudentEnrollment"
+      >
+        Student Enrollment
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-licensing"
+      key="teacher-licensing"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherLicenses"
+      >
+        Teacher Licensing
+      </Link>
+    </NavItem>
+    <NavItem
+      active={false}
+      className=""
+      component="button"
+      hasErrors={false}
+      id="teacher-access"
+      key="teacher-access"
+      onClick={[Function]}
+    >
+      <Link
+        replace={false}
+        to="/roster/manageTeacherAccess"
+      >
+        Teacher Access
+      </Link>
+    </NavItem>
+  </NavBar>
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.Teacher cohortType === COHORT_TYPE.Class 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  />
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.Teacher cohortType === COHORT_TYPE.Group 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  />
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.Teacher cohortType === COHORT_TYPE.School 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  />
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`orgType === USER_ORG.Teacher cohortType === COHORT_TYPE.Student 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white"
+>
+  <NavBar
+    className="manage-students-teachers__nav-bar "
+    inset={false}
+    palette="orange"
+    theme="tabs"
+  />
+  <div
+    className="manage-students-teachers__panel"
+  >
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Student Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      This is the Teacher Licensing section.
+    </section>
+    <section
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+  </div>
+</div>
+`;

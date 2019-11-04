@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes should handle transition to home tab 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  usageSummary: Immutable.List [
+  ],
+}
+`;
+
+exports[`Routes should handle transition to none-home tab 1`] = `
+Immutable.Map {
+  error: false,
+  usageSummary: Immutable.List [
+    Immutable.Map {
+      name: Immutable.List [
+        "CA S44 Stage A Standalone",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`usageSummaryReducer should handle usage summary request action 1`] = `
+Immutable.Map {
+  error: false,
+  loading: true,
+  usageSummary: Immutable.List [
+  ],
+}
+`;
+
+exports[`usageSummaryReducer should handle usage summary request failure actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  usageSummary: Immutable.List [
+  ],
+}
+`;
+
+exports[`usageSummaryReducer should handle usage summary request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  loading: false,
+  usageSummary: Immutable.Map {
+  },
+}
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageAdminAcccountsContainer actions should getAdminRequest 1`] = `
+Object {
+  "type": "app/ManageAdminAccountsContainer/GET_ADMIN_REQUEST",
+  "userId": undefined,
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should getAdminRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/ManageAdminAccountsContainer/GET_ADMIN_REQUEST_FAILURE",
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should getAdminRequestSuccess 1`] = `
+Object {
+  "admin": Object {
+    "name": "test",
+  },
+  "type": "app/ManageAdminAccountsContainer/GET_ADMIN_REQUEST_SUCCESS",
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should getAdminsRequest 1`] = `
+Object {
+  "type": "app/ManageAdminAccountsContainer/GET_ADMINS_REQUEST",
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should getAdminsRequestFailure 1`] = `
+Object {
+  "error": "err",
+  "type": "app/ManageAdminAccountsContainer/GET_ADMINS_REQUEST_FAILURE",
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should getAdminsRequestSuccess 1`] = `
+Object {
+  "admins": Array [
+    "test",
+  ],
+  "type": "app/ManageAdminAccountsContainer/GET_ADMINS_REQUEST_SUCCESS",
+}
+`;
+
+exports[`ManageAdminAcccountsContainer actions should resetAdminsList 1`] = `
+Object {
+  "type": "app/ManageAdminAccountsContainer/RESET_ADMINS_LIST",
+}
+`;

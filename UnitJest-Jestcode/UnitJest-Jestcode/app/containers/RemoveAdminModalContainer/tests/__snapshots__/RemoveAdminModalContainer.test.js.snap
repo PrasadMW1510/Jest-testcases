@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RemoveAdminModalContainer /> Expect to match snapshot 1`] = `
+<div>
+  <RemoveAdminModal
+    isOpen={true}
+    onNo={[Function]}
+    onYes={[Function]}
+  />
+  ;
+</div>
+`;

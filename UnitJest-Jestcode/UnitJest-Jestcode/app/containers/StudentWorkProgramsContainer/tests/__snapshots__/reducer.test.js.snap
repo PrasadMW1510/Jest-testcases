@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`studentWorkProgramsContainerReducer should handle DELETE_IREAD_STUDENT_WORK_SUCCESS 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: false,
+  showDeleteModal: false,
+}
+`;
+
+exports[`studentWorkProgramsContainerReducer should handle GET_IREAD_STUDENT_WORK_DATA 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: false,
+  showDeleteModal: false,
+}
+`;
+
+exports[`studentWorkProgramsContainerReducer should handle POST_IREAD_STUDENT_WORK_DATA 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: false,
+  showDeleteModal: false,
+}
+`;
+
+exports[`studentWorkProgramsContainerReducer should handle SAVE_IREAD_STUDENT_WORK_DATA_REQUEST_FAILURE 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: false,
+  showDeleteModal: false,
+}
+`;
+
+exports[`studentWorkProgramsContainerReducer should handle SAVE_IREAD_STUDENT_WORK_DATA_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: true,
+  showDeleteModal: false,
+}
+`;
+
+exports[`studentWorkProgramsContainerReducer should handle SHOW_DELETE_MODAL 1`] = `
+Immutable.Map {
+  iReadStudentWorkData: Immutable.List [
+  ],
+  openSaveSuccessModal: false,
+  showDeleteModal: true,
+}
+`;

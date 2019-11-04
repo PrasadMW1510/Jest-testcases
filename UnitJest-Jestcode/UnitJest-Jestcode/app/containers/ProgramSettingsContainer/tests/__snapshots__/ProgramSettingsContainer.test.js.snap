@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsContainer /> Expect to render correctly 1`] = `
+<ProgramSettingsView
+  enrollmentList={
+    Immutable.List [
+    ]
+  }
+  selectedProgram={
+    Object {
+      "display_image": "/d4d957e1b5fed309a10581d6df938d4c.png",
+      "display_name": "READ 180 Next Generation",
+      "settings": "Settings",
+    }
+  }
+/>
+`;

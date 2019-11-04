@@ -1,0 +1,159 @@
+.smi-settings-content-panel {
+  .program-settings__tab-content {
+    display: block;
+  }
+}
+
+.mi-setting__checkbox-input {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.mi-setting__select-box {
+  background-color: #fff;
+  margin-left: 5px;
+}
+
+.mi-setting__text-input {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 30px;
+}
+
+.mi-settings__settings-tab-content {
+  background-color: #ffe279;
+  border: 1px solid #000;
+  display: inline-block;
+  height: 350px;
+  width: 98%;
+  margin-left: 1%;
+  font-size: 11px;
+  margin-top: 1%;
+}
+
+.mi-settings__setting {
+  padding: 3px 3px 3px 8px;
+}
+
+.mi-setting__text-input {
+  background-color: #fff;
+}
+
+.mi-settings__buttons {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.mi-settings__settings-tab-content--overlay {
+  position: relative;
+  z-index: 300;
+}
+
+.mi-settings__test-settings {
+  float: left;
+  height: 35%;
+  width: 100%;
+}
+
+.mi-settings__test-experience-settings {
+  border-top: 1px solid #000;
+  float: left;
+  height: 35%;
+  width: 100%;
+}
+
+.mi-settings__reporting-settings {
+  border-top: 1px solid #000;
+  float: left;
+  height: 30%;
+  width: 100%;
+}
+
+.mi-settings__setting--varying {
+  color: #9a9a9a;
+}
+
+.mi-settings__instruction-text {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.mi-settings__grade-9-and-above-text {
+  font-size: 11px;
+  padding: 0 10px 10px;
+}
+
+.mi-settings__legend-text {
+  font-size: 11px;
+  padding: 0 0 3px 10px;
+}
+
+.mi-settings__brief {
+  padding: 3px 0 3px 10px;
+}
+
+.mi-settings__caption {
+  font-weight: bold;
+  vertical-align: top;
+  padding: 3px 0 0 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 25px;
+  display: inline-block;
+  margin-top: 0;
+  z-index: +1;
+}
+
+.mi-settings__radio-button-label {
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+.mi-settings__radio-button-label--large-margin {
+  padding-left: 5px;
+  padding-right: 50px;
+}
+
+.mi-settings__text-field {
+  margin-left: 15px;
+}
+
+.mi-settings__text-field-label {
+  padding-left: 15px;
+}
+
+.mi-settings__only-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.mi-settings__set-discard-test-modal {
+  height: 200px;
+}
+
+.mi-settings__set-math-level-modal {
+  height: 180px;
+}
+
+.mi-settings__advanced-settings-loading-container {
+  height: 438px;
+}
+
+// hierarchical selector override needed here, since the latter class is in a common component
+.mi-settings__set-discard-test-modal .ok-cancel-modal--message {
+  text-align: left;
+}
+
+// hierarchical selector override needed here, since the latter class is in a common component
+.mi-settings__set-math-level-modal .ok-cancel-modal--message {
+  text-align: left;
+}
+
+.smi-settings-content-panel .program-settings-buttons__button:first-child {
+  margin-left: 10px;
+}
+
+.smi-settings-content-panel .program-settings-buttons__button:last-child {
+  margin-right: 10px;
+}

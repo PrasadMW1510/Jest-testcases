@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequest err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "type": "app/LoadingController/SHOW_LOADING",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequest err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequest err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "err": "mock err",
+      "type": "app/PrintQuizAndAnswerKeyContainer/print_quiz_preview_failure",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "GetQuizWithQuestionsReq": Object {
+          "QuizID": "ttt",
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<PrintQuizReq><IncludeAnswerKey>true</IncludeAnswerKey><QuestionCount>30</QuestionCount><QuizID>ttt</QuizID></PrintQuizReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccesselse 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccesselse 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "GetQuizWithQuestionsReq": Object {
+          "QuizID": "ttt",
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`printQuizAndAnswerKeyRequest Saga printQuizAndAnswerKeyRequest printQuizAndAnswerKeyRequestsuccesselse 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "<PrintQuizReq><IncludeAnswerKey>true</IncludeAnswerKey><QuestionCount>20</QuestionCount><QuizID>ttt</QuizID></PrintQuizReq>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;

@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`profilePageReducer should handle Class by grade request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle Class by grade request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.Map {
+  },
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page for district admin request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page for district admin request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.Map {
+  },
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page for school admin request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page for school admin request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.Map {
+  },
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page request failure actions 2`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.Map {
+  },
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle profile page request success actions 2`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.Map {
+  },
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle student by grade request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle student by grade request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.Map {
+  },
+}
+`;
+
+exports[`profilePageReducer should handle teacher by grade  request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.List [
+  ],
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;
+
+exports[`profilePageReducer should handle teacher by grade  request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  profileDetails: Immutable.List [
+  ],
+  profileDetailsDistAdmin: Immutable.List [
+  ],
+  profileDetailsSchoolAdmin: Immutable.List [
+  ],
+  classDetails: Immutable.List [
+  ],
+  teacherByGradeDetails: Immutable.Map {
+  },
+  classByGradeDetails: Immutable.List [
+  ],
+  studentByGradeDetails: Immutable.List [
+  ],
+}
+`;

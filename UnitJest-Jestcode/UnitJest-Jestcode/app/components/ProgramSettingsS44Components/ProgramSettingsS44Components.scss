@@ -1,0 +1,66 @@
+.s44ng-settings__section {
+  float: left;
+  border: 1px solid #000;
+}
+
+.s44ng-settings__section--full-height {
+  height: 100%;
+}
+
+.s44ng-settings__section--half-height {
+  height: 50%;
+}
+
+.s44ng-settings__section--full-width {
+  width: 100%;
+}
+
+.s44ng-settings__section--half-width {
+  width: 50%;
+}
+
+.s44ng-settings__section-title {
+  font-weight: bold;
+  vertical-align: text-bottom;
+  padding-left: 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 32px;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 7px;
+  z-index: +1;
+}
+
+.s44ng-settings__section-content {
+  padding-left: 10px;
+}
+
+.s44ng-settings__initial-settings {
+  padding-bottom: 10px;
+}
+
+.s44ng-settings__radio {
+  padding-bottom: 5px;
+}
+
+.s44ng-settings__radio-text {
+  padding-left: 5px;
+}
+
+.s44ng-settings__select {
+  background-color: #fff;
+  border: 1px #000 solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 75px;
+}
+
+.s44ng-settings__select--disabled {
+  opacity: 0.5;
+}
+
+.s44ng-settings__has-started-working {
+  padding-bottom: 15px;
+  color: #f00;
+}

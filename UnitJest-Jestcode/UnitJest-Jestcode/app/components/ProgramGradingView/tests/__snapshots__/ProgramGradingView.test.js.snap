@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramGradingView /> expect to render SRCGradingToolsContainer Expect to render correctly 1`] = `
+<div>
+  <div
+    className="programgrading-header"
+  >
+    <span
+      className="programgrading-header__name"
+    >
+       
+       
+    </span>
+    <img
+      className="programgrading-header__image"
+    />
+    <LoadableComponent
+      enrollmentCount={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramGradingView /> props.selectedProgram is empty object Should render correctly 1`] = `
+<div>
+  <div
+    className="programgrading-header"
+  >
+    <span
+      className="programgrading-header__name"
+    >
+       
+       
+    </span>
+    <img
+      className="programgrading-header__image"
+    />
+    <ProgramSettingsNavBar
+      isolateTab={false}
+      overrideClassName=""
+      tabs={
+        Array [
+          Object {
+            "id": "tab-settings",
+            "label": "Settings",
+            "renderFunction": [Function],
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgramGradingView /> props.selectedProgram is not an empty object Should render correctly 1`] = `
+<div>
+  <div
+    className="programgrading-header"
+  >
+    <span
+      className="programgrading-header__name"
+    >
+       
+       
+    </span>
+    <img
+      className="programgrading-header__image"
+    />
+    <ProgramSettingsNavBar
+      isolateTab={false}
+      overrideClassName=""
+      tabs={
+        Array [
+          Object {
+            "id": "tab-settings",
+            "label": "Settings",
+            "renderFunction": [Function],
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

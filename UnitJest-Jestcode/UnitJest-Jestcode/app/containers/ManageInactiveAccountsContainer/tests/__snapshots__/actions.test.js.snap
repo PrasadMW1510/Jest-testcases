@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ManageInactiveAccountsContainer Actions Get inactive cohort members request should return the correct constant for getting inactive cohort members request 1`] = `
+Object {
+  "payload": Object {
+    "cohortType": "Student",
+    "sortColumn": "last_name",
+  },
+  "type": "ManageInactiveAccounts/get_inactive_cohort_members_request",
+}
+`;
+
+exports[`ManageInactiveAccountsContainer Actions Get inactive cohort members request should return the correct constant for getting inactive cohort members request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "ManageInactiveAccounts/get_inactive_cohort_members_request_failure",
+}
+`;
+
+exports[`ManageInactiveAccountsContainer Actions Get inactive cohort members request should return the correct constant for getting inactive cohort members request success 1`] = `
+Object {
+  "inactiveMembersResponse": Object {
+    "item_count": Array [
+      20,
+    ],
+    "output_data": Array [
+      "some output",
+    ],
+    "students": Array [
+      "some students",
+    ],
+  },
+  "type": "ManageInactiveAccounts/get_inactive_cohort_members_request_success",
+}
+`;

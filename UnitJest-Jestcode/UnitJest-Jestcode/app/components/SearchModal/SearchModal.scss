@@ -1,0 +1,170 @@
+.search-modal {
+  width: 980px;
+  height: 640px;
+  padding: 12px 10px 10px;
+  font-size: 12px;
+}
+
+.search-modal__search-for {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.search-modal__instruction {
+  margin-bottom: 10px;
+}
+
+.search-modal__instruction-text {
+  margin-right: 10px;
+}
+
+.search-modal__dropdowns {
+  min-height: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.search-modal__textinputs {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.search-modal__div-select,
+.search-modal__div-input {
+  margin-right: 10px;
+}
+
+.search-modal__radio {
+  margin-right: 4px;
+}
+
+.search-modal__radio-label {
+  margin-right: 30px;
+}
+
+.search-modal__radio-list {
+  list-style: none;
+  float: right;
+}
+
+.search-modal__radio-list-li {
+  display: inline-block;
+}
+
+.search-modal__select {
+  border: 1px solid #000;
+  border-radius: 0;
+  margin-left: 5px;
+  margin-right: 10px;
+  max-width: 185px;
+}
+
+.search-results__table-header-group {
+  width: 950px;
+  height: 410px;
+}
+
+.search-modal__results-count {
+  min-height: 18px;
+}
+
+.search-modal__class-assign-select {
+  border: 1px solid #000;
+  border-radius: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 185px;
+}
+
+.search-modal__input {
+  margin-left: 5px;
+  border: 1px solid #000;
+  max-width: 105px;
+}
+
+.search-modal__message {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.search-modal__close {
+  font-family: Arial;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #666;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  border-radius: 1px;
+  padding: 1px 0 0;
+}
+
+.search-modal__select-container {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.search-modal__select-button {
+  min-width: 30px;
+  width: 35px;
+  height: 21px;
+  margin-left: 4px;
+}
+
+/* temporary until start using common SAMport components */
+.class-form__btn {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  height: 22px;
+  min-width: 80px;
+  width: 100%;
+
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.class-form__btn--default {
+  background-color: #808080;
+  border-top: 3px #a6a6a6 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #404040 solid;
+}
+
+.class-form__btn--default:active {
+  background-color: #808080;
+  border-bottom: 3px #a6a6a6 solid;
+  border-right: 2px #ccc solid;
+  border-left: 2px #000 solid;
+  border-top: 2px #404040 solid;
+}
+
+.class-form__btn--urgent {
+  background-color: #d06021;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+  border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #404040 solid;
+}
+
+.class-form__btn--urgent:active {
+  background-color: #d06021;
+  border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px rgba(255, 255, 255, 0.5) solid;
+  border-left: 2px #000 solid;
+  border-top: 2px #404040 solid;
+}
+
+.search-modal__footer {
+  display: flex;
+}

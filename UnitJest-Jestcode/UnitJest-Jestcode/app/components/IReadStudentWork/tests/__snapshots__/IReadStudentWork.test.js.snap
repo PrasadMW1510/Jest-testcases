@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IReadStudentWork /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="activate Quiz"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="iread-student-work__show--modal"
+  >
+    <div
+      className="iread-student-work__show--wrapper"
+    >
+      <div
+        className="iread-student-work__show--purple"
+      >
+        <div
+          className="iread-student-work__show--heading"
+        >
+          Iread, STU3
+        </div>
+        <div>
+          <button
+            className="iread-student-work__show--close"
+            onClick={[Function]}
+          >
+            X
+          </button>
+        </div>
+      </div>
+      <div
+        className="iread-student-work__show--title"
+      >
+        <div
+          className="iread-student-work__show--name"
+        >
+          iRead . 
+           undefined. undefined
+        </div>
+      </div>
+      <div
+        className="iread-student-work__show--s44"
+      >
+        <div
+          className="iread-student-work__student--box"
+        >
+          <div
+            className="iread-student-work__description--title"
+          >
+            Student Grade:
+          </div>
+        </div>
+        <div
+          className="iread-student-work__header--text"
+        >
+          To Change the student's score, enter a new words Correct Per Minute (WCPM) score in in the field below.
+        </div>
+        <div
+          className="iread-student-work__show--assignment"
+        >
+          <div
+            className="iread-student-work__assignment--row"
+          >
+            <div
+              className="iread-student-work__assignment-one"
+            >
+              WCPM
+            </div>
+            <div
+              className="iread-student-work__assignment--two"
+            >
+              Comments
+            </div>
+          </div>
+          <div
+            className="iread-student-work__assignment--row"
+          >
+            <div
+              className="iread-student-work__assignment-one"
+            >
+              <input
+                className="iread-student-work__wcpm--textbox"
+                onChange={[Function]}
+                type="textbox"
+                value="0"
+              />
+            </div>
+            <div
+              className="iread-student-work__assignment--two"
+            >
+              <input
+                className="iread-student-work__comments--textbox"
+                onChange={[Function]}
+                type="text"
+                value="1"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="iread-student-work__modal--buttons"
+      >
+        <div
+          className="iread-student-work__modal-buttons--firstset"
+        >
+          <button
+            className="iread-student-work__modal--button mr-r-12"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="iread-student-work__modal--button"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="iread-student-work__modal-buttons--secondset"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Delete
+          </SAMButton>
+          <SAMButton
+            buttonType="button"
+            disabled={true}
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+             
+            Save
+             
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="portfolio-conf-save"
+  >
+    <div>
+      <div
+        className="portfolio-conf__warning--heading"
+      >
+         
+      </div>
+      <div
+        className="portfolio-conf__warning--txt"
+      >
+        Assignment Updated
+      </div>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        OK
+      </SAMButton>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={true}
+    modalClassModifier="portfolio-conf-warning"
+  >
+    <div>
+      <div
+        className="portfolio-conf__warning--heading"
+      >
+        Warning 
+      </div>
+      <div
+        className="portfolio-conf__warning--txt"
+      >
+        Are you sure You want to delete ?
+      </div>
+      <div
+        className="portfolio-conf__warning--btn"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+           
+          Yes
+           
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           No 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

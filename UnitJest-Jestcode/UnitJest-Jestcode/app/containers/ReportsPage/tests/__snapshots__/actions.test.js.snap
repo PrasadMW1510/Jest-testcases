@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportsPage actions Default Action should return the correct constant for report request 1`] = `
+Object {
+  "type": "report_list_request",
+}
+`;
+
+exports[`ReportsPage actions Default Action should return the correct constant for report request failure 1`] = `
+Object {
+  "error": undefined,
+  "type": "report_list_failure",
+}
+`;
+
+exports[`ReportsPage actions Default Action should return the correct constant for report request success 1`] = `
+Object {
+  "list": undefined,
+  "type": "report_list_success",
+}
+`;

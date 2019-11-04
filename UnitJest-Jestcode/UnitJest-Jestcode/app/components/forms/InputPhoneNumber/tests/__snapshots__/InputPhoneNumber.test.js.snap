@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputPhoneNumber /> Should render correctly 1`] = `
+<Field
+  className="my-custom-class"
+  component={[Function]}
+  format={[Function]}
+  label=""
+  name="schoolContactPhoneNumber"
+  normalize={[Function]}
+  parse={[Function]}
+  placeholder="xxx-xxx-xxxx"
+  required={false}
+/>
+`;

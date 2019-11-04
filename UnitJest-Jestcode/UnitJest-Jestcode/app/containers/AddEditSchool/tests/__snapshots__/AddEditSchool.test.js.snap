@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddEditSchool /> render Expect to render correctly for Add School 1`] = `
+<ReduxForm
+  data={Object {}}
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeSchoolFormRequest={[Function]}
+  isOpen={true}
+  onSubmitFail={[Function]}
+  showWarningModal={[Function]}
+  title="Add a School"
+  validationErrors={Object {}}
+/>
+`;
+
+exports[`<AddEditSchool /> render Expect to render correctly for Edit School 1`] = `
+<ReduxForm
+  data={
+    Object {
+      "edit": true,
+    }
+  }
+  handleCancel={[Function]}
+  handleSave={[Function]}
+  initializeSchoolFormRequest={[Function]}
+  isOpen={true}
+  onSubmitFail={[Function]}
+  showWarningModal={[Function]}
+  title="Edit School Profile"
+  validationErrors={Object {}}
+/>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FADSettingsContainer actions should return the correct constant for get settings request 1`] = `
+Object {
+  "type": "fad_get_settings_request",
+}
+`;
+
+exports[`FADSettingsContainer actions should return the correct constant for set settings request 1`] = `
+Object {
+  "reset": false,
+  "retake": false,
+  "type": "fad_set_settings_request",
+}
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeactivateTeacherSuccessModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="modal--deactivate-modal-success"
+>
+  <h2
+    className="deactivate-success__heading"
+  >
+     Success! 
+  </h2>
+  <div
+    className="deactivate-success__message"
+  >
+    You have successfully deactivated this teacher.
+  </div>
+  <div
+    className="deactivate-success__button"
+  >
+    <button
+      className="deactivate-success__yes"
+    >
+      Back to Profile
+    </button>
+  </div>
+</SAMModal>
+`;

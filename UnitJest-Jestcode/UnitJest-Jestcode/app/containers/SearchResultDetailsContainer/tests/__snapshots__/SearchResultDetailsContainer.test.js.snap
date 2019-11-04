@@ -1,0 +1,897 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultDetailsContainer Should render SearchResultDetailsContainer 1`] = `
+<div>
+  <SearchResultDetails
+    addcustomItem={[Function]}
+    arrayIndex={0}
+    changeFictionData={[Function]}
+    changeGRLClassName={false}
+    changePointsClassName={false}
+    changeQuizData={[Function]}
+    changeReadingLevelClassName={false}
+    changeWordCountClassName={false}
+    changedInputVal={false}
+    data={
+      Object {
+        "id": Array [
+          "14960",
+        ],
+        "page": "searchResults",
+        "teacherMadeQuiz": Array [],
+      }
+    }
+    detailsData={
+      Object {
+        "IsFiction": "1",
+      }
+    }
+    hideModal={[Function]}
+    isEditable={true}
+    isOpen={true}
+    isSelected={false}
+    nextSerd={[Function]}
+    prevSerd={[Function]}
+    removeSelItem={[Function]}
+    saveQuizData={[Function]}
+    saveTeacherMadeQuizData={[Function]}
+  />
+</div>
+`;
+
+exports[`SearchResultDetailsContainer Should render SearchResultDetailsContainer else 1`] = `
+<div>
+  <SearchResultDetails
+    addcustomItem={[Function]}
+    arrayIndex={0}
+    changeFictionData={[Function]}
+    changeGRLClassName={false}
+    changePointsClassName={false}
+    changeQuizData={[Function]}
+    changeReadingLevelClassName={false}
+    changeWordCountClassName={false}
+    changedInputVal={false}
+    detailsData={
+      Object {
+        "IsFiction": "1",
+      }
+    }
+    hideModal={[Function]}
+    isEditable={true}
+    isOpen={true}
+    isSelected={false}
+    nextSerd={[Function]}
+    prevSerd={[Function]}
+    removeSelItem={[Function]}
+    saveQuizData={[Function]}
+    saveTeacherMadeQuizData={[Function]}
+  />
+</div>
+`;
+
+exports[`SearchResultDetailsContainer should call  addcustomItem 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  undefined,
+]
+`;
+
+exports[`SearchResultDetailsContainer should call  addcustomItem else 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  undefined,
+]
+`;
+
+exports[`SearchResultDetailsContainer should call getDataArrayIndex else 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call getDataArrayIndex if  1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call getDataArrayIndex if (else)  1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call nextSerd else and else 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call nextSerd else and else and else 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call nextSerd else and if 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call nextSerd if and else 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call nextSerd if and if 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call prevSerd  else(else) 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call prevSerd else(if) 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;
+
+exports[`SearchResultDetailsContainer should call prevSerd if return 1`] = `
+Array [
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14960",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14961",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+  Object {
+    "Author": Array [
+      Object {},
+    ],
+    "CollectionName": Array [
+      "Spring 2016 Complete Quiz Collection------- 3-5",
+    ],
+    "Copies": Array [
+      "0",
+    ],
+    "GuidedReadingLevel": Array [
+      "",
+    ],
+    "ID": Array [
+      "14962",
+    ],
+    "_id": Array [
+      "14960",
+    ],
+  },
+]
+`;

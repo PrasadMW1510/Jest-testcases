@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search Result Details Container Reducer should handle DEFAULT_ACTION 1`] = `
+Immutable.Map {
+}
+`;

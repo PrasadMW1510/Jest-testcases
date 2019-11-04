@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RSkillsCCSettingContainer /> Expect to render correctly 1`] = `
+<RSkillsCCSetting
+  effectiveCohortObject={
+    Object {
+      "cohortType": "School",
+      "id": "guidSchool54321",
+    }
+  }
+  enrollmentCount={0}
+  handleRSkillsCCGetDefaultSettings={[Function]}
+  handleRSkillsCCSettingsSave={[Function]}
+  handleRSkillsCCTestAssignmentSave={[Function]}
+  immDefaultProgramSettings={Object {}}
+  immProgramSettings={Object {}}
+  programMeta={
+    Object {
+      "code": "RTNG",
+      "name": "rSkills Tests: College & Career",
+    }
+  }
+  testAssignmentStages={Array []}
+/>
+`;

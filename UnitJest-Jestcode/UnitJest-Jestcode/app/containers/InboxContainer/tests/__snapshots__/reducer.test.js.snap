@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assignmentContainerReducer reducer should handle SET_INBOX_CLASS_TREELIST 1`] = `
+Immutable.Map {
+  inBoxClassData: Immutable.List [
+  ],
+  selectedInBoxClassGoals: Immutable.List [
+  ],
+  tempGridData: Immutable.List [
+  ],
+}
+`;
+
+exports[`assignmentContainerReducer reducer should handle SET_INBOX_CLASS_TREELIST 2`] = `
+Immutable.Map {
+  inBoxClassData: Immutable.List [
+    Immutable.Map {
+      name: "Software Submissions (0)",
+      children: Immutable.List [
+        Immutable.Map {
+          name: "Unread (0)",
+        },
+        Immutable.Map {
+          name: "New This Week (0)",
+        },
+      ],
+      toggled: true,
+    },
+    Immutable.Map {
+      name: "Assignments (0)",
+      children: Immutable.List [
+        Immutable.Map {
+          name: "Unread (0)",
+        },
+        Immutable.Map {
+          name: "New This Week (0)",
+        },
+      ],
+    },
+  ],
+  selectedInBoxClassGoals: Immutable.List [
+  ],
+  tempGridData: Immutable.List [
+  ],
+}
+`;
+
+exports[`assignmentContainerReducer reducer should handle SET_INBOX_CLASS_TREELIST 3`] = `
+Immutable.Map {
+  inBoxClassData: Immutable.List [
+  ],
+  selectedInBoxClassGoals: Immutable.List [
+  ],
+  tempGridData: undefined,
+}
+`;
+
+exports[`assignmentContainerReducer reducer should handle SET_TEMP_GRIDDATA 1`] = `
+Immutable.Map {
+  inBoxClassData: Immutable.List [
+    Immutable.Map {
+      name: "Software Submissions (0)",
+      children: Immutable.List [
+        Immutable.Map {
+          name: "Unread (0)",
+        },
+        Immutable.Map {
+          name: "New This Week (0)",
+        },
+      ],
+      toggled: true,
+    },
+    Immutable.Map {
+      name: "Assignments (0)",
+      children: Immutable.List [
+        Immutable.Map {
+          name: "Unread (0)",
+        },
+        Immutable.Map {
+          name: "New This Week (0)",
+        },
+      ],
+    },
+  ],
+  selectedInBoxClassGoals: Immutable.List [
+  ],
+  tempGridData: undefined,
+}
+`;

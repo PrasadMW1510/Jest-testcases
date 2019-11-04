@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/AddAssignmentContainer/saga.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/AddAssignmentContainer</a> saga.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>12/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>12/12</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// import { take, call, put, select } from 'redux-saga/effects';
+import { call, all, put, select, takeLatest } from 'redux-saga/effects';
+import * as Constants from './constants';
+import { makeSelectProfileSessionId } from '../App/selectors';
+import * as Actions from './actions';
+import * as PortfolioActions from '../PortfolioPageContainer/actions';
+import * as Request from './request';
+&nbsp;
+// Individual exports for testing
+export function* getStudentDetailsRequest(stuClassID) {
+  try {
+    const sessionId = yield select(makeSelectProfileSessionId());
+    const studentDetails = yield call(Request.getStudentDetails, sessionId, stuClassID.data);
+&nbsp;
+    yield put(Actions.getStudentDetailsSuccess(studentDetails));
+  } catch (err) {
+    yield put(Actions.getStudentDetailsFailure(err));
+  }
+}
+&nbsp;
+export function* postNewAssignmentRequest(assignmentData) {
+  try {
+    // console.log(assignmentData, ' Request Assignment Data');
+    const requestData = `&lt;classAssignmentGroup wholeClass="false"&gt;
+    &lt;assignmentName&gt;${assignmentData.data.assignmentName}&lt;/assignmentName&gt;
+    &lt;assignmentType&gt;${assignmentData.data.assignmentType}&lt;/assignmentType&gt;
+    &lt;dueDate&gt;${assignmentData.data.dueDate}&lt;/dueDate&gt;
+    &lt;description/&gt;
+    &lt;createdForClass&gt;${assignmentData.data.createdForClass}&lt;/createdForClass&gt;
+    &lt;classAssignment communityId="${assignmentData.data.communityId}"&gt;
+      &lt;studentAssignments&gt;
+        &lt;student&gt;
+          &lt;userId&gt;${assignmentData.data.studentId}&lt;/userId&gt;
+          &lt;average&gt;${assignmentData.data.average}&lt;/average&gt;
+          &lt;comment&gt;${assignmentData.data.comment}&lt;/comment&gt;
+        &lt;/student&gt;
+      &lt;/studentAssignments&gt;
+    &lt;/classAssignment&gt;
+  &lt;/classAssignmentGroup&gt;`;
+    const sessionId = yield select(makeSelectProfileSessionId());
+    const assignmentDetails = yield call(Request.postNewAssignment, sessionId, requestData);
+    yield put(Actions.postSaveNewAssignmentSuccess(assignmentDetails));
+    yield put(PortfolioActions.getStudentSubmissions());
+  } catch (err) {
+    // error
+  }
+}
+&nbsp;
+export default function* defaultSaga() {
+  // See example in containers/HomePage/saga.js
+  yield all([
+    takeLatest(Constants.GET_STUDENT_DETAILS, getStudentDetailsRequest),
+    takeLatest(Constants.POST_NEW_ASSIGNMENT, postNewAssignmentRequest),
+  ]);
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

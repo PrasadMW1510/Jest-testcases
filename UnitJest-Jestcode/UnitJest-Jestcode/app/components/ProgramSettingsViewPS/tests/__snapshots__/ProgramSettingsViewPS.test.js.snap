@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsViewPS /> expect to render ProgramSettingsViewPS Expect to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="ps-settings__heading"
+  />
+  <div
+    className="ps-settings__content"
+  >
+    <div
+      className="ps-setting__quadrants1-content"
+    >
+      <div
+        className="ps-settings__quadrants1"
+      >
+        <span
+          className="ps-settings__quadrants-heading"
+        >
+          Test Experience
+        </span>
+        <div
+          className="ps-setting__audio-instruction"
+        >
+          <div
+            className="ps-setting__checkbox"
+          >
+            <SettingsFourStateCheckbox
+              checkboxClass=""
+              checkboxId="audio_instructions"
+              checkboxName="settingsFourStateCheckbox"
+              checkboxText="Include audio support of question stems"
+              currentCheckboxValue="1"
+              disabled={false}
+              handleChangeCheckboxValue={[Function]}
+              statusMap={
+                Object {
+                  "checkedDisabled": Array [],
+                  "checkedEnabled": Array [
+                    "1",
+                  ],
+                  "mixedDisabled": Array [],
+                  "mixedEnabled": Array [
+                    "-1",
+                  ],
+                  "uncheckedDisabled": Array [],
+                  "uncheckedEnabled": Array [
+                    "0",
+                  ],
+                }
+              }
+              textClass=""
+            />
+          </div>
+          <div
+            className="ps-setting__checkbox"
+          >
+            <SettingsFourStateCheckbox
+              checkboxClass=""
+              checkboxId="student_access_to_score"
+              checkboxName="settingsFourStateCheckbox"
+              checkboxText="Allow students to see final score and progress graph after test"
+              currentCheckboxValue="1"
+              disabled={false}
+              handleChangeCheckboxValue={[Function]}
+              statusMap={
+                Object {
+                  "checkedDisabled": Array [],
+                  "checkedEnabled": Array [
+                    "1",
+                  ],
+                  "mixedDisabled": Array [],
+                  "mixedEnabled": Array [
+                    "-1",
+                  ],
+                  "uncheckedDisabled": Array [],
+                  "uncheckedEnabled": Array [
+                    "0",
+                  ],
+                }
+              }
+              textClass=""
+            />
+          </div>
+          <div
+            className="ps-setting__checkbox"
+          >
+            <SettingsFourStateCheckbox
+              checkboxClass=""
+              checkboxId="include_sample_questions"
+              checkboxName="settingsFourStateCheckbox"
+              checkboxText="Include two sample questions before test"
+              currentCheckboxValue="1"
+              disabled={false}
+              handleChangeCheckboxValue={[Function]}
+              statusMap={
+                Object {
+                  "checkedDisabled": Array [],
+                  "checkedEnabled": Array [
+                    "1",
+                  ],
+                  "mixedDisabled": Array [],
+                  "mixedEnabled": Array [
+                    "-1",
+                  ],
+                  "uncheckedDisabled": Array [],
+                  "uncheckedEnabled": Array [
+                    "0",
+                  ],
+                }
+              }
+              textClass=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ps-setting__quadrants2-content"
+    >
+      <div
+        className="ps-settings__quadrants2"
+      >
+        <span
+          className="ps-settings__quadrants-heading"
+        >
+          English-Language Learner Audio Directions
+        </span>
+        <div
+          className="ps-settings__english-language"
+        >
+          <span
+            className="ps-setting__radio"
+            key="None"
+          >
+            <input
+              checked={true}
+              id="None"
+              key="None"
+              name="ell_audio_instructions"
+              onChange={[Function]}
+              type="radio"
+              value="0"
+            />
+            <span
+              className="ps-settings__radio-label"
+            >
+              None
+            </span>
+          </span>
+          <span
+            className="ps-setting__radio"
+            key="Spanish"
+          >
+            <input
+              checked={false}
+              id="Spanish"
+              key="Spanish"
+              name="ell_audio_instructions"
+              onChange={[Function]}
+              type="radio"
+              value="1"
+            />
+            <span
+              className="ps-settings__radio-label"
+            >
+              Spanish
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ps-settings__footer"
+  >
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;

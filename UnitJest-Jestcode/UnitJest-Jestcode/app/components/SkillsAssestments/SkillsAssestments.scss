@@ -1,0 +1,60 @@
+.skill-assestment-overallscore {
+  background: #fff;
+  position: absolute;
+  top: 340px;
+  right: 0;
+  border: 1px #8e8787 solid;
+  width: 60%;
+}
+
+.skill-assestment-overallscore-data {
+  margin: 0;
+  background: #ddd;
+  padding: 5px 5px 5px 10px;
+  font-size: 12px;
+  border-bottom: #a7a1a1 1px solid;
+}
+
+.skill-assestment-overallscore-info {
+  border: #a09c9c 1px solid;
+  margin: 4px;
+  overflow: hidden;
+}
+
+.skill-assestment-overallscore-information {
+  width: 25%;
+  float: left;
+}
+
+.skill-assestment-overallscore-info-points {
+  text-align: center;
+  background: linear-gradient(to bottom, #fff 28%, #ddd 100%);
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+  border-right: #000 1px solid;
+  border-bottom: #a09c9c 1px solid;
+  padding: 4px 0;
+  line-height: 15px;
+}
+
+.skill-assestment-overallscore-info-exp {
+  border-right: #a09c9c 1px solid;
+  margin: 0;
+  font-size: 12px;
+  padding: 8px 6px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.skill-assestment-overallscore-info-ullist {
+  margin: 0;
+  padding: 0;
+}
+
+.skill-assestment-overallscore-info-ullist li {
+  float: left;
+  padding: 0 21px 0 0;
+  color: #545353;
+  font-size: 12px;
+}

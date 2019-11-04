@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutSamLink /> Should render as expected 1`] = `
+<div
+  className="search-results-table__result-td-cell"
+>
+  <button
+    className="custom-table-remove-button"
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</div>
+`;

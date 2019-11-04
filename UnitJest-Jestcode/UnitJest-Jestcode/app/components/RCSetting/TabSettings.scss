@@ -1,0 +1,144 @@
+.rc-settings__student-settings-container {
+  width: 28%;
+}
+
+.rc-settings__quiz-settings-container {
+  width: 34%;
+}
+
+.rc-settings__instruction-text {
+  font-size: 11px;
+  padding: 10px;
+}
+
+.rc-settings__table-cell {
+  background-color: #ffe279;
+  border: 1px solid #000;
+  font-size: 11px;
+  vertical-align: top;
+}
+
+.rc-settings__award-settings {
+  background-color: #ffe279;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  font-size: 11px;
+  margin: 0 8px;
+}
+
+.rc-settings__top-settings-table {
+  margin: 8px 8px 0;
+  width: 98%;
+}
+
+.rc-settings__student-setting-block {
+  padding: 8px 8px 0;
+
+  &:last-child {
+    padding-bottom: 8px;
+  }
+}
+
+.rc-settings__quiz-setting-block {
+  padding: 8px 8px 0;
+  text-align: right;
+
+  &:last-child {
+    padding-bottom: 16px;
+  }
+}
+
+.rc-settings__quiz-setting-text-field-block {
+  padding: 8px 8px 0;
+  text-align: right;
+}
+
+.rc-settings__quiz-setting-checkbox-block {
+  text-align: right;
+}
+
+.rc-settings__num-questions-text-field-block {
+  padding: 8px 8px 0;
+  text-align: right;
+}
+
+.rc-settings__award-setting-block {
+  padding: 8px 8px 0;
+  text-align: center;
+}
+
+.rc-settings__award-setting-goals-field {
+  border: 1px solid #000;
+  margin: 0 54px;
+}
+
+.rc-settings__award-setting-student-goal-field {
+  width: 50px;
+}
+
+.rc-settings__award-setting-pts-multiplier-block {
+  padding: 8px 8px 8px 60px;
+}
+
+.rc-settings__award-setting-pts-multiplier-field {
+  width: 50px;
+}
+
+.rc-settings__text-field {
+  border: 1px solid #000;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.rc-settings__subheading {
+  font-weight: bold;
+  padding: 8px 8px 0;
+  text-align: center;
+}
+
+.rc-settings__award-level-table {
+  margin-bottom: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.rc-settings__award-level-table-cell {
+  width: 20%;
+}
+
+.rc-setting__award-level-text-input {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 40px;
+}
+
+.rc-settings__caption {
+  font-weight: bold;
+  vertical-align: top;
+  padding: 3px 0 0 10px;
+  background-color: #ffd400;
+  width: 99.9%;
+  height: 25px;
+  display: inline-block;
+  margin-top: 0;
+  z-index: +1;
+}
+
+.rc-settings__num-questions-per-ereads-label {
+  display: inline-block;
+  width: 200px;
+}
+
+.rc-settings__num-questions-per-ereads-field {
+  vertical-align: top;
+}
+
+// hierarchical selector used for common component overrides
+.src-settings-content-panel .program-settings-buttons__button:first-child {
+  margin-left: 10px;
+}
+
+.src-settings-content-panel .program-settings-buttons__button:last-child {
+  margin-right: 10px;
+}

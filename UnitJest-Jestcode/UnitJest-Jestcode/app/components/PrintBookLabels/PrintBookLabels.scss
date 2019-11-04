@@ -1,0 +1,222 @@
+.modal-book-label__empty {
+  height: 202px;
+  width: 301px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.print-show-label-wrapper {
+  white-space: pre-wrap;
+  font-size: 11px;
+}
+
+.modal--printbooklabel-quiz {
+  height: 352px;
+  width: 402px;
+  padding: 0;
+  margin: 19px 34px 0 0;
+}
+
+.print-booklabel__wrapper {
+  float: left;
+  height: 56px;
+  line-height: 57px;
+  vertical-align: middle;
+  font-size: 11px;
+  width: 50%;
+  margin: 0 0 0 20px;
+}
+
+.print-show-label-quiz-list--orange {
+  background: #ff5c41;
+  margin: 0;
+  padding: 4px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.print-custom-booklabel__preview {
+  margin: 0;
+}
+
+.print-show-label-heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 0 2px;
+}
+
+.print-custom-booklabel__buttons {
+  margin: 0;
+  float: right;
+  width: 50%;
+}
+
+.print-show-label--countheader {
+  font-size: 11px;
+  margin: 0 0 0 5px;
+  padding: 3px;
+}
+
+.print-show-label--layout {
+  background-color: #f99a59;
+  font-size: 11px;
+  padding: 3px;
+}
+
+.print-show-label--layouttext {
+  margin: 0 0 0 5px;
+  font-size: 11px;
+}
+
+.print-show-label--layout-content {
+  margin: 0;
+  font-size: 11px;
+  border-bottom: 1px solid #ffe4d2;
+  padding: 2px 0 2px 9px;
+}
+
+.layouttext {
+  margin: 0 0 0 5px;
+}
+
+.print-show-label--boder {
+  border: 1px solid #f99a59;
+  width: 100%;
+}
+
+.print-show-label--chckbox {
+  font-size: 12px;
+  margin: 5px 0 0 5px;
+
+  .collapsible-book-list-names {
+    position: relative;
+    padding: 5px 0 0;
+    font-size: 11px;
+  }
+
+  .pad-t5 {
+    padding: 5px 0 0;
+    font-size: 11px;
+  }
+
+  .valign-mid {
+    vertical-align: middle;
+    margin: 0 6px 0 0;
+  }
+}
+
+.show-printbooklabel__p {
+  text-align: center;
+  color: #f00;
+}
+
+.print-custom-booklabel__textarea {
+  margin: 10px 0 10px 20px;
+  height: 64px;
+}
+
+.print-custom-booklabel__textbox {
+  width: 50px;
+  border: 1px solid;
+  margin: 0 5px;
+  padding: 2px 0 2px 5px;
+}
+
+.print-custom-booklabel__textbox {
+  outline: 0;
+}
+
+.print-custom-booklabel__span {
+  font-size: 11px;
+  line-height: 11px;
+  vertical-align: middle;
+  margin: 10px 0 0;
+  float: left;
+  width: 43%;
+}
+
+.print-custom-booklabel__errormessage {
+  text-align: center;
+  color: #f00;
+}
+
+.print-custom-booklabel__cancel {
+  float: left;
+  margin: 0;
+}
+
+.print-book-label-empty__text {
+  margin: 41px 0 0 19px;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.empty-labels__secondary-button-ok {
+  margin: 40px 0 0;
+}
+
+.empty-labels__secondary-button-ok .btn,
+.empty-labels__secondary-button-ok .btn--primary {
+  height: 25px;
+  min-width: 53px;
+  width: auto;
+  margin: 0 auto;
+  background-color: #fb6042;
+}
+
+.print-custom-booklabel__buttons {
+  .btn--primary :hover {
+    border: #000 1px solid !important;
+    cursor: pointer;
+  }
+
+  .btn--secondary:hover {
+    border: #000 1px solid !important;
+    cursor: pointer;
+  }
+}
+
+.empty-labels__secondary-button-ok .btn--primary:hover {
+  border: #000 1px solid !important;
+}
+
+.customlist-btn--primary:hover {
+  border: #000 1px solid !important;
+}
+
+.print-custom-booklabel__cancel .btn,
+.print-custom-booklabel__cancel .btn--secondary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 0 !important;
+}
+
+.print-custom-booklabel__preview .btn,
+.print-custom-booklabel__preview .btn--primary {
+  height: 25px;
+  min-width: 92px;
+  width: auto;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 0 !important;
+}
+
+.print-custom-booklabel__cancel .btn--secondary:hover {
+  border: #000 1px solid;
+}
+
+.print-custom-booklabel__preview .btn--primary:hover {
+  border: #000 1px solid !important;
+}
+
+.print-custom-booklabel__cancel .btn--secondary:focus {
+  outline: 0;
+}
+
+.print-custom-booklabel__preview .btn--primary:focus {
+  outline: 0;
+}

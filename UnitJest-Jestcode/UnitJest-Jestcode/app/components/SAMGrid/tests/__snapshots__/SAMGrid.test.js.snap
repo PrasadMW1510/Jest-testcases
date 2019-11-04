@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SAMGrid/> Should render correctly 1`] = `
+<MultiGrid
+  cellRenderer={[Function]}
+  classNameBottomLeftGrid=""
+  classNameBottomRightGrid=""
+  classNameTopLeftGrid=""
+  classNameTopRightGrid=""
+  columnCount={10}
+  columnWidth={10}
+  enableFixedColumnScroll={false}
+  enableFixedRowScroll={false}
+  fixedColumnCount={2}
+  fixedRowCount={1}
+  height={100}
+  rowCount={10}
+  rowHeight={[Function]}
+  rowWidth={100}
+  scrollToColumn={-1}
+  scrollToRow={-1}
+  style={Object {}}
+  styleBottomLeftGrid={Object {}}
+  styleBottomRightGrid={Object {}}
+  styleTopLeftGrid={Object {}}
+  styleTopRightGrid={Object {}}
+  width={100}
+/>
+`;

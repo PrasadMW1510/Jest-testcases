@@ -1,0 +1,1328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchModal /> Class Assign Option Select Should open the account delete modal when the go button is pressed and a value is selected for accountDelete 1`] = `
+<SAMButton
+  buttonClassModifier="search-modal__select-button"
+  buttonType="button"
+  disabled={false}
+  id="goButton"
+  isPrimaryButton={true}
+  onClickHandler={[Function]}
+>
+  Go
+</SAMButton>
+`;
+
+exports[`<SearchModal /> Class Assign Option Select Should open the class assign modal when the go button is pressed and a value is selected for AssignToAClass 1`] = `
+<SAMButton
+  buttonClassModifier="search-modal__select-button"
+  buttonType="button"
+  disabled={false}
+  id="goButton"
+  isPrimaryButton={true}
+  onClickHandler={[Function]}
+>
+  Go
+</SAMButton>
+`;
+
+exports[`<SearchModal /> It should render count display CORRECTLY should have the render count 1`] = `
+<SAMModal
+  contentLabel="Search Modal"
+  isOpen={true}
+  modalClassModifier="search-modal"
+>
+  <div>
+    <div
+      className="search-modal__message"
+    >
+      Search
+    </div>
+    <button
+      className="search-modal__close class-form__btn--default"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <div
+      className="search-modal__search-for"
+    >
+      Search for
+      <select
+        className="search-modal__select"
+        id="searchBy"
+        name="searchBy"
+        onChange={[Function]}
+        value="student"
+      >
+        <option
+          value="student"
+        >
+          Students
+        </option>
+        <option
+          value="teacher"
+        >
+          Teachers
+        </option>
+      </select>
+    </div>
+    <div
+      className="search-modal__instruction"
+    >
+      <span
+        className="search-modal__instruction-text"
+      >
+        Use the options below to search for students in your SAM installation. Selecting more options will narrow your search.
+      </span>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--active"
+      >
+        <input
+          checked={true}
+          className="search-modal__radio"
+          id="searchModal__student-radio--active"
+          onChange={[Function]}
+          type="radio"
+          value="true"
+        />
+        Active Students
+      </label>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--inactive"
+      >
+        <input
+          checked={false}
+          className="search-modal__radio"
+          id="searchModal__student-radio--inactive"
+          onChange={[Function]}
+          type="radio"
+          value="false"
+        />
+        Inactive Students
+      </label>
+    </div>
+    <div
+      className="search-modal__dropdowns"
+    >
+      <div
+        className="search-modal__div-select"
+      >
+        School:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="school"
+          onChange={[Function]}
+          value=""
+        >
+          <React.Fragment>
+            <option
+              key="All Schools"
+              value="All Schools"
+            >
+              All Schools
+            </option>
+            <option
+              key="abc"
+              value={
+                Array [
+                  "abc",
+                ]
+              }
+            >
+              someSchool
+            </option>
+            <option
+              key="def"
+              value={
+                Array [
+                  "def",
+                ]
+              }
+            >
+              Other School
+            </option>
+          </React.Fragment>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Grade:
+        <select
+          className="search-modal__select"
+          name="grade"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All grades"
+            value="All grades"
+          >
+            All grades
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Teacher:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="teacher"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All teachers"
+            value="All teachers"
+          >
+            All teachers
+          </option>
+          <option
+            key="n36ocsk9fqdk1vbiuu03hcij_2efa7f0"
+            value={
+              Array [
+                "n36ocsk9fqdk1vbiuu03hcij_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Able
+          </option>
+          <option
+            key="491h056l72qq77dj2liilb5e_2efa7f0"
+            value={
+              Array [
+                "491h056l72qq77dj2liilb5e_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Baker
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Product:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="product"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All products"
+            value="All products"
+          >
+            All products
+          </option>
+          <option
+            key="Common Core Code X"
+            value="Common Core Code X"
+          >
+            Common Core Code X
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="search-modal__textinputs"
+    >
+      <div
+        className="search-modal__div-input"
+      >
+        Last Name:
+        <input
+          className="search-modal__input"
+          id="lastName"
+          maxLength={40}
+          name="lastName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        First Name:
+        <input
+          className="search-modal__input"
+          id="firstName"
+          maxLength={40}
+          name="firstName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Username:
+        <input
+          className="search-modal__input"
+          id="userName"
+          maxLength={20}
+          name="userName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Student ID:
+        <input
+          className="search-modal__input"
+          id="studentId"
+          maxLength={32}
+          name="studentId"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--urgent"
+          id="searchBtn"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--default"
+          id="resetOptionsBtn"
+          onClick={[Function]}
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-modal__results-count"
+  >
+    Displaying results 1 - 250 of 501 
+  </div>
+  <div
+    className="search-results__table-header-group"
+  >
+    <SearchResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      profileUserType="Administrator"
+      resultsType="student"
+      searchResults={
+        Object {
+          "itemCount": 501,
+          "paginationData": Object {
+            "current_page": Array [
+              "0",
+            ],
+            "items_per_page": Array [
+              "250",
+            ],
+            "paginate": Array [
+              "false",
+            ],
+          },
+          "students": Array [
+            Object {
+              "user_id": "123",
+            },
+          ],
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <div
+    className="search-modal__footer"
+  >
+    <div
+      className="search-modal__select-container"
+    >
+      <select
+        className="search-modal__class-assign-select"
+        disabled={true}
+        onChange={[Function]}
+        value="- Select an Option -"
+      >
+        <option
+          value="- Select an Option -"
+        >
+          - Select an Option -
+        </option>
+        <option
+          value="Assign to a Class"
+        >
+          Assign to a Class
+        </option>
+      </select>
+      <SAMButton
+        buttonClassModifier="search-modal__select-button"
+        buttonType="button"
+        disabled={true}
+        id="goButton"
+        isPrimaryButton={true}
+        onClickHandler={[Function]}
+      >
+        Go
+      </SAMButton>
+    </div>
+    <SearchPaginator
+      data={
+        Object {
+          "current_page": Array [
+            "0",
+          ],
+          "items_per_page": Array [
+            "250",
+          ],
+          "paginate": Array [
+            "false",
+          ],
+        }
+      }
+      handlePaginatedSearch={[Function]}
+    />
+  </div>
+</SAMModal>
+`;
+
+exports[`<SearchModal /> Should render as expected 1`] = `
+<SAMModal
+  contentLabel="Search Modal"
+  isOpen={true}
+  modalClassModifier="search-modal"
+>
+  <div>
+    <div
+      className="search-modal__message"
+    >
+      Search
+    </div>
+    <button
+      className="search-modal__close class-form__btn--default"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <div
+      className="search-modal__search-for"
+    >
+      Search for
+      <select
+        className="search-modal__select"
+        id="searchBy"
+        name="searchBy"
+        onChange={[Function]}
+        value="student"
+      >
+        <option
+          value="student"
+        >
+          Students
+        </option>
+      </select>
+    </div>
+    <div
+      className="search-modal__instruction"
+    >
+      Use the options below to search for students in your school. Selecting more options will narrow your search.
+    </div>
+    <div
+      className="search-modal__dropdowns"
+    >
+      <div
+        className="search-modal__div-select"
+      >
+        Grade:
+        <select
+          className="search-modal__select"
+          name="grade"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All grades"
+            value="All grades"
+          >
+            All grades
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Teacher:
+        <select
+          className="search-modal__select"
+          name="teacher"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All teachers"
+            value="All teachers"
+          >
+            All teachers
+          </option>
+          <option
+            key="n36ocsk9fqdk1vbiuu03hcij_2efa7f0"
+            value={
+              Array [
+                "n36ocsk9fqdk1vbiuu03hcij_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Able
+          </option>
+          <option
+            key="491h056l72qq77dj2liilb5e_2efa7f0"
+            value={
+              Array [
+                "491h056l72qq77dj2liilb5e_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Baker
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Class:
+        <select
+          className="search-modal__select"
+          name="class"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All classes"
+            value="All classes"
+          >
+            All classes
+          </option>
+          <option
+            key="uhbmree8fuor7f4s537ftanl_2efa7f0"
+            value={
+              Array [
+                "uhbmree8fuor7f4s537ftanl_2efa7f0",
+              ]
+            }
+          >
+            12345678901234567890ABCDEFGHIJKLMNOPQRST
+          </option>
+          <option
+            key="ugjj1ij48rgsd2pgndhdsj0o_2efa7f0"
+            value={
+              Array [
+                "ugjj1ij48rgsd2pgndhdsj0o_2efa7f0",
+              ]
+            }
+          >
+            A Bats1215
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Product:
+        <select
+          className="search-modal__select"
+          name="product"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All products"
+            value="All products"
+          >
+            All products
+          </option>
+          <option
+            key="Common Core Code X"
+            value="Common Core Code X"
+          >
+            Common Core Code X
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="search-modal__textinputs"
+    >
+      <div
+        className="search-modal__div-input"
+      >
+        Last Name:
+        <input
+          className="search-modal__input"
+          id="lastName"
+          maxLength={40}
+          name="lastName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        First Name:
+        <input
+          className="search-modal__input"
+          id="firstName"
+          maxLength={40}
+          name="firstName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Username:
+        <input
+          className="search-modal__input"
+          id="userName"
+          maxLength={20}
+          name="userName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Student ID:
+        <input
+          className="search-modal__input"
+          id="studentId"
+          maxLength={32}
+          name="studentId"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--urgent"
+          id="searchBtn"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--default"
+          id="resetOptionsBtn"
+          onClick={[Function]}
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-modal__results-count"
+  />
+  <div
+    className="search-results__table-header-group"
+  >
+    <SearchResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      profileUserType="Teacher"
+      resultsType="student"
+      searchResults={Object {}}
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <div
+    className="search-modal__footer"
+  >
+    <SearchPaginator
+      data={Object {}}
+      handlePaginatedSearch={[Function]}
+    />
+  </div>
+</SAMModal>
+`;
+
+exports[`<SearchModal /> When search results are uninitialized should render correctly 1`] = `
+<SAMModal
+  contentLabel="Search Modal"
+  isOpen={true}
+  modalClassModifier="search-modal"
+>
+  <div>
+    <div
+      className="search-modal__message"
+    >
+      Search
+    </div>
+    <button
+      className="search-modal__close class-form__btn--default"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <div
+      className="search-modal__search-for"
+    >
+      Search for
+      <select
+        className="search-modal__select"
+        id="searchBy"
+        name="searchBy"
+        onChange={[Function]}
+        value="student"
+      >
+        <option
+          value="student"
+        >
+          Students
+        </option>
+        <option
+          value="teacher"
+        >
+          Teachers
+        </option>
+      </select>
+    </div>
+    <div
+      className="search-modal__instruction"
+    >
+      <span
+        className="search-modal__instruction-text"
+      >
+        Use the options below to search for students in your SAM installation. Selecting more options will narrow your search.
+      </span>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--active"
+      >
+        <input
+          checked={true}
+          className="search-modal__radio"
+          id="searchModal__student-radio--active"
+          onChange={[Function]}
+          type="radio"
+          value="true"
+        />
+        Active Students
+      </label>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--inactive"
+      >
+        <input
+          checked={false}
+          className="search-modal__radio"
+          id="searchModal__student-radio--inactive"
+          onChange={[Function]}
+          type="radio"
+          value="false"
+        />
+        Inactive Students
+      </label>
+    </div>
+    <div
+      className="search-modal__dropdowns"
+    >
+      <div
+        className="search-modal__div-select"
+      >
+        School:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="school"
+          onChange={[Function]}
+          value=""
+        >
+          <React.Fragment>
+            <option
+              key="All Schools"
+              value="All Schools"
+            >
+              All Schools
+            </option>
+            <option
+              key="abc"
+              value={
+                Array [
+                  "abc",
+                ]
+              }
+            >
+              someSchool
+            </option>
+            <option
+              key="def"
+              value={
+                Array [
+                  "def",
+                ]
+              }
+            >
+              Other School
+            </option>
+          </React.Fragment>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Grade:
+        <select
+          className="search-modal__select"
+          name="grade"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All grades"
+            value="All grades"
+          >
+            All grades
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Teacher:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="teacher"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All teachers"
+            value="All teachers"
+          >
+            All teachers
+          </option>
+          <option
+            key="n36ocsk9fqdk1vbiuu03hcij_2efa7f0"
+            value={
+              Array [
+                "n36ocsk9fqdk1vbiuu03hcij_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Able
+          </option>
+          <option
+            key="491h056l72qq77dj2liilb5e_2efa7f0"
+            value={
+              Array [
+                "491h056l72qq77dj2liilb5e_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Baker
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Product:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="product"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All products"
+            value="All products"
+          >
+            All products
+          </option>
+          <option
+            key="Common Core Code X"
+            value="Common Core Code X"
+          >
+            Common Core Code X
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="search-modal__textinputs"
+    >
+      <div
+        className="search-modal__div-input"
+      >
+        Last Name:
+        <input
+          className="search-modal__input"
+          id="lastName"
+          maxLength={40}
+          name="lastName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        First Name:
+        <input
+          className="search-modal__input"
+          id="firstName"
+          maxLength={40}
+          name="firstName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Username:
+        <input
+          className="search-modal__input"
+          id="userName"
+          maxLength={20}
+          name="userName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Student ID:
+        <input
+          className="search-modal__input"
+          id="studentId"
+          maxLength={32}
+          name="studentId"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--urgent"
+          id="searchBtn"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--default"
+          id="resetOptionsBtn"
+          onClick={[Function]}
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-modal__results-count"
+  />
+  <div
+    className="search-results__table-header-group"
+  >
+    <SearchResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      profileUserType="Administrator"
+      resultsType="student"
+      searchResults={
+        Object {
+          "itemCount": -1,
+          "paginationData": Object {},
+          "students": Array [],
+          "teachers": Array [],
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <div
+    className="search-modal__footer"
+  >
+    <SearchPaginator
+      data={Object {}}
+      handlePaginatedSearch={[Function]}
+    />
+  </div>
+</SAMModal>
+`;
+
+exports[`<SearchModal /> When search results return empty should render correctly 1`] = `
+<SAMModal
+  contentLabel="Search Modal"
+  isOpen={true}
+  modalClassModifier="search-modal"
+>
+  <div>
+    <div
+      className="search-modal__message"
+    >
+      Search
+    </div>
+    <button
+      className="search-modal__close class-form__btn--default"
+      onClick={[Function]}
+    >
+      X
+    </button>
+    <div
+      className="search-modal__search-for"
+    >
+      Search for
+      <select
+        className="search-modal__select"
+        id="searchBy"
+        name="searchBy"
+        onChange={[Function]}
+        value="student"
+      >
+        <option
+          value="student"
+        >
+          Students
+        </option>
+        <option
+          value="teacher"
+        >
+          Teachers
+        </option>
+      </select>
+    </div>
+    <div
+      className="search-modal__instruction"
+    >
+      <span
+        className="search-modal__instruction-text"
+      >
+        Use the options below to search for students in your SAM installation. Selecting more options will narrow your search.
+      </span>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--active"
+      >
+        <input
+          checked={true}
+          className="search-modal__radio"
+          id="searchModal__student-radio--active"
+          onChange={[Function]}
+          type="radio"
+          value="true"
+        />
+        Active Students
+      </label>
+      <label
+        className="search-modal__radio-label"
+        htmlFor="searchModal__student-radio--inactive"
+      >
+        <input
+          checked={false}
+          className="search-modal__radio"
+          id="searchModal__student-radio--inactive"
+          onChange={[Function]}
+          type="radio"
+          value="false"
+        />
+        Inactive Students
+      </label>
+    </div>
+    <div
+      className="search-modal__dropdowns"
+    >
+      <div
+        className="search-modal__div-select"
+      >
+        School:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="school"
+          onChange={[Function]}
+          value=""
+        >
+          <React.Fragment>
+            <option
+              key="All Schools"
+              value="All Schools"
+            >
+              All Schools
+            </option>
+            <option
+              key="abc"
+              value={
+                Array [
+                  "abc",
+                ]
+              }
+            >
+              someSchool
+            </option>
+            <option
+              key="def"
+              value={
+                Array [
+                  "def",
+                ]
+              }
+            >
+              Other School
+            </option>
+          </React.Fragment>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Grade:
+        <select
+          className="search-modal__select"
+          name="grade"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All grades"
+            value="All grades"
+          >
+            All grades
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Teacher:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="teacher"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All teachers"
+            value="All teachers"
+          >
+            All teachers
+          </option>
+          <option
+            key="n36ocsk9fqdk1vbiuu03hcij_2efa7f0"
+            value={
+              Array [
+                "n36ocsk9fqdk1vbiuu03hcij_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Able
+          </option>
+          <option
+            key="491h056l72qq77dj2liilb5e_2efa7f0"
+            value={
+              Array [
+                "491h056l72qq77dj2liilb5e_2efa7f0",
+              ]
+            }
+          >
+            Teacher, Baker
+          </option>
+        </select>
+      </div>
+      <div
+        className="search-modal__div-select"
+      >
+        Product:
+        <select
+          className="search-modal__select"
+          disabled={false}
+          name="product"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            key="All products"
+            value="All products"
+          >
+            All products
+          </option>
+          <option
+            key="Common Core Code X"
+            value="Common Core Code X"
+          >
+            Common Core Code X
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      className="search-modal__textinputs"
+    >
+      <div
+        className="search-modal__div-input"
+      >
+        Last Name:
+        <input
+          className="search-modal__input"
+          id="lastName"
+          maxLength={40}
+          name="lastName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        First Name:
+        <input
+          className="search-modal__input"
+          id="firstName"
+          maxLength={40}
+          name="firstName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Username:
+        <input
+          className="search-modal__input"
+          id="userName"
+          maxLength={20}
+          name="userName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        Student ID:
+        <input
+          className="search-modal__input"
+          id="studentId"
+          maxLength={32}
+          name="studentId"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--urgent"
+          id="searchBtn"
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+      <div
+        className="search-modal__div-input"
+      >
+        <button
+          className="class-form__btn class-form__btn--default"
+          id="resetOptionsBtn"
+          onClick={[Function]}
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="search-modal__results-count"
+  >
+    Displaying results 0 - 0 of 0 
+  </div>
+  <div
+    className="search-results__table-header-group"
+  >
+    <SearchResultsTable
+      handleRowCheckboxOnChange={[Function]}
+      profileUserType="Administrator"
+      resultsType="student"
+      searchResults={
+        Object {
+          "itemCount": "0",
+          "paginationData": Object {},
+          "students": Array [
+            Object {},
+          ],
+          "teachers": Array [],
+        }
+      }
+      searchResultsIdsChecked={Array []}
+      selectAll={false}
+      toggleAllCheckboxes={[Function]}
+    />
+  </div>
+  <div
+    className="search-modal__footer"
+  >
+    <SearchPaginator
+      data={Object {}}
+      handlePaginatedSearch={[Function]}
+    />
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageAdminAccountsContainer /> Should render as expected 1`] = `
+<ManageAdminAccounts
+  admins={
+    Array [
+      Object {
+        "district_user_id": "gadmin2",
+        "name": "DTAimport,Getha",
+        "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+        "remove": true,
+        "type": "district Tech",
+        "user_id": "7nvm174lun7311d1kmekgd5q_2efa7f0",
+      },
+      Object {
+        "district_user_id": "dtajeffl",
+        "name": "DTALeeman,DTAJeff",
+        "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+        "remove": true,
+        "type": "district Tech",
+        "user_id": "88309nvgvara6g92j088s7of_2efa7f0",
+      },
+      Object {
+        "district_user_id": "1",
+        "name": "1,1",
+        "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+        "remove": true,
+        "type": "district Admin",
+        "user_id": "3bn5snam2uuhftpqa1acbsdq_2efa7f0",
+      },
+      Object {
+        "district_user_id": "waaddemo",
+        "name": "waaddemo,waaddemo",
+        "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+        "remove": true,
+        "type": "district Admin",
+        "user_id": "s60blf1ilu74cbdlsh2dgg11_2efa7f0",
+      },
+    ]
+  }
+  currentUserId="mock-user-id"
+  getAdminRequest={[Function]}
+  isDistrictAdmin={false}
+  showModal={[Function]}
+/>
+`;
+
+exports[`<ManageAdminAccountsContainer /> should createAdminList 1`] = `
+Array [
+  Object {
+    "district_user_id": "gadmin2",
+    "name": "DTAimport,Getha",
+    "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+    "remove": true,
+    "type": "district Tech",
+    "user_id": "7nvm174lun7311d1kmekgd5q_2efa7f0",
+  },
+  Object {
+    "district_user_id": "dtajeffl",
+    "name": "DTALeeman,DTAJeff",
+    "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+    "remove": true,
+    "type": "district Tech",
+    "user_id": "88309nvgvara6g92j088s7of_2efa7f0",
+  },
+  Object {
+    "district_user_id": "1",
+    "name": "1,1",
+    "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+    "remove": true,
+    "type": "district Admin",
+    "user_id": "3bn5snam2uuhftpqa1acbsdq_2efa7f0",
+  },
+  Object {
+    "district_user_id": "waaddemo",
+    "name": "waaddemo,waaddemo",
+    "org_id": "6477EA8C2E3D11E6A9700A2175802BAF",
+    "remove": true,
+    "type": "district Admin",
+    "user_id": "s60blf1ilu74cbdlsh2dgg11_2efa7f0",
+  },
+]
+`;

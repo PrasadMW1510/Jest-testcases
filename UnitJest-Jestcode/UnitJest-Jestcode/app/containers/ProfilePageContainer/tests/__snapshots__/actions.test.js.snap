@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the class call by classID 1`] = `
+Object {
+  "classId": "zzzzz123",
+  "type": "profile_page_class_request",
+}
+`;
+
+exports[`should return the class call by classID failure 1`] = `
+Object {
+  "error": "error",
+  "type": "profile_page_class_request_failure",
+}
+`;
+
+exports[`should return the class call by classID success 1`] = `
+Object {
+  "classDetails": Object {},
+  "type": "profile_page_class_request_success",
+}
+`;
+
+exports[`should return the correct profile request 1`] = `
+Object {
+  "type": "profile_page_request",
+}
+`;
+
+exports[`should return the correct profile request 2`] = `
+Object {
+  "studentId": "zzzzz123",
+  "type": "profile_page_student_request",
+}
+`;
+
+exports[`should return the correct profile request 3`] = `
+Object {
+  "schoolId": "zzzzz123",
+  "type": "profile_page_school_request",
+}
+`;
+
+exports[`should return the correct profile request 4`] = `
+Object {
+  "groupId": "zzzzz123",
+  "type": "profile_page_group_request",
+}
+`;
+
+exports[`should return the correct profile request 5`] = `
+Object {
+  "teacherId": "zzzzz123",
+  "type": "profile_page_teacher_request",
+}
+`;
+
+exports[`should return the correct profile request 6`] = `
+Object {
+  "gradeId": "zzzzz123",
+  "type": "profile_page_grade_request",
+}
+`;
+
+exports[`should return the correct profile request 7`] = `
+Object {
+  "type": "teacher_by_grade_request",
+}
+`;
+
+exports[`should return the correct profile request 8`] = `
+Object {
+  "type": "class_by_grade_request",
+}
+`;
+
+exports[`should return the correct profile request 9`] = `
+Object {
+  "type": "student_by_grade_request",
+}
+`;
+
+exports[`should return the correct profile request 10`] = `
+Object {
+  "type": "profile_page_school_admin_request",
+}
+`;
+
+exports[`should return the correct profile request 11`] = `
+Object {
+  "type": "profile_page_district_admin_request",
+}
+`;
+
+exports[`should return the correct profile request failure 1`] = `
+Object {
+  "error": "error",
+  "type": "profile_page_request_failure",
+}
+`;
+
+exports[`should return the correct profile request failure 2`] = `
+Object {
+  "error": "error",
+  "type": "teacher_by_grade_request_failure",
+}
+`;
+
+exports[`should return the correct profile request failure 3`] = `
+Object {
+  "error": "error",
+  "type": "class_by_grade_request_failure",
+}
+`;
+
+exports[`should return the correct profile request failure 4`] = `
+Object {
+  "error": "error",
+  "type": "student_by_grade_request_failure",
+}
+`;
+
+exports[`should return the correct profile request failure 5`] = `
+Object {
+  "error": "error",
+  "type": "profile_page_school_admin_request_failure",
+}
+`;
+
+exports[`should return the correct profile request failure 6`] = `
+Object {
+  "error": "error",
+  "type": "profile_page_district_admin_request_failure",
+}
+`;
+
+exports[`should return the correct profile request success 1`] = `
+Object {
+  "profileDetails": Object {},
+  "type": "profile_page_request_success",
+}
+`;
+
+exports[`should return the correct profile request success 2`] = `
+Object {
+  "teacherByGradeDetails": Object {},
+  "type": "teacher_by_grade_request_success",
+}
+`;
+
+exports[`should return the correct profile request success 3`] = `
+Object {
+  "classByGradeDetails": Object {},
+  "type": "class_by_grade_request_success",
+}
+`;
+
+exports[`should return the correct profile request success 4`] = `
+Object {
+  "studentByGradeDetails": Object {},
+  "type": "student_by_grade_request_success",
+}
+`;
+
+exports[`should return the correct profile request success 5`] = `
+Object {
+  "profileDetailsSchoolAdmin": Object {},
+  "type": "profile_page_school_admin_request_success",
+}
+`;
+
+exports[`should return the correct profile request success 6`] = `
+Object {
+  "profileDetailsDistAdmin": Object {},
+  "type": "profile_page_district_admin_request_success",
+}
+`;

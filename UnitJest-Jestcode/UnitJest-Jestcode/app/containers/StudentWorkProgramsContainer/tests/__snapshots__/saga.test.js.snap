@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentWorkProgramsContainer Saga deleteIreadStudentWorkDataRequest deleteIreadStudentWorkDataRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`StudentWorkProgramsContainer Saga deleteIreadStudentWorkDataRequest deleteIreadStudentWorkDataRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      "",
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`StudentWorkProgramsContainer Saga getIreadStudentWorkDataRequest getIReadStudentWorkDataRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`StudentWorkProgramsContainer Saga getIreadStudentWorkDataRequest getIReadStudentWorkDataRequestFailure 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`StudentWorkProgramsContainer Saga getIreadStudentWorkDataRequest getIreadStudentWorkDataRequest 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`StudentWorkProgramsContainer Saga getIreadStudentWorkDataRequest getIreadStudentWorkDataRequest 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;

@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resourcesProgramReducer post quick search post call failure 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: "errResources",
+}
+`;
+
+exports[`resourcesProgramReducer post quick search post call success 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+    program_id: "DTM",
+  },
+  errQuickSearch: false,
+}
+`;
+
+exports[`resourcesProgramReducer returns the initial state 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+}
+`;
+
+exports[`resourcesProgramReducer should handle Resources Program list request failure actions 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+  error: "err",
+  loaded: false,
+}
+`;
+
+exports[`resourcesProgramReducer should handle Resources Program list request success actions 1`] = `
+Immutable.Map {
+  output: Immutable.List [
+    Immutable.Map {
+      $: Immutable.Map {
+        community_id: "DTM2",
+        description: "Do The Math",
+      },
+    },
+    Immutable.Map {
+      $: Immutable.Map {
+        community_id: "FM",
+        description: "Fastt Math",
+      },
+    },
+  ],
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+  loaded: true,
+}
+`;
+
+exports[`resourcesProgramReducer should handle build info failure actions 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: "err",
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+}
+`;
+
+exports[`resourcesProgramReducer should handle build info success from action 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+    buildInfo: Immutable.Map {
+      build_info: Immutable.Map {
+        build_number: Immutable.List [
+          "2.2.2",
+        ],
+      },
+    },
+  },
+  errBuildInfo: false,
+  modalQuickStatus: false,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+}
+`;
+
+exports[`resourcesProgramReducer verify update quick modal status 1`] = `
+Immutable.Map {
+  output: Immutable.Map {
+  },
+  buildInfo: Immutable.Map {
+  },
+  errBuildInfo: false,
+  modalQuickStatus: true,
+  quickSearch: Immutable.Map {
+  },
+  errQuickSearch: false,
+}
+`;

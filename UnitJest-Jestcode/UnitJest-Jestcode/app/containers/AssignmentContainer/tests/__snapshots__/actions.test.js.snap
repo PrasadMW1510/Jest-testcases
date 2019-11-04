@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getClassAssignmentRequest 1`] = `
+Object {
+  "communityId": undefined,
+  "data": "jjj_ii",
+  "newGrid": Array [
+    Object {
+      "classId": "jjj_ii",
+      "createdForClass": "jjj_ii",
+    },
+  ],
+  "type": "app/AssignmentContainer/GET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST_TEMP",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getClassAssignmentRequest 2`] = `
+Object {
+  "communityId": undefined,
+  "data": "jjj_ii",
+  "newGrid": Array [],
+  "type": "app/AssignmentContainer/GET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST_TEMP",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getClassAssignmentRequest 3`] = `
+Object {
+  "communityId": undefined,
+  "data": "jjj_ii",
+  "newGrid": Array [],
+  "type": "app/AssignmentContainer/GET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST_TEMP",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for getClassesDataRequest 1`] = `
+Object {
+  "type": "app/AssignmentContainer/SET_PORTFOLIO_ASSIGNMENT_CLASSES",
+  "updTeacherObj": Array [
+    Object {
+      "data": Array [
+        "",
+      ],
+      "type": "PfAsignment",
+    },
+  ],
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for setClassRequestSuccess 1`] = `
+Object {
+  "type": "app/AssignmentContainer/SET_PORTFOLIO_ASSIGNMENT_CLASSES",
+  "updTeacherObj": Array [],
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for setInboxDataByCommunityId else 1`] = `
+Object {
+  "newData": Array [],
+  "type": "app/AssignmentContainer/SET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST",
+}
+`;
+
+exports[`AssignmentContainer actions All actions should return the correct constant for setInboxDataByCommunityId if 1`] = `
+Object {
+  "newData": Array [
+    Object {
+      "community_id": "iii_uuu",
+      "graded": "false",
+    },
+  ],
+  "type": "app/AssignmentContainer/SET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST",
+}
+`;

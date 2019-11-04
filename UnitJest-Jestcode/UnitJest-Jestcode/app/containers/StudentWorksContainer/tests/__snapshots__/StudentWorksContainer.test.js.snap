@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StudentWorksContainer /> Expect to render correctly 1`] = `
+<div
+  className="student-work-page"
+>
+  <div
+    className="student-work-leftpanel-container"
+  >
+    <div
+      className="student-work-header-block"
+    >
+      <PortfolioTreeMenu
+        districtProfile=""
+        getGradeDetailsRequest={[Function]}
+        getPortfolioClassDetailsRequest={[Function]}
+        getSchoolDetailsRequest={[Function]}
+        location={Object {}}
+        makeSelectLoginUserOrg="School"
+        makeSelectProfileUserId=""
+        makeSelectProfileUserOrgId=""
+        profileUserType="Administrator"
+        schoolData=""
+        showIReadStudentWorkModal={[Function]}
+        showInboxProgram={[Function]}
+        showMath180Modal={[Function]}
+        showRead180NgModal={[Function]}
+        showRead180StudentWorkModal={[Function]}
+        showSystem44StudentGoalsModal={[Function]}
+        studentworkscontainer={
+          Object {
+            "treeData": "",
+          }
+        }
+        userType="Administrator"
+      />
+    </div>
+  </div>
+  <div
+    className="student-work-rightpanel-container"
+  >
+    <StudentWorks
+      location={Object {}}
+      showIReadStudentWorkModal={[Function]}
+      showInboxProgram={[Function]}
+      showSystem44StudentGoalsModal={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<StudentWorksContainer /> Expect to render correctly 2`] = `
+<div
+  className="student-work-page"
+>
+  <div
+    className="student-work-leftpanel-container"
+  >
+    <div
+      className="student-work-header-block"
+    >
+      <PortfolioTreeMenu
+        districtProfile=""
+        getGradeDetailsRequest={[Function]}
+        getPortfolioClassDetailsRequest={[Function]}
+        getSchoolDetailsRequest={[Function]}
+        location={Object {}}
+        makeSelectLoginUserOrg="School"
+        makeSelectProfileUserId=""
+        makeSelectProfileUserOrgId=""
+        profileUserType="Tech"
+        schoolData=""
+        showIReadStudentWorkModal={[Function]}
+        showInboxProgram={[Function]}
+        showMath180Modal={[Function]}
+        showRead180NgModal={[Function]}
+        showRead180StudentWorkModal={[Function]}
+        showSystem44StudentGoalsModal={[Function]}
+        studentworkscontainer={
+          Object {
+            "treeData": "",
+          }
+        }
+        userType="Tech"
+      />
+    </div>
+  </div>
+  <div
+    className="student-work-rightpanel-container"
+  >
+    <StudentWorks
+      location={Object {}}
+      showIReadStudentWorkModal={[Function]}
+      showInboxProgram={[Function]}
+      showSystem44StudentGoalsModal={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<StudentWorksContainer /> Expect to render correctly 3`] = `
+<div
+  className="student-work-page"
+>
+  <div
+    className="student-work-leftpanel-container"
+  >
+    <div
+      className="student-work-header-block"
+    >
+      <PortfolioTreeMenu
+        districtProfile=""
+        getGradeDetailsRequest={[Function]}
+        getPortfolioClassDetailsRequest={[Function]}
+        getSchoolDetailsRequest={[Function]}
+        location={Object {}}
+        makeSelectLoginUserOrg="School"
+        makeSelectProfileUserId=""
+        makeSelectProfileUserOrgId=""
+        profileUserType="Teacher"
+        schoolData=""
+        showIReadStudentWorkModal={[Function]}
+        showInboxProgram={[Function]}
+        showMath180Modal={[Function]}
+        showRead180NgModal={[Function]}
+        showRead180StudentWorkModal={[Function]}
+        showSystem44StudentGoalsModal={[Function]}
+        studentworkscontainer={
+          Object {
+            "treeData": "",
+          }
+        }
+        userType="Teacher"
+      />
+    </div>
+  </div>
+  <div
+    className="student-work-rightpanel-container"
+  >
+    <StudentWorks
+      location={Object {}}
+      showIReadStudentWorkModal={[Function]}
+      showInboxProgram={[Function]}
+      showSystem44StudentGoalsModal={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<StudentWorksContainer /> Expect to render correctly 4`] = `
+<div
+  className="student-work-page"
+>
+  <div
+    className="student-work-leftpanel-container"
+  >
+    <div
+      className="student-work-header-block"
+    >
+      <PortfolioTreeMenu
+        districtProfile=""
+        getGradeDetailsRequest={[Function]}
+        getPortfolioClassDetailsRequest={[Function]}
+        getSchoolDetailsRequest={[Function]}
+        location={Object {}}
+        makeSelectLoginUserOrg="School"
+        makeSelectProfileUserId=""
+        makeSelectProfileUserOrgId=""
+        profileUserType="Tea"
+        schoolData=""
+        showIReadStudentWorkModal={[Function]}
+        showInboxProgram={[Function]}
+        showMath180Modal={[Function]}
+        showRead180NgModal={[Function]}
+        showRead180StudentWorkModal={[Function]}
+        showSystem44StudentGoalsModal={[Function]}
+        studentworkscontainer={
+          Object {
+            "treeData": "",
+          }
+        }
+        userType="Tea"
+      />
+    </div>
+  </div>
+  <div
+    className="student-work-rightpanel-container"
+  >
+    <StudentWorks
+      location={Object {}}
+      showIReadStudentWorkModal={[Function]}
+      showInboxProgram={[Function]}
+      showSystem44StudentGoalsModal={[Function]}
+    />
+  </div>
+</div>
+`;

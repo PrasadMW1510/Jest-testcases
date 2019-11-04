@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResourcesAdvancedView /> Expect to render itself 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+    </select>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesAdvancedView /> Expect to render when an array is send 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+      <option
+        key="TOP0300"
+        value="TOP0300"
+      >
+        Group students
+      </option>
+      <option
+        key="TOP0300"
+        value="TOP0300"
+      >
+         - Good students
+      </option>
+    </select>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesAdvancedView /> resourcesStrandDropDown with data 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+    </select>
+  </div>
+  <div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--strand"
+      >
+        Strand:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_strand"
+          value="select_a_strand"
+        >
+          Select a strand
+        </option>
+        <option
+          key="23234"
+          value="Test Name"
+        >
+          Test Name
+        </option>
+      </select>
+    </div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--skill"
+      >
+        Skill:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_skill"
+          value="select_a_skill"
+        >
+          Select a skill
+        </option>
+      </select>
+    </div>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesAdvancedView /> verify based on data click on the go button 1`] = `[Function]`;
+
+exports[`<ResourcesAdvancedView /> verify based on data verify the sortTerm update 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+      <option
+        key="TOP0300"
+        value="TOP0300"
+      >
+        Group students
+      </option>
+    </select>
+  </div>
+  <div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--strand"
+      >
+        Strand:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_strand"
+          value="select_a_strand"
+        >
+          Select a strand
+        </option>
+        <option
+          key="23234"
+          value="Test Name"
+        >
+          Test Name
+        </option>
+      </select>
+    </div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--skill"
+      >
+        Skill:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_skill"
+          value="select_a_skill"
+        >
+          Select a skill
+        </option>
+        <option
+          key="8989"
+          value="8989"
+        >
+          testName
+        </option>
+      </select>
+    </div>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ResourcesAdvancedView /> verify based on data verify when the modalSearchStatus is set to true 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+      <option
+        key="TOP0300"
+        value="TOP0300"
+      >
+        Group students
+      </option>
+    </select>
+  </div>
+  <div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--strand"
+      >
+        Strand:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_strand"
+          value="select_a_strand"
+        >
+          Select a strand
+        </option>
+        <option
+          key="23234"
+          value="Test Name"
+        >
+          Test Name
+        </option>
+      </select>
+    </div>
+    <div>
+      <span
+        className="resources-advanced__text resources-advanced__text--skill"
+      >
+        Skill:
+      </span>
+      <select
+        className="resources-advanced__search-box"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          key="select_a_skill"
+          value="select_a_skill"
+        >
+          Select a skill
+        </option>
+        <option
+          key="8989"
+          value="8989"
+        >
+          testName
+        </option>
+      </select>
+    </div>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+  <ResourcesModalView
+    item={
+      Immutable.Map {
+      }
+    }
+    modalStatus={true}
+    sortUpdater={[Function]}
+    updateResourcesModalStatus={[Function]}
+  />
+</div>
+`;
+
+exports[`<ResourcesAdvancedView /> verify for skill value with stateSelected has a value 1`] = `
+<div
+  className="resources-advanced"
+>
+  Use the pull-down menus to begin your Resources search.
+  <div>
+    <span
+      className="resources-advanced__text"
+    >
+      Resource Type:
+    </span>
+    <select
+      className="resources-advanced__search-box"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        key="select_a_type"
+        value="select_a_type"
+      >
+        Select a type
+      </option>
+    </select>
+  </div>
+  <div>
+    <button
+      className="resources-advanced__button"
+      onClick={[Function]}
+    >
+      GO
+    </button>
+  </div>
+</div>
+`;

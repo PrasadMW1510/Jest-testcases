@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownControl /> Should render correctly when errors present 1`] = `
+<FormControl
+  className=""
+  error={true}
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={true}
+    required={false}
+  />
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    >
+      <option
+        key="option-0"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="option-1"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="option-2"
+        value={3}
+      >
+        3
+      </option>
+    </select>
+  </div>
+</FormControl>
+`;
+
+exports[`<DropdownControl /> Should render correctly with String input 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    <span
+      className="form-control__label-required"
+    >
+      *
+    </span>
+  </FormLabel>
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    >
+      <option
+        key="option-0"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="option-1"
+        value="two"
+      >
+        two
+      </option>
+      <option
+        key="option-2"
+        value={3}
+      >
+        3
+      </option>
+    </select>
+  </div>
+</FormControl>
+`;
+
+exports[`<DropdownControl /> Should render correctly with a custom class 1`] = `
+<FormControl
+  className="my-custom-class"
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  />
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    />
+  </div>
+</FormControl>
+`;
+
+exports[`<DropdownControl /> Should render correctly with custom label formatting 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  />
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    >
+      <option
+        key="option-0"
+        value={1}
+      >
+        test: 1
+      </option>
+      <option
+        key="option-1"
+        value={2}
+      >
+        test: 2
+      </option>
+      <option
+        key="option-2"
+        value={3}
+      >
+        test: 3
+      </option>
+    </select>
+  </div>
+</FormControl>
+`;
+
+exports[`<DropdownControl /> Should render correctly with items 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  />
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    >
+      <option
+        key="option-0"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="option-1"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="option-2"
+        value={3}
+      >
+        3
+      </option>
+    </select>
+  </div>
+</FormControl>
+`;
+
+exports[`<DropdownControl /> Should render correctly with required flag set 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    <span
+      className="form-control__label-required"
+    >
+      *
+    </span>
+  </FormLabel>
+  <div
+    className="form-control__dropdown"
+  >
+    <select
+      className="form-control__dropdown-select"
+    >
+      <option
+        key="option-0"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="option-1"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="option-2"
+        value={3}
+      >
+        3
+      </option>
+    </select>
+  </div>
+</FormControl>
+`;

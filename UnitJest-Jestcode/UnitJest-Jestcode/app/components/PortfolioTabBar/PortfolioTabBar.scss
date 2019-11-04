@@ -1,0 +1,66 @@
+.portfolio-content-panel {
+  height: 100%;
+  background-color: #9a6fb6;
+  border: 2px solid #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  float: left;
+  border-radius: 25px;
+}
+
+.portfolio-tab-panel {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  border-radius: 0 25px 25px;
+}
+
+.portfoloio-nav-bar {
+  background-color: transparent;
+  margin-top: 8px;
+  height: 31px;
+
+  .portfolio-nav-container {
+    padding-top: 4px;
+  }
+}
+
+.portfoloio-nav-bar .tab-bar__tab.nav-bar__tab--active {
+  &::before {
+    background-color: #fff;
+  }
+}
+
+.portfoloio-nav-bar .tab-bar__tab.nav-bar__tab--active {
+  &::after {
+    background-color: #fff;
+  }
+}
+
+.portfoloio-nav-bar .tab-bar__tab {
+  border-radius: 20px 35px 0 0;
+  color: #000;
+  height: 24px;
+  width: auto;
+  margin-right: 12px;
+}
+
+.portfoloio-nav-bar .tab-bar__tab::before {
+  border: 0 #000 solid;
+}
+
+.portfoloio-nav-bar .tab-bar__tab::after {
+  background: none;
+}
+
+.portfoloio-nav-bar .tab-bar__tab .tab-bar__text {
+  font-size: 12px;
+  width: 122px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.portfoloio-nav-bar .tab-bar__tab.tab-bar__tab--active,
+.tab-bar__tab:last-child {
+  /* width: auto;*/
+}

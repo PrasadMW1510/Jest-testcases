@@ -1,0 +1,401 @@
+.modal--searchresult-form {
+  animation: fadein 0.4s;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  outline: none;
+  height: 453px;
+  width: 401px;
+  padding: 0;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50.1%);
+}
+
+.modal--searchresult-form-no-teacher {
+  animation: fadein 0.4s;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  outline: none;
+  height: 532px;
+  width: 402px;
+  padding: 0;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -46.1%);
+}
+
+.modal--searchresult-form-no-teacher .search-result-close-button .btn,
+.modal--searchresult-form-no-teacher .search-result-close-button .btn--primary {
+  margin: 0 11px 0 0;
+  height: 25px;
+}
+
+.modal--searchresult-form-no-teacher .search-result-close-button .btn:hover,
+.modal--searchresult-form-no-teacher .search-result-close-button .btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.modal--searchresult-form-no-teacher .search-result-close-button .btn:focus,
+.modal--searchresult-form-no-teacher .search-result-close-button .btn--primary:focus {
+  outline: none;
+}
+
+.ser-title-row {
+  width: 100%;
+  background: #f75c40;
+  display: flex;
+  padding: 0 5px 0 10px;
+  height: 28px;
+  line-height: 28px;
+}
+
+.ser-modal-title {
+  color: #000;
+  float: left;
+  font-weight: 600;
+  width: 95%;
+}
+
+.ser-links {
+  float: right;
+  width: 106px;
+}
+
+.ser-links .previous {
+  color: #fff;
+  font-size: 11px;
+}
+
+.ser-links .next {
+  color: #fff;
+  font-size: 11px;
+}
+
+.search-result-details-row-content {
+  margin: 0 0 20px;
+}
+
+.search-result-details-row-content-one {
+  overflow-y: auto;
+  border: 1px solid #000;
+  color: #000;
+  margin: 40px 10px 10px;
+  height: 95px;
+}
+
+.search-result-details-row-content-one-data {
+  margin: 9px;
+}
+
+.search-result-details-row-content-two {
+  overflow-y: auto;
+  border: 1px solid #000;
+  color: #000;
+  margin: 40px 10px 10px;
+  height: 325px;
+}
+
+.search-result-details-row-content-bg {
+  border: 1px solid #000;
+  color: #000;
+  margin: 10px;
+  background: #fff2d0;
+  padding: 5px 0;
+  height: 80px;
+}
+
+.search-result-details-row-content-bg-width-data {
+  margin: 3px;
+}
+
+.search-result-details-row-content-bg .search-result-details-row .search-result-details-label {
+  width: 45%;
+}
+
+.search-result-details-row .search-result-details-label {
+  margin: 1px 0;
+}
+
+.search-result-details-row-content-bg .library-copy__input {
+  height: 20px;
+  border: 1px solid #000;
+  width: 30px;
+  background: #fff;
+  text-indent: 5px;
+}
+
+.search-result-details-row-content-bg-width .word-count__input {
+  height: 20px;
+  border: 1px solid #000;
+  width: 80px;
+  background: #fff;
+  text-indent: 5px;
+  margin: 0 5px;
+  box-shadow: 0 0 transparent;
+}
+
+.search-result-details-row-content-bg-width .is-fiction {
+  border: 1px solid #000;
+  background: #fff;
+  text-indent: 5px;
+  width: 23px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+.search-result-details-row-content-bg-width .is-non-fiction {
+  border: 1px solid #000;
+  background: #fff;
+  text-indent: 5px;
+  width: 23px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+.search-result-details-row-content-bg-width {
+  border: 1px solid #000;
+  color: #000;
+  margin: 8px;
+  background: #fff2d0;
+  padding: 5px 0;
+  height: 218px;
+}
+
+.search-result-details-row {
+  margin: 0 10px;
+  font-size: 11px;
+  min-height: 25px;
+  display: flex;
+}
+
+.search-result-details-row.fiction {
+  min-height: 20px;
+}
+
+.search-result-details-row .search-result-details-label {
+  width: 43%;
+  float: left;
+  text-align: right;
+  font-weight: 600;
+}
+
+.search-result-details-row .search-result-details-label-teacher__made {
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+
+.label-word-count__warning,
+.label-rl-warning,
+.label-points__warning,
+.label-grl-warning {
+  color: #f00;
+  width: 35%;
+  float: left;
+  text-align: right;
+}
+
+.search-result-details-row .search-result-details-text {
+  float: right;
+  text-align: left;
+  font-weight: normal;
+  overflow: hidden;
+  margin: 0 0 0 4px;
+  width: 50%;
+}
+
+.modal--searchresult-form .search-result-details-row:first-child .search-result-details-text {
+  text-overflow: ellipsis;
+  width: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.modal--searchresult-form .search-result-details-row:first-child .search-result-details-text:hover {
+  background: #ff9;
+  box-shadow: 2px 2px #cdcdcd;
+  text-overflow: initial;
+  width: auto;
+  overflow: visible;
+  white-space: nowrap;
+  cursor: initial;
+  height: 20px;
+}
+
+.search-result-details-row .search-result-details-text-botom-box {
+  width: 65%;
+  float: right;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 5px;
+  overflow-x: hidden;
+}
+
+.search-result-details-row .search-result-details-text-botom-box-radio {
+  width: 65%;
+  float: right;
+  text-align: left;
+  font-weight: normal;
+  padding-left: 5px;
+  overflow-x: hidden;
+}
+
+.txt-right {
+  text-align: right;
+  width: 151px;
+}
+
+.search-result-details-row-content-bot {
+  margin: 0;
+  height: 30px;
+}
+
+.ser-left-txt {
+  float: left;
+  color: #00f;
+  font-size: 11px;
+  padding: 5px 9px 0;
+}
+
+.search-result-close-button {
+  float: right;
+  display: flex;
+  margin: 0;
+}
+
+.search-result-close-button .btn--secondary {
+  margin: 0 15px;
+  width: 90px;
+  height: 26px;
+  min-width: 90px;
+}
+
+.search-result-details-btn--secondary:hover {
+  border-style: outset;
+}
+
+.search-result-close-button .btn,
+.search-result-close-button .btn--secondary,
+.search-result-close-button .btn--primary {
+  margin: 22px 10px 0 1px;
+  width: 90px;
+  min-height: 26px;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+.save-message__quiz {
+  text-align: center;
+  color: #f00;
+  font-size: 11px;
+  line-height: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal--searchresult-form .btn {
+  min-width: 90px;
+  width: 90px;
+  cursor: pointer;
+  min-height: 27px;
+  margin: 0 12px 0 0;
+  height: 25px;
+}
+
+.modal--searchresult-form .btn:hover {
+  border: 1px solid #000;
+}
+
+.modal--searchresult-form .btn:focus {
+  outline: 0;
+}
+
+.modal--searchresult-form .empty-fields__warning {
+  color: #f00;
+  font-size: 11px;
+  margin: 20px 14px -37px 11px;
+}
+
+.message-log-modal {
+  width: 272px;
+  height: 175px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.message-log-modal__message {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: auto;
+  text-align: center;
+  font-size: 12px;
+  white-space: pre-line;
+  overflow: hidden;
+}
+
+.message-log-modal__ok {
+  margin: 10px auto 0;
+  color: #fff;
+  background: #ed5e1c;
+  font-family: inherit;
+  width: 56px;
+  height: 24px;
+  font-size: 13px;
+}
+
+.pop-up-container .error {
+  background: #ee3010;
+  line-height: 23px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: left;
+  text-indent: 12px;
+  height: 25px;
+  font-size: 11px;
+}
+
+.pop-up-container .error-msg {
+  padding: 7px;
+  margin: 0;
+  font-family: inherit;
+  height: 85px;
+  line-height: 12px;
+  overflow-y: scroll;
+}
+
+.search-result-details-row-2 {
+  margin: 0 10px;
+  font-size: 11px;
+  min-height: 25px;
+  display: flex;
+}
+
+.search-result-details-row-content-bg .search-result-details-row-2 .search-result-details-label {
+  width: 45%;
+}
+
+.search-result-details-row-2 .search-result-details-label {
+  margin: 1px 0;
+}
+
+.search-result-details-row-2.fiction {
+  min-height: 20px;
+}
+
+.search-result-details-row-2 .search-result-details-label {
+  width: 43%;
+  float: left;
+  text-align: right;
+  font-weight: 600;
+}
+
+.search-result-details-row-2 .search-result-details-label-teacher__made {
+  width: 35%;
+  float: left;
+  text-align: right;
+}

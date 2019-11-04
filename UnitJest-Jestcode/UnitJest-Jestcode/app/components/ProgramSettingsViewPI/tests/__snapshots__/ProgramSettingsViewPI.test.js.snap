@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsViewPI /> expect to render ProgramSettingsViewPI Expect to render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="pi-settings__heading"
+  >
+    Use these options to adjust Phonics Inventory settings.
+  </span>
+  <div
+    className="pi-settings__content"
+  >
+    <div
+      className="pi-settings__quadrants1"
+    >
+      <span
+        className="pi-settings__quadrants-heading"
+      >
+        English Language Learner Audio Instructions
+      </span>
+      <div
+        className="pi-setting__checkbox"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxId="spanish_support"
+          checkboxName="settingsFourStateCheckbox"
+          checkboxText="Enable Spanish audio instructions"
+          currentCheckboxValue="0"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+                "2",
+              ],
+              "uncheckedDisabled": Array [
+                "-1",
+              ],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+    <div
+      className="pi-settings__quadrants2"
+    >
+      <span
+        className="pi-settings__quadrants-heading"
+      >
+        Accuracy-Only Scoring
+      </span>
+      <div
+        className="pi-setting__checkbox"
+      >
+        <SettingsFourStateCheckbox
+          checkboxClass=""
+          checkboxId="requires_accommodation"
+          checkboxName="settingsFourStateCheckbox"
+          checkboxText="Enable accuracy-only scoring"
+          currentCheckboxValue="0"
+          disabled={false}
+          handleChangeCheckboxValue={[Function]}
+          statusMap={
+            Object {
+              "checkedDisabled": Array [],
+              "checkedEnabled": Array [
+                "1",
+              ],
+              "mixedDisabled": Array [],
+              "mixedEnabled": Array [
+                "-2",
+                "2",
+              ],
+              "uncheckedDisabled": Array [
+                "-1",
+              ],
+              "uncheckedEnabled": Array [
+                "0",
+              ],
+            }
+          }
+          textClass=""
+        />
+      </div>
+    </div>
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;

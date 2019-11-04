@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read180NgAssaignmentContainer reducer should handle GET_STUDENTDETAIL_SUCCESS: 1`] = `
+Immutable.Map {
+  studentDetails: Object {},
+  postNewAssignment: Immutable.Map {
+  },
+}
+`;
+
+exports[`Read180NgAssaignmentContainer reducer should handle POST_NEW_ASSIGNMENT_SUCCESS: 1`] = `
+Immutable.Map {
+  studentDetails: Immutable.List [
+  ],
+  postNewAssignment: Object {},
+}
+`;

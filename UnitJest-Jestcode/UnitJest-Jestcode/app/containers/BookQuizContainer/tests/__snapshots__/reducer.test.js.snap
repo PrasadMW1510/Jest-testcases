@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bookQuizContainerReducer reducer should return initialState when resetSearchMetaData 1`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.List [
+  ],
+  searchOpts: Immutable.Map {
+  },
+  searchTerm: undefined,
+}
+`;
+
+exports[`bookQuizContainerReducer reducer should return initialState when resetSearchMetaData 2`] = `
+Immutable.Map {
+  error: false,
+  searchResults: Immutable.List [
+  ],
+  searchOpts: Immutable.Map {
+  },
+  searchTerm: "",
+}
+`;

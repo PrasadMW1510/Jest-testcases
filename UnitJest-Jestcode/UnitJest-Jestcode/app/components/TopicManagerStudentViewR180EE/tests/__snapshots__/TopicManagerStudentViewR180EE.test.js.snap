@@ -1,0 +1,1213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopicManagerStudentViewR180EE /> rerender based on topics being skipped Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Next Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2 *
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            >
+              Mummies, Bones and Garbage (A10, Level 1)
+            </span>
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            >
+              The Great Dino Debate (A10.01)
+            </span>
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A10"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="A10.01"
+      topicName="Mummies, Bones and Garbage - The Great Dino Debate"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_complete_levels": Array [
+                "mockTopicCompleteLevels",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <div
+      className="topic-manager-student-view__label"
+    >
+      * This student’s level has changed. The next level will take effect when the student begins a new segment.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is not set Expect to render correctly 1`] = `
+<React.Fragment>
+  <SettingsMessage
+    message1="This student must have a level assigned to them before you can use the Topic Manager."
+  />
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set all current_segments are 0 call topics are disabled Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Current Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            />
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            />
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID={null}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="null.0null"
+      topicName="null - null"
+      topics={
+        Object {
+          "student_level": Array [
+            "2",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set all current_segments are 0 student_level is => 2 Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Current Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            >
+              Student Choice
+            </span>
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            />
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID={null}
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="null.0null"
+      topicName="Student Choice - null"
+      topics={
+        Object {
+          "student_level": Array [
+            "2",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set all current_segments are 0 student_level is => 2 getStudentLevel 1`] = `"2"`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set all current_segments are 0 student_level is 1 Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Next Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2 *
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            >
+              Can You Believe it? (A01, Level 1)
+            </span>
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            >
+              Crazy Horse (A01.01)
+            </span>
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="A01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="A01.01"
+      topicName="Can You Believe it? - Crazy Horse"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <div
+      className="topic-manager-student-view__label"
+    >
+      * This student’s level has changed. The next level will take effect when the student begins a new segment.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set current_segement is B01 student_level is => 2 Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Current Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            >
+              Art Attack (B01)
+            </span>
+            <button
+              className="topic-manager-student-view__level-text--skip"
+              onClick={[Function]}
+            >
+              Skip
+            </button>
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            >
+              Crop Art (B01.01)
+            </span>
+            <button
+              className="topic-manager-student-view__level-text--skip"
+              onClick={[Function]}
+            >
+              Skip
+            </button>
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="B01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="B01.01"
+      topicName="Art Attack - Crop Art"
+      topics={
+        Object {
+          "student_level": Array [
+            "2",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set current_segement is B01 student_level is => 2 handleSegmentSkipClicked message matches snapshot 1`] = `
+<span>
+  Are you sure you want 
+  <Connect(UserTitleText) />
+   to skip 
+  Crop Art (B01.01)
+  ?
+</span>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set current_segement is B01 student_level is => 2 handleTopicSkipClicked message matches snapshot 1`] = `
+<span>
+  Are you sure you want 
+  <Connect(UserTitleText) />
+   to skip 
+  Art Attack (B01)
+  ?
+</span>
+`;
+
+exports[`<TopicManagerStudentViewR180EE /> student_level is set current_segement is B01 student_level is 1 Expect to render correctly 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <React.Fragment>
+      <div
+        className="topic-manager-student-view__level"
+      >
+        <div
+          className="topic-manager-student-view__level-sections"
+        >
+          <span
+            className="topic-manager-student-view__level-labels"
+          >
+            Next Level:
+          </span>
+          <span
+            className="topic-manager-student-view__level-text"
+          >
+            2 *
+          </span>
+        </div>
+        <React.Fragment>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Topic:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text--topic"
+            >
+              Art Attack (B01, Level 1)
+            </span>
+            <button
+              className="topic-manager-student-view__level-text--skip"
+              onClick={[Function]}
+            >
+              Skip
+            </button>
+          </div>
+          <div
+            className="topic-manager-student-view__level-sections"
+          >
+            <span
+              className="topic-manager-student-view__level-labels"
+            >
+              Current Segment:
+            </span>
+            <span
+              className="topic-manager-student-view__level-text"
+            >
+              Crop Art (B01.01)
+            </span>
+            <button
+              className="topic-manager-student-view__level-text--skip"
+              onClick={[Function]}
+            >
+              Skip
+            </button>
+          </div>
+        </React.Fragment>
+      </div>
+    </React.Fragment>
+    <div
+      className="topic-manager-student-view__label--inline-block"
+    >
+      Use check boxes to enable or disable Topic Software.
+    </div>
+    <TopicManagerStudentViewTable
+      currentTopicID="B01"
+      handleToggleEnabled={[Function]}
+      secondColumnHeader="Stage"
+      skipTopic={false}
+      skippedLevel=""
+      skippedTopicId={null}
+      topicId="B01.01"
+      topicName="Art Attack - Crop Art"
+      topics={
+        Object {
+          "student_level": Array [
+            "1",
+          ],
+          "topic_cd": Array [
+            Object {
+              "cd_name": Array [
+                "A01",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crazy Horse",
+              ],
+              "segment2_name": Array [
+                "Polar Bears",
+              ],
+              "segment3_name": Array [
+                "Art Cars",
+              ],
+              "segment4_name": Array [
+                "I'm No Clown",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Can You Believe it?",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "A10",
+              ],
+              "current_segment": Array [
+                "0",
+              ],
+              "enable": Array [
+                "0",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "The Great Dino Debate",
+              ],
+              "segment2_name": Array [
+                "Mysteries of the Mummy",
+              ],
+              "segment3_name": Array [
+                "Ancient Guards",
+              ],
+              "segment4_name": Array [
+                "Tracing Trash",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Mummies, Bones and Garbage",
+              ],
+            },
+            Object {
+              "cd_name": Array [
+                "B01",
+              ],
+              "current_segment": Array [
+                "1",
+              ],
+              "enable": Array [
+                "1",
+              ],
+              "globally_enabled": Array [
+                "1",
+              ],
+              "segment1_name": Array [
+                "Crop Art",
+              ],
+              "segment2_name": Array [
+                "Halls of Fame",
+              ],
+              "segment3_name": Array [
+                "Young at Art",
+              ],
+              "segment4_name": Array [
+                "STOMP",
+              ],
+              "supplimental": Array [
+                "0",
+              ],
+              "topic_name": Array [
+                "Art Attack",
+              ],
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="topic-manager-student-view__label"
+    >
+      ‘S’ indicates manual skip by the teacher.
+    </div>
+    <div
+      className="topic-manager-student-view__label"
+    >
+      * This student’s level has changed. The next level will take effect when the student begins a new segment.
+    </div>
+    <ProgramSettingsButtons
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={false}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </form>
+</React.Fragment>
+`;

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when Error should throw error 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when Error should throw error 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when Error should throw error 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question1",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question2",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run 6`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question3",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run with Question3 undefined 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run with Question3 undefined 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run with Question3 undefined 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run with Question3 undefined 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question1",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should successfully run with Question3 undefined 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question2",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with Question is null 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with Question is null 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with Question is null 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with Question is null 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "question1",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with service response mSkillsWorkItem null 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with service response mSkillsWorkItem null 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with service response mSkillsWorkItem null 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga getStudentProgramDetailsDataRequest when mSkillsWorkItem is undefined should unsuccessfully run with service response mSkillsWorkItem null 4`] = `undefined`;
+
+exports[`InboxModalContainer Saga saveStudentEvaluationData getSearchResultsRequestfailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`InboxModalContainer Saga saveStudentEvaluationData getSearchResultsRequestsuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;

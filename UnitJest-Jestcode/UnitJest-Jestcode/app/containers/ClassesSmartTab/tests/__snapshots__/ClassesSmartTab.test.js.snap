@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassesSmartTab /> For name Should display the logged in user name if no other data is present 1`] = `"Jane Doe"`;
+
+exports[`<ClassesSmartTab /> For name Should display the selected grade name if present 1`] = `"Kindergarten"`;
+
+exports[`<ClassesSmartTab /> For name Should display the selected school name if present 1`] = `"School 1"`;
+
+exports[`<ClassesSmartTab /> For name Should display the selected teacher name if present 1`] = `"John Smith"`;
+
+exports[`<ClassesSmartTab /> verify classId selected negative scenario 1`] = `
+<SmartBarTab
+  defaultChecked={true}
+  forName="Jane Doe"
+  isTabActive={false}
+  items={
+    Array [
+      Object {
+        "id": "cl1",
+        "text": "class1",
+      },
+      Object {
+        "id": "cl2",
+        "text": "class2",
+      },
+      Object {
+        "id": "cl3",
+        "text": "class3",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  selectedItemId=""
+  smartbarSelectedUpdateData={[Function]}
+  title="Classes"
+/>
+`;

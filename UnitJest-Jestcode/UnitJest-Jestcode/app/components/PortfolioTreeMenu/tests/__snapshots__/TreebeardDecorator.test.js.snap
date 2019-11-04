@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TreebeardDecorator  /> Expect to render correctly 1`] = `"Loading"`;
+
+exports[`<TreebeardDecorator  /> Expect to render correctly 2`] = `
+<div
+  className="portfolio-treenode"
+>
+  <div
+    className="portfolio-treenode"
+  >
+    <i
+      className="fa fa-folder"
+    >
+      <img
+        alt=""
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+    </i>
+    Loadin
+  </div>
+</div>
+`;
+
+exports[`<TreebeardDecorator  /> Expect to render correctly 3`] = `
+<div
+  className="portfolio-treenode"
+>
+  <div
+    className="portfolio-treenode"
+  >
+    <i
+      className="fa fa-file-text"
+    >
+      <img
+        alt=""
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+    </i>
+    Loadin
+  </div>
+</div>
+`;
+
+exports[`<TreebeardDecorator  /> Expect to render correctly 4`] = `
+<div
+  className="portfolio-treenode"
+>
+  <div
+    className="portfolio-treenode"
+  >
+    <i
+      className="fa fa-folder"
+    >
+      <img
+        alt=""
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+    </i>
+    Loadin
+  </div>
+</div>
+`;

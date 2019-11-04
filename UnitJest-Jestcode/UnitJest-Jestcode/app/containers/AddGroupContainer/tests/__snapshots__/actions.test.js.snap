@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddGroupContainer actions Get class with student info 1`] = `
+Object {
+  "type": "get_classes_with_student_info",
+}
+`;
+
+exports[`AddGroupContainer actions Get class with student info Failure 1`] = `
+Object {
+  "error": undefined,
+  "type": "get_classes_with_student_info_failure",
+}
+`;
+
+exports[`AddGroupContainer actions Get class with student info Success 1`] = `
+Object {
+  "classInfo": undefined,
+  "type": "get_classes_with_student_info_success",
+}
+`;
+
+exports[`AddGroupContainer actions Get post group 1`] = `
+Object {
+  "group": undefined,
+  "type": "post_group",
+}
+`;
+
+exports[`AddGroupContainer actions Post group failure 1`] = `
+Object {
+  "error": undefined,
+  "type": "post_group_failure",
+}
+`;
+
+exports[`AddGroupContainer actions Post group success 1`] = `
+Object {
+  "groupInfo": undefined,
+  "type": "post_group_success",
+}
+`;
+
+exports[`AddGroupContainer actions get group info 1`] = `
+Object {
+  "type": "get_group_info",
+}
+`;
+
+exports[`AddGroupContainer actions get group info failure 1`] = `
+Object {
+  "error": undefined,
+  "type": "get_group_info_failure",
+}
+`;
+
+exports[`AddGroupContainer actions get group info success 1`] = `
+Object {
+  "groupDetails": undefined,
+  "type": "get_group_info_success",
+}
+`;
+
+exports[`AddGroupContainer actions reset the group status 1`] = `
+Object {
+  "type": "reset_group_status",
+}
+`;

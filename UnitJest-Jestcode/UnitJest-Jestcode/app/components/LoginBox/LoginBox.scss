@@ -1,0 +1,56 @@
+.login {
+  float: right;
+  width: 234px;
+}
+
+.login__username,
+.login__password {
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.login__hint,
+.login__submit {
+  width: 225px;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.login__hint-text {
+  right: 0;
+  position: absolute;
+  font-size: 0.8em;
+  color: #00f;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.login__button {
+  right: 0;
+  position: absolute;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 0;
+  width: 100px;
+  border: 2px solid #000;
+}
+
+.login__username-label,
+.login__password-label {
+  display: inline-block;
+  width: 65px;
+  font-weight: bold;
+  font-size: 0.7em;
+}
+
+/* stylelint-disable-next-line selector-max-id */
+#login__username-input,
+#login__password-input {
+  background-color: #fff;
+  width: 160px;
+}

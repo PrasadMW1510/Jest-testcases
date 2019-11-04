@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<S44CheckboxSection /> isHalfHeight is false Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--full-height s44ng-settings__section--half-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    mock section title
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="mock checkbox text"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44CheckboxSection /> isHalfHeight is true Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--half-height s44ng-settings__section--half-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    mock section title
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="mock checkbox text"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44CheckboxSection /> isHalfWidth is false Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--half-height s44ng-settings__section--full-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    mock section title
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="mock checkbox text"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`<S44CheckboxSection /> isHalfWidth is true Expect to render correctly 1`] = `
+<div
+  className="s44ng-settings__section s44ng-settings__section--half-height s44ng-settings__section--half-width"
+>
+  <div
+    className="s44ng-settings__section-title"
+  >
+    mock section title
+  </div>
+  <div
+    className="s44ng-settings__section-content"
+  >
+    <SettingsFourStateCheckbox
+      checkboxClass=""
+      checkboxName="settingsFourStateCheckbox"
+      checkboxText="mock checkbox text"
+      currentCheckboxValue="0"
+      disabled={false}
+      handleChangeCheckboxValue={[Function]}
+      statusMap={
+        Object {
+          "checkedDisabled": Array [],
+          "checkedEnabled": Array [
+            "1",
+          ],
+          "mixedDisabled": Array [],
+          "mixedEnabled": Array [
+            "-2",
+            "2",
+          ],
+          "uncheckedDisabled": Array [
+            "-1",
+          ],
+          "uncheckedEnabled": Array [
+            "0",
+          ],
+        }
+      }
+      textClass=""
+    />
+  </div>
+</div>
+`;

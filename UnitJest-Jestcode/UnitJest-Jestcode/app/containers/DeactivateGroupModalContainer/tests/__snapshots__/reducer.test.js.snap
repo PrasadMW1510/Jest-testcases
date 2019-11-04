@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deactivateGroupModalContainerReducer should handle deactivate group request failure actions 1`] = `
+Immutable.Map {
+  error: "err",
+  deactivateGroup: Immutable.List [
+  ],
+}
+`;
+
+exports[`deactivateGroupModalContainerReducer should handle deactivate group request success actions 1`] = `
+Immutable.Map {
+  error: false,
+  deactivateGroup: undefined,
+}
+`;

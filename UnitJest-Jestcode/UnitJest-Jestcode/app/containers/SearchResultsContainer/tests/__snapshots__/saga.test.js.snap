@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest as length less than 0 else condition getAllTeacherMadeQuizDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest as length less than 0 else condition getAllTeacherMadeQuizDataRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "SrcSearchReq": Object {
+          "BookInfo": Object {
+            "Author": "",
+            "TeacherMade": true,
+            "Title": "",
+          },
+          "SortTerms": Object {
+            "SortTerm": Object {
+              "Order": "asc",
+              "Term": "Title",
+            },
+          },
+        },
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getAllTeacherMadeQuizDataRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getAllTeacherMadeQuizDataRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "SrcSearchReq": Object {
+          "SortTerms": Object {
+            "curPage": "2",
+          },
+        },
+      },
+      250,
+      "2",
+      Object {
+        "payload": undefined,
+        "type": "SearchResultsContainer/get_change_collection_results_request",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getAllTeacherMadeQuizDataRequestSuccess fails 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getAllTeacherMadeQuizDataRequest having payload getAllTeacherMadeQuizDataRequestSuccess fails 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      undefined,
+      Object {
+        "SrcSearchReq": Object {
+          "SortTerms": undefined,
+        },
+      },
+      250,
+      0,
+      Object {
+        "payload": undefined,
+        "type": "SearchResultsContainer/get_change_collection_results_request",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`Search Results Container saga getChangeCollectionResultsRequest getChangeCollectionResultsRequestFailure 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "searchResults": "abcd",
+      "type": "SearchResultsContainer/get_change_collection_results_request_success",
+    },
+    "channel": null,
+  },
+}
+`;

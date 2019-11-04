@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return the correct Program Settings  Enrollment count success 1`] = `
+Object {
+  "programEnrollmentSetting": "r180ung",
+  "type": "R180NG_program_settings_enrollment_request_success",
+}
+`;
+
+exports[`should return the correct Program Settings 1`] = `
+Object {
+  "type": "R180NG_program_settings_request",
+}
+`;
+
+exports[`should return the correct Program Settings 2`] = `
+Object {
+  "programsSettingChanged": Object {},
+  "type": "r180ng_save_request",
+}
+`;
+
+exports[`should return the correct Program Settings Enrollment count 1`] = `
+Object {
+  "type": "R180NG_program_settings_enrollment_request",
+}
+`;
+
+exports[`should return the correct Program Settings success 1`] = `
+Object {
+  "programSetting": "r180ung",
+  "type": "R180NG_program_settings_request_success",
+}
+`;
+
+exports[`should return the correct Program Settings success 2`] = `
+Object {
+  "type": "r180ng_save_request_success",
+}
+`;
+
+exports[`should return the correct correct Program Settings  Enrollment count failure 1`] = `
+Object {
+  "error": "error",
+  "type": "R180NG_program_settings_enrollment_request_failure",
+}
+`;
+
+exports[`should return the correct correct Program Settings failure 1`] = `
+Object {
+  "error": "error",
+  "type": "R180NG_program_settings_request_failure",
+}
+`;
+
+exports[`should return the correct correct Program Settings failure 2`] = `
+Object {
+  "error": "error",
+  "type": "r180ng_save_request_failure",
+}
+`;
+
+exports[`should return the correct correct r180ng topics failure 1`] = `
+Object {
+  "error": "error",
+  "type": "r180ng_save_request_failure",
+}
+`;
+
+exports[`should return the correct update R180NG Setting RequestSuccess with params 1`] = `
+Object {
+  "setting": "settings",
+  "type": "update_r180ngsetting_request_success",
+}
+`;
+
+exports[`should return the correct update R180NG Setting RequestSuccess without params 1`] = `
+Object {
+  "setting": Object {},
+  "type": "update_r180ngsetting_request_success",
+}
+`;

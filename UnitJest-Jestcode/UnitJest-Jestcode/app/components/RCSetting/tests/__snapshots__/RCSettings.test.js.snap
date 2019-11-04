@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RCSettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-restrict-quizzes",
+        "label": "Restrict Quizzes",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<RCSettings /> enrollmentCount is 0 renderRestrictQuizzesTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="District"
+  productName="Reading Counts!"
+/>
+`;
+
+exports[`<RCSettings /> enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="District"
+  productName="Reading Counts!"
+/>
+`;
+
+exports[`<RCSettings /> enrollmentCount is 10 isLoading is false renderRestrictQuizzesTab 1`] = `
+<SettingsMessage
+  message1="This content will be coming soon"
+/>
+`;
+
+exports[`<RCSettings /> enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<RCSettings /> enrollmentCount is 10 isLoading is true renderRestrictQuizzesTab 1`] = `<LoadingBar />`;
+
+exports[`<RCSettings /> enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;

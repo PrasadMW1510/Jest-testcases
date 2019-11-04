@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> Should mark a NavItem matching the \`activeItemId\` prop with appropriate class name 1`] = `
+<nav
+  className="navbar    "
+>
+  <div
+    active={true}
+    id="foo"
+    key=".0"
+  >
+    navbar item
+  </div>
+</nav>
+`;
+
+exports[`<NavBar /> Should mark a NavItem with \`active\` prop with appropriate class name 1`] = `
+<nav
+  className="navbar    "
+>
+  <div
+    active={true}
+    key=".0"
+  >
+    navbar item
+  </div>
+</nav>
+`;
+
+exports[`<NavBar /> Should not render if children are not valid 1`] = `
+<nav
+  className="navbar    "
+/>
+`;
+
+exports[`<NavBar /> Should render appropriate classes when there is an inset, theme or palette prop 1`] = `
+<nav
+  className="navbar navbar--theme-foo navbar--palette-bar navbar--inset "
+>
+  <div
+    key=".0"
+  >
+    navbar item
+  </div>
+</nav>
+`;
+
+exports[`<NavBar /> Should render correctly 1`] = `
+<nav
+  className="navbar    custom-class"
+  style={
+    Object {
+      "foo": "test-if-custom-prop-gets-passed-through-to-dom-element",
+    }
+  }
+>
+  <div
+    key=".0"
+  >
+    navbar item
+  </div>
+</nav>
+`;

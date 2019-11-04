@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Result Detail Container Action should return the correct constant for exportCustomQuizRequest 1`] = `
+Object {
+  "quizListexportData": Array [],
+  "type": "app/ExportCustomQuizList/export_custom_list",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for exportCustomQuizRequest 2`] = `
+Object {
+  "quizListexportData": Array [
+    Object {
+      "name": "quizListexportData   1",
+    },
+  ],
+  "type": "app/ExportCustomQuizList/export_custom_list",
+}
+`;
+
+exports[`Search Result Detail Container Action should return the correct constant for getExportDataFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "app/ExportCustomQuizList/fetching_export_data_failure",
+}
+`;

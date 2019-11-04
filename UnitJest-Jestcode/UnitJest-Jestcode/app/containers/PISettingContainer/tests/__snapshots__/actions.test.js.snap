@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsContainerFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PISettingContainer/PI_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsContainerRequest 1`] = `
+Object {
+  "type": "app/PISettingContainer/PI_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsContainerSuccess with params 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "app/PISettingContainer/PI_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsContainerSuccess without params 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/PISettingContainer/PI_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsSave 1`] = `
+Object {
+  "settingsData": "mockSettings",
+  "type": "app/PISettingContainer/PI_SETTINGS_SAVE",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/PISettingContainer/PI_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`PISettingContainer actions should return the correct constant for piSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/PISettingContainer/PI_SETTINGS_SAVE_SUCCESS",
+}
+`;

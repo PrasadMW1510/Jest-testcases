@@ -1,0 +1,1289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RosterPage /> Administrator should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> NonAdministrator should match the Teacher snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster isUsageSummaryLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster isUsageSummaryLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageAdminAccounts isManageAdminAccountsLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageAdminAccounts isManageAdminAccountsLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isStudentEnrollmentLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isStudentEnrollmentLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isTeacherAccessAppLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isTeacherAccessAppLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isTeacherAccessLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageStudentEnrollment isTeacherAccessLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isStudentEnrollmentLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isStudentEnrollmentLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isTeacherAccessAppLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isTeacherAccessAppLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isTeacherAccessLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/manageTeacherAccess isTeacherAccessLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/programSettings isProgramSettingsLoading is false should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is /roster/programSettings isProgramSettingsLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is false, pathname is not defined should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={false}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageSMA"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;
+
+exports[`<RosterPage /> isLoading isGlobalLoading is true should match snapshot 1`] = `
+<span>
+  <div
+    className="roster-content-heading"
+  >
+    <Connect(UserTitleText) />
+  </div>
+  <ContentPanel
+    loading={true}
+  >
+    <Route
+      component={[Function]}
+      path="/roster/programSettings"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programGrading"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/programCertificate"
+    />
+    <Route
+      path="/roster/manageStudentEnrollment"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageStudentLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherLicenses"
+      render={[Function]}
+    />
+    <Route
+      path="/roster/manageTeacherAccess"
+      render={[Function]}
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageInactiveAccounts"
+    />
+    <Route
+      component={[Function]}
+      path="/roster/manageAdminAccounts"
+    />
+    <Route
+      className="rosterRoute"
+      exact={true}
+      path="/roster"
+      render={[Function]}
+    />
+  </ContentPanel>
+</span>
+`;

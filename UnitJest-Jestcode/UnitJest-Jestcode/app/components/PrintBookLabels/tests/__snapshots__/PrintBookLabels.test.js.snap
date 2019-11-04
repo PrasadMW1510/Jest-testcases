@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrintBookLabels /> Expect to render correctly 1`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Empty Modal For Book Labels"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal-book-label__empty"
+  >
+    <div
+      className="print-book-label-empty__text"
+    >
+      There are no selected titles to print. Please select at least one title.
+    </div>
+    <div
+      className="empty-labels__buttons"
+    >
+      <div
+        className="empty-labels__secondary-button-ok"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<PrintBookLabels /> Expect to render correctly 2`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Book Labels"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--printbooklabel-quiz"
+  >
+    <div>
+      <div
+        className="print-show-label-quiz-list--orange"
+      >
+        <div
+          className="print-show-label-heading"
+        >
+          Print Book Labels
+        </div>
+      </div>
+      <div
+        className="print-show-label--countheader"
+      >
+        You have selected 
+        1
+         titles.
+      </div>
+      <div
+        className="print-show-label--layout"
+      >
+        <div
+          className="layouttext"
+        >
+          Customize the layout
+        </div>
+      </div>
+      <div
+        className="print-show-label--layout-content"
+      >
+        Use the check boxes to select information to appear on your labels.
+      </div>
+    </div>
+    <div
+      className="print-show-label--chckbox collapsible-book__wrapper"
+    >
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="lexile"
+          name="Lexile"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Lexile Level
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="showPoints"
+          name="Show Points"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Points
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="grl"
+          name="GRL"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show GRL
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="readingLevel"
+          name="Reading Level"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Reading Level
+      </div>
+      <div
+        className="pad-t5"
+      >
+        <input
+          checked={false}
+          className="valign-mid"
+          id="WideBookLabels"
+          name="radiochoice"
+          onChange={[Function]}
+          type="radio"
+          value="wideBook"
+        />
+        Wide Book Labels (Use label format Avery 5160 or 6460)
+      </div>
+      <div
+        className="pad-t5"
+      >
+        <input
+          checked={true}
+          className="valign-mid"
+          id="TallBookLabels"
+          name="radiochoice"
+          onChange={[Function]}
+          type="radio"
+          value="tallBook"
+        />
+        Tall Book Labels (Use label format Avery 5160 or 6460)
+      </div>
+      <div
+        className="print-custom-booklabel__textarea"
+      >
+        <div
+          className="print-booklabel__wrapper"
+        >
+          Number of labels to skip:
+          <input
+            className="print-custom-booklabel__textbox"
+            id="textboxLabel"
+            maxLength="2"
+            name="textboxLabel"
+            onChange={[Function]}
+            pattern="[0-9]*"
+            type="textbox"
+            value={0}
+          />
+        </div>
+        <span
+          className="print-custom-booklabel__span"
+        >
+          (Use this feature to "skip" labels if you are using a sheet of labels that is partially used. Max=29)
+        </span>
+      </div>
+      <div
+        className="print-custom-booklabel__buttons"
+      >
+        <div
+          className="print-custom-booklabel__cancel"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+            Cancel
+          </SAMButton>
+        </div>
+        <div
+          className="print-custom-booklabel__preview"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Preview
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<PrintBookLabels /> show error to be true 1`] = `
+<div>
+  <SAMModal
+    contentLabel="Print Book Labels"
+    id="pcq"
+    isOpen={true}
+    modalClassModifier="modal--printbooklabel-quiz"
+  >
+    <div>
+      <div
+        className="print-show-label-quiz-list--orange"
+      >
+        <div
+          className="print-show-label-heading"
+        >
+          Print Book Labels
+        </div>
+      </div>
+      <div
+        className="print-show-label--countheader"
+      >
+        You have selected 
+        1
+         titles.
+      </div>
+      <div
+        className="print-show-label--layout"
+      >
+        <div
+          className="layouttext"
+        >
+          Customize the layout
+        </div>
+      </div>
+      <div
+        className="print-show-label--layout-content"
+      >
+        Use the check boxes to select information to appear on your labels.
+      </div>
+    </div>
+    <div
+      className="print-show-label--chckbox collapsible-book__wrapper"
+    >
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="lexile"
+          name="Lexile"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Lexile Level
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="showPoints"
+          name="Show Points"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Points
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="grl"
+          name="GRL"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show GRL
+      </div>
+      <div
+        className="collapsible-book-list-names"
+      >
+        <input
+          checked={true}
+          className="collapsible-book-input"
+          id="readingLevel"
+          name="Reading Level"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="collapsible-book__checkbox collapsible-book__checkbox--checked"
+        />
+        Show Reading Level
+      </div>
+      <div
+        className="pad-t5"
+      >
+        <input
+          checked={false}
+          className="valign-mid"
+          id="WideBookLabels"
+          name="radiochoice"
+          onChange={[Function]}
+          type="radio"
+          value="wideBook"
+        />
+        Wide Book Labels (Use label format Avery 5160 or 6460)
+      </div>
+      <div
+        className="pad-t5"
+      >
+        <input
+          checked={false}
+          className="valign-mid"
+          id="TallBookLabels"
+          name="radiochoice"
+          onChange={[Function]}
+          type="radio"
+          value="tallBook"
+        />
+        Tall Book Labels (Use label format Avery 5160 or 6460)
+      </div>
+      <div
+        className="print-custom-booklabel__textarea"
+      >
+        <div
+          className="print-booklabel__wrapper"
+        >
+          Number of labels to skip:
+          <input
+            className="print-custom-booklabel__textbox"
+            id="textboxLabel"
+            maxLength="2"
+            name="textboxLabel"
+            onChange={[Function]}
+            pattern="[0-9]*"
+            type="textbox"
+            value={2}
+          />
+        </div>
+        <span
+          className="print-custom-booklabel__span"
+        >
+          (Use this feature to "skip" labels if you are using a sheet of labels that is partially used. Max=29)
+        </span>
+      </div>
+      <div
+        className="print-custom-booklabel__buttons"
+      >
+        <div
+          className="print-custom-booklabel__cancel"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+            Cancel
+          </SAMButton>
+        </div>
+        <div
+          className="print-custom-booklabel__preview"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Preview
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

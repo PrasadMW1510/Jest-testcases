@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramGradingContainer /> Expect to render correctly 1`] = `
+<div
+  className="roster-content-panel"
+>
+  <ProgramGradingView
+    enrollmentList={
+      Immutable.List [
+      ]
+    }
+    selectedProgram={
+      Object {
+        "display_image": "/a2dabdfecfde82f90145cbd702e07a6b.png",
+        "display_name": "Progress Space",
+        "settings": "Settings",
+      }
+    }
+  />
+</div>
+`;

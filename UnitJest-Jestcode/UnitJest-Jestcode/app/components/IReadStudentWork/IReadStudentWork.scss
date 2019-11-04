@@ -1,0 +1,470 @@
+.iread-student-work-modal--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 79vh;
+  position: relative;
+}
+
+.iread-student-work__show--modal {
+  width: 980px;
+  height: 630px;
+  padding: 0;
+  margin-top: 1.5%;
+  border: 0;
+  border-radius: 15px;
+}
+
+.iread-student-work__show--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 79vh;
+  position: relative;
+}
+
+.iread-student-work__show--purple {
+  background-color: #9a6fb6;
+  margin-top: 2%;
+  height: 38px;
+  line-height: 37px;
+  padding-left: 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.iread-student-work__show--heading {
+  float: left;
+}
+
+.iread-student-work__show--close {
+  position: absolute;
+  right: 3px;
+  background: #c895e8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 9px;
+  cursor: pointer;
+  top: 1px;
+}
+
+.iread-student-work__show--title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+}
+
+.iread-student-work--span {
+  font-style: normal;
+  padding: 0 5%;
+}
+
+.iread-student-work--box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin-right: 0.5%;
+  line-height: 40px;
+  height: 40px;
+}
+
+.iread-student-work--title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 0 2%;
+  height: 40px;
+}
+
+.iread-student-work--title textarea {
+  overflow: auto;
+  width: 100%;
+}
+
+.iread-student-work--mesg {
+  font-size: 13px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.modal--iread-modal {
+  width: 980px;
+  height: 630px;
+  padding: 0;
+  margin-top: 1.5%;
+  border: 0;
+  border-radius: 15px;
+}
+
+.iread-modal-list--wrapper {
+  width: 96%;
+  margin: auto;
+  height: 79vh;
+  position: relative;
+}
+
+.iread-modal-list--purple {
+  background-color: #9a6fb6;
+  margin-top: 2%;
+  height: 38px;
+  line-height: 37px;
+  padding-left: 2%;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.iread-student-work--heading {
+  float: left;
+}
+
+.iread-student-work--close {
+  position: absolute;
+  right: 3px;
+  background: #c895e8;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 9px;
+  cursor: pointer;
+  top: 1px;
+}
+
+.iread-student-work--title {
+  margin-bottom: 0.5%;
+  background: #e7e8e7;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+}
+
+.iread-student-work--title-span {
+  font-style: normal;
+}
+
+.iread-student-work--textbox1 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-student-work--textbox1::-webkit-inner-spin-button,
+.iread-student-work--textbox2::-webkit-inner-spin-button {
+  margin: 0;
+}
+
+.iread-student-work--textbox2 {
+  border: 1px solid;
+  width: 40px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-student-work--textbox3 {
+  border: 1px solid;
+  width: 30px;
+  text-align: center;
+  margin-left: 6px;
+}
+
+.iread-student-work--button-equals {
+  color: #fff;
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 13px;
+  width: 33px;
+  margin-top: 3px;
+}
+
+.iread-student-work--description-box {
+  width: 56%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+  float: left;
+  margin-right: 0.5%;
+}
+
+.iread-student-work__description--title {
+  background: #e7e8e7;
+  font-weight: bold;
+  font-size: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  height: 40px;
+  text-indent: 20px;
+}
+
+.iread-student-work--description-textarea {
+  height: 59%;
+  overflow-y: scroll;
+}
+
+.iread-student-work--textarea textarea {
+  width: 100%;
+  padding: 2%;
+}
+
+.iread-student-work--roster-textarea {
+  height: 280px;
+  overflow-y: scroll;
+  border: 1px solid #f1ecec;
+  border-radius: 0 25px;
+  margin-bottom: 10px;
+}
+
+.iread-modal-due-date {
+  width: 43%;
+  float: left;
+  margin-left: 0.5%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  height: 16%;
+}
+
+.iread-modal-due-date-content {
+  padding: 2%;
+  color: #000;
+  margin-left: 2%;
+  font-size: 14px;
+  display: flex;
+  min-height: 62px;
+}
+
+.iread-modal-due-date-span-content {
+  color: #000;
+}
+
+.iread-modal-assignment-roster-box {
+  width: 100%;
+  margin-top: 1%;
+  border: 1px solid #e7e8e7;
+  border-radius: 14px;
+  float: left;
+  height: 70%;
+}
+
+.iread-student-work__show--s44 {
+  min-height: 470px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+.iread-student-work__show--assignment {
+  margin: 10% 0;
+  width: 100%;
+}
+
+.iread-student-work__assignment--row {
+  display: flex;
+  margin: 0 10px;
+}
+
+.iread-student-work__comments--textbox {
+  width: 600px;
+  border: 1px solid #808080;
+  font-size: 13px;
+  height: 23px;
+  margin-left: 5px;
+}
+
+.iread-student-work__assignment--two {
+  font-size: 12px;
+  font-weight: 600;
+  text-indent: 20px;
+}
+
+.iread-student-work__assignment-one {
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.iread-student-work__wcpm--textbox {
+  width: 32px;
+  height: 22px;
+  text-align: center;
+  border: 1px solid #808080;
+}
+
+.iread-student-work__modal--button {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.iread-student-work__modal-buttons--firstset {
+  width: 30%;
+  float: left;
+}
+
+.iread-student-work__modal-buttons--firstset .btn,
+.iread-student-work__modal-buttons--secondset .btn {
+  background: #e7e8e7;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+  margin-right: 12px;
+  color: #000;
+  height: 25px;
+}
+
+.iread-student-work__modal-buttons--secondset .btn--secondary {
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.iread-modal-buttons-secondset-btn {
+  background: linear-gradient(#1989e5, #1f07f7);
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid;
+  font-size: 13px;
+  width: 70px;
+  margin-top: 3px;
+}
+
+.iread-student-work__modal-buttons--secondset {
+  float: right;
+  display: flex;
+}
+
+.mr-r-12 {
+  margin-right: 12px;
+}
+
+.pager {
+  display: inline-flex;
+  font-size: 11px;
+  margin: 0 25%;
+}
+
+.pager-prev {
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 21px;
+  width: 21px;
+  margin-top: 5px;
+  line-height: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pager-nor {
+  padding: 3px;
+  background-color: #fff;
+  height: 21px;
+  width: 15px;
+  margin-top: 5px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.bord-bot {
+  border-bottom: 1px solid #efefe7;
+}
+
+.iread-student-work__header--text {
+  font-size: 13px;
+  color: #000;
+  padding: 10px;
+}
+
+.portfolio-conf-warning {
+  width: 310px;
+  height: 110px;
+  padding: 0;
+}
+
+.portfolio-conf__warning--txt {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.portfolio-conf__warning--heading {
+  background: #9ca8b5;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+}
+
+.portfolio-conf__warning--btn {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.portfolio-conf-save .portfolio-conf__warning--txt {
+  padding: 15px 8px;
+  text-align: center;
+}
+
+.portfolio-conf__warning--btn .btn,
+.portfolio-conf-save .btn {
+  width: 64px;
+  height: 22px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 64px;
+}
+
+.portfolio-conf-save .btn {
+  margin: auto;
+}
+
+.portfolio-conf-warning .btn--primary,
+.portfolio-conf-save .btn--primary {
+  background: linear-gradient(#dee2e6, #1989e5);
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+.portfolio-conf-save .btn--primary {
+  margin-right: auto;
+}
+
+.portfolio-conf-warning .btn--secondary {
+  background: linear-gradient(#f5f5f5, #fff);
+  color: #000;
+  margin: auto;
+}
+
+.portfolio-conf-save {
+  width: 175px;
+  padding: 0;
+  height: 114px;
+}

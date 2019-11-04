@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppBar /> Expect to render correctly 1`] = `
+<div
+  className="app-bar"
+>
+  <Connect(ProgramAvailableBarContainer) />
+  <Connect(AboutSamLinkContainer) />
+</div>
+`;

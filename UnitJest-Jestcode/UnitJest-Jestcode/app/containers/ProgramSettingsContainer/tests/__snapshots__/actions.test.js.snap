@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramSettingsContainer actions should return the correct constant for programSettingsEnrollmentList 1`] = `
+Object {
+  "type": "app/ProgramSettingsContainer/PROGRAM_SETTINGS_ENROLLMENT_LIST",
+}
+`;
+
+exports[`ProgramSettingsContainer actions should return the correct constant for programSettingsEnrollmentListFailure 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/ProgramSettingsContainer/PROGRAM_SETTINGS_ENROLLMENT_LIST_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`ProgramSettingsContainer actions should return the correct constant for programSettingsEnrollmentListSuccess with no params 1`] = `
+Object {
+  "enrollmentList": Array [],
+  "type": "app/ProgramSettingsContainer/PROGRAM_SETTINGS_ENROLLMENT_LIST_SUCCESS",
+}
+`;
+
+exports[`ProgramSettingsContainer actions should return the correct constant for programSettingsEnrollmentListSuccess with params 1`] = `
+Object {
+  "enrollmentList": Array [
+    "mockEnrollmentList",
+  ],
+  "type": "app/ProgramSettingsContainer/PROGRAM_SETTINGS_ENROLLMENT_LIST_SUCCESS",
+}
+`;

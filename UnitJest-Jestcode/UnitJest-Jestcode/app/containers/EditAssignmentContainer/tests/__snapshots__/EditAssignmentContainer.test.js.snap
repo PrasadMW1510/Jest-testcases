@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditAssignmentContainer  Should render TeacherMadeQuizContainer 1`] = `
+<EditAssignmentComponent
+  clearResponseStatus={[Function]}
+  clearState={[Function]}
+  closeStudentGoalModal={[Function]}
+  data={
+    Object {
+      "classId": Object {
+        "classId": "fff",
+      },
+    }
+  }
+  deleteAssignmentRequest={[Function]}
+  editassignmentcontainer={Object {}}
+  getAssignmentData={[Function]}
+  getStudentDetails={[Function]}
+  handleCancel={[Function]}
+  hideCancel={[Function]}
+  hideModal={[Function]}
+  isOpen={true}
+  saveAssignmentRequest={[Function]}
+/>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Print Book Label Container Action should return the correct constant for defaultAction 1`] = `
+Object {
+  "type": "app/AddAssignmentContainer/DEFAULT_ACTION",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getStudentDetails 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/AddAssignmentContainer/GET_STUDENT_DETAILS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getStudentDetailsFailure 1`] = `
+Object {
+  "error": undefined,
+  "type": "app/AddAssignmentContainer/GET_STUDENTDETAIL_FAILURE",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for getStudentDetailsSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/AddAssignmentContainer/GET_STUDENTDETAIL_SUCCESS",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for postSaveNewAssignment 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/AddAssignmentContainer/POST_NEW_ASSIGNMENT",
+}
+`;
+
+exports[`Print Book Label Container Action should return the correct constant for postSaveNewAssignmentSuccess 1`] = `
+Object {
+  "data": undefined,
+  "type": "app/AddAssignmentContainer/POST_NEW_ASSIGNMENT_SUCCESS",
+}
+`;

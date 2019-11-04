@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/RosterPage/RosterPage.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/RosterPage</a> RosterPage.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/121</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/65</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/59</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * RosterPage
+ *
+ */
+&nbsp;
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { Route } from <span class="cstat-no" title="statement not covered" >'react-router-dom';</span>
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+import { createS<span class="cstat-no" title="statement not covered" >tructuredSelector } </span>from 'reselect';
+&nbsp;
+import ContentPanel <span class="cstat-no" title="statement not covered" >from 'components/ContentPanel';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import ManageStudentsTeachers <span class="cstat-no" title="statement not covered" >from 'components/ManageStudentsTeachers';<span class="cstat-no" title="statement not covered" ></span></span>
+import { TAB } fr<span class="cstat-no" title="statement not covered" >om 'components/ManageStudentsTeachers/constants';</span>
+import { USER_TYPE<span class="cstat-no" title="statement not covered" >, USER_ORG } from 'containers/App/co</span>nstants';
+import {<span class="cstat-no" title="statement not covered" ></span>
+  isGlobalLoading,
+  makeSelectProfileUserType,
+  makeSelectLoginUserOrg,
+  makeSelectLoginData,
+} from 'containers/App/selectors';
+import AdvancedSettingsContainer <span class="cstat-no" title="statement not covered" >from 'containers/AdvancedSettingsContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ManageAdminAccountsContainer <span class="cstat-no" title="statement not covered" >from 'containers/ManageAdminAccountsContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import { isManageA<span class="cstat-no" title="statement not covered" >dminAccountsLoading } from 'containers/ManageAdminAccountsCon</span>tainer/selectors';
+import ManageInactiveAccountsContainer <span class="cstat-no" title="statement not covered" >from 'containers/ManageInactiveAccountsContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ManageSmaContainer <span class="cstat-no" title="statement not covered" >from 'containers/ManageSmaContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProfilePageContainer <span class="cstat-no" title="statement not covered" >from 'containers/ProfilePageContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProgramAvailableRosterContainer <span class="cstat-no" title="statement not covered" >from 'containers/ProgramAvailableRosterContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProgramCe<span class="cstat-no" title="statement not covered" >rtificateContainer from 'containers/ProgramCertificateConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import ProgramGra<span class="cstat-no" title="statement not covered" >dingContainer from 'containers/ProgramGradingContainer/</span>Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import ProgramSettingsContainer <span class="cstat-no" title="statement not covered" >from 'containers/ProgramSettingsContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import { isProgram<span class="cstat-no" title="statement not covered" >SettingsLoading } from 'containers/ProgramSettingsContain</span>er/selectors';
+import UsageSummaryContainer <span class="cstat-no" title="statement not covered" >from 'containers/UsageSummaryContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import { isUsageSu<span class="cstat-no" title="statement not covered" >mmaryLoading } from 'containers/UsageSummaryContainer/</span>selectors';
+import * as Teache<span class="cstat-no" title="statement not covered" >rAccessTableSelector from 'containers/TeacherAccessTableCont</span>ainer/selectors';<span class="cstat-no" title="statement not covered" ></span>
+import * as Studen<span class="cstat-no" title="statement not covered" >tEnrollmentTableSelector from 'containers/StudentEnrollmentTable</span>Container/selectors';<span class="cstat-no" title="statement not covered" ></span>
+import UserTitleText <span class="cstat-no" title="statement not covered" >from 'containers/UserTitleText';<span class="cstat-no" title="statement not covered" ></span></span>
+import { isUserTy<span class="cstat-no" title="statement not covered" >peAdminOrTech } from 'utils</span>/utilities';
+import injectSaga <span class="cstat-no" title="statement not covered" >from 'utils/injectSaga';<span class="cstat-no" title="statement not covered" ></span></span>
+import injectReducer <span class="cstat-no" title="statement not covered" >from 'utils/injectReducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectSmartBarContainer,
+  makeSelectCohortType,
+} from 'containers/SmartBarContainer/selectors';
+&nbsp;
+import { ROUTE_PAT<span class="cstat-no" title="statement not covered" >HS } from './constants'</span>;
+import reducer <span class="cstat-no" title="statement not covered" >from './reducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import saga <span class="cstat-no" title="statement not covered" >from './saga';<span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" >import './RosterPage.scss';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class RosterPage extends React.Component {
+  /**
+   * Used for if we want to show the Tab level loading.<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span>
+   * Add to this function using '||'
+   */
+  isLoading = ()<span class="fstat-no" title="function not covered" > =</span>&gt; this.prop<span class="cstat-no" title="statement not covered" >s.isGlobalLoading || this.isPagesLoading();</span>
+&nbsp;
+  /**
+   * This will only show the loading based on the components of the current page.
+   * If there is another component on the page, add it to the return using '||'.
+   */
+  isPagesLoading = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    sw<span class="cstat-no" title="statement not covered" >itch (this.props.location.pathname) {</span>
+      case ROUTE_PATHS.roster:
+        re<span class="cstat-no" title="statement not covered" >turn this.props.isUsageSummaryLoading;</span>
+      case ROUTE_PATHS.manageAdminAccounts:
+        re<span class="cstat-no" title="statement not covered" >turn this.props.isManageAdminAccountsLoading;</span>
+      case ROUTE_PATHS.programSettings:
+        re<span class="cstat-no" title="statement not covered" >turn this.props.isProgramSettingsLoading;</span>
+      case ROUTE_PATHS.manageStudentEnrollment:
+        re<span class="cstat-no" title="statement not covered" >turn (</span>
+          this.props.isStudentEnrollmentLoading ||
+          this.props.isTeacherAccessLoading ||
+          this.props.isTeacherAccessAppLoading
+        );
+      case ROUTE_PATHS.manageTeacherAccess:
+        re<span class="cstat-no" title="statement not covered" >turn (</span>
+          this.props.isStudentEnrollmentLoading ||
+          this.props.isTeacherAccessLoading ||
+          this.props.isTeacherAccessAppLoading
+        );
+      default:
+        re<span class="cstat-no" title="statement not covered" >turn false;</span>
+    }
+  };
+&nbsp;
+  renderRoster = ()<span class="fstat-no" title="function not covered" > =</span>&gt; (<span class="cstat-no" title="statement not covered" ></span>
+    &lt;div className="roster-content-panel"&gt;
+      &lt;ProfilePageContainer /&gt;
+      &lt;UsageSummaryContainer /&gt;
+      &lt;table className="roster-content-panel__bottom-table"&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td className="program-available__title-cell"&gt;Programs&lt;/td&gt;
+            {this.props.selectedCohortType === '' &amp;&amp; (
+              &lt;td className="advanced-settings__title-cell"&gt;Advanced Settings&lt;/td&gt;
+            )}
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td className="roster-content-panel__programs-available-cell"&gt;
+              &lt;ProgramAvailableRosterContainer /&gt;
+            &lt;/td&gt;
+            {this.props.selectedCohortType === '' &amp;&amp; (
+              &lt;td className="roster-content-panel__advanced-settings-cell"&gt;
+                &lt;AdvancedSettingsContainer profileUserType={this.props.profileUserType} /&gt;
+              &lt;/td&gt;
+            )}
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+    &lt;/div&gt;<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+  );
+&nbsp;
+  render() {<span class="cstat-no" title="statement not covered" ></span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;span&gt;
+        &lt;div className="roster-content-heading"&gt;
+          &lt;UserTitleText /&gt;
+        &lt;/div&gt;
+        &lt;ContentPanel loading={this.isLoading()}&gt;
+          &lt;Route path={ROUTE_PATHS.programSettings} component={ProgramSettingsContainer} /&gt;
+          &lt;Route path={ROUTE_PATHS.programGrading} component={ProgramGradingContainer} /&gt;
+          &lt;Route path={ROUTE_PATHS.programCertificate} component={ProgramCertificateContainer} /&gt;
+          &lt;Route
+            path={ROUTE_PATHS.manageStudentEnrollment}
+            render={() =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+              &lt;ManageStudentsTeachers
+                loginData={this.props.loginData}
+                smartBarSelections={this.props.smartBarSelections}
+                tab={TAB.StudentEnrollment}
+              /&gt;
+            )}
+          /&gt;
+          &lt;Route
+            path={ROUTE_PATHS.manageStudentLicenses}
+            render={() =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+              &lt;ManageStudentsTeachers
+                loginData={this.props.loginData}
+                smartBarSelections={this.props.smartBarSelections}
+                tab={TAB.StudentLicensing}
+              /&gt;
+            )}
+          /&gt;
+          &lt;Route
+            path={ROUTE_PATHS.manageTeacherLicenses}
+            render={() =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+              &lt;ManageStudentsTeachers
+                loginData={this.props.loginData}
+                smartBarSelections={this.props.smartBarSelections}
+                tab={TAB.TeacherLicensing}
+              /&gt;
+            )}
+          /&gt;
+          &lt;Route
+            path={ROUTE_PATHS.manageTeacherAccess}
+            render={() =&gt; (<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+              &lt;ManageStudentsTeachers
+                loginData={this.props.loginData}
+                smartBarSelections={this.props.smartBarSelections}
+                tab={TAB.TeacherAccess}
+              /&gt;
+            )}
+          /&gt;
+          &lt;Route
+            path={ROUTE_PATHS.manageInactiveAccounts}
+            component={ManageInactiveAccountsContainer}
+          /&gt;
+          {(this.props.profileUserType === USER_TYPE.Administrator ||
+            this.props.profileUserType === USER_TYPE.Tech) &amp;&amp; (
+            &lt;Route
+              path={ROUTE_PATHS.manageAdminAccounts}
+              component={ManageAdminAccountsContainer}
+            /&gt;
+          )}
+          {this.props.profileOrgType === USER_ORG.District &amp;&amp;
+            isUserTypeAdminOrTech(this.props.profileUserType) &amp;&amp; (
+              &lt;Route path={ROUTE_PATHS.manageSMA} component={ManageSmaContainer} /&gt;
+            )}
+          &lt;Route
+            exact
+            path={ROUTE_PATHS.roster}
+            className="rosterRoute"
+            render={this.renderRoster}
+          /&gt;
+        &lt;/ContentPanel&gt;
+      &lt;/span&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >RosterPage.propTypes = {</span>
+  isGlobalLoading: PropTypes.bool.isRequired,
+  isProgramSettingsLoading: PropTypes.bool.isRequired,
+  isUsageSummaryLoading: PropTypes.bool.isRequired,
+  isManageAdminAccountsLoading: PropTypes.bool.isRequired,
+  isTeacherAccessLoading: PropTypes.bool,
+  isStudentEnrollmentLoading: PropTypes.bool,
+  isTeacherAccessAppLoading: PropTypes.bool,
+  profileUserType: PropTypes.string,
+  profileOrgType: PropTypes.string,
+  location: PropTypes.object,
+  loginData: PropTypes.object.isRequired,
+  smartBarSelections: PropTypes.object.isRequired,
+  selectedCohortType: PropTypes.string.isRequired,
+};
+&nbsp;
+const withReducer <span class="cstat-no" title="statement not covered" >= injectReducer({ key: 'rosterPage', reducer });</span>
+const withSaga <span class="cstat-no" title="statement not covered" >= injectSaga({ key: 'rosterPage', saga });</span>
+&nbsp;
+const mapStateToProps <span class="cstat-no" title="statement not covered" >= createStructuredSelector({</span>
+  isGlobalLoading: isGlobalLoading(),
+  loginData: makeSelectLoginData(),
+  isProgramSettingsLoading: isProgramSettingsLoading(),
+  isUsageSummaryLoading: isUsageSummaryLoading(),
+  isManageAdminAccountsLoading: isManageAdminAccountsLoading(),
+  profileUserType: makeSelectProfileUserType(),
+  profileOrgType: makeSelectLoginUserOrg(),
+  isTeacherAccessLoading: TeacherAccessTableSelector.makeSelectLoading(),
+  isTeacherAccessAppLoading: TeacherAccessTableSelector.makeSelectAppLoading(),
+  isStudentEnrollmentLoading: StudentEnrollmentTableSelector.makeSelectLoading(),
+  smartBarSelections: makeSelectSmartBarContainer(),
+  selectedCohortType: makeSelectCohortType(),
+});
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(mapStateToProps, null);<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withReducer, withSaga, withConnect)(RosterPage);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

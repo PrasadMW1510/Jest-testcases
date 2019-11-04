@@ -1,0 +1,52 @@
+.resources-browse {
+  height: 450px;
+  border-right: 1px solid;
+  border-bottom: 0;
+  flex: 1;
+}
+
+.resources-browse__header {
+  color: #fff;
+  background-color: #99cd00;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 2px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.resources-browse__list {
+  text-align: left;
+  list-style: none;
+}
+
+.resources-browse__items {
+  color: #457aed;
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 8pt;
+  font-weight: bold;
+  padding-bottom: 5px;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.resources-browse__items--const-item {
+  margin-left: 22px;
+}
+
+.resources-browse__description {
+  text-align: left;
+  list-style: none;
+  margin-left: 25px;
+  font-size: 8pt;
+}
+
+.resources-browse__items--subtype {
+  padding-left: 25px;
+  font-weight: normal;
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FMGradingToolsContainer Actions should request student operations correctly 1`] = `
+Object {
+  "type": "FM_student_operation_request",
+}
+`;
+
+exports[`FMGradingToolsContainer Actions should return the correct constant for FMGeneratePdfReport with params 1`] = `
+Object {
+  "addition": false,
+  "answerKey": false,
+  "current": true,
+  "division": false,
+  "multiplication": false,
+  "orientation": "horizontal",
+  "problemType": "1digit",
+  "remainder": false,
+  "subtraction": false,
+  "type": "FM_generate_pdf_report",
+}
+`;
+
+exports[`FMGradingToolsContainer Actions should return the correct constant for FMStudentOperationRequestSuccess with params 1`] = `
+Object {
+  "studentOperations": Array [
+    Object {
+      "FastFacts": "96",
+      "FocusFacts": "0",
+      "Operation": "Addition",
+      "Students": "studentfirst, studentlast",
+    },
+  ],
+  "type": "FM_student_operation_request_success",
+}
+`;

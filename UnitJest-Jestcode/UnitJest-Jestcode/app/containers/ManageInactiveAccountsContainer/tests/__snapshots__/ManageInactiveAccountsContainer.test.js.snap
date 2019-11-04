@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageInactiveAccountsContainer /> should match snapshot 1`] = `
+<ManageInactiveAccounts
+  getInactiveCohortMembersRequest={[Function]}
+  isDataLoading={false}
+  paginationData={
+    Object {
+      "itemCount": 1000,
+    }
+  }
+  rowData={Array []}
+  userOrg="District"
+  userType="Administrator"
+/>
+`;

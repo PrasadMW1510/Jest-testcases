@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramSettingsViewS44 /> cohort type is not student Should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="s44-settings__heading"
+  >
+    Use these options to select System 44 Program Settings.
+  </span>
+  <div
+    className="s44-settings__content"
+  >
+    <S44CheckboxSection
+      checkboxText="Spanish Support"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={false}
+      isHalfWidth={true}
+      sectionTitle="English Language Learner Option"
+    />
+    <S44CheckboxSection
+      checkboxText="Enable video captioning"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={false}
+      isHalfWidth={true}
+      sectionTitle="Support Option"
+    />
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<ProgramSettingsViewS44 /> cohort type is student student has started working Should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="s44-settings__heading"
+  >
+    Use these options to select System 44 Program Settings.
+  </span>
+  <div
+    className="s44-settings__content"
+  >
+    <S44PlacementAndLevelingOptions
+      callBackFunc={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={false}
+      isS44NG={false}
+      settingsObj={
+        Object {
+          "auto_placement": Array [
+            "1",
+          ],
+          "captioning": Array [
+            "0",
+          ],
+          "enable_fasttrack": Array [
+            "0",
+          ],
+          "has_started_working": Array [
+            "true",
+          ],
+          "initial_placement": Array [
+            "0",
+          ],
+          "spanish_support": Array [
+            "0",
+          ],
+        }
+      }
+    />
+    <S44CheckboxSection
+      checkboxText="Spanish Support"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={true}
+      sectionTitle="English Language Learner Option"
+    />
+    <S44CheckboxSection
+      checkboxText="Enable video captioning"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={true}
+      sectionTitle="Support Option"
+    />
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;
+
+exports[`<ProgramSettingsViewS44 /> cohort type is student student hasnt started working Should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="s44-settings__heading"
+  >
+    Use these options to select System 44 Program Settings.
+  </span>
+  <div
+    className="s44-settings__content"
+  >
+    <S44PlacementAndLevelingOptions
+      callBackFunc={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={false}
+      isS44NG={false}
+      settingsObj={
+        Object {
+          "auto_placement": Array [
+            "1",
+          ],
+          "captioning": Array [
+            "0",
+          ],
+          "enable_fasttrack": Array [
+            "0",
+          ],
+          "has_started_working": Array [
+            "false",
+          ],
+          "initial_placement": Array [
+            "0",
+          ],
+          "spanish_support": Array [
+            "0",
+          ],
+        }
+      }
+    />
+    <S44CheckboxSection
+      checkboxText="Spanish Support"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={true}
+      sectionTitle="English Language Learner Option"
+    />
+    <S44CheckboxSection
+      checkboxText="Enable video captioning"
+      checkboxValue="0"
+      handleChangeCheckboxValue={[Function]}
+      isHalfHeight={true}
+      isHalfWidth={true}
+      sectionTitle="Support Option"
+    />
+    <ProgramSettingsButtons
+      restoreDefaultHandler={[Function]}
+      saveAndReturnHandler={[Function]}
+      setInitialValuesHandler={[Function]}
+      showRestoreDefaults={true}
+      stateResult={true}
+      suppressSaveAndReturnRedirect={false}
+    />
+  </div>
+</form>
+`;

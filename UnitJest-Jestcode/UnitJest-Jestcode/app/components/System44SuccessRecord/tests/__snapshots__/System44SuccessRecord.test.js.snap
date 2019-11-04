@@ -1,0 +1,681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<System44SuccessRecord /> Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="activate Quiz"
+  id="s44"
+  isOpen={true}
+  modalClassModifier="print-system44__modal-system44--modal"
+>
+  <div
+    className="print-system44-modal__list--wrapper"
+  >
+    <div
+      className="print-system44-modal__list--purple"
+    >
+      <div
+        className="print-system44__modal--heading"
+      >
+        student
+      </div>
+      <div>
+        <button
+          className="print-system44-modal__button--close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+    </div>
+    <div
+      className="print-system44__modal--title"
+    >
+      <span
+        className="print-system44__modal-title--span"
+      >
+        Success Recording undefined 
+      </span>
+      <span
+        className="print-system44__modal-title--span"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        />
+      </span>
+    </div>
+    <div
+      className="print-system44-modal__description--box"
+    >
+      <div
+        className="print-system44-modal__description--textarea s44-play"
+      >
+        <a
+          className="print-system44-modal__play--but"
+          href="null//undefined"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Play Recording
+        </a>
+        <p
+          className="print-system44-modal__s44-bot--txt"
+        >
+          Date of Recording
+          06/06/2018
+        </p>
+      </div>
+    </div>
+    <div
+      className="print-system44__modal--playdiv"
+    >
+      <div
+        className="print-system44__modal-due-date--oral print-system44__modal-due--date"
+      >
+        <div
+          className="print-system44__modal-description--title"
+        >
+          Oral Fluency Rubric
+        </div>
+        <div
+          className="print-system44__modal-due-date--textarea"
+        >
+          <div
+            className="print-system44__modal-due-date--inbox"
+          >
+            <div
+              className="print-system44__pull-right--here"
+            >
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Begenning Fluency"
+                >
+                  Begenning Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="0"
+                  >
+                    0
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Emerging Fluency"
+                >
+                  Emerging Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="1"
+                  >
+                    1
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Developing Fluency"
+                >
+                  Developing Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="2"
+                  >
+                    2
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Proficient Fluency"
+                >
+                  Proficient Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="3"
+                  >
+                    3
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Strong Fluency"
+                >
+                  Strong Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="4"
+                  >
+                    4
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Exemplary Fluency"
+                >
+                  Exemplary Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="5"
+                  >
+                    5
+                  </button>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__modal-due--date print-system44__modal-due-date--oral"
+      >
+        <div
+          className="print-system44__modal-description--title"
+        >
+          Comments
+        </div>
+        <div
+          className="print-system44__modal-due-date--textarea"
+        >
+          <div
+            className="print-system44__modal-due-date--inbox"
+          >
+            <textarea
+              className="print-system44__modal-description-title--textarea"
+              name="comments"
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-system44__show-system44-modal--line"
+    />
+    <div
+      className="print-activate__quiz--buttons"
+    >
+      <div
+        className="print-activate-quiz__primary--button"
+      >
+        <div
+          className="print-system44-modal__buttons--firstset"
+        >
+          <button
+            className="print-system44-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-system44-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-system44-modal__buttons-firstset--pager"
+        >
+          <div
+            className="pager"
+          >
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &lt;
+              </a>
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+               
+            </div>
+            <div
+              className="pager-nor"
+            >
+               of 
+            </div>
+            <div
+              className="pager-nor"
+            >
+              1
+            </div>
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &gt;
+              </a>
+            </div>
+          </div>
+          <div
+            className="print-system44-modal__buttons--secondset"
+          >
+            <button
+              className="print-system44-modal__button-second--set print-system44-modal__button--delete"
+            >
+              Delete
+            </button>
+            <button
+              className="print-system44-modal__button-second--set print-system44-modal__button--save"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</SAMModal>
+`;
+
+exports[`<System44SuccessRecord /> Expect to render correctly 2`] = `
+<SAMModal
+  contentLabel="activate Quiz"
+  id="s44"
+  isOpen={true}
+  modalClassModifier="print-system44__modal-system44--modal"
+>
+  <div
+    className="print-system44-modal__list--wrapper"
+  >
+    <div
+      className="print-system44-modal__list--purple"
+    >
+      <div
+        className="print-system44__modal--heading"
+      >
+        student
+      </div>
+      <div>
+        <button
+          className="print-system44-modal__button--close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+    </div>
+    <div
+      className="print-system44__modal--title"
+    >
+      <span
+        className="print-system44__modal-title--span"
+      >
+        Success Recording else undefined 
+      </span>
+      <span
+        className="print-system44__modal-title--span"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Level
+        </a>
+      </span>
+    </div>
+    <div
+      className="print-system44-modal__description--box"
+    >
+      <div
+        className="print-system44-modal__description--textarea s44-play"
+      >
+        <a
+          className="print-system44-modal__play--but"
+          href="null//undefinedundefined"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Play Recording
+        </a>
+        <p
+          className="print-system44-modal__s44-bot--txt"
+        >
+          Date of Recording
+          06/06/2018
+        </p>
+      </div>
+    </div>
+    <div
+      className="print-system44__modal--playdiv"
+    >
+      <div
+        className="print-system44__modal-due-date--oral print-system44__modal-due--date"
+      >
+        <div
+          className="print-system44__modal-description--title"
+        >
+          Oral Fluency Rubric
+        </div>
+        <div
+          className="print-system44__modal-due-date--textarea"
+        >
+          <div
+            className="print-system44__modal-due-date--inbox"
+          >
+            <div
+              className="print-system44__pull-right--here"
+            >
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Begenning Fluency"
+                >
+                  Begenning Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="0"
+                  >
+                    0
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Emerging Fluency"
+                >
+                  Emerging Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="1"
+                  >
+                    1
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Developing Fluency"
+                >
+                  Developing Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="2"
+                  >
+                    2
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Proficient Fluency"
+                >
+                  Proficient Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="3"
+                  >
+                    3
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Strong Fluency"
+                >
+                  Strong Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="4"
+                  >
+                    4
+                  </button>
+                </span>
+              </p>
+              <p
+                className="print-system44__oral-fluency--txt"
+              >
+                <span
+                  className="print-system44__oral-fluency--span"
+                  onClick={[Function]}
+                  role="button"
+                  tabIndex={0}
+                  value="Exemplary Fluency"
+                >
+                  Exemplary Fluency
+                </span>
+                <span>
+                  <button
+                    className="print-system44__oral-fluency--button"
+                    onClick={[Function]}
+                    value="5"
+                  >
+                    5
+                  </button>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="print-system44__modal-due--date print-system44__modal-due-date--oral"
+      >
+        <div
+          className="print-system44__modal-description--title"
+        >
+          Comments
+        </div>
+        <div
+          className="print-system44__modal-due-date--textarea"
+        >
+          <div
+            className="print-system44__modal-due-date--inbox"
+          >
+            <textarea
+              className="print-system44__modal-description-title--textarea"
+              name="comments"
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="print-system44__show-system44-modal--line"
+    />
+    <div
+      className="print-activate__quiz--buttons"
+    >
+      <div
+        className="print-activate-quiz__primary--button"
+      >
+        <div
+          className="print-system44-modal__buttons--firstset"
+        >
+          <button
+            className="print-system44-modal-button-first-set print-system44-modal-button-print"
+            onClick={[Function]}
+          >
+            Print
+          </button>
+          <button
+            className="print-system44-modal-button-first-set print-system44-modal-button-cancel"
+            onClick={[Function]}
+          >
+            Cancel
+          </button>
+        </div>
+        <div
+          className="print-system44-modal__buttons-firstset--pager"
+        >
+          <div
+            className="pager"
+          >
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &lt;
+              </a>
+            </div>
+            <div
+              className="pager-nor"
+            >
+               
+               
+            </div>
+            <div
+              className="pager-nor"
+            >
+               of 
+            </div>
+            <div
+              className="pager-nor"
+            >
+              1
+            </div>
+            <div
+              className="pager-prev"
+            >
+              <a
+                className="previous"
+                href=""
+                onClick={[Function]}
+              >
+                &gt;
+              </a>
+            </div>
+          </div>
+          <div
+            className="print-system44-modal__buttons--secondset"
+          >
+            <button
+              className="print-system44-modal__button-second--set print-system44-modal__button--delete"
+            >
+              Delete
+            </button>
+            <button
+              className="print-system44-modal__button-second--set print-system44-modal__button--save"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</SAMModal>
+`;

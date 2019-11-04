@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rosterPageReducer for SELECT_PROGRAM returns the initial state 1`] = `
+Immutable.Map {
+  selectedProgram: "",
+}
+`;
+
+exports[`rosterPageReducer for SELECT_PROGRAM should handle selectedProgram request success 1`] = `
+Immutable.Map {
+  selectedProgram: undefined,
+}
+`;

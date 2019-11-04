@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectPSSettingContainerDomain should consistently return the makeSelectPSSettingContainer app state 1`] = `
+Immutable.Map {
+  loading: false,
+  setting: Immutable.Map {
+  },
+}
+`;

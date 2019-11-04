@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProficiencyBandHeadingTable editable heading table without showing asterisks should render correctly 1`] = `
+<table
+  className="pb-heading-table"
+>
+  <tbody>
+    <tr>
+      <th
+        className="pb-table__first-column pb-table__header pb-table__header--gray"
+      >
+        Grade
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--2"
+        key="Below Basic"
+      >
+        <input
+          className="pb-table-header__input"
+          data-bandindex={1}
+          onChange={[Function]}
+          type="text"
+          value="Level 2"
+        />
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--3"
+        key="Basic"
+      >
+        <input
+          className="pb-table-header__input"
+          data-bandindex={2}
+          onChange={[Function]}
+          type="text"
+          value="Level 3"
+        />
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--4"
+        key="Proficient"
+      >
+        <input
+          className="pb-table-header__input"
+          data-bandindex={3}
+          onChange={[Function]}
+          type="text"
+          value="Level 4"
+        />
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--5"
+        key="Advanced"
+      >
+        <input
+          className="pb-table-header__input"
+          data-bandindex={4}
+          onChange={[Function]}
+          type="text"
+          value="Level 5"
+        />
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__band-column pb-table__header pb-table__header--gray"
+        key="0"
+      >
+         
+      </th>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ProficiencyBandHeadingTable read-only heading table and showing asterisks should render correctly 1`] = `
+<table
+  className="pb-heading-table"
+>
+  <tbody>
+    <tr>
+      <th
+        className="pb-table__first-column pb-table__header pb-table__header--gray"
+      >
+        Grade
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--2"
+        key="Below Basic"
+      >
+        Level 2
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--3"
+        key="Basic"
+      >
+        Level 3
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--4"
+        key="Proficient"
+      >
+        Level 4
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__header pb-table__band-column pb-table__band-column--5"
+        key="Advanced"
+      >
+        Level 5
+        <div
+          className="pb-table-header__asterisk"
+        >
+           
+        </div>
+      </th>
+      <th
+        className="pb-table__band-column pb-table__header pb-table__header--gray"
+        key="0"
+      >
+         
+      </th>
+    </tr>
+  </tbody>
+</table>
+`;

@@ -1,0 +1,36 @@
+.settings-message {
+  background-color: #ffe279;
+  font-family: sans-serif;
+  display: block;
+  height: 360px;
+  width: 96%;
+  margin: 16px 16px 36px;
+  border: 2px solid #000;
+  line-height: 26px;
+  text-align: center;
+}
+
+.settings-message__text {
+  font-weight: bolder;
+  font-size: 8pt;
+  color: #000;
+  display: block;
+  position: relative;
+  word-wrap: break-word;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.settings-message__footer {
+  padding-bottom: -20px;
+  display: inline-block;
+  margin-top: -20px;
+  position: absolute;
+  float: right;
+  bottom: 3px;
+  right: 2%;
+}
+
+.settings-message__btn {
+  width: auto;
+}

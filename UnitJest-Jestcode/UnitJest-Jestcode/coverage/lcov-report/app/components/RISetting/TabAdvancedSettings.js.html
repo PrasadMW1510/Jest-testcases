@@ -1,0 +1,1367 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/RISetting/TabAdvancedSettings.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/RISetting</a> TabAdvancedSettings.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/230</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/83</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/44</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/45</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * TabAdvancedSettings
+ *
+ */
+&nbsp;
+import React,<span class="cstat-no" title="statement not covered" > { Component, Fra</span>gment } from '<span class="cstat-no" title="statement not covered" >react';</span>
+import { fromJS }<span class="cstat-no" title="statement not covered" > from 'immutable';</span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { COHORT_T<span class="cstat-no" title="statement not covered" >YPE } from 'containers/App/constants</span>';
+import { WARNING_M<span class="cstat-no" title="statement not covered" >ODAL } from 'containers/ModalController/constant</span>s';
+import ProficiencyBandPanel <span class="cstat-no" title="statement not covered" >from 'components/ProficiencyBandPanel';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProgramSettingsButtons <span class="cstat-no" title="statement not covered" >from 'components/ProgramSettingsButtons';<span class="cstat-no" title="statement not covered" ></span></span>
+import SAMLinkButton <span class="cstat-no" title="statement not covered" >from 'components/SAMLinkButton';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+  STARTING_GRADE_INDEX,
+  TAB_ADVANCED_SETTINGS,
+  TAB_ADVANCED_SETTINGS_EDITABLE_INSTRUCTIONS,
+  TAB_ADVANCED_SETTINGS_READ_ONLY_INSTRUCTIONS,
+} from './constants';
+&nbsp;
+class TabAdvancedSetti<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >ng</span>s extends Component {<span class="cstat-no" title="statement not covered" ></span></span>
+  construct<span class="fstat-no" title="function not covered" >or(props) {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+    super(pr<span class="cstat-no" title="statement not covered" >ops);</span>
+    const { immProficiencyBan<span class="cstat-no" title="statement not covered" >dData } = props;</span>
+    const numberOfBands <span class="cstat-no" title="statement not covered" >= immProficiencyBandData.get('bandsEnabled').siz</span>e;
+    const invalidHighs <span class="cstat-no" title="statement not covered" >= Array(immProficiencyBandData.get('grades').size).fill(</span>
+      Array(numberOfBands).fill(false)
+    );
+<span class="cstat-no" title="statement not covered" >    this.state = {</span>
+      immInvalidHighs: fromJS(invalidHighs),
+      immSettingsOnScreen: immProficiencyBandData,
+      saveAttempted: false,
+      tabHasNoUnsavedChanges: true,<span class="cstat-no" title="statement not covered" ></span>
+    };
+  }<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+&nbsp;
+  getClearedInvalidHighs = () =&gt;
+    fromJS(Array(this.numberOfGrades).fill(Array(this.numberOfBands).fill(false)));
+&nbsp;
+  getScrubbedInvalidHighs = (immInvalidHighs, gradeIndex) =&gt;
+    immInvalidHighs.withMutations(mutableInvalidHighs =&gt; {
+      for (let bandIndex = 0; bandIndex &lt; this.numberOfBands; bandIndex += 1) {
+        mutableInvalidHighs.setIn([gradeIndex, bandIndex], false);
+      }
+    });
+&nbsp;
+  isInvalidHighsEmpty = immInvalidHighs =&gt; immInvalidHighs.flatten().indexOf(true) === -1;
+&nbsp;
+  numberOfBands = this.props.immProficiencyBandData.get('bandsEnabled').size;
+  numberOfGrades = this.props.immProficiencyBandData.get('grades').size;
+&nbsp;
+  changeBandsEnabled = (immSettingsOnScreen, newValue) =&gt; {
+    const immBandsEnabled = immSettingsOnScreen.get('bandsEnabled');
+    let newImmBandsEnabled = immBandsEnabled;
+    let newValueIndex = immBandsEnabled.size - newValue;
+    immBandsEnabled.forEach((immBandEnabled, bandIndex) =&gt; {
+      newImmBandsEnabled =
+        newValueIndex &gt; 0
+          ? newImmBandsEnabled.set(bandIndex, false)
+          : newImmBandsEnabled.set(bandIndex, true);
+      newValueIndex -= 1;
+    });
+    return immSettingsOnScreen.set('bandsEnabled', newImmBandsEnabled);
+  };
+&nbsp;
+  countEnabledBands = (accumulator, currentValue) =&gt; accumulator + (currentValue ? 1 : 0);
+&nbsp;
+  clearAll = immSettingsOnScreen =&gt; {
+    const immBandsEnabled = immSettingsOnScreen.get('bandsEnabled');
+    const firstEnabledBandIndex = immBandsEnabled.findIndex(immBandEnabled =&gt; immBandEnabled);
+    const numberOfBands = immBandsEnabled.size;
+    // several operations on the immutable data involved here, so use the 'withMutations' wrapper
+    const newImmSettingsOnScreen = immSettingsOnScreen.withMutations(mutableImmSettingsOnScreen =&gt; {
+      // clear the band names
+      const immClearedBandNames = mutableImmSettingsOnScreen
+        .get('bandNames')
+        .map(() =&gt; '(no name)');
+      mutableImmSettingsOnScreen.set('bandNames', immClearedBandNames);
+      // clear the appropriate band range values
+      mutableImmSettingsOnScreen.get('grades').forEach((immGrade, gradeIndex) =&gt; {
+        if (gradeIndex &gt;= STARTING_GRADE_INDEX) {
+          immGrade.get('bandRanges').forEach((immBandRange, bandIndex) =&gt; {
+            let clearedLow = 0;
+            let clearedHigh = NaN;
+            // if the band is enabled
+            if (mutableImmSettingsOnScreen.getIn(['bandsEnabled', bandIndex])) {
+              // if the current band is the first enabled one, set its low value to -999998
+              if (bandIndex === firstEnabledBandIndex) {
+                clearedLow = -999998;
+                // otherwise, if the band is the last one, set its cleared high value to 999998
+              } else if (bandIndex === numberOfBands - 1) {
+                clearedHigh = 999998;
+              }
+              // otherwise, the band is disabled, so the lows/highs should be 0
+            } else {
+              clearedLow = 0;
+              clearedHigh = 0;
+            }
+            mutableImmSettingsOnScreen.setIn(
+              ['grades', gradeIndex, 'bandRanges', bandIndex, 'low'],
+              clearedLow
+            );
+            mutableImmSettingsOnScreen.setIn(
+              ['grades', gradeIndex, 'bandRanges', bandIndex, 'high'],
+              clearedHigh
+            );
+          });
+        }
+      });
+      // finally address the first two coordinates of enabled bands, which
+      // should have low values of -999998, and the first one should have
+      // a high value of -999998
+      mutableImmSettingsOnScreen.setIn(
+        ['grades', STARTING_GRADE_INDEX, 'bandRanges', firstEnabledBandIndex, 'high'],
+        -999998
+      );
+      mutableImmSettingsOnScreen.setIn(
+        ['grades', STARTING_GRADE_INDEX, 'bandRanges', firstEnabledBandIndex + 1, 'low'],
+        -999998
+      );
+    });
+    return newImmSettingsOnScreen;
+  };
+&nbsp;
+  handleChangeBandName = ({ bandIndex, value }) =&gt; {
+    const newImmSettingsOnScreen = this.state.immSettingsOnScreen
+      .setIn(['bandNames', bandIndex], value)
+      .set('shouldShowAsterisks', false);
+    this.setState({
+      immSettingsOnScreen: newImmSettingsOnScreen,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  validateBandValues = ({
+    immSettingsOnScreen,
+    immInvalidHighs,
+    gradeIndex,
+    invalidateBlanks = false,
+    targetBandIndex,
+    targetNewValue,
+  }) =&gt; {
+    // the general algorithm is:  iterate over the band values for the grade,
+    // keeping track of the highest value that is in ascending order:
+    // any subsequent values that are lower than that high value are invalid.
+    const immBandRanges = immSettingsOnScreen.getIn(['grades', gradeIndex, 'bandRanges']);
+    const immBandsEnabled = immSettingsOnScreen.get('bandsEnabled');
+    const numberOfBands = immBandsEnabled.size;
+    let newImmInvalidHighs = this.getScrubbedInvalidHighs(immInvalidHighs, gradeIndex);
+    let newImmSettingsOnScreen = immSettingsOnScreen;
+    // initialize our highest-value tracker to the lowest possible, to start out.
+    let highestValue = -999998;
+    immBandRanges.forEach((immBandRange, bandIndex) =&gt; {
+      // we only process the entry if the band is enabled and it's not the very last one
+      // (the user doesn't have any control over the last band's high value.)
+      if (immBandsEnabled.get(bandIndex) &amp;&amp; bandIndex !== numberOfBands - 1) {
+        const value = bandIndex === targetBandIndex ? targetNewValue : immBandRange.get('high');
+        const isValid =
+          (isNaN(value) &amp;&amp; !invalidateBlanks) ||
+          value === -999998 ||
+          (value &gt; highestValue + 1 &amp;&amp; value &lt; 1700);
+        // if the current value is valid..
+        if (isValid) {
+          // if the current value is populated (and valid), bump the latest
+          // high value to the current value, and also adjust the next low value
+          if (!isNaN(value)) {
+            highestValue = value;
+            const nextLowValue = value === -999998 ? -999998 : value + 1;
+            newImmSettingsOnScreen = newImmSettingsOnScreen.setIn(
+              ['grades', gradeIndex, 'bandRanges', bandIndex + 1, 'low'],
+              nextLowValue
+            );
+          }
+          // otherwise, the current value is invalid, so add it to the invalid high list
+        } else {
+          newImmInvalidHighs = newImmInvalidHighs.setIn([gradeIndex, bandIndex], true);
+        }
+      }
+    });
+    return {
+      immInvalidHighs: newImmInvalidHighs,
+      immSettingsOnScreen: newImmSettingsOnScreen,
+    };
+  };
+&nbsp;
+  handleBlurBandHighValue = ({ bandIndex, gradeNumber, value }) =&gt; {
+    const gradeIndex = parseInt(gradeNumber, 10);
+    const { immSettingsOnScreen, immInvalidHighs } = this.validateBandValues({
+      immSettingsOnScreen: this.state.immSettingsOnScreen,
+      immInvalidHighs: this.state.immInvalidHighs,
+      invalidateBlanks: this.state.saveAttempted,
+      gradeIndex,
+      targetBandIndex: bandIndex,
+      targetNewValue: value,
+    });
+    this.setState({ immSettingsOnScreen, immInvalidHighs });
+  };
+&nbsp;
+  validateSubmittedProficiencyBands = () =&gt; {
+    const numberOfGrades = this.state.immSettingsOnScreen.get('grades').size;
+    let immSettingsOnScreen = this.state.immSettingsOnScreen;
+    let immInvalidHighs = this.state.immInvalidHighs;
+    for (let gradeIndex = STARTING_GRADE_INDEX; gradeIndex &lt; numberOfGrades; gradeIndex += 1) {
+      ({ immSettingsOnScreen, immInvalidHighs } = this.validateBandValues({
+        immSettingsOnScreen,
+        immInvalidHighs,
+        invalidateBlanks: true,
+        gradeIndex,
+      }));
+    }
+    return {
+      immSettingsOnScreen,
+      immInvalidHighs,
+    };
+  };
+&nbsp;
+  handleChangeBandHighValue = ({ bandIndex, gradeNumber, value }) =&gt; {
+    const newImmSettingsOnScreen = this.state.immSettingsOnScreen
+      .setIn(['grades', gradeNumber, 'bandRanges', bandIndex, 'high'], value)
+      .set('shouldShowAsterisks', false);
+    this.setState({
+      immSettingsOnScreen: newImmSettingsOnScreen,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  handleChangeNumberOfBands = event =&gt; {
+    const newValue = event.target.value;
+    let newImmSettingsOnScreen = this.changeBandsEnabled(this.state.immSettingsOnScreen, newValue);
+    newImmSettingsOnScreen = this.clearAll(newImmSettingsOnScreen);
+    const proficientBandIndex = newValue === '5' ? 2 : 3;
+    newImmSettingsOnScreen = newImmSettingsOnScreen
+      .set('proficientBandIndex', proficientBandIndex)
+      .set('shouldShowAsterisks', false);
+    this.setState({
+      immInvalidHighs: this.getClearedInvalidHighs(),
+      immSettingsOnScreen: newImmSettingsOnScreen,
+      saveAttempted: false,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  handleChangeProficientBand = newProficientBandIndex =&gt; {
+    const immSettingsOnScreen = this.state.immSettingsOnScreen
+      .set('proficientBandIndex', newProficientBandIndex)
+      .set('shouldShowAsterisks', false);
+    this.setState({
+      immSettingsOnScreen,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  handleClearAll = event =&gt; {
+    event.preventDefault();
+    const immSettingsOnScreen = this.clearAll(this.state.immSettingsOnScreen);
+    this.setState({
+      immInvalidHighs: this.getClearedInvalidHighs(),
+      immSettingsOnScreen,
+      saveAttempted: false,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  handleRestoreDefault = () =&gt; {
+    const { immSettingsOnScreen } = this.state;
+    // set the defaults for the band values
+    const newImmGrades = immSettingsOnScreen.get('grades').withMutations(mutableImmGrades =&gt; {
+      mutableImmGrades.forEach((immGrade, gradeIndex) =&gt; {
+        immGrade.get('bandRanges').forEach((immBandRange, bandIndex) =&gt; {
+          const defaultLow = immBandRange.getIn(['defaultInfo', 'low']);
+          const defaultHigh = immBandRange.getIn(['defaultInfo', 'high']);
+          mutableImmGrades.setIn([gradeIndex, 'bandRanges', bandIndex, 'low'], defaultLow);
+          mutableImmGrades.setIn([gradeIndex, 'bandRanges', bandIndex, 'high'], defaultHigh);
+        });
+      });
+    });
+    // set the defaults for the band names
+    const immBandNames = immSettingsOnScreen.get('bandNames').withMutations(mutableImmBandNames =&gt; {
+      immSettingsOnScreen.get('bandReferenceData').forEach((immBandReferenceInfo, bandIndex) =&gt; {
+        mutableImmBandNames.set(bandIndex, immBandReferenceInfo.get('defaultName'));
+      });
+    });
+    let newImmSettingsOnScreen = immSettingsOnScreen
+      .set('bandNames', immBandNames)
+      .set('grades', newImmGrades)
+      .set('proficientBandIndex', 3)
+      .set('shouldShowAsterisks', true);
+    // set the default number of bands
+    newImmSettingsOnScreen = this.changeBandsEnabled(newImmSettingsOnScreen, 4);
+    this.setState({
+      immInvalidHighs: this.getClearedInvalidHighs(),
+      immSettingsOnScreen: newImmSettingsOnScreen,
+      saveAttempted: false,
+      tabHasNoUnsavedChanges: false,
+    });
+    this.props.handleIsolateTab();
+  };
+&nbsp;
+  saveSettings = () =&gt; {
+    const { immInvalidHighs, immSettingsOnScreen } = this.validateSubmittedProficiencyBands();
+    let errorMessage = 'Please correct the highlighted entries.';
+    // if there is nothing invalid, go through with the API request
+    let isAllValid = this.isInvalidHighsEmpty(immInvalidHighs);
+    if (isAllValid) {
+      // next, check if any band names are blank; if so, pop up an error message
+      let isBandNameBlank = false;
+      immSettingsOnScreen.get('bandNames').forEach(bandName =&gt; {
+        isBandNameBlank = isBandNameBlank || bandName.trim() === '';
+      });
+      if (isBandNameBlank) {
+        errorMessage = 'Please enter a name for each Proficiency Band.';
+        isAllValid = false;
+      } else {
+        this.props.handleSave(TAB_ADVANCED_SETTINGS, immSettingsOnScreen);
+        this.setState({
+          immInvalidHighs,
+          immSettingsOnScreen,
+          saveAttempted: true,
+          tabHasNoUnsavedChanges: true,
+        });
+        this.props.handleTabReset();
+      }
+      // otherwise, don't save.
+    }
+    if (!isAllValid) {
+      this.props.showModal(WARNING_MODAL, {
+        message: errorMessage,
+      });
+      this.setState({
+        immInvalidHighs,
+        immSettingsOnScreen,
+        saveAttempted: true,
+      });
+    }
+    return isAllValid;
+  };
+&nbsp;
+  handleCancelChanges = () =&gt; {
+    this.setState({
+      immInvalidHighs: this.getClearedInvalidHighs(),
+      immSettingsOnScreen: this.props.immProficiencyBandData,
+      saveAttempted: false,
+      tabHasNoUnsavedChanges: true,
+    });
+    this.props.handleTabReset();
+  };
+&nbsp;
+  handleSubmit = event =&gt; {
+    event.preventDefault();
+    return this.saveSettings();
+  };
+&nbsp;
+  shouldBandShowAsterisk = immBandReferenceInfo =&gt;
+    this.state.immSettingsOnScreen.get('shouldShowAsterisks') &amp;&amp;
+    (immBandReferenceInfo.get('defaultName') === 'Proficient' ||
+      immBandReferenceInfo.get('defaultName') === 'Advanced');
+&nbsp;
+  render() {
+    co<span class="cstat-no" title="statement not covered" >nst { selec</span>tedCohortType, transf<span class="cstat-no" title="statement not covered" >ormLexile } = this.props;<span class="cstat-no" title="statement not covered" ></span></span>
+    co<span class="cstat-no" title="statement not covered" >nst { immIn</span>validHighs, immSet<span class="cstat-no" title="statement not covered" >tingsOnScreen, tabHasNo</span>UnsavedChanges } = thi<span class="cstat-no" title="statement not covered" >s.state;<span class="cstat-no" title="statement not covered" ></span></span>
+    const numberOfEnabledBands = <span class="cstat-no" title="statement not covered" >immSettingsOnScreen</span>
+      .get('bandsEnabled')
+      .reduce(this.countEnabledBands);
+    const isEditable = <span class="cstat-no" title="statement not covered" >selectedCohortType === COHORT_TYPE.District;</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;Fragment&gt;
+        &lt;div className="ri-settings__instruction-text"&gt;
+          {isEditable
+            ? TAB_ADVANCED_SETTINGS_EDITABLE_INSTRUCTIONS
+            : TAB_ADVANCED_SETTINGS_READ_ONLY_INSTRUCTIONS}
+        &lt;/div&gt;
+        &lt;div className="ri-settings__legend-text"&gt;
+          {immSettingsOnScreen.get('shouldShowAsterisks')
+            ? '* Indicates College and Career readiness'
+            : ' '}
+        &lt;/div&gt;
+        &lt;form onSubmit={this.handleSubmit}&gt;
+          &lt;ProficiencyBandPanel
+            bandValueTranslator={transformLexile}
+            handleBlurBandHighValue={this.handleBlurBandHighValue}
+            handleChangeBandHighValue={this.handleChangeBandHighValue}
+            handleChangeBandName={this.handleChangeBandName}
+            handleChangeNumberOfBands={this.handleChangeNumberOfBands}
+            handleChangeProficientBand={this.handleChangeProficientBand}
+            handleClearAll={this.handleClearAll}
+            heading="Set Proficiency Band Names and Ranges"
+            immInvalidHighs={immInvalidHighs}
+            immProficiencyBandData={immSettingsOnScreen}
+            isEditable={isEditable}
+            numberOfEnabledBands={numberOfEnabledBands}
+            shouldBandShowAsterisk={this.shouldBandShowAsterisk}
+            startingGradeIndex={STARTING_GRADE_INDEX}
+          /&gt;
+          {isEditable ? (
+            &lt;ProgramSettingsButtons
+              restoreDefaultHandler={this.handleRestoreDefault}
+              saveAndReturnHandler={this.saveSettings}
+              setInitialValuesHandler={this.handleCancelChanges}
+              stateResult={tabHasNoUnsavedChanges}
+            /&gt;
+          ) : (
+            &lt;div className="ri-settings__only-button-container"&gt;
+              &lt;SAMLinkButton to="/roster" buttonClassModifier="settings-message__btn"&gt;
+                Return to Profile
+              &lt;/SAMLinkButton&gt;
+            &lt;/div&gt;
+          )}
+        &lt;/form&gt;
+      &lt;/Fragment&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+}<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span>
+TabAdv<span class="cstat-no" title="statement not covered" >ancedSettings.defaultProps = {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+  isolateTab<span class="cstat-no" title="statement not covered" >: false,</span>
+};<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span>
+TabAdvancedSettings.<span class="cstat-no" title="statement not covered" >propTypes = {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span>
+  handleIsolateTab: PropTypes.func.isRequired,
+  handleSave: PropTypes.func.isRequired,
+  hand<span class="cstat-no" title="statement not covered" >leTabReset: PropTypes.func.isRequired,<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+  immProficiencyBandData: PropTypes.object.isRequired,
+  selectedCohortType: PropTypes.string.isRequired,
+  showModal: PropTypes.f<span class="cstat-no" title="statement not covered" >unc.isRequired,<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span></span>
+  transformLexile: Prop<span class="cstat-no" title="statement not covered" >Types.fu<span class="cstat-no" title="statement not covered" ></span>nc.isRequired,<span class="fstat-no" title="function not covered" ></span></span>
+};
+<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+export d<span class="cstat-no" title="statement not covered" >efault TabAdvancedSettings;</span>
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

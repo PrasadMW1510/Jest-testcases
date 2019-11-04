@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Read180NgContainer  Should call deleteAssignment 1`] = `[Function]`;
+
+exports[`Read180NgContainer  Should call handlePreview   1`] = `[Function]`;
+
+exports[`Read180NgContainer  Should call postRead180NgDataSubmit    1`] = `[Function]`;
+
+exports[`Read180NgContainer  Should render Read180NgContainer when data is present  1`] = `
+<div>
+  <HelmetWrapper
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Read180NgContainer
+    </title>
+    <meta
+      content="Description of Read180NgContainer"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Read180Ng
+    data={
+      Object {
+        "row": Object {
+          "communityId": "R180NG",
+          "studentId": "stud",
+          "workItemId": "work",
+        },
+      }
+    }
+    deleteAssignment={[Function]}
+    deleteAssignmentData={[Function]}
+    detailsData={Object {}}
+    getRead180DataRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    onPreview={[Function]}
+    postRead180NgDataSubmit={[Function]}
+    read180NgContainer={Object {}}
+    read180ngRequest={[Function]}
+    setRead180NgData={[Function]}
+  />
+</div>
+`;
+
+exports[`Read180NgContainer  Should render Read180NgContainer when no data   1`] = `
+<div>
+  <HelmetWrapper
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Read180NgContainer
+    </title>
+    <meta
+      content="Description of Read180NgContainer"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Read180Ng
+    data={
+      Object {
+        "row": Object {
+          "communityId": "R180G",
+          "studentId": undefined,
+        },
+      }
+    }
+    deleteAssignment={[Function]}
+    detailsData={Object {}}
+    getRead180DataRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    onPreview={[Function]}
+    postRead180NgDataSubmit={[Function]}
+    read180NgContainer={Object {}}
+    read180ngRequest={[Function]}
+    setRead180NgData={[Function]}
+  />
+</div>
+`;
+
+exports[`Read180NgContainer  Should render Read180NgContainer when no data   2`] = `
+<div>
+  <HelmetWrapper
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Read180NgContainer
+    </title>
+    <meta
+      content="Description of Read180NgContainer"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Read180Ng
+    data={
+      Object {
+        "row": Object {
+          "communityId": "R180NG",
+          "studentId": undefined,
+        },
+      }
+    }
+    deleteAssignment={[Function]}
+    detailsData={Object {}}
+    getRead180DataRequest={[Function]}
+    handleCancel={[Function]}
+    hideModal={[Function]}
+    isOpen={true}
+    onPreview={[Function]}
+    postRead180NgDataSubmit={[Function]}
+    read180NgContainer={Object {}}
+    read180ngRequest={[Function]}
+    setRead180NgData={[Function]}
+  />
+</div>
+`;

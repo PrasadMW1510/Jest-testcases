@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageSma /> should load the media servers 1`] = `
+<div
+  className="roster-content-panel roster-content-panel--white manage-sma-panel--white"
+>
+  <h4
+    className="manage-sma__header-text"
+  >
+    Manage Software Media Accelerators (SMAs)
+  </h4>
+  <span
+    className="manage-sma__text-direction"
+  >
+    The SMA is a cache server for product media. Use this screen to manage SMAs and to map schools to SMA servers.
+  </span>
+  <div
+    className="manage-sma__add-sma"
+  >
+    <span
+      className="manage-sma__add-sma-right"
+      role="link"
+    >
+      Add an SMA
+    </span>
+  </div>
+  <SAMTable
+    checkedIds={Array []}
+    className="manage-sma-table"
+    columns={
+      Array [
+        Object {
+          "Header": "Name",
+          "accessor": "name",
+          "id": "name",
+          "sortable": false,
+          "width": 200,
+        },
+        Object {
+          "Header": "Location",
+          "accessor": "url",
+          "id": "url",
+          "sortable": false,
+          "width": 265,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "className": "rt-td__link",
+          "sortable": false,
+          "width": 75,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "className": "rt-td__link",
+          "sortable": false,
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "",
+          "className": "rt-td__link",
+          "sortable": false,
+          "width": 100,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "name": "1234567890123456789",
+          "url": "test.media.education.scholastic.com",
+        },
+        Object {
+          "name": "MMA tests",
+          "url": <a
+            className="rt-td__tooltip rt-td__tooltip--right"
+            data-tip="S3CDN-B8AEED7F1944-107-DaytonStDCNJ.media.education.scholastic.com"
+      >
+            <div
+                  className="rt-td__truncated-block"
+            >
+                  S3CDN-B8AEED7F1944-107-DaytonStDCNJ.media.education.scholastic.com
+            </div>
+      </a>,
+        },
+      ]
+    }
+    pageSize={2}
+    selectAll={false}
+    sortable={true}
+  />
+</div>
+`;

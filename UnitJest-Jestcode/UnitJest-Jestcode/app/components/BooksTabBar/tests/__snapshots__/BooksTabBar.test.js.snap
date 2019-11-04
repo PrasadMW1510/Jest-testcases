@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BooksTabBar /> Expect to render correctly 1`] = `
+<div
+  className="tab-bar book-nav-bar"
+>
+  <div
+    className="nav-bar__container book-nav-container"
+  >
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--expert"
+      component={[Function]}
+      to="/books/expert"
+    >
+      Reading Counts! Book Expert
+    </Tab>
+    <Tab
+      activeClassName="nav-bar__tab--active"
+      className="nav-bar__tab--quiz"
+      component={[Function]}
+      to="/books/quiz"
+    >
+      Reading Counts! Quiz Manager
+    </Tab>
+  </div>
+</div>
+`;

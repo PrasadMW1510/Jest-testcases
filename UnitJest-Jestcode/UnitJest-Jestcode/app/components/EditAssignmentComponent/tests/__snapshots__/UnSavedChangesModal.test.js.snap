@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnSavedChangesModal /> Should render as expected 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="portfolio-conf-warning"
+>
+  <div>
+    <div
+      className="portfolio-conf-warning-heading"
+    >
+      Warning 
+    </div>
+    <div
+      className="portfolio-conf-warning-txt"
+    >
+      You have unsaved changes. Do you want to leave the screen without saving them?
+    </div>
+    <div
+      className="portfolio-conf-warning-btn"
+    >
+      <button
+        className="btn btn--primary"
+        onClick={[Function]}
+      >
+        Yes
+      </button>
+      <SAMButton
+        buttonType="button"
+        isPrimaryButton={false}
+        onClickHandler={[Function]}
+      >
+         No 
+      </SAMButton>
+    </div>
+  </div>
+</SAMModal>
+`;

@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FMSettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-advanced-settings",
+        "label": "Advanced Settings",
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="This content will be coming soon"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewFM
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      Default: Immutable.List [
+        "mockDefault",
+      ],
+      Settings: Immutable.List [
+        "mockSettings",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is District enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by district cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Grade enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by grade cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="This content will be coming soon"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewFM
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      Default: Immutable.List [
+        "mockDefault",
+      ],
+      Settings: Immutable.List [
+        "mockSettings",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is School enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by school cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="FASTT Math"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="This content will be coming soon"
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewFM
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      Default: Immutable.List [
+        "mockDefault",
+      ],
+      Settings: Immutable.List [
+        "mockSettings",
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 0 renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderAdvancedSettingsTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Advanced Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The FASTT Math Settings cannot be accessed by teacher cohorts. Please select a class, group or student from the SmartBar on the left."
+/>
+`;

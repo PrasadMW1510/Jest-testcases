@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectClassAssignModal should select the class assign modal domain 1`] = `
+Immutable.Map {
+  manageAdminAccountsContainer: Immutable.Map {
+    admins: Immutable.List [
+      "test",
+    ],
+  },
+}
+`;

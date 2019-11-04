@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioPageContainer    Should render Read180NgContainer when data is present  1`] = `
+<div
+  className="portfolio-content-panel"
+>
+  <PortfolioTabBar
+    programList={Array []}
+    usertype="Teacher"
+  />
+  <div
+    className="portfolio-tab-panel"
+  >
+    <div
+      className="portfolio-left-panel"
+    />
+    <div
+      className="portfolio-right-panel"
+    >
+      <Switch>
+        <Route
+          path="/inbox"
+          render={[Function]}
+        />
+        <Route
+          path="/studentGoals"
+          render={[Function]}
+        />
+        <Route
+          path="/assignments"
+          render={[Function]}
+        />
+        <Route
+          path="/studentWorks"
+          render={[Function]}
+        />
+        <Redirect
+          push={false}
+          to="/inbox"
+        />
+      </Switch>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PortfolioPageContainer    Should render Read180NgContainer when data is present  2`] = `
+<div
+  className="portfolio-content-panel"
+>
+  <PortfolioTabBar
+    programList={
+      Array [
+        "S44NG",
+      ]
+    }
+    usertype="Teache"
+  />
+  <div
+    className="portfolio-tab-panel"
+  >
+    <div
+      className="portfolio-left-panel"
+    />
+    <div
+      className="portfolio-right-panel"
+    >
+      <Switch>
+        <Route
+          path="/inbox"
+          render={[Function]}
+        />
+        <Route
+          path="/studentGoals"
+          render={[Function]}
+        />
+        <Route
+          path="/assignments"
+          render={[Function]}
+        />
+        <Route
+          path="/studentWorks"
+          render={[Function]}
+        />
+        <Redirect
+          push={false}
+          to="/studentWorks"
+        />
+      </Switch>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PortfolioPageContainer    should render StudentsWorkContainer on  1`] = `
+<withRouter(withReducer(withSaga(Connect(StudentWorksContainer))))
+  getAssignmentMetaData={[Function]}
+  getClassDetailsRequest={[Function]}
+  getGradeDetailsRequest={[Function]}
+  getInboxClassByCommunityId={[Function]}
+  getRubricDefenitions={[Function]}
+  getStudentSubmissions={[Function]}
+  getStudentsSubmissionMetadata={[Function]}
+  match={
+    Object {
+      "path": "",
+    }
+  }
+  portfoliopagecontainer={
+    Object {
+      "classData": Array [],
+      "programListforTabs": Array [],
+      "selectedClassAssignments": Array [],
+    }
+  }
+  profileUserType="Teacher"
+  showInboxProgram={[Function]}
+/>
+`;
+
+exports[`PortfolioPageContainer    should render StudentsWorkContainer on  2`] = `
+<withReducer(withSaga(Connect(AssignmentContainer)))
+  gridData={undefined}
+  programList={undefined}
+  treeList={Array []}
+/>
+`;
+
+exports[`PortfolioPageContainer    should render StudentsWorkContainer on  3`] = `
+<withRouter(withReducer(withSaga(Connect(StudentGoalContainer))))
+  treeList={Array []}
+/>
+`;
+
+exports[`PortfolioPageContainer    should render StudentsWorkContainer on  4`] = `
+<withReducer(withSaga(Connect(InboxContainer)))
+  assignmentCount={
+    Object {
+      "newCount": undefined,
+      "submissionCount": undefined,
+      "unReadCount": undefined,
+    }
+  }
+  baseData={undefined}
+  gridData={Array []}
+  inBoxcount={
+    Object {
+      "newCount": undefined,
+      "submissionCount": undefined,
+      "unReadCount": undefined,
+    }
+  }
+  showAssignment={false}
+  treeList={Array []}
+/>
+`;

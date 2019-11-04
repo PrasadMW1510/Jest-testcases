@@ -1,0 +1,19 @@
+.form-control__dropdown {
+  background-color: #fff;
+  border: 1px #000 solid;
+  height: 20px;
+  width: 100%;
+}
+
+.form-control__dropdown-select {
+  background: transparent;
+  border-style: none;
+  display: flex;
+  font-size: 10px;
+  height: inherit;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}

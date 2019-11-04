@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InboxModalContainer  Should render InboxModalContainer 1`] = `
+<InboxProgram
+  assignment=""
+  currIndex={0}
+  data={
+    Object {
+      "allData": Array [
+        "sdbdcjh",
+        "ahsbdxhah",
+      ],
+      "row": Object {
+        "id": "jhjadgckha_Akjsjhbd",
+        "studentId": "khkgkh_hgh",
+      },
+    }
+  }
+  getQuestion={[Function]}
+  getStudentProgramDetailsDataRequest={[Function]}
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  inboxModalContainer={
+    Immutable.Map {
+    }
+  }
+  isOpen={true}
+  nextDisable="previous"
+  nextSerd={[Function]}
+  portfolioPageContainer={Object {}}
+  prevSerd={[Function]}
+  previousDisable="previous"
+  sName=""
+  saveQuestion={[Function]}
+  storeEvaluationUpdate={[Function]}
+  studentProgramRequest={[Function]}
+/>
+`;
+
+exports[`InboxModalContainer  Should render InboxModalContainer 2`] = `
+<InboxProgram
+  assignment=""
+  currIndex={0}
+  getQuestion={[Function]}
+  getStudentProgramDetailsDataRequest={[Function]}
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  inboxModalContainer={
+    Immutable.Map {
+    }
+  }
+  isOpen={true}
+  nextDisable="previous"
+  nextSerd={[Function]}
+  portfolioPageContainer={Object {}}
+  prevSerd={[Function]}
+  previousDisable="previous"
+  sName=""
+  saveQuestion={[Function]}
+  storeEvaluationUpdate={[Function]}
+  studentProgramRequest={[Function]}
+/>
+`;
+
+exports[`InboxModalContainer  Should render InboxModalContainer 3`] = `
+<InboxProgram
+  assignment=""
+  currIndex={0}
+  data={
+    Object {
+      "allData": Array [],
+      "row": Object {
+        "id": "jhjadgckha_Akjsjhbd",
+        "studentId": undefined,
+      },
+    }
+  }
+  getQuestion={[Function]}
+  getStudentProgramDetailsDataRequest={[Function]}
+  handleCancel={[Function]}
+  hideModal={[Function]}
+  inboxModalContainer={
+    Immutable.Map {
+    }
+  }
+  isOpen={true}
+  nextDisable="previous"
+  nextSerd={[Function]}
+  portfolioPageContainer={Object {}}
+  prevSerd={[Function]}
+  previousDisable="previous"
+  sName=""
+  saveQuestion={[Function]}
+  storeEvaluationUpdate={[Function]}
+  studentProgramRequest={[Function]}
+/>
+`;
+
+exports[`InboxModalContainer  Should render nextSerd else  1`] = `
+Object {
+  "allData": Array [
+    "sdbdcjh",
+    "ahsbdxhah",
+  ],
+  "row": Object {
+    "id": "jhjadgckha_Akjsjhbd",
+    "studentId": "khkgkh_hgh",
+  },
+}
+`;
+
+exports[`InboxModalContainer  Should render nextSerd if  1`] = `
+Object {
+  "allData": Array [
+    "sdbdcjh",
+    "ahsbdxhah",
+  ],
+  "row": Object {
+    "id": "jhjadgckha_Akjsjhbd",
+    "studentId": "khkgkh_hgh",
+  },
+}
+`;
+
+exports[`InboxModalContainer  Should render prevSerd else  1`] = `
+Object {
+  "allData": Array [
+    "sdbdcjh",
+    "ahsbdxhah",
+  ],
+  "row": Object {
+    "id": "jhjadgckha_Akjsjhbd",
+    "studentId": "khkgkh_hgh",
+  },
+}
+`;
+
+exports[`InboxModalContainer  Should render prevSerd if  1`] = `
+Object {
+  "allData": Array [
+    "sdbdcjh",
+    "ahsbdxhah",
+  ],
+  "row": Object {
+    "id": "jhjadgckha_Akjsjhbd",
+    "studentId": "khkgkh_hgh",
+  },
+}
+`;

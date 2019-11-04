@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addGroupContainerReducer return the post group failure 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: "error",
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer return the post group id 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+    group: "test",
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer returns list of classes with students 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.List [
+    Immutable.Map {
+      test: "test",
+    },
+  ],
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer returns list of classes with students error 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: "error",
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer verify data when reset is called 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer verify default state 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;
+
+exports[`addGroupContainerReducer verify get group info failure 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.Map {
+  },
+  getGroupInfoFailure: "error",
+}
+`;
+
+exports[`addGroupContainerReducer verify get group info success 1`] = `
+Immutable.Map {
+  classesWithStudents: Immutable.Map {
+  },
+  errorClassesWithStudents: false,
+  postGroupId: Immutable.Map {
+  },
+  errorPostGroupId: Immutable.Map {
+  },
+  getGroupInfoSuccess: Immutable.List [
+  ],
+  getGroupInfoFailure: Immutable.Map {
+  },
+}
+`;

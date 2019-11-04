@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      Object {},
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 5`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess 6`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      Object {},
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess err part 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess err part 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "SELECT": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess err part 3`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "SessionIDVal",
+      "UserIDVal",
+      Object {},
+      "<>",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`TeacherMadeQuizContainer Saga getPfAssignClassGridDataRequest setClassRequestSuccess err part 4`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "newData": Array [],
+      "type": "app/AssignmentContainer/SET_PORTFOLIO_ASSIGNMENT_CLASSES_ASS_LIST",
+    },
+    "channel": null,
+  },
+}
+`;

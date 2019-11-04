@@ -1,0 +1,797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageRoster /> render Roster Details 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-school"
+    >
+      Edit School Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-teacher"
+    >
+      Add a Teacher
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="203"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+    <Link
+      className="roster-links"
+      key="5"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Clear School Roster
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks null condition 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  />
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with Class being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-class"
+    >
+      Edit Class Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Add a Group
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-student"
+    >
+      Add a Student
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div />
+    </div>
+    <Link
+      className="roster-links"
+      key="4"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Deactivate Class
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with Grade being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-teacher"
+    >
+      Add a Teacher
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-student"
+    >
+      Add a Student
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="203"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with Group being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Edit Group Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-student"
+    >
+      Add a Student
+    </Link>
+    <div
+      key="2container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="2"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div />
+    </div>
+    <Link
+      className="roster-links"
+      key="3"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Deactivate Group
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with School being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-school"
+    >
+      Edit School Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-teacher"
+    >
+      Add a Teacher
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="203"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+    <Link
+      className="roster-links"
+      key="4"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Deactivate School
+    </Link>
+    <Link
+      className="roster-links"
+      key="6"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Clear School Roster
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with Student being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-student"
+    >
+      Edit Student Profile
+    </Link>
+    <div
+      key="1container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="1"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div />
+    </div>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Deactivate Student
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderCategoryLinks with Teacher being called 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <div
+      key="0"
+    >
+      <Link
+        className="roster-links"
+        onClick={[Function]}
+        replace={false}
+        to="/roster"
+      >
+        Edit Teacher Profile
+      </Link>
+    </div>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Add a Group
+    </Link>
+    <Link
+      className="roster-links"
+      key="3"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-student"
+    >
+      Add a Student
+    </Link>
+    <div
+      key="4container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="4"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="204"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+    <Link
+      className="roster-links"
+      key="5"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/deactivate-teacher"
+    >
+      Deactivate Teacher
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderDefaultLinks as a Administrator 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-school"
+    >
+      Edit School Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <Link
+      className="roster-links"
+      key="2"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-teacher"
+    >
+      Add a Teacher
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="203"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+    <Link
+      className="roster-links"
+      key="5"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Clear School Roster
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderDefaultLinks as a District Admin 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="0"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/edit-district"
+    >
+      Edit District Profile
+    </Link>
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-school"
+    >
+      Add a School
+    </Link>
+    <div
+      key="2container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="2"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="202"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> renderDefaultLinks as a Teacher 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  >
+    <Link
+      className="roster-links"
+      key="1"
+      onClick={[Function]}
+      replace={false}
+      to="/roster/add-class"
+    >
+      Add a Class
+    </Link>
+    <div
+      key="3container"
+    >
+      <div>
+        <Link
+          className="roster-links"
+          key="3"
+          replace={false}
+          to="/roster/manageStudentEnrollment"
+        >
+          Manage Student Enrollment
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="roster-links"
+          key="203"
+          replace={false}
+          to="/roster/manageTeacherAccess"
+        >
+          Manage Teacher Access
+        </Link>
+      </div>
+    </div>
+    <Link
+      className="roster-links"
+      key="3"
+      onClick={[Function]}
+      replace={false}
+      to="/roster"
+    >
+      Clear School Roster
+    </Link>
+  </div>
+</div>
+`;
+
+exports[`<ManageRoster /> return null in switch 1`] = `
+<div
+  className="manage-roster"
+>
+  <div
+    className="manage-roster__heading"
+  >
+    <img
+      alt="roster-icon"
+      height="25px"
+      hspace="5px"
+      src="IMAGE_MOCK"
+      width="25px"
+    />
+    Manage Roster
+  </div>
+  <div
+    className="manage-roster__links"
+  />
+</div>
+`;

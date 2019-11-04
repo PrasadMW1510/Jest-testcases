@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`studentEnrollmentTableContainerReducer should handle Sam Central Status request actions 1`] = `
+Immutable.Map {
+  error: false,
+  studentEnroll: Immutable.List [
+  ],
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  samCentralStatus: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Sam Central Status request failure actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: "err",
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Sam Central Status request success actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.Map {
+  },
+  error: false,
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  loading: true,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Apps Usage request actions 1`] = `
+Immutable.Map {
+  error: false,
+  studentEnroll: Immutable.List [
+  ],
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  samCentralStatus: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Apps Usage request failure actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: "err",
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Apps Usage request success actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: false,
+  loadingApps: false,
+  studentAppsUsage: Immutable.Map {
+  },
+  studentGetList: Immutable.List [
+  ],
+  loading: true,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll Save request actions 1`] = `
+Immutable.Map {
+  error: false,
+  studentEnroll: Immutable.List [
+  ],
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  samCentralStatus: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll Save request failure actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: "err",
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll Saverequest success actions 1`] = `
+Immutable.Map {
+  error: false,
+  studentEnroll: Immutable.List [
+  ],
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  samCentralStatus: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: false,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll request actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: false,
+  loadingApps: true,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: true,
+  studentGetList: Immutable.List [
+  ],
+  loading: true,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll request failure actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: "err",
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Enroll request success actions 1`] = `
+Immutable.Map {
+  studentEnroll: undefined,
+  paginationData: undefined,
+  samCentralStatus: Immutable.List [
+  ],
+  error: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: undefined,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Get List  request actions 1`] = `
+Immutable.Map {
+  error: false,
+  studentEnroll: Immutable.List [
+  ],
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.List [
+  ],
+  samCentralStatus: Immutable.List [
+  ],
+  itemCount: -1,
+  loading: true,
+  paginationData: Immutable.Map {
+  },
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Get List  request success actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: false,
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  studentGetList: Immutable.Map {
+  },
+  loading: true,
+  itemCount: -1,
+}
+`;
+
+exports[`studentEnrollmentTableContainerReducer should handle Student Get List request failure actions 1`] = `
+Immutable.Map {
+  studentEnroll: Immutable.List [
+  ],
+  paginationData: Immutable.Map {
+  },
+  samCentralStatus: Immutable.List [
+  ],
+  error: "err",
+  loadingApps: false,
+  studentAppsUsage: Immutable.List [
+  ],
+  loadingStudents: false,
+  studentGetList: Immutable.List [
+  ],
+  loading: false,
+  itemCount: -1,
+}
+`;

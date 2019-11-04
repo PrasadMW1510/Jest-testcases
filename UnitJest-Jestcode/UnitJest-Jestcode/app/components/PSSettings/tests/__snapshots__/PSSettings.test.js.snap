@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PSSettings /> Expect to render correctly 1`] = `
+<ProgramSettingsNavBar
+  isolateTab={false}
+  overrideClassName=""
+  tabs={
+    Array [
+      Object {
+        "id": "tab-settings",
+        "label": "Settings",
+        "renderFunction": [Function],
+      },
+      Object {
+        "id": "tab-test-assignment",
+        "label": "Test Assignment",
+        "renderAction": [Function],
+        "renderFunction": [Function],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Class"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPS
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      audio_instructions: "1",
+      student_access_to_score: "1",
+      include_sample_questions: "1",
+      ell_audio_instructions: "0",
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<TestAssignmentViewPS
+  isTabIsolated={false}
+  psTestAssignmentRequest={[Function]}
+  setIsolateTab={[Function]}
+  testAssignmentData={
+    Immutable.Map {
+      dtmModules: Immutable.Map {
+      },
+      subproduct: Immutable.Map {
+      },
+      dtmTests: Immutable.Map {
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is Class enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by district cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 5 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by district cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 5 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 5 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by district cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is District enrollmentCount is 5 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by grade cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 5 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by grade cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 5 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 5 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by grade cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Grade enrollmentCount is 5 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Group"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPS
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      audio_instructions: "1",
+      student_access_to_score: "1",
+      include_sample_questions: "1",
+      ell_audio_instructions: "0",
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<TestAssignmentViewPS
+  isTabIsolated={false}
+  psTestAssignmentRequest={[Function]}
+  setIsolateTab={[Function]}
+  testAssignmentData={
+    Immutable.Map {
+      dtmModules: Immutable.Map {
+      },
+      subproduct: Immutable.Map {
+      },
+      dtmTests: Immutable.Map {
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is Group enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by school cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 5 isLoading is false renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by school cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 5 isLoading is false renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 5 isLoading is true renderSettingTab 1`] = `
+<SettingsMessage
+  message1="The Progress Space Settings cannot be accessed by school cohorts. Please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is School enrollmentCount is 5 isLoading is true renderTestAssignmentTab 1`] = `
+<SettingsMessage
+  message1="Please select a teacher, class, group, or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Student"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPS
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      audio_instructions: "1",
+      student_access_to_score: "1",
+      include_sample_questions: "1",
+      ell_audio_instructions: "0",
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<TestAssignmentViewPS
+  isTabIsolated={false}
+  psTestAssignmentRequest={[Function]}
+  setIsolateTab={[Function]}
+  testAssignmentData={
+    Immutable.Map {
+      dtmModules: Immutable.Map {
+      },
+      subproduct: Immutable.Map {
+      },
+      dtmTests: Immutable.Map {
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is Student enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 0 renderSettingTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 0 renderTestAssignmentTab 1`] = `
+<SettingsNoEnrollmentsMessage
+  cohort="Teacher"
+  productName="Progress Space"
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderSettingTab 1`] = `
+<ProgramSettingsViewPS
+  handleSave={[Function]}
+  isTabIsolated={false}
+  setIsolateTab={[Function]}
+  settings={
+    Immutable.Map {
+      audio_instructions: "1",
+      student_access_to_score: "1",
+      include_sample_questions: "1",
+      ell_audio_instructions: "0",
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is false renderTestAssignmentTab 1`] = `
+<TestAssignmentViewPS
+  isTabIsolated={false}
+  psTestAssignmentRequest={[Function]}
+  setIsolateTab={[Function]}
+  testAssignmentData={
+    Immutable.Map {
+      dtmModules: Immutable.Map {
+      },
+      subproduct: Immutable.Map {
+      },
+      dtmTests: Immutable.Map {
+      },
+    }
+  }
+/>
+`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderSettingTab 1`] = `<LoadingBar />`;
+
+exports[`<PSSettings /> selectedCohType is Teacher enrollmentCount is 10 isLoading is true renderTestAssignmentTab 1`] = `<LoadingBar />`;

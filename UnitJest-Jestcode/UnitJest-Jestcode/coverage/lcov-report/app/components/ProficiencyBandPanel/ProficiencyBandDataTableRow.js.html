@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/ProficiencyBandPanel/ProficiencyBandDataTableRow.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/components/ProficiencyBandPanel</a> ProficiencyBandDataTableRow.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/45</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/14</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React,<span class="cstat-no" title="statement not covered" > { PureComponent } from 'react';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import ProficiencyBandDataTableRowCell <span class="cstat-no" title="statement not covered" >from './ProficiencyBandDataTableRowCell';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+/* eslint-disable react/no-array-index-key */
+class ProficiencyBandDataTable<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >Ro</span>w extends PureComponent {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+  // a cell high value is editable if all these criteria are met:
+  // -  the proficiency band row as a whole is editable
+  // -  the cell is not in the final band
+  // -  the cell's high value is either not set (NaN) OR is &gt;= 0
+  isCellEditable = (b<span class="fstat-no" title="function not covered" >an</span>dIndex, numberOfBandRanges, highValue) =&gt;<span class="cstat-no" title="statement not covered" ></span>
+    this.props.isEditable &amp;&amp;
+    bandIndex !== numberOfBandRanges - 1 &amp;&amp;
+    (isNaN(highValue) || highValue &gt;= 0);
+&nbsp;
+  render = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const {
+      bandValueTranslator,
+      gradeNumber,
+      handleBlurBandHighValue,
+      handleChangeBandHighValue,
+      immBandRanges,
+      immBandReferenceData,
+      immBandsEnabled,
+      immInvalidHighsForGrade,
+      isEditable,
+      numberOfTrailingColumns,
+    } <span class="cstat-no" title="statement not covered" >= this.props</span>;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span></span></span></span></span></span></span>
+    const fillers = <span class="cstat-no" title="statement not covered" >Array(numberOfTrailingColumns).fill();</span>
+    const numberOfBandRanges = <span class="cstat-no" title="statement not covered" >immBandRanges.size;</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;tr key={gradeNumber}&gt;
+        &lt;td className="pb-data-table__cell"&gt;{gradeNumber === '0' ? 'K' : gradeNumber}&lt;/td&gt;
+        {immBandRanges.map(
+<span class="fstat-no" title="function not covered" >          (i</span>mmBandRange, bandIndex) =&gt;<span class="cstat-no" title="statement not covered" ></span>
+            immBandsEnabled.get(bandIndex) &amp;&amp; (
+              &lt;ProficiencyBandDataTableRowCell
+                bandIndex={bandIndex}
+                bandName={immBandReferenceData.getIn([bandIndex, 'defaultName'])}
+                bandValueTranslator={bandValueTranslator}
+                gradeNumber={gradeNumber}
+                handleBlurBandHighValue={handleBlurBandHighValue}
+                handleChangeBandHighValue={handleChangeBandHighValue}
+                high={immBandRange.get('high')}
+                highIsValid={!immInvalidHighsForGrade.get(bandIndex)}
+                isCellEditable={this.isCellEditable(
+                  bandIndex,
+                  numberOfBandRanges,
+                  immBandRange.get('high')
+                )}
+                isTableEditable={isEditable}
+                key={immBandReferenceData.getIn([bandIndex, 'defaultName'])}
+                low={immBandRange.get('low')}
+              /&gt;
+            )
+        )}
+        {fillers.map((<span class="fstat-no" title="function not covered" >_,</span> j) =&gt; (<span class="cstat-no" title="statement not covered" ></span>
+          &lt;td className="pb-data-table__cell pb-data-table__cell--filler" key={`filler-${j}`}&gt;
+            &amp;nbsp;
+          &lt;/td&gt;
+        ))}
+      &lt;/tr&gt;
+    );
+  };
+}
+/* eslint-enable react/no-array-index-key */
+&nbsp;
+Pr<span class="cstat-no" title="statement not covered" >oficiencyBandDataTableRow.defaultPro</span>ps = {<span class="cstat-no" title="statement not covered" ></span>
+  isEditable: false,
+};
+&nbsp;
+<span class="cstat-no" title="statement not covered" >ProficiencyBandDataTableRow.propTypes = {</span>
+  handleBlurBandHighValue: PropTypes.func,
+  handleChangeBandHighValue: PropTypes.func.isRequired,
+  immBandRanges: PropTypes.object.isRequired,
+  immBandReferenceData: PropTypes.object.isRequired,
+  immBandsEnabled: PropTypes.object.isRequired,
+  immInvalidHighsForGrade: PropTypes.object.isRequired,
+  isEditable: PropTypes.bool.isRequired,
+  bandValueTranslator: PropTypes.func,
+  gradeNumber: PropTypes.string.isRequired,
+  numberOfTrailingColumns: PropTypes.number.isRequired,<span class="cstat-no" title="statement not covered" ></span>
+};
+&nbsp;
+export default ProficiencyBandDataTableRow;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

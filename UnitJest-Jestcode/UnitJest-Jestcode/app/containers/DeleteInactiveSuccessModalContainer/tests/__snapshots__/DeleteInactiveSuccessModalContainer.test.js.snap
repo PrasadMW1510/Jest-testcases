@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteInactiveSuccessModalContainer /> Expect to render correctly 1`] = `
+<DeleteInactiveSuccessModal
+  data={
+    Object {
+      "searchOpts": "mockSearchOpts",
+    }
+  }
+  isOpen={true}
+  onYes={[Function]}
+/>
+`;

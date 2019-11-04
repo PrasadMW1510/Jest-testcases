@@ -1,0 +1,29 @@
+/*
+  Button Styles
+ */
+.btn {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  min-width: 102px;
+  width: 102px;
+  height: 30px;
+  display: block;
+  margin-top: 5px;
+}
+
+.btn--primary {
+  background-color: #d06021;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px rgba(255, 255, 255, 0.5) solid;
+  border-right: 2px #000 solid;
+  border-top: 2px rgba(255, 255, 255, 0.5) solid;
+}
+
+.btn--secondary {
+  background-color: #808080;
+  border-bottom: 2px #404040 solid;
+  border-left: 2px #ccc solid;
+  border-right: 2px #000 solid;
+  border-top: 3px #a6a6a6 solid;
+}

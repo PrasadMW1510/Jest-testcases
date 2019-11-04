@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/InboxModalContainer/InboxModalContainer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/InboxModalContainer</a> InboxModalContainer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/127</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/74</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/71</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * InboxModalContainer
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { createS<span class="cstat-no" title="statement not covered" >tructuredSelector } </span>from 'reselect';
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+import { fromJS }<span class="cstat-no" title="statement not covered" > from 'immutable';</span>
+import { hideMo<span class="cstat-no" title="statement not covered" >dal } from 'containers/ModalController/actions</span>';
+import injectSaga <span class="cstat-no" title="statement not covered" >from 'utils/injectSaga';<span class="cstat-no" title="statement not covered" ></span></span>
+import injectReducer <span class="cstat-no" title="statement not covered" >from 'utils/injectReducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import InboxProgram <span class="cstat-no" title="statement not covered" >from 'components/InboxProgram';<span class="cstat-no" title="statement not covered" ></span></span>
+import makeSelect<span class="cstat-no" title="statement not covered" >PortfolioPageContainer from 'containers/PortfolioPageCo</span>ntainer/selectors'<span class="cstat-no" title="statement not covered" >;</span>
+import { makeSelec<span class="cstat-no" title="statement not covered" >tProfileUserId } from 'containers/Ap</span>p/selectors';
+import makeSelectI<span class="cstat-no" title="statement not covered" >nboxModalContainer from</span> './selectors';<span class="cstat-no" title="statement not covered" ></span>
+import reducer <span class="cstat-no" title="statement not covered" >from './reducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import saga <span class="cstat-no" title="statement not covered" >from './saga';<span class="cstat-no" title="statement not covered" ></span></span>
+import { getStud<span class="cstat-no" title="statement not covered" >entProgramDetailsData</span>Request, <span class="fstat-no" title="function not covered" >getQuestion, storeEvalu</span>ationU<span class="cstat-no" title="statement not covered" >pdate } from './actions';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+export class InboxModalContainer extends React.Component {
+  constructor(props) {
+    super(props);<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+    this.state = {
+      isFetch: false,
+      detailsData: {},
+      studentName: '',
+      assignment: '',
+      currentIndex: 0,
+      prevDisable: 'previous',
+      nextDisable: 'previous',
+    };
+  }
+&nbsp;
+  componentDidMount() {
+    if (this.props &amp;&amp; this.props.data) {
+      this.studentProgramRequest(this.props.data.row);
+    }
+  }
+&nbsp;
+  componentWillReceiveProps(nextProps) {
+    const detailsData =
+      (nextProps.portfolioPageContainer &amp;&amp;
+        nextProps.portfolioPageContainer.searchResultDetailsData) ||
+      {};
+    if (!this.state.isFetch) {
+      const currentIndex = this.getDataArrayIndex();
+      this.setState({
+        currentIndex,
+        isFetch: true,
+        detailsData,
+      });
+    }
+    this.setState({
+      detailsData,
+    });
+  }
+&nbsp;
+  getDataArrayIndex = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    const matchingID = <span class="cstat-no" title="statement not covered" >this.props.data.currentIndex;</span>
+&nbsp;
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      studentName: this.props.data.row.student,
+      assignment: this.props.data.row.assignment,
+    });
+    if<span class="cstat-no" title="statement not covered" > (matchingID === 0) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ prevDisable: 'disable', nextDisable: 'previous' });</span>
+    }
+    if<span class="cstat-no" title="statement not covered" > (matchingID === this.props.data.allData.length - 1) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ nextDisable: 'disable', prevDisable: 'previous' });</span>
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn matchingID;</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+  studentProgramRequest = cu<span class="fstat-no" title="function not covered" >rr</span>entRow =&gt; {
+    let xmlinput = ''<span class="cstat-no" title="statement not covered" >;</span>
+    let studentId = cu<span class="cstat-no" title="statement not covered" >rrentRow.id;</span>
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (currentRow.studentId !== undefined) {</span>
+      st<span class="cstat-no" title="statement not covered" >udentId = currentRow.studentId;</span>
+    }
+    xm<span class="cstat-no" title="statement not covered" >linput = `&lt;workItemsSubset&gt;</span>
+    &lt;workItemInfo 
+    workItemId="${currentRow.workItemId}"  
+    communityId="${currentRow.communityId}"
+    studentId="${studentId}"
+    assignment="${currentRow.assignment}"
+    kind="${currentRow.kind}"
+    /&gt;&lt;/workItemsSubset&gt;`;
+&nbsp;
+    th<span class="cstat-no" title="statement not covered" >is.props.getStudentProgramDetailsDataRequest(xmlinput);</span>
+  };<span class="cstat-no" title="statement not covered" ></span>
+  nextSerd = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.state.currentIndex === this.props.data.allData.length - 1) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ nextDisable: 'disable', prevDisable: 'previous' });</span>
+      re<span class="cstat-no" title="statement not covered" >turn;</span>
+    }
+    const nextInd = <span class="cstat-no" title="statement not covered" >this.state.currentIndex + 1 || null;</span>
+    const nextRow =
+<span class="cstat-no" title="statement not covered" >      nextInd &amp;&amp; this.props.data &amp;&amp; this.props.data.allData &amp;&amp; this.props.data.allData[nextInd];</span>
+    th<span class="cstat-no" title="statement not covered" >is.studentProgramRequest(nextRow);</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      studentName: nextRow.student,
+      assignment: nextRow.assignment,
+      currentIndex: nextInd,
+      nextDisable: 'previous',
+      prevDisable: 'previous',
+    });
+    if<span class="cstat-no" title="statement not covered" > (nextInd === this.props.data.allData.length - 1) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ nextDisable: 'disable', prevDisable: 'previous' });</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  prevSerd = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.state.currentIndex === 0) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ prevDisable: 'disable', nextDisable: 'previous' });</span>
+    }
+    const prevInd = <span class="cstat-no" title="statement not covered" >this.state.currentIndex - 1;</span>
+    const prevRow = <span class="cstat-no" title="statement not covered" >this.props.data.allData[prevInd];</span>
+    th<span class="cstat-no" title="statement not covered" >is.studentProgramRequest(prevRow);</span>
+    th<span class="cstat-no" title="statement not covered" >is.setState({</span>
+      nextDisable: 'previous',
+      studentName: prevRow.student,
+      assignment: prevRow.assignment,
+      currentIndex: prevInd,
+      prevDisable: 'previous',
+    });
+    if<span class="cstat-no" title="statement not covered" > (prevInd === 0) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.setState({ prevDisable: 'disable', nextDisable: 'previous' });</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+  saveQuestion = ev<span class="fstat-no" title="function not covered" >al</span>uationData =&gt; {
+    let xmlinput = ''<span class="cstat-no" title="statement not covered" >;</span>
+    xm<span class="cstat-no" title="statement not covered" >linput = `&lt;evaluationUpdate submissionType="${evaluationData.submissionType}" studentId="${</span>
+      evaluationData.studentID
+    }" teacherId="${evaluationData.teacherID}" rubricType="${
+      evaluationData.rubicType
+    }" workItemId="${evaluationData.workItemID}"&gt;
+      &lt;questionNum&gt;${evaluationData.questionNum}&lt;/questionNum&gt;`;
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (evaluationData.comment !== undefined &amp;&amp; evaluationData.comment !== '') {</span>
+      xm<span class="cstat-no" title="statement not covered" >linput = `${xmlinput} </span>
+      &lt;comment&gt;${evaluationData.comment}&lt;/comment&gt;`;
+    }
+    if<span class="cstat-no" title="statement not covered" > (evaluationData.score !== undefined &amp;&amp; evaluationData.score !== '') {</span>
+      xm<span class="cstat-no" title="statement not covered" >linput = `${xmlinput}</span>
+      &lt;grade&gt;0&lt;/grade&gt;
+      &lt;rubricScores&gt;
+       &lt;score rubricOrder="1"&gt;
+         &lt;teacherScore&gt;${evaluationData.score}&lt;/teacherScore&gt;
+       &lt;/score&gt;
+     &lt;/rubricScores&gt;`;
+    }
+&nbsp;
+    xm<span class="cstat-no" title="statement not covered" >linput = `${xmlinput} </span>
+    &lt;/evaluationUpdate&gt;`;
+    th<span class="cstat-no" title="statement not covered" >is.props.storeEvaluationUpdate(xmlinput, evaluationData);</span>
+    th<span class="cstat-no" title="statement not covered" >is.studentProgramRequest(this.props.data.allData[this.state.currentIndex]);</span>
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+  render() {
+    const { hideModal:<span class="cstat-no" title="statement not covered" > hideModalProp } = th</span>is.props;
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;InboxProgram
+        isOpen
+        handleCancel={hideModalProp}
+        onPreview={this.handlePreview}
+        currIndex={this.state.currentIndex}
+        sName={this.state.studentName}
+        assignment={this.state.assignment}
+        saveQuestion={this.saveQuestion}
+        evaluationData={this.state.evaluationData}
+        studentProgramRequest={this.studentProgramRequest}
+        prevSerd={this.prevSerd}
+        nextSerd={this.nextSerd}
+        previousDisable={this.state.prevDisable}
+        nextDisable={this.state.nextDisable}
+        {...this.props}
+      /&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+<span class="cstat-no" title="statement not covered" >InboxModalContainer.propTypes = {</span>
+  data: PropTypes.object,
+  hideModal: PropTypes.func.isRequired,
+  getStudentProgramDetailsDataRequest: PropTypes.func.isRequired,
+  portfolioPageContainer: PropTypes.object.isRequired,
+  storeEvaluationUpdate: PropTypes.func.isRequired,
+};
+&nbsp;
+const mapStateToProps <span class="cstat-no" title="statement not covered" >= createStructuredSelector({</span>
+  inboxmodalcontainer: makeSelectInboxModalContainer(),
+  portfolioPageContainer: makeSelectPortfolioPageContainer(),
+  profileUserId: makeSelectProfileUserId(),
+});
+&nbsp;
+<span class="cstat-no" title="statement not covered" >InboxModalContainer.defaultProps = {</span>
+  inboxModalContainer: fromJS({}),
+};
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(mapStateToProps, {</span>
+  hideModal,
+  getStudentProgramDetailsDataRequest,
+  getQuestion,
+  storeEvaluationUpdate,
+});
+&nbsp;
+const withReducer <span class="cstat-no" title="statement not covered" >= injectReducer({ key: 'inboxModalContainer', reducer });</span>
+const withSaga <span class="cstat-no" title="statement not covered" >= injectSaga({ key: 'inboxModalContainer', saga });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withReducer, withSaga, withConnect)(InboxModalContainer);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

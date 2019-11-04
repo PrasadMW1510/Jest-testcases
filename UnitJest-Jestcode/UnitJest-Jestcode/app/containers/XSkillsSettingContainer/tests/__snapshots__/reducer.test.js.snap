@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`xSkillsSettingContainerReducer shoudl handle the xSkillSettingContainerRequestSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: false,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsSettingContainerRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: false,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsSettingsLoading action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: true,
+  loadingTestAssignment: false,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsSettingsRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: true,
+  loadingTestAssignment: false,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsSettingsRequestSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+    mock: "settings",
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: false,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsTestAssignmentLoading action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: true,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsTestAssignmentRequest action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: true,
+}
+`;
+
+exports[`xSkillsSettingContainerReducer should handle the xSkillsTestAssignmentRequestSuccess action 1`] = `
+Immutable.Map {
+  error: false,
+  settings: Immutable.Map {
+  },
+  testsMeta: Immutable.Map {
+  },
+  loadingSettings: false,
+  loadingTestAssignment: false,
+}
+`;

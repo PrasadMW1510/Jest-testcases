@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsContainerFailure 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/S44NGSettingContainer/S44NG_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsContainerRequest 1`] = `
+Object {
+  "type": "app/S44NGSettingContainer/S44NG_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsContainerSuccess 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/S44NGSettingContainer/S44NG_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsSave 1`] = `
+Object {
+  "settingsData": "mockSaveData",
+  "type": "app/S44NGSettingContainer/S44NG_SETTINGS_SAVE",
+}
+`;
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsSaveFailure 1`] = `
+Object {
+  "error": "mockError",
+  "subType": "app/S44NGSettingContainer/S44NG_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`S44NGSettingContainer actions should return the correct constant for s44NGSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/S44NGSettingContainer/S44NG_SETTINGS_SAVE_SUCCESS",
+}
+`;

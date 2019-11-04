@@ -1,0 +1,133 @@
+.simulation-program-overall-score {
+  background: #fff;
+  position: absolute;
+  top: 470px;
+  right: 0;
+  border: 1px #8e8787 solid;
+  width: 47%;
+}
+
+.simulation-program-overall-score-head {
+  margin: 0;
+  background: #dedcdc;
+  padding: 5px;
+  font-size: 13px;
+  border-bottom: #a7a1a1 1px solid;
+  padding: 7px 10px;
+}
+
+.simulation-program-overall-score-info {
+  border: #a09c9c 1px solid;
+  margin: 4px;
+  overflow: hidden;
+}
+
+.simulation-program-col-sm-4 {
+  width: 33%;
+  float: left;
+}
+
+.simulation-program-col-body {
+  text-align: center;
+  background: linear-gradient(to bottom, #fff 35%, #ddd 100%);
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+  border-right: #000 1px solid;
+  border-bottom: #a09c9c 1px solid;
+  padding: 4px 0;
+}
+
+.simulation-program-col-p {
+  border-right: #d8d4d4 1px solid;
+  height: 90px;
+  margin: 0;
+  font-size: 13px;
+  padding: 8px 6px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  background-color: #e7e8e7;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #fff;
+  border-color: #aaa;
+  color: rgba(0, 0, 0, 0.897);
+  border-radius: 5px 5px 0 0;
+  font-weight: 600;
+}
+
+.inbox-program-title button {
+  color: #0378d0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab::after {
+  content: ' ';
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.modal--savewrapper-heading {
+  background: #ddd;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.modal--savewrapper-warning {
+  text-align: center;
+}
+
+.read180ngsave-innerpage-button {
+  display: flex;
+}
+
+.modal-cancel-button {
+  margin: 5px 0 0 15px;
+}
+
+.modal--savescreen-warning {
+  padding: 0;
+  margin: 0;
+}

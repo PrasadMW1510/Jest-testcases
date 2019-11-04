@@ -1,0 +1,32 @@
+.programgrading-header {
+  padding-top: 5px;
+}
+
+.programgrading-header__name {
+  float: left;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.programgrading-header__image {
+  float: right;
+}
+
+.programgrading-header__fm {
+  padding-top: 5px;
+
+  .programgrading-header__image {
+    width: 140px;
+    height: 37px;
+  }
+}
+
+.programgrading-header__src {
+  padding-top: 5px;
+
+  .programgrading-header__name {
+    width: 260px;
+    line-height: 18px;
+    font-size: 16px;
+  }
+}

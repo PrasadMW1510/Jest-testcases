@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for clearSearchOptions 1`] = `
+Object {
+  "type": "SearchResultsContainer/clearSearchOptions",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for clearSelectedCustomList 1`] = `
+Object {
+  "type": "SearchResultsContainer/delete_selected_rows",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAllTeacherMadeQuizDataRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "SearchResultsContainer/get_all_teacher_made_quiz_data_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAllTeacherMadeQuizDataRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "SearchResultsContainer/get_all_teacher_made_quiz_data_request_failure",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAllTeacherMadeQuizDataRequestSuccess 1`] = `
+Object {
+  "searchResults": Array [
+    Object {
+      "name": "allTeacherMadeQuizData 1",
+    },
+  ],
+  "type": "SearchResultsContainer/get_all_teacher_made_quiz_data_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getAllTeacherMadeQuizDataRequestSuccess 2`] = `
+Object {
+  "searchResults": Array [],
+  "type": "SearchResultsContainer/get_all_teacher_made_quiz_data_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getChangeCollectionResultsRequest 1`] = `
+Object {
+  "payload": undefined,
+  "type": "SearchResultsContainer/get_change_collection_results_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getChangeCollectionResultsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "SearchResultsContainer/get_change_collection_results_request_failure",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getChangeCollectionResultsRequestSuccess 1`] = `
+Object {
+  "searchResults": Array [
+    Object {
+      "name": "changeCollectionName  1",
+    },
+  ],
+  "type": "SearchResultsContainer/get_change_collection_results_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getChangeCollectionResultsRequestSuccess 2`] = `
+Object {
+  "searchResults": Array [],
+  "type": "SearchResultsContainer/get_change_collection_results_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getCollectionsNameRequest 1`] = `
+Object {
+  "type": "SearchResultsContainer/get_collectionname_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getCollectionsNameRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "SearchResultsContainer/get_collectionname_request_failure",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getCollectionsNameRequestSuccess 1`] = `
+Object {
+  "collectionName": Array [
+    Object {
+      "name": "collectionName  1",
+    },
+  ],
+  "type": "SearchResultsContainer/get_collectionname_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for getCollectionsNameRequestSuccess 2`] = `
+Object {
+  "collectionName": Array [],
+  "type": "SearchResultsContainer/get_collectionname_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for makeselectedbookresults 1`] = `
+Object {
+  "selectedIds": Array [
+    Object {
+      "name": "selectedIds  1",
+    },
+  ],
+  "selectedrows": Array [
+    Object {
+      "name": "selectedrows  1",
+    },
+  ],
+  "type": "SearchResultsContainer/results_save",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for makeselectedbookresults 2`] = `
+Object {
+  "selectedIds": undefined,
+  "selectedrows": undefined,
+  "type": "SearchResultsContainer/results_save",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for postSaveRequest 1`] = `
+Object {
+  "searchResultsIdsChecked": Array [
+    Object {
+      "name": "searchResultsIdsChecked  1",
+    },
+  ],
+  "type": "SearchResultsContainer/post_save_results_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for postSaveRequest 2`] = `
+Object {
+  "searchResultsIdsChecked": undefined,
+  "type": "SearchResultsContainer/post_save_results_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for postSaveRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my custom error",
+  },
+  "type": "SearchResultsContainer/post_save_results_request_failure",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for postSaveRequestSuccess 1`] = `
+Object {
+  "type": "SearchResultsContainer/post_save_results_request_success",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for putAllTeacherMadeQuizDataRequest 1`] = `
+Object {
+  "searchOpts": Array [
+    Object {
+      "name": "searchOpts  1",
+    },
+  ],
+  "type": "SearchResultsContainer/put_all_teacher_made_quiz_data_request",
+}
+`;
+
+exports[`SearchResultsContainer actions All actions should return the correct constant for putAllTeacherMadeQuizDataRequest 2`] = `
+Object {
+  "searchOpts": undefined,
+  "type": "SearchResultsContainer/put_all_teacher_made_quiz_data_request",
+}
+`;

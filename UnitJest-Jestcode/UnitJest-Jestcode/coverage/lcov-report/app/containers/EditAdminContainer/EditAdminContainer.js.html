@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/EditAdminContainer/EditAdminContainer.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/EditAdminContainer</a> EditAdminContainer.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/140</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/79</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/74</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+ *
+ * EditAdminContainer
+ *
+ */
+&nbsp;
+import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ></span></span>
+import PropTypes <span class="cstat-no" title="statement not covered" >from 'prop-types';<span class="cstat-no" title="statement not covered" ></span></span>
+import { connect }<span class="cstat-no" title="statement not covered" > from 'react-redux';</span>
+import { createS<span class="cstat-no" title="statement not covered" >tructuredSelector } </span>from 'reselect';
+import { comp<span class="cstat-no" title="statement not covered" >ose } from 'redux</span>';
+import { fromJS }<span class="cstat-no" title="statement not covered" > from 'immutable';</span>
+import { reduxForm<span class="cstat-no" title="statement not covered" >, reducer as formReducer } from </span>'redux-form/immutable';
+&nbsp;
+import injectSaga <span class="cstat-no" title="statement not covered" >from 'utils/injectSaga';<span class="cstat-no" title="statement not covered" ></span></span>
+import injectReducer <span class="cstat-no" title="statement not covered" >from 'utils/injectReducer';<span class="cstat-no" title="statement not covered" ></span></span>
+import { transformFor<span class="cstat-no" title="statement not covered" >mDisplayType } from 'utils/tran</span>sformData';
+&nbsp;
+import EditAdminForm <span class="cstat-no" title="statement not covered" >from 'components/EditAdminForm';<span class="cstat-no" title="statement not covered" ></span></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  hideModal,
+  showModal,
+  showEditAdminModalWarning,
+} from 'containers/ModalController/actions';
+import * as Modal<span class="cstat-no" title="statement not covered" >Constants from 'containers/ModalController/const</span>ants';<span class="cstat-no" title="statement not covered" ></span>
+import {<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectLoginUserOrg,
+  makeSelectPasswordConfigData,
+  makeSelectPermissionsData,
+  makeSelectProfileData,
+  makeSelectSchoolsData,
+} from 'containers/App/selectors';
+import {<span class="cstat-no" title="statement not covered" ></span>
+  makeSelectAdminToEditData,
+  makeSelectAdminToEditUserOrgId,
+} from 'containers/ManageAdminAccountsContainer/selectors';
+import { USER_ORG <span class="cstat-no" title="statement not covered" >} from 'containers/App/constants';</span>
+import { FORM_EDIT<span class="cstat-no" title="statement not covered" >_ADMIN, CREDENTIALS_MES</span>SAGE } from './constants';
+import { editAdm<span class="cstat-no" title="statement not covered" >inContainerRequest, p</span>ostAddAdminRequest, postSaveAdminRequest } from './actions';
+import { makeSelec<span class="cstat-no" title="statement not covered" >tFormErrors, makeSelect</span>SubmitErrors } from './selectors';
+import saga <span class="cstat-no" title="statement not covered" >from './saga';<span class="cstat-no" title="statement not covered" ></span></span>
+import validate <span class="cstat-no" title="statement not covered" >from './validate';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+const EditAdminFormEnhanced = reduxForm({
+  form: FORM_EDIT_ADMIN,
+  validate,<span class="cstat-no" title="statement not covered" ></span>
+  enableReinitialize: true,
+})(EditAdminForm);
+&nbsp;
+export class EditAdmi<span class="cstat-no" title="statement not covered" >nContainer extends React.Comp<span class="fstat-no" title="function not covered" >on</span>ent {<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span>
+  componentDidMount() {
+    this.props.editAdminContainerRequest();
+&nbsp;
+    if (this.props.data.defaultMode) {
+      this.props.showModal(ModalConstants.WARNING_MODAL, {
+        message: CREDENTIALS_MESSAGE,
+      });
+    }
+  }
+&nbsp;
+  getSchools = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (!this.props.schools) {</span>
+      re<span class="cstat-no" title="statement not covered" >turn null;</span>
+    }
+&nbsp;
+    const list = <span class="cstat-no" title="statement not covered" >this.props.schools</span>
+      .map<span class="fstat-no" title="function not covered" >(i</span>tem =&gt; ({ text:<span class="cstat-no" title="statement not covered" > item.getIn(['name', 0]), id: item.getIn(['org_id', 0]) }))</span>
+      .toJS();
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn list;</span>
+  };
+&nbsp;
+  getInitialValues = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { adminT</span>oEditData, profile<span class="cstat-no" title="statement not covered" >Data, userOrg, data } = this</span>.props;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span>
+&nbsp;
+    let initialValues = {<span class="cstat-no" title="statement not covered" ></span>
+      district_user_id: profileData.getIn(['district_user_id', 0]),
+      email: profileData.getIn(['email', 0]),
+      first_name: profileData.getIn(['first_name', 0]),
+      last_name: profileData.getIn(['last_name', 0]),
+      password: profileData.getIn(['password', 0]),
+      password_confirm: profileData.getIn(['password', 0]),
+      password_hint: profileData.getIn(['password_hint', 0]),
+      prefix: profileData.getIn(['prefix', 0]),
+      sps_id: profileData.getIn(['sps_id', 0]),
+      suffix: profileData.getIn(['suffix', 0]),
+      title: profileData.getIn(['title', 0]),
+      user_name: profileData.getIn(['user_name', 0]),
+      user_type: profileData.getIn(['user_type', 0]),
+    };
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (!data.editingSameAccount) {</span>
+      in<span class="cstat-no" title="statement not covered" >itialValues = {</span>
+        district_user_id: adminToEditData.getIn(['district_user_id', 0]),
+        email: adminToEditData.getIn(['email', 0]),
+        first_name: adminToEditData.getIn(['first_name', 0]),
+        last_name: adminToEditData.getIn(['last_name', 0]),
+        password: adminToEditData.getIn(['password', 0]),
+        password_confirm: adminToEditData.getIn(['password', 0]),
+        password_hint: adminToEditData.getIn(['password_hint', 0]),
+        prefix: adminToEditData.getIn(['prefix', 0]),
+        sps_id: adminToEditData.getIn(['sps_id', 0]),
+        suffix: adminToEditData.getIn(['suffix', 0]),
+        title: adminToEditData.getIn(['title', 0]),
+        user_name: adminToEditData.getIn(['user_name', 0]),
+        user_type: data.accountType,
+      };
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (!data.editMode) {</span>
+      in<span class="cstat-no" title="statement not covered" >itialValues = { user_type: data.accountType };</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (userOrg === USER_ORG.School) {</span>
+      const organizationObj = <span class="cstat-no" title="statement not covered" >profileData.getIn(['organizations', 0, 'organization', 0]);</span>
+      in<span class="cstat-no" title="statement not covered" >itialValues.school_name = organizationObj.getIn(['name', 0]);</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (userOrg === USER_ORG.District &amp;&amp; !this.props.data.defaultMode) {</span>
+      const schools = <span class="cstat-no" title="statement not covered" >this.props.schools.toJS();</span>
+&nbsp;
+      in<span class="cstat-no" title="statement not covered" >itialValues.school_name = schools[0].org_id[0];</span>
+&nbsp;
+      if<span class="cstat-no" title="statement not covered" > (data.editMode &amp;&amp; !data.editingSameAccount) {</span>
+        in<span class="cstat-no" title="statement not covered" >itialValues.school_name = this.props.adminToEditUserOrgId;</span>
+      }
+    }
+&nbsp;
+    re<span class="cstat-no" title="statement not covered" >turn fromJS(initialValues);</span>
+  };
+&nbsp;
+  handleCancel = ()<span class="fstat-no" title="function not covered" > =</span>&gt; {
+    if<span class="cstat-no" title="statement not covered" > (this.props.data.defaultMode) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.showModal(ModalConstants.CANCEL_CREDENTIALS_MODAL);</span>
+      re<span class="cstat-no" title="statement not covered" >turn;</span>
+    }
+    th<span class="cstat-no" title="statement not covered" >is.props.hideModal();</span>
+  };
+&nbsp;
+  handleSave = (v<span class="fstat-no" title="function not covered" >al</span>ues, permissionsChecked) =&gt; {
+    co<span class="cstat-no" title="statement not covered" >nst { data, </span>profile<span class="cstat-no" title="statement not covered" >Data, adminToEditD</span>ata } = this.p<span class="cstat-no" title="statement not covered" >rops;<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (data.editMode &amp;&amp; data.editingSameAccount) {</span>
+      if<span class="cstat-no" title="statement not covered" > (values.get('user_name') !== profileData.getIn(['user_name', 0])) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.props.showEditAdminModalWarning({</span>
+          values,
+          isTeacher: false,
+          editingSameAccount: true,
+        });
+        re<span class="cstat-no" title="statement not covered" >turn;</span>
+      }
+      th<span class="cstat-no" title="statement not covered" >is.props.postSaveAdminRequest(values, permissionsChecked, data.editingSameAccount);</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (data.editMode &amp;&amp; !data.editingSameAccount) {</span>
+      const userType = <span class="cstat-no" title="statement not covered" >transformFormDisplayType(data.accountType);</span>
+      const formValues = <span class="cstat-no" title="statement not covered" >values.set('user_type', userType);</span>
+&nbsp;
+      if<span class="cstat-no" title="statement not covered" > (values.get('user_name') !== adminToEditData.getIn(['user_name', 0])) {</span>
+        th<span class="cstat-no" title="statement not covered" >is.props.showEditAdminModalWarning({</span>
+          values: formValues,
+          isTeacher: false,
+          editingSameAccount: false,
+          permissionsChecked,
+        });
+        re<span class="cstat-no" title="statement not covered" >turn;</span>
+      }
+&nbsp;
+      th<span class="cstat-no" title="statement not covered" >is.props.postSaveAdminRequest(formValues, permissionsChecked, data.editingSameAccount);</span>
+    }
+&nbsp;
+    if<span class="cstat-no" title="statement not covered" > (!data.editMode) {</span>
+      th<span class="cstat-no" title="statement not covered" >is.props.postAddAdminRequest(values, permissionsChecked);</span>
+    }
+  };<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span>
+&nbsp;
+  render() {
+    const { profileD<span class="cstat-no" title="statement not covered" >ata } = this.props;</span>
+    const school = <span class="cstat-no" title="statement not covered" >profileData.getIn(['organizations', 0, 'organization', 0]);</span>
+    re<span class="cstat-no" title="statement not covered" >turn (</span>
+      &lt;EditAdminFormEnhanced
+        isOpen
+        adminToEditData={this.props.adminToEditData}
+        editMode={this.props.data.editMode}
+        editingSameAccount={this.props.data.editingSameAccount}
+        initialValues={this.getInitialValues()}
+        schools={this.getSchools()}
+        school={school}
+        handleCancel={this.handleCancel}
+        permissions={this.props.permissionsData}
+        handleSave={this.handleSave}
+        passwordConfigsArray={this.props.passwordConfigs.get('configs').toJS()}
+        {...this.props}
+      /&gt;
+    );
+  }<span class="cstat-no" title="statement not covered" ></span>
+}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >EditAdminContainer.defaultProps = {</span>
+  userOrg: '',
+  data: {
+    editMode: true,
+    editingSameAccount: true,
+  },
+};
+&nbsp;
+<span class="cstat-no" title="statement not covered" >EditAdminContainer.propTypes = {</span>
+  editAdminContainerRequest: PropTypes.func.isRequired,
+  data: PropTypes.object.isRequired,
+  hideModal: PropTypes.func.isRequired,
+  showModal: PropTypes.func.isRequired,
+  passwordConfigs: PropTypes.object.isRequired,
+  permissionsData: PropTypes.object.isRequired,
+  postSaveAdminRequest: PropTypes.func.isRequired,
+  postAddAdminRequest: PropTypes.func.isRequired,
+  profileData: PropTypes.object.isRequired,
+  showEditAdminModalWarning: PropTypes.func.isRequired,
+  adminToEditData: PropTypes.object,
+  adminToEditUserOrgId: PropTypes.string,
+  schools: PropTypes.object,
+  userOrg: PropTypes.string,
+};
+&nbsp;
+const mapStateToProps <span class="cstat-no" title="statement not covered" >= createStructuredSelector({</span>
+  passwordConfigs: makeSelectPasswordConfigData(),
+  schools: makeSelectSchoolsData(),
+  permissionsData: makeSelectPermissionsData(),
+  profileData: makeSelectProfileData(),
+  adminToEditData: makeSelectAdminToEditData(),
+  adminToEditUserOrgId: makeSelectAdminToEditUserOrgId(),
+  submitErrors: makeSelectSubmitErrors(),
+  userOrg: makeSelectLoginUserOrg(),
+  validationErrors: makeSelectFormErrors(),
+});
+&nbsp;
+const withConnect <span class="cstat-no" title="statement not covered" >= connect(mapStateToProps, {</span>
+  editAdminContainerRequest,
+  hideModal,
+  showModal,
+  postSaveAdminRequest,
+  postAddAdminRequest,
+  showEditAdminModalWarning,
+});
+&nbsp;
+const withReducer <span class="cstat-no" title="statement not covered" >= injectReducer({ key: 'form', reducer: formReducer });</span>
+const withSaga <span class="cstat-no" title="statement not covered" >= injectSaga({ key: 'editAdminContainer', saga });<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+export default compose(withReducer, withSaga, withConnect)(EditAdminContainer);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsSelectBox /> should render disabled/mixed/right-label correctly 1`] = `
+<span
+  className="settings-select-box-wrapper"
+>
+  <select
+    className="settings-select-box fieldClasssettings-select-box--grey"
+    disabled={true}
+    id=""
+    name="fieldName"
+    onChange={[Function]}
+    value="-1"
+  >
+    <option
+      disabled={true}
+      key="-1"
+      value="-1"
+    />
+    <option
+      key="1"
+      value={1}
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value={2}
+    >
+      2
+    </option>
+  </select>
+  <span
+    className="settings-select-box-label--right labelClass settings-select-box-label--grey"
+  >
+    label
+  </span>
+</span>
+`;
+
+exports[`<SettingsSelectBox /> should render enabled/non-mixed correctly 1`] = `
+<span
+  className="settings-select-box-wrapper"
+>
+  <span
+    className="settings-select-box-label--left labelClass"
+  >
+    label
+  </span>
+  <select
+    className="settings-select-box fieldClass"
+    disabled={false}
+    id=""
+    name="fieldName"
+    onChange={[Function]}
+    value="1"
+  >
+    <option
+      key="1"
+      value={1}
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value={2}
+    >
+      2
+    </option>
+  </select>
+</span>
+`;

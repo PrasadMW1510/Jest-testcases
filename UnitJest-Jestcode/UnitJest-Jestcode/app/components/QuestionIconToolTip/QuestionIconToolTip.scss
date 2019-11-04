@@ -1,0 +1,33 @@
+.question-icon {
+  background-color: #efefef;
+  border: solid 1px #dfded6;
+  color: #4281ce;
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5px;
+  padding-right: 1px;
+  padding-top: 1px;
+}
+
+.question-tool-tip {
+  /*
+    we don't want to use !important
+    but according to the tool tip docs
+    this is how you override the default styles
+   */
+  font-size: 10px !important;
+  background-color: #fffe9f !important;
+  color: #000 !important;
+  opacity: 1 !important;
+  width: 345px;
+  height: auto;
+
+  &.place-top::after {
+    border-top-color: #fffe9f !important;
+    opacity: 1 !important;
+  }
+}

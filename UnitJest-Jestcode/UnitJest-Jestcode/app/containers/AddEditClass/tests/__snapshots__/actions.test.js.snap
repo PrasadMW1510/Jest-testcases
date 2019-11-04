@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditClass Actions Initialize class (load meta data & class profile) should return the correct constant for initializing form request 1`] = `
+Object {
+  "data": Object {
+    "name": "my class",
+  },
+  "type": "AddEditClass/initialize_class_form_request",
+}
+`;
+
+exports[`AddEditClass Actions Initialize class (load meta data & class profile) should return the correct constant for initializing form request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "subType": "AddEditClass/initialize_class_form_request_failure",
+  "type": "general_failure",
+}
+`;
+
+exports[`AddEditClass Actions Initialize class (load meta data & class profile) should return the correct constant for initializing form request success 1`] = `
+Object {
+  "type": "AddEditClass/initialize_class_form_request_success",
+}
+`;
+
+exports[`AddEditClass Actions Save a class should return the correct constant for saving a class request 1`] = `
+Object {
+  "classObject": Object {
+    "name": "my class",
+  },
+  "isEdit": false,
+  "type": "AddEditClass/save_class_request",
+}
+`;
+
+exports[`AddEditClass Actions Save a class should return the correct constant for saving a class request failure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "AddEditClass/save_class_request_failure",
+}
+`;
+
+exports[`AddEditClass Actions Save a class should return the correct constant for saving a class request success 1`] = `
+Object {
+  "type": "AddEditClass/save_class_request_success",
+}
+`;

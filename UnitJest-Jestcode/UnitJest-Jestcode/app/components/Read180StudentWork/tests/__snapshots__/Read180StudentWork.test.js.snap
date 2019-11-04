@@ -1,0 +1,832 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Read180StudentWork /> Expect to render component 1`] = `
+<div>
+  <div>
+    <div
+      className="read180-student-work-centerpanel"
+    >
+      <div
+        className="read180-student-work--show-label-quiz-list--purple"
+      >
+        <div />
+        <button
+          className="button-close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="read180-student-work-title"
+      >
+        rSkills College & Carrer . Workshop .
+        qwertyu
+        <a
+          className="read180-student-work-title-link"
+          href="https://h511000002.education.scholastic.com/rtng/extensions/sample_pdfs/rSkillsTests_A_1a.pdf"
+        >
+          asdf
+        </a>
+        <span
+          className="read180-student-work-title-right "
+        >
+          Date of Test:
+           
+          12/31/1969
+           
+          score :
+          NaN
+          % (
+          qwerty
+          /
+          qwer
+          )
+           
+        </span>
+      </div>
+      <div
+        className="tab-bar book-nav-bar"
+      >
+        <div
+          className="nav-bar__container book-nav-container"
+        >
+          <Tabs
+            defaultFocus={false}
+            defaultIndex={null}
+            forceRenderTabPanel={false}
+            selectedIndex={null}
+          >
+            <TabList
+              className="read180-tabs-list"
+            >
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Constructed Response1
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Constructed Response2
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Extended Writing
+              </Tab>
+            </TabList>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swcr1
+                comments=""
+                overallScore={[Function]}
+                read180Swcr1={
+                  Object {
+                    "$": Object {
+                      "dateSubmitted": 0.0004955401387512388,
+                    },
+                    "multichoiceResults": Array [
+                      Object {
+                        "correct": Array [
+                          "qwerty",
+                        ],
+                        "total": Array [
+                          "qwer",
+                        ],
+                      },
+                    ],
+                    "student": Object {},
+                    "testName": Array [
+                      "asdf",
+                    ],
+                    "workshop": Array [
+                      "qwertyu",
+                    ],
+                  }
+                }
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swcr2
+                comments=""
+                overallScore={[Function]}
+                read180Swcr2={
+                  Object {
+                    "$": Object {
+                      "dateSubmitted": 0.0004955401387512388,
+                    },
+                    "multichoiceResults": Array [
+                      Object {
+                        "correct": Array [
+                          "qwerty",
+                        ],
+                        "total": Array [
+                          "qwer",
+                        ],
+                      },
+                    ],
+                    "student": Object {},
+                    "testName": Array [
+                      "asdf",
+                    ],
+                    "workshop": Array [
+                      "qwertyu",
+                    ],
+                  }
+                }
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swew
+                comments=""
+                overLink={[Function]}
+                read180Swew={
+                  Object {
+                    "$": Object {
+                      "dateSubmitted": 0.0004955401387512388,
+                    },
+                    "multichoiceResults": Array [
+                      Object {
+                        "correct": Array [
+                          "qwerty",
+                        ],
+                        "total": Array [
+                          "qwer",
+                        ],
+                      },
+                    ],
+                    "student": Object {},
+                    "testName": Array [
+                      "asdf",
+                    ],
+                    "workshop": Array [
+                      "qwertyu",
+                    ],
+                  }
+                }
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+          </Tabs>
+        </div>
+      </div>
+      <div
+        className="print-custom-booklabel__buttons"
+      >
+        <button
+          className="button-print"
+          onClick={[Function]}
+        >
+          Print
+        </button>
+        <button
+          className="button-cancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </button>
+        <button
+          className="button-save"
+        >
+          Save
+        </button>
+        <div>
+          <center />
+        </div>
+        <div
+          className="simulation-program-overall-score"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <h3
+            className="simulation-program-overall-score-head"
+          >
+            Overall Score
+          </h3>
+          <button
+            className="inbox-program-close-pop"
+            onClick={[Function]}
+          >
+            x
+          </button>
+          <div
+            className="simulation-program-overall-score-info"
+          >
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                0
+                <br />
+                 Not Attempted
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response needs supporting explation for claims.
+              </p>
+            </div>
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                1
+                <br />
+                 Partially Attempted
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response includes one supporting explainations.
+              </p>
+            </div>
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                2
+                <br />
+                 Complete
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response includes atleast two supporting explainations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="skill-assestment-overallscore"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <h3
+            className="skill-assestment-overallscore-data"
+          >
+            Overall Score
+          </h3>
+          <button
+            className="inbox-program-close-pop"
+            onClick={[Function]}
+          >
+            x
+          </button>
+          <div
+            className="skill-assestment-overallscore-info"
+          >
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                1
+                <br />
+                 Needs Improvement
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The student demonstrates inconsistent or no understanding of interpreting the meaning of products in an equal groups problem. The student answers no part correctly.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                2
+                <br />
+                 Average
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The student demonstrates partial understanding of interpreting the meaning of products in an equal groups problem. The student answer either Part A or Part B incorrectly and does not provide reasonable explanations.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                3
+                <br />
+                 Good
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The Student demonstrates good understanding of interpreting the meaning of products in an equal groups problem. The student answers Part A and B correctly but does not provide reasonable explanations.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                4
+                <br />
+                 Excellent
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The Student demonstrates a thorough understanding of interpreting the meaning of products in an equal groups problem. The student answers Parts A and B correctly and provides reasonable explanations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning-alert"
+  >
+    <div
+      className="modal--savewrapper-heading"
+    >
+      Warning 
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      you have unsaved changes.Do you want to leave this screen without saving them?
+      <div
+        className="read180ngsave-innerpage-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           Cancel 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning"
+  >
+    <div
+      className="modal--savewrapper-heading"
+    >
+       
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      Assignment Updated
+      <div
+        className="read180ngsave-innerpage-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Read180StudentWork else/> Expect to render component 1`] = `
+<div>
+  <div>
+    <div
+      className="read180-student-work-centerpanel"
+    >
+      <div
+        className="read180-student-work--show-label-quiz-list--purple"
+      >
+        <div />
+        <button
+          className="button-close"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="tab-bar book-nav-bar"
+      >
+        <div
+          className="nav-bar__container book-nav-container"
+        >
+          <Tabs
+            defaultFocus={false}
+            defaultIndex={null}
+            forceRenderTabPanel={false}
+            selectedIndex={null}
+          >
+            <TabList
+              className="read180-tabs-list"
+            >
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Constructed Response1
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Constructed Response2
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id={null}
+                panelId={null}
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+              >
+                Extended Writing
+              </Tab>
+            </TabList>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swcr1
+                comments=""
+                overallScore={[Function]}
+                read180Swcr1={Object {}}
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swcr2
+                comments=""
+                overallScore={[Function]}
+                read180Swcr2={Object {}}
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+            <TabPanel
+              className="react-tabs__tab-panel"
+              forceRender={false}
+              selectedClassName="react-tabs__tab-panel--selected"
+            >
+              <Read180Swew
+                comments=""
+                overLink={[Function]}
+                read180Swew={Object {}}
+                response=""
+                rubricType=""
+                saveColor={[Function]}
+                score=""
+                unMountChild={[Function]}
+              />
+            </TabPanel>
+          </Tabs>
+        </div>
+      </div>
+      <div
+        className="print-custom-booklabel__buttons"
+      >
+        <button
+          className="button-print"
+          onClick={[Function]}
+        >
+          Print
+        </button>
+        <button
+          className="button-cancel"
+          onClick={[Function]}
+        >
+          Cancel
+        </button>
+        <button
+          className="button-save"
+        >
+          Save
+        </button>
+        <div>
+          <center />
+        </div>
+        <div
+          className="simulation-program-overall-score"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <h3
+            className="simulation-program-overall-score-head"
+          >
+            Overall Score
+          </h3>
+          <button
+            className="inbox-program-close-pop"
+            onClick={[Function]}
+          >
+            x
+          </button>
+          <div
+            className="simulation-program-overall-score-info"
+          >
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                0
+                <br />
+                 Not Attempted
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response needs supporting explation for claims.
+              </p>
+            </div>
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                1
+                <br />
+                 Partially Attempted
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response includes one supporting explainations.
+              </p>
+            </div>
+            <div
+              className="simulation-program-col-sm-4"
+            >
+              <h4
+                className="simulation-program-col-body"
+              >
+                2
+                <br />
+                 Complete
+              </h4>
+              <p
+                className="simulation-program-col-p"
+              >
+                Response includes atleast two supporting explainations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          className="skill-assestment-overallscore"
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <h3
+            className="skill-assestment-overallscore-data"
+          >
+            Overall Score
+          </h3>
+          <button
+            className="inbox-program-close-pop"
+            onClick={[Function]}
+          >
+            x
+          </button>
+          <div
+            className="skill-assestment-overallscore-info"
+          >
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                1
+                <br />
+                 Needs Improvement
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The student demonstrates inconsistent or no understanding of interpreting the meaning of products in an equal groups problem. The student answers no part correctly.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                2
+                <br />
+                 Average
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The student demonstrates partial understanding of interpreting the meaning of products in an equal groups problem. The student answer either Part A or Part B incorrectly and does not provide reasonable explanations.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                3
+                <br />
+                 Good
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The Student demonstrates good understanding of interpreting the meaning of products in an equal groups problem. The student answers Part A and B correctly but does not provide reasonable explanations.
+              </p>
+            </div>
+            <div
+              className="skill-assestment-overallscore-information"
+            >
+              <h4
+                className="skill-assestment-overallscore-info-points"
+              >
+                4
+                <br />
+                 Excellent
+              </h4>
+              <p
+                className="skill-assestment-overallscore-info-exp"
+              >
+                The Student demonstrates a thorough understanding of interpreting the meaning of products in an equal groups problem. The student answers Parts A and B correctly and provides reasonable explanations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning-alert"
+  >
+    <div
+      className="modal--savewrapper-heading"
+    >
+      Warning 
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      you have unsaved changes.Do you want to leave this screen without saving them?
+      <div
+        className="read180ngsave-innerpage-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={true}
+          onClickHandler={[Function]}
+        >
+          OK
+        </SAMButton>
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           Cancel 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--savescreen-warning"
+  >
+    <div
+      className="modal--savewrapper-heading"
+    >
+       
+    </div>
+    <div
+      className="modal--savewrapper-warning"
+    >
+      Assignment Updated
+      <div
+        className="read180ngsave-innerpage-button"
+      >
+        <SAMButton
+          buttonType="button"
+          isPrimaryButton={false}
+          onClickHandler={[Function]}
+        >
+           OK 
+        </SAMButton>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpandableComponent with datapoint/> Should render as expected 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="table-container"
+  >
+    <div
+      className="table-container__rows"
+      key="MATH 180 Course I"
+    >
+      <input
+        className="table-container__triangle"
+        defaultChecked="checked"
+        id={
+          Array [
+            "MATH 180 Course I",
+          ]
+        }
+        name="tabs2"
+        type="checkbox"
+      />
+      <label
+        className="table-container__prodname"
+        htmlFor={
+          Array [
+            "MATH 180 Course I",
+          ]
+        }
+        key="[object Object]"
+      >
+        MATH 180 Course I
+         
+      </label>
+      <div
+        className="table-container__content"
+      >
+        <div
+          className="table-details"
+        >
+          <div
+            className="table-details__labels"
+            key="List [ \\"Current Series/Topic\\" ]List [ \\"N/A\\" ]"
+          >
+            <div
+              className="table-details__labels-label"
+            >
+              Current Series/Topic
+            </div>
+            <div
+              className="table-details__labels-value"
+            >
+              N/A
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

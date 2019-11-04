@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RemoveAdminModal /> Expect to match snapshot 1`] = `
+<SAMModal
+  contentLabel="SAM Modal"
+  isOpen={true}
+  modalClassModifier="remove-admin-modal"
+>
+  <div
+    className="remove-admin-modal__message"
+  >
+    Are you sure you want to permanently delete this account?
+  </div>
+  <button
+    className="remove-admin-modal__yes-button"
+  >
+    Yes
+  </button>
+  <button
+    className="remove-admin-modal__no-button"
+  >
+    No
+  </button>
+</SAMModal>
+`;

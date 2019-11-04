@@ -1,0 +1,1258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RC <TabSettings /> Expect to render as logged-in Admin user correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="rc-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    Reading Counts!
+     settings.
+  </span>
+  <table
+    className="rc-settings__top-settings-table"
+  >
+    <tbody>
+      <tr>
+        <td
+          className="rc-settings__table-cell rc-settings__student-settings-container"
+        >
+          <div
+            className="rc-settings__student-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Student Settings
+            </span>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-congrats"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayCongratulations"
+                checkboxText="Display Congratulations Screen"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-wrong-answers"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayWrongAnswers"
+                checkboxText="Display wrong answers"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="allow-student-to-print"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="AllowPrint"
+                checkboxText="Allow student to print"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__quiz-settings-container"
+        >
+          <div
+            className="rc-settings__quiz-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Quiz Settings
+            </span>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="QuizAttemptsAllowed"
+                fieldValue="3"
+                key=""
+                label="Quiz attempts allowed"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="PercentRequired"
+                fieldValue="70"
+                key=""
+                label="% required to pass a quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="DaysBetweenRetake"
+                fieldValue="1"
+                key=""
+                label="Retake days between quizzes"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="AllowOffLineScores"
+                checkboxText="Allow teachers to enter offline quiz scores"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__num-questions-per-quiz-container"
+        >
+          <div
+            className="rc-settings__num-questions-per-quiz"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Number of Questions per Quiz
+            </span>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="NumQuestionsPerQuiz"
+                fieldValue="10"
+                key=""
+                label="Number of questions per quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field rc-settings__num-questions-per-ereads-field"
+                fieldName="NumQuestionsPerEReads"
+                fieldValue="5"
+                key=""
+                label="Number of questions for eReads quiz (READ 180 Next Generation)"
+                labelClass="rc-settings__num-questions-per-ereads-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="rc-settings__award-settings"
+  >
+    <span
+      className="rc-settings__caption"
+    >
+      Award Settings
+    </span>
+    <div
+      className="rc-settings__award-setting-block"
+    >
+      <SettingsFourStateCheckbox
+        checkboxClass=""
+        checkboxName="AllowChangeGoals"
+        checkboxText="Allow teachers to change goals"
+        currentCheckboxValue="-1"
+        disabled={false}
+        handleChangeCheckboxValue={[Function]}
+        statusMap={
+          Object {
+            "checkedDisabled": Array [],
+            "checkedEnabled": Array [
+              "1",
+            ],
+            "mixedDisabled": Array [],
+            "mixedEnabled": Array [
+              "-1",
+            ],
+            "uncheckedDisabled": Array [],
+            "uncheckedEnabled": Array [
+              "0",
+            ],
+          }
+        }
+        textClass=""
+      />
+    </div>
+    <div
+      className="rc-settings__award-setting-block"
+    >
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="rc-settings__award-setting-goals-field"
+        fieldName="Goals"
+        fieldValue="-1"
+        id=""
+        label="Goals"
+        labelClass=""
+        labelPosition="left"
+        mixedValue="-1"
+        onChange={[Function]}
+      >
+        <option
+          value="1"
+        >
+          Points
+        </option>
+        <option
+          value="2"
+        >
+          Books
+        </option>
+      </SettingsSelectBox>
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-student-goal-field"
+        fieldName="StudentGoal"
+        key=""
+        labelClass=""
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__award-setting-block rc-settings__award-setting-pts-multiplier-block"
+    >
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-pts-multiplier-field"
+        fieldName="PointsMultiplier"
+        key=""
+        label="Points multiplier (multiply by)"
+        labelClass="rc-settings__text-field-label"
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__subheading"
+    >
+      Levels for Award Report
+    </div>
+    <table
+      className="rc-settings__award-level-table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Gold
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Silver
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Bronze
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Red
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Blue
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Gold"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Silver"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Bronze"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Red"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Blue"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={true}
+  />
+</form>
+`;
+
+exports[`RC <TabSettings /> Expect to render as logged-in Teacher user correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="rc-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    Reading Counts!
+     settings.
+  </span>
+  <table
+    className="rc-settings__top-settings-table"
+  >
+    <tbody>
+      <tr>
+        <td
+          className="rc-settings__table-cell rc-settings__student-settings-container"
+        >
+          <div
+            className="rc-settings__student-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Student Settings
+            </span>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-congrats"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayCongratulations"
+                checkboxText="Display Congratulations Screen"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-wrong-answers"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayWrongAnswers"
+                checkboxText="Display wrong answers"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="allow-student-to-print"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="AllowPrint"
+                checkboxText="Allow student to print"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__quiz-settings-container"
+        >
+          <div
+            className="rc-settings__quiz-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Quiz Settings
+            </span>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="QuizAttemptsAllowed"
+                fieldValue="3"
+                key=""
+                label="Quiz attempts allowed"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="PercentRequired"
+                fieldValue="70"
+                key=""
+                label="% required to pass a quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="DaysBetweenRetake"
+                fieldValue="1"
+                key=""
+                label="Retake days between quizzes"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__num-questions-per-quiz-container"
+        >
+          <div
+            className="rc-settings__num-questions-per-quiz"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Number of Questions per Quiz
+            </span>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="NumQuestionsPerQuiz"
+                fieldValue="10"
+                key=""
+                label="Number of questions per quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field rc-settings__num-questions-per-ereads-field"
+                fieldName="NumQuestionsPerEReads"
+                fieldValue="5"
+                key=""
+                label="Number of questions for eReads quiz (READ 180 Next Generation)"
+                labelClass="rc-settings__num-questions-per-ereads-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="rc-settings__award-settings"
+  >
+    <span
+      className="rc-settings__caption"
+    >
+      Award Settings
+    </span>
+    <div
+      className="rc-settings__award-setting-block"
+    >
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="rc-settings__award-setting-goals-field"
+        fieldName="Goals"
+        fieldValue="-1"
+        id=""
+        label="Goals"
+        labelClass=""
+        labelPosition="left"
+        mixedValue="-1"
+        onChange={[Function]}
+      >
+        <option
+          value="1"
+        >
+          Points
+        </option>
+        <option
+          value="2"
+        >
+          Books
+        </option>
+      </SettingsSelectBox>
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-student-goal-field"
+        fieldName="StudentGoal"
+        key=""
+        labelClass=""
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__award-setting-block rc-settings__award-setting-pts-multiplier-block"
+    >
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-pts-multiplier-field"
+        fieldName="PointsMultiplier"
+        key=""
+        label="Points multiplier (multiply by)"
+        labelClass="rc-settings__text-field-label"
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__subheading"
+    >
+      Levels for Award Report
+    </div>
+    <table
+      className="rc-settings__award-level-table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Gold
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Silver
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Bronze
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Red
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Blue
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Gold"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Silver"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Bronze"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Red"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+          <td>
+            <input
+              className="rc-setting__award-level-text-input"
+              name="Blue"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={false}
+    suppressSaveAndReturnRedirect={true}
+  />
+</form>
+`;
+
+exports[`RC <TabSettings /> Expect to render student-level cohort correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <span
+    className="rc-settings__instruction-text"
+  >
+     
+    Use these options to adjust 
+    Reading Counts!
+     settings.
+  </span>
+  <table
+    className="rc-settings__top-settings-table"
+  >
+    <tbody>
+      <tr>
+        <td
+          className="rc-settings__table-cell rc-settings__student-settings-container"
+        >
+          <div
+            className="rc-settings__student-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Student Settings
+            </span>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-congrats"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayCongratulations"
+                checkboxText="Display Congratulations Screen"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="display-wrong-answers"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="DisplayWrongAnswers"
+                checkboxText="Display wrong answers"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+            <div
+              className="rc-settings__student-setting-block"
+              key="allow-student-to-print"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="AllowPrint"
+                checkboxText="Allow student to print"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__quiz-settings-container"
+        >
+          <div
+            className="rc-settings__quiz-settings"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Quiz Settings
+            </span>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="QuizAttemptsAllowed"
+                fieldValue="3"
+                key=""
+                label="Quiz attempts allowed"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="PercentRequired"
+                fieldValue="70"
+                key=""
+                label="% required to pass a quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="DaysBetweenRetake"
+                fieldValue="1"
+                key=""
+                label="Retake days between quizzes"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__quiz-setting-block"
+            >
+              <SettingsFourStateCheckbox
+                checkboxClass=""
+                checkboxName="AllowOffLineScores"
+                checkboxText="Allow teachers to enter offline quiz scores"
+                currentCheckboxValue="1"
+                disabled={false}
+                handleChangeCheckboxValue={[Function]}
+                statusMap={
+                  Object {
+                    "checkedDisabled": Array [],
+                    "checkedEnabled": Array [
+                      "1",
+                    ],
+                    "mixedDisabled": Array [],
+                    "mixedEnabled": Array [
+                      "-1",
+                    ],
+                    "uncheckedDisabled": Array [],
+                    "uncheckedEnabled": Array [
+                      "0",
+                    ],
+                  }
+                }
+                textClass=""
+              />
+            </div>
+          </div>
+        </td>
+        <td
+          className="rc-settings__table-cell rc-settings__num-questions-per-quiz-container"
+        >
+          <div
+            className="rc-settings__num-questions-per-quiz"
+          >
+            <span
+              className="rc-settings__caption"
+            >
+              Number of Questions per Quiz
+            </span>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field"
+                fieldName="NumQuestionsPerQuiz"
+                fieldValue="10"
+                key=""
+                label="Number of questions per quiz"
+                labelClass="rc-settings__text-field-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+            <div
+              className="rc-settings__num-questions-text-field-block"
+            >
+              <SettingsTextField
+                disabled={false}
+                fieldClass="rc-settings__text-field rc-settings__num-questions-per-ereads-field"
+                fieldName="NumQuestionsPerEReads"
+                fieldValue="5"
+                key=""
+                label="Number of questions for eReads quiz (READ 180 Next Generation)"
+                labelClass="rc-settings__num-questions-per-ereads-label"
+                labelPosition="left"
+                mixedValue=""
+                onBlur={[Function]}
+                onChange={[Function]}
+              />
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div
+    className="rc-settings__award-settings"
+  >
+    <span
+      className="rc-settings__caption"
+    >
+      Award Settings
+    </span>
+    <div
+      className="rc-settings__award-setting-block"
+    >
+      <SettingsFourStateCheckbox
+        checkboxClass=""
+        checkboxName="AllowChangeGoals"
+        checkboxText="Allow teachers to change goals"
+        currentCheckboxValue="-1"
+        disabled={false}
+        handleChangeCheckboxValue={[Function]}
+        statusMap={
+          Object {
+            "checkedDisabled": Array [],
+            "checkedEnabled": Array [
+              "1",
+            ],
+            "mixedDisabled": Array [],
+            "mixedEnabled": Array [
+              "-1",
+            ],
+            "uncheckedDisabled": Array [],
+            "uncheckedEnabled": Array [
+              "0",
+            ],
+          }
+        }
+        textClass=""
+      />
+    </div>
+    <div
+      className="rc-settings__award-setting-block"
+    >
+      <SettingsSelectBox
+        disabled={false}
+        fieldClass="rc-settings__award-setting-goals-field"
+        fieldName="Goals"
+        fieldValue="-1"
+        id=""
+        label="Goals"
+        labelClass=""
+        labelPosition="left"
+        mixedValue="-1"
+        onChange={[Function]}
+      >
+        <option
+          value="1"
+        >
+          Points
+        </option>
+        <option
+          value="2"
+        >
+          Books
+        </option>
+      </SettingsSelectBox>
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-student-goal-field"
+        fieldName="StudentGoal"
+        key=""
+        labelClass=""
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__award-setting-block rc-settings__award-setting-pts-multiplier-block"
+    >
+      <SettingsTextField
+        disabled={false}
+        fieldClass="rc-settings__text-field rc-settings__award-setting-pts-multiplier-field"
+        fieldName="PointsMultiplier"
+        key=""
+        label="Points multiplier (multiply by)"
+        labelClass="rc-settings__text-field-label"
+        labelPosition="left"
+        mixedValue=""
+        onBlur={[Function]}
+        onChange={[Function]}
+      />
+    </div>
+    <div
+      className="rc-settings__subheading"
+    >
+      Levels for Award Report
+    </div>
+    <table
+      className="rc-settings__award-level-table"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Gold
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Silver
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Bronze
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Red
+          </td>
+          <td
+            className="rc-settings__award-level-table-cell"
+          >
+            Blue
+          </td>
+        </tr>
+        <tr>
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ProgramSettingsButtons
+    restoreDefaultHandler={[Function]}
+    saveAndReturnHandler={[Function]}
+    setInitialValuesHandler={[Function]}
+    showRestoreDefaults={true}
+    stateResult={true}
+    suppressSaveAndReturnRedirect={true}
+  />
+</form>
+`;
+
+exports[`RC <TabSettings /> getNumericTextFieldInvalidMessage method returns correct value 1`] = `"An invalid value has been entered for some description.  This value must be an integer between 1 and 7 inclusive."`;

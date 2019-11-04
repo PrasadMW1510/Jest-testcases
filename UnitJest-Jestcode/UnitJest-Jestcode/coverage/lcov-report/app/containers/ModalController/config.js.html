@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/ModalController/config.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/ModalController</a> config.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/143</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/64</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React <span class="cstat-no" title="statement not covered" >from 'react';<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ></span></span></span></span>
+&nbsp;
+import AboutSamLinkModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/AboutSamLinkModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import AccountDe<span class="cstat-no" title="statement not covered" >leteModalContainer from 'containers/AccountDeleteModalConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import Reactivate<span class="cstat-no" title="statement not covered" >SchoolModalContainer from 'containers/ReactivateSchoolModalCon</span>tainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import Reactivate<span class="cstat-no" title="statement not covered" >ClassModalContainer from 'containers/ReactivateClassModalCont</span>ainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import ActivateQu<span class="cstat-no" title="statement not covered" >izContainer from 'containers/ActivateQuizContainer/Lo</span>adable';<span class="cstat-no" title="statement not covered" ></span>
+import AddEditCla<span class="cstat-no" title="statement not covered" >ss from 'containers/AddEditClass/Loadable';<span class="cstat-no" title="statement not covered" ></span></span>
+import AddEditStud<span class="cstat-no" title="statement not covered" >ent from 'containers/AddEditStudent/Loadable';<span class="cstat-no" title="statement not covered" ></span></span>
+import AddEditTeac<span class="cstat-no" title="statement not covered" >her from 'containers/AddEditTeacher/Loadable';<span class="cstat-no" title="statement not covered" ></span></span>
+import AddGroupContainer <span class="cstat-no" title="statement not covered" >from 'containers/AddGroupContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import AddSchoolCo<span class="cstat-no" title="statement not covered" >ntainer from 'containers/AddEditSchool/Loadab</span>le';<span class="cstat-no" title="statement not covered" ></span>
+import AddDemographicModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/AddDemographicModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import AddAssignme<span class="cstat-no" title="statement not covered" >ntContainer from 'containers/AddAssignmentContainer/Lo</span>adable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import CancelCredentialsModal <span class="cstat-no" title="statement not covered" >from 'containers/CancelCredentialsModal';<span class="cstat-no" title="statement not covered" ></span></span>
+import ClassAssign<span class="cstat-no" title="statement not covered" >ModalContainer from 'containers/ClassAssignModalContainer</span>/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import ClearRosterModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/ClearRosterModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import ClearRosterSuccessModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/ClearRosterSuccessModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import CatchAllCla<span class="cstat-no" title="statement not covered" >ssContainer from 'containers/CatchAllClassContainer/Lo</span>adable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import DeactivateC<span class="cstat-no" title="statement not covered" >lassModalContainer from 'containers/DeactivateClassModalConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateM<span class="cstat-no" title="statement not covered" >odalContainer from 'containers/DeactivateModalContainer/</span>Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateG<span class="cstat-no" title="statement not covered" >roupModalContainer from 'containers/DeactivateGroupModalConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateQ<span class="cstat-no" title="statement not covered" >uizContainer from 'containers/DeactivateQuizContainer/L</span>oadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >choolModalContainer from 'containers/DeactivateSchoolModalCont</span>ainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >tudentModalContainer from 'containers/DeactivateStudentModalCon</span>tainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >uccessGroupModalContainer from 'containers/DeactivateSuccessGroupMod</span>alContainer/Loadab<span class="cstat-no" title="statement not covered" >le';</span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >uccessModalContainer from 'containers/DeactivateSuccessModalCon</span>tainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >uccessSchoolModalContainer from 'containers/DeactivateSuccessSchoolMo</span>dalContainer/Loada<span class="cstat-no" title="statement not covered" >ble';</span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >uccessClassModalContainer from 'containers/DeactivateSuccessClassMod</span>alContainer/Loadab<span class="cstat-no" title="statement not covered" >le';</span>
+import DeactivateS<span class="cstat-no" title="statement not covered" >uccessStudentModalContainer from 'containers/DeactivateSuccessStudentM</span>odalContainer/Load<span class="cstat-no" title="statement not covered" >able';</span>
+import DeleteInact<span class="cstat-no" title="statement not covered" >iveSuccessModalContainer from 'containers/DeleteInactiveSuccessModa</span>lContainer/Loadabl<span class="cstat-no" title="statement not covered" >e';</span>
+&nbsp;
+import EditAdminCo<span class="cstat-no" title="statement not covered" >ntainer from 'containers/EditAdminContainer/Loadab</span>le';<span class="cstat-no" title="statement not covered" ></span>
+import EditAdminWarningContainer <span class="cstat-no" title="statement not covered" >from 'containers/EditAdminWarningContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import EditDistrictProfileContainer <span class="cstat-no" title="statement not covered" >from 'containers/EditDistrictProfileContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import EditQuizCol<span class="cstat-no" title="statement not covered" >lectionNamesContainer from 'containers/EditQuizCollectionNamesCo</span>ntainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import ExportTeach<span class="cstat-no" title="statement not covered" >erMadeQuizzesContainer from 'containers/ExportTeacherMadeQuizzesC</span>ontainer/Loadable'<span class="cstat-no" title="statement not covered" >;</span>
+&nbsp;
+import IreadScreen<span class="cstat-no" title="statement not covered" >erModalContainer from 'containers/IreadScreenerModalContain</span>er/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import LogoutModal<span class="cstat-no" title="statement not covered" >Container from 'containers/LogoutModalContainer/Load</span>able';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import MessageLogModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/MessageLogModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import NoItemsSele<span class="cstat-no" title="statement not covered" >ctedModalContainer from 'containers/NoItemsSelectedModalConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import OkCancelModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/modals/OkCancelModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+&nbsp;
+import ProgramSettingSetStudentLevelModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/ProgramSettingSetStudentLevelModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import PrintBookLa<span class="cstat-no" title="statement not covered" >belContainer from 'containers/PrintBookLabelContainer/L</span>oadable';<span class="cstat-no" title="statement not covered" ></span>
+import PrintCustom<span class="cstat-no" title="statement not covered" >QuizList from 'containers/PrintCustomQuizList/Loada</span>ble';<span class="cstat-no" title="statement not covered" ></span>
+import PrintQuizAn<span class="cstat-no" title="statement not covered" >dAnswerKeyContainer from 'containers/PrintQuizAndAnswerKeyCont</span>ainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import R180NgTopicManagerSkipModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/R180NgTopicManagerSkipModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import R180NgtopicsSkipSegmentModalContainer<span class="cstat-no" title="statement not covered" > from 'containers/R180NgtopicSkipSegmentModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import R180NgtopicsStageModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/R180NgtopicsStageModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import RemoveAdminModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/RemoveAdminModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import RSkillsCCTe<span class="cstat-no" title="statement not covered" >stAssignmentSaveSuccessModalContainer from 'containers/RSkillsCCTestAssignmentSa</span>veSuccessModalCont<span class="cstat-no" title="statement not covered" >ainer/Loadable';</span>
+import Read180NgAs<span class="cstat-no" title="statement not covered" >saignmentContainer from 'containers/Read180NgAssaignmentConta</span>iner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import SearchModal<span class="cstat-no" title="statement not covered" >Container from 'containers/SearchModalContainer/Load</span>able';<span class="cstat-no" title="statement not covered" ></span>
+import SearchResul<span class="cstat-no" title="statement not covered" >tDetailsContainer from 'containers/SearchResultDetailsContai</span>ner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import TeacherMade<span class="cstat-no" title="statement not covered" >QuizContainer from 'containers/TeacherMadeQuizContainer/</span>Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import WarningModalContainer <span class="cstat-no" title="statement not covered" >from 'containers/WarningModalContainer';<span class="cstat-no" title="statement not covered" ></span></span>
+import Read180Cont<span class="cstat-no" title="statement not covered" >ainer from 'containers/Read180Container/Loadable</span>';<span class="cstat-no" title="statement not covered" ></span>
+import InboxModalC<span class="cstat-no" title="statement not covered" >ontainer from 'containers/InboxModalContainer/Loada</span>ble';<span class="cstat-no" title="statement not covered" ></span>
+import EditAssignm<span class="cstat-no" title="statement not covered" >entContainer from 'containers/EditAssignmentContainer/L</span>oadable';<span class="cstat-no" title="statement not covered" ></span>
+import StudentWork<span class="cstat-no" title="statement not covered" >ProgramsContainer from 'containers/StudentWorkProgramsContai</span>ner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import System44Stu<span class="cstat-no" title="statement not covered" >dentGoalContainer from 'containers/System44StudentGoalContai</span>ner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import XSkillsTest<span class="cstat-no" title="statement not covered" >AssignmentSaveSuccessModalContainer from 'containers/XSkillsTestAssignmentSave</span>SuccessModalContai<span class="cstat-no" title="statement not covered" >ner/Loadable';</span>
+import Read180Resp<span class="cstat-no" title="statement not covered" >ondWriteContainer from 'containers/Read180RespondWriteContai</span>ner/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+import System44Suc<span class="cstat-no" title="statement not covered" >cessRecordContainer from 'containers/System44SuccessRecordCont</span>ainer/Loadable';<span class="cstat-no" title="statement not covered" ></span>
+&nbsp;
+import * as Const<span class="cstat-no" title="statement not covered" >ants from './constants'</span>;<span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+&nbsp;
+/**
+ * All modal mappings should be defined here.  To add a new modal:
+ *
+ * (1) Create a new component for it (typically a container component).
+ * (2) Define a new constant for it in the ./constants file, and map it to the component below.
+ *     add new constants in Alphabetical order by constant name.
+ * (3) Use the "showModal(modalType = '', data = {})" method in the ./actions module
+ *     whenever the modal should be opened. (see that method for details)
+ * (4) Use the "hideModal()" method in the ./actions module to close the top-most modal.
+ *
+ */
+export const MODAL_ID_MA<span class="cstat-no" title="statement not covered" >PPINGS = {</span>
+  [Constants.ABOUT_LINK_MODAL]: &lt;AboutSamLinkModalContainer /&gt;,
+  [Constants.ACCOUNT_DELETE_MODAL]: &lt;AccountDeleteModalContainer /&gt;,
+  [Constants.ACTIVATE_QUIZ_MODAL]: &lt;ActivateQuizContainer /&gt;,
+  [Constants.ADD_A_GROUP]: &lt;AddGroupContainer /&gt;,
+  [Constants.ADD_DEMOGRAPHIC_MODAL]: &lt;AddDemographicModalContainer /&gt;,
+&nbsp;
+  [Constants.MIA_REACTIVATE_SCHOOL_MODAL]: &lt;ReactivateSchoolModalContainer /&gt;,
+  [Constants.MIA_REACTIVATE_CLASS_MODAL]: &lt;ReactivateClassModalContainer /&gt;,
+  [Constants.CANCEL_CREDENTIALS_MODAL]: &lt;CancelCredentialsModal /&gt;,
+  [Constants.CLASS_FORM_MODAL]: &lt;AddEditClass /&gt;,
+  [Constants.CLEAR_ROSTER_MODAL]: &lt;ClearRosterModalContainer /&gt;,
+  [Constants.CLEAR_ROSTER_SUCCESS_MODAL]: &lt;ClearRosterSuccessModalContainer /&gt;,
+  [Constants.CATCH_ALL_CLASS_MODAL]: &lt;CatchAllClassContainer /&gt;,
+&nbsp;
+  [Constants.DEACTIVATE_CLASS_MODAL]: &lt;DeactivateClassModalContainer /&gt;,
+  [Constants.DEACTIVATE_CLASS_SUCCESS_MODAL]: &lt;DeactivateSuccessClassModalContainer /&gt;,
+  [Constants.DEACTIVATE_GROUP_MODAL]: &lt;DeactivateGroupModalContainer /&gt;,
+  [Constants.DEACTIVATE_GROUP_SUCCESS_MODAL]: &lt;DeactivateSuccessGroupModalContainer /&gt;,
+  [Constants.DEACTIVATE_QUIZ_MODAL]: &lt;DeactivateQuizContainer /&gt;,
+  [Constants.DEACTIVATE_SCHOOL_MODAL]: &lt;DeactivateSchoolModalContainer /&gt;,
+  [Constants.DEACTIVATE_SCHOOL_SUCCESS_MODAL]: &lt;DeactivateSuccessSchoolModalContainer /&gt;,
+  [Constants.DEACTIVATE_STUDENT_MODAL]: &lt;DeactivateStudentModalContainer /&gt;,
+  [Constants.DEACTIVATE_STUDENT_SUCCESS_MODAL]: &lt;DeactivateSuccessStudentModalContainer /&gt;,
+  [Constants.DEACTIVATE_USER_MODAL]: &lt;DeactivateModalContainer /&gt;,
+  [Constants.DEACTIVATE_USER_SUCCESS_MODAL]: &lt;DeactivateSuccessModalContainer /&gt;,
+  [Constants.DELETE_INACTIVE_SUCCESS_MODAL]: &lt;DeleteInactiveSuccessModalContainer /&gt;,
+&nbsp;
+  [Constants.EDIT_ADMIN_MODAL]: &lt;EditAdminContainer /&gt;,
+  [Constants.EDIT_ADMIN_MODAL_WARNING]: &lt;EditAdminWarningContainer /&gt;,
+  [Constants.EDIT_DISTRICT_PROFILE]: &lt;EditDistrictProfileContainer /&gt;,
+  [Constants.EDIT_QUIZ_COLLECTION_NAMES_MODAL]: &lt;EditQuizCollectionNamesContainer /&gt;,
+&nbsp;
+  [Constants.HANDLE_EXPORT_TEACHER_QUIZ_MODAL]: &lt;ExportTeacherMadeQuizzesContainer /&gt;,
+&nbsp;
+  [Constants.IREAD_SCREENER_MODAL]: &lt;IreadScreenerModalContainer /&gt;,
+&nbsp;
+  [Constants.LOGOUT_MODAL]: &lt;LogoutModalContainer /&gt;,
+&nbsp;
+  [Constants.MESSAGE_LOG_MODAL]: &lt;MessageLogModalContainer /&gt;,
+&nbsp;
+  [Constants.NO_ITEMS_SELECTED_MODAL]: &lt;NoItemsSelectedModalContainer /&gt;,
+&nbsp;
+  [Constants.OK_CANCEL_MODAL]: &lt;OkCancelModalContainer /&gt;,
+&nbsp;
+  [Constants.PRINT_BOOK_LABEL_MODAL]: &lt;PrintBookLabelContainer /&gt;,
+  [Constants.PRINT_CUSTOM_QUIZ_MODAL]: &lt;PrintCustomQuizList /&gt;,
+  [Constants.PRINT_QUIZ_AND_ANSWER_KEY_MODAL]: &lt;PrintQuizAndAnswerKeyContainer /&gt;,
+  [Constants.PROGRAM_SETTING_SET_STUDENT_LEVEL_MODAL]: (
+    &lt;ProgramSettingSetStudentLevelModalContainer /&gt;
+  ),
+&nbsp;
+  [Constants.R180NG_SKIP_SEGMENT_MODAL]: &lt;R180NgtopicsSkipSegmentModalContainer /&gt;,
+  [Constants.R180NG_TOPICS_SKIP_MODAL]: &lt;R180NgTopicManagerSkipModalContainer /&gt;,
+  [Constants.R180NG_TOPICS_STAGE_MODAL]: &lt;R180NgtopicsStageModalContainer /&gt;,
+  [Constants.REMOVE_ADMIN_MODAL]: &lt;RemoveAdminModalContainer /&gt;,
+  [Constants.RSKILLSCC_TEST_ASSIGNMENT_SAVE_SUCCESS_MODAL]: (
+    &lt;RSkillsCCTestAssignmentSaveSuccessModalContainer /&gt;
+  ),
+  [Constants.READ_180_NG_ASSAIGNMENT_MODAL]: &lt;Read180NgAssaignmentContainer /&gt;,
+&nbsp;
+  [Constants.SCHOOL_FORM_MODAL]: &lt;AddSchoolContainer /&gt;,
+  [Constants.SEARCH_CLASS_ASSIGN_MODAL]: &lt;ClassAssignModalContainer /&gt;,
+  [Constants.SEARCH_MODAL]: &lt;SearchModalContainer /&gt;,
+  [Constants.SEARCH_RESULT_DETAILS_MODAL]: &lt;SearchResultDetailsContainer /&gt;,
+  [Constants.STUDENT_FORM_MODAL]: &lt;AddEditStudent /&gt;,
+&nbsp;
+  [Constants.TEACHER_FORM_MODAL]: &lt;AddEditTeacher /&gt;,
+  [Constants.TEACHER_MADE_QUIZ_MODAL]: &lt;TeacherMadeQuizContainer /&gt;,
+&nbsp;
+  [Constants.WARNING_MODAL]: &lt;WarningModalContainer /&gt;,
+  [Constants.READ_180_MODAL]: &lt;Read180Container /&gt;,
+  [Constants.IREAD_ADD_MODAL]: &lt;AddAssignmentContainer /&gt;,
+  [Constants.PRINT_INBOX_PROGRAM]: &lt;InboxModalContainer /&gt;,
+  [Constants.IREAD_MODAL]: &lt;EditAssignmentContainer /&gt;,
+  [Constants.IREAD_STUDENT_WORK_MODAL]: &lt;StudentWorkProgramsContainer /&gt;,
+  [Constants.SYSTEM_44_STUDENT_GOALS_MODAL]: &lt;System44StudentGoalContainer /&gt;,
+&nbsp;
+  [Constants.XSKILLS_TEST_ASSIGNMENT_SAVE_SUCCESS_MODAL]: (
+    &lt;XSkillsTestAssignmentSaveSuccessModalContainer /&gt;
+  ),
+  [Constants.SYSTEM_44_SUCCESS_RECORD_MODAL]: &lt;System44SuccessRecordContainer /&gt;,
+  [Constants.READ_180_RESPOND_WRITE_MODAL]: &lt;Read180RespondWriteContainer /&gt;,
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

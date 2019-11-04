@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RCSettingContainer actions should return the correct constant for rcGetSettingsFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/RCSettingContainer/RC_GET_SETTINGS_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcGetSettingsSuccess with params 1`] = `
+Object {
+  "settings": "mockSettings",
+  "type": "app/RCSettingContainer/RC_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcGetSettingsSuccess without params 1`] = `
+Object {
+  "settings": Object {},
+  "type": "app/RCSettingContainer/RC_GET_SETTINGS_SUCCESS",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsContainerFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/RCSettingContainer/RC_SETTINGS_CONTAINER_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsContainerRequest 1`] = `
+Object {
+  "type": "app/RCSettingContainer/RC_SETTINGS_CONTAINER",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsContainerSuccess 1`] = `
+Object {
+  "type": "app/RCSettingContainer/RC_SETTINGS_CONTAINER_SUCCESS",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsSave 1`] = `
+Object {
+  "immSettings": "mockSettings",
+  "shouldRedirect": false,
+  "type": "app/RCSettingContainer/RC_SETTINGS_SAVE",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsSaveFailure 1`] = `
+Object {
+  "error": "mock error",
+  "subType": "app/RCSettingContainer/RC_SETTINGS_SAVE_FAILURE",
+  "type": "general_failure",
+}
+`;
+
+exports[`RCSettingContainer actions should return the correct constant for rcSettingsSaveSuccess 1`] = `
+Object {
+  "type": "app/RCSettingContainer/RC_SETTINGS_SAVE_SUCCESS",
+}
+`;

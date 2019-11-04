@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<R180EESettingContainer /> Expect to render correctly 1`] = `
+<R180EESettings
+  cohortObj={
+    Immutable.Map {
+      cohortType: "mockCohType",
+    }
+  }
+  enrollmentCount={10}
+  enrollmentDetails={
+    Array [
+      Object {
+        "applicationId": "R180_A",
+        "enrollmentCount": 10,
+      },
+      Object {
+        "applicationId": "R180_A_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_B",
+        "enrollmentCount": 20,
+      },
+      Object {
+        "applicationId": "R180_B_Upsell",
+        "enrollmentCount": 0,
+      },
+      Object {
+        "applicationId": "R180_C",
+        "enrollmentCount": 2,
+      },
+      Object {
+        "applicationId": "R180_C_Upsell",
+        "enrollmentCount": 0,
+      },
+    ]
+  }
+  handleSave={[Function]}
+  handleTopicSave={[Function]}
+  isLoading={false}
+  r180EESettingsContainerRequest={[Function]}
+  setStage={[Function]}
+  settings={
+    Immutable.Map {
+      data: "mockSettingsData",
+    }
+  }
+  showModal={[Function]}
+  topicManager={
+    Immutable.Map {
+      installedStages: Immutable.List [
+      ],
+      selectedStage: "",
+      topics: Immutable.List [
+      ],
+    }
+  }
+/>
+`;

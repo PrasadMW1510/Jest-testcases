@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClassForm /> Expect tabs to render correctly when student roster tab clicked 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--class-form"
+>
+  <div
+    className="class-form class-form--orange"
+  >
+    <h2
+      className="class-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="class-form__intro"
+    >
+      Enter information about this Class account on the Profile and Student Roster tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="class-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-student-roster"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-student-roster"
+          key="tab-student-roster"
+          onClick={[Function]}
+        >
+          Student Roster
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="class-form__body class-form__body--tab-student-roster"
+      >
+        <main
+          className="class-form__body-main"
+        >
+          <div
+            className="class-form__error-message"
+          />
+          <TabProfile
+            formData={Object {}}
+            hide={true}
+            metaData={Object {}}
+          />
+          <TabStudentRoster
+            change={[Function]}
+            formData={Object {}}
+            hide={false}
+            metaData={Object {}}
+          />
+        </main>
+        <aside
+          className="class-form__body-aside"
+        >
+          <ul
+            className="class-form__error-list"
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassForm /> Expect to render correctly 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--class-form"
+>
+  <div
+    className="class-form class-form--orange"
+  >
+    <h2
+      className="class-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="class-form__intro"
+    >
+      Enter information about this Class account on the Profile and Student Roster tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="class-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className=""
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-student-roster"
+          key="tab-student-roster"
+          onClick={[Function]}
+        >
+          Student Roster
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="class-form__body class-form__body--tab-profile"
+      >
+        <main
+          className="class-form__body-main"
+        >
+          <div
+            className="class-form__error-message"
+          />
+          <TabProfile
+            formData={Object {}}
+            hide={false}
+            metaData={Object {}}
+          />
+          <TabStudentRoster
+            change={[Function]}
+            formData={Object {}}
+            hide={true}
+            metaData={Object {}}
+          />
+        </main>
+        <aside
+          className="class-form__body-aside"
+        >
+          <ul
+            className="class-form__error-list"
+          />
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassForm /> Expect to render server errors 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--class-form"
+>
+  <div
+    className="class-form class-form--orange"
+  >
+    <h2
+      className="class-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="class-form__intro"
+    >
+      Enter information about this Class account on the Profile and Student Roster tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="class-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="class-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-student-roster"
+          key="tab-student-roster"
+          onClick={[Function]}
+        >
+          Student Roster
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="class-form__body class-form__body--tab-profile"
+      >
+        <main
+          className="class-form__body-main"
+        >
+          <div
+            className="class-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <TabProfile
+            formData={Object {}}
+            hide={false}
+            metaData={Object {}}
+          />
+          <TabStudentRoster
+            change={[Function]}
+            formData={Object {}}
+            hide={true}
+            metaData={Object {}}
+          />
+        </main>
+        <aside
+          className="class-form__body-aside"
+        >
+          <ul
+            className="class-form__error-list"
+          >
+            <li
+              key="server-errors"
+            >
+              foo server error
+            </li>
+          </ul>
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;
+
+exports[`<ClassForm /> Expect to render validation errors 1`] = `
+<SAMModal
+  contentLabel="Foo Title Modal"
+  isOpen={true}
+  modalClassModifier="modal--class-form"
+>
+  <div
+    className="class-form class-form--orange"
+  >
+    <h2
+      className="class-form__heading"
+    >
+      Foo Title
+    </h2>
+    <div
+      className="class-form__intro"
+    >
+      Enter information about this Class account on the Profile and Student Roster tabs. Items marked with an asterisk (*) are required. When you are done, click Save to finish.
+    </div>
+    <div
+      className="class-form__navbar-bg"
+    >
+      <NavBar
+        activeItemId="tab-profile"
+        className="class-form__navbar--error"
+        inset={true}
+        palette="orange"
+        theme="tabs"
+      >
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-profile"
+          key="tab-profile"
+          onClick={[Function]}
+        >
+          Profile*
+        </NavItem>
+        <NavItem
+          active={false}
+          className=""
+          component="button"
+          hasErrors={false}
+          id="tab-student-roster"
+          key="tab-student-roster"
+          onClick={[Function]}
+        >
+          Student Roster
+        </NavItem>
+      </NavBar>
+    </div>
+    <form>
+      <div
+        className="class-form__body class-form__body--tab-profile"
+      >
+        <main
+          className="class-form__body-main"
+        >
+          <div
+            className="class-form__error-message"
+          >
+            Please correct your entries as indicated.
+          </div>
+          <TabProfile
+            formData={Object {}}
+            hide={false}
+            metaData={Object {}}
+          />
+          <TabStudentRoster
+            change={[Function]}
+            formData={Object {}}
+            hide={true}
+            metaData={Object {}}
+          />
+        </main>
+        <aside
+          className="class-form__body-aside"
+        >
+          <ul
+            className="class-form__error-list"
+          >
+            <li
+              className="class-form__error-list-item"
+              key="error-size"
+            >
+              1
+            </li>
+            <li
+              className="class-form__error-list-item"
+              key="error-_root"
+            />
+            <li
+              className="class-form__error-list-item"
+              key="error-__ownerID"
+            />
+            <li
+              className="class-form__error-list-item"
+              key="error-__hash"
+            />
+            <li
+              className="class-form__error-list-item"
+              key="error-__altered"
+            />
+          </ul>
+          <div>
+            <SAMButton
+              buttonType="button"
+              isPrimaryButton={false}
+              onClickHandler={[Function]}
+            >
+              Cancel
+            </SAMButton>
+            <SAMButton
+              buttonType="submit"
+              isPrimaryButton={true}
+            >
+              Save
+            </SAMButton>
+          </div>
+        </aside>
+      </div>
+    </form>
+  </div>
+</SAMModal>
+`;

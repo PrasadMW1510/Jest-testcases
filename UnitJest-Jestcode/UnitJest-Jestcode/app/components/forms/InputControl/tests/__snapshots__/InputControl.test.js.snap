@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputControl /> Should render correctly when a submission fails with errors 1`] = `
+<FormControl
+  className=""
+>
+  <input
+    className="form-control__input"
+    type="text"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with a custom class 1`] = `
+<FormControl
+  className="my-custom-class"
+>
+  <input
+    className="form-control__input"
+    type="text"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with a custom props 1`] = `
+<FormControl
+  className=""
+>
+  <input
+    className="form-control__input"
+    style={
+      Object {
+        "foo": "custom-props-passed-to-input-dom-element",
+      }
+    }
+    type="text"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with a custom type 1`] = `
+<FormControl
+  className=""
+>
+  <input
+    className="form-control__input"
+    type="password"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with a label 1`] = `
+<FormControl
+  className=""
+>
+  <FormLabel
+    className=""
+    disabled={false}
+    error={false}
+    required={false}
+  >
+    Some Label
+    <span
+      className="form-control__label-required"
+    >
+      *
+    </span>
+  </FormLabel>
+  <input
+    className="form-control__input"
+    type="password"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with the name used as autocomplete 1`] = `
+<FormControl
+  className=""
+>
+  <input
+    autoComplete="foo"
+    className="form-control__input"
+    name="foo"
+    type="text"
+  />
+</FormControl>
+`;
+
+exports[`<InputControl /> Should render correctly with the required flag set 1`] = `
+<FormControl
+  className=""
+>
+  <input
+    className="form-control__input"
+    type="text"
+  />
+</FormControl>
+`;

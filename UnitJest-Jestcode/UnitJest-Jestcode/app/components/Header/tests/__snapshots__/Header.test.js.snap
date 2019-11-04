@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should render correctly 1`] = `
+<div
+  className="header"
+>
+  <span
+    className="header__username"
+  >
+    <Connect(HeaderUserTextContainer) />
+  </span>
+  <span
+    className="header__logo"
+  >
+    <HeaderImage />
+  </span>
+  <span
+    className="header__actions"
+  >
+    <withRouter(Connect(QuickLinksContainer)) />
+  </span>
+</div>
+`;

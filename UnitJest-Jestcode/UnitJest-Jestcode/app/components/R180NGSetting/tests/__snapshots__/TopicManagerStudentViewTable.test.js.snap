@@ -1,0 +1,2414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TopicManagerStudentViewTable /> should populate the SAMTable with the right columns 1`] = `
+<div
+  className="manage-topic-table__cell-enabled"
+>
+  <SettingsFourStateCheckbox
+    checkboxClass=""
+    checkboxName="settingsFourStateCheckbox"
+    currentCheckboxValue="undefined"
+    disabled={false}
+    handleChangeCheckboxValue={[Function]}
+    isCheckboxDisabled="-1"
+    statusMap={
+      Object {
+        "checkedDisabled": Array [],
+        "checkedEnabled": Array [
+          "1",
+        ],
+        "mixedDisabled": Array [],
+        "mixedEnabled": Array [
+          "-2",
+          "2",
+        ],
+        "uncheckedDisabled": Array [
+          "-1",
+        ],
+        "uncheckedEnabled": Array [
+          "0",
+        ],
+      }
+    }
+    textClass=""
+  />
+</div>
+`;
+
+exports[`<TopicManagerStudentViewTable /> to render correctly 1`] = `
+<TopicManagerStudentViewTable
+  currentTopicID="A02"
+  handleToggleEnabled={[Function]}
+  secondColumnHeader="Topic ID"
+  skipTopic="A02"
+  skippedLevel="2"
+  skippedTopicId="A02"
+  topicId="A02"
+  topicName="Predator"
+  topics={
+    Object {
+      "student_level": Array [
+        "1",
+      ],
+      "topic_cd": Array [
+        Object {
+          "cd_name": Array [
+            "A01",
+          ],
+          "current_segment": Array [
+            "1",
+          ],
+          "enable": Array [
+            "1",
+          ],
+          "globally_enabled": Array [
+            "1",
+          ],
+          "segment1_name": Array [
+            "segment1_name",
+          ],
+          "segment2_name": Array [
+            "segment2_name",
+          ],
+          "segment3_name": Array [
+            "segment3_name",
+          ],
+          "segment4_name": Array [
+            "segment4_name",
+          ],
+          "student_level": Array [
+            "2",
+          ],
+          "supplimental": Array [
+            "0",
+          ],
+          "topic_complete_levels": Array [
+            Object {
+              "topic_complete_level": Array [],
+            },
+          ],
+          "topic_name": Array [
+            "Can You Believe It?",
+          ],
+        },
+        Object {
+          "cd_name": Array [
+            "A02",
+          ],
+          "current_segment": Array [
+            "1",
+          ],
+          "enable": Array [
+            "1",
+          ],
+          "globally_enabled": Array [
+            "1",
+          ],
+          "segment1_name": Array [
+            "segment1_name",
+          ],
+          "segment2_name": Array [
+            "segment2_name",
+          ],
+          "segment3_name": Array [
+            "segment3_name",
+          ],
+          "segment4_name": Array [
+            "segment4_name",
+          ],
+          "student_level": Array [
+            "2",
+          ],
+          "supplimental": Array [
+            "0",
+          ],
+          "topic_name": Array [
+            "Predator",
+          ],
+        },
+      ],
+    }
+  }
+>
+  <SAMTable
+    checkedIds={Array []}
+    className="manage-topic-square-view-table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Enabled",
+          "accessor": "id",
+          "getHeaderProps": [Function],
+          "id": "topics",
+          "sortable": false,
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Topic ID",
+          "accessor": "cd_name",
+          "width": 100,
+        },
+        Object {
+          "Header": "Topic Name",
+          "accessor": "topic_name",
+          "id": "topic_name",
+          "width": 200,
+        },
+        Object {
+          "accessor": "completion_level_1",
+          "id": "completion_level_1",
+          "width": 50,
+        },
+        Object {
+          "Header": "Completion Level(s)",
+          "accessor": "completion_level_2",
+          "align": "center",
+          "getHeaderProps": [Function],
+          "id": "completion_level_2",
+          "width": 50,
+        },
+        Object {
+          "accessor": "completion_level_3",
+          "align": "center",
+          "id": "completion_level_3",
+          "width": 50,
+        },
+        Object {
+          "accessor": "completion_level_4",
+          "align": "center",
+          "id": "completion_level_4",
+          "width": 50,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "_id": "A01",
+          "cd_name": "A01",
+          "completion_level_1": "",
+          "completion_level_2": "",
+          "completion_level_3": "",
+          "completion_level_4": "",
+          "enabled": 1,
+          "globally_enabled": "1",
+          "id": "A01",
+          "supplimental": "0",
+          "topic_name": "Can You Believe It?",
+        },
+        Object {
+          "_id": "A02",
+          "cd_name": "A02",
+          "completion_level_1": "2(S)",
+          "completion_level_2": "",
+          "completion_level_3": "",
+          "completion_level_4": "",
+          "enabled": 1,
+          "globally_enabled": "1",
+          "id": "A02",
+          "supplimental": "0",
+          "topic_name": "Predator",
+        },
+      ]
+    }
+    getTrProps={[Function]}
+    pageSize={2}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+  >
+    <div
+      className="manage-topic-square-view-table"
+    >
+      <ReactTable
+        AggregatedComponent={[Function]}
+        ExpanderComponent={[Function]}
+        FilterComponent={[Function]}
+        LoadingComponent={[Function]}
+        NoDataComponent={[Function]}
+        PadRowComponent={[Function]}
+        PaginationComponent={[Function]}
+        PivotValueComponent={[Function]}
+        ResizerComponent={[Function]}
+        TableComponent={[Function]}
+        TbodyComponent={[Function]}
+        TdComponent={[Function]}
+        TfootComponent={[Function]}
+        ThComponent={[Function]}
+        TheadComponent={[Function]}
+        TrComponent={[Function]}
+        TrGroupComponent={[Function]}
+        aggregatedKey="_aggregated"
+        checkedIds={Array []}
+        className="manage-topic-square-view-table"
+        collapseOnDataChange={true}
+        collapseOnPageChange={true}
+        collapseOnSortingChange={true}
+        column={
+          Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "Cell": [Function],
+              "Header": "Enabled",
+              "accessor": "id",
+              "getHeaderProps": [Function],
+              "id": "topics",
+              "sortable": false,
+              "width": 100,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Topic ID",
+              "accessor": "cd_name",
+              "width": 100,
+            },
+            Object {
+              "Header": "Topic Name",
+              "accessor": "topic_name",
+              "id": "topic_name",
+              "width": 200,
+            },
+            Object {
+              "accessor": "completion_level_1",
+              "id": "completion_level_1",
+              "width": 50,
+            },
+            Object {
+              "Header": "Completion Level(s)",
+              "accessor": "completion_level_2",
+              "align": "center",
+              "getHeaderProps": [Function],
+              "id": "completion_level_2",
+              "width": 50,
+            },
+            Object {
+              "accessor": "completion_level_3",
+              "align": "center",
+              "id": "completion_level_3",
+              "width": 50,
+            },
+            Object {
+              "accessor": "completion_level_4",
+              "align": "center",
+              "id": "completion_level_4",
+              "width": 50,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "_id": "A01",
+              "cd_name": "A01",
+              "completion_level_1": "",
+              "completion_level_2": "",
+              "completion_level_3": "",
+              "completion_level_4": "",
+              "enabled": 1,
+              "globally_enabled": "1",
+              "id": "A01",
+              "supplimental": "0",
+              "topic_name": "Can You Believe It?",
+            },
+            Object {
+              "_id": "A02",
+              "cd_name": "A02",
+              "completion_level_1": "2(S)",
+              "completion_level_2": "",
+              "completion_level_3": "",
+              "completion_level_4": "",
+              "enabled": 1,
+              "globally_enabled": "1",
+              "id": "A02",
+              "supplimental": "0",
+              "topic_name": "Predator",
+            },
+          ]
+        }
+        defaultExpanded={Object {}}
+        defaultFilterMethod={[Function]}
+        defaultFiltered={Array []}
+        defaultPageSize={20}
+        defaultResized={Array []}
+        defaultSortDesc={false}
+        defaultSortMethod={[Function]}
+        defaultSorted={Array []}
+        expanderDefaults={
+          Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          }
+        }
+        filterable={false}
+        freezeWhenExpanded={false}
+        getLoadingProps={[Function]}
+        getNoDataProps={[Function]}
+        getPaginationProps={[Function]}
+        getProps={[Function]}
+        getResizerProps={[Function]}
+        getTableProps={[Function]}
+        getTbodyProps={[Function]}
+        getTdProps={[Function]}
+        getTfootProps={[Function]}
+        getTfootTdProps={[Function]}
+        getTfootTrProps={[Function]}
+        getTheadFilterProps={[Function]}
+        getTheadFilterThProps={[Function]}
+        getTheadFilterTrProps={[Function]}
+        getTheadGroupProps={[Function]}
+        getTheadGroupThProps={[Function]}
+        getTheadGroupTrProps={[Function]}
+        getTheadProps={[Function]}
+        getTheadThProps={[Function]}
+        getTheadTrProps={[Function]}
+        getTrGroupProps={[Function]}
+        getTrProps={[Function]}
+        groupedByPivotKey="_groupedByPivot"
+        indexKey="_index"
+        loading={false}
+        loadingText="Loading..."
+        multiSort={true}
+        nestingLevelKey="_nestingLevel"
+        nextText="Next"
+        noDataText="No rows found"
+        ofText="of"
+        onFetchData={[Function]}
+        originalKey="_original"
+        pageSize={2}
+        pageSizeOptions={
+          Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ]
+        }
+        pageText="Page"
+        pivotDefaults={Object {}}
+        pivotIDKey="_pivotID"
+        pivotValKey="_pivotVal"
+        previousText="Previous"
+        renderEmptyTable={[Function]}
+        resizable={false}
+        rowsText="rows"
+        selectAll={false}
+        showPageJump={true}
+        showPageSizeOptions={true}
+        showPagination={false}
+        showPaginationBottom={true}
+        showPaginationTop={false}
+        sortable={true}
+        style={Object {}}
+        subRowsKey="_subRows"
+      >
+        <div
+          className="ReactTable manage-topic-square-view-table"
+          style={Object {}}
+        >
+          <Table
+            className=""
+          >
+            <div
+              className="rt-table"
+            >
+              <Thead
+                className="-header"
+                style={
+                  Object {
+                    "minWidth": "600px",
+                  }
+                }
+              >
+                <div
+                  className="rt-thead -header"
+                  style={
+                    Object {
+                      "minWidth": "600px",
+                    }
+                  }
+                >
+                  <Tr>
+                    <div
+                      className="rt-tr"
+                    >
+                      <ThComponent
+                        className="manage-topic-table__header-enabled"
+                        key="0-topics"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "100px",
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th manage-topic-table__header-enabled"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Enabled
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="1-cd_name"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "100px",
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Topic ID
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="2-topic_name"
+                        style={
+                          Object {
+                            "flex": "200 0 auto",
+                            "maxWidth": "200px",
+                            "width": "200px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "200 0 auto",
+                              "maxWidth": "200px",
+                              "width": "200px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Topic Name
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="3-completion_level_1"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className="manage-topic-table__header-completion-level -cursor-pointer"
+                        key="4-completion_level_2"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th manage-topic-table__header-completion-level -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Completion Level(s)
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="5-completion_level_3"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="6-completion_level_4"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                    </div>
+                  </Tr>
+                </div>
+              </Thead>
+              <Tbody
+                className=""
+                style={
+                  Object {
+                    "minWidth": "600px",
+                  }
+                }
+              >
+                <div
+                  className="rt-tbody"
+                  style={
+                    Object {
+                      "minWidth": "600px",
+                    }
+                  }
+                >
+                  <TrGroup
+                    key="0"
+                  >
+                    <div
+                      className="rt-tr-group"
+                    >
+                      <Tr
+                        className="-odd"
+                      >
+                        <div
+                          className="rt-tr -odd"
+                        >
+                          <Td
+                            className=""
+                            key="0-topics"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__cell-enabled"
+                              >
+                                <SettingsFourStateCheckbox
+                                  checkboxClass=""
+                                  checkboxId="A01"
+                                  checkboxName="settingsFourStateCheckbox"
+                                  currentCheckboxValue="1"
+                                  disabled={false}
+                                  handleChangeCheckboxValue={[Function]}
+                                  isCheckboxDisabled="-1"
+                                  statusMap={
+                                    Object {
+                                      "checkedDisabled": Array [],
+                                      "checkedEnabled": Array [
+                                        "1",
+                                      ],
+                                      "mixedDisabled": Array [],
+                                      "mixedEnabled": Array [
+                                        "-2",
+                                        "2",
+                                      ],
+                                      "uncheckedDisabled": Array [
+                                        "-1",
+                                      ],
+                                      "uncheckedEnabled": Array [
+                                        "0",
+                                      ],
+                                    }
+                                  }
+                                  textClass=""
+                                >
+                                  <span>
+                                    <input
+                                      checked={1}
+                                      className=""
+                                      disabled={false}
+                                      id="A01"
+                                      name="settingsFourStateCheckbox"
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                    />
+                                    <span
+                                      className="settings-four-state-checkbox__text "
+                                    />
+                                  </span>
+                                </SettingsFourStateCheckbox>
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="1-cd_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__topic-cell"
+                              >
+                                A01
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="2-topic_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "200 0 auto",
+                                "maxWidth": "200px",
+                                "width": "200px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "200 0 auto",
+                                  "maxWidth": "200px",
+                                  "width": "200px",
+                                }
+                              }
+                            >
+                              Can You Believe It?
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="3-completion_level_1"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="4-completion_level_2"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="5-completion_level_3"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="6-completion_level_4"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                        </div>
+                      </Tr>
+                    </div>
+                  </TrGroup>
+                  <TrGroup
+                    key="1"
+                  >
+                    <div
+                      className="rt-tr-group"
+                    >
+                      <Tr
+                        className="-even"
+                        style={
+                          Object {
+                            "background": "#ffef9f",
+                            "color": "#000",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-tr -even"
+                          style={
+                            Object {
+                              "background": "#ffef9f",
+                              "color": "#000",
+                              "fontWeight": "bold",
+                            }
+                          }
+                        >
+                          <Td
+                            className=""
+                            key="0-topics"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__cell-enabled"
+                              >
+                                <SettingsFourStateCheckbox
+                                  checkboxClass=""
+                                  checkboxId="A02"
+                                  checkboxName="settingsFourStateCheckbox"
+                                  currentCheckboxValue="1"
+                                  disabled={false}
+                                  handleChangeCheckboxValue={[Function]}
+                                  isCheckboxDisabled="-1"
+                                  statusMap={
+                                    Object {
+                                      "checkedDisabled": Array [],
+                                      "checkedEnabled": Array [
+                                        "1",
+                                      ],
+                                      "mixedDisabled": Array [],
+                                      "mixedEnabled": Array [
+                                        "-2",
+                                        "2",
+                                      ],
+                                      "uncheckedDisabled": Array [
+                                        "-1",
+                                      ],
+                                      "uncheckedEnabled": Array [
+                                        "0",
+                                      ],
+                                    }
+                                  }
+                                  textClass=""
+                                >
+                                  <span>
+                                    <input
+                                      checked={1}
+                                      className=""
+                                      disabled={false}
+                                      id="A02"
+                                      name="settingsFourStateCheckbox"
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                    />
+                                    <span
+                                      className="settings-four-state-checkbox__text "
+                                    />
+                                  </span>
+                                </SettingsFourStateCheckbox>
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="1-cd_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__topic-cell"
+                              >
+                                A02
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="2-topic_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "200 0 auto",
+                                "maxWidth": "200px",
+                                "width": "200px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "200 0 auto",
+                                  "maxWidth": "200px",
+                                  "width": "200px",
+                                }
+                              }
+                            >
+                              Predator
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="3-completion_level_1"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            >
+                              2(S)
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="4-completion_level_2"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="5-completion_level_3"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="6-completion_level_4"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                        </div>
+                      </Tr>
+                    </div>
+                  </TrGroup>
+                </div>
+              </Tbody>
+            </div>
+          </Table>
+          <LoadingComponent
+            loading={false}
+            loadingText="Loading..."
+          >
+            <div
+              className="-loading"
+            >
+              <div
+                className="-loading-inner"
+              >
+                Loading...
+              </div>
+            </div>
+          </LoadingComponent>
+        </div>
+      </ReactTable>
+    </div>
+  </SAMTable>
+</TopicManagerStudentViewTable>
+`;
+
+exports[`<TopicManagerStudentViewTable /> verify handle save 1`] = `
+<TopicManagerStudentViewTable
+  currentTopicID="A02"
+  handleToggleEnabled={[Function]}
+  row={
+    Object {
+      "original": Object {
+        "enabled": "0",
+        "globally_enabled": "0",
+      },
+    }
+  }
+  secondColumnHeader="Topic ID"
+  skipTopic="A02"
+  skippedLevel="2"
+  skippedTopicId="A02"
+  topicId="A02"
+  topicName="Predator"
+  topics={
+    Object {
+      "student_level": Array [
+        "1",
+      ],
+      "topic_cd": Array [
+        Object {
+          "cd_name": Array [
+            "A01",
+          ],
+          "current_segment": Array [
+            "1",
+          ],
+          "enable": Array [
+            "1",
+          ],
+          "globally_enabled": Array [
+            "1",
+          ],
+          "segment1_name": Array [
+            "segment1_name",
+          ],
+          "segment2_name": Array [
+            "segment2_name",
+          ],
+          "segment3_name": Array [
+            "segment3_name",
+          ],
+          "segment4_name": Array [
+            "segment4_name",
+          ],
+          "student_level": Array [
+            "2",
+          ],
+          "supplimental": Array [
+            "0",
+          ],
+          "topic_complete_levels": Array [
+            Object {
+              "topic_complete_level": Array [],
+            },
+          ],
+          "topic_name": Array [
+            "Can You Believe It?",
+          ],
+        },
+        Object {
+          "cd_name": Array [
+            "A02",
+          ],
+          "current_segment": Array [
+            "1",
+          ],
+          "enable": Array [
+            "1",
+          ],
+          "globally_enabled": Array [
+            "1",
+          ],
+          "segment1_name": Array [
+            "segment1_name",
+          ],
+          "segment2_name": Array [
+            "segment2_name",
+          ],
+          "segment3_name": Array [
+            "segment3_name",
+          ],
+          "segment4_name": Array [
+            "segment4_name",
+          ],
+          "student_level": Array [
+            "2",
+          ],
+          "supplimental": Array [
+            "0",
+          ],
+          "topic_name": Array [
+            "Predator",
+          ],
+        },
+      ],
+    }
+  }
+>
+  <SAMTable
+    checkedIds={Array []}
+    className="manage-topic-square-view-table"
+    columns={
+      Array [
+        Object {
+          "Cell": [Function],
+          "Header": "Enabled",
+          "accessor": "id",
+          "getHeaderProps": [Function],
+          "id": "topics",
+          "sortable": false,
+          "width": 100,
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Topic ID",
+          "accessor": "cd_name",
+          "width": 100,
+        },
+        Object {
+          "Header": "Topic Name",
+          "accessor": "topic_name",
+          "id": "topic_name",
+          "width": 200,
+        },
+        Object {
+          "accessor": "completion_level_1",
+          "id": "completion_level_1",
+          "width": 50,
+        },
+        Object {
+          "Header": "Completion Level(s)",
+          "accessor": "completion_level_2",
+          "align": "center",
+          "getHeaderProps": [Function],
+          "id": "completion_level_2",
+          "width": 50,
+        },
+        Object {
+          "accessor": "completion_level_3",
+          "align": "center",
+          "id": "completion_level_3",
+          "width": 50,
+        },
+        Object {
+          "accessor": "completion_level_4",
+          "align": "center",
+          "id": "completion_level_4",
+          "width": 50,
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "_id": "A01",
+          "cd_name": "A01",
+          "completion_level_1": "",
+          "completion_level_2": "",
+          "completion_level_3": "",
+          "completion_level_4": "",
+          "enabled": 1,
+          "globally_enabled": "1",
+          "id": "A01",
+          "supplimental": "0",
+          "topic_name": "Can You Believe It?",
+        },
+        Object {
+          "_id": "A02",
+          "cd_name": "A02",
+          "completion_level_1": "2(S)",
+          "completion_level_2": "",
+          "completion_level_3": "",
+          "completion_level_4": "",
+          "enabled": 1,
+          "globally_enabled": "1",
+          "id": "A02",
+          "supplimental": "0",
+          "topic_name": "Predator",
+        },
+      ]
+    }
+    getTrProps={[Function]}
+    pageSize={2}
+    renderEmptyTable={[Function]}
+    selectAll={false}
+    sortable={true}
+  >
+    <div
+      className="manage-topic-square-view-table"
+    >
+      <ReactTable
+        AggregatedComponent={[Function]}
+        ExpanderComponent={[Function]}
+        FilterComponent={[Function]}
+        LoadingComponent={[Function]}
+        NoDataComponent={[Function]}
+        PadRowComponent={[Function]}
+        PaginationComponent={[Function]}
+        PivotValueComponent={[Function]}
+        ResizerComponent={[Function]}
+        TableComponent={[Function]}
+        TbodyComponent={[Function]}
+        TdComponent={[Function]}
+        TfootComponent={[Function]}
+        ThComponent={[Function]}
+        TheadComponent={[Function]}
+        TrComponent={[Function]}
+        TrGroupComponent={[Function]}
+        aggregatedKey="_aggregated"
+        checkedIds={Array []}
+        className="manage-topic-square-view-table"
+        collapseOnDataChange={true}
+        collapseOnPageChange={true}
+        collapseOnSortingChange={true}
+        column={
+          Object {
+            "Aggregated": undefined,
+            "Cell": undefined,
+            "Expander": undefined,
+            "Filter": undefined,
+            "Footer": undefined,
+            "Header": undefined,
+            "Pivot": undefined,
+            "PivotValue": undefined,
+            "aggregate": undefined,
+            "className": "",
+            "filterAll": false,
+            "filterMethod": undefined,
+            "filterable": undefined,
+            "footerClassName": "",
+            "footerStyle": Object {},
+            "getFooterProps": [Function],
+            "getHeaderProps": [Function],
+            "getProps": [Function],
+            "headerClassName": "",
+            "headerStyle": Object {},
+            "minWidth": 100,
+            "resizable": undefined,
+            "show": true,
+            "sortMethod": undefined,
+            "sortable": undefined,
+            "style": Object {},
+          }
+        }
+        columns={
+          Array [
+            Object {
+              "Cell": [Function],
+              "Header": "Enabled",
+              "accessor": "id",
+              "getHeaderProps": [Function],
+              "id": "topics",
+              "sortable": false,
+              "width": 100,
+            },
+            Object {
+              "Cell": [Function],
+              "Header": "Topic ID",
+              "accessor": "cd_name",
+              "width": 100,
+            },
+            Object {
+              "Header": "Topic Name",
+              "accessor": "topic_name",
+              "id": "topic_name",
+              "width": 200,
+            },
+            Object {
+              "accessor": "completion_level_1",
+              "id": "completion_level_1",
+              "width": 50,
+            },
+            Object {
+              "Header": "Completion Level(s)",
+              "accessor": "completion_level_2",
+              "align": "center",
+              "getHeaderProps": [Function],
+              "id": "completion_level_2",
+              "width": 50,
+            },
+            Object {
+              "accessor": "completion_level_3",
+              "align": "center",
+              "id": "completion_level_3",
+              "width": 50,
+            },
+            Object {
+              "accessor": "completion_level_4",
+              "align": "center",
+              "id": "completion_level_4",
+              "width": 50,
+            },
+          ]
+        }
+        data={
+          Array [
+            Object {
+              "_id": "A01",
+              "cd_name": "A01",
+              "completion_level_1": "",
+              "completion_level_2": "",
+              "completion_level_3": "",
+              "completion_level_4": "",
+              "enabled": 1,
+              "globally_enabled": "1",
+              "id": "A01",
+              "supplimental": "0",
+              "topic_name": "Can You Believe It?",
+            },
+            Object {
+              "_id": "A02",
+              "cd_name": "A02",
+              "completion_level_1": "2(S)",
+              "completion_level_2": "",
+              "completion_level_3": "",
+              "completion_level_4": "",
+              "enabled": 1,
+              "globally_enabled": "1",
+              "id": "A02",
+              "supplimental": "0",
+              "topic_name": "Predator",
+            },
+          ]
+        }
+        defaultExpanded={Object {}}
+        defaultFilterMethod={[Function]}
+        defaultFiltered={Array []}
+        defaultPageSize={20}
+        defaultResized={Array []}
+        defaultSortDesc={false}
+        defaultSortMethod={[Function]}
+        defaultSorted={Array []}
+        expanderDefaults={
+          Object {
+            "filterable": false,
+            "resizable": false,
+            "sortable": false,
+            "width": 35,
+          }
+        }
+        filterable={false}
+        freezeWhenExpanded={false}
+        getLoadingProps={[Function]}
+        getNoDataProps={[Function]}
+        getPaginationProps={[Function]}
+        getProps={[Function]}
+        getResizerProps={[Function]}
+        getTableProps={[Function]}
+        getTbodyProps={[Function]}
+        getTdProps={[Function]}
+        getTfootProps={[Function]}
+        getTfootTdProps={[Function]}
+        getTfootTrProps={[Function]}
+        getTheadFilterProps={[Function]}
+        getTheadFilterThProps={[Function]}
+        getTheadFilterTrProps={[Function]}
+        getTheadGroupProps={[Function]}
+        getTheadGroupThProps={[Function]}
+        getTheadGroupTrProps={[Function]}
+        getTheadProps={[Function]}
+        getTheadThProps={[Function]}
+        getTheadTrProps={[Function]}
+        getTrGroupProps={[Function]}
+        getTrProps={[Function]}
+        groupedByPivotKey="_groupedByPivot"
+        indexKey="_index"
+        loading={false}
+        loadingText="Loading..."
+        multiSort={true}
+        nestingLevelKey="_nestingLevel"
+        nextText="Next"
+        noDataText="No rows found"
+        ofText="of"
+        onFetchData={[Function]}
+        originalKey="_original"
+        pageSize={2}
+        pageSizeOptions={
+          Array [
+            5,
+            10,
+            20,
+            25,
+            50,
+            100,
+          ]
+        }
+        pageText="Page"
+        pivotDefaults={Object {}}
+        pivotIDKey="_pivotID"
+        pivotValKey="_pivotVal"
+        previousText="Previous"
+        renderEmptyTable={[Function]}
+        resizable={false}
+        rowsText="rows"
+        selectAll={false}
+        showPageJump={true}
+        showPageSizeOptions={true}
+        showPagination={false}
+        showPaginationBottom={true}
+        showPaginationTop={false}
+        sortable={true}
+        style={Object {}}
+        subRowsKey="_subRows"
+      >
+        <div
+          className="ReactTable manage-topic-square-view-table"
+          style={Object {}}
+        >
+          <Table
+            className=""
+          >
+            <div
+              className="rt-table"
+            >
+              <Thead
+                className="-header"
+                style={
+                  Object {
+                    "minWidth": "600px",
+                  }
+                }
+              >
+                <div
+                  className="rt-thead -header"
+                  style={
+                    Object {
+                      "minWidth": "600px",
+                    }
+                  }
+                >
+                  <Tr>
+                    <div
+                      className="rt-tr"
+                    >
+                      <ThComponent
+                        className="manage-topic-table__header-enabled"
+                        key="0-topics"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "100px",
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th manage-topic-table__header-enabled"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Enabled
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="1-cd_name"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": "100px",
+                            "width": "100px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": "100px",
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Topic ID
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="2-topic_name"
+                        style={
+                          Object {
+                            "flex": "200 0 auto",
+                            "maxWidth": "200px",
+                            "width": "200px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "200 0 auto",
+                              "maxWidth": "200px",
+                              "width": "200px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Topic Name
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="3-completion_level_1"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className="manage-topic-table__header-completion-level -cursor-pointer"
+                        key="4-completion_level_2"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th manage-topic-table__header-completion-level -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          >
+                            Completion Level(s)
+                          </div>
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="5-completion_level_3"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                      <ThComponent
+                        className=" -cursor-pointer"
+                        key="6-completion_level_4"
+                        style={
+                          Object {
+                            "flex": "50 0 auto",
+                            "maxWidth": "50px",
+                            "width": "50px",
+                          }
+                        }
+                        toggleSort={[Function]}
+                      >
+                        <div
+                          className="rt-th  -cursor-pointer"
+                          onClick={[Function]}
+                          role="heading"
+                          style={
+                            Object {
+                              "flex": "50 0 auto",
+                              "maxWidth": "50px",
+                              "width": "50px",
+                            }
+                          }
+                        >
+                          <div
+                            className=""
+                          />
+                        </div>
+                      </ThComponent>
+                    </div>
+                  </Tr>
+                </div>
+              </Thead>
+              <Tbody
+                className=""
+                style={
+                  Object {
+                    "minWidth": "600px",
+                  }
+                }
+              >
+                <div
+                  className="rt-tbody"
+                  style={
+                    Object {
+                      "minWidth": "600px",
+                    }
+                  }
+                >
+                  <TrGroup
+                    key="0"
+                  >
+                    <div
+                      className="rt-tr-group"
+                    >
+                      <Tr
+                        className="-odd"
+                      >
+                        <div
+                          className="rt-tr -odd"
+                        >
+                          <Td
+                            className=""
+                            key="0-topics"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__cell-enabled"
+                              >
+                                <SettingsFourStateCheckbox
+                                  checkboxClass=""
+                                  checkboxId="A01"
+                                  checkboxName="settingsFourStateCheckbox"
+                                  currentCheckboxValue="1"
+                                  disabled={false}
+                                  handleChangeCheckboxValue={[Function]}
+                                  isCheckboxDisabled="-1"
+                                  statusMap={
+                                    Object {
+                                      "checkedDisabled": Array [],
+                                      "checkedEnabled": Array [
+                                        "1",
+                                      ],
+                                      "mixedDisabled": Array [],
+                                      "mixedEnabled": Array [
+                                        "-2",
+                                        "2",
+                                      ],
+                                      "uncheckedDisabled": Array [
+                                        "-1",
+                                      ],
+                                      "uncheckedEnabled": Array [
+                                        "0",
+                                      ],
+                                    }
+                                  }
+                                  textClass=""
+                                >
+                                  <span>
+                                    <input
+                                      checked={1}
+                                      className=""
+                                      disabled={false}
+                                      id="A01"
+                                      name="settingsFourStateCheckbox"
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                    />
+                                    <span
+                                      className="settings-four-state-checkbox__text "
+                                    />
+                                  </span>
+                                </SettingsFourStateCheckbox>
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="1-cd_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__topic-cell"
+                              >
+                                A01
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="2-topic_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "200 0 auto",
+                                "maxWidth": "200px",
+                                "width": "200px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "200 0 auto",
+                                  "maxWidth": "200px",
+                                  "width": "200px",
+                                }
+                              }
+                            >
+                              Can You Believe It?
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="3-completion_level_1"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="4-completion_level_2"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="5-completion_level_3"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="6-completion_level_4"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                        </div>
+                      </Tr>
+                    </div>
+                  </TrGroup>
+                  <TrGroup
+                    key="1"
+                  >
+                    <div
+                      className="rt-tr-group"
+                    >
+                      <Tr
+                        className="-even"
+                        style={
+                          Object {
+                            "background": "#ffef9f",
+                            "color": "#000",
+                            "fontWeight": "bold",
+                          }
+                        }
+                      >
+                        <div
+                          className="rt-tr -even"
+                          style={
+                            Object {
+                              "background": "#ffef9f",
+                              "color": "#000",
+                              "fontWeight": "bold",
+                            }
+                          }
+                        >
+                          <Td
+                            className=""
+                            key="0-topics"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__cell-enabled"
+                              >
+                                <SettingsFourStateCheckbox
+                                  checkboxClass=""
+                                  checkboxId="A02"
+                                  checkboxName="settingsFourStateCheckbox"
+                                  currentCheckboxValue="1"
+                                  disabled={false}
+                                  handleChangeCheckboxValue={[Function]}
+                                  isCheckboxDisabled="-1"
+                                  statusMap={
+                                    Object {
+                                      "checkedDisabled": Array [],
+                                      "checkedEnabled": Array [
+                                        "1",
+                                      ],
+                                      "mixedDisabled": Array [],
+                                      "mixedEnabled": Array [
+                                        "-2",
+                                        "2",
+                                      ],
+                                      "uncheckedDisabled": Array [
+                                        "-1",
+                                      ],
+                                      "uncheckedEnabled": Array [
+                                        "0",
+                                      ],
+                                    }
+                                  }
+                                  textClass=""
+                                >
+                                  <span>
+                                    <input
+                                      checked={1}
+                                      className=""
+                                      disabled={false}
+                                      id="A02"
+                                      name="settingsFourStateCheckbox"
+                                      onChange={[Function]}
+                                      type="checkbox"
+                                    />
+                                    <span
+                                      className="settings-four-state-checkbox__text "
+                                    />
+                                  </span>
+                                </SettingsFourStateCheckbox>
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="1-cd_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": "100px",
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "100 0 auto",
+                                  "maxWidth": "100px",
+                                  "width": "100px",
+                                }
+                              }
+                            >
+                              <div
+                                className="manage-topic-table__topic-cell"
+                              >
+                                A02
+                              </div>
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="2-topic_name"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "200 0 auto",
+                                "maxWidth": "200px",
+                                "width": "200px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "200 0 auto",
+                                  "maxWidth": "200px",
+                                  "width": "200px",
+                                }
+                              }
+                            >
+                              Predator
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="3-completion_level_1"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            >
+                              2(S)
+                            </div>
+                          </Td>
+                          <Td
+                            className=""
+                            key="4-completion_level_2"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="5-completion_level_3"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                          <Td
+                            className=""
+                            key="6-completion_level_4"
+                            onClick={[Function]}
+                            style={
+                              Object {
+                                "flex": "50 0 auto",
+                                "maxWidth": "50px",
+                                "width": "50px",
+                              }
+                            }
+                          >
+                            <div
+                              className="rt-td"
+                              onClick={[Function]}
+                              style={
+                                Object {
+                                  "flex": "50 0 auto",
+                                  "maxWidth": "50px",
+                                  "width": "50px",
+                                }
+                              }
+                            />
+                          </Td>
+                        </div>
+                      </Tr>
+                    </div>
+                  </TrGroup>
+                </div>
+              </Tbody>
+            </div>
+          </Table>
+          <LoadingComponent
+            loading={false}
+            loadingText="Loading..."
+          >
+            <div
+              className="-loading"
+            >
+              <div
+                className="-loading-inner"
+              >
+                Loading...
+              </div>
+            </div>
+          </LoadingComponent>
+        </div>
+      </ReactTable>
+    </div>
+  </SAMTable>
+</TopicManagerStudentViewTable>
+`;

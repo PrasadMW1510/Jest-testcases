@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginMainBody /> Expect to render children 1`] = `
+<div
+  className="login-main-body"
+>
+   hello 
+</div>
+`;
+
+exports[`<LoginMainBody /> Expect to render itself 1`] = `
+<div
+  className="login-main-body"
+/>
+`;

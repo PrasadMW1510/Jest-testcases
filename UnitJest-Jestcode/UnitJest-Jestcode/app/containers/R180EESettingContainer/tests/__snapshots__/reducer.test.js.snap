@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r180EESettingContainerReducer returns the initial state 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle classSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle gradeSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle gradeSelectionSuccess action 2`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle groupSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EEGetInstallStagesSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: "mockInstalledStages",
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EEGetSettingsSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: "mockSettings",
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EEGetTopicsSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: "mockTopics",
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EESetSelectedStage action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "mockSelectedStage",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EESettingsContainerRequest action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EESettingsContainerSuccess action 1`] = `
+Immutable.Map {
+  loading: false,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EESettingsSave action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle r180EETopicSave action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle studentSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;
+
+exports[`r180EESettingContainerReducer should handle teacherSelectionSuccess action 1`] = `
+Immutable.Map {
+  loading: true,
+  settings: Immutable.Map {
+  },
+  topicManager: Immutable.Map {
+    installedStages: Immutable.List [
+    ],
+    selectedStage: "",
+    topics: Immutable.List [
+    ],
+  },
+}
+`;

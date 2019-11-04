@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingController /> loadingOpen is false Expect to render correctly 1`] = `""`;
+
+exports[`<LoadingController /> loadingOpen is true Expect to render correctly 1`] = `
+<LoadingModal
+  isOpen={true}
+/>
+`;

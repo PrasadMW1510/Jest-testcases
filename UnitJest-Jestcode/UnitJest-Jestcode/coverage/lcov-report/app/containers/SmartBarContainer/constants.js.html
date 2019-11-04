@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/containers/SmartBarContainer/constants.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\..\..\prettify.css" />
+    <link rel="stylesheet" href="..\..\..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\..\..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">app/containers/SmartBarContainer</a> constants.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/46</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/46</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77</td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*<span class="cstat-no" title="statement not covered" ></span>
+ *
+ * SmartBarContainer constants
+ *
+ */
+&nbsp;
+// SmartBar related Action constants
+export const SCHOOL_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'school_selection';</span>
+export const SCHOOL_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'school_selection_success';</span>
+export const SCHOOL_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'school_selection_failure';</span>
+&nbsp;
+export const SCHOOL_REDIR<span class="cstat-no" title="statement not covered" >ECTION = 'school_redirection';</span>
+export const SCHOOL_REDIRECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'school_redirection_success';</span>
+export const SCHOOL_REDIRECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'school_redirection_failure';</span>
+&nbsp;
+export const CLASS_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'class_selection';</span>
+export const CLASS_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'class_selection_success';</span>
+export const CLASS_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'class_selection_failure';</span>
+&nbsp;
+export const CLASS_REDIR<span class="cstat-no" title="statement not covered" >ECTION = 'class_redirection';</span>
+export const CLASS_REDIRECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'class_redirection_success';</span>
+export const CLASS_REDIRECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'class_redirection_failure';</span>
+&nbsp;
+export const GROUP_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'group_selection';</span>
+export const GROUP_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'group_selection_success';</span>
+export const GROUP_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'group_selection_failure';</span>
+&nbsp;
+export const STUDENT_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'student_selection';</span>
+export const STUDENT_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'student_selection_success';</span>
+export const STUDENT_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'student_selection_failure';</span>
+&nbsp;
+export const GRADE_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'grade_selection';</span>
+export const GRADE_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'grade_selection_success';</span>
+export const GRADE_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'grade_selection_failure';</span>
+&nbsp;
+export const TEACHER_REDIR<span class="cstat-no" title="statement not covered" >ECTION = 'teacher_redirection';</span>
+export const TEACHER_REDIRECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'teacher_redirection_success';</span>
+export const TEACHER_REDIRECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'teacher_redirection_failure';</span>
+&nbsp;
+export const CLASS_REDIRECTION_IN<span class="cstat-no" title="statement not covered" >_GROUP = 'class_redirection_in_group';</span>
+export const CLASS_REDIRECTION_IN_GROUP_S<span class="cstat-no" title="statement not covered" >UCCESS = 'class_redirection_in_group_success';</span>
+export const CLASS_REDIRECTION_IN_GROUP_F<span class="cstat-no" title="statement not covered" >AILURE = 'class_redirection_in_group_failure';</span>
+&nbsp;
+export const GRADE_REDIR<span class="cstat-no" title="statement not covered" >ECTION = 'grade_redirection';</span>
+export const GRADE_REDIRECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'grade_redirection_success';</span>
+export const GRADE_REDIRECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'grade_redirection_failure';</span>
+&nbsp;
+export const TEACHER_SEL<span class="cstat-no" title="statement not covered" >ECTION = 'teacher_selection';</span>
+export const TEACHER_SELECTION_S<span class="cstat-no" title="statement not covered" >UCCESS = 'teacher_selection_success';</span>
+export const TEACHER_SELECTION_F<span class="cstat-no" title="statement not covered" >AILURE = 'teacher_selection_failure';</span>
+&nbsp;
+export const GROUP_REDIR<span class="cstat-no" title="statement not covered" >ECTION = 'group_redirection';</span>
+&nbsp;
+export const RESET_SELE<span class="cstat-no" title="statement not covered" >CTIONS = 'reset_selections';</span>
+export const REDIRECTION_COMM<span class="cstat-no" title="statement not covered" >ON_SGT = 'redirection_common_SGT';</span>
+&nbsp;
+export const RESET_SMARTBAR_CON<span class="cstat-no" title="statement not covered" >STANTS = 'reset_smartbar_constants';</span>
+/**
+ * Constants for profile selected value
+ * @type {string}
+ */
+export const PROFILE_SELECTED_<span class="cstat-no" title="statement not covered" >SCHOOL = 'profile_selected_school';</span>
+&nbsp;
+export const PROFILE_SELECTED<span class="cstat-no" title="statement not covered" >_GRADE = 'profile_selected_grade';</span>
+&nbsp;
+export const PROFILE_SELECTED_T<span class="cstat-no" title="statement not covered" >EACHER = 'profile_selected_teacher';</span>
+&nbsp;
+export const PROFILE_SELECTED<span class="cstat-no" title="statement not covered" >_CLASS = 'profile_selected_class';</span>
+&nbsp;
+export const PROFILE_SELECTED<span class="cstat-no" title="statement not covered" >_GROUP = 'profile_selected_group';</span>
+&nbsp;
+export const PROFILE_SELECTED_S<span class="cstat-no" title="statement not covered" >TUDENT = 'profile_selected_student';</span>
+&nbsp;
+export const PROFILE_SELECTED<span class="cstat-no" title="statement not covered" >_RESET = 'profile_selected_reset';</span>
+&nbsp;
+export const SMARTBAR_SELECTED_UPDAT<span class="cstat-no" title="statement not covered" >E_DATA = 'smartbar_selected_update_data';</span>
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Jul 21 2018 17:06:47 GMT+0530 (India Standard Time)
+</div>
+</div>
+<script src="..\..\..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\..\..\sorter.js"></script>
+</body>
+</html>

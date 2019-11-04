@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuickLinksContainer /> user type is admin Expect to render correctly 1`] = `
+<QuickLinks
+  onHelpClick={[Function]}
+  onHomeClick={[Function]}
+  onLogoutClick={[Function]}
+  onProfileClick={[Function]}
+  onSearchClick={[Function]}
+/>
+`;
+
+exports[`<QuickLinksContainer /> user type is not valid user type Expect to render correctly 1`] = `
+<QuickLinks
+  onHelpClick={[Function]}
+  onHomeClick={[Function]}
+  onLogoutClick={[Function]}
+  onProfileClick={[Function]}
+  onSearchClick={[Function]}
+/>
+`;
+
+exports[`<QuickLinksContainer /> user type is teacher Expect to render correctly 1`] = `
+<QuickLinks
+  onHelpClick={[Function]}
+  onHomeClick={[Function]}
+  onLogoutClick={[Function]}
+  onProfileClick={[Function]}
+  onSearchClick={[Function]}
+/>
+`;
+
+exports[`<QuickLinksContainer /> user type is tech Expect to render correctly 1`] = `
+<QuickLinks
+  onHelpClick={[Function]}
+  onHomeClick={[Function]}
+  onLogoutClick={[Function]}
+  onProfileClick={[Function]}
+  onSearchClick={[Function]}
+/>
+`;

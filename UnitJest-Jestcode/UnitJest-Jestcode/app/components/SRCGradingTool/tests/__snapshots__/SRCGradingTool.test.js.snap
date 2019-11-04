@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SRCGradingTool /> Expect to handle tab click 1`] = `
+<div>
+  <div
+    className="src-grading-tools-description"
+  >
+    <span>
+      Use the options below to enter offline quiz results and to redeem points.
+    </span>
+  </div>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "quiz_score_recording_tool",
+          "label": "Quiz Score Recording Tool",
+          "renderFunction": [Function],
+        },
+        Object {
+          "id": "points_recording_tool",
+          "label": "Points Recording Tool",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+  ;
+</div>
+`;
+
+exports[`<SRCGradingTool /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="src-grading-tools-description"
+  >
+    <span>
+      Use the options below to enter offline quiz results and to redeem points.
+    </span>
+  </div>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "quiz_score_recording_tool",
+          "label": "Quiz Score Recording Tool",
+          "renderFunction": [Function],
+        },
+        Object {
+          "id": "points_recording_tool",
+          "label": "Points Recording Tool",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+  ;
+</div>
+`;

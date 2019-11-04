@@ -1,0 +1,249 @@
+.modal--custom-list-form-warning {
+  width: 252px;
+  height: 116px;
+  padding: 0;
+  margin: 0;
+}
+
+.modal--custom-list-nohtmlexport-warning {
+  width: 302px;
+  height: 204px;
+  padding: 0;
+  margin: 25px 27px;
+}
+
+.custom-list-form-warning {
+  align-items: center;
+}
+
+.nohtmlexport-warning-title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 11px;
+}
+
+.custom-list-search-results__table {
+  height: 275px;
+  margin: 0 0 0.5rem;
+
+  .rt-thead.-header {
+    border-bottom: 1px solid #000;
+    color: #fff;
+    font-size: 12px;
+    max-height: 24px;
+  }
+
+  .rt-tbody {
+    background: #fdf1d3;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .rt-tr-group {
+    padding: 3px 0;
+    overflow: hidden;
+  }
+
+  .rt-thead .rt-th {
+    box-shadow: inset 1px 1px 0 #fff !important;
+    padding: 3px !important;
+    background: #f25a35;
+  }
+
+  .rt-thead .rt-th:nth-child(1) {
+    background: #e83408;
+  }
+
+  .rt-tr {
+    width: 100%;
+  }
+}
+
+.search-results-reusable-table__no-data {
+  text-align: center;
+  margin: 0;
+  height: 174px;
+}
+
+.search-results-table__result-td-cell {
+  a {
+    float: left;
+  }
+
+  .search-results-table__result-col-button {
+    float: right;
+  }
+}
+
+.collection-search__wrapper,
+.collection-result {
+  margin: 0 0 0.5rem;
+  overflow: hidden;
+
+  .collection-search-block {
+    float: left;
+    position: absolute;
+    padding: 0 0 0 0.5rem;
+    margin: 0;
+  }
+
+  .collection-search-items-count {
+    float: right;
+  }
+}
+
+.collection-search-items-count {
+  font-weight: normal;
+}
+
+.collection-search-block {
+  p {
+    margin: 0 0 5px;
+  }
+}
+
+.collection-result {
+  margin: 0;
+  overflow: visible;
+}
+
+.search-results__wrapper {
+  clear: both;
+}
+
+.search-items-count-install-quiz {
+  border-left: 1px solid #000;
+  float: right;
+  font-size: 12px;
+  padding: 0 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.custom-tab-heading1 {
+  background-color: #f96044;
+  padding: 5px;
+}
+
+.custom-tab-heading2 {
+  background-color: #f96044;
+  padding: 5px;
+  padding: 0 65px 0 0;
+}
+
+.custom-list-delete-button {
+  display: inline-flex;
+  margin: 12px 0 0 10px;
+}
+
+.custom-list-yes-button {
+  margin: 0 18px 0 12px;
+}
+
+.custom-list-modal__button {
+  cursor: pointer;
+}
+
+.custom-list-delete-quiz-content {
+  font-size: 11px;
+  margin: 20px 0 0;
+  font-family: inherit;
+  padding: 0 30px;
+}
+
+.custom-clear {
+  float: right;
+  cursor: pointer;
+  color: rgba(0, 0, 255, 0.911);
+  height: 20px;
+  margin: 0;
+  font-size: 11px;
+}
+
+.custom-clear-link {
+  text-decoration: underline;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.custom-table-remove-button {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgba(0, 0, 255, 0.911);
+  outline: none;
+  margin: 0 0 0 20px;
+}
+
+.custom-list-yes-button .btn,
+.custom-list-yes-button .btn--secondary,
+.custom-list-yes-button .btn--primary {
+  width: 90px;
+  height: 26px;
+  min-width: 92px;
+}
+
+.custom-list-delete-button .btn,
+.custom-list-delete-button .btn--secondary,
+.custom-list-delete-button .btn--primary {
+  width: 56px;
+  height: 25px;
+  min-width: 92px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.custom-list-no-data-button .btn,
+.custom-list-no-data-button .btn--primary {
+  width: 56px;
+  height: 25px;
+  min-width: 56px;
+  background-color: #f96044;
+  margin: 43px 0 10px 125px;
+  cursor: pointer;
+}
+
+.custom-list-delete-button .btn:hover {
+  border: 1px solid #000;
+}
+
+.custom-list-no-data-button .btn:hover {
+  border: 1px solid #000;
+}
+
+.custom-list-btn--primary:hover {
+  border: 1px solid #000;
+}
+
+.custom-list-btn--secondary:hover {
+  border: 1px solid #000;
+}
+
+.advance-search-custom-list__wrapper {
+  padding-top: 0;
+
+  .rt-thead .rt-th.-sort-desc {
+    background: #e83408;
+  }
+
+  .rt-thead .rt-th.-sort-asc {
+    background: #e83408;
+  }
+
+  .advance-search__wrapper .rt-table {
+    overflow-x: hidden;
+  }
+}
+
+.advance-search__wrapper .search-results-table__result-td-cell a {
+  margin: 0 0 0 5px;
+}
+
+.search-result-table__group {
+  text-align: center;
+}
+
+.search-tabs-content {
+  height: 440px !important;
+}

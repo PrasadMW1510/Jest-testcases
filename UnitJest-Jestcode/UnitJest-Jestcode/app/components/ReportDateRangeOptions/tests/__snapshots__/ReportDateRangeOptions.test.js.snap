@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportDateRangeOptions /> Expect to render correctly 1`] = `
+<div
+  className="time-period-box report-right-box"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Time Period
+  </div>
+  <div
+    className="report-settings-box report-settings-box-description"
+    id="ReportDateRanges"
+  >
+    <div
+      className="report-date-range-option"
+      key="CurrSchoolYear"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={true}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="CurrSchoolYear"
+        />
+        This School Year
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="CurrGradingPeriod"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="CurrGradingPeriod"
+        />
+        This Grading Period
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod1"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod1"
+        />
+        Grading Period 1
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod2"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod2"
+        />
+        Grading Period 2
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod3"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod3"
+        />
+        Grading Period 3
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod4"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod4"
+        />
+        Grading Period 4
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod5"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod5"
+        />
+        Grading Period 5
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="GradingPeriod6"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="GradingPeriod6"
+        />
+        Grading Period 6
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="Custom"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="Custom"
+        />
+        Custom
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ReportDateRangeOptions /> Expect to render correctly with district cohort type 1`] = `
+<div
+  className="time-period-box report-right-box"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Time Period
+  </div>
+  <div
+    className="report-settings-box report-settings-box-description"
+    id="ReportDateRanges"
+  >
+    <div
+      className="report-date-range-option"
+      key="CurrSchoolYear"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={true}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="CurrSchoolYear"
+        />
+        This School Year
+      </label>
+    </div>
+    <div
+      className="report-date-range-option"
+      key="Custom"
+    >
+      <label
+        className="report-date-range-option-value"
+        htmlFor="ReportDateRange"
+      >
+        <input
+          className="report-date-range-radio"
+          defaultChecked={false}
+          name="ReportDateRange"
+          onClick={[Function]}
+          type="radio"
+          value="Custom"
+        />
+        Custom
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ReportDateRangeOptions /> Expect to render correctly with no date range options 1`] = `
+<div
+  className="report-right-box"
+  id="TimePeriodBox"
+>
+  <div
+    className="report-settings-box-title"
+  >
+    Time Period
+  </div>
+</div>
+`;

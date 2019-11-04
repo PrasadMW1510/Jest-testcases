@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Custom /> Expect to render correctly 1`] = `
+<div>
+  <div
+    className="search-tabs-content advance-search__wrapper advance-search-custom-list__wrapper"
+  >
+    <div
+      className="custom-clear"
+    >
+      <button
+        className="custom-clear-link"
+        id="custom-list-clear-link"
+        onClick={[Function]}
+      >
+        Clear Custom List
+      </button>
+    </div>
+    <ResultsTable
+      removeListRow={[Function]}
+      searchDetailModal={[Function]}
+      searchResults={
+        Object {
+          "searchResultsIdsChecked": Array [
+            "111",
+          ],
+          "selectedItems": Array [
+            Object {
+              "id": "_11111",
+            },
+          ],
+        }
+      }
+    />
+    <div
+      className="search-items-count-install-quiz"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      Installed Quiz
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      Deactivated Quiz
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--custom-list-form-warning"
+  >
+    <div
+      className="custom-list-form-warning"
+    >
+      <div
+        className="custom-list-delete-quiz-content"
+      >
+        Are you sure you want to remove all titles from the Custom List?
+      </div>
+      <div
+        className="custom-list-delete-button"
+      >
+        <div
+          className="custom-list-yes-button"
+        >
+          <SAMButton
+            buttonClassModifier="custom-list-modal__button"
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Yes
+          </SAMButton>
+        </div>
+        <div
+          className="custom-list-no-button"
+        >
+          <SAMButton
+            buttonClassModifier="custom-list-modal__button"
+            buttonType="button"
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+            No
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="modal--custom-list-nohtmlexport-warning"
+  >
+    <div
+      className="nohtmlexport-warning-title"
+    >
+      <div
+        className="delete-quiz-content"
+      >
+        There are no selected titles to export to HTML.
+      </div>
+      <div
+        className="custom-list-no-data-button"
+      >
+        <div
+          className="custom-list-no-data-yes-button"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+          >
+            OK
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;
+
+exports[`<Custom /> Expect to render correctly componentDidMount when searchresultsData is undefined 1`] = `
+<div>
+  <div
+    className="search-tabs-content advance-search__wrapper advance-search-custom-list__wrapper"
+  >
+    <div
+      className="custom-clear"
+    >
+      <button
+        className="custom-clear-link"
+        id="custom-list-clear-link"
+        onClick={[Function]}
+      >
+        Clear Custom List
+      </button>
+    </div>
+    <ResultsTable
+      removeListRow={[Function]}
+      searchDetailModal={[Function]}
+    />
+    <div
+      className="search-items-count-install-quiz"
+    >
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+       
+      Installed Quiz
+       
+      <br />
+      <img
+        alt="SAM"
+        src="IMAGE_MOCK"
+        style={
+          Object {
+            "width": "18px",
+          }
+        }
+      />
+      Deactivated Quiz
+    </div>
+  </div>
+  <SAMModal
+    contentLabel="SAM Modal"
+    isOpen={false}
+    modalClassModifier="modal--custom-list-form-warning"
+  >
+    <div
+      className="custom-list-form-warning"
+    >
+      <div
+        className="custom-list-delete-quiz-content"
+      >
+        Are you sure you want to remove all titles from the Custom List?
+      </div>
+      <div
+        className="custom-list-delete-button"
+      >
+        <div
+          className="custom-list-yes-button"
+        >
+          <SAMButton
+            buttonClassModifier="custom-list-modal__button"
+            buttonType="button"
+            isPrimaryButton={true}
+            onClickHandler={[Function]}
+          >
+            Yes
+          </SAMButton>
+        </div>
+        <div
+          className="custom-list-no-button"
+        >
+          <SAMButton
+            buttonClassModifier="custom-list-modal__button"
+            buttonType="button"
+            isPrimaryButton={false}
+            onClickHandler={[Function]}
+          >
+            No
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+  <SAMModal
+    contentLabel="SAM Modal"
+    modalClassModifier="modal--custom-list-nohtmlexport-warning"
+  >
+    <div
+      className="nohtmlexport-warning-title"
+    >
+      <div
+        className="delete-quiz-content"
+      >
+        There are no selected titles to export to HTML.
+      </div>
+      <div
+        className="custom-list-no-data-button"
+      >
+        <div
+          className="custom-list-no-data-yes-button"
+        >
+          <SAMButton
+            buttonType="button"
+            isPrimaryButton={true}
+          >
+            OK
+          </SAMButton>
+        </div>
+      </div>
+    </div>
+  </SAMModal>
+</div>
+`;

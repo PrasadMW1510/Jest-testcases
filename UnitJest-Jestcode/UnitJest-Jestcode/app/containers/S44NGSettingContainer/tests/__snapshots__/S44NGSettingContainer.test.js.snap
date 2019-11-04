@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<S44NGSettingContainer /> Expect to render correctly 1`] = `
+<S44NGSettings
+  cohortObj={
+    Immutable.Map {
+      cohortType: "mockCohType",
+    }
+  }
+  enrollmentCount={10}
+  handleSave={[Function]}
+  isLoading={false}
+  settings={
+    Immutable.Map {
+      data: "mockSettingsData",
+    }
+  }
+/>
+`;

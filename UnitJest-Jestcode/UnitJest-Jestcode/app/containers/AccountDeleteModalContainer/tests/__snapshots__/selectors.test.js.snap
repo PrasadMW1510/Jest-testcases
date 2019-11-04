@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectAccountDeleteModalContainerDomain should select the account delete modal container domain 1`] = `
+Object {
+  "accountDeleteModalContainer": Object {
+    "error": "err",
+  },
+}
+`;

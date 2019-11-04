@@ -1,0 +1,178 @@
+// Styles that extend the styles provided by ReactTable/SAMTable
+// $thead-color: #311c00;
+$thead-color: #fff;
+$thead-background-color: #ffb200;
+$thead-clicked-color: #ffa200;
+$odd-table-row-background-color: rgba(0, 0, 0, 0);
+$even-table-row-background-color: rgba(0, 0, 0, 0);
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mia-data-table > .ReactTable {
+  height: 401px;
+  font-size: 12px;
+  border-style: none;
+  border: 1px #000 solid;
+  // these styles are added by javascript after a table header was clicked
+  .-sort-asc,
+  .-sort-desc {
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $thead-clicked-color;
+  }
+
+  .rt-thead {
+    background-color: $thead-background-color;
+    color: $thead-color;
+    font-weight: 300;
+    height: 24px;
+    max-height: 24px;
+    border-bottom: 1px solid #000;
+  }
+
+  .rt-th {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    text-overflow: ellipsis;
+    transition: 0.3s ease;
+    transition-property: width, min-width, padding, opacity;
+  }
+
+  .rt-tbody {
+    border-right: 1px solid #000;
+  }
+
+  .rt-tbody:last-child {
+    border: initial;
+  }
+
+  .rt-td {
+    flex: 1;
+    padding: 3px 10px;
+    text-overflow: ellipsis;
+    transition: 0.3s ease;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #ffdd69;
+    transition-property: width, min-width, padding, opacity;
+    white-space: nowrap;
+  }
+
+  .rt-td__enrollment {
+    text-align: center;
+  }
+
+  .rt-td__enrollment-checkmark {
+    bottom: 4px;
+    position: relative;
+    transform: scale(0.7);
+  }
+
+  .rt-td__not-applicable {
+    text-align: center;
+    width: 100%;
+  }
+
+  .rt-td:first-of-type {
+    background-color: #ffdd69;
+  }
+
+  .rt-td:last-child {
+    border: initial;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #ffdd69;
+  }
+
+  .rt-tr-group {
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+  }
+
+  .rt-tr.-odd {
+    background: $odd-table-row-background-color;
+  }
+
+  .rt-tr.-even {
+    background: $even-table-row-background-color;
+  }
+  /* stylelint-disable-next-line selector-max-compound-selectors */
+  .rt-tr:last-child .rt-td {
+    border-bottom: 0 solid #000;
+  }
+
+  /* stylelint-disable-next-line selector-max-compound-selectors */
+  .rt-tr-group:last-child .rt-td {
+    border-bottom: 1px solid #000;
+  }
+
+  // styles for custom elements within SAMTable
+  .mia-data-table__body {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: block;
+    height: 185px;
+    overflow-y: auto;
+    width: 300px;
+  }
+
+  .mia-data-table__no-data {
+    background-color: #fff;
+    display: inherit;
+    height: 188px;
+    background-color: #fff;
+  }
+
+  .mia-data-table__no-data-text {
+    color: #f00;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+}
+
+/*  The following 2 definitions refer to internal react-table elements,
+    so they don't strictly follow our BEM convention.
+ */
+.mia-data-table .-loading {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+
+  div {
+    left: 370px;
+    position: absolute;
+    top: 190px;
+  }
+}
+
+.mia-data-table .-loading.-active {
+  opacity: 1;
+  z-index: 2;
+  pointer-events: all;
+
+  div {
+    left: 370px;
+    position: absolute;
+    top: 190px;
+  }
+}
+
+.mia-data-table__link {
+  cursor: pointer;
+  color: #00f;
+  margin-bottom: 7px;
+  text-decoration: underline;
+}
+

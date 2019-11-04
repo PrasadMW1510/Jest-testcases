@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inboxModalContainerReducer reducer should handle DEFAULT_ACTION 1`] = `
+Immutable.Map {
+  error: false,
+  studentProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  evaluationProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  question: Immutable.List [
+  ],
+  studentfailure: "",
+}
+`;
+
+exports[`inboxModalContainerReducer reducer should handle GET_STUDENT_PROGRAM_DETAIL_REQUEST_SUCCESS 1`] = `
+Immutable.Map {
+  error: false,
+  studentProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.Map {
+      GetQuizCollectionNamesResp: Immutable.List [
+      ],
+    },
+    itemCount: "-1",
+    paginationData: Immutable.Map {
+    },
+  },
+  evaluationProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  question: Immutable.List [
+  ],
+  studentfailure: "",
+}
+`;
+
+exports[`inboxModalContainerReducer reducer should handle GET_STUDENT_SKILL_ASSESTMENT_QUESTION_SUCCESS 1`] = `
+Immutable.Map {
+  error: false,
+  studentProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  evaluationProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  question: undefined,
+  studentfailure: "",
+}
+`;
+
+exports[`inboxModalContainerReducer reducer should handle SAVE_STUDENT_EVALUATION_DATA_SUCCESS 1`] = `
+Immutable.Map {
+  error: false,
+  studentProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.List [
+    ],
+    itemCount: "containers/InboxModalContainer/uninitialized_item_count",
+    paginationData: Immutable.Map {
+    },
+  },
+  evaluationProgram: Immutable.Map {
+    loading: false,
+    results: Immutable.Map {
+      GetQuizCollectionNamesResp: Immutable.List [
+      ],
+    },
+    itemCount: "-1",
+    paginationData: Immutable.Map {
+    },
+  },
+  question: Immutable.List [
+  ],
+  studentfailure: "",
+}
+`;

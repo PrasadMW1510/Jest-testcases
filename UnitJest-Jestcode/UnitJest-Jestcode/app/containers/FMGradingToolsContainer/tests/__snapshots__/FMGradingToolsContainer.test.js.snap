@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FMGradingToolsContainer /> renderInvalidCohortTab() should match the snapshot 1`] = `
+<SettingsMessage
+  message1="To access the FASTT Math Worksheets, please select a teacher, class, group or student from the SmartBar on the left."
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should have columns that match the snapshot 1`] = `
+<span
+  className="fs-worksheet__table-header"
+>
+  Students
+</span>
+`;
+
+exports[`<FMGradingToolsContainer /> should have columns that match the snapshot 2`] = `
+<span>
+  Operation
+</span>
+`;
+
+exports[`<FMGradingToolsContainer /> should have columns that match the snapshot 3`] = `
+<span>
+  Fast Facts
+</span>
+`;
+
+exports[`<FMGradingToolsContainer /> should have columns that match the snapshot 4`] = `
+<span>
+  Focus Facts
+</span>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Class with enrollmentCount of 0 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Class with enrollmentCount of 0 2`] = `
+<SettingsMessage
+  message1="This class does not have any students enrolled in FASTT Math."
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Group with enrollmentCount of 0 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Group with enrollmentCount of 0 2`] = `
+<SettingsMessage
+  message1="This group does not have any students enrolled in FASTT Math."
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Student with enrollmentCount of 0 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Student with enrollmentCount of 0 2`] = `
+<SettingsMessage
+  message1="This student is not enrolled in FASTT Math."
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Teacher with enrollmentCount of 0 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for a cohort type of Teacher with enrollmentCount of 0 2`] = `
+<SettingsMessage
+  message1="This teacher does not have any students enrolled in FASTT Math."
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for an invalid cohort type of Grade 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should match the snapshot for cohort type of Student 1`] = `
+<FMGradingTools
+  FMGeneratePdfReport={[Function]}
+  columns={
+    Array [
+      Object {
+        "Header": [Function],
+        "accessor": "Students",
+        "id": "Students",
+        "width": 310,
+      },
+      Object {
+        "Header": [Function],
+        "accessor": "Operation",
+        "id": "Operation",
+        "width": 150,
+      },
+      Object {
+        "Header": [Function],
+        "accessor": "FastFacts",
+        "id": "FastFacts",
+        "width": 150,
+      },
+      Object {
+        "Header": [Function],
+        "accessor": "FocusFacts",
+        "id": "FocusFacts",
+        "width": 150,
+      },
+    ]
+  }
+  selectedCohort={
+    Object {
+      "cohortType": "Student",
+    }
+  }
+  studentOperations={Array []}
+/>
+`;
+
+exports[`<FMGradingToolsContainer /> should return null for a cohort type that does not match any valid cohort type 1`] = `
+<div
+  className="fs-grading-tools-invalid-cohort"
+>
+  <ProgramSettingsNavBar
+    isolateTab={false}
+    overrideClassName=""
+    tabs={
+      Array [
+        Object {
+          "id": "tab-settings",
+          "label": "Grading Tools",
+          "renderFunction": [Function],
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<FMGradingToolsContainer /> should return null for a cohort type that does not match any valid cohort type 2`] = `null`;

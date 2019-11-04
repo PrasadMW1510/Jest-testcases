@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MISettingContainer Actions Get MI program settings should return the correct constant for MIProgramSettingsRequest 1`] = `
+Object {
+  "type": "MI_program_settings_request",
+}
+`;
+
+exports[`MISettingContainer Actions Get MI program settings should return the correct constant for MIProgramSettingsRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "MI_program_settings_request_failure",
+}
+`;
+
+exports[`MISettingContainer Actions Get MI program settings should return the correct constant for MIProgramSettingsRequestSuccess with params 1`] = `
+Object {
+  "proficiencyBandData": Object {
+    "key1": "value1",
+  },
+  "programSetting": Object {
+    "key1": "value1",
+  },
+  "type": "MI_program_settings_request_success",
+}
+`;
+
+exports[`MISettingContainer Actions Get MI program settings should return the correct constant for MIProgramSettingsRequestSuccess without params 1`] = `
+Object {
+  "proficiencyBandData": Object {},
+  "programSetting": Object {},
+  "type": "MI_program_settings_request_success",
+}
+`;
+
+exports[`MISettingContainer Actions Save MI program settings should return the correct constant for MISaveRequest 1`] = `
+Object {
+  "activeTabId": Object {
+    "key1": "value1",
+    "key2": "value2",
+  },
+  "programSettingsToSave": undefined,
+  "type": "MI_save_request",
+}
+`;
+
+exports[`MISettingContainer Actions Save MI program settings should return the correct constant for MISaveRequestFailure 1`] = `
+Object {
+  "error": Object {
+    "type": "my error",
+  },
+  "type": "MI_save_request_failure",
+}
+`;
+
+exports[`MISettingContainer Actions Save MI program settings should return the correct constant for MISaveRequestSuccess 1`] = `
+Object {
+  "activeTabId": undefined,
+  "immFormProgramSettingsSaved": undefined,
+  "type": "MI_save_request_success",
+}
+`;
+
+exports[`MISettingContainer Actions should cancel correctly 1`] = `
+Object {
+  "type": "MI_program_settings_cancel",
+}
+`;
