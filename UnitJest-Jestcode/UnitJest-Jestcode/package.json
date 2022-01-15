@@ -351,7 +351,7 @@
     "redux-logger": "^3.0.6",
     "rimraf": "2.6.1",
     "sass-loader": "^6.0.6",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "style-loader": "0.18.1",
     "stylelint": "^8.4.0",
     "stylelint-config-sass-guidelines": "^4.1.0",
